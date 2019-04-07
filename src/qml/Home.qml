@@ -14,12 +14,12 @@ HomeForm {
         OpacityAnimator {
             target: logo
             from: 1.0
-            to: 0.5
+            to: 0.3
             duration: 4000
         }
         OpacityAnimator {
             target: logo
-            from: 0.5
+            from: 0.3
             to: 1.0
             duration: 4000
         }
