@@ -229,7 +229,6 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         &lt;a href=&quot;http://www.chat-pomoc.cz&quot;&gt;Chat Pražské linky důvěry&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.elinka.iporadna.cz&quot;&gt;Internetové poradny&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;Internetová poradna pre mladých (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt;
-        &lt;a href=&quot;https://www.reddit.com/r/depression/&quot;&gt;Reddit komunita o depresi (anglicky)&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         </translation>
     </message>
     <message id="contacts">
