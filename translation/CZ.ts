@@ -192,7 +192,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>
         &lt;h2&gt;Praha&lt;/h2&gt;
         &lt;p&gt;Praha (KC Bohnice)&lt;br /&gt;Ústavní 91&lt;br /&gt; 181 02 Praha 8 &lt;br /&gt;&lt;a href=&quot;https://www.bohnice.cz/krizova-pomoc/&quot;&gt;bohnice.cz/krizova-pomoc&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Praha (RIAPS)&lt;br /&gt;Chelčického 39&lt;br /&gt; 130 00 Praha 3&lt;br /&gt;&lt;a href=&quot;https://www.bohnice.cz/krizova-pomoc/&quot;&gt;bohnice.cz/krizova-pomoc&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Praha (RIAPS)&lt;br /&gt;Chelčického 39&lt;br /&gt; 130 00 Praha 3&lt;br /&gt;&lt;a href=&quot;https://www.csspraha.cz/24829-krizove-centrum-riaps&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Dětské krizové centrum&lt;br /&gt;Vzápolí 1250/21&lt;br /&gt; Praha 4 &lt;br /&gt;&lt;a href=&quot;http://www.ditekrize.cz&quot;&gt;ditekrize.cz&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Acorus - krizová pomoc&lt;br /&gt; Dělnická 213/12&lt;br /&gt; 170 00 Praha 7&lt;br /&gt;&lt;a href=&quot;http://www.acorus.cz&quot;&gt;acorus.cz&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Aqua vitae&lt;br /&gt;Americká 21&lt;br /&gt; 120 00 Praha &lt;br /&gt;&lt;a href=&quot;http://www.linkapomoci.cz&quot;&gt;linkapomoci.cz&lt;/a&gt;&lt;/p&gt;

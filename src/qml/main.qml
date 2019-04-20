@@ -97,7 +97,10 @@ ApplicationWindow {
                 width: parent.width
                 onClicked: {
                     drawer.close()
-                    Qt.openUrlExternally("https://play.google.com/store/apps/details?id=org.dontpanic")
+                    if (Qt.platform.os == "ios")
+                        Qt.openUrlExternally("itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=1459513911&onlyLatestVersion=true&pageNumber=0&sortOrdering=1&type=Purple+Software")
+                    else
+                        Qt.openUrlExternally("https://play.google.com/store/apps/details?id=org.dontpanic")
                 }
             }
 
