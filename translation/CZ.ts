@@ -214,6 +214,8 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         &lt;p&gt;Karlovy Vary (Res vitae)&lt;br /&gt;Blahoslavova 659/18&lt;br /&gt; 360 09 Karlovy Vary &lt;br /&gt;&lt;a href=&quot;https://resvitae.cz/krizove-centrum&quot;&gt;resvitae.cz/krizove-centrum&lt;/a&gt;&lt;/p&gt;
         &lt;h2&gt;Moravskoslezský kraj&lt;/h2&gt;
         &lt;p&gt;Ostrava (KC Ostrava)&lt;br /&gt;Ruská 94/29&lt;br /&gt;703 00 Ostrava-Vítkovice&lt;br /&gt;&lt;a href=&quot;http://www.kriceos.cz/&quot;&gt;kriceos.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;h2&gt;Královéhradecký kraj&lt;/h2&gt;
+        &lt;p&gt;RIAPS Trutnov&lt;br /&gt;Procházkova 818&lt;br /&gt; 541 01 Trutnov&lt;br /&gt;&lt;a href=&quot;http://www.riaps.cz&quot;&gt;riaps.cz&lt;/a&gt;&lt;/p&gt;
         </translation>
     </message>
     <message id="chat">
