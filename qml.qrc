@@ -53,8 +53,6 @@
         <file>src/qml/MenuPage.qml</file>
         <file>src/qml/MenuTextArea.qml</file>
         <file>src/qml/MenuTextInput.qml</file>
-        <file>src/qml/Page1Form.ui.qml</file>
-        <file>src/qml/Page2Form.ui.qml</file>
         <file>src/qml/Panic.qml</file>
         <file>src/qml/PanicForm.ui.qml</file>
         <file>src/qml/PanicTips.qml</file>
@@ -76,5 +74,8 @@
         <file>src/qml/SwipeItems.qml</file>
         <file>src/qml/SwipePage.qml</file>
         <file>qtquickcontrols2.conf</file>
+        <file>src/qml/AboutApp.qml</file>
+        <file>src/qml/AboutAppForm.ui.qml</file>
+        <file>src/qml/MenuSlider.qml</file>
     </qresource>
 </RCC>

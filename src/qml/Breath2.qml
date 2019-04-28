@@ -1,10 +1,14 @@
 import QtQuick 2.4
 
 Breath2Form {
+    property int initNumberLength: 1000
     property int numberLength: 1000
     property int transitionLength: 150
 
+    breathSlider.onValueChanged: {numberLength = initNumberLength*(2.0-breathSlider.value); ani.restart(); breathIn.opacity=1.0;}
+
     ParallelAnimation{
+         id: ani;
          loops: Animation.Infinite
          running: true
          RotationAnimator {

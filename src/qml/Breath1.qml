@@ -1,9 +1,14 @@
 import QtQuick 2.4
 
 Breath1Form {
+    property int initBreathLength: 5000
     property int breathLength: 5000
     property int transitionLength: 150
+
+    breathSlider.onValueChanged: {breathLength = initBreathLength*(2.0-breathSlider.value); ani.restart(); breathIn.opacity=1.0;}
+
     SequentialAnimation {
+            id: ani
             running: true
             loops: Animation.Infinite
         ScaleAnimator {

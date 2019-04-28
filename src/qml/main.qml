@@ -112,6 +112,15 @@ ApplicationWindow {
                     drawer.close()
                 }
             }
+
+            ItemDelegate {
+                text: qsTrId("aboutApp")
+                width: parent.width
+                onClicked: {
+                    stackView.push("AboutApp.qml")
+                    drawer.close()
+                }
+            }
         }
     }
 

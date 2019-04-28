@@ -1,4 +1,5 @@
 import QtQuick 2.4
+import QtQuick.Controls 1.4
 
 MenuPage {
     id: breath2Page
@@ -11,6 +12,7 @@ MenuPage {
     property alias breathIn: breathIn
     property alias breathOut: breathOut
     property alias breathHold: breathHold
+    property alias breathSlider: breathSlider
     title: qsTrId("breath2")
 
     property int numberSize: 150
@@ -93,6 +95,20 @@ MenuPage {
         width: (parent.width < parent.height) ? parent.width - 100 : parent.height - 100
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
+    }
+
+    MenuSlider {
+        id: breathSlider
+        maximumValue: 1.3
+        minimumValue: 0.7
+        anchors.bottom: bar.top
+    }
+
+    DescriptionLabel{
+        text: qsTrId("breathe-slider")
+        anchors.bottom: breathSlider.top
+        width: parent.width
+        horizontalAlignment: Text.AlignHCenter
     }
 }
 
