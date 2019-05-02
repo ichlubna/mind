@@ -1,0 +1,6 @@
+- set Use Base Internationalization in project info
+- bundle identifier: org.dontpanicapp
+- Device orientation: Portrait
+- Requires fullscreen
+- Copy icons and strings and set icon pack
+- LaunchScreen
