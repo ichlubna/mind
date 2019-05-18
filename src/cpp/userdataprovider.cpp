@@ -3,7 +3,7 @@
 UserDataProvider::UserDataProvider(QObject *parent) : QObject(parent), settings("DontPanicDevs", "DontPanic")
 {
     if(!settings.contains("myReasons"))
-       resetInputs(true, true, true, true);
+       resetInputs(true, true, true, true, true);
 }
 
 void UserDataProvider::saveInput(QString id, QString value)
@@ -31,6 +31,11 @@ void UserDataProvider::saveIntInput(QString id, int value)
     settings.setValue(id, value);
 }
 
+void UserDataProvider::saveFloatInput(QString id, float value)
+{
+    settings.setValue(id, value);
+}
+
 QString UserDataProvider::loadInput(QString id)
 {
     return settings.value(id).toString();
@@ -46,6 +51,11 @@ bool UserDataProvider::loadBoolInput(QString id)
     return settings.value(id).toBool();
 }
 
+float UserDataProvider::loadFloatInput(QString id)
+{
+    return settings.value(id).toFloat();
+}
+
 QList<QString> UserDataProvider::loadArrayInput(QString id)
 {
     QList<QString> values;
@@ -58,7 +68,7 @@ QList<QString> UserDataProvider::loadArrayInput(QString id)
     return values;
 }
 
-void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan)
+void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme)
 {
     if(reasons)
         settings.setValue("myReasons", qtTrId("my-reasons"));
@@ -77,5 +87,10 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
     }
     if(nice)
         saveArrayInput("nice", QList<QString>{qtTrId("nice-example")});
+    if(theme)
+    {
+        settings.setValue("themeLight",  0.2);
+        settings.setValue("themeHue",  0.76);
+    }
 }
 

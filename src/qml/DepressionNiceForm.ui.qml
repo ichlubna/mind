@@ -15,7 +15,7 @@ MenuPage {
         arrayName: "nice"
     }
 
-    DescriptionLabel {
+    Description {
         id: niceHeader
         text: qsTrId("deperssion-nice-header")
     }
@@ -23,7 +23,7 @@ MenuPage {
     ScrollView {
         id: viewContainer
         anchors.fill: parent
-        anchors.topMargin: niceHeader.paintedHeight + 10
+        anchors.topMargin: niceHeader.paintedHeight + 20
         contentWidth: -1
         clip: true
 

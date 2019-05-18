@@ -10,13 +10,13 @@ Slider {
     style: SliderStyle {
             groove: Rectangle {
                 implicitHeight: 4
-                color: "#ec63ff"
+                color: "white"
                 radius: 8
                 opacity: 0.5
             }
             handle: Rectangle {
                 anchors.centerIn: parent
-                color: control.pressed ? "white" : "#e5b8fc"
+                color: control.pressed ? "white" : "#e5e5e5"
                 opacity: 0.8
                 border.color: "white"
                 border.width: 2

@@ -27,24 +27,24 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="clear-data">
-        <location filename="../src/qml/ClearDataForm.ui.qml" line="10"/>
+        <location filename="../src/qml/ClearDataForm.ui.qml" line="11"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="depression-plan">
-        <location filename="../src/qml/ClearDataForm.ui.qml" line="53"/>
+        <location filename="../src/qml/ClearDataForm.ui.qml" line="51"/>
         <location filename="../src/qml/DepressionForm.ui.qml" line="18"/>
         <location filename="../src/qml/DepressionPlanForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="clear-button">
-        <location filename="../src/qml/ClearDataForm.ui.qml" line="63"/>
+        <location filename="../src/qml/ClearDataForm.ui.qml" line="71"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="depression-nice">
-        <location filename="../src/qml/ClearDataForm.ui.qml" line="33"/>
+        <location filename="../src/qml/ClearDataForm.ui.qml" line="31"/>
         <location filename="../src/qml/DepressionForm.ui.qml" line="23"/>
         <location filename="../src/qml/DepressionNiceForm.ui.qml" line="7"/>
         <source></source>
@@ -78,7 +78,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="breath1">
-        <location filename="../src/qml/Breath1Form.ui.qml" line="9"/>
+        <location filename="../src/qml/Breath1Form.ui.qml" line="10"/>
         <location filename="../src/qml/PanicForm.ui.qml" line="15"/>
         <location filename="../src/qml/SelfHarmForm.ui.qml" line="15"/>
         <location filename="../src/qml/SuicideForm.ui.qml" line="21"/>
@@ -86,30 +86,31 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="breathe-info">
-        <location filename="../src/qml/Breath1Form.ui.qml" line="12"/>
-        <location filename="../src/qml/Breath2Form.ui.qml" line="19"/>
+        <location filename="../src/qml/Breath1Form.ui.qml" line="13"/>
+        <location filename="../src/qml/Breath2Form.ui.qml" line="21"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="breathe-in">
-        <location filename="../src/qml/Breath1Form.ui.qml" line="19"/>
-        <location filename="../src/qml/Breath2Form.ui.qml" line="57"/>
+        <location filename="../src/qml/Breath1Form.ui.qml" line="20"/>
+        <location filename="../src/qml/Breath2Form.ui.qml" line="59"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="breathe-out">
-        <location filename="../src/qml/Breath1Form.ui.qml" line="26"/>
-        <location filename="../src/qml/Breath2Form.ui.qml" line="64"/>
+        <location filename="../src/qml/Breath1Form.ui.qml" line="27"/>
+        <location filename="../src/qml/Breath2Form.ui.qml" line="66"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="breathe-slider">
-        <location filename="../src/qml/Breath1Form.ui.qml" line="53"/>
+        <location filename="../src/qml/Breath1Form.ui.qml" line="52"/>
+        <location filename="../src/qml/Breath2Form.ui.qml" line="108"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="breath2">
-        <location filename="../src/qml/Breath2Form.ui.qml" line="14"/>
+        <location filename="../src/qml/Breath2Form.ui.qml" line="16"/>
         <location filename="../src/qml/PanicForm.ui.qml" line="20"/>
         <location filename="../src/qml/SelfHarmForm.ui.qml" line="20"/>
         <location filename="../src/qml/SuicideForm.ui.qml" line="30"/>
@@ -117,7 +118,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="breathe-hold">
-        <location filename="../src/qml/Breath2Form.ui.qml" line="71"/>
+        <location filename="../src/qml/Breath2Form.ui.qml" line="73"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -133,28 +134,28 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="appName">
-        <location filename="../src/qml/main.qml" line="10"/>
+        <location filename="../src/qml/main.qml" line="12"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="resetInputs">
-        <location filename="../src/qml/main.qml" line="77"/>
+        <location filename="../src/qml/main.qml" line="108"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="contactUs">
-        <location filename="../src/qml/main.qml" line="87"/>
+        <location filename="../src/qml/main.qml" line="120"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="rate">
-        <location filename="../src/qml/main.qml" line="96"/>
+        <location filename="../src/qml/main.qml" line="129"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="support">
         <location filename="../src/qml/SupportForm.ui.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="108"/>
+        <location filename="../src/qml/main.qml" line="143"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -187,7 +188,7 @@
     </message>
     <message id="phone">
         <location filename="../src/qml/ContactsForm.ui.qml" line="13"/>
-        <location filename="../src/qml/PhoneForm.ui.qml" line="6"/>
+        <location filename="../src/qml/PhoneForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -203,7 +204,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="plan">
-        <location filename="../src/qml/ClearDataForm.ui.qml" line="43"/>
+        <location filename="../src/qml/ClearDataForm.ui.qml" line="41"/>
         <location filename="../src/qml/PlanForm.ui.qml" line="11"/>
         <location filename="../src/qml/SuicideForm.ui.qml" line="12"/>
         <source></source>
@@ -235,7 +236,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="reasons">
-        <location filename="../src/qml/ClearDataForm.ui.qml" line="23"/>
+        <location filename="../src/qml/ClearDataForm.ui.qml" line="21"/>
         <location filename="../src/qml/ReasonsForm.ui.qml" line="7"/>
         <location filename="../src/qml/SuicideForm.ui.qml" line="39"/>
         <source></source>
@@ -247,47 +248,47 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="my-reasons">
-        <location filename="../src/cpp/userdataprovider.cpp" line="64"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="74"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="67"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="77"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="68"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="78"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="69"/>
-        <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="70"/>
-        <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="71"/>
-        <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="75"/>
-        <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message id="nice-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="79"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="custom-do">
+        <location filename="../src/cpp/userdataprovider.cpp" line="80"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="custom-go">
+        <location filename="../src/cpp/userdataprovider.cpp" line="81"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="plan-example">
+        <location filename="../src/cpp/userdataprovider.cpp" line="85"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="nice-example">
+        <location filename="../src/cpp/userdataprovider.cpp" line="89"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="phone-text">
-        <location filename="../src/qml/PhoneForm.ui.qml" line="10"/>
+        <location filename="../src/qml/PhoneForm.ui.qml" line="15"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -302,7 +303,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="contact-us-text">
-        <location filename="../src/qml/ContactUsForm.ui.qml" line="8"/>
+        <location filename="../src/qml/ContactUsForm.ui.qml" line="9"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -338,12 +339,34 @@
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/AboutAppForm.ui.qml" line="6"/>
-        <location filename="../src/qml/main.qml" line="117"/>
+        <location filename="../src/qml/main.qml" line="161"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="aboutApp-text">
         <location filename="../src/qml/AboutAppForm.ui.qml" line="14"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="custom-theme">
+        <location filename="../src/qml/ClearDataForm.ui.qml" line="61"/>
+        <location filename="../src/qml/CustomThemeForm.ui.qml" line="5"/>
+        <location filename="../src/qml/main.qml" line="152"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="theme-slider">
+        <location filename="../src/qml/CustomThemeForm.ui.qml" line="10"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="theme-slider-light">
+        <location filename="../src/qml/CustomThemeForm.ui.qml" line="25"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="fb-link">
+        <location filename="../src/qml/ContactUs.qml" line="4"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>

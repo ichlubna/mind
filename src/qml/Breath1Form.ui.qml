@@ -32,7 +32,7 @@ MenuPage {
 
     Rectangle {
         id: sprite
-        color: "#e391ff"
+        color: "white"
         opacity: 0.5
         width: (parent.width < parent.height) ? parent.width - 100 : parent.height - 100
         height: (parent.width < parent.height) ? parent.width - 100 : parent.height - 100

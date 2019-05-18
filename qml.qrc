@@ -9,6 +9,7 @@
         <file>images/back.svg</file>
         <file>images/exit.svg</file>
         <file>images/gear.svg</file>
+        <file>images/fb.svg</file>
         <file>images/background2.svg</file>
         <file>images/arrow.svg</file>
         <file>images/circle.svg</file>
@@ -77,5 +78,9 @@
         <file>src/qml/AboutApp.qml</file>
         <file>src/qml/AboutAppForm.ui.qml</file>
         <file>src/qml/MenuSlider.qml</file>
+        <file>src/qml/CustomTheme.qml</file>
+        <file>src/qml/CustomThemeForm.ui.qml</file>
+        <file>src/qml/ThemeInfo.qml</file>
+        <file>src/qml/qmldir</file>
     </qresource>
 </RCC>

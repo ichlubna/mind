@@ -7,6 +7,7 @@ MenuPage {
     property alias niceClear: niceClear
     property alias planClear: planClear
     property alias depresionPlanClear: depressionPlanClear
+    property alias themeClear: themeClear
     title: qsTrId("clear-data")
 
     Grid {
@@ -14,9 +15,6 @@ MenuPage {
         width: parent.width
         anchors.margins: 20
         columns:2
-        verticalItemAlignment: Grid.AlignVCenter
-        horizontalItemAlignment: Grid.AlignHCenter
-
 
         DescriptionLabel {
             id: reasonsClearText
@@ -55,6 +53,16 @@ MenuPage {
         }
         MenuCheckBox {
                 id: depressionPlanClear
+                checked: true;
+        }
+
+        DescriptionLabel {
+            id: themeClearText
+            text:  qsTrId("custom-theme")
+            width: parent.width*0.75
+        }
+        MenuCheckBox {
+                id: themeClear
                 checked: true;
         }
     }

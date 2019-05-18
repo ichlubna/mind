@@ -19,7 +19,7 @@ MenuPage {
         hasTicks: true
     }
 
-    DescriptionLabel {
+    Description {
         id: planHeader
         text: qsTrId("depression-plan-header")
     }
@@ -27,7 +27,7 @@ MenuPage {
     ScrollView {
         id: viewContainer
         anchors.fill: parent
-        anchors.topMargin: planHeader.paintedHeight + 10
+        anchors.topMargin: planHeader.paintedHeight + 20
         contentWidth: -1
         clip: true
         anchors.margins: 10

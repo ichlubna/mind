@@ -48,7 +48,8 @@ DISTFILES += \
     android/res/values-b+cs/strings.xml \
     android/res/drawable-hdpi/icon.png \
     android/res/drawable-ldpi/icon.png \
-    android/res/drawable-mdpi/icon.png
+    android/res/drawable-mdpi/icon.png \
+    src/qml/qmldir
 
 
 contains(ANDROID_TARGET_ARCH,arm64-v8a) {
