@@ -15,14 +15,20 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="depression">
-        <location filename="../src/qml/DepressionForm.ui.qml" line="8"/>
+        <location filename="../src/qml/DepressionForm.ui.qml" line="9"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="41"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="depression-help">
-        <location filename="../src/qml/DepressionForm.ui.qml" line="13"/>
+        <location filename="../src/qml/DepressionForm.ui.qml" line="14"/>
         <location filename="../src/qml/DepressionHelpForm.ui.qml" line="5"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="depression-mood">
+        <location filename="../src/qml/DepressionForm.ui.qml" line="29"/>
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="6"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -33,7 +39,7 @@
     </message>
     <message id="depression-plan">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="51"/>
-        <location filename="../src/qml/DepressionForm.ui.qml" line="18"/>
+        <location filename="../src/qml/DepressionForm.ui.qml" line="19"/>
         <location filename="../src/qml/DepressionPlanForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
@@ -45,7 +51,7 @@
     </message>
     <message id="depression-nice">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="31"/>
-        <location filename="../src/qml/DepressionForm.ui.qml" line="23"/>
+        <location filename="../src/qml/DepressionForm.ui.qml" line="24"/>
         <location filename="../src/qml/DepressionNiceForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
@@ -139,23 +145,23 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="resetInputs">
-        <location filename="../src/qml/main.qml" line="108"/>
+        <location filename="../src/qml/main.qml" line="109"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="contactUs">
-        <location filename="../src/qml/main.qml" line="120"/>
+        <location filename="../src/qml/main.qml" line="121"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="rate">
-        <location filename="../src/qml/main.qml" line="129"/>
+        <location filename="../src/qml/main.qml" line="130"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="support">
         <location filename="../src/qml/SupportForm.ui.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="143"/>
+        <location filename="../src/qml/main.qml" line="144"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -339,7 +345,7 @@
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/AboutAppForm.ui.qml" line="6"/>
-        <location filename="../src/qml/main.qml" line="161"/>
+        <location filename="../src/qml/main.qml" line="162"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -351,22 +357,32 @@
     <message id="custom-theme">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="61"/>
         <location filename="../src/qml/CustomThemeForm.ui.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="152"/>
+        <location filename="../src/qml/main.qml" line="153"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="theme-slider">
-        <location filename="../src/qml/CustomThemeForm.ui.qml" line="10"/>
+        <location filename="../src/qml/CustomThemeForm.ui.qml" line="11"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="theme-slider-light">
-        <location filename="../src/qml/CustomThemeForm.ui.qml" line="25"/>
+        <location filename="../src/qml/CustomThemeForm.ui.qml" line="26"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="fb-link">
         <location filename="../src/qml/ContactUs.qml" line="4"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="mood-text">
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="10"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="mood-history-text">
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="15"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>

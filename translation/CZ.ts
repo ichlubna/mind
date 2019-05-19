@@ -14,16 +14,22 @@
         <translation>Kontakty na pomoc</translation>
     </message>
     <message id="depression">
-        <location filename="../src/qml/DepressionForm.ui.qml" line="8"/>
+        <location filename="../src/qml/DepressionForm.ui.qml" line="9"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="41"/>
         <source></source>
         <translation>Deprese</translation>
     </message>
     <message id="depression-help">
-        <location filename="../src/qml/DepressionForm.ui.qml" line="13"/>
+        <location filename="../src/qml/DepressionForm.ui.qml" line="14"/>
         <location filename="../src/qml/DepressionHelpForm.ui.qml" line="5"/>
         <source></source>
         <translation>Co mi může pomoci</translation>
+    </message>
+    <message id="depression-mood">
+        <location filename="../src/qml/DepressionForm.ui.qml" line="29"/>
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="6"/>
+        <source></source>
+        <translation>Sledování nálady</translation>
     </message>
     <message id="clear-data">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="11"/>
@@ -32,7 +38,7 @@
     </message>
     <message id="depression-plan">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="51"/>
-        <location filename="../src/qml/DepressionForm.ui.qml" line="18"/>
+        <location filename="../src/qml/DepressionForm.ui.qml" line="19"/>
         <location filename="../src/qml/DepressionPlanForm.ui.qml" line="7"/>
         <source></source>
         <translation>Plánování aktivit</translation>
@@ -44,7 +50,7 @@
     </message>
     <message id="depression-nice">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="31"/>
-        <location filename="../src/qml/DepressionForm.ui.qml" line="23"/>
+        <location filename="../src/qml/DepressionForm.ui.qml" line="24"/>
         <location filename="../src/qml/DepressionNiceForm.ui.qml" line="7"/>
         <source></source>
         <translation>Co mě potěšilo</translation>
@@ -166,23 +172,23 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Nepanikař</translation>
     </message>
     <message id="resetInputs">
-        <location filename="../src/qml/main.qml" line="108"/>
+        <location filename="../src/qml/main.qml" line="109"/>
         <source></source>
         <translation>Vymazat uložená data</translation>
     </message>
     <message id="contactUs">
-        <location filename="../src/qml/main.qml" line="120"/>
+        <location filename="../src/qml/main.qml" line="121"/>
         <source></source>
         <translation>Kontaktujte nás</translation>
     </message>
     <message id="rate">
-        <location filename="../src/qml/main.qml" line="129"/>
+        <location filename="../src/qml/main.qml" line="130"/>
         <source></source>
         <translation>Ohodnoťe nás</translation>
     </message>
     <message id="support">
         <location filename="../src/qml/SupportForm.ui.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="143"/>
+        <location filename="../src/qml/main.qml" line="144"/>
         <source></source>
         <translation>Podpořili nás</translation>
     </message>
@@ -452,29 +458,29 @@ Jděte&lt;br&gt;na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;b
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/AboutAppForm.ui.qml" line="6"/>
-        <location filename="../src/qml/main.qml" line="161"/>
+        <location filename="../src/qml/main.qml" line="162"/>
         <source></source>
         <translation>O aplikaci</translation>
     </message>
     <message id="aboutApp-text">
         <location filename="../src/qml/AboutAppForm.ui.qml" line="14"/>
         <source></source>
-        <translation>Tato aplikace slouží jako pomocný nástroj první pomoci při psychických problémech typu deprese či panika. Cílem aplikace není nahradit lékařskou péči, pouze pomoci zmírnit příznaky. V případě zhoršení stavu je nutné vyhledat odbornou pomoc. Pokud Vám aplikace nepomáhá či si nejste jistí jejím významem pro Váš stav, konzultujte její používání s Vašim lékařem.</translation>
+        <translation>Tato aplikace slouží jako pomocný nástroj první pomoci&lt;br&gt; při psychických problémech typu deprese či panika.&lt;br&gt; Cílem aplikace není nahradit lékařskou péči,&lt;br&gt; pouze pomoci zmírnit příznaky.&lt;br&gt; V případě zhoršení stavu je nutné vyhledat odbornou pomoc.&lt;br&gt; Pokud Vám aplikace nepomáhá či si nejste jistí jejím významem pro Váš stav,&lt;br&gt; konzultujte její používání s Vašim lékařem.</translation>
     </message>
     <message id="custom-theme">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="61"/>
         <location filename="../src/qml/CustomThemeForm.ui.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="152"/>
+        <location filename="../src/qml/main.qml" line="153"/>
         <source></source>
         <translation>Nastavení barev</translation>
     </message>
     <message id="theme-slider">
-        <location filename="../src/qml/CustomThemeForm.ui.qml" line="10"/>
+        <location filename="../src/qml/CustomThemeForm.ui.qml" line="11"/>
         <source></source>
         <translation>Zde můžete nastavit vlastní barvu pozadí</translation>
     </message>
     <message id="theme-slider-light">
-        <location filename="../src/qml/CustomThemeForm.ui.qml" line="25"/>
+        <location filename="../src/qml/CustomThemeForm.ui.qml" line="26"/>
         <source></source>
         <translation>Zde upravte jas</translation>
     </message>
@@ -482,6 +488,16 @@ Jděte&lt;br&gt;na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;b
         <location filename="../src/qml/ContactUs.qml" line="4"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
+    </message>
+    <message id="mood-text">
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="10"/>
+        <source></source>
+        <translation>Jak se dnes mám:</translation>
+    </message>
+    <message id="mood-history-text">
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="15"/>
+        <source></source>
+        <translation>Přehled minulých nálad:</translation>
     </message>
 </context>
 </TS>

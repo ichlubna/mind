@@ -39,6 +39,7 @@ ApplicationWindow {
             id: barBckg
         }
         height: 40
+        font.pointSize: 14
         Colorize {
             anchors.fill: parent
             source: barBckg
@@ -89,6 +90,7 @@ ApplicationWindow {
         id: drawer
         width: window.width * 0.66
         height: window.height
+        font.pointSize: 14
         background: Rectangle {
             id: bckg
             color: "#9a9a9a"

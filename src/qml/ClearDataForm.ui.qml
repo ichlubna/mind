@@ -8,6 +8,7 @@ MenuPage {
     property alias planClear: planClear
     property alias depresionPlanClear: depressionPlanClear
     property alias themeClear: themeClear
+    property alias moodsClear: moodsClear
     title: qsTrId("clear-data")
 
     Grid {
@@ -63,6 +64,16 @@ MenuPage {
         }
         MenuCheckBox {
                 id: themeClear
+                checked: true;
+        }
+
+        DescriptionLabel {
+            id: moodsClearText
+            text:  qsTrId("depression-mood")
+            width: parent.width*0.75
+        }
+        MenuCheckBox {
+                id: moodsClear
                 checked: true;
         }
     }

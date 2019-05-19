@@ -10,6 +10,11 @@
         <file>images/exit.svg</file>
         <file>images/gear.svg</file>
         <file>images/fb.svg</file>
+        <file>images/emoticon1.svg</file>
+        <file>images/emoticon2.svg</file>
+        <file>images/emoticon3.svg</file>
+        <file>images/emoticon4.svg</file>
+        <file>images/emoticon5.svg</file>
         <file>images/background2.svg</file>
         <file>images/arrow.svg</file>
         <file>images/circle.svg</file>
@@ -82,5 +87,7 @@
         <file>src/qml/CustomThemeForm.ui.qml</file>
         <file>src/qml/ThemeInfo.qml</file>
         <file>src/qml/qmldir</file>
+        <file>src/qml/DepressionMood.qml</file>
+        <file>src/qml/DepressionMoodForm.ui.qml</file>
     </qresource>
 </RCC>

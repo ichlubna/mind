@@ -3,7 +3,7 @@
 UserDataProvider::UserDataProvider(QObject *parent) : QObject(parent), settings("DontPanicDevs", "DontPanic")
 {
     if(!settings.contains("myReasons"))
-       resetInputs(true, true, true, true, true);
+       resetInputs(true, true, true, true, true, true);
 }
 
 void UserDataProvider::saveInput(QString id, QString value)
@@ -68,7 +68,7 @@ QList<QString> UserDataProvider::loadArrayInput(QString id)
     return values;
 }
 
-void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme)
+void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods)
 {
     if(reasons)
         settings.setValue("myReasons", qtTrId("my-reasons"));
@@ -89,8 +89,10 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
         saveArrayInput("nice", QList<QString>{qtTrId("nice-example")});
     if(theme)
     {
-        settings.setValue("themeLight",  0.2);
+        settings.setValue("themeLight",  -0.05);
         settings.setValue("themeHue",  0.76);
     }
+    if(moods)
+        saveArrayInput("moods", QList<QString>{});
 }
 
