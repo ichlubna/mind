@@ -24,6 +24,31 @@ DepressionMoodForm {
             emoticon1Img.opacity=1.0;
     }
 
+    function draw()
+    {
+        chart.removePoints(0, moods.length);
+        for(const moodString of moods)
+        {
+            var mood = moodString.split('|');
+            chart.append(new Date(mood[0]), parseInt(mood[1]));
+            //console.log(new Date(mood[0]) + " " + mood[1]);
+        }
+
+        chart.axisX.min = new Date(moods[0].split('|')[0]);
+        chart.axisX.max = new Date(moods[moods.length-1].split('|')[0]);
+
+        if(moods.length <= 1)
+        {
+            chartView.visible = false;
+            noData.visible = true;
+        }
+        else
+        {
+            chartView.visible = true;
+            noData.visible = false;
+        }
+    }
+
     function init()
     {
         moods = dataProvider.loadArrayInput("moods");
@@ -40,15 +65,7 @@ DepressionMoodForm {
             markChoice(parseInt(lastMood[1]));
         }
 
-        for(const moodString of moods)
-        {
-            var mood = moodString.split('|');
-            chart.append(new Date(mood[0]), parseInt(mood[1]));
-            console.log(new Date(mood[0]) + " " + mood[1]);
-        }
-
-        chart.axisX.min = new Date(2019,4,15);
-        chart.axisX.max = new Date(2019,4,20);
+        draw();
     }
 
     function save(value)
@@ -63,13 +80,15 @@ DepressionMoodForm {
         {
             var lastMood = moods[moods.length-1].split('|');
             if((new Date(lastMood[0])).getTime() === now.getTime())
-                moods[0] = lastMood[0] + "|" + value;
+                moods[moods.length-1] = lastMood[0] + "|" + value;
             else
                  moods.push(now + "|" + value);
         }
         else
             moods.push(now + "|" + value);
         dataProvider.saveArrayInput("moods", moods);
+
+        draw();
     }
 
     Connections {

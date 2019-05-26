@@ -1,7 +1,7 @@
 import QtQuick 2.9
 import QtQuick.Controls 2.2
 import io.qt.UserDataProvider 1.0
-import QtGraphicalEffects 1.2
+import QtGraphicalEffects 1.0
 import "."
 
 ApplicationWindow {

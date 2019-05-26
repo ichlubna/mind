@@ -2,8 +2,15 @@
 
 UserDataProvider::UserDataProvider(QObject *parent) : QObject(parent), settings("DontPanicDevs", "DontPanic")
 {
+    //reset to default values if first run
     if(!settings.contains("myReasons"))
        resetInputs(true, true, true, true, true, true);
+    //to avoid getting red color when updating to version with color change option
+    if(!settings.contains("themeLight"))
+    {
+        settings.setValue("themeLight",  -0.05);
+        settings.setValue("themeHue",  0.76);
+    }
 }
 
 void UserDataProvider::saveInput(QString id, QString value)

@@ -14,6 +14,8 @@ MenuPage {
     property alias emoticon4: emoticon4
     property alias emoticon5: emoticon5
     property alias chart: chart
+    property alias chartView: chartView
+    property alias noData: noData
     title: qsTrId("depression-mood")
 
     DescriptionLabel {
@@ -21,18 +23,18 @@ MenuPage {
         text: qsTrId("mood-text")
     }
 
-    Row{
-       // anchors.margins: 5
+    Row {
+        // anchors.margins: 5
         id: emoticons
         anchors.top: moodText.bottom
         width: parent.width
-        height: parent.height*0.2
+        height: parent.height * 0.2
         spacing: 5
         Image {
             id: emoticon1Img
             source: "qrc:/images/emoticon1.svg"
             fillMode: Image.PreserveAspectFit
-            width: parent.width*0.19
+            width: parent.width * 0.19
             height: parent.height
             opacity: 0.6
             MouseArea {
@@ -44,7 +46,7 @@ MenuPage {
             id: emoticon2Img
             source: "qrc:/images/emoticon2.svg"
             fillMode: Image.PreserveAspectFit
-            width: parent.width*0.19
+            width: parent.width * 0.19
             height: parent.height
             opacity: 0.6
             MouseArea {
@@ -56,7 +58,7 @@ MenuPage {
             id: emoticon3Img
             source: "qrc:/images/emoticon3.svg"
             fillMode: Image.PreserveAspectFit
-            width: parent.width*0.19
+            width: parent.width * 0.19
             height: parent.height
             opacity: 0.6
             MouseArea {
@@ -68,7 +70,7 @@ MenuPage {
             id: emoticon4Img
             source: "qrc:/images/emoticon4.svg"
             fillMode: Image.PreserveAspectFit
-            width: parent.width*0.19
+            width: parent.width * 0.19
             height: parent.height
             opacity: 0.6
             MouseArea {
@@ -80,7 +82,7 @@ MenuPage {
             id: emoticon5Img
             source: "qrc:/images/emoticon5.svg"
             fillMode: Image.PreserveAspectFit
-            width: parent.width*0.19
+            width: parent.width * 0.19
             height: parent.height
             opacity: 0.6
             MouseArea {
@@ -95,18 +97,32 @@ MenuPage {
         anchors.top: emoticons.bottom
     }
 
+    DescriptionLabel {
+        id: noData
+        text: qsTrId("mood-no-data")
+        width: parent.width
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: 70
+        horizontalAlignment: "AlignHCenter"
+        anchors.horizontalCenter: parent.horizontalCenter
+        visible: false
+    }
+
     ChartView {
+        id: chartView
         antialiasing: true
         backgroundColor: "transparent"
         legend.visible: false
-        height: parent.height*0.7
+        height: parent.height * 0.7
         anchors.bottom: parent.bottom
         width: parent.width
+        visible: false
 
         LineSeries {
             id: chart
+            width: 5
             color: "white"
-            axisX:  DateTimeAxis {
+            axisX: DateTimeAxis {
                 labelsColor: "white"
                 tickCount: 3
                 format: "dd.MM.yy"
@@ -118,6 +134,4 @@ MenuPage {
             }
         }
     }
-
-
 }
