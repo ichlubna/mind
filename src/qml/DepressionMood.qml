@@ -26,32 +26,40 @@ DepressionMoodForm {
 
     function draw()
     {
-        chart.removePoints(0, moods.length);
-        for(const moodString of moods)
-        {
-            var mood = moodString.split('|');
-            chart.append(new Date(mood[0]), parseInt(mood[1]));
-            //console.log(new Date(mood[0]) + " " + mood[1]);
-        }
-
-        chart.axisX.min = new Date(moods[0].split('|')[0]);
-        chart.axisX.max = new Date(moods[moods.length-1].split('|')[0]);
-
         if(moods.length <= 1)
         {
             chartView.visible = false;
             noData.visible = true;
+            return;
         }
         else
         {
             chartView.visible = true;
             noData.visible = false;
         }
+
+        chart.clear();
+
+        console.log(moods.length);
+        for(const moodString of moods)
+        {
+            var mood = moodString.split('|');
+            chart.append(new Date(mood[0]), parseInt(mood[1]));
+            //console.log(new Date(mood[0]) + " " + mood[1]);
+        }
+        chart.axisX.min = new Date(moods[0].split('|')[0]);
+        chart.axisX.max = new Date(moods[moods.length-1].split('|')[0]);
     }
 
     function init()
     {
         moods = dataProvider.loadArrayInput("moods");
+
+       /* var d = new Date("Fri May 29 00:00:00 2019 GMT+0200") + "|1";
+                moods.push(d);
+        d = new Date("Fri May 30 00:00:00 2019 GMT+0200") + "|4";
+        moods.push(d);*/
+
         if(moods.length === 0)
             return;
         var lastMood = moods[moods.length-1].split('|');

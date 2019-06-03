@@ -29,7 +29,7 @@
     <message id="depression-mood">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="72"/>
         <location filename="../src/qml/DepressionForm.ui.qml" line="29"/>
-        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="17"/>
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="19"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -157,6 +157,11 @@
     </message>
     <message id="rate">
         <location filename="../src/qml/main.qml" line="131"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="exit">
+        <location filename="../src/qml/main.qml" line="172"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -378,17 +383,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="mood-text">
-        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="21"/>
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="23"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="mood-history-text">
-        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="94"/>
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="96"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="mood-no-data">
-        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="100"/>
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="102"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>

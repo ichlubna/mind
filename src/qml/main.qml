@@ -167,6 +167,14 @@ ApplicationWindow {
                     drawer.close()
                 }
             }
+
+            ItemDelegate {
+                text: qsTrId("exit")
+                width: parent.width
+                onClicked: {
+                    Qt.quit();
+                }
+            }
         }
     }
 

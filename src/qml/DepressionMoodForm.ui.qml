@@ -124,7 +124,7 @@ MenuPage {
             color: "white"
             axisX: DateTimeAxis {
                 labelsColor: "white"
-                tickCount: 3
+                tickCount: 2
                 format: "dd.MM.yy"
             }
             axisY: ValueAxis {

@@ -28,7 +28,7 @@
     <message id="depression-mood">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="72"/>
         <location filename="../src/qml/DepressionForm.ui.qml" line="29"/>
-        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="17"/>
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="19"/>
         <source></source>
         <translation>Sledování nálady</translation>
     </message>
@@ -187,6 +187,11 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <source></source>
         <translation>Ohodnoťe nás</translation>
     </message>
+    <message id="exit">
+        <location filename="../src/qml/main.qml" line="172"/>
+        <source></source>
+        <translation>Ukončit</translation>
+    </message>
     <message id="support">
         <location filename="../src/qml/SupportForm.ui.qml" line="5"/>
         <location filename="../src/qml/main.qml" line="145"/>
@@ -227,6 +232,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         &lt;p&gt;Karlovy Vary (Res vitae)&lt;br /&gt;Blahoslavova 659/18&lt;br /&gt; 360 09 Karlovy Vary &lt;br /&gt;&lt;a href=&quot;https://resvitae.cz/krizove-centrum&quot;&gt;resvitae.cz/krizove-centrum&lt;/a&gt;&lt;/p&gt;
         &lt;h2&gt;Moravskoslezský kraj&lt;/h2&gt;
         &lt;p&gt;Ostrava (KC Ostrava)&lt;br /&gt;Ruská 94/29&lt;br /&gt;703 00 Ostrava-Vítkovice&lt;br /&gt;&lt;a href=&quot;http://www.kriceos.cz/&quot;&gt;kriceos.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Naděje (Charita Opava)&lt;br /&gt;Kylešovská 10&lt;br /&gt;746 01 Opava&lt;br /&gt;&lt;a href=&quot;http://www.charitaopava.cz/&quot;&gt;charitaopava.cz&lt;/a&gt;&lt;/p&gt;
         &lt;h2&gt;Královéhradecký kraj&lt;/h2&gt;
         &lt;p&gt;RIAPS Trutnov&lt;br /&gt;Procházkova 818&lt;br /&gt; 541 01 Trutnov&lt;br /&gt;&lt;a href=&quot;http://www.riaps.cz&quot;&gt;riaps.cz&lt;/a&gt;&lt;/p&gt;
         </translation>
@@ -491,17 +497,17 @@ Jděte&lt;br&gt;na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;b
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
     <message id="mood-text">
-        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="21"/>
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="23"/>
         <source></source>
         <translation>Jak se dnes mám:</translation>
     </message>
     <message id="mood-history-text">
-        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="94"/>
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="96"/>
         <source></source>
         <translation>Přehled minulých nálad:</translation>
     </message>
     <message id="mood-no-data">
-        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="100"/>
+        <location filename="../src/qml/DepressionMoodForm.ui.qml" line="102"/>
         <source></source>
         <translation>Graf vyžaduje minimálně dvě volby nálady</translation>
     </message>
