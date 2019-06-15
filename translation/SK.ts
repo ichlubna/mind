@@ -11,38 +11,38 @@
     <message id="help-contacts">
         <location filename="../src/qml/HomeForm.ui.qml" line="73"/>
         <source></source>
-        <translation>Kontakty na pomoc</translation>
+        <translation>Kontakty pomoci</translation>
     </message>
     <message id="depression">
         <location filename="../src/qml/DepressionForm.ui.qml" line="9"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="41"/>
         <source></source>
-        <translation>Deprese</translation>
+        <translation>Depresia</translation>
     </message>
     <message id="depression-help">
         <location filename="../src/qml/DepressionForm.ui.qml" line="14"/>
         <location filename="../src/qml/DepressionHelpForm.ui.qml" line="5"/>
         <source></source>
-        <translation>Co mi může pomoci</translation>
+        <translation>Čo mi môže pomôcť</translation>
     </message>
     <message id="depression-mood">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="73"/>
         <location filename="../src/qml/DepressionForm.ui.qml" line="29"/>
         <location filename="../src/qml/DepressionMoodForm.ui.qml" line="24"/>
         <source></source>
-        <translation>Sledování nálady</translation>
+        <translation>Sledovanie nálady</translation>
     </message>
     <message id="clear-data">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="13"/>
         <source></source>
-        <translation>Smazat data</translation>
+        <translation>Zmazať dáta</translation>
     </message>
     <message id="depression-plan">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="53"/>
         <location filename="../src/qml/DepressionForm.ui.qml" line="19"/>
         <location filename="../src/qml/DepressionPlanForm.ui.qml" line="7"/>
         <source></source>
-        <translation>Plánování aktivit</translation>
+        <translation>Plánovanie aktivít</translation>
     </message>
     <message id="language">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="83"/>
@@ -52,50 +52,50 @@
     <message id="clear-button">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="93"/>
         <source></source>
-        <translation>Smazat</translation>
+        <translation>Zmazať</translation>
     </message>
     <message id="depression-nice">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="33"/>
         <location filename="../src/qml/DepressionForm.ui.qml" line="24"/>
         <location filename="../src/qml/DepressionNiceForm.ui.qml" line="7"/>
         <source></source>
-        <translation>Co mě potěšilo</translation>
+        <translation>Čo ma potešilo</translation>
     </message>
     <message id="depression-tips">
         <location filename="../src/qml/DepressionHelp.qml" line="7"/>
         <source></source>
         <translation>
-Sportujte|Vezměte si kolo&lt;br&gt;a udělejte si půlhodinovou vyjížďku.|
-Nebuďte sami|Napište nebo zavolejte rodičům,&lt;br&gt;partnerce, partnerovi, kamarádce, kamarádovi.&lt;br&gt;Běžte je navštívit.|
-Meditujte|Pohodlně se posaďte,&lt;br&gt;zavřete oči a zhluboka se párkrát nadechněte.&lt;br&gt;Poté nechte myšlenky volně plynout.|
-Přestaňte kouřit,&lt;br&gt;nepijte alkohol|Uvařte si bylinkový nebo ovocný čaj.|
-Promluvte si&lt;br&gt; s (školním) psychologem|Domluvte si schůzku v nejkratším termínu.|
-Poslouchejte hudbu|Vytvořte si na mobilu playlist&lt;br&gt;oblíbených písniček a poslouchejte je.|
-Sejděte se s kamarády|Napište nebo zavolejte kamarádovi&lt;br&gt;a domluvte si setkání.|
-Sledujte oblíbený film|Podívejte se na film, který máte rádi,&lt;br&gt;nebo sledujte nejnovější videa na internetu.|
-Napište blízké osobě|Napište osobě, které věříte,&lt;br&gt;jak Vám je.|
-Kreslete si|Vezměte si omalovánky&lt;br&gt;nebo si vytiskněte mandalu a vymalujte ji.|
-Běžte si zacvičit|Běh, jízda na kole nebo delší procházka&lt;br&gt;Vám může pomoci.|
-Relaxujte|Stáhněte si do mobilu řízenou relaxaci,&lt;br&gt;pusťte si ji, lehněte si na zem,&lt;br&gt;uvolněte se, zavřete oči a relaxujte.|
-Zahrajte si na hudební nástroj|Zahrajte si oblíbenou skladbu&lt;br&gt;od oblíbeného autora.|
-Čtěte si|Přečtěte si něco zajímavého, najděte knížku,&lt;br&gt;časopis nebo článek na internetu.|
-Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
+Športujte|Vezmite si bicykel&lt;br&gt;a choďte na polhodinovú jazdu.|
+Nebuďte sami|Napíšte alebo zavolajte rodičom,&lt;br&gt;, partnerke, partnerovi, kamarátke, kamarátovi.&lt;br&gt;Choďte ich navštíviť.|
+Meditujte|Pohodlne sa posaďte,&lt;br&gt;zavrite oči a zhlboka sa nadýchnite.&lt;br&gt;Potom nechajte svoje myšlienky voľne plynúť.|
+Skončite s fajčením,&lt;br&gt;nepite alkohol|Uvarte si bylinkový alebo ovocný čaj.|
+Porozprávajte sa&lt;br&gt;so (školským) psychológom|Dohodnite si stretnutie v čo najkratšom čase.|
+Počúvajte hudbu|Vytvorte si na mobile playlist&lt;br&gt;obľúbených pesničiek a počúvajte ich.|
+Stretnite sa s kamarátmi|Napíšte alebo zavolajte kamarátovi&lt;br&gt;a dohodnite si stretnutie.|
+Pozrite si obľúbený film|Pozrite si film, ktorý máte radi&lt;br&gt;alebo pozerajte najnovšie videá na internete|
+Napíšte blízkej osobe|Napíšte osobe, ktorej veríte,&lt;br&gt;o tom ako Vám je.|
+Kreslite si|Vezmite si omaľovávanky&lt;br&gt;alebo si vytlačte mandalu a vyfarbite ju.|
+Zacvičte si|Beh, bicyklovanie alebo dlhšia prechádzka&lt;br&gt;Vám môže pomôcť.|
+Relaxujte|Stiahnite si do mobilu riadenú relaxáciu,&lt;br&gt;pustite si ju, ľahnite si na zem,&lt;br&gt;uvoľnite sa, zavrite oči a relaxujte.|
+Zahrajte si na hudobný nástroj|Zahrajte si obľúbenú skladbu&lt;br&gt;od obľúbeného autora.|
+Čítajte si|Prečítajte si niečo zaujímavé, nájdite knižku,&lt;br&gt;časopis alebo článok na internete.|
+Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
             </translation>
     </message>
     <message id="anxiety-panic">
         <location filename="../src/qml/HomeForm.ui.qml" line="49"/>
         <source></source>
-        <translation>Úzkost&lt;br&gt;panika</translation>
+        <translation>Úzkosť&lt;br&gt;panika</translation>
     </message>
     <message id="self-harm">
         <location filename="../src/qml/HomeForm.ui.qml" line="57"/>
         <source></source>
-        <translation>Chci si&lt;br&gt;ublížit</translation>
+        <translation>Chcem si&lt;br&gt;ublížiť</translation>
     </message>
     <message id="suicidal-thoughts">
         <location filename="../src/qml/HomeForm.ui.qml" line="65"/>
         <source></source>
-        <translation>Myšlenky&lt;br&gt;na sebevraždu</translation>
+        <translation>Myšlienky&lt;br&gt;na samovraždu</translation>
     </message>
     <message id="panic">
         <location filename="../src/qml/PanicForm.ui.qml" line="10"/>
@@ -106,7 +106,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <location filename="../src/qml/PanicForm.ui.qml" line="30"/>
         <location filename="../src/qml/PanicTipsForm.ui.qml" line="5"/>
         <source></source>
-        <translation>Co dělat při úzkosti</translation>
+        <translation>Čo robiť počas úzkosti</translation>
     </message>
     <message id="breath1">
         <location filename="../src/qml/Breath1Form.ui.qml" line="10"/>
@@ -114,31 +114,31 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <location filename="../src/qml/SelfHarmForm.ui.qml" line="15"/>
         <location filename="../src/qml/SuicideForm.ui.qml" line="21"/>
         <source></source>
-        <translation>Dechové cvičení I</translation>
+        <translation>Dychové cvičenie I</translation>
     </message>
     <message id="breathe-info">
         <location filename="../src/qml/Breath1Form.ui.qml" line="13"/>
         <location filename="../src/qml/Breath2Form.ui.qml" line="21"/>
         <source></source>
-        <translation>Posaďte se a opřete se o něco pevného</translation>
+        <translation>Posaďte sa a oprite sa o niečo pevné</translation>
     </message>
     <message id="breathe-in">
         <location filename="../src/qml/Breath1Form.ui.qml" line="20"/>
         <location filename="../src/qml/Breath2Form.ui.qml" line="59"/>
         <source></source>
-        <translation>Nádech</translation>
+        <translation>Nádych</translation>
     </message>
     <message id="breathe-out">
         <location filename="../src/qml/Breath1Form.ui.qml" line="27"/>
         <location filename="../src/qml/Breath2Form.ui.qml" line="66"/>
         <source></source>
-        <translation>Výdech</translation>
+        <translation>Výdych</translation>
     </message>
     <message id="breathe-slider">
         <location filename="../src/qml/Breath1Form.ui.qml" line="52"/>
         <location filename="../src/qml/Breath2Form.ui.qml" line="108"/>
         <source></source>
-        <translation>Rychlost dechu</translation>
+        <translation>Rýchlosť dechu</translation>
     </message>
     <message id="breath2">
         <location filename="../src/qml/Breath2Form.ui.qml" line="16"/>
@@ -146,33 +146,33 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <location filename="../src/qml/SelfHarmForm.ui.qml" line="20"/>
         <location filename="../src/qml/SuicideForm.ui.qml" line="30"/>
         <source></source>
-        <translation>Dechové cvičení II</translation>
+        <translation>Dychové cvičenie II</translation>
     </message>
     <message id="breathe-hold">
         <location filename="../src/qml/Breath2Form.ui.qml" line="73"/>
         <source></source>
-        <translation>Zadržet dech</translation>
+        <translation>Zadržať dych</translation>
     </message>
     <message id="math">
         <location filename="../src/qml/MathForm.ui.qml" line="10"/>
         <location filename="../src/qml/PanicForm.ui.qml" line="25"/>
         <source></source>
-        <translation>Počítání</translation>
+        <translation>Počítanie</translation>
     </message>
     <message id="submit">
         <location filename="../src/qml/MathForm.ui.qml" line="32"/>
         <source></source>
-        <translation>Potvrdit</translation>
+        <translation>Potvrdiť</translation>
     </message>
     <message id="appName">
         <location filename="../src/qml/main.qml" line="12"/>
         <source></source>
-        <translation>Nepanikař</translation>
+        <translation>Nepanikár</translation>
     </message>
     <message id="resetInputs">
         <location filename="../src/qml/main.qml" line="114"/>
         <source></source>
-        <translation>Vymazat uložená data</translation>
+        <translation>Vymazať uložené dáta</translation>
     </message>
     <message id="contactUs">
         <location filename="../src/qml/main.qml" line="126"/>
@@ -187,59 +187,32 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     <message id="exit">
         <location filename="../src/qml/main.qml" line="176"/>
         <source></source>
-        <translation>Ukončit</translation>
+        <translation>Ukončiť</translation>
     </message>
     <message id="support">
         <location filename="../src/qml/SupportForm.ui.qml" line="5"/>
         <location filename="../src/qml/main.qml" line="149"/>
         <source></source>
-        <translation>Podpořili nás</translation>
+        <translation>Podporili nás</translation>
     </message>
     <message id="center">
         <location filename="../src/qml/CenterForm.ui.qml" line="8"/>
         <location filename="../src/qml/ContactsForm.ui.qml" line="18"/>
         <source></source>
-        <translation>Krizová centra</translation>
+        <translation>Krízové centrá</translation>
     </message>
     <message id="center-text">
         <location filename="../src/qml/Center.qml" line="8"/>
         <location filename="../src/qml/CenterForm.ui.qml" line="20"/>
         <source></source>
         <translation>
-        &lt;h2&gt;Praha&lt;/h2&gt;
-        &lt;p&gt;Praha (KC Bohnice)&lt;br /&gt;Ústavní 91&lt;br /&gt; 181 02 Praha 8 &lt;br /&gt;&lt;a href=&quot;https://www.bohnice.cz/krizova-pomoc/&quot;&gt;bohnice.cz/krizova-pomoc&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Praha (RIAPS)&lt;br /&gt;Chelčického 39&lt;br /&gt; 130 00 Praha 3&lt;br /&gt;&lt;a href=&quot;https://www.csspraha.cz/24829-krizove-centrum-riaps&quot;&gt;csspraha.cz/24829-krizove-centrum-riaps&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Dětské krizové centrum&lt;br /&gt;Vzápolí 1250/21&lt;br /&gt; Praha 4 &lt;br /&gt;&lt;a href=&quot;http://www.ditekrize.cz&quot;&gt;ditekrize.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Acorus - krizová pomoc&lt;br /&gt; Dělnická 213/12&lt;br /&gt; 170 00 Praha 7&lt;br /&gt;&lt;a href=&quot;http://www.acorus.cz&quot;&gt;acorus.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Aqua vitae&lt;br /&gt;Americká 21&lt;br /&gt; 120 00 Praha &lt;br /&gt;&lt;a href=&quot;http://www.linkapomoci.cz&quot;&gt;linkapomoci.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Dům Přemysla Pittra pro děti&lt;br /&gt;Karlovarská 18&lt;br /&gt; 161 00 Praha&lt;br /&gt;&lt;a href=&quot;http://www.dumtriprani.cz&quot;&gt;dumtriprani.cz&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;Jihomoravský kraj&lt;/h2&gt;
-        &lt;p&gt;Brno (centrum krizové intervence)&lt;br /&gt;Jihlavská 20&lt;br /&gt; 625 00 Brno &lt;br /&gt;&lt;a href=&quot;http://psychiatrie.med.muni.cz/index.php?pg=zdravotnicka-pece--oddeleni#kc&quot;&gt;psychiatrie.med.muni.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Krizové centrum&lt;br /&gt; pro děti a dospívající&lt;br /&gt;Hapalova 4&lt;br /&gt; 621 00 Brno&lt;br /&gt;&lt;a href=&quot;http://www.krizovecentrum.cz&quot;&gt;krizovecentrum.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Okno dokořán Blansko&lt;br /&gt; Krizová pomoc&lt;br /&gt;Komenského 19&lt;br /&gt; 678 01 Blansko&lt;br /&gt;&lt;a href=&quot;http://www.blansko.caritas.cz&quot;&gt;blansko.caritas.cz&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;Jihočeský kraj&lt;/h2&gt;
-        &lt;p&gt;Krizové centrum&lt;br /&gt;Centrum pomoci rodině a dětem&lt;br /&gt;Velké náměstí 14&lt;br /&gt; 383 01 Prachatice&lt;br /&gt;&lt;a href=&quot;http://www.portusprachatice.cz&quot;&gt;portusprachatice.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Arkáda, o.s.&lt;br /&gt;Husovo náměstí 2/24&lt;br /&gt; 397 01 Písek &lt;br /&gt;&lt;a href=&quot;http://www.arkadacentrum.cz&quot;&gt;arkadacentrum.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;České Budějovice (KC pro děti a rodinu)&lt;br /&gt;10 1549 Jiráskovo nábřeží&lt;br /&gt; 370 04 České Budějovice &lt;br /&gt;&lt;a href=&quot;http://www.ditevkrizi.cz/&quot;&gt;ditevkrizi.cz&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;Olomoucký kraj&lt;/h2&gt;
-        &lt;p&gt;Olomouc (KC intervence)&lt;br /&gt;Dolní nám. 55/33&lt;br /&gt; 779 00 Olomouc&lt;br /&gt;&lt;a href=&quot;https://www.olomouc.charita.cz/sluzby/spp/kic/&quot;&gt;olomouc.charita.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Krizové centrum&lt;br /&gt;Wurmova 585/5&lt;br /&gt; 771 11 Olomouc&lt;br /&gt;&lt;a href=&quot;http://www.olomouc.charita.cz&quot;&gt;olomouc.charita.cz &lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;Plzeňský kraj&lt;/h2&gt;
-        &lt;p&gt;Plus pro lidi v krizové situaci&lt;br /&gt;Prokopova 25&lt;br /&gt; 301 00 Plzeň&lt;br /&gt;&lt;a href=&quot;http://www.diakoniezapad.cz/sluzby-diakonie-zapad/plus-pro-lidi-v-krizove-situaci/&quot;&gt;diakoniezapad.cz&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;Karlovarský kraj&lt;/h2&gt;
-        &lt;p&gt;Karlovy Vary (Res vitae)&lt;br /&gt;Blahoslavova 659/18&lt;br /&gt; 360 09 Karlovy Vary &lt;br /&gt;&lt;a href=&quot;https://resvitae.cz/krizove-centrum&quot;&gt;resvitae.cz/krizove-centrum&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;Moravskoslezský kraj&lt;/h2&gt;
-        &lt;p&gt;Ostrava (KC Ostrava)&lt;br /&gt;Ruská 94/29&lt;br /&gt;703 00 Ostrava-Vítkovice&lt;br /&gt;&lt;a href=&quot;http://www.kriceos.cz/&quot;&gt;kriceos.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Naděje (Charita Opava)&lt;br /&gt;Kylešovská 10&lt;br /&gt;746 01 Opava&lt;br /&gt;&lt;a href=&quot;http://www.charitaopava.cz/&quot;&gt;charitaopava.cz&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;Královéhradecký kraj&lt;/h2&gt;
-        &lt;p&gt;RIAPS Trutnov&lt;br /&gt;Procházkova 818&lt;br /&gt; 541 01 Trutnov&lt;br /&gt;&lt;a href=&quot;http://www.riaps.cz&quot;&gt;riaps.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;h2&gt;Trnava&lt;/h2&gt;
+        &lt;p&gt;Občianske združenie Otvorené srdce&lt;br /&gt;B.Smetanu&lt;br /&gt; 917 08 Trnava &lt;br /&gt;&lt;a href=&quot;http://www.otvorene-srdce.sk/&quot;&gt;otvorene-srdce.sk&lt;/a&gt;&lt;/p&gt;
+        &lt;h2&gt;Košice&lt;/h2&gt;
+        &lt;p&gt;Psychosociálne Centrum&lt;br /&gt;Jegorovovo námestie 5&lt;br /&gt; 040 22 Košice &lt;br /&gt;&lt;a href=&quot;mailto:pscentrumke@gmail.com&quot;&gt;pscentrumke@gmail.com&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Pobočka Psychosociálneho Centra&lt;br /&gt;Južná trieda č.23&lt;br /&gt; 040 03 Košice &lt;/p&gt;
+        &lt;h2&gt;Liptovský Mikuláš&lt;/h2&gt;
+        &lt;p&gt;Centrum duševného zdravia&lt;br /&gt;Garbiarska 3948/8&lt;br /&gt; 031 01 Liptovský Mikuláš &lt;/p&gt;
         </translation>
     </message>
     <message id="chat">
@@ -252,33 +225,34 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <location filename="../src/qml/ChatForm.ui.qml" line="10"/>
         <source></source>
         <translation>
+        &lt;a href=&quot;http://pomoc.sk/&quot;&gt;Pomoc.sk&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.chat-pomoc.cz&quot;&gt;Chat Pražské linky důvěry&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.elinka.iporadna.cz&quot;&gt;Internetové poradny&lt;/a&gt; &lt;br&gt;&lt;br&gt;
-        &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;Internetová poradna pre mladých (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt; 
+        &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;Internetová poradna pre mladých (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.modralinka.cz/?page=chat&quot;&gt;Modrá linka&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         </translation>
     </message>
     <message id="contacts">
         <location filename="../src/qml/ContactsForm.ui.qml" line="8"/>
         <source></source>
-        <translation>Kontakty na pomoc</translation>
+        <translation>Kontakty pomoci</translation>
     </message>
     <message id="phone">
         <location filename="../src/qml/ContactsForm.ui.qml" line="13"/>
         <location filename="../src/qml/PhoneForm.ui.qml" line="7"/>
         <source></source>
-        <translation>Telefon</translation>
+        <translation>Telefón</translation>
     </message>
     <message id="self-harm-title">
         <location filename="../src/qml/SelfHarmForm.ui.qml" line="10"/>
         <source></source>
-        <translation>Chci si ublížit</translation>
+        <translation>Chcem si ublížiť</translation>
     </message>
     <message id="self-harm-tips">
         <location filename="../src/qml/SelfHarmForm.ui.qml" line="25"/>
         <location filename="../src/qml/SelfHarmTipsForm.ui.qml" line="5"/>
         <source></source>
-        <translation>Co mi může pomoci</translation>
+        <translation>Čo mi môže pomôcť</translation>
     </message>
     <message id="plan">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="43"/>
@@ -290,22 +264,22 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     <message id="feeling-bad-write">
         <location filename="../src/qml/PlanForm.ui.qml" line="22"/>
         <source></source>
-        <translation>Pokud mi bude zle, napíšu:</translation>
+        <translation>Ak mi bude zle, napíšem:</translation>
     </message>
     <message id="feeling-bad-write-body">
         <location filename="../src/qml/PlanForm.ui.qml" line="33"/>
         <source></source>
-        <translation>Co napíšu:</translation>
+        <translation>Čo napíšem:</translation>
     </message>
     <message id="feeling-bad-do">
         <location filename="../src/qml/PlanForm.ui.qml" line="45"/>
         <source></source>
-        <translation>Pokud mi bude zle, zkusím udělat:</translation>
+        <translation>Ak mi bude zle, skúsim urobiť:</translation>
     </message>
     <message id="feeling-bad-go">
         <location filename="../src/qml/PlanForm.ui.qml" line="55"/>
         <source></source>
-        <translation>Pokud mi bude zle, půjdu:</translation>
+        <translation>Ak mi bude zle, pôjdem:</translation>
     </message>
     <message id="people-to-write">
         <location filename="../src/qml/PlanForm.ui.qml" line="65"/>
@@ -317,146 +291,152 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <location filename="../src/qml/ReasonsForm.ui.qml" line="7"/>
         <location filename="../src/qml/SuicideForm.ui.qml" line="39"/>
         <source></source>
-        <translation>Důvody proč ne</translation>
+        <translation>Dôvody, prečo nie</translation>
     </message>
     <message id="reasons-text">
         <location filename="../src/qml/ReasonsForm.ui.qml" line="11"/>
         <source></source>
         <translation>
-        &lt;b&gt;Pokud budu žít, můžu ještě:&lt;/b&gt; &lt;br&gt;
-        Pomazlit se s domácím mazlíčkem&lt;br&gt;
-        (pejskem, kocourkem, morčetem)&lt;br&gt;
-        Zazpívat si při kytaře u táboráku&lt;br&gt;
-        Vystudovat to, co chci&lt;br&gt;
-        Najít si partnera&lt;br&gt;
-        Mít děti&lt;br&gt;
-        Pomáhat jiným&lt;br&gt;
+        &lt;b&gt;Ak budem žiť, môžem ešte:&lt;/b&gt; &lt;br&gt;
+        Pomazliť sa s domácim miláčikom&lt;br&gt;
+        (psíkom, kocúrikom, morčaťom)&lt;br&gt;
+        Zaspievať si s gitarou pri táboráku&lt;br&gt;
+        Vyštudovať to, čo chcem&lt;br&gt;
+        Nájsť si partnera&lt;br&gt;
+        Mať deti&lt;br&gt;
+        Pomáhať iným&lt;br&gt;
         </translation>
     </message>
     <message id="my-reasons">
         <location filename="../src/cpp/userdataprovider.cpp" line="97"/>
         <source></source>
-        <translation>Moje důvody...</translation>
+        <translation>Moje dôvody...</translation>
     </message>
     <message id="custom-write">
         <location filename="../src/cpp/userdataprovider.cpp" line="100"/>
         <source></source>
-        <translation>Komu napíšu...</translation>
+        <translation>Komu napíšem...</translation>
     </message>
     <message id="custom-write-body">
         <location filename="../src/cpp/userdataprovider.cpp" line="101"/>
         <source></source>
-        <translation>Ahoj, právě prožívám náročné období, můžeme si promluvit?</translation>
+        <translation>Ahoj, práve prežívam náročné obdobie, môžeme sa porozprávať?</translation>
     </message>
     <message id="custom-ppl">
         <location filename="../src/cpp/userdataprovider.cpp" line="102"/>
         <source></source>
-        <translation>Lidé, kterým na mě záleží</translation>
+        <translation>Ľudia, ktorým na mne záleží</translation>
     </message>
     <message id="custom-do">
         <location filename="../src/cpp/userdataprovider.cpp" line="103"/>
         <source></source>
-        <translation>Co udělám...</translation>
+        <translation>Čo urobím...</translation>
     </message>
     <message id="custom-go">
         <location filename="../src/cpp/userdataprovider.cpp" line="104"/>
         <source></source>
-        <translation>Kam půjdu...</translation>
+        <translation>Kam pôjdem...</translation>
     </message>
     <message id="plan-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="108"/>
         <source></source>
-        <translation>Nakoupím v obchodě</translation>
+        <translation>Nakúpim v obchodě</translation>
     </message>
     <message id="nice-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="112"/>
         <source></source>
-        <translation>Bylo krásné počasí...</translation>
+        <translation>Bolo krásne počasie...</translation>
     </message>
     <message id="phone-text">
         <location filename="../src/qml/PhoneForm.ui.qml" line="15"/>
         <source></source>
         <translation>
-        &lt;b&gt;Linka bezpečí&lt;/b&gt; &lt;br&gt;
-        Provoz: nonstop  &lt;br&gt;
-        Telefon:  &lt;a href=&quot;tel:116111&quot;&gt;116 111&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
-        &lt;b&gt;Spondea&lt;/b&gt;  &lt;br&gt;
-        Telefon:  &lt;a href=&quot;tel:541235511&quot;&gt;541 235 511&lt;/a&gt; &lt;br&gt; (po-pá 8:00 – 18:00), &lt;a href=&quot;tel:608118088&quot;&gt;608 118 008&lt;/a&gt; &lt;br&gt;  (so-ne 8:00 – 20:00)  &lt;br&gt; &lt;br&gt;
-        &lt;b&gt;KC Brno FN Bohunice&lt;/b&gt;  &lt;br&gt;                
-        Telefon: &lt;a href=&quot;tel:532232078&quot;&gt;532 232 078&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
-        &lt;b&gt;PN Bohnice&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:2840166668&quot;&gt;284 016 666&lt;/a&gt; &lt;br&gt; &lt;br&gt;
-        &lt;b&gt;Modrá linka&lt;/b&gt; &lt;br&gt;
-        Denně od 9 do 21 hodin &lt;br&gt;
-        Telefon:  &lt;a href=&quot;tel:549241010&quot;&gt;549 241 010&lt;/a&gt; &lt;br&gt;
-        Mobil: &lt;a href=&quot;tel:608902410&quot;&gt;608 902 410&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
-        &lt;b&gt;Záchranná služba:&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:155&quot;&gt;155&lt;/a&gt; &lt;br&gt; &lt;br&gt;
-        &lt;b&gt;Tísňové volání v rámci EU:&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:112&quot;&gt;112&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        &lt;b&gt;Bratislava&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:02/52495888&quot;&gt;02 / 5249 5888;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;b&gt;Trnava&lt;/b&gt; &lt;br&gt;
+        Otvorené srdce:  &lt;a href=&quot;tel:0911180276&quot;&gt;0911 180 276&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;b&gt;Nitra&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:037/523222&quot;&gt;037 / 523 222;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;b&gt;Košice&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:055/6222323&quot;&gt;055 / 622 2323;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:055/6441155&quot;&gt;055 / 6441 155 (nonstop);/a&gt; &lt;br&gt;  &lt;br&gt;
+        Pobočka Psychosociálneho Centra: &lt;a href=&quot;tel:055/6784520&quot;&gt;055 / 678 45 20;/a&gt; &lt;br&gt;  &lt;br&gt;
+        Psychosociálne Centrum: &lt;a href=&quot;tel:055/671935&quot;&gt;055 / 6 719 35;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;b&gt;Humenné&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:057/7754749&quot;&gt;057 / 775 4749;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;b&gt;Prešov&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:051/7731000&quot;&gt;051 / 7731 000 (nonstop);/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;b&gt;Linka dôvery nezábudka&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:0850111022&quot;&gt;0850 11 10 22;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;b&gt;Krízová nonstop linka, Aliancia žien&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:0903519550&quot;&gt;0903519550;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;b&gt;Linka detskej istoty UNICEF&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:116111&quot;&gt;116 111 nonstop (zdarma);/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;b&gt;Detská linka záchrany&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:0800121212&quot;&gt;0800 12 12 12, každý pracovný deň od 15:00 hod.- 20:00 hod.,;/a&gt; &lt;br&gt;  &lt;br&gt;
         </translation>
     </message>
     <message id="selfHarm-tips">
         <location filename="../src/qml/SelfHarmTips.qml" line="8"/>
         <source></source>
         <translation>
-Vezměte si kostku ledu&lt;br&gt;a přejíždějte si s ní po tom místě,&lt;br&gt;kde si chcete ublížit||
-Napište kamarádovi|Zeptejte se ho, jak se má.|
-Vezměte si červenou fixu&lt;br&gt;a malujte si po ruce||
-Bouchejte do polštáře||
-Napište na papír,&lt;br&gt;jak se cítíte a pak jej roztrhejte||
-Zmačkejte papír||
-Křičte||
-Zacvičte si|Projeďte se na kole&lt;br&gt;nebo si běžte zaběhat.|
-Jděte se projít|Najděte si oblíbenou trasu,&lt;br&gt;oblíbené místo a běžte na procházku.|
-Uklízejte|Utřete prach u sebe v pokoji,&lt;br&gt;vysajte.|
-Malujte|Vezměte si omalovánky&lt;br&gt;nebo si vytiskněte mandalu a vymalujte ji.|
-Nakreslete to,&lt;br&gt;co si chcete udělat||
-Zkuste jít spát||
-Relaxujte|Stáhněte si do mobilu řízenou relaxaci, pusťte si ji,&lt;br&gt;lehněte si na zem, uvolněte se, zavřete oči a relaxujte.|
-Dejte si studenou sprchu||
-Zatněte pěsti||
-Napište blízké osobě|Napište osobě, které věříte,&lt;br&gt;že Vám není dobře.|
-Jděte mezi lidi|Běžte se projít do centra&lt;br&gt;a kupte si něco hezkého.
+Vezmite si kocku ľadu&lt;br&gt;a prechádzajte si ňou po mieste,&lt;br&gt;kde si chcete ublížiť||
+Napíšte kamarátovi|Spýtajte sa ho, ako sa má.|
+Vezmite si červenú fixu&lt;br&gt;a maľujte si ňou po ruke||
+Udierajte do vankúša||
+Napíšte na papier&lt;br&gt;ako sa cítite, a potom ho roztrhajte.||
+Pokrčte papier||
+Kričte||
+Zacvičte si|Choďte na bicykel&lt;br&gt;alebo si choďte zabehať.|
+Choďte sa prejsť|Nájdite si obľúbenú trasu,&lt;br&gt;obľúbené miesto a choďte na prechádzku.|
+Upratujte|Utrite prach vo svojej izbe,&lt;br&gt;povysávajte.|
+Maľujte|Vezmite si omaľovávanky&lt;br&gt;alebo si vytlačte mandalu a vymaľujte ju.|
+Nakreslite to,&lt;br&gt;čo si chcete urobiť||
+Skúste zaspať||
+Relaxujte|Stiahnite si do mobilu riadenú relaxáciu, pustite si ju,&lt;br&gt;ľahnite si na zem, uvoľnite sa, zavrite oči a relaxujte.|
+Dajte si studenú sprchu||
+Zatnite päste||
+Napíšte blízkej osobe|Napíšte osobe, ktorej veríte,&lt;br&gt;že sa necítite dobre.|
+Choďte medzi ľudí|Choďte sa prejsť do centra&lt;br&gt;a kúpte si niečo pekné.
         </translation>
     </message>
     <message id="panic-tips">
         <location filename="../src/qml/PanicTips.qml" line="7"/>
         <source></source>
         <translation>
-Dýchejte&lt;br&gt;podle naší aplikace||
-Počítejte od 100 do 0||
-Vezměte si do ruky papír&lt;br&gt;a pořádně ho zmačkejte||
-Obejměte blízkou osobu||
-Zadržte dech||
-Dejte si čokoládu||
-Uklízejte|Utřete prach u sebe v pokoji, vysajte.|
-Podívejte se&lt;br&gt;na oblíbený film||
-Pomazlete se&lt;br&gt;s domácím mazlíčkem||
-Kreslete si|Vezměte si papír a tužku&lt;br&gt;a zkuste nakreslit Vaše emoce a pocity.|
-Poslouchejte hudbu|Vytvořte si na mobilu playlist&lt;br&gt;oblíbených písniček a poslouchejte je.|
-Jděte&lt;br&gt;na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;br&gt;běžte rychlým tempem.
+Dýchajte&lt;br&gt;podľa našej aplikácie||
+Počítajte od 100 do 0||
+Vezmite si do rúk papier&lt;br&gt;a poriadne ho pokrčte||
+Objímte blízku osobu||
+Zadržte dych||
+Dajte si čokoládu||
+Upratujte|Utrite prach vo svojej izbe, povysávajte.|
+Pozrite si&lt;br&gt;obľúbený film.||
+Pomazlite sa&lt;br&gt;s domácim miláčikom||
+Kreslite si|Vezmite si papier a ceruzku&lt;br&gt;a skúste nakresliť Vaše emócie a pocity.|
+Počúvajte hudbu|Vytvorte si v mobile playlist&lt;br&gt;obľúbených pesničiek a počúvajte ich.|
+Choďte&lt;br&gt;na čerstvý vzduch|Choďte na polhodinovú prechádzku,&lt;br&gt;bežte rýchlym tempom.
         </translation>
     </message>
     <message id="suicidal-thoughts-title">
         <location filename="../src/qml/SuicideForm.ui.qml" line="7"/>
         <source></source>
-        <translation>Myšlenky na sebevraždu</translation>
+        <translation>Myšlienky na samovraždu</translation>
     </message>
     <message id="depression-plan-header">
         <location filename="../src/qml/DepressionPlanForm.ui.qml" line="24"/>
         <source></source>
-        <translation>Zde si napíšu co všechno plánuju udělat:</translation>
+        <translation>Zde si napíšem čo všetkoo plánujem urobiť:</translation>
     </message>
     <message id="contact-us-text">
         <location filename="../src/qml/ContactUsForm.ui.qml" line="9"/>
         <source></source>
-        <translation>Máte-li připomínky či dotazy k této aplikaci, kontaktujte nás na adrese &lt;a href=&quot;mailto:nepanikar.info@gmail.com&quot;&gt;nepanikar.info@gmail.com&lt;/a&gt; &lt;br&gt; &lt;br&gt;</translation>
+        <translation>Ak máte pripomienky, alebo poznámky k tejto aplikácii, kontaktujte nás na adrese &lt;a href=&quot;mailto:nepanikar.info@gmail.com&quot;&gt;nepanikar.info@gmail.com&lt;/a&gt; &lt;br&gt; &lt;br&gt;</translation>
     </message>
     <message id="deperssion-nice-header">
         <location filename="../src/qml/DepressionNiceForm.ui.qml" line="20"/>
         <source></source>
-        <translation>Zde mohu napsat co mi dnes udělalo radost:</translation>
+        <translation>Tu môžem napísať čo mi dnes urobilo radosť:</translation>
     </message>
     <message id="dusi-link">
         <location filename="../src/qml/Support.qml" line="4"/>
@@ -472,29 +452,29 @@ Jděte&lt;br&gt;na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;b
         <location filename="../src/qml/AboutAppForm.ui.qml" line="6"/>
         <location filename="../src/qml/main.qml" line="167"/>
         <source></source>
-        <translation>O aplikaci</translation>
+        <translation>O aplikácii</translation>
     </message>
     <message id="aboutApp-text">
         <location filename="../src/qml/AboutAppForm.ui.qml" line="14"/>
         <source></source>
-        <translation>Tato aplikace slouží jako pomocný nástroj první pomoci&lt;br&gt; při psychických problémech typu deprese či panika.&lt;br&gt; Cílem aplikace není nahradit lékařskou péči,&lt;br&gt; pouze pomoci zmírnit příznaky.&lt;br&gt; V případě zhoršení stavu je nutné vyhledat odbornou pomoc.&lt;br&gt; Pokud Vám aplikace nepomáhá či si nejste jistí jejím významem pro Váš stav,&lt;br&gt; konzultujte její používání s Vašim lékařem.</translation>
+        <translation>Táto aplikácia slúži ako nástroj prvej pomoci&lt;br&gt; pri psychických problémoch ako sú depresia či panika.&lt;br&gt; Cieľom aplikácie nie je nahradiť lekársku starostlivosť,&lt;br&gt; ale pomôcť zmierniť príznaky.&lt;br&gt; V prípade zhoršenia stavu je nutné vyhľadať odbornú pomoc.&lt;br&gt;Pokiaľ Vám aplikácia nepomáha alebo si nie ste istí jej významom pre Váš stav,&lt;br&gt; konzultujte jej používanie s Vaším lekárom.</translation>
     </message>
     <message id="custom-theme">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="63"/>
         <location filename="../src/qml/CustomThemeForm.ui.qml" line="5"/>
         <location filename="../src/qml/main.qml" line="158"/>
         <source></source>
-        <translation>Nastavení barev</translation>
+        <translation>Nastavenie fareb</translation>
     </message>
     <message id="theme-slider">
         <location filename="../src/qml/CustomThemeForm.ui.qml" line="11"/>
         <source></source>
-        <translation>Zde můžete nastavit vlastní barvu pozadí</translation>
+        <translation>Tu môžete nastaviť vlastnú farbu pozadia</translation>
     </message>
     <message id="theme-slider-light">
         <location filename="../src/qml/CustomThemeForm.ui.qml" line="26"/>
         <source></source>
-        <translation>Zde upravte jas</translation>
+        <translation>Tu upravte jas</translation>
     </message>
     <message id="fb-link">
         <location filename="../src/qml/ContactUs.qml" line="4"/>
@@ -504,16 +484,16 @@ Jděte&lt;br&gt;na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;b
     <message id="mood-text">
         <location filename="../src/qml/DepressionMoodForm.ui.qml" line="28"/>
         <source></source>
-        <translation>Jak se dnes mám:</translation>
+        <translation>Ako sa dnes mám:</translation>
     </message>
     <message id="mood-history-text">
         <source></source>
-        <translation type="vanished">Přehled minulých nálad:</translation>
+        <translation type="vanished">Prehľad minulých nálad:</translation>
     </message>
     <message id="mood-no-data">
         <location filename="../src/qml/DepressionMoodForm.ui.qml" line="102"/>
         <source></source>
-        <translation>Graf vyžaduje minimálně dvě volby nálady</translation>
+        <translation>Graf vyžaduje minimálne dve voľby nálady</translation>
     </message>
 </context>
 </TS>

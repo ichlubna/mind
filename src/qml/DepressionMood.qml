@@ -41,24 +41,34 @@ DepressionMoodForm {
         chart.clear();
 
         console.log(moods.length);
-        for(const moodString of moods)
+        for(var i=range.first.value; i<=range.second.value; i++)
         {
+            var moodString = moods[i];
             var mood = moodString.split('|');
             chart.append(new Date(mood[0]), parseInt(mood[1]));
-            //console.log(new Date(mood[0]) + " " + mood[1]);
         }
-        chart.axisX.min = new Date(moods[0].split('|')[0]);
-        chart.axisX.max = new Date(moods[moods.length-1].split('|')[0]);
+        chart.axisX.min = new Date(moods[range.first.value].split('|')[0]);
+        chart.axisX.max = new Date(moods[range.second.value-1].split('|')[0]);
     }
 
     function init()
     {
-        moods = dataProvider.loadArrayInput("moods");
-
-       /* var d = new Date("Fri May 29 00:00:00 2019 GMT+0200") + "|1";
+        //moods = dataProvider.loadArrayInput("moods");
+        moods = [];
+        var d = new Date("Fri Feb 1 00:00:00 2019 GMT+0200") + "|1";
+                moods.push(d);
+        d = new Date("Fri Feb 7 00:00:00 2019 GMT+0200") + "|2";
+                moods.push(d);
+        d = new Date("Fri Mar 5 00:00:00 2019 GMT+0200") + "|3";
+                moods.push(d);
+        d = new Date("Fri Mar 20 00:00:00 2019 GMT+0200") + "|1";
+                moods.push(d);
+        d = new Date("Fri Mar 21 00:00:00 2019 GMT+0200") + "|5";
+                moods.push(d);
+        d = new Date("Fri Mar 25 00:00:00 2019 GMT+0200") + "|1";
                 moods.push(d);
         d = new Date("Fri May 30 00:00:00 2019 GMT+0200") + "|4";
-        moods.push(d);*/
+        moods.push(d);
 
         if(moods.length === 0)
             return;
@@ -73,6 +83,8 @@ DepressionMoodForm {
             markChoice(parseInt(lastMood[1]));
         }
 
+        range.to = moods.length-1;
+        range.second.value = moods.length-1;
         draw();
     }
 
@@ -90,7 +102,11 @@ DepressionMoodForm {
             if((new Date(lastMood[0])).getTime() === now.getTime())
                 moods[moods.length-1] = lastMood[0] + "|" + value;
             else
-                 moods.push(now + "|" + value);
+            {
+                moods.push(now + "|" + value);
+                range.to = moods.length-1;
+                range.second.value = moods.length-1;
+            }
         }
         else
             moods.push(now + "|" + value);
@@ -104,9 +120,13 @@ DepressionMoodForm {
         Component.onCompleted: {
             init()
         }}
+
     emoticon1.onClicked: save(5)
     emoticon2.onClicked: save(4)
     emoticon3.onClicked: save(3)
     emoticon4.onClicked: save(2)
     emoticon5.onClicked: save(1)
+
+    range.first.onMoved: draw()
+    range.second.onMoved: draw()
 }

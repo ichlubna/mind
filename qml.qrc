@@ -4,12 +4,23 @@
         <file>translation/EN.qm</file>
         <file>translation/CZ.ts</file>
         <file>translation/CZ.qm</file>
+        <file>translation/SK.ts</file>
+        <file>translation/SK.qm</file>
+        <file>translation/PL.ts</file>
+        <file>translation/PL.qm</file>
+        <file>translation/FR.ts</file>
+        <file>translation/FR.qm</file>
         <file>images/background.svg</file>
         <file>images/logo.svg</file>
         <file>images/back.svg</file>
         <file>images/exit.svg</file>
         <file>images/gear.svg</file>
         <file>images/fb.svg</file>
+        <file>images/CZ.svg</file>
+        <file>images/SK.svg</file>
+        <file>images/EN.svg</file>
+        <file>images/PL.svg</file>
+        <file>images/FR.svg</file>
         <file>images/emoticon1.svg</file>
         <file>images/emoticon2.svg</file>
         <file>images/emoticon3.svg</file>
@@ -89,5 +100,6 @@
         <file>src/qml/qmldir</file>
         <file>src/qml/DepressionMood.qml</file>
         <file>src/qml/DepressionMoodForm.ui.qml</file>
+        <file>src/qml/MenuComboBox.qml</file>
     </qresource>
 </RCC>

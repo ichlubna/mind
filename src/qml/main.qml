@@ -11,7 +11,10 @@ ApplicationWindow {
     height: 480
     title: qsTrId("appName")
 
-    onVisibilityChanged: {ThemeInfo.hueValue = dataProvider.loadInput("themeHue"); ThemeInfo.backgroundLightness = dataProvider.loadInput("themeLight");}
+    onVisibilityChanged: {
+        ThemeInfo.hueValue = dataProvider.loadInput("themeHue")
+        ThemeInfo.backgroundLightness = dataProvider.loadInput("themeLight")
+    }
 
     onClosing: {
         if (stackView.depth > 1) {
@@ -45,7 +48,7 @@ ApplicationWindow {
             source: barBckg
             hue: ThemeInfo.hueValue
             saturation: 0.6
-            lightness: ThemeInfo.backgroundLightness-ThemeInfo.elementSubtractor
+            lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
         }
 
         ToolButton {
@@ -86,6 +89,7 @@ ApplicationWindow {
         }
     }
 
+    //TODO to separate file
     Drawer {
         id: drawer
         width: window.width * 0.66
@@ -100,7 +104,7 @@ ApplicationWindow {
             source: bckg
             hue: ThemeInfo.hueValue
             saturation: 0.6
-            lightness: ThemeInfo.backgroundLightness-ThemeInfo.elementSubtractor
+            lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
         }
 
         Column {
@@ -172,7 +176,24 @@ ApplicationWindow {
                 text: qsTrId("exit")
                 width: parent.width
                 onClicked: {
-                    Qt.quit();
+                    Qt.quit()
+                }
+            }
+
+            Grid {
+                columns: 3
+                spacing: drawer.width*0.12
+                Repeater{
+                    model: ["CZ", "SK", "EN", "PL", "FR"]
+                    Button {
+                        background: Image {
+                            source: "qrc:/images/"+modelData+".svg"
+                            fillMode: Image.Stretch
+                        }
+                        onClicked: {dataProvider.setLanguage(modelData);}
+                        width: drawer.width*0.25
+                        height: width*0.7
+                    }
                 }
             }
         }

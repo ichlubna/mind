@@ -1,10 +1,14 @@
+#include <QApplication>
+#include <QTranslator>
+#include <QQmlApplicationEngine>
+#include <QQmlContext>
 #include "userdataprovider.h"
 
 UserDataProvider::UserDataProvider(QObject *parent) : QObject(parent), settings("DontPanicDevs", "DontPanic")
 {
     //reset to default values if first run
     if(!settings.contains("myReasons"))
-       resetInputs(true, true, true, true, true, true);
+       resetInputs(true, true, true, true, true, true, true);
     //to avoid getting red color when updating to version with color change option
     if(!settings.contains("themeLight"))
     {
@@ -63,6 +67,18 @@ float UserDataProvider::loadFloatInput(QString id)
     return settings.value(id).toFloat();
 }
 
+void UserDataProvider::setLanguage(QString language)
+{
+    QTranslator translator;
+    QApplication::removeTranslator(&translator);
+    translator.load(":/translation/"+language+".qm");
+    QApplication::installTranslator(&translator);
+    //QQmlApplicationEngine * engine = qobject_cast<QQmlApplicationEngine *>(qmlEngine(this));
+    QQmlEngine *engine = QQmlEngine::contextForObject(this)->engine();
+    engine->retranslate();
+    settings.setValue("language", language);
+}
+
 QList<QString> UserDataProvider::loadArrayInput(QString id)
 {
     QList<QString> values;
@@ -75,7 +91,7 @@ QList<QString> UserDataProvider::loadArrayInput(QString id)
     return values;
 }
 
-void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods)
+void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language)
 {
     if(reasons)
         settings.setValue("myReasons", qtTrId("my-reasons"));
@@ -101,5 +117,7 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
     }
     if(moods)
         saveArrayInput("moods", QList<QString>{});
+    if(language)
+        settings.remove("language");
 }
 

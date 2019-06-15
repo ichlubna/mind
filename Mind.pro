@@ -23,7 +23,7 @@ HEADERS += \
 
 RESOURCES += qml.qrc
 
-TRANSLATIONS = translation/EN.ts translation/CZ.ts
+TRANSLATIONS = translation/EN.ts translation/CZ.ts translation/SK.ts translation/PL.ts translation/FR.ts
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -49,7 +49,7 @@ DISTFILES += \
     android/res/drawable-hdpi/icon.png \
     android/res/drawable-ldpi/icon.png \
     android/res/drawable-mdpi/icon.png \
-    src/qml/qmldir
+    src/qml/qmldir \ \
 
 
 contains(ANDROID_TARGET_ARCH,arm64-v8a) {

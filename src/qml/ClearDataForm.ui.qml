@@ -9,6 +9,7 @@ MenuPage {
     property alias depresionPlanClear: depressionPlanClear
     property alias themeClear: themeClear
     property alias moodsClear: moodsClear
+    property alias moodsClear: languageClear
     title: qsTrId("clear-data")
 
     Grid {
@@ -24,7 +25,7 @@ MenuPage {
         }
         MenuCheckBox {
                 id: reasonsClear
-                checked: true;
+                checked: false;
         }
 
         DescriptionLabel {
@@ -34,7 +35,7 @@ MenuPage {
         }
         MenuCheckBox {
                 id: niceClear
-                checked: true;
+                checked: false;
         }
 
         DescriptionLabel {
@@ -44,7 +45,7 @@ MenuPage {
         }
         MenuCheckBox {
                 id: planClear
-                checked: true;
+                checked: false;
         }
 
         DescriptionLabel {
@@ -54,7 +55,7 @@ MenuPage {
         }
         MenuCheckBox {
                 id: depressionPlanClear
-                checked: true;
+                checked: false;
         }
 
         DescriptionLabel {
@@ -64,7 +65,7 @@ MenuPage {
         }
         MenuCheckBox {
                 id: themeClear
-                checked: true;
+                checked: false;
         }
 
         DescriptionLabel {
@@ -74,7 +75,17 @@ MenuPage {
         }
         MenuCheckBox {
                 id: moodsClear
-                checked: true;
+                checked: false;
+        }
+
+        DescriptionLabel {
+            id: languageClearText
+            text:  qsTrId("language")
+            width: parent.width*0.75
+        }
+        MenuCheckBox {
+                id: languageClear
+                checked: false;
         }
     }
     MenuButton {

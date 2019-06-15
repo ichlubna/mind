@@ -20,7 +20,8 @@ public:
     Q_INVOKABLE int loadIntInput(QString id);
     Q_INVOKABLE float loadFloatInput(QString id);
     Q_INVOKABLE QList<QString> loadArrayInput(QString id);
-    Q_INVOKABLE void resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods);
+    Q_INVOKABLE void setLanguage(QString language);
+    Q_INVOKABLE void resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language);
 
 private:
     QSettings settings;

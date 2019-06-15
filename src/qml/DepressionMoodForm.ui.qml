@@ -1,5 +1,6 @@
 import QtQuick 2.4
 import QtCharts 2.3
+import QtQuick.Controls 2.5
 
 MenuPage {
     id: moodPage
@@ -14,8 +15,12 @@ MenuPage {
     property alias emoticon4: emoticon4
     property alias emoticon5: emoticon5
     property alias chart: chart
+    property alias range: range
     property alias chartView: chartView
     property alias noData: noData
+    //property alias leftButton: leftButton
+    //property alias rightButton: rightButton
+
     title: qsTrId("depression-mood")
 
     DescriptionLabel {
@@ -91,11 +96,6 @@ MenuPage {
             }
         }
     }
-    DescriptionLabel {
-        id: moodHistoryText
-        text: qsTrId("mood-history-text")
-        anchors.top: emoticons.bottom
-    }
 
     DescriptionLabel {
         id: noData
@@ -114,10 +114,47 @@ MenuPage {
         backgroundColor: "transparent"
         legend.visible: false
         height: parent.height * 0.7
-        anchors.bottom: parent.bottom
         width: parent.width
         visible: false
+        anchors.bottom: parent.bottom
 
+        Column{
+            anchors.top: parent.top
+            anchors.topMargin: parent.height*0.1
+            height: chartView.height
+            spacing: parent.height*0.06
+            width: parent.width * 0.1
+            Image {
+                source: "qrc:/images/emoticon1.svg"
+                fillMode: Image.PreserveAspectFit
+                width: parent.width
+                height: parent.height*0.1
+        }
+            Image {
+                source: "qrc:/images/emoticon2.svg"
+                fillMode: Image.PreserveAspectFit
+                width: parent.width
+                height: parent.height*0.1
+        }
+            Image {
+                source: "qrc:/images/emoticon3.svg"
+                fillMode: Image.PreserveAspectFit
+                width: parent.width
+                height: parent.height*0.1
+        }
+            Image {
+                source: "qrc:/images/emoticon4.svg"
+                fillMode: Image.PreserveAspectFit
+                width: parent.width
+                height: parent.height*0.1
+        }
+            Image {
+                source: "qrc:/images/emoticon5.svg"
+                fillMode: Image.PreserveAspectFit
+                width: parent.width
+                height: parent.height*0.1
+        }
+        }
         LineSeries {
             id: chart
             width: 5
@@ -134,4 +171,21 @@ MenuPage {
             }
         }
     }
+
+    RangeSlider {
+        anchors.bottom: parent.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        height: parent.height*0.1
+        width: parent.width*0.9
+        id: range
+        from: 0
+        to: 1
+        stepSize: 1
+        snapMode: RangeSlider.SnapAlways
+        first.value: 0
+        second.value: 1
+    }
+
+
+
 }
