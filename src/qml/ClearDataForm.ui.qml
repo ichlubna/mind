@@ -9,7 +9,7 @@ MenuPage {
     property alias depresionPlanClear: depressionPlanClear
     property alias themeClear: themeClear
     property alias moodsClear: moodsClear
-    property alias moodsClear: languageClear
+    property alias languageClear: languageClear
     title: qsTrId("clear-data")
 
     Grid {
@@ -17,6 +17,7 @@ MenuPage {
         width: parent.width
         anchors.margins: 20
         columns:2
+        spacing: 20
 
         DescriptionLabel {
             id: reasonsClearText
@@ -96,5 +97,4 @@ MenuPage {
         anchors.horizontalCenter: parent.horizontalCenter
         width: parent.width*0.8
     }
-
 }

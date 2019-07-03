@@ -18,8 +18,6 @@ MenuPage {
     property alias range: range
     property alias chartView: chartView
     property alias noData: noData
-    //property alias leftButton: leftButton
-    //property alias rightButton: rightButton
 
     title: qsTrId("depression-mood")
 
@@ -116,7 +114,7 @@ MenuPage {
         height: parent.height * 0.7
         width: parent.width
         visible: false
-        anchors.bottom: parent.bottom
+        anchors.top: emoticons.bottom
 
         Column{
             anchors.top: parent.top

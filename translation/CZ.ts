@@ -47,7 +47,7 @@
     <message id="language">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="83"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Jazyk</translation>
     </message>
     <message id="clear-button">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="93"/>
@@ -165,33 +165,33 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Potvrdit</translation>
     </message>
     <message id="appName">
-        <location filename="../src/qml/main.qml" line="12"/>
+        <location filename="../src/qml/main.qml" line="13"/>
         <source></source>
         <translation>Nepanikař</translation>
     </message>
     <message id="resetInputs">
-        <location filename="../src/qml/main.qml" line="114"/>
+        <location filename="../src/qml/main.qml" line="115"/>
         <source></source>
         <translation>Vymazat uložená data</translation>
     </message>
     <message id="contactUs">
-        <location filename="../src/qml/main.qml" line="126"/>
+        <location filename="../src/qml/main.qml" line="127"/>
         <source></source>
         <translation>Kontaktujte nás</translation>
     </message>
     <message id="rate">
-        <location filename="../src/qml/main.qml" line="135"/>
+        <location filename="../src/qml/main.qml" line="136"/>
         <source></source>
         <translation>Ohodnoťte nás</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/main.qml" line="176"/>
+        <location filename="../src/qml/main.qml" line="177"/>
         <source></source>
         <translation>Ukončit</translation>
     </message>
     <message id="support">
         <location filename="../src/qml/SupportForm.ui.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="149"/>
+        <location filename="../src/qml/main.qml" line="150"/>
         <source></source>
         <translation>Podpořili nás</translation>
     </message>
@@ -202,27 +202,34 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Krizová centra</translation>
     </message>
     <message id="center-text">
-        <location filename="../src/qml/Center.qml" line="8"/>
-        <location filename="../src/qml/CenterForm.ui.qml" line="20"/>
+        <location filename="../src/qml/Center.qml" line="9"/>
+        <location filename="../src/qml/CenterForm.ui.qml" line="24"/>
         <source></source>
         <translation>
-        &lt;h2&gt;Praha&lt;/h2&gt;
+        &lt;h2&gt;Praha a Středočeský kraj&lt;/h2&gt;
         &lt;p&gt;Praha (KC Bohnice)&lt;br /&gt;Ústavní 91&lt;br /&gt; 181 02 Praha 8 &lt;br /&gt;&lt;a href=&quot;https://www.bohnice.cz/krizova-pomoc/&quot;&gt;bohnice.cz/krizova-pomoc&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Praha (RIAPS)&lt;br /&gt;Chelčického 39&lt;br /&gt; 130 00 Praha 3&lt;br /&gt;&lt;a href=&quot;https://www.csspraha.cz/24829-krizove-centrum-riaps&quot;&gt;csspraha.cz/24829-krizove-centrum-riaps&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Dětské krizové centrum&lt;br /&gt;Vzápolí 1250/21&lt;br /&gt; Praha 4 &lt;br /&gt;&lt;a href=&quot;http://www.ditekrize.cz&quot;&gt;ditekrize.cz&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Acorus - krizová pomoc&lt;br /&gt; Dělnická 213/12&lt;br /&gt; 170 00 Praha 7&lt;br /&gt;&lt;a href=&quot;http://www.acorus.cz&quot;&gt;acorus.cz&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Aqua vitae&lt;br /&gt;Americká 21&lt;br /&gt; 120 00 Praha &lt;br /&gt;&lt;a href=&quot;http://www.linkapomoci.cz&quot;&gt;linkapomoci.cz&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Dům Přemysla Pittra pro děti&lt;br /&gt;Karlovarská 18&lt;br /&gt; 161 00 Praha&lt;br /&gt;&lt;a href=&quot;http://www.dumtriprani.cz&quot;&gt;dumtriprani.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Modré dveře - Praha&lt;br /&gt;K Horkám 23/16&lt;br /&gt; 102 00, Praha 10 Hostivař&lt;br /&gt;&lt;a href=&quot;http://www.modredvere.cz/cz/modre-dvere-praha&quot;&gt;modredvere.cz/cz/modre-dvere-praha&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Modré dveře - Říčany&lt;br /&gt;ul.Tyrše a Fügnera 105/7&lt;br /&gt; 251 01, Říčany&lt;br /&gt;&lt;a href=&quot;http://www.modredvere.cz/cz/modre-dvere-ricany&quot;&gt;modredvere.cz/cz/modre-dvere-ricany&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Modré dveře - Kostelec nad Černými lesy&lt;br /&gt;náměstí Smiřických 39&lt;br /&gt; 281 63, Kostelec nad Černými lesy&lt;br /&gt;&lt;a href=&quot;http://www.modredvere.cz/cz/modre-dvere-kostelec-nad-cernymi-lesy&quot;&gt;modredvere.cz/cz/modre-dvere-kostelec-nad-cernymi-lesy&lt;/a&gt;&lt;/p&gt;
         |
         &lt;h2&gt;Jihomoravský kraj&lt;/h2&gt;
         &lt;p&gt;Brno (centrum krizové intervence)&lt;br /&gt;Jihlavská 20&lt;br /&gt; 625 00 Brno &lt;br /&gt;&lt;a href=&quot;http://psychiatrie.med.muni.cz/index.php?pg=zdravotnicka-pece--oddeleni#kc&quot;&gt;psychiatrie.med.muni.cz&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Krizové centrum&lt;br /&gt; pro děti a dospívající&lt;br /&gt;Hapalova 4&lt;br /&gt; 621 00 Brno&lt;br /&gt;&lt;a href=&quot;http://www.krizovecentrum.cz&quot;&gt;krizovecentrum.cz&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Okno dokořán Blansko&lt;br /&gt; Krizová pomoc&lt;br /&gt;Komenského 19&lt;br /&gt; 678 01 Blansko&lt;br /&gt;&lt;a href=&quot;http://www.blansko.caritas.cz&quot;&gt;blansko.caritas.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;SPONDEA , o.p.s.&lt;br /&gt;Sýpka 1351/25&lt;br /&gt; 613 00 Brno-sever, Černá Pole&lt;br /&gt;&lt;a href=&quot;http://www.spondea.cz&quot;&gt;spondea.cz&lt;/a&gt;&lt;/p&gt;
         |
         &lt;h2&gt;Jihočeský kraj&lt;/h2&gt;
         &lt;p&gt;Krizové centrum&lt;br /&gt;Centrum pomoci rodině a dětem&lt;br /&gt;Velké náměstí 14&lt;br /&gt; 383 01 Prachatice&lt;br /&gt;&lt;a href=&quot;http://www.portusprachatice.cz&quot;&gt;portusprachatice.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Arkáda, o.s.&lt;br /&gt;Husovo náměstí 2/24&lt;br /&gt; 397 01 Písek &lt;br /&gt;&lt;a href=&quot;http://www.arkadacentrum.cz&quot;&gt;arkadacentrum.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Arkáda, o.s. - Písek&lt;br /&gt;Husovo náměstí 2/24&lt;br /&gt;397 01 Písek&lt;br /&gt;&lt;a href=&quot;http://www.arkadacentrum.cz&quot;&gt;arkadacentrum.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Arkáda, o.s. - Milevsko&lt;br /&gt;nám. E. Beneše 12&lt;br /&gt;399 01 Milevsko&lt;br /&gt;&lt;a href=&quot;http://www.arkadacentrum.cz&quot;&gt;arkadacentrum.cz&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;České Budějovice (KC pro děti a rodinu)&lt;br /&gt;10 1549 Jiráskovo nábřeží&lt;br /&gt; 370 04 České Budějovice &lt;br /&gt;&lt;a href=&quot;http://www.ditevkrizi.cz/&quot;&gt;ditevkrizi.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Portus Prachatice, o.p.s.&lt;br /&gt;Velké náměstí 14&lt;br /&gt;383 01 Prachatice I&lt;br /&gt;&lt;a href=&quot;http://www.portusprachatice.cz&quot;&gt;portusprachatice.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;THEiA - krizové centrum o.p.s.&lt;br /&gt;Mánesova 11/3b&lt;br /&gt;370 01 České Budějovice&lt;br /&gt;&lt;a href=&quot;http://www.theia.cz&quot;&gt;theia.cz&lt;/a&gt;&lt;/p&gt;
         |
         &lt;h2&gt;Olomoucký kraj&lt;/h2&gt;
         &lt;p&gt;Olomouc (KC intervence)&lt;br /&gt;Dolní nám. 55/33&lt;br /&gt; 779 00 Olomouc&lt;br /&gt;&lt;a href=&quot;https://www.olomouc.charita.cz/sluzby/spp/kic/&quot;&gt;olomouc.charita.cz&lt;/a&gt;&lt;/p&gt;
@@ -240,6 +247,21 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         |
         &lt;h2&gt;Královéhradecký kraj&lt;/h2&gt;
         &lt;p&gt;RIAPS Trutnov&lt;br /&gt;Procházkova 818&lt;br /&gt; 541 01 Trutnov&lt;br /&gt;&lt;a href=&quot;http://www.riaps.cz&quot;&gt;riaps.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;NOMIA, z.ú.&lt;br /&gt;třída Edvarda Beneše 575/90,&lt;br /&gt;500 12 Třebeš&lt;br /&gt;&lt;a href=&quot;http://www.nomiahk.cz&quot;&gt;nomiahk.cz&lt;/a&gt;&lt;/p&gt;
+        |
+        &lt;h2&gt;Pardubický kraj&lt;/h2&gt;
+        &lt;p&gt;Centrum J. J. Pestalozziho, o.p.s. - Chrudim&lt;br /&gt;Štěpánkova, č.p. 107 a 108&lt;br /&gt;537 01 Chrudim&lt;br /&gt;&lt;a href=&quot;https://pestalozzi.cz/sluzby/krizove-centrum-chrudim/&quot;&gt;pestalozzi.cz/sluzby/krizove-centrum-chrudim&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Centrum J. J. Pestalozziho, o.p.s. - Svitavy&lt;br /&gt;Milady Horákové, č.p. 10&lt;br /&gt;568 02 Svitavy&lt;br /&gt;&lt;a href=&quot;https://pestalozzi.cz/sluzby/krizove-centrum-svitavy/&quot;&gt;pestalozzi.cz/sluzby/krizove-centrum-svitavy&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Centrum J. J. Pestalozziho, o.p.s. - Žamberk&lt;br /&gt;Masarykovo náměstí, č.p. 86&lt;br /&gt;564 01 Žamberk&lt;br /&gt;&lt;a href=&quot;https://pestalozzi.cz/sluzby/krizove-centrum-zamberk/&quot;&gt;pestalozzi.cz/sluzby/krizove-centrum-zamberk&lt;/a&gt;&lt;/p&gt;
+        |
+        &lt;h2&gt;Kraj Vysočina&lt;/h2&gt;
+        &lt;p&gt;Centrum J. J. Pestalozziho, o.p.s. - Jihlava&lt;br /&gt;Štefanikovo nám., č.p. 1972/2&lt;br /&gt;586 01 Jihlava&lt;br /&gt;&lt;a href=&quot;https://pestalozzi.cz/sluzby/krizove-centrum-jihlava/&quot;&gt;pestalozzi.cz/sluzby/krizove-centrum-jihlava&lt;/a&gt;&lt;/p&gt;
+        |
+        &lt;h2&gt;Ústecký kraj&lt;/h2&gt;
+        &lt;p&gt;Most k naději, z. s.&lt;br /&gt;Petra Jilemnického 1929/9&lt;br /&gt;434 01 Most&lt;br /&gt;&lt;a href=&quot;http://www.mostknadeji.cz&quot;&gt;mostknadeji.cz&lt;/a&gt;&lt;/p&gt;
+        |
+        &lt;h2&gt;Zlínský kraj&lt;/h2&gt;
+        &lt;p&gt;Dětské centrum Zlín&lt;br /&gt;Burešov 3675/4&lt;br /&gt;760 01 Zlín&lt;br /&gt;&lt;a href=&quot;http://www.dczlin.cz&quot;&gt;dczlin.cz&lt;/a&gt;&lt;/p&gt;
         </translation>
     </message>
     <message id="chat">
@@ -256,6 +278,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         &lt;a href=&quot;http://www.elinka.iporadna.cz&quot;&gt;Internetové poradny&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;Internetová poradna pre mladých (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt; 
         &lt;a href=&quot;http://www.modralinka.cz/?page=chat&quot;&gt;Modrá linka&lt;/a&gt; &lt;br&gt;&lt;br&gt;
+        &lt;a href=&quot;http://chat.linkabezpeci.cz/LBCS-war/PUBLIC/clientlogin.jsp&quot;&gt;Linka bezpečí&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         </translation>
     </message>
     <message id="contacts">
@@ -379,16 +402,16 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>
         &lt;b&gt;Linka bezpečí&lt;/b&gt; &lt;br&gt;
         Provoz: nonstop  &lt;br&gt;
-        Telefon:  &lt;a href=&quot;tel:116111&quot;&gt;116 111&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:116111&quot;&gt;116 111&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Spondea&lt;/b&gt;  &lt;br&gt;
-        Telefon:  &lt;a href=&quot;tel:541235511&quot;&gt;541 235 511&lt;/a&gt; &lt;br&gt; (po-pá 8:00 – 18:00), &lt;a href=&quot;tel:608118088&quot;&gt;608 118 008&lt;/a&gt; &lt;br&gt;  (so-ne 8:00 – 20:00)  &lt;br&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:541235511&quot;&gt;541 235 511&lt;/a&gt; &lt;br&gt; (po-pá 8:00 – 18:00), &lt;a href=&quot;tel:608118088&quot;&gt;608 118 008&lt;/a&gt; &lt;br&gt;  (so-ne 8:00 – 20:00)  &lt;br&gt; &lt;br&gt;
         &lt;b&gt;KC Brno FN Bohunice&lt;/b&gt;  &lt;br&gt;                
-        Telefon: &lt;a href=&quot;tel:532232078&quot;&gt;532 232 078&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:532232078&quot;&gt;532 232 078&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;PN Bohnice&lt;/b&gt; &lt;br&gt;
         &lt;a href=&quot;tel:2840166668&quot;&gt;284 016 666&lt;/a&gt; &lt;br&gt; &lt;br&gt;
         &lt;b&gt;Modrá linka&lt;/b&gt; &lt;br&gt;
         Denně od 9 do 21 hodin &lt;br&gt;
-        Telefon:  &lt;a href=&quot;tel:549241010&quot;&gt;549 241 010&lt;/a&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:549241010&quot;&gt;549 241 010&lt;/a&gt; &lt;br&gt;
         Mobil: &lt;a href=&quot;tel:608902410&quot;&gt;608 902 410&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Záchranná služba:&lt;/b&gt; &lt;br&gt;
         &lt;a href=&quot;tel:155&quot;&gt;155&lt;/a&gt; &lt;br&gt; &lt;br&gt;
@@ -435,7 +458,7 @@ Podívejte se&lt;br&gt;na oblíbený film||
 Pomazlete se&lt;br&gt;s domácím mazlíčkem||
 Kreslete si|Vezměte si papír a tužku&lt;br&gt;a zkuste nakreslit Vaše emoce a pocity.|
 Poslouchejte hudbu|Vytvořte si na mobilu playlist&lt;br&gt;oblíbených písniček a poslouchejte je.|
-Jděte&lt;br&gt;na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;br&gt;běžte rychlým tempem.
+Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;br&gt;běžte rychlým tempem.
         </translation>
     </message>
     <message id="suicidal-thoughts-title">
@@ -470,7 +493,7 @@ Jděte&lt;br&gt;na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;b
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/AboutAppForm.ui.qml" line="6"/>
-        <location filename="../src/qml/main.qml" line="167"/>
+        <location filename="../src/qml/main.qml" line="168"/>
         <source></source>
         <translation>O aplikaci</translation>
     </message>
@@ -482,7 +505,7 @@ Jděte&lt;br&gt;na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;b
     <message id="custom-theme">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="63"/>
         <location filename="../src/qml/CustomThemeForm.ui.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="158"/>
+        <location filename="../src/qml/main.qml" line="159"/>
         <source></source>
         <translation>Nastavení barev</translation>
     </message>
@@ -505,10 +528,6 @@ Jděte&lt;br&gt;na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;b
         <location filename="../src/qml/DepressionMoodForm.ui.qml" line="28"/>
         <source></source>
         <translation>Jak se dnes mám:</translation>
-    </message>
-    <message id="mood-history-text">
-        <source></source>
-        <translation type="vanished">Přehled minulých nálad:</translation>
     </message>
     <message id="mood-no-data">
         <location filename="../src/qml/DepressionMoodForm.ui.qml" line="102"/>

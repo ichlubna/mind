@@ -49,15 +49,25 @@ int main(int argc, char *argv[])
     }
     else
         langString = settings.value("language").toString();
-langString = "CZ";
-    QTranslator translator;
-    translator.load(":/translation/"+langString+".qm");
-    app.installTranslator(&translator);
 
-    QQmlApplicationEngine engine;
-    engine.load(QUrl(QStringLiteral("qrc:/src/qml/main.qml")));
-    if (engine.rootObjects().isEmpty())
-        return -1;
+    int returnValue = 0;
+    do
+    {
+        QTranslator translator;
+        translator.load(":/translation/"+langString+".qm");
+        app.installTranslator(&translator);
 
-    return app.exec();
+        QQmlApplicationEngine engine;
+        engine.load(QUrl(QStringLiteral("qrc:/src/qml/main.qml")));
+        if (engine.rootObjects().isEmpty())
+            return -1;
+
+        returnValue = app.exec();
+
+        langString = settings.value("language").toString();
+    }
+    while(returnValue == UserDataProvider::TRANSLATION_RESTART);
+
+
+    return returnValue;
 }

@@ -69,14 +69,8 @@ float UserDataProvider::loadFloatInput(QString id)
 
 void UserDataProvider::setLanguage(QString language)
 {
-    QTranslator translator;
-    QApplication::removeTranslator(&translator);
-    translator.load(":/translation/"+language+".qm");
-    QApplication::installTranslator(&translator);
-    //QQmlApplicationEngine * engine = qobject_cast<QQmlApplicationEngine *>(qmlEngine(this));
-    QQmlEngine *engine = QQmlEngine::contextForObject(this)->engine();
-    engine->retranslate();
     settings.setValue("language", language);
+    qApp->exit(TRANSLATION_RESTART);
 }
 
 QList<QString> UserDataProvider::loadArrayInput(QString id)

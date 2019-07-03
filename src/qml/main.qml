@@ -1,5 +1,6 @@
 import QtQuick 2.9
 import QtQuick.Controls 2.2
+import QtQuick.Layouts 1.12
 import io.qt.UserDataProvider 1.0
 import QtGraphicalEffects 1.0
 import "."
@@ -10,6 +11,10 @@ ApplicationWindow {
     width: 640
     height: 480
     title: qsTrId("appName")
+
+    UserDataProvider {
+        id: dataProvider
+    }
 
     onVisibilityChanged: {
         ThemeInfo.hueValue = dataProvider.loadInput("themeHue")
@@ -113,9 +118,6 @@ ApplicationWindow {
             ItemDelegate {
                 text: qsTrId("resetInputs")
                 width: parent.width
-                UserDataProvider {
-                    id: dataProvider
-                }
                 onClicked: {
                     stackView.push("ClearData.qml")
                     drawer.close()
@@ -180,20 +182,35 @@ ApplicationWindow {
                 }
             }
 
-            Grid {
+            GridLayout {
                 columns: 3
-                spacing: drawer.width*0.12
+                width: drawer.width
                 Repeater{
-                    model: ["CZ", "SK", "EN", "PL", "FR"]
-                    Button {
+                    model: ["CZ", "SK", "PL", "FR", "EN"]
+                    RoundButton {
                         background: Image {
                             source: "qrc:/images/"+modelData+".svg"
-                            fillMode: Image.Stretch
                         }
                         onClicked: {dataProvider.setLanguage(modelData);}
-                        width: drawer.width*0.25
-                        height: width*0.7
+                        Layout.maximumWidth: drawer.width*0.2
+                        Layout.maximumHeight: drawer.width*0.2
+                        Layout.topMargin: 20
+                        Layout.margins: 10
+                        opacity: 0.5
                     }
+                }
+            }
+
+            Image {
+                width: parent.width * 0.25
+                source: "qrc:/images/fb.svg"
+                fillMode: Image.PreserveAspectFit
+                anchors.horizontalCenter: parent.horizontalCenter
+                //anchors.bottom: parent.bottom
+                //anchors.margins: 10
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: Qt.openUrlExternally(qsTrId("fb-link"))
                 }
             }
         }

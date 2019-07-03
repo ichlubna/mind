@@ -23,6 +23,8 @@ public:
     Q_INVOKABLE void setLanguage(QString language);
     Q_INVOKABLE void resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language);
 
+    static constexpr int TRANSLATION_RESTART = 42;
+
 private:
     QSettings settings;
 };

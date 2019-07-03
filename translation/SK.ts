@@ -66,7 +66,7 @@
         <source></source>
         <translation>
 Športujte|Vezmite si bicykel&lt;br&gt;a choďte na polhodinovú jazdu.|
-Nebuďte sami|Napíšte alebo zavolajte rodičom,&lt;br&gt;, partnerke, partnerovi, kamarátke, kamarátovi.&lt;br&gt;Choďte ich navštíviť.|
+Nebuďte sami|Napíšte alebo zavolajte rodičom,&lt;br&gt;partnerke, partnerovi, kamarátke, kamarátovi.&lt;br&gt;Choďte ich navštíviť.|
 Meditujte|Pohodlne sa posaďte,&lt;br&gt;zavrite oči a zhlboka sa nadýchnite.&lt;br&gt;Potom nechajte svoje myšlienky voľne plynúť.|
 Skončite s fajčením,&lt;br&gt;nepite alkohol|Uvarte si bylinkový alebo ovocný čaj.|
 Porozprávajte sa&lt;br&gt;so (školským) psychológom|Dohodnite si stretnutie v čo najkratšom čase.|
@@ -165,33 +165,33 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <translation>Potvrdiť</translation>
     </message>
     <message id="appName">
-        <location filename="../src/qml/main.qml" line="12"/>
+        <location filename="../src/qml/main.qml" line="13"/>
         <source></source>
         <translation>Nepanikár</translation>
     </message>
     <message id="resetInputs">
-        <location filename="../src/qml/main.qml" line="114"/>
+        <location filename="../src/qml/main.qml" line="115"/>
         <source></source>
         <translation>Vymazať uložené dáta</translation>
     </message>
     <message id="contactUs">
-        <location filename="../src/qml/main.qml" line="126"/>
+        <location filename="../src/qml/main.qml" line="127"/>
         <source></source>
         <translation>Kontaktujte nás</translation>
     </message>
     <message id="rate">
-        <location filename="../src/qml/main.qml" line="135"/>
+        <location filename="../src/qml/main.qml" line="136"/>
         <source></source>
         <translation>Ohodnoťte nás</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/main.qml" line="176"/>
+        <location filename="../src/qml/main.qml" line="177"/>
         <source></source>
         <translation>Ukončiť</translation>
     </message>
     <message id="support">
         <location filename="../src/qml/SupportForm.ui.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="149"/>
+        <location filename="../src/qml/main.qml" line="150"/>
         <source></source>
         <translation>Podporili nás</translation>
     </message>
@@ -202,15 +202,17 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <translation>Krízové centrá</translation>
     </message>
     <message id="center-text">
-        <location filename="../src/qml/Center.qml" line="8"/>
-        <location filename="../src/qml/CenterForm.ui.qml" line="20"/>
+        <location filename="../src/qml/Center.qml" line="9"/>
+        <location filename="../src/qml/CenterForm.ui.qml" line="24"/>
         <source></source>
         <translation>
         &lt;h2&gt;Trnava&lt;/h2&gt;
         &lt;p&gt;Občianske združenie Otvorené srdce&lt;br /&gt;B.Smetanu&lt;br /&gt; 917 08 Trnava &lt;br /&gt;&lt;a href=&quot;http://www.otvorene-srdce.sk/&quot;&gt;otvorene-srdce.sk&lt;/a&gt;&lt;/p&gt;
+        |
         &lt;h2&gt;Košice&lt;/h2&gt;
         &lt;p&gt;Psychosociálne Centrum&lt;br /&gt;Jegorovovo námestie 5&lt;br /&gt; 040 22 Košice &lt;br /&gt;&lt;a href=&quot;mailto:pscentrumke@gmail.com&quot;&gt;pscentrumke@gmail.com&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Pobočka Psychosociálneho Centra&lt;br /&gt;Južná trieda č.23&lt;br /&gt; 040 03 Košice &lt;/p&gt;
+        |
         &lt;h2&gt;Liptovský Mikuláš&lt;/h2&gt;
         &lt;p&gt;Centrum duševného zdravia&lt;br /&gt;Garbiarska 3948/8&lt;br /&gt; 031 01 Liptovský Mikuláš &lt;/p&gt;
         </translation>
@@ -340,7 +342,7 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
     <message id="plan-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="108"/>
         <source></source>
-        <translation>Nakúpim v obchodě</translation>
+        <translation>Nakúpim v obchode</translation>
     </message>
     <message id="nice-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="112"/>
@@ -352,28 +354,28 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <source></source>
         <translation>
         &lt;b&gt;Bratislava&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:02/52495888&quot;&gt;02 / 5249 5888;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:02/52495888&quot;&gt;02 / 5249 5888&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Trnava&lt;/b&gt; &lt;br&gt;
         Otvorené srdce:  &lt;a href=&quot;tel:0911180276&quot;&gt;0911 180 276&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Nitra&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:037/523222&quot;&gt;037 / 523 222;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:037/523222&quot;&gt;037 / 523 222&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Košice&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:055/6222323&quot;&gt;055 / 622 2323;/a&gt; &lt;br&gt;  &lt;br&gt;
-        &lt;a href=&quot;tel:055/6441155&quot;&gt;055 / 6441 155 (nonstop);/a&gt; &lt;br&gt;  &lt;br&gt;
-        Pobočka Psychosociálneho Centra: &lt;a href=&quot;tel:055/6784520&quot;&gt;055 / 678 45 20;/a&gt; &lt;br&gt;  &lt;br&gt;
-        Psychosociálne Centrum: &lt;a href=&quot;tel:055/671935&quot;&gt;055 / 6 719 35;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:055/6222323&quot;&gt;055 / 622 2323&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:055/6441155&quot;&gt;055 / 6441 155 (nonstop)&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
+        Pobočka Psychosociálneho Centra: &lt;a href=&quot;tel:055/6784520&quot;&gt;055 / 678 45 20&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
+        Psychosociálne Centrum: &lt;a href=&quot;tel:055/671935&quot;&gt;055 / 6 719 35&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Humenné&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:057/7754749&quot;&gt;057 / 775 4749;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:057/7754749&quot;&gt;057 / 775 4749&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Prešov&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:051/7731000&quot;&gt;051 / 7731 000 (nonstop);/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:051/7731000&quot;&gt;051 / 7731 000 (nonstop)&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Linka dôvery nezábudka&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:0850111022&quot;&gt;0850 11 10 22;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:0850111022&quot;&gt;0850 11 10 22&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Krízová nonstop linka, Aliancia žien&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:0903519550&quot;&gt;0903519550;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:0903519550&quot;&gt;0903519550&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Linka detskej istoty UNICEF&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:116111&quot;&gt;116 111 nonstop (zdarma);/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:116111&quot;&gt;116 111 nonstop (zdarma)&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Detská linka záchrany&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:0800121212&quot;&gt;0800 12 12 12, každý pracovný deň od 15:00 hod.- 20:00 hod.,;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:0800121212&quot;&gt;0800 12 12 12, každý pracovný deň od 15:00 hod.- 20:00 hod.,&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         </translation>
     </message>
     <message id="selfHarm-tips">
@@ -426,7 +428,7 @@ Choďte&lt;br&gt;na čerstvý vzduch|Choďte na polhodinovú prechádzku,&lt;br&
     <message id="depression-plan-header">
         <location filename="../src/qml/DepressionPlanForm.ui.qml" line="24"/>
         <source></source>
-        <translation>Zde si napíšem čo všetkoo plánujem urobiť:</translation>
+        <translation>Zde si napíšem čo všetko plánujem urobiť:</translation>
     </message>
     <message id="contact-us-text">
         <location filename="../src/qml/ContactUsForm.ui.qml" line="9"/>
@@ -450,7 +452,7 @@ Choďte&lt;br&gt;na čerstvý vzduch|Choďte na polhodinovú prechádzku,&lt;br&
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/AboutAppForm.ui.qml" line="6"/>
-        <location filename="../src/qml/main.qml" line="167"/>
+        <location filename="../src/qml/main.qml" line="168"/>
         <source></source>
         <translation>O aplikácii</translation>
     </message>
@@ -462,7 +464,7 @@ Choďte&lt;br&gt;na čerstvý vzduch|Choďte na polhodinovú prechádzku,&lt;br&
     <message id="custom-theme">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="63"/>
         <location filename="../src/qml/CustomThemeForm.ui.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="158"/>
+        <location filename="../src/qml/main.qml" line="159"/>
         <source></source>
         <translation>Nastavenie fareb</translation>
     </message>
@@ -485,10 +487,6 @@ Choďte&lt;br&gt;na čerstvý vzduch|Choďte na polhodinovú prechádzku,&lt;br&
         <location filename="../src/qml/DepressionMoodForm.ui.qml" line="28"/>
         <source></source>
         <translation>Ako sa dnes mám:</translation>
-    </message>
-    <message id="mood-history-text">
-        <source></source>
-        <translation type="vanished">Prehľad minulých nálad:</translation>
     </message>
     <message id="mood-no-data">
         <location filename="../src/qml/DepressionMoodForm.ui.qml" line="102"/>

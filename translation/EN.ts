@@ -23,7 +23,7 @@
         <location filename="../src/qml/DepressionForm.ui.qml" line="14"/>
         <location filename="../src/qml/DepressionHelpForm.ui.qml" line="5"/>
         <source></source>
-        <translation>Tips that could help</translation>
+        <translation>What can help me</translation>
     </message>
     <message id="depression-mood">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="73"/>
@@ -42,7 +42,7 @@
         <location filename="../src/qml/DepressionForm.ui.qml" line="19"/>
         <location filename="../src/qml/DepressionPlanForm.ui.qml" line="7"/>
         <source></source>
-        <translation>Activity planning</translation>
+        <translation>Activity planner</translation>
     </message>
     <message id="language">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="83"/>
@@ -67,16 +67,16 @@
         <translation>
 Do some sports|Take a bike&lt;br&gt;and go for a half-hour-long ride.|
 Do not be alone|Write a message,&lt;br&gt;or call your parents, partner or friend.&lt;br&gt;Go visit them.|
-Try meditation|Sit down comfortably,&lt;br&gt;close your eyes and take a couple of deep breaths.&lt;br&gt;Flow with whatever is happening&lt;br&gt;and let your mind be free.|
+Try meditation|Sit down comfortably,&lt;br&gt;close your eyes and take a couple of deep breaths.&lt;br&gt;Let your thoughts flow&lt;br&gt;and let your mind be free.|
 Do not smoke&lt;br&gt;or drink alcohol|Make yourself a herbal or fruit tea.|
 Talk to a school counsellor&lt;br&gt;or psychologist|Make sure to arrange a meeting&lt;br&gt;as soon as possible.|
 Listen to music|Create a playlist of your&lt;br&gt;favourite songs and listen to them.|
 Meet with your friends|Write a message or call your friends&lt;br&gt;and go hang out with them.|
 Watch your favourite movie|Watch a movie you like&lt;br&gt;or some videos on the Internet.|
-Write a message to your close person|Write to someone you trust&lt;br&gt;about how you feel.|
+Write a message to your close friend&lt;br&gt;or family member|Write to someone you trust&lt;br&gt;about how you feel.|
 Draw|Take any colouring book&lt;br&gt;or print a mandala and paint it.|
-Do some exercises|Running, riding a bike or taking a longer walk&lt;br&gt;could help you.|
-Relax|Use your phone and download a relaxing app&lt;br&gt;which will guide you. Play it, make yourself feel&lt;br&gt;comfortable on the floor, unwind, close your eyes and relax.|
+Exercise|Running, riding a bike or taking a longer walk&lt;br&gt;could help you.|
+Relax|Use your phone and download a guided relaxation app&lt;br&gt;which will guide you. Play it, make yourself feel&lt;br&gt;comfortable on the floor, unwind, close your eyes and relax.|
 Play a musical instrument|Play your favourite music composition.|
 Read|Read something interesting.&lt;br&gt;A book, magazine or some online articles.|
 Hug someone you love|Or you can cuddle your pet.
@@ -165,33 +165,33 @@ Hug someone you love|Or you can cuddle your pet.
         <translation>Confirm</translation>
     </message>
     <message id="appName">
-        <location filename="../src/qml/main.qml" line="12"/>
+        <location filename="../src/qml/main.qml" line="13"/>
         <source></source>
         <translation>Don&apos;t panic</translation>
     </message>
     <message id="resetInputs">
-        <location filename="../src/qml/main.qml" line="114"/>
+        <location filename="../src/qml/main.qml" line="115"/>
         <source></source>
         <translation>Delete saved data</translation>
     </message>
     <message id="contactUs">
-        <location filename="../src/qml/main.qml" line="126"/>
+        <location filename="../src/qml/main.qml" line="127"/>
         <source></source>
         <translation>Contact us</translation>
     </message>
     <message id="rate">
-        <location filename="../src/qml/main.qml" line="135"/>
+        <location filename="../src/qml/main.qml" line="136"/>
         <source></source>
         <translation>Rate us</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/main.qml" line="176"/>
+        <location filename="../src/qml/main.qml" line="177"/>
         <source></source>
         <translation>Quit</translation>
     </message>
     <message id="support">
         <location filename="../src/qml/SupportForm.ui.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="149"/>
+        <location filename="../src/qml/main.qml" line="150"/>
         <source></source>
         <translation>Supported by</translation>
     </message>
@@ -202,12 +202,18 @@ Hug someone you love|Or you can cuddle your pet.
         <translation>Crisis centers</translation>
     </message>
     <message id="center-text">
-        <location filename="../src/qml/Center.qml" line="8"/>
-        <location filename="../src/qml/CenterForm.ui.qml" line="20"/>
+        <location filename="../src/qml/Center.qml" line="9"/>
+        <location filename="../src/qml/CenterForm.ui.qml" line="24"/>
         <source></source>
         <translation>
-        &lt;h2&gt;Praha&lt;/h2&gt;
-        &lt;p&gt;Praha (KC Bohnice)&lt;br /&gt;Ústavní 91&lt;br /&gt; 181 02 Praha 8 &lt;br /&gt;&lt;a href=&quot;https://www.bohnice.cz/krizova-pomoc/&quot;&gt;bohnice.cz/krizova-pomoc&lt;/a&gt;&lt;/p&gt;
+        &lt;h2&gt;United Kingdom&lt;/h2&gt;
+        &lt;a href=&quot;https://www.mind.org.uk/information-support/guides-to-support-and-services/crisis-services/crisis-houses/#.XQkuaFPVIXd&quot;&gt;List on mind.org&lt;/a&gt;&lt;/p&gt;
+        |
+        &lt;h2&gt;United States&lt;/h2&gt;
+        &lt;a href=&quot;https://suicidepreventionlifeline.org/our-crisis-centers/&quot;&gt;List on suicidepreventionlifeline.org&lt;/a&gt;&lt;/p&gt;
+        |
+        &lt;h2&gt;World&lt;/h2&gt;
+        &lt;a href=&quot;https://www.iasp.info/resources/Crisis_Centres/&quot;&gt;List on iasp.info&lt;/a&gt;&lt;/p&gt;
         </translation>
     </message>
     <message id="chat">
@@ -276,7 +282,7 @@ Hug someone you love|Or you can cuddle your pet.
     <message id="people-to-write">
         <location filename="../src/qml/PlanForm.ui.qml" line="65"/>
         <source></source>
-        <translation>People I would hurt:</translation>
+        <translation>People I would hurt if I hurt myself:</translation>
     </message>
     <message id="reasons">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="23"/>
@@ -381,23 +387,23 @@ Hug someone you love|Or you can cuddle your pet.
         <location filename="../src/qml/SelfHarmTips.qml" line="8"/>
         <source></source>
         <translation>
-Take an ice cube&lt;br&gt;and move it slowly around the spot&lt;br&gt;you want to hurt yourself||
-Text your friend|Ask him how he or she is.|
-Take a red highlighter&lt;br&gt;and use it to paint on your hand||
-Hit the pillow||
+Take an ice cube&lt;br&gt;and move it slowly over the spot&lt;br&gt;where you want to hurt yourself||
+Text your friend|Ask them how they are doing|
+Take a red highlighter&lt;br&gt;and use it to draw on your hand||
+Punch into a pillow||
 Write down your feelings&lt;br&gt;on a piece of paper and then rip it up||
 Crumple up any piece of paper||
 Scream at the top of your lungs||
 Exercise|Ride a bike&lt;br&gt;or go for a run.|
-Go for a walk|Find yourself a nice trail&lt;br&gt;or favourite spot and go for a walk.|
+Go for a walk|Find yourself a nice path&lt;br&gt;or favourite spot and go for a walk.|
 Do the cleaning|Dust your room or hoover.|
 Paint|Take any colouring book&lt;br&gt;or print a mandala and paint it.|
 Sketch exactly&lt;br&gt;what you want to do to yourself||
-Try to fall asleep.|
-Relax|Use your phone and download a relaxing app which will guide you.&lt;br&gt;Play it, make yourself feel comfortable on the floor, unwind, close your eyes and relax.|
+Try to fall asleep.||
+Relax|Use your phone and download a guided relaxation app.&lt;br&gt;Play it, make yourself feel comfortable on the floor,&lt;br&gt;unwind, close your eyes and relax.|
 Have a cold shower||
 Clench your fists||
-Text your close person|Text a person whom you trust&lt;br&gt;that you are not feeling well|
+Text your friend or family member|Text a person whom you trust&lt;br&gt;that you are not feeling well|
 Go out to be around people|Take a walk to the city centre&lt;br&gt;and treat yourself with something nice.
         </translation>
     </message>
@@ -405,18 +411,18 @@ Go out to be around people|Take a walk to the city centre&lt;br&gt;and treat you
         <location filename="../src/qml/PanicTips.qml" line="7"/>
         <source></source>
         <translation>
-Breath&lt;br&gt;in accordance with our app||
+Breathe&lt;br&gt;in sync with our app||
 Count from 100 to 0||
 Take any piece of paper&lt;br&gt;and squeeze it vehemently||
-Hug your close person||
+Hug your close friend or family member||
 Hold your breath||
 Treat yourself with chocolate||
 Do the cleaning|Dust your room or hoover.|
 Watch your&lt;br&gt;favourite film||
 Cuddle with&lt;br&gt;your beloved pet||
 Sketch|Take a piece of paper,&lt;br&gt;a pencil and try to sketch your feelings and emotions.|
-Listen to music|VUse your phone and create&lt;br&gt;a list of your favourite songs.|
-Go out&lt;br&gt;for the fresh air|. Take yourself out for half-hour-long walk&lt;br&gt;at a quick pace.
+Listen to music|Use your phone and create&lt;br&gt;a list of your favourite songs.|
+Go out&lt;br&gt;for the fresh air|Take yourself out for half-hour-long walk&lt;br&gt;at a quick place.
         </translation>
     </message>
     <message id="suicidal-thoughts-title">
@@ -432,7 +438,7 @@ Go out&lt;br&gt;for the fresh air|. Take yourself out for half-hour-long walk&lt
     <message id="contact-us-text">
         <location filename="../src/qml/ContactUsForm.ui.qml" line="9"/>
         <source></source>
-        <translation>In case you have any points or questions don’t hold back and contact us on our email address &lt;a href=&quot;mailto:nepanikar.info@gmail.com&quot;&gt;nepanikar.info@gmail.com&lt;/a&gt; &lt;br&gt; &lt;br&gt;</translation>
+        <translation>In case you have any suggestions or questions don’t hold back and contact us on our email address &lt;a href=&quot;mailto:nepanikar.info@gmail.com&quot;&gt;nepanikar.info@gmail.com&lt;/a&gt; &lt;br&gt; &lt;br&gt;</translation>
     </message>
     <message id="deperssion-nice-header">
         <location filename="../src/qml/DepressionNiceForm.ui.qml" line="20"/>
@@ -451,19 +457,19 @@ Go out&lt;br&gt;for the fresh air|. Take yourself out for half-hour-long walk&lt
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/AboutAppForm.ui.qml" line="6"/>
-        <location filename="../src/qml/main.qml" line="167"/>
+        <location filename="../src/qml/main.qml" line="168"/>
         <source></source>
         <translation>About</translation>
     </message>
     <message id="aboutApp-text">
         <location filename="../src/qml/AboutAppForm.ui.qml" line="14"/>
         <source></source>
-        <translation>This app is here for everyone who needs an urgent help&lt;br&gt; in case of depression, anxiety or other issue.&lt;br&gt; The app offers help but it doesn’t replace a qualified doctor&lt;br&gt; or other specialist. It’s necessary to search&lt;br&gt;for a professional help when the situaton gets worse.&lt;br&gt; If the app doesn’t help or if you’re unsure whether it has a positive influence&lt;br&gt; on your mental health, please consult its using with your doctor.</translation>
+        <translation>This app is here for anyone who needs an urgent help&lt;br&gt; in case of depression, anxiety or other issues.&lt;br&gt; The app offers help but it doesn’t replace a consultation with qualified doctor&lt;br&gt; or other specialist. It’s necessary to seek&lt;br&gt;professional help when the situaton gets worse.&lt;br&gt; If the app doesn’t help or if you’re unsure whether it has a positive influence&lt;br&gt; on your mental health, please consult its using with your doctor.</translation>
     </message>
     <message id="custom-theme">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="63"/>
         <location filename="../src/qml/CustomThemeForm.ui.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="158"/>
+        <location filename="../src/qml/main.qml" line="159"/>
         <source></source>
         <translation>Color settings</translation>
     </message>
@@ -486,10 +492,6 @@ Go out&lt;br&gt;for the fresh air|. Take yourself out for half-hour-long walk&lt
         <location filename="../src/qml/DepressionMoodForm.ui.qml" line="28"/>
         <source></source>
         <translation>How do I feel today:</translation>
-    </message>
-    <message id="mood-history-text">
-        <source></source>
-        <translation type="vanished">Previous moods:</translation>
     </message>
     <message id="mood-no-data">
         <location filename="../src/qml/DepressionMoodForm.ui.qml" line="102"/>

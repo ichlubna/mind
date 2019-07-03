@@ -48,13 +48,13 @@ DepressionMoodForm {
             chart.append(new Date(mood[0]), parseInt(mood[1]));
         }
         chart.axisX.min = new Date(moods[range.first.value].split('|')[0]);
-        chart.axisX.max = new Date(moods[range.second.value-1].split('|')[0]);
+        chart.axisX.max = new Date(moods[range.second.value].split('|')[0]);
     }
 
     function init()
     {
-        //moods = dataProvider.loadArrayInput("moods");
-        moods = [];
+        moods = dataProvider.loadArrayInput("moods");
+        /*moods = [];
         var d = new Date("Fri Feb 1 00:00:00 2019 GMT+0200") + "|1";
                 moods.push(d);
         d = new Date("Fri Feb 7 00:00:00 2019 GMT+0200") + "|2";
@@ -68,7 +68,7 @@ DepressionMoodForm {
         d = new Date("Fri Mar 25 00:00:00 2019 GMT+0200") + "|1";
                 moods.push(d);
         d = new Date("Fri May 30 00:00:00 2019 GMT+0200") + "|4";
-        moods.push(d);
+        moods.push(d);*/
 
         if(moods.length === 0)
             return;
@@ -104,8 +104,8 @@ DepressionMoodForm {
             else
             {
                 moods.push(now + "|" + value);
-                range.to = moods.length-1;
-                range.second.value = moods.length-1;
+               range.to = moods.length-1;
+               range.second.value = moods.length-1;
             }
         }
         else
