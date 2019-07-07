@@ -23,15 +23,16 @@ SwipeView {
                DescriptionLabel {
                    id: tip
                    text: items[index*2].trim()
-                   anchors.centerIn: parent
+                   anchors.bottom: leftButton.verticalCenter
+                   anchors.horizontalCenter: parent.horizontalCenter
                    width: parent.width*0.8
                    horizontalAlignment: Text.AlignHCenter
-                   verticalAlignment: Text.AlignVCenter
+                   verticalAlignment: Text.AlignBottom
                    font.pointSize: 30
                }
                DescriptionLabel {
-                   text: items[index*2+1]
-                   anchors.top: tip.bottom
+                   text: items[index*2+1].trim()
+                   anchors.top: leftButton.verticalCenter
                    anchors.horizontalCenter: parent.horizontalCenter
                    width: tip.width
                    horizontalAlignment: Text.AlignHCenter

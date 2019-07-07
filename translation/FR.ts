@@ -47,7 +47,7 @@
     <message id="language">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="83"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Langue</translation>
     </message>
     <message id="clear-button">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="93"/>

@@ -202,12 +202,11 @@ ApplicationWindow {
             }
 
             Image {
-                width: parent.width * 0.25
+                width: parent.width * 0.2
                 source: "qrc:/images/fb.svg"
                 fillMode: Image.PreserveAspectFit
                 anchors.horizontalCenter: parent.horizontalCenter
-                //anchors.bottom: parent.bottom
-                //anchors.margins: 10
+                opacity: 0.7
                 MouseArea {
                     anchors.fill: parent
                     onClicked: Qt.openUrlExternally(qsTrId("fb-link"))

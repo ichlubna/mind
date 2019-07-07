@@ -1,7 +1,12 @@
 import QtQuick 2.4
+import io.qt.UserDataProvider 1.0
 
 DepressionMoodForm {
     property var moods;
+
+    UserDataProvider {
+        id: dataProvider
+    }
 
     function markChoice(choice)
     {
@@ -46,9 +51,15 @@ DepressionMoodForm {
             var moodString = moods[i];
             var mood = moodString.split('|');
             chart.append(new Date(mood[0]), parseInt(mood[1]));
+
+            console.log(moodString);
         }
         chart.axisX.min = new Date(moods[range.first.value].split('|')[0]);
         chart.axisX.max = new Date(moods[range.second.value].split('|')[0]);
+        console.log(moods[range.second.value]);
+
+        //dataProvider.saveIntInput("moodsRangeStart", range.first.value);
+        //dataProvider.loadIntInput("moodsRangeStart", range.second.value);
     }
 
     function init()
@@ -64,8 +75,6 @@ DepressionMoodForm {
         d = new Date("Fri Mar 20 00:00:00 2019 GMT+0200") + "|1";
                 moods.push(d);
         d = new Date("Fri Mar 21 00:00:00 2019 GMT+0200") + "|5";
-                moods.push(d);
-        d = new Date("Fri Mar 25 00:00:00 2019 GMT+0200") + "|1";
                 moods.push(d);
         d = new Date("Fri May 30 00:00:00 2019 GMT+0200") + "|4";
         moods.push(d);*/
@@ -85,6 +94,12 @@ DepressionMoodForm {
 
         range.to = moods.length-1;
         range.second.value = moods.length-1;
+
+        /*if(dataProvider.exists("moodsRangeStart"))
+            range.first.value = dataProvider.loadIntInput("moodsRangeStart");
+        if(dataProvider.exists("moodsRangeEnd"))
+            range.second.value = dataProvider.loadIntInput("moodsRangeEnd");*/
+
         draw();
     }
 
@@ -103,7 +118,7 @@ DepressionMoodForm {
                 moods[moods.length-1] = lastMood[0] + "|" + value;
             else
             {
-                moods.push(now + "|" + value);
+               moods.push(now + "|" + value);
                range.to = moods.length-1;
                range.second.value = moods.length-1;
             }

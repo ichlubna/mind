@@ -67,6 +67,20 @@ float UserDataProvider::loadFloatInput(QString id)
     return settings.value(id).toFloat();
 }
 
+QString UserDataProvider::loadLanguage()
+{
+    if (!settings.contains("language"))
+        return QString("UNKNOWN");
+    else
+        return settings.value("language").toString();
+}
+
+
+bool UserDataProvider::exists(QString id)
+{
+    return settings.contains(id);
+}
+
 void UserDataProvider::setLanguage(QString language)
 {
     settings.setValue("language", language);
@@ -110,7 +124,11 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
         settings.setValue("themeHue",  0.76);
     }
     if(moods)
+    {
         saveArrayInput("moods", QList<QString>{});
+        /*settings.remove("moodsRangeStart");
+        settings.remove("moodsRangeEnd");*/
+    }
     if(language)
         settings.remove("language");
 }

@@ -47,7 +47,7 @@
     <message id="language">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="83"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Language</translation>
     </message>
     <message id="clear-button">
         <location filename="../src/qml/ClearDataForm.ui.qml" line="93"/>
@@ -73,7 +73,7 @@ Talk to a school counsellor&lt;br&gt;or psychologist|Make sure to arrange a meet
 Listen to music|Create a playlist of your&lt;br&gt;favourite songs and listen to them.|
 Meet with your friends|Write a message or call your friends&lt;br&gt;and go hang out with them.|
 Watch your favourite movie|Watch a movie you like&lt;br&gt;or some videos on the Internet.|
-Write a message to your close friend&lt;br&gt;or family member|Write to someone you trust&lt;br&gt;about how you feel.|
+Write a message&lt;br&gt;to your close friend&lt;br&gt;or family member|Write to someone you trust&lt;br&gt;about how you feel.|
 Draw|Take any colouring book&lt;br&gt;or print a mandala and paint it.|
 Exercise|Running, riding a bike or taking a longer walk&lt;br&gt;could help you.|
 Relax|Use your phone and download a guided relaxation app&lt;br&gt;which will guide you. Play it, make yourself feel&lt;br&gt;comfortable on the floor, unwind, close your eyes and relax.|

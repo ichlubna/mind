@@ -10,8 +10,6 @@ int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
-    QApplication app(argc, argv);
-
     qmlRegisterType<UserDataProvider>("io.qt.UserDataProvider", 1, 0, "UserDataProvider");
     qmlRegisterType<MathEngine>("io.qt.MathEngine", 1, 0, "MathEngine");
 
@@ -53,6 +51,7 @@ int main(int argc, char *argv[])
     int returnValue = 0;
     do
     {
+        QApplication app(argc, argv);
         QTranslator translator;
         translator.load(":/translation/"+langString+".qm");
         app.installTranslator(&translator);

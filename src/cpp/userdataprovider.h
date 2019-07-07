@@ -10,6 +10,7 @@ class UserDataProvider : public QObject
     Q_OBJECT
 public:
     explicit UserDataProvider(QObject *parent = nullptr);
+    Q_INVOKABLE bool exists(QString id);
     Q_INVOKABLE void saveInput(QString id, QString value);
     Q_INVOKABLE void saveBoolInput(QString id, bool value);
     Q_INVOKABLE void saveIntInput(QString id, int value);
@@ -20,6 +21,7 @@ public:
     Q_INVOKABLE int loadIntInput(QString id);
     Q_INVOKABLE float loadFloatInput(QString id);
     Q_INVOKABLE QList<QString> loadArrayInput(QString id);
+    Q_INVOKABLE QString loadLanguage();
     Q_INVOKABLE void setLanguage(QString language);
     Q_INVOKABLE void resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language);
 
