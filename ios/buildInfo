@@ -2,5 +2,5 @@
 - bundle identifier: org.dontpanicapp
 - Device orientation: Portrait
 - Requires fullscreen
-- Copy icons and strings and set icon pack
+- Copy icons and strings (File->New->File->Strings File InfoPlist.strings and Localize) and set icon pack
 - LaunchScreen
