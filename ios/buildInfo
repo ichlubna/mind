@@ -3,4 +3,13 @@
 - Device orientation: Portrait
 - Requires fullscreen
 - Copy icons and strings (File->New->File->Strings File InfoPlist.strings and Localize) and set icon pack
+- edit Info.plist to add languages
+    <key>CFBundleLocalizations</key>
+    <array>
+    <string>en</string>
+    <string>cs</string>
+    <string>fr</string>
+    <string>pl</string>
+    <string>sk</string>
+    </array>
 - LaunchScreen
