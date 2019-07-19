@@ -6,6 +6,7 @@ MenuPage {
     property alias breath1Button: breath1Button
     property alias breath2Button: breath2Button
     property alias mathButton: mathButton
+    property alias gameButton: gameButton
     property alias panicTipsButton: panicTipsButton
     title: qsTrId("panic")
 
@@ -23,6 +24,12 @@ MenuPage {
         MenuButton {
             id: mathButton
             text: qsTrId("math")
+        }
+
+        MenuButton {
+            id: gameButton
+            text: qsTrId("game")
+            visible: false
         }
 
         MenuButton {

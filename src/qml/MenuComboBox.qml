@@ -16,7 +16,7 @@ ComboBox {
         radius: 5
         border.width: 2
         border.color: "white"
-        color: "#90000000"
+        color: "#E0000000"
    }
     contentItem: Text {
         leftPadding: 10

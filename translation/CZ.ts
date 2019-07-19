@@ -215,7 +215,6 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         &lt;p&gt;Dům Přemysla Pittra pro děti&lt;br /&gt;Karlovarská 18&lt;br /&gt; 161 00 Praha&lt;br /&gt;&lt;a href=&quot;http://www.dumtriprani.cz&quot;&gt;dumtriprani.cz&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Modré dveře - Praha&lt;br /&gt;K Horkám 23/16&lt;br /&gt; 102 00, Praha 10 Hostivař&lt;br /&gt;&lt;a href=&quot;http://www.modredvere.cz/cz/modre-dvere-praha&quot;&gt;modredvere.cz/cz/modre-dvere-praha&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Modré dveře - Říčany&lt;br /&gt;ul.Tyrše a Fügnera 105/7&lt;br /&gt; 251 01, Říčany&lt;br /&gt;&lt;a href=&quot;http://www.modredvere.cz/cz/modre-dvere-ricany&quot;&gt;modredvere.cz/cz/modre-dvere-ricany&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Modré dveře - Kostelec nad Černými lesy&lt;br /&gt;náměstí Smiřických 39&lt;br /&gt; 281 63, Kostelec nad Černými lesy&lt;br /&gt;&lt;a href=&quot;http://www.modredvere.cz/cz/modre-dvere-kostelec-nad-cernymi-lesy&quot;&gt;modredvere.cz/cz/modre-dvere-kostelec-nad-cernymi-lesy&lt;/a&gt;&lt;/p&gt;
         |
         &lt;h2&gt;Jihomoravský kraj&lt;/h2&gt;
         &lt;p&gt;Brno (centrum krizové intervence)&lt;br /&gt;Jihlavská 20&lt;br /&gt; 625 00 Brno &lt;br /&gt;&lt;a href=&quot;http://psychiatrie.med.muni.cz/index.php?pg=zdravotnicka-pece--oddeleni#kc&quot;&gt;psychiatrie.med.muni.cz&lt;/a&gt;&lt;/p&gt;
@@ -259,6 +258,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         |
         &lt;h2&gt;Ústecký kraj&lt;/h2&gt;
         &lt;p&gt;Most k naději, z. s.&lt;br /&gt;Petra Jilemnického 1929/9&lt;br /&gt;434 01 Most&lt;br /&gt;&lt;a href=&quot;http://www.mostknadeji.cz&quot;&gt;mostknadeji.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Spirála&lt;br /&gt;K Chatám 22&lt;br /&gt;403 40 Ústí nad Labem – Skorotice&lt;br /&gt;&lt;a href=&quot;http://www.spirala-ul.cz/&quot;&gt;spirala-ul.cz&lt;/a&gt;&lt;/p&gt;
         |
         &lt;h2&gt;Zlínský kraj&lt;/h2&gt;
         &lt;p&gt;Dětské centrum Zlín&lt;br /&gt;Burešov 3675/4&lt;br /&gt;760 01 Zlín&lt;br /&gt;&lt;a href=&quot;http://www.dczlin.cz&quot;&gt;dczlin.cz&lt;/a&gt;&lt;/p&gt;
@@ -469,7 +469,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;br&gt;bě�
     <message id="depression-plan-header">
         <location filename="../src/qml/DepressionPlanForm.ui.qml" line="24"/>
         <source></source>
-        <translation>Zde si napíšu co všechno plánuju udělat:</translation>
+        <translation>Zde si napíšu co všechno plánuji udělat:</translation>
     </message>
     <message id="contact-us-text">
         <location filename="../src/qml/ContactUsForm.ui.qml" line="9"/>

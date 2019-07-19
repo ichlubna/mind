@@ -11,7 +11,7 @@
     <message id="help-contacts">
         <location filename="../src/qml/HomeForm.ui.qml" line="73"/>
         <source></source>
-        <translation>Kontakty na pomoc</translation>
+        <translation>Kontakty ratunku</translation>
     </message>
     <message id="depression">
         <location filename="../src/qml/DepressionForm.ui.qml" line="9"/>
@@ -220,7 +220,6 @@ Przytul się&lt;br&gt;do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         |
         &lt;h2&gt;Warszawa&lt;/h2&gt;
         &lt;p&gt;Warszawskie Centrum Pomocy Rodzinie&lt;br /&gt;Lipińska 2&lt;br /&gt;01-001 Warszawa&lt;br /&gt;&lt;a href=&quot;http://www.wcpr.pl/&quot;&gt;wcpr.pl&lt;/a&gt;&lt;/p&gt;
-        |
         </translation>
     </message>
     <message id="chat">

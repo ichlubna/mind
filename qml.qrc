@@ -62,8 +62,8 @@
         <file>src/qml/Home.qml</file>
         <file>src/qml/HomeForm.ui.qml</file>
         <file>src/qml/main.qml</file>
-        <file>src/qml/Math.qml</file>
-        <file>src/qml/MathForm.ui.qml</file>
+        <file>src/qml/MathGame.qml</file>
+        <file>src/qml/MathGameForm.ui.qml</file>
         <file>src/qml/MenuButton.qml</file>
         <file>src/qml/MenuCheckBox.qml</file>
         <file>src/qml/MenuColumn.qml</file>
@@ -101,5 +101,8 @@
         <file>src/qml/DepressionMood.qml</file>
         <file>src/qml/DepressionMoodForm.ui.qml</file>
         <file>src/qml/MenuComboBox.qml</file>
+        <file>src/qml/Game.qml</file>
+        <file>src/qml/GameForm.ui.qml</file>
+        <file>src/qml/GameBall.qml</file>
     </qresource>
 </RCC>

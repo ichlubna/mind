@@ -13,46 +13,48 @@ int main(int argc, char *argv[])
     qmlRegisterType<UserDataProvider>("io.qt.UserDataProvider", 1, 0, "UserDataProvider");
     qmlRegisterType<MathEngine>("io.qt.MathEngine", 1, 0, "MathEngine");
 
-    QLocale::Language language = QLocale::system().language();
-    QString langString = "EN";
-    QSettings settings("DontPanicDevs", "DontPanic");
-    if (!settings.contains("language"))
-    {
-       switch(language)
-       {
-           case QLocale::Language::Czech:
-            langString = "CZ";
-           break;
-
-           case QLocale::Language::Slovak:
-            langString = "SK";
-           break;
-
-           case QLocale::Language::English:
-            langString = "EN";
-           break;
-
-           case QLocale::Language::Polish:
-            langString = "PL";
-           break;
-
-           case QLocale::Language::French:
-            langString = "FR";
-           break;
-
-           default:
-               langString = "EN";
-               break;
-       }
-    }
-    else
-        langString = settings.value("language").toString();
-
     int returnValue = 0;
     do
     {
         QApplication app(argc, argv);
         QTranslator translator;
+
+        QLocale::Language language = QLocale::system().language();
+        QString langString = "EN";
+        QSettings settings("DontPanicDevs", "DontPanic");
+        UserDataProvider dataProvider;
+        if (!settings.contains("language"))
+        {
+           switch(language)
+           {
+               case QLocale::Language::Czech:
+                langString = "CZ";
+               break;
+
+               case QLocale::Language::Slovak:
+                langString = "SK";
+               break;
+
+               case QLocale::Language::English:
+                langString = "EN";
+               break;
+
+               case QLocale::Language::Polish:
+                langString = "PL";
+               break;
+
+               case QLocale::Language::French:
+                langString = "FR";
+               break;
+
+               default:
+                   langString = "EN";
+               break;
+           }
+        }
+        else
+            langString = settings.value("language").toString();
+
         translator.load(":/translation/"+langString+".qm");
         app.installTranslator(&translator);
 
