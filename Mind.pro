@@ -1,5 +1,5 @@
 QT += quick svg gui core
-CONFIG += c++11
+CONFIG += c++17
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings
@@ -23,7 +23,7 @@ HEADERS += \
 
 RESOURCES += qml.qrc
 
-TRANSLATIONS = translation/EN.ts translation/CZ.ts translation/SK.ts translation/PL.ts translation/FR.ts
+TRANSLATIONS = translation/EN.ts translation/CZ.ts translation/SK.ts translation/PL.ts translation/FR.ts translation/R.ts
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =

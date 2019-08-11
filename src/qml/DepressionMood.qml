@@ -65,7 +65,7 @@ DepressionMoodForm {
     function init()
     {
         moods = dataProvider.loadArrayInput("moods");
-        /*moods = [];
+        moods = [];
         var d = new Date("Fri Feb 1 00:00:00 2019 GMT+0200") + "|1";
                 moods.push(d);
         d = new Date("Fri Feb 7 00:00:00 2019 GMT+0200") + "|2";
@@ -74,10 +74,10 @@ DepressionMoodForm {
                 moods.push(d);
         d = new Date("Fri Mar 20 00:00:00 2019 GMT+0200") + "|1";
                 moods.push(d);
-        d = new Date("Fri Mar 21 00:00:00 2019 GMT+0200") + "|5";
+        d = new Date("Fri Mar 21 00:00:00 2019 GMT+0200") + "|1";
                 moods.push(d);
-        d = new Date("Fri May 30 00:00:00 2019 GMT+0200") + "|4";
-        moods.push(d);*/
+        d = new Date("Fri May 30 00:00:00 2019 GMT+0200") + "|1";
+        moods.push(d);
 
         if(moods.length === 0)
             return;
@@ -128,6 +128,11 @@ DepressionMoodForm {
         dataProvider.saveArrayInput("moods", moods);
 
         draw();
+
+        for(var i=moods.length-1; i>moods.length-4; i--)
+            if(parseInt(moods[i].split('|')[1]) > 1)
+                return;
+        popup.open();
     }
 
     Connections {
@@ -141,6 +146,9 @@ DepressionMoodForm {
     emoticon3.onClicked: save(3)
     emoticon4.onClicked: save(2)
     emoticon5.onClicked: save(1)
+
+    yes.onClicked: {popup.close(); stackView.push("Contacts.qml");}
+    no.onClicked: popup.close()
 
     range.first.onMoved: draw()
     range.second.onMoved: draw()

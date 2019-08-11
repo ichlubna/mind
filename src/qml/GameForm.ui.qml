@@ -1,45 +1,70 @@
 import QtQuick 2.4
 import QtGraphicalEffects 1.0
-import QtQuick.Particles 2.13
+import QtQuick.Particles 2.12
 
 MenuPage {
     id: gamePage
     property alias balls: balls
     property alias gamePage: gamePage
+    property alias particles: particles
+    property alias gameText: gameText
     title: qsTrId("game")
+
+    Description{
+        id: gameText
+        width:parent.width
+        text: qsTrId("game-instructions")
+    }
 
     Repeater {
         id: balls
         model: 1
-        GameBall {
+        Rectangle {
+            height: parent.width * 0.25
+            width: height
+            color: "red"
+            radius: width * 0.5
+            property bool wanted: false
+            opacity: 0.5
+            MouseArea {
+                id: a
+                anchors.fill: parent
+                Connections {
+                    target: a
+                    onClicked: {
+                        hit(index)
+                    }
+                }
+            }
         }
     }
-
     ParticleSystem {
-        id: sys
-    }
-
-    Emitter {
-        velocity: PointDirection {
-            xVariation: 4
-            yVariation: 4
-        }
-        acceleration: PointDirection {
-            xVariation: 10
-            yVariation: 10
-        }
-        size: 8
-        sizeVariation: 4
         anchors.fill: parent
-        system: sys
-        ImageParticle {
-            anchors.fill: parent
-            system: sys
-            source: "qrc:/images/back.svg"
-            clip: true
-            id: redblip
-        }
 
-        lifeSpan: 6000
+        ImageParticle {
+            source: "qrc:/images/star.svg"
+            rotationVariation: 100
+        }
+        Emitter {
+            id: particles
+            size: 20
+            sizeVariation: 20
+            height: 1
+            width: 1
+            lifeSpan: 1000
+            lifeSpanVariation: 500
+            velocity: TargetDirection{
+                       targetX: 0; targetY: 0
+                       targetVariation: 360
+                       magnitude: 800
+                       magnitudeVariation: 600
+                   }
+            enabled: false
+        }
+        Gravity {
+            anchors.fill: parent
+            angle: 90
+            acceleration: 500
+        }
     }
 }

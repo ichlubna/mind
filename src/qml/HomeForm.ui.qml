@@ -10,6 +10,8 @@ MenuPage {
     property alias panicButton: panicButton
     property alias selfHarmButton: selfHarmButton
     property alias suicideButton: suicideButton
+    property alias moodButton: moodButton
+    property alias foodButton: foodButton
     property alias logo: logo
     title: qsTrId("home")
 
@@ -68,6 +70,22 @@ MenuPage {
         MenuButton {
             Layout.fillHeight: true
             Layout.fillWidth: true
+            Layout.preferredWidth: parent.width / 2
+            id: foodButton
+            text: qsTrId("food")
+        }
+
+        MenuButton {
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            Layout.preferredWidth: parent.width / 2
+            id: moodButton
+            text: qsTrId("depression-mood")
+        }
+
+        MenuButton {
+            Layout.fillHeight: true
+            Layout.fillWidth: true
             Layout.preferredWidth: parent.width
             id: contactButton
             text: qsTrId("help-contacts")
@@ -76,8 +94,4 @@ MenuPage {
     }
 }
 
-/*##^## Designer {
-    D{i:0;autoSize:true;height:480;width:640}
-}
- ##^##*/
 

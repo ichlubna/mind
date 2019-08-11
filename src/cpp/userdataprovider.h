@@ -10,6 +10,7 @@ class UserDataProvider : public QObject
     Q_OBJECT
 public:
     explicit UserDataProvider(QObject *parent = nullptr);
+    Q_INVOKABLE void initCheck();
     Q_INVOKABLE bool exists(QString id);
     Q_INVOKABLE void saveInput(QString id, QString value);
     Q_INVOKABLE void saveBoolInput(QString id, bool value);
@@ -28,6 +29,17 @@ public:
     static constexpr int TRANSLATION_RESTART = 42;
 
 private:
+    struct CustomInput
+    {
+        enum inputType {STRING, ARRAY};
+        QString trId;
+        QString settingsId;
+        inputType type;
+    };
+    static const char* TO_TRANSLATE;
+    static const std::vector<CustomInput> customInputs;
+    void checkDefault(CustomInput input);
+    void translateDefault(CustomInput input);
     QSettings settings;
 };
 

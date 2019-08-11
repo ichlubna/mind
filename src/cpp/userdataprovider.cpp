@@ -4,7 +4,72 @@
 #include <QQmlContext>
 #include "userdataprovider.h"
 
+//TODO use in reset funciton too
+const std::vector<UserDataProvider::CustomInput> UserDataProvider::customInputs{{"my-reasons", "myReasons", UserDataProvider::CustomInput::STRING},
+                                                                        {"custom-write", "customWrite", UserDataProvider::CustomInput::STRING},
+                                                                        {"custom-write-body", "customWriteBody", UserDataProvider::CustomInput::STRING},
+                                                                        {"custom-ppl", "customPpl", UserDataProvider::CustomInput::STRING},
+                                                                        {"custom-do", "customDo", UserDataProvider::CustomInput::STRING},
+                                                                        {"custom-go", "customGo", UserDataProvider::CustomInput::STRING},
+                                                                        {"plan-example", "plan", UserDataProvider::CustomInput::ARRAY},
+                                                                        {"nice-example", "nice", UserDataProvider::CustomInput::ARRAY}
+                                                                       };
+
+const char* UserDataProvider::TO_TRANSLATE{"###STARGATE_RULEZ###"};
+
 UserDataProvider::UserDataProvider(QObject *parent) : QObject(parent), settings("DontPanicDevs", "DontPanic")
+{
+}
+#include<iostream>
+void UserDataProvider::checkDefault(UserDataProvider::CustomInput input)
+{
+   switch(input.type)
+   {
+        case CustomInput::STRING:
+            if(loadInput(input.settingsId) == qtTrId(input.trId.toStdString().c_str()))
+                saveInput(input.settingsId, TO_TRANSLATE);
+        break;
+
+        case CustomInput::ARRAY:
+           QList<QString> values = loadArrayInput(input.settingsId);
+           if(values.empty())
+               return;
+           if(values[0] == qtTrId(std::string(input.trId.toStdString()).c_str()))
+           {
+               settings.beginWriteArray(input.settingsId);
+               settings.setArrayIndex(0);
+               settings.setValue("value",TO_TRANSLATE);
+               settings.endArray();
+           }
+        break;
+   }
+}
+
+void UserDataProvider::translateDefault(CustomInput input)
+{
+    switch(input.type)
+    {
+         case CustomInput::STRING:
+             if(loadInput(input.settingsId) == TO_TRANSLATE)
+                 saveInput(input.settingsId, qtTrId(input.trId.toStdString().c_str()));
+         break;
+
+        case CustomInput::ARRAY:
+            QList<QString>  values = loadArrayInput(input.settingsId);
+            if(values.empty())
+                return;
+            if(values[0] == TO_TRANSLATE)
+            {
+                settings.beginWriteArray(input.settingsId);
+                settings.setArrayIndex(0);
+                settings.setValue("value",qtTrId(std::string(input.trId.toStdString()).c_str()));
+                settings.endArray();
+            }
+         break;
+    }
+}
+
+void UserDataProvider::initCheck()
 {
     //reset to default values if first run
     if(!settings.contains("myReasons"))
@@ -15,6 +80,9 @@ UserDataProvider::UserDataProvider(QObject *parent) : QObject(parent), settings(
         settings.setValue("themeLight",  -0.05);
         settings.setValue("themeHue",  0.76);
     }
+
+    for(const auto &input : customInputs)
+        translateDefault(input);
 }
 
 void UserDataProvider::saveInput(QString id, QString value)
@@ -83,6 +151,9 @@ bool UserDataProvider::exists(QString id)
 
 void UserDataProvider::setLanguage(QString language)
 {
+    for(const auto &input : customInputs)
+        checkDefault(input);
+
     settings.setValue("language", language);
     qApp->exit(TRANSLATION_RESTART);
 }

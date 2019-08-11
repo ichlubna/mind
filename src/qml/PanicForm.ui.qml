@@ -29,7 +29,6 @@ MenuPage {
         MenuButton {
             id: gameButton
             text: qsTrId("game")
-            visible: false
         }
 
         MenuButton {

@@ -58,6 +58,8 @@ int main(int argc, char *argv[])
         translator.load(":/translation/"+langString+".qm");
         app.installTranslator(&translator);
 
+        dataProvider.initCheck();
+
         QQmlApplicationEngine engine;
         engine.load(QUrl(QStringLiteral("qrc:/src/qml/main.qml")));
         if (engine.rootObjects().isEmpty())
@@ -68,7 +70,6 @@ int main(int argc, char *argv[])
         langString = settings.value("language").toString();
     }
     while(returnValue == UserDataProvider::TRANSLATION_RESTART);
-
 
     return returnValue;
 }

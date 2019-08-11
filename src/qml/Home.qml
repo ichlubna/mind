@@ -6,6 +6,7 @@ HomeForm {
     panicButton.onClicked: stackView.push("Panic.qml")
     selfHarmButton.onClicked: stackView.push("SelfHarm.qml")
     suicideButton.onClicked: stackView.push("Suicide.qml")
+    moodButton.onClicked: stackView.push("DepressionMood.qml")
 
     SequentialAnimation {
         running: true

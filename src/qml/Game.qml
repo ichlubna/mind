@@ -7,10 +7,22 @@ GameForm {
     property var wiggleSpeed : [];
     property var sceneWidth : 0;
 
-    readonly property double minSpeed : 10.0;
-    readonly property double speedMultiplier : 30.0;
-    readonly property double wiggleMultiplier : 20.0;
+    readonly property double minSpeed : 0.01*gamePage.height;
+    readonly property double speedMultiplier : 0.01*gamePage.height;
+    readonly property double wiggleMultiplier : 0.05*gamePage.width;
     readonly property int ballNum : 5;
+
+    function hit(index)
+    {
+        var ball = balls.itemAt(index);
+        if(ball.wanted)
+        {
+            particles.x = ball.x;
+            particles.y = ball.y;
+            particles.burst(200);
+            ball.y = -99999;
+        }
+    }
 
     function init()
     {
@@ -25,7 +37,6 @@ GameForm {
 
     function run()
     {
-        //balls.itemAt(0).x = 100*Math.random();
         elapsed++;
         for (var i = 0; i < balls.model; i++)
         {
@@ -36,7 +47,16 @@ GameForm {
                 ball.x = sceneWidth*Math.random();
                 speed[i] = minSpeed+speedMultiplier*Math.random();
                 wiggleAmount[i] = wiggleMultiplier*Math.random();
-                wiggleSpeed[i] = Math.random();
+                wiggleSpeed[i] = Math.random()*0.8;
+                ball.wanted = Math.random() > 0.8;
+                if(ball.wanted)
+                    ball.color = "#EFFFFFFF";
+                else
+                    if(Math.random() > 0.5)
+                        ball.color = "#A0000000";
+                    else
+                        ball.color = "#A0A0A0A0";
+
             }
             ball.y -= speed[i];
             ball.x += wiggleAmount[i]*Math.sin(wiggleSpeed[i]*elapsed+100*i);
@@ -48,7 +68,6 @@ GameForm {
            onTriggered: run()
        }
 
-
     Connections {
         target: balls
         Component.onCompleted: {
@@ -56,4 +75,11 @@ GameForm {
         }
     }
 
+    OpacityAnimator {
+             target: gameText;
+             from: 1;
+             to: 0.0;
+             duration: 5000
+             running: true
+    }
 }
