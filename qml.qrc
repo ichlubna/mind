@@ -129,5 +129,25 @@
         <file>images/anabell/pmSnack4.jpg</file>
         <file>images/anabell/soup2.jpg</file>
         <file>images/anabell/soup3.jpg</file>
+        <file>src/qml/Food.qml</file>
+        <file>src/qml/FoodForm.ui.qml</file>
+        <file>src/qml/FoodContact.qml</file>
+        <file>src/qml/FoodContactForm.ui.qml</file>
+        <file>src/qml/FoodTips.qml</file>
+        <file>src/qml/FoodTipsForm.ui.qml</file>
+        <file>src/qml/FoodTipsMenu.qml</file>
+        <file>src/qml/FoodTipsMenuForm.ui.qml</file>
+        <file>src/qml/FoodOvereat.qml</file>
+        <file>src/qml/FoodOvereatForm.ui.qml</file>
+        <file>src/qml/FoodVomit.qml</file>
+        <file>src/qml/FoodVomitForm.ui.qml</file>
+        <file>src/qml/FoodFail.qml</file>
+        <file>src/qml/FoodFailForm.ui.qml</file>
+        <file>src/qml/FoodMisc.qml</file>
+        <file>src/qml/FoodMiscForm.ui.qml</file>
+        <file>src/qml/FoodFigure.qml</file>
+        <file>src/qml/FoodFigureForm.ui.qml</file>
+        <file>src/qml/FoodTasksMenu.qml</file>
+        <file>src/qml/FoodTasksMenuForm.ui.qml</file>
     </qresource>
 </RCC>

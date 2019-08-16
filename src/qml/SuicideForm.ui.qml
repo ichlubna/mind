@@ -4,7 +4,7 @@ import QtQuick.Controls.Styles 1.4
 
 MenuPage {
     id: panicPage
-    title: qsTrId("suicidal-thoughts-title")
+    title: qsTrId("suicidal-thoughts")
 
    MenuColumn{
         MenuButton {

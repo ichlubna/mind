@@ -90,6 +90,8 @@ ApplicationWindow {
         Label {
             text: stackView.currentItem.title
             anchors.centerIn: parent
+            //width: parent.width*0.7
+            //horizontalAlignment: Text.AlignHCenter
             color: "White"
         }
     }

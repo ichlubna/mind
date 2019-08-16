@@ -20,4 +20,11 @@ Page {
         saturation: 0.7
         lightness: ThemeInfo.backgroundLightness
     }
+
+    Connections {
+        target: parent
+        Component.onCompleted: {
+            title = title.replace("<br>"," ")
+        }
+    }
 }

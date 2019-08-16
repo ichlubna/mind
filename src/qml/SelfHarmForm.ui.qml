@@ -7,7 +7,7 @@ MenuPage {
     property alias breath1Button: breath1Button
     property alias breath2Button: breath2Button
     property alias tipsButton: tipsButton
-    title: qsTrId("self-harm-title")
+    title: qsTrId("self-harm")
 
    MenuColumn{
         MenuButton {
