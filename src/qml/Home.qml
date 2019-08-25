@@ -1,13 +1,13 @@
 import QtQuick 2.4
 
 HomeForm {
-    contactButton.onClicked: stackView.push("Contacts.qml")
-    depressionButton.onClicked: stackView.push("Depression.qml")
+    contactButton.onClicked: stackView.push("Contacts/Contacts.qml")
+    depressionButton.onClicked: stackView.push("Depression/Depression.qml")
     panicButton.onClicked: stackView.push("Panic.qml")
-    selfHarmButton.onClicked: stackView.push("SelfHarm.qml")
-    suicideButton.onClicked: stackView.push("Suicide.qml")
-    moodButton.onClicked: stackView.push("DepressionMood.qml")
-    foodButton.onClicked: stackView.push("Food.qml")
+    selfHarmButton.onClicked: stackView.push("SelfHarm/SelfHarm.qml")
+    suicideButton.onClicked: stackView.push("Suicide/Suicide.qml")
+    moodButton.onClicked: stackView.push("Mood.qml")
+    foodButton.onClicked: stackView.push("Food/Food.qml")
 
     SequentialAnimation {
         running: true

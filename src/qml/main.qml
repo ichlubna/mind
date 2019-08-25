@@ -121,7 +121,7 @@ ApplicationWindow {
                 text: qsTrId("resetInputs")
                 width: parent.width
                 onClicked: {
-                    stackView.push("ClearData.qml")
+                    stackView.push("Drawer/ClearData.qml")
                     drawer.close()
                 }
             }
@@ -130,7 +130,7 @@ ApplicationWindow {
                 text: qsTrId("contactUs")
                 width: parent.width
                 onClicked: {
-                    stackView.push("ContactUs.qml")
+                    stackView.push("Drawer/ContactUs.qml")
                     drawer.close()
                 }
             }
@@ -153,7 +153,7 @@ ApplicationWindow {
                 text: qsTrId("support")
                 width: parent.width
                 onClicked: {
-                    stackView.push("Support.qml")
+                    stackView.push("Drawer/Support.qml")
                     drawer.close()
                 }
             }
@@ -162,7 +162,7 @@ ApplicationWindow {
                 text: qsTrId("custom-theme")
                 width: parent.width
                 onClicked: {
-                    stackView.push("CustomTheme.qml")
+                    stackView.push("Drawer/CustomTheme.qml")
                     drawer.close()
                 }
             }
@@ -171,7 +171,7 @@ ApplicationWindow {
                 text: qsTrId("aboutApp")
                 width: parent.width
                 onClicked: {
-                    stackView.push("AboutApp.qml")
+                    stackView.push("Drawer/AboutApp.qml")
                     drawer.close()
                 }
             }

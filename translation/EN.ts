@@ -9,31 +9,78 @@
         <translation>Home</translation>
     </message>
     <message id="food">
-        <location filename="../src/qml/FoodForm.ui.qml" line="11"/>
-        <location filename="../src/qml/FoodTipsMenuForm.ui.qml" line="11"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="11"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="food-breakfast">
+        <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="5"/>
+        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="15"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="food-am-snack">
+        <location filename="../src/qml/Food/Dishes/AmSnackForm.ui.qml" line="6"/>
+        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="19"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="food-dishes-am-snack">
+        <location filename="../src/qml/Food/Dishes/AmSnackForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="food-lunch">
+        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="23"/>
+        <location filename="../src/qml/Food/Dishes/LunchForm.ui.qml" line="6"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="food-pm-snack">
+        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="28"/>
+        <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="6"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="food-dinner">
+        <location filename="../src/qml/Food/Dishes/DinnerForm.ui.qml" line="6"/>
+        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="33"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="food-dishes-dinner">
+        <location filename="../src/qml/Food/Dishes/DinnerForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-tips">
-        <location filename="../src/qml/FoodForm.ui.qml" line="16"/>
-        <location filename="../src/qml/FoodTipsForm.ui.qml" line="5"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="16"/>
+        <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="6"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tasks">
-        <location filename="../src/qml/FoodForm.ui.qml" line="20"/>
-        <location filename="../src/qml/FoodTasksMenuForm.ui.qml" line="11"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="20"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="11"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-dishes">
-        <location filename="../src/qml/FoodForm.ui.qml" line="24"/>
+        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="24"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="food-dishes-breakfast">
+        <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="6"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-stories">
-        <location filename="../src/qml/FoodForm.ui.qml" line="29"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="29"/>
+        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -227,14 +274,13 @@ Hug someone you love|Or you can cuddle your pet.
         <translation>Supported by</translation>
     </message>
     <message id="center">
-        <location filename="../src/qml/CenterForm.ui.qml" line="8"/>
+        <location filename="../src/qml/CenterForm.ui.qml" line="5"/>
         <location filename="../src/qml/ContactsForm.ui.qml" line="18"/>
         <source></source>
         <translation>Crisis centers</translation>
     </message>
     <message id="center-text">
-        <location filename="../src/qml/Center.qml" line="9"/>
-        <location filename="../src/qml/CenterForm.ui.qml" line="24"/>
+        <location filename="../src/qml/CenterForm.ui.qml" line="6"/>
         <source></source>
         <translation>
         &lt;h2&gt;United Kingdom&lt;/h2&gt;
@@ -551,108 +597,123 @@ Go out&lt;br&gt;for the fresh air|Take yourself out for half-hour-long walk&lt;b
         <translation>Hit the bright white balls by touching them. The gray and black ones are only to confuse you.</translation>
     </message>
     <message id="food-contact">
-        <location filename="../src/qml/FoodContactForm.ui.qml" line="6"/>
-        <location filename="../src/qml/FoodForm.ui.qml" line="34"/>
+        <location filename="../src/qml/Food/ContactForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="34"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-contact-text">
-        <location filename="../src/qml/FoodContactForm.ui.qml" line="13"/>
+        <location filename="../src/qml/Food/ContactForm.ui.qml" line="14"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-remorse">
-        <location filename="../src/qml/FoodTipsMenuForm.ui.qml" line="20"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="21"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-overeat">
-        <location filename="../src/qml/FoodOvereatForm.ui.qml" line="5"/>
-        <location filename="../src/qml/FoodTipsMenuForm.ui.qml" line="24"/>
+        <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="6"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="25"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-vomit">
-        <location filename="../src/qml/FoodTipsMenuForm.ui.qml" line="28"/>
-        <location filename="../src/qml/FoodVomitForm.ui.qml" line="5"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="29"/>
+        <location filename="../src/qml/Food/Tips/VomitForm.ui.qml" line="6"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-fail">
-        <location filename="../src/qml/FoodFailForm.ui.qml" line="5"/>
-        <location filename="../src/qml/FoodTipsMenuForm.ui.qml" line="33"/>
+        <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="6"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="34"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-misc">
-        <location filename="../src/qml/FoodMiscForm.ui.qml" line="5"/>
-        <location filename="../src/qml/FoodTipsMenuForm.ui.qml" line="38"/>
+        <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="6"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="39"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tips-text">
-        <location filename="../src/qml/FoodTips.qml" line="7"/>
+        <location filename="../src/qml/Food/Tips/Advices.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-fail-text">
-        <location filename="../src/qml/FoodFail.qml" line="7"/>
+        <location filename="../src/qml/Food/Tips/Fail.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-misc-text">
-        <location filename="../src/qml/FoodMisc.qml" line="7"/>
+        <location filename="../src/qml/Food/Tips/Misc.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-vomit-text">
-        <location filename="../src/qml/FoodVomit.qml" line="7"/>
+        <location filename="../src/qml/Food/Tips/Vomit.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-overeat-text">
-        <location filename="../src/qml/FoodOvereat.qml" line="7"/>
+        <location filename="../src/qml/Food/Tips/Overeat.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-figure-text">
-        <location filename="../src/qml/FoodFigure.qml" line="7"/>
+        <location filename="../src/qml/Food/Tips/Figure.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-figure">
-        <location filename="../src/qml/FoodFigureForm.ui.qml" line="5"/>
-        <location filename="../src/qml/FoodTipsMenuForm.ui.qml" line="16"/>
+        <location filename="../src/qml/Food/Tips/FigureForm.ui.qml" line="6"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="17"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tasks-creative">
-        <location filename="../src/qml/FoodTasksMenuForm.ui.qml" line="16"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="16"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tasks-motivation">
-        <location filename="../src/qml/FoodTasksMenuForm.ui.qml" line="20"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="20"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tasks-challenge">
-        <location filename="../src/qml/FoodTasksMenuForm.ui.qml" line="24"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="24"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tasks-like">
-        <location filename="../src/qml/FoodTasksMenuForm.ui.qml" line="29"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="29"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tasks-food-like">
-        <location filename="../src/qml/FoodTasksMenuForm.ui.qml" line="34"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="34"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tasks-afraid">
-        <location filename="../src/qml/FoodTasksMenuForm.ui.qml" line="39"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="39"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="food-stories-text">
+        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="14"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="food-dishes-lunch">
+        <location filename="../src/qml/Food/Dishes/LunchForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="food-dishes-pm-snack">
+        <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>

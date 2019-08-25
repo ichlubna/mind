@@ -36,35 +36,35 @@
         <file>images/mlceni.svg</file>
         <file>src/qml/AddButton.qml</file>
         <file>src/qml/ArrayUpdater.qml</file>
-        <file>src/qml/Breath1.qml</file>
-        <file>src/qml/Breath1Form.ui.qml</file>
-        <file>src/qml/Breath2.qml</file>
-        <file>src/qml/Breath2Form.ui.qml</file>
-        <file>src/qml/Center.qml</file>
-        <file>src/qml/CenterForm.ui.qml</file>
-        <file>src/qml/Chat.qml</file>
-        <file>src/qml/ChatForm.ui.qml</file>
-        <file>src/qml/ClearData.qml</file>
-        <file>src/qml/ClearDataForm.ui.qml</file>
-        <file>src/qml/Contacts.qml</file>
-        <file>src/qml/ContactsForm.ui.qml</file>
-        <file>src/qml/ContactUs.qml</file>
-        <file>src/qml/ContactUsForm.ui.qml</file>
-        <file>src/qml/Depression.qml</file>
-        <file>src/qml/DepressionForm.ui.qml</file>
-        <file>src/qml/DepressionHelp.qml</file>
-        <file>src/qml/DepressionHelpForm.ui.qml</file>
-        <file>src/qml/DepressionNice.qml</file>
-        <file>src/qml/DepressionNiceForm.ui.qml</file>
-        <file>src/qml/DepressionPlan.qml</file>
-        <file>src/qml/DepressionPlanForm.ui.qml</file>
+        <file>src/qml/Games/Breath1.qml</file>
+        <file>src/qml/Games/Breath1Form.ui.qml</file>
+        <file>src/qml/Games/Breath2.qml</file>
+        <file>src/qml/Games/Breath2Form.ui.qml</file>
+        <file>src/qml/Contacts/Center.qml</file>
+        <file>src/qml/Contacts/CenterForm.ui.qml</file>
+        <file>src/qml/Contacts/Chat.qml</file>
+        <file>src/qml/Contacts/ChatForm.ui.qml</file>
+        <file>src/qml/Drawer/ClearData.qml</file>
+        <file>src/qml/Drawer/ClearDataForm.ui.qml</file>
+        <file>src/qml/Contacts/Contacts.qml</file>
+        <file>src/qml/Contacts/ContactsForm.ui.qml</file>
+        <file>src/qml/Drawer/ContactUs.qml</file>
+        <file>src/qml/Drawer/ContactUsForm.ui.qml</file>
+        <file>src/qml/Depression/Depression.qml</file>
+        <file>src/qml/Depression/DepressionForm.ui.qml</file>
+        <file>src/qml/Depression/Help.qml</file>
+        <file>src/qml/Depression/HelpForm.ui.qml</file>
+        <file>src/qml/Depression/Nice.qml</file>
+        <file>src/qml/Depression/NiceForm.ui.qml</file>
+        <file>src/qml/Depression/Plan.qml</file>
+        <file>src/qml/Depression/PlanForm.ui.qml</file>
         <file>src/qml/Description.qml</file>
         <file>src/qml/DescriptionLabel.qml</file>
         <file>src/qml/Home.qml</file>
         <file>src/qml/HomeForm.ui.qml</file>
         <file>src/qml/main.qml</file>
-        <file>src/qml/MathGame.qml</file>
-        <file>src/qml/MathGameForm.ui.qml</file>
+        <file>src/qml/Games/Math.qml</file>
+        <file>src/qml/Games/MathForm.ui.qml</file>
         <file>src/qml/MenuButton.qml</file>
         <file>src/qml/MenuCheckBox.qml</file>
         <file>src/qml/MenuColumn.qml</file>
@@ -75,36 +75,37 @@
         <file>src/qml/PanicForm.ui.qml</file>
         <file>src/qml/PanicTips.qml</file>
         <file>src/qml/PanicTipsForm.ui.qml</file>
-        <file>src/qml/Phone.qml</file>
-        <file>src/qml/PhoneForm.ui.qml</file>
-        <file>src/qml/Plan.qml</file>
-        <file>src/qml/PlanForm.ui.qml</file>
-        <file>src/qml/Reasons.qml</file>
-        <file>src/qml/ReasonsForm.ui.qml</file>
-        <file>src/qml/SelfHarm.qml</file>
-        <file>src/qml/SelfHarmForm.ui.qml</file>
-        <file>src/qml/SelfHarmTips.qml</file>
-        <file>src/qml/SelfHarmTipsForm.ui.qml</file>
-        <file>src/qml/Suicide.qml</file>
-        <file>src/qml/SuicideForm.ui.qml</file>
-        <file>src/qml/Support.qml</file>
-        <file>src/qml/SupportForm.ui.qml</file>
+        <file>src/qml/Contacts/Phone.qml</file>
+        <file>src/qml/Contacts/PhoneForm.ui.qml</file>
+        <file>src/qml/Suicide/Plan.qml</file>
+        <file>src/qml/Suicide/PlanForm.ui.qml</file>
+        <file>src/qml/Suicide/Reasons.qml</file>
+        <file>src/qml/Suicide/ReasonsForm.ui.qml</file>
+        <file>src/qml/SelfHarm/SelfHarm.qml</file>
+        <file>src/qml/SelfHarm/SelfHarmForm.ui.qml</file>
+        <file>src/qml/SelfHarm/Tips.qml</file>
+        <file>src/qml/SelfHarm/TipsForm.ui.qml</file>
+        <file>src/qml/Suicide/Suicide.qml</file>
+        <file>src/qml/Suicide/SuicideForm.ui.qml</file>
+        <file>src/qml/Drawer/Support.qml</file>
+        <file>src/qml/Drawer/SupportForm.ui.qml</file>
         <file>src/qml/SwipeItems.qml</file>
         <file>src/qml/SwipePage.qml</file>
         <file>qtquickcontrols2.conf</file>
-        <file>src/qml/AboutApp.qml</file>
-        <file>src/qml/AboutAppForm.ui.qml</file>
+        <file>src/qml/Drawer/AboutApp.qml</file>
+        <file>src/qml/Drawer/AboutAppForm.ui.qml</file>
         <file>src/qml/MenuSlider.qml</file>
-        <file>src/qml/CustomTheme.qml</file>
-        <file>src/qml/CustomThemeForm.ui.qml</file>
+        <file>src/qml/Drawer/CustomTheme.qml</file>
+        <file>src/qml/Drawer/CustomThemeForm.ui.qml</file>
         <file>src/qml/ThemeInfo.qml</file>
         <file>src/qml/qmldir</file>
-        <file>src/qml/DepressionMood.qml</file>
-        <file>src/qml/DepressionMoodForm.ui.qml</file>
+        <file>src/qml/Mood.qml</file>
+        <file>src/qml/MoodForm.ui.qml</file>
         <file>src/qml/MenuComboBox.qml</file>
-        <file>src/qml/Game.qml</file>
-        <file>src/qml/GameForm.ui.qml</file>
+        <file>src/qml/Games/Balls.qml</file>
+        <file>src/qml/Games/BallsForm.ui.qml</file>
         <file>images/anabell/amSnack.jpg</file>
+        <file>images/anabell/amSnack2.jpg</file>
         <file>images/anabell/breakfast.jpg</file>
         <file>images/anabell/breakfast2.jpg</file>
         <file>images/anabell/breakfast3.jpg</file>
@@ -126,28 +127,43 @@
         <file>images/anabell/pmSnack.jpg</file>
         <file>images/anabell/pmSnack2.jpg</file>
         <file>images/anabell/pmSnack3.jpg</file>
-        <file>images/anabell/pmSnack4.jpg</file>
         <file>images/anabell/soup2.jpg</file>
         <file>images/anabell/soup3.jpg</file>
-        <file>src/qml/Food.qml</file>
-        <file>src/qml/FoodForm.ui.qml</file>
-        <file>src/qml/FoodContact.qml</file>
-        <file>src/qml/FoodContactForm.ui.qml</file>
-        <file>src/qml/FoodTips.qml</file>
-        <file>src/qml/FoodTipsForm.ui.qml</file>
-        <file>src/qml/FoodTipsMenu.qml</file>
-        <file>src/qml/FoodTipsMenuForm.ui.qml</file>
-        <file>src/qml/FoodOvereat.qml</file>
-        <file>src/qml/FoodOvereatForm.ui.qml</file>
-        <file>src/qml/FoodVomit.qml</file>
-        <file>src/qml/FoodVomitForm.ui.qml</file>
-        <file>src/qml/FoodFail.qml</file>
-        <file>src/qml/FoodFailForm.ui.qml</file>
-        <file>src/qml/FoodMisc.qml</file>
-        <file>src/qml/FoodMiscForm.ui.qml</file>
-        <file>src/qml/FoodFigure.qml</file>
-        <file>src/qml/FoodFigureForm.ui.qml</file>
-        <file>src/qml/FoodTasksMenu.qml</file>
-        <file>src/qml/FoodTasksMenuForm.ui.qml</file>
+        <file>src/qml/ComboDisplay.qml</file>
+        <file>src/qml/ItemList.qml</file>
+        <file>src/qml/Food/Dishes/AmSnack.qml</file>
+        <file>src/qml/Food/Dishes/AmSnackForm.ui.qml</file>
+        <file>src/qml/Food/Dishes/Breakfast.qml</file>
+        <file>src/qml/Food/Dishes/BreakfastForm.ui.qml</file>
+        <file>src/qml/Food/Dishes/Dishes.qml</file>
+        <file>src/qml/Food/Dishes/DishesForm.ui.qml</file>
+        <file>src/qml/Food/Tasks/Tasks.qml</file>
+        <file>src/qml/Food/Tasks/TasksForm.ui.qml</file>
+        <file>src/qml/Food/Tips/Advices.qml</file>
+        <file>src/qml/Food/Tips/AdvicesForm.ui.qml</file>
+        <file>src/qml/Food/Tips/Fail.qml</file>
+        <file>src/qml/Food/Tips/FailForm.ui.qml</file>
+        <file>src/qml/Food/Tips/Figure.qml</file>
+        <file>src/qml/Food/Tips/FigureForm.ui.qml</file>
+        <file>src/qml/Food/Tips/Misc.qml</file>
+        <file>src/qml/Food/Tips/MiscForm.ui.qml</file>
+        <file>src/qml/Food/Tips/Overeat.qml</file>
+        <file>src/qml/Food/Tips/OvereatForm.ui.qml</file>
+        <file>src/qml/Food/Tips/Tips.qml</file>
+        <file>src/qml/Food/Tips/TipsForm.ui.qml</file>
+        <file>src/qml/Food/Tips/Vomit.qml</file>
+        <file>src/qml/Food/Tips/VomitForm.ui.qml</file>
+        <file>src/qml/Food/Contact.qml</file>
+        <file>src/qml/Food/ContactForm.ui.qml</file>
+        <file>src/qml/Food/Food.qml</file>
+        <file>src/qml/Food/FoodForm.ui.qml</file>
+        <file>src/qml/Food/Stories.qml</file>
+        <file>src/qml/Food/StoriesForm.ui.qml</file>
+        <file>src/qml/Food/Dishes/Lunch.qml</file>
+        <file>src/qml/Food/Dishes/LunchForm.ui.qml</file>
+        <file>src/qml/Food/Dishes/PmSnack.qml</file>
+        <file>src/qml/Food/Dishes/PmSnackForm.ui.qml</file>
+        <file>src/qml/Food/Dishes/Dinner.qml</file>
+        <file>src/qml/Food/Dishes/DinnerForm.ui.qml</file>
     </qresource>
 </RCC>
