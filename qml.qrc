@@ -71,10 +71,10 @@
         <file>src/qml/MenuPage.qml</file>
         <file>src/qml/MenuTextArea.qml</file>
         <file>src/qml/MenuTextInput.qml</file>
-        <file>src/qml/Panic.qml</file>
-        <file>src/qml/PanicForm.ui.qml</file>
-        <file>src/qml/PanicTips.qml</file>
-        <file>src/qml/PanicTipsForm.ui.qml</file>
+        <file>src/qml/Panic/Panic.qml</file>
+        <file>src/qml/Panic/PanicForm.ui.qml</file>
+        <file>src/qml/Panic/Tips.qml</file>
+        <file>src/qml/Panic/TipsForm.ui.qml</file>
         <file>src/qml/Contacts/Phone.qml</file>
         <file>src/qml/Contacts/PhoneForm.ui.qml</file>
         <file>src/qml/Suicide/Plan.qml</file>

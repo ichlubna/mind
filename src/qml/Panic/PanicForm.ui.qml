@@ -1,5 +1,6 @@
 import QtQuick 2.4
 import QtQuick.Controls.Styles 1.4
+import ".."
 
 MenuPage {
     id: panicPage

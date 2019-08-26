@@ -1,6 +1,6 @@
 import QtQuick 2.4
 
-PanicTipsForm {
+TipsForm {
     Connections {
         target: itemsContainer
         Component.onCompleted: {
