@@ -6,4 +6,6 @@ FoodForm {
         dishesButton.onClicked: stackView.push("Dishes/Dishes.qml")
         storiesButton.onClicked: stackView.push("Stories.qml")
         contactButton.onClicked: stackView.push("Contact.qml")
+        mathButton.onClicked: stackView.push("../Games/Math.qml")
+        gameButton.onClicked: stackView.push("../Games/Balls.qml")
 }

@@ -1,12 +1,7 @@
 import QtQuick 2.4
 import "../.."
 
-SwipePage {
-    id: foodVomitPage
-    title: qsTrId("food-vomit")
-    property alias itemsContainer: itemsContainer
-
-    SwipeItems{
-           id: itemsContainer
+SwipeItems {
+        listInputText:  qsTrId("food-vomit-text")
+        title: qsTrId("food-vomit")
     }
-}

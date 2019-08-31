@@ -1,10 +1,10 @@
 import QtQuick 2.4
 
-FoodTasksMenuForm {
-    creativeButton.onClicked: stackView.push(".qml")
-    motivationButton.onClicked: stackView.push(".qml")
-    challengeButton.onClicked: stackView.push(".qml")
-    likeButton.onClicked: stackView.push(".qml")
-    foodLikeButton.onClicked: stackView.push(".qml")
-    afraidButton.onClicked: stackView.push(".qml")
+TasksForm {
+    creativeButton.onClicked: stackView.push("Creative.qml")
+    motivationButton.onClicked: stackView.push("Motivation.qml")
+    challengeButton.onClicked: stackView.push("Challenge.qml")
+    likeButton.onClicked: stackView.push("Like.qml")
+    foodLikeButton.onClicked: stackView.push("FoodLike.qml")
+    afraidButton.onClicked: stackView.push("Afraid.qml")
 }

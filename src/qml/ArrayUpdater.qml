@@ -1,14 +1,13 @@
 import QtQuick 2.4
 import io.qt.UserDataProvider 1.0
 
-Item {
+ArrayUpdaterForm {
     property int count: 0
     property var values: []
     property var valuesC: []
     //name of the array in data provider
     property string arrayName: ""
     property string tickArrayName: ""
-    //use checkboxes in the list
     property bool hasTicks: false
 
     UserDataProvider {
@@ -17,6 +16,8 @@ Item {
 
     //works repeaters, itemList, itemListR (objectName: "rm"+index) and itemListC and viewContainer containing them
     function fill() {
+        if(tickArrayName !== "")
+            hasTicks = true;
         values = dataProvider.loadArrayInput(arrayName)
         count = values.length
         itemList.model = count
@@ -24,7 +25,9 @@ Item {
         if (hasTicks) {
             valuesC = dataProvider.loadArrayInput(tickArrayName)
             itemListC.model = count
-        }
+        } else
+            itemListC.visible = false;
+
         for (var i = 0; i < count; i++) {
             itemList.itemAt(i).text = values[i]
             if (hasTicks)
@@ -35,7 +38,7 @@ Item {
     function updateValues() {
         for (var i = 0; i < count; i++) {
             values[i] = itemList.itemAt(i).text
-            if (hasTicks)
+        if (hasTicks)
                 valuesC[i] = (itemListC.itemAt(i).checked) ? "t" : "f"
         }
     }
@@ -63,7 +66,7 @@ Item {
         onVisibleChanged: {
             updateValues()
             dataProvider.saveArrayInput(arrayName, values)
-            if (hasTicks)
+        if (hasTicks)
                 dataProvider.saveArrayInput(tickArrayName, valuesC)
         }
     }

@@ -73,7 +73,7 @@ void UserDataProvider::initCheck()
 {
     //reset to default values if first run
     if(!settings.contains("myReasons"))
-       resetInputs(true, true, true, true, true, true, true);
+       resetInputs(true, true, true, true, true, true, true, true);
     //to avoid getting red color when updating to version with color change option
     if(!settings.contains("themeLight"))
     {
@@ -170,7 +170,7 @@ QList<QString> UserDataProvider::loadArrayInput(QString id)
     return values;
 }
 
-void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language)
+void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks)
 {
     if(reasons)
         settings.setValue("myReasons", qtTrId("my-reasons"));
@@ -202,5 +202,49 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
     }
     if(language)
         settings.remove("language");
+    if(foodTasks)
+    {
+        QList<QString> list = qtTrId("food-afraid-text").split("|");
+        QList<QString> checkList;
+        for(int i=0; i<list.size(); i++)
+            checkList.push_back("f");
+        saveArrayInput("foodAfraid", list);
+        saveArrayInput("foodAfraidC", checkList);
+
+        list = qtTrId("food-challenge-text").split("|");
+        checkList.clear();
+        for(int i=0; i<list.size(); i++)
+            checkList.push_back("f");
+        saveArrayInput("foodChallenge", list);
+        saveArrayInput("foodChallengeC", checkList);
+
+        list = qtTrId("food-creative-text").split("|");
+        checkList.clear();
+        for(int i=0; i<list.size(); i++)
+            checkList.push_back("f");
+        saveArrayInput("foodCreative", list);
+        saveArrayInput("foodCreativeC", checkList);
+
+        list = qtTrId("food-food-like-text").split("|");
+        checkList.clear();
+        for(int i=0; i<list.size(); i++)
+            checkList.push_back("f");
+        saveArrayInput("foodFoodLike", list);
+        saveArrayInput("foodFoodLikeC", checkList);
+
+        list = qtTrId("food-like-text").split("|");
+        checkList.clear();
+        for(int i=0; i<list.size(); i++)
+            checkList.push_back("f");
+        saveArrayInput("foodLike", list);
+        saveArrayInput("foodLikeC", checkList);
+
+        list = qtTrId("food-motivation-text").split("|");
+        checkList.clear();
+        for(int i=0; i<list.size(); i++)
+            checkList.push_back("f");
+        saveArrayInput("foodMotivation", list);
+        saveArrayInput("foodMotivationC", checkList);
+    }
 }
 

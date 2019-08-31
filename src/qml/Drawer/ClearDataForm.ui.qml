@@ -11,6 +11,7 @@ MenuPage {
     property alias themeClear: themeClear
     property alias moodsClear: moodsClear
     property alias languageClear: languageClear
+    property alias foodTasksClear: foodTasksClear
     title: qsTrId("clear-data")
 
     Grid {
@@ -87,6 +88,16 @@ MenuPage {
         }
         MenuCheckBox {
                 id: languageClear
+                checked: false;
+        }
+
+        DescriptionLabel {
+            id: foodTasksText
+            text:  qsTrId("food")
+            width: parent.width*0.75
+        }
+        MenuCheckBox {
+                id: foodTasksClear
                 checked: false;
         }
     }

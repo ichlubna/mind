@@ -8,6 +8,8 @@ MenuPage {
     property alias dishesButton: dishesButton
     property alias storiesButton: storiesButton
     property alias contactButton: contactButton
+    property alias mathButton: mathButton
+    property alias gameButton: gameButton
     title: qsTrId("food")
 
    MenuColumn{
@@ -27,6 +29,16 @@ MenuPage {
         MenuButton {
             id: storiesButton
             text: qsTrId("food-stories")
+        }
+
+        MenuButton {
+            id: mathButton
+            text: qsTrId("math")
+        }
+
+        MenuButton {
+            id: gameButton
+            text: qsTrId("game")
         }
 
         MenuButton {

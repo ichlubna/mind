@@ -1,7 +1,8 @@
-import QtQuick 2.5
+import QtQuick 2.4
 import QtGraphicalEffects 1.0
 import QtQuick.Particles 2.12
-import ".."
+
+/*BUG? DOESNT'T WORK IN SUBFOLDER*/
 
 MenuPage {
     id: gamePage
