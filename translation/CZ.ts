@@ -9,6 +9,7 @@
         <translation>Home</translation>
     </message>
     <message id="food">
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="13"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
@@ -101,7 +102,6 @@
         <translation>Tipy</translation>
     </message>
     <message id="food-tasks">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="22"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="12"/>
         <source></source>
@@ -193,20 +193,20 @@
         <location filename="../src/qml/Depression/HelpForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Sportujte|Vezměte si kolo&lt;br&gt;a udělejte si půlhodinovou vyjížďku.|
-Nebuďte sami|Napište nebo zavolejte rodičům,&lt;br&gt;partnerce, partnerovi, kamarádce, kamarádovi.&lt;br&gt;Běžte je navštívit.|
-Meditujte|Pohodlně se posaďte,&lt;br&gt;zavřete oči a zhluboka se párkrát nadechněte.&lt;br&gt;Poté nechte myšlenky volně plynout.|
-Přestaňte kouřit,&lt;br&gt;nepijte alkohol|Uvařte si bylinkový nebo ovocný čaj.|
-Promluvte si&lt;br&gt; s (školním) psychologem|Domluvte si schůzku v nejkratším termínu.|
-Poslouchejte hudbu|Vytvořte si na mobilu playlist&lt;br&gt;oblíbených písniček a poslouchejte je.|
-Sejděte se s kamarády|Napište nebo zavolejte kamarádovi&lt;br&gt;a domluvte si setkání.|
-Sledujte oblíbený film|Podívejte se na film, který máte rádi,&lt;br&gt;nebo sledujte nejnovější videa na internetu.|
-Napište blízké osobě|Napište osobě, které věříte,&lt;br&gt;jak Vám je.|
-Kreslete si|Vezměte si omalovánky&lt;br&gt;nebo si vytiskněte mandalu a vymalujte ji.|
-Běžte si zacvičit|Běh, jízda na kole nebo delší procházka&lt;br&gt;Vám může pomoci.|
-Relaxujte|Stáhněte si do mobilu řízenou relaxaci,&lt;br&gt;pusťte si ji, lehněte si na zem,&lt;br&gt;uvolněte se, zavřete oči a relaxujte.|
-Zahrajte si na hudební nástroj|Zahrajte si oblíbenou skladbu&lt;br&gt;od oblíbeného autora.|
-Čtěte si|Přečtěte si něco zajímavého, najděte knížku,&lt;br&gt;časopis nebo článek na internetu.|
+Sportujte|Vezměte si kolo a udělejte si půlhodinovou vyjížďku.|
+Nebuďte sami|Napište nebo zavolejte rodičům, partnerce, partnerovi, kamarádce, kamarádovi. Běžte je navštívit.|
+Meditujte|Pohodlně se posaďte, zavřete oči a zhluboka se párkrát nadechněte. Poté nechte myšlenky volně plynout.|
+Přestaňte kouřit, nepijte alkohol|Uvařte si bylinkový nebo ovocný čaj.|
+Promluvte si  s (školním) psychologem|Domluvte si schůzku v nejkratším termínu.|
+Poslouchejte hudbu|Vytvořte si na mobilu playlist oblíbených písniček a poslouchejte je.|
+Sejděte se s kamarády|Napište nebo zavolejte kamarádovi a domluvte si setkání.|
+Sledujte oblíbený film|Podívejte se na film, který máte rádi, nebo sledujte nejnovější videa na internetu.|
+Napište blízké osobě|Napište osobě, které věříte, jak Vám je.|
+Kreslete si|Vezměte si omalovánky nebo si vytiskněte mandalu a vymalujte ji.|
+Běžte si zacvičit|Běh, jízda na kole nebo delší procházka Vám může pomoci.|
+Relaxujte|Stáhněte si do mobilu řízenou relaxaci, pusťte si ji, lehněte si na zem, uvolněte se, zavřete oči a relaxujte.|
+Zahrajte si na hudební nástroj|Zahrajte si oblíbenou skladbu od oblíbeného autora.|
+Čtěte si|Přečtěte si něco zajímavého, najděte knížku, časopis nebo článek na internetu.|
 Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
             </translation>
     </message>
@@ -407,7 +407,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>
         &lt;a href=&quot;http://www.chat-pomoc.cz&quot;&gt;Chat Pražské linky důvěry&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.elinka.iporadna.cz&quot;&gt;Internetové poradny&lt;/a&gt; &lt;br&gt;&lt;br&gt;
-        &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;Internetová poradna pre mladých (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt; 
+        &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;Internetová poradna pre mladých (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.modralinka.cz/?page=chat&quot;&gt;Modrá linka&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://chat.linkabezpeci.cz/LBCS-war/PUBLIC/clientlogin.jsp&quot;&gt;Linka bezpečí&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         </translation>
@@ -483,53 +483,53 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         </translation>
     </message>
     <message id="my-reasons">
-        <location filename="../src/cpp/userdataprovider.cpp" line="176"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="183"/>
         <source></source>
         <translation>Moje důvody...</translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="179"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="186"/>
         <source></source>
         <translation>Komu napíšu...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="180"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="187"/>
         <source></source>
         <translation>Ahoj, právě prožívám náročné období, můžeme si promluvit?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="181"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="188"/>
         <source></source>
         <translation>Lidé, kterým na mě záleží</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="182"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="189"/>
         <source></source>
         <translation>Co udělám...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="183"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="190"/>
         <source></source>
         <translation>Kam půjdu...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="187"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="194"/>
         <source></source>
         <translation>Nakoupím v obchodě</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="191"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="198"/>
         <source></source>
         <translation>Bylo krásné počasí...</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="207"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="214"/>
         <source></source>
         <translation>
         </translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="214"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="224"/>
         <source></source>
         <translation>
 Umím být a chci být na sebe hodná/ý|
@@ -561,7 +561,7 @@ Ke každému prstu své ruky mohu přiřadit přítele/přítelkyni, který/á m
         </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="221"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="234"/>
         <source></source>
         <translation>
 Namaluj, jak si představuješ anorexii a ten obrázek roztrhej|
@@ -580,19 +580,19 @@ Udělej si nějakou novou dekoraci dpokoje
         </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="228"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="244"/>
         <source></source>
-        <translation></translation>
+        <translation> </translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="235"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
         <source></source>
-        <translation></translation>
+        <translation> </translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="242"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="264"/>
         <source></source>
-        <translation></translation>
+        <translation> </translation>
     </message>
     <message id="phone-text">
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
@@ -603,7 +603,7 @@ Udělej si nějakou novou dekoraci dpokoje
         &lt;a href=&quot;tel:116111&quot;&gt;116 111&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Spondea&lt;/b&gt;  &lt;br&gt;
         &lt;a href=&quot;tel:541235511&quot;&gt;541 235 511&lt;/a&gt; &lt;br&gt; (po-pá 8:00 – 18:00), &lt;a href=&quot;tel:608118088&quot;&gt;608 118 008&lt;/a&gt; &lt;br&gt;  (so-ne 8:00 – 20:00)  &lt;br&gt; &lt;br&gt;
-        &lt;b&gt;KC Brno FN Bohunice&lt;/b&gt;  &lt;br&gt;                
+        &lt;b&gt;KC Brno FN Bohunice&lt;/b&gt;  &lt;br&gt;
         &lt;a href=&quot;tel:532232078&quot;&gt;532 232 078&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;PN Bohnice&lt;/b&gt; &lt;br&gt;
         &lt;a href=&quot;tel:2840166668&quot;&gt;284 016 666&lt;/a&gt; &lt;br&gt; &lt;br&gt;
@@ -623,42 +623,42 @@ Udělej si nějakou novou dekoraci dpokoje
         <location filename="../src/qml/SelfHarm/TipsForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Vezměte si kostku ledu&lt;br&gt;a přejíždějte si s ní po tom místě,&lt;br&gt;kde si chcete ublížit||
+Vezměte si kostku ledu a přejíždějte si s ní po tom místě, kde si chcete ublížit||
 Napište kamarádovi|Zeptejte se ho, jak se má.|
-Vezměte si červenou fixu&lt;br&gt;a malujte si po ruce||
+Vezměte si červenou fixu a malujte si po ruce||
 Bouchejte do polštáře||
-Napište na papír,&lt;br&gt;jak se cítíte a pak jej roztrhejte||
+Napište na papír, jak se cítíte a pak jej roztrhejte||
 Zmačkejte papír||
 Křičte||
-Zacvičte si|Projeďte se na kole&lt;br&gt;nebo si běžte zaběhat.|
-Jděte se projít|Najděte si oblíbenou trasu,&lt;br&gt;oblíbené místo a běžte na procházku.|
-Uklízejte|Utřete prach u sebe v pokoji,&lt;br&gt;vysajte.|
-Malujte|Vezměte si omalovánky&lt;br&gt;nebo si vytiskněte mandalu a vymalujte ji.|
-Nakreslete to,&lt;br&gt;co si chcete udělat||
+Zacvičte si|Projeďte se na kole nebo si běžte zaběhat.|
+Jděte se projít|Najděte si oblíbenou trasu, oblíbené místo a běžte na procházku.|
+Uklízejte|Utřete prach u sebe v pokoji, vysajte.|
+Malujte|Vezměte si omalovánky nebo si vytiskněte mandalu a vymalujte ji.|
+Nakreslete to, co si chcete udělat||
 Zkuste jít spát||
-Relaxujte|Stáhněte si do mobilu řízenou relaxaci, pusťte si ji,&lt;br&gt;lehněte si na zem, uvolněte se, zavřete oči a relaxujte.|
+Relaxujte|Stáhněte si do mobilu řízenou relaxaci, pusťte si ji, lehněte si na zem, uvolněte se, zavřete oči a relaxujte.|
 Dejte si studenou sprchu||
 Zatněte pěsti||
-Napište blízké osobě|Napište osobě, které věříte,&lt;br&gt;že Vám není dobře.|
-Jděte mezi lidi|Běžte se projít do centra&lt;br&gt;a kupte si něco hezkého.
+Napište blízké osobě|Napište osobě, které věříte, že Vám není dobře.|
+Jděte mezi lidi|Běžte se projít do centra a kupte si něco hezkého.
         </translation>
     </message>
     <message id="panic-tips">
         <location filename="../src/qml/Panic/TipsForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Dýchejte&lt;br&gt;podle naší aplikace||
+Dýchejte podle naší aplikace||
 Počítejte od 100 do 0||
-Vezměte si do ruky papír&lt;br&gt;a pořádně ho zmačkejte||
+Vezměte si do ruky papír a pořádně ho zmačkejte||
 Obejměte blízkou osobu||
 Zadržte dech||
 Dejte si čokoládu||
 Uklízejte|Utřete prach u sebe v pokoji, vysajte.|
-Podívejte se&lt;br&gt;na oblíbený film||
-Pomazlete se&lt;br&gt;s domácím mazlíčkem||
-Kreslete si|Vezměte si papír a tužku&lt;br&gt;a zkuste nakreslit Vaše emoce a pocity.|
-Poslouchejte hudbu|Vytvořte si na mobilu playlist&lt;br&gt;oblíbených písniček a poslouchejte je.|
-Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;br&gt;běžte rychlým tempem.
+Podívejte se na oblíbený film||
+Pomazlete se s domácím mazlíčkem||
+Kreslete si|Vezměte si papír a tužku a zkuste nakreslit Vaše emoce a pocity.|
+Poslouchejte hudbu|Vytvořte si na mobilu playlist oblíbených písniček a poslouchejte je.|
+Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychlým tempem.
         </translation>
     </message>
     <message id="depression-plan-header">
@@ -670,11 +670,6 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku,&lt;br&gt;bě�
         <location filename="../src/qml/Drawer/ContactUsForm.ui.qml" line="9"/>
         <source></source>
         <translation>Máte-li připomínky či dotazy k této aplikaci, kontaktujte nás na adrese &lt;a href=&quot;mailto:nepanikar.info@gmail.com&quot;&gt;nepanikar.info@gmail.com&lt;/a&gt; &lt;br&gt; &lt;br&gt;</translation>
-    </message>
-    <message id="deperssion-nice-header">
-        <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
-        <source></source>
-        <translation>Zde mohu napsat co mi dnes udělalo radost:</translation>
     </message>
     <message id="dusi-link">
         <location filename="../src/qml/Drawer/Support.qml" line="4"/>
@@ -814,7 +809,7 @@ Mysli na motivaci, proč se chceš vyléčit||
 Vyplakej se||
 Zavolej člověku, který ti rozumí a podpoří tě||
 Jdi za blízkým člověkem||
-Obejmi maminku/tatínka/přítele/domácího mazlíčka||
+Obejmi maminku/tatínka/přítele/ domácího mazlíčka||
 Poslouchej hudbu||
 Čti knihu||
 Podívej se na oblíbený film||
@@ -908,7 +903,7 @@ Nekupuji časopisy, které prosazují a podporují hubnutí||
 Chválím se za maličkosti||
 Umím být dokonalý/á, skvělý/á, bezchybný/á a nemusím k tomu držet diety ani se trápit tím, jak vypadám||
 Nenechávám si jídlo až na večer, protože vím, že tehdy jsem nejzranitelnější a nejcitlivější k pocitům, že se mi nedaří||
-Nemusím mít dokonalé tělo, má duše je dokonalá tím, že je|| A o tom, jak je tělo dokonalé, nikdo nemá právo rozhodovat. Natož za mě||
+Nemusím mít dokonalé tělo, má duše je dokonalá tím, že je. A o tom, jak je tělo dokonalé, nikdo nemá právo rozhodovat. Natož za mě||
 Jsem šťastný/á ze vztahů, kterými jsem obklopen/a, a které jsem si vytvořil/a||
 Všechno nemá logické vysvětlení||
 Vím komu zavolat, když mi nebude dobře||
@@ -936,6 +931,11 @@ Nejsem na to sám/sama|
         <source></source>
         <translation>Motivace</translation>
     </message>
+    <message id="food-motivation-header">
+        <location filename="../src/qml/Food/Tasks/MotivationForm.ui.qml" line="8"/>
+        <source></source>
+        <translation>Vytvořím si seznam věcí, pro které chci být zdravý/á.</translation>
+    </message>
     <message id="food-tasks-challenge">
         <location filename="../src/qml/Food/Tasks/ChallengeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="25"/>
@@ -959,6 +959,11 @@ Nejsem na to sám/sama|
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="40"/>
         <source></source>
         <translation>Jídla, kterých se bojím</translation>
+    </message>
+    <message id="food-afraid-header">
+        <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="8"/>
+        <source></source>
+        <translation>Do tohoto seznamu se napiš seznam “zakázaných“ potravin a každý týden jednu potravinu vyzkoušej a odškrtni si ji na seznamu.</translation>
     </message>
     <message id="food-stories-text">
         <location filename="../src/qml/Food/StoriesForm.ui.qml" line="14"/>
@@ -996,6 +1001,7 @@ Rozhodla jsem se zhubnout, 60 kg bylo pro mě příliš, i když jsem měřila 1
         qrc:/images/anabell/soup2.jpg
         |
         kuřecí vývar se zeleninou
+        |
         qrc:/images/anabell/soup3.jpg
         |
         minestrone
@@ -1025,6 +1031,11 @@ Rozhodla jsem se zhubnout, 60 kg bylo pro mě příliš, i když jsem měřila 1
         |
         šlehaný tvaroh s medem a sušenými švestkami
         </translation>
+    </message>
+    <message id="depression-nice-header">
+        <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
+        <source></source>
+        <translation>Zde mohu napsat co mi dnes udělalo radost:</translation>
     </message>
 </context>
 </TS>

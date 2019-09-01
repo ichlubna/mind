@@ -9,6 +9,7 @@
         <translation>Home</translation>
     </message>
     <message id="food">
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="13"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
@@ -61,7 +62,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tasks">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="22"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="12"/>
         <source></source>
@@ -142,20 +142,20 @@
         <source></source>
         <translation>
 Sport|Zabierz rower i zrelaksuj się na półgodzinowej przejażdżce.|
-Nie spędzaj czas&lt;br&gt;w samotności|Napisz lub zadzwoń do rodziców, Twojego chłopaka /dziewczyny, do kolegi lub koleżanki. Odwiedź ich.|
+Nie spędzaj czas w samotności|Napisz lub zadzwoń do rodziców, Twojego chłopaka /dziewczyny, do kolegi lub koleżanki. Odwiedź ich.|
 Medytacja|Siądź sobie wygodnie, zamknij oczy i kilkakrotnie weź głęboki oddech. Następnie pozwól swoim myślom swobodnie płynąć.|
-Rzuć palenie i picie&lt;br&gt;napojów wyskokowych|Ugotuj sobie herbatę ziołową lub owocową.|
-Porozmawiaj ze (szkolnym)&lt;br&gt;psychologiem|Umów się na jak najszybsze spotkanie.|
+Rzuć palenie i picie napojów wyskokowych|Ugotuj sobie herbatę ziołową lub owocową.|
+Porozmawiaj ze (szkolnym) psychologiem|Umów się na jak najszybsze spotkanie.|
 Muzyka|Utwórz listę ulubionych utworów na komórce i słuchaj jej.|
-Spotkanie z przyjaciółmi|Napisz lub zadzwoń do przyjaciół&lt;br&gt;i umów się na spotkanie.|
-Oglądanie ulubionych filmów|Zobacz film, który lubisz lub&lt;br&gt;oglądaj najświeższe wideo na internecie.|
-Napisz do bliskiej osoby|Napisz do takiej osoby,&lt;br&gt;której możesz zaufać,&lt;br&gt;o tym, jak się czujesz.|
+Spotkanie z przyjaciółmi|Napisz lub zadzwoń do przyjaciół i umów się na spotkanie.|
+Oglądanie ulubionych filmów|Zobacz film, który lubisz lub oglądaj najświeższe wideo na internecie.|
+Napisz do bliskiej osoby|Napisz do takiej osoby, której możesz zaufać, o tym, jak się czujesz.|
 Rysuj|Weź kolorowankę lub wydrukuj mandalę i zabawa gwarantowana!|
-Ruszaj sę|Bieg, jazda na rowerze lub&lt;br&gt;długie spacery na&lt;br&gt;pewno podniosą humor.|
-Relaksuj|Pobierz „kontrolowany relaks“ do komórki,&lt;br&gt;włącz, połóż i zrelaksuj się,&lt;br&gt;zamknij oczy, odpocznij.|
-Zrelaksuj się poprzez&lt;br&gt;instrument muzyczny|Zagraj ulubiony utwór&lt;br&gt;ulubionego kompozytora.|
-Czytaj|Przeczytaj coś interesującego, znajdź książkę,&lt;br&gt;czaspopismo bądź artykuł w internecie.|
-Przytul się&lt;br&gt;do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
+Ruszaj sę|Bieg, jazda na rowerze lub długie spacery na pewno podniosą humor.|
+Relaksuj|Pobierz „kontrolowany relaks“ do komórki, włącz, połóż i zrelaksuj się, zamknij oczy, odpocznij.|
+Zrelaksuj się poprzez instrument muzyczny|Zagraj ulubiony utwór ulubionego kompozytora.|
+Czytaj|Przeczytaj coś interesującego, znajdź książkę, czaspopismo bądź artykuł w internecie.|
+Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
             </translation>
     </message>
     <message id="anxiety-panic">
@@ -383,72 +383,72 @@ Przytul się&lt;br&gt;do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         </translation>
     </message>
     <message id="my-reasons">
-        <location filename="../src/cpp/userdataprovider.cpp" line="176"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="183"/>
         <source></source>
         <translation>Moje powody…</translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="179"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="186"/>
         <source></source>
         <translation>Do kogo napiszę...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="180"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="187"/>
         <source></source>
         <translation>Cześć, właśnie teraz przeżywam trudny okres w moim życiu, możemy razem pogadać?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="181"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="188"/>
         <source></source>
         <translation>Ludzie, na których mi zależy</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="182"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="189"/>
         <source></source>
         <translation>Co zrobię…</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="183"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="190"/>
         <source></source>
         <translation>Dokąd pójdę…</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="187"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="194"/>
         <source></source>
         <translation>Zrobię zakupy</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="191"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="198"/>
         <source></source>
         <translation>Była ładna pogoda…</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="207"/>
-        <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message id="food-challenge-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="214"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="food-challenge-text">
+        <location filename="../src/cpp/userdataprovider.cpp" line="224"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="221"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="234"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="228"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="244"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="235"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="242"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="264"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -470,23 +470,23 @@ Przytul się&lt;br&gt;do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <location filename="../src/qml/SelfHarm/TipsForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Użyj kawałek lodu-przecieraj&lt;br&gt;tę część ciała, którą miałeś/aś&lt;br&gt;w planie poranić||
-Wyślij wiadomość&lt;br&gt;do przyjaciela przyjaciółki | zapytaj go jej, jak się mu jej powodzi|
-Zabierz czerwony mazak&lt;br&gt;i rysuj sobie po ręce||
+Użyj kawałek lodu-przecieraj tę część ciała, którą miałeś/aś w planie poranić||
+Wyślij wiadomość do przyjaciela przyjaciółki | zapytaj go jej, jak się mu jej powodzi|
+Zabierz czerwony mazak i rysuj sobie po ręce||
 Uderzaj do poduszki||
-Napisz na kartkę,&lt;br&gt; jak się czujesz,&lt;br&gt; potem ją zgnieć i rozerwij||
+Napisz na kartkę,  jak się czujesz,  potem ją zgnieć i rozerwij||
 Zgnieć kartkę papieru||
 Krzycz||
 Uprawiaj sport|Idź pojeździć na rowerze lub pobiegaj sobie.|
-Idź na spacer|Znajdź najlepsze miejsce,&lt;br&gt; gdzie lubisz często spacerować.|
+Idź na spacer|Znajdź najlepsze miejsce,  gdzie lubisz często spacerować.|
 Sprzątaj|Zetrzyj proch u siebie w pokoju, poodkurzaj.|
 Rysuj|Weź kolorowankę lub wydrukuj mandalę.|
-Narysuj, w jaki sposób&lt;br&gt;chciał/abyś sobie ubliżyć||
+Narysuj, w jaki sposób chciał/abyś sobie ubliżyć||
 Spróbuj zasnąć||
-Relaksuj|Pobierz „kontrolowany relaks“ do komórki,&lt;br&gt;włącz, połóż i zrelaksuj się,&lt;br&gt;zamknij oczy, odpocznij.|
+Relaksuj|Pobierz „kontrolowany relaks“ do komórki, włącz, połóż i zrelaksuj się, zamknij oczy, odpocznij.|
 Wejdź pod zimny prysznic||
 Zaciskaj pięści||
-Wyślij wiadomość&lt;br&gt;do bliskiej osoby|Napisz do takiej osoby,&lt;br&gt;której możesz zaufać, o tym, jak się czujesz.|
+Wyślij wiadomość do bliskiej osoby|Napisz do takiej osoby, której możesz zaufać, o tym, jak się czujesz.|
 Spędzaj czas w towarzystwie|Zajrzyj do sklepów w pobliżu, relaksuj się.
         </translation>
     </message>
@@ -504,8 +504,8 @@ Sprzątaj|Zetrzyj proch u siebie w pokoju, poodkurzaj|
 Pooglądaj ulubiony film||
 Pobaw się ze swoim zwierzakiem||
 Rysuj| Zabierz kawałek kartki oraz ołówek i spróbuj narysować swoje emocje.|
-Muzyka|Utwórz listę ulubionych&lt;br&gt;utworów na komórce i słuchaj jej.|
-Idź na świeże powietrze|Wybierz się na półgodzinowy&lt;br&gt;spacer, biegnij szybkim tempem.
+Muzyka|Utwórz listę ulubionych utworów na komórce i słuchaj jej.|
+Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybkim tempem.
         </translation>
     </message>
     <message id="depression-plan-header">
@@ -519,9 +519,8 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy&lt;br&gt;spacer, biegn
         <translation>Jeśli masz jakieś uwagi lub pytania dotyczące tej aplikacji, skontaktuj się z nami pod adresem &lt;a href=&quot;mailto:nepanikar.info@gmail.com&quot;&gt;nepanikar.info@gmail.com&lt;/a&gt; &lt;br&gt; &lt;br&gt;</translation>
     </message>
     <message id="deperssion-nice-header">
-        <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
         <source></source>
-        <translation>Co mnie dzisiaj uszczęśliwiło:</translation>
+        <translation type="vanished">Co mnie dzisiaj uszczęśliwiło:</translation>
     </message>
     <message id="dusi-link">
         <location filename="../src/qml/Drawer/Support.qml" line="4"/>
@@ -699,6 +698,11 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy&lt;br&gt;spacer, biegn
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="food-motivation-header">
+        <location filename="../src/qml/Food/Tasks/MotivationForm.ui.qml" line="8"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-tasks-challenge">
         <location filename="../src/qml/Food/Tasks/ChallengeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="25"/>
@@ -723,6 +727,11 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy&lt;br&gt;spacer, biegn
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="food-afraid-header">
+        <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="8"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-stories-text">
         <location filename="../src/qml/Food/StoriesForm.ui.qml" line="14"/>
         <source></source>
@@ -735,6 +744,11 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy&lt;br&gt;spacer, biegn
     </message>
     <message id="food-dishes-pm-snack">
         <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="depression-nice-header">
+        <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>

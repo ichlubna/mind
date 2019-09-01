@@ -9,6 +9,7 @@
         <translation>Home</translation>
     </message>
     <message id="food">
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="13"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
@@ -61,7 +62,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tasks">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="22"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="12"/>
         <source></source>
@@ -141,20 +141,20 @@
         <location filename="../src/qml/Depression/HelpForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Športujte|Vezmite si bicykel&lt;br&gt;a choďte na polhodinovú jazdu.|
-Nebuďte sami|Napíšte alebo zavolajte rodičom,&lt;br&gt;partnerke, partnerovi, kamarátke, kamarátovi.&lt;br&gt;Choďte ich navštíviť.|
-Meditujte|Pohodlne sa posaďte,&lt;br&gt;zavrite oči a zhlboka sa nadýchnite.&lt;br&gt;Potom nechajte svoje myšlienky voľne plynúť.|
-Skončite s fajčením,&lt;br&gt;nepite alkohol|Uvarte si bylinkový alebo ovocný čaj.|
-Porozprávajte sa&lt;br&gt;so (školským) psychológom|Dohodnite si stretnutie v čo najkratšom čase.|
-Počúvajte hudbu|Vytvorte si na mobile playlist&lt;br&gt;obľúbených pesničiek a počúvajte ich.|
-Stretnite sa s kamarátmi|Napíšte alebo zavolajte kamarátovi&lt;br&gt;a dohodnite si stretnutie.|
-Pozrite si obľúbený film|Pozrite si film, ktorý máte radi&lt;br&gt;alebo pozerajte najnovšie videá na internete|
-Napíšte blízkej osobe|Napíšte osobe, ktorej veríte,&lt;br&gt;o tom ako Vám je.|
-Kreslite si|Vezmite si omaľovávanky&lt;br&gt;alebo si vytlačte mandalu a vyfarbite ju.|
-Zacvičte si|Beh, bicyklovanie alebo dlhšia prechádzka&lt;br&gt;Vám môže pomôcť.|
-Relaxujte|Stiahnite si do mobilu riadenú relaxáciu,&lt;br&gt;pustite si ju, ľahnite si na zem,&lt;br&gt;uvoľnite sa, zavrite oči a relaxujte.|
-Zahrajte si na hudobný nástroj|Zahrajte si obľúbenú skladbu&lt;br&gt;od obľúbeného autora.|
-Čítajte si|Prečítajte si niečo zaujímavé, nájdite knižku,&lt;br&gt;časopis alebo článok na internete.|
+Športujte|Vezmite si bicykel a choďte na polhodinovú jazdu.|
+Nebuďte sami|Napíšte alebo zavolajte rodičom, partnerke, partnerovi, kamarátke, kamarátovi. Choďte ich navštíviť.|
+Meditujte|Pohodlne sa posaďte, zavrite oči a zhlboka sa nadýchnite. Potom nechajte svoje myšlienky voľne plynúť.|
+Skončite s fajčením, nepite alkohol|Uvarte si bylinkový alebo ovocný čaj.|
+Porozprávajte sa so (školským) psychológom|Dohodnite si stretnutie v čo najkratšom čase.|
+Počúvajte hudbu|Vytvorte si na mobile playlist obľúbených pesničiek a počúvajte ich.|
+Stretnite sa s kamarátmi|Napíšte alebo zavolajte kamarátovi a dohodnite si stretnutie.|
+Pozrite si obľúbený film|Pozrite si film, ktorý máte radi alebo pozerajte najnovšie videá na internete|
+Napíšte blízkej osobe|Napíšte osobe, ktorej veríte, o tom ako Vám je.|
+Kreslite si|Vezmite si omaľovávanky alebo si vytlačte mandalu a vyfarbite ju.|
+Zacvičte si|Beh, bicyklovanie alebo dlhšia prechádzka Vám môže pomôcť.|
+Relaxujte|Stiahnite si do mobilu riadenú relaxáciu, pustite si ju, ľahnite si na zem, uvoľnite sa, zavrite oči a relaxujte.|
+Zahrajte si na hudobný nástroj|Zahrajte si obľúbenú skladbu od obľúbeného autora.|
+Čítajte si|Prečítajte si niečo zaujímavé, nájdite knižku, časopis alebo článok na internete.|
 Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
             </translation>
     </message>
@@ -383,72 +383,72 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         </translation>
     </message>
     <message id="my-reasons">
-        <location filename="../src/cpp/userdataprovider.cpp" line="176"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="183"/>
         <source></source>
         <translation>Moje dôvody...</translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="179"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="186"/>
         <source></source>
         <translation>Komu napíšem...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="180"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="187"/>
         <source></source>
         <translation>Ahoj, práve prežívam náročné obdobie, môžeme sa porozprávať?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="181"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="188"/>
         <source></source>
         <translation>Ľudia, ktorým na mne záleží</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="182"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="189"/>
         <source></source>
         <translation>Čo urobím...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="183"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="190"/>
         <source></source>
         <translation>Kam pôjdem...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="187"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="194"/>
         <source></source>
         <translation>Nakúpim v obchode</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="191"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="198"/>
         <source></source>
         <translation>Bolo krásne počasie...</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="207"/>
-        <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message id="food-challenge-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="214"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="food-challenge-text">
+        <location filename="../src/cpp/userdataprovider.cpp" line="224"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="221"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="234"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="228"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="244"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="235"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="242"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="264"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -485,42 +485,42 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <location filename="../src/qml/SelfHarm/TipsForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Vezmite si kocku ľadu&lt;br&gt;a prechádzajte si ňou po mieste,&lt;br&gt;kde si chcete ublížiť||
+Vezmite si kocku ľadu a prechádzajte si ňou po mieste, kde si chcete ublížiť||
 Napíšte kamarátovi|Spýtajte sa ho, ako sa má.|
-Vezmite si červenú fixu&lt;br&gt;a maľujte si ňou po ruke||
+Vezmite si červenú fixu a maľujte si ňou po ruke||
 Udierajte do vankúša||
-Napíšte na papier&lt;br&gt;ako sa cítite, a potom ho roztrhajte.||
+Napíšte na papier ako sa cítite, a potom ho roztrhajte.||
 Pokrčte papier||
 Kričte||
-Zacvičte si|Choďte na bicykel&lt;br&gt;alebo si choďte zabehať.|
-Choďte sa prejsť|Nájdite si obľúbenú trasu,&lt;br&gt;obľúbené miesto a choďte na prechádzku.|
-Upratujte|Utrite prach vo svojej izbe,&lt;br&gt;povysávajte.|
-Maľujte|Vezmite si omaľovávanky&lt;br&gt;alebo si vytlačte mandalu a vymaľujte ju.|
-Nakreslite to,&lt;br&gt;čo si chcete urobiť||
+Zacvičte si|Choďte na bicykel alebo si choďte zabehať.|
+Choďte sa prejsť|Nájdite si obľúbenú trasu, obľúbené miesto a choďte na prechádzku.|
+Upratujte|Utrite prach vo svojej izbe, povysávajte.|
+Maľujte|Vezmite si omaľovávanky alebo si vytlačte mandalu a vymaľujte ju.|
+Nakreslite to, čo si chcete urobiť||
 Skúste zaspať||
-Relaxujte|Stiahnite si do mobilu riadenú relaxáciu, pustite si ju,&lt;br&gt;ľahnite si na zem, uvoľnite sa, zavrite oči a relaxujte.|
+Relaxujte|Stiahnite si do mobilu riadenú relaxáciu, pustite si ju, ľahnite si na zem, uvoľnite sa, zavrite oči a relaxujte.|
 Dajte si studenú sprchu||
 Zatnite päste||
-Napíšte blízkej osobe|Napíšte osobe, ktorej veríte,&lt;br&gt;že sa necítite dobre.|
-Choďte medzi ľudí|Choďte sa prejsť do centra&lt;br&gt;a kúpte si niečo pekné.
+Napíšte blízkej osobe|Napíšte osobe, ktorej veríte, že sa necítite dobre.|
+Choďte medzi ľudí|Choďte sa prejsť do centra a kúpte si niečo pekné.
         </translation>
     </message>
     <message id="panic-tips">
         <location filename="../src/qml/Panic/TipsForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Dýchajte&lt;br&gt;podľa našej aplikácie||
+Dýchajte podľa našej aplikácie||
 Počítajte od 100 do 0||
-Vezmite si do rúk papier&lt;br&gt;a poriadne ho pokrčte||
+Vezmite si do rúk papier a poriadne ho pokrčte||
 Objímte blízku osobu||
 Zadržte dych||
 Dajte si čokoládu||
 Upratujte|Utrite prach vo svojej izbe, povysávajte.|
-Pozrite si&lt;br&gt;obľúbený film.||
-Pomazlite sa&lt;br&gt;s domácim miláčikom||
-Kreslite si|Vezmite si papier a ceruzku&lt;br&gt;a skúste nakresliť Vaše emócie a pocity.|
-Počúvajte hudbu|Vytvorte si v mobile playlist&lt;br&gt;obľúbených pesničiek a počúvajte ich.|
-Choďte&lt;br&gt;na čerstvý vzduch|Choďte na polhodinovú prechádzku,&lt;br&gt;bežte rýchlym tempom.
+Pozrite si obľúbený film.||
+Pomazlite sa s domácim miláčikom||
+Kreslite si|Vezmite si papier a ceruzku a skúste nakresliť Vaše emócie a pocity.|
+Počúvajte hudbu|Vytvorte si v mobile playlist obľúbených pesničiek a počúvajte ich.|
+Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym tempom.
         </translation>
     </message>
     <message id="depression-plan-header">
@@ -534,9 +534,8 @@ Choďte&lt;br&gt;na čerstvý vzduch|Choďte na polhodinovú prechádzku,&lt;br&
         <translation>Ak máte pripomienky, alebo poznámky k tejto aplikácii, kontaktujte nás na adrese &lt;a href=&quot;mailto:nepanikar.info@gmail.com&quot;&gt;nepanikar.info@gmail.com&lt;/a&gt; &lt;br&gt; &lt;br&gt;</translation>
     </message>
     <message id="deperssion-nice-header">
-        <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
         <source></source>
-        <translation>Tu môžem napísať čo mi dnes urobilo radosť:</translation>
+        <translation type="vanished">Tu môžem napísať čo mi dnes urobilo radosť:</translation>
     </message>
     <message id="dusi-link">
         <location filename="../src/qml/Drawer/Support.qml" line="4"/>
@@ -714,6 +713,11 @@ Choďte&lt;br&gt;na čerstvý vzduch|Choďte na polhodinovú prechádzku,&lt;br&
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="food-motivation-header">
+        <location filename="../src/qml/Food/Tasks/MotivationForm.ui.qml" line="8"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-tasks-challenge">
         <location filename="../src/qml/Food/Tasks/ChallengeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="25"/>
@@ -738,6 +742,11 @@ Choďte&lt;br&gt;na čerstvý vzduch|Choďte na polhodinovú prechádzku,&lt;br&
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="food-afraid-header">
+        <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="8"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-stories-text">
         <location filename="../src/qml/Food/StoriesForm.ui.qml" line="14"/>
         <source></source>
@@ -750,6 +759,11 @@ Choďte&lt;br&gt;na čerstvý vzduch|Choďte na polhodinovú prechádzku,&lt;br&
     </message>
     <message id="food-dishes-pm-snack">
         <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="depression-nice-header">
+        <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>

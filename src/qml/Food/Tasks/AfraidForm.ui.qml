@@ -5,4 +5,5 @@ ArrayUpdater {
     title:  qsTrId("food-tasks-afraid")
     arrayName: "foodAfraid"
     tickArrayName: "foodAfraidC"
+    headerText: qsTrId("food-afraid-header")
 }

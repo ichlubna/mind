@@ -4,5 +4,5 @@ import ".."
 ArrayUpdater {
     title: qsTrId("depression-nice")
     arrayName: "nice"
-    headerText: qsTrId("deperssion-nice-header")
+    headerText: qsTrId("depression-nice-header")
 }

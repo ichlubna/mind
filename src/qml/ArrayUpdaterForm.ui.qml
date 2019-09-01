@@ -41,7 +41,7 @@ MenuPage {
             Repeater {
                 id: itemList
                 model: 0
-                MenuTextInput {
+                MenuTextArea {
                     Layout.preferredWidth: parent.width
                     Layout.row: index
                     Layout.column: 1

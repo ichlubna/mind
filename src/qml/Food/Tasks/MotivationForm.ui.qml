@@ -5,4 +5,5 @@ ArrayUpdater {
     title:  qsTrId("food-tasks-motivation")
     arrayName: "foodMotivation"
     tickArrayName: "foodMotivationC"
+    headerText: qsTrId("food-motivation-header")
 }

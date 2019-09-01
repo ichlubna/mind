@@ -14,4 +14,5 @@ TextArea{
     onFocusChanged: (focus) ? selectAll() : deselect()
     color: "White"
     selectedTextColor: "Black"
+    wrapMode: TextEdit.Wrap
 }

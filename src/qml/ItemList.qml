@@ -33,6 +33,7 @@ MenuPage {
                         height: parent.height * 0.3
                         width: parent.width
                         anchors.bottom: parent.bottom
+                        horizontalAlignment: Text.AlignHCenter
                     }
                 }
             }

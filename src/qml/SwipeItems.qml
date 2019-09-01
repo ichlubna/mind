@@ -24,25 +24,27 @@ SwipePage {
                     anchors.verticalCenter: parent.verticalCenter
                     width: parent.width * 0.1
                 }
+                property var topText:  items[index * 2].trim()
+                property var bottomText:  items[index * 2+1].trim()
 
                 DescriptionLabel {
                     id: tip
-                    text: items[index * 2].trim()
-                    anchors.bottom: leftButton.verticalCenter
+                    text: topText
+                    anchors.bottom: (bottomText==="") ? undefined : leftButton.verticalCenter
+                    anchors.verticalCenter: (bottomText==="") ? leftButton.verticalCenter : undefined
                     anchors.horizontalCenter: parent.horizontalCenter
                     width: parent.width * 0.8
                     horizontalAlignment: Text.AlignHCenter
                     verticalAlignment: Text.AlignBottom
-                    font.pointSize: 30
+                    font.bold: true
                 }
                 DescriptionLabel {
-                    text: items[index * 2 + 1].trim()
+                    text: bottomText
                     anchors.top: leftButton.verticalCenter
                     anchors.horizontalCenter: parent.horizontalCenter
                     width: tip.width
                     horizontalAlignment: Text.AlignHCenter
                     verticalAlignment: Text.AlignTop
-                    font.pointSize: 15
                 }
 
                 Button {
@@ -99,7 +101,7 @@ SwipePage {
             target: itemsContainer
             Component.onCompleted: {
                 items = listInputText.split('|')
-            }
+               }
         }
     }
 }

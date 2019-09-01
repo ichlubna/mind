@@ -9,6 +9,7 @@
         <translation>Home</translation>
     </message>
     <message id="food">
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="13"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
@@ -61,7 +62,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tasks">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="22"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="12"/>
         <source></source>
@@ -144,7 +144,7 @@
 Faites du sport | Prenez votre vélo et faites une petite promenade.|
 Ne soyez pas seuls| Appelez vos parents, votre petit(e) ami(e), vos copains. Allez leur dire bonjour.|
 Méditez | Installez-vous confortablement, fermez les yeux et respirez profondement. Laissez vos pensées passer.|
-Arrêtez de fumer&lt;br&gt;et de boire de l’alcool | prenez une tisane ou une infusion à la place.|
+Arrêtez de fumer et de boire de l’alcool | prenez une tisane ou une infusion à la place.|
 Parlez à votre psy scolaire | arrangez un rendez-vous le plus tôt possible.|
 Écoutez de la musique | créez une playlist de vos chansons préférées.|
 Rencontrez vos copains | écrivez un message à un ami et passez du temps ensemble.|
@@ -153,7 +153,7 @@ Regardez un film que vous aimez | regardez un film qui vous intéresse ou regard
 Dessinez | prenez un coloriage ou un mandala et colorez.|
 Exercises | la course, le vélo ou une longue promenade pourraient vous aider.|
 Détendez-vous | téléchargez une appli de  relaxation, mettez-vous au sol, fermez les yeux et détendez-vous.|
-Jouez d‘un&lt;br&gt;instrument de musique | jouez votre chanson préférée d’un interprète que vous aimez.|
+Jouez d‘un instrument de musique | jouez votre chanson préférée d’un interprète que vous aimez.|
 Lisez | lisez quelque chose d’intéressant, trouvez un livre, un magazine ou un article sur Internet.|
 Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
             </translation>
@@ -371,72 +371,72 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
         </translation>
     </message>
     <message id="my-reasons">
-        <location filename="../src/cpp/userdataprovider.cpp" line="176"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="183"/>
         <source></source>
         <translation>Mes raisons...</translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="179"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="186"/>
         <source></source>
         <translation>À qui j&apos;écrirai...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="180"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="187"/>
         <source></source>
         <translation>Salut, je passe un moment difficile, pouvons-nous parler?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="181"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="188"/>
         <source></source>
         <translation>Les gens qui m&apos;intéressent</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="182"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="189"/>
         <source></source>
         <translation>Ce que je fais...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="183"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="190"/>
         <source></source>
         <translation>Où je vais...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="187"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="194"/>
         <source></source>
         <translation>Faire les courses</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="191"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="198"/>
         <source></source>
         <translation>Était beau temps...</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="207"/>
-        <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message id="food-challenge-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="214"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="food-challenge-text">
+        <location filename="../src/cpp/userdataprovider.cpp" line="224"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="221"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="234"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="228"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="244"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="235"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="242"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="264"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -454,24 +454,24 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
         <location filename="../src/qml/SelfHarm/TipsForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Prenez un cube de glace&lt;br&gt;et mettez-la là ou vous&lt;br&gt;voulez vous mutiler||
+Prenez un cube de glace et mettez-la là ou vous voulez vous mutiler||
 Écrivez à un copain | demandez comment va-t-il.|
-Prenez un crayon rouge&lt;br&gt;et dessinez sur vos bras ||
+Prenez un crayon rouge et dessinez sur vos bras ||
 Frappez un coussin ||
-Écrivez sur une feuille&lt;br&gt; comment vous vous sentez&lt;br&gt;et arrachez-la ensuite||
+Écrivez sur une feuille  comment vous vous sentez et arrachez-la ensuite||
 Arrachez une feuille ||
 Criez ||
 Faites de l’exercice | faites du vélo ou de la course.|
-Promenez-vous | trouvez votre chemin idéal,&lt;br&gt;votre espace préférée et allez vous promener.|
+Promenez-vous | trouvez votre chemin idéal, votre espace préférée et allez vous promener.|
 Rangez vos affaires | faites la poussière, passez l’aspirateur.|
 Dessinez | prenez un coloriage ou un mandala et lancez-vous.|
 Dessinez la façon dont vous voudriez vous mutiler ||
 Essayez de vous coucher ||
-Détendez-vous | téléchargez une appli de relaxation,&lt;br&gt;mettez-vous au sol,&lt;br&gt;fermez les yeux et détendez-vous.|
+Détendez-vous | téléchargez une appli de relaxation, mettez-vous au sol, fermez les yeux et détendez-vous.|
 Prenez une douche froide ||
 Serrez les poings ||
-Écrivez à quelqu’un de proche | écrivez à quelqu’un à qui&lt;br&gt;vous fait confiance et dites-lui&lt;br&gt;que vous ne vous sentez pas bien.|
-Rencontrez des gens | allez vous promener dans&lt;br&gt;le centre et achetez&lt;br&gt;quelque chose qui vous plaît.
+Écrivez à quelqu’un de proche | écrivez à quelqu’un à qui vous fait confiance et dites-lui que vous ne vous sentez pas bien.|
+Rencontrez des gens | allez vous promener dans le centre et achetez quelque chose qui vous plaît.
         </translation>
     </message>
     <message id="panic-tips">
@@ -486,7 +486,7 @@ Retenez votre souffle ||
 Mangez du chocolat ||
 Faites le ménage | passez l’aspirateur, faites la poussière.|
 Regardez votre film préféré ||
-Jouez avec votre&lt;br&gt;animal de compagnie ||
+Jouez avec votre animal de compagnie ||
 Dessinez | prenez une feuille et un crayon et essayez d’exprimer vos émotions.|
 Écoutez de la musique | créez une playlist de vos chansons préférées.|
 Prenez de l’air|
@@ -503,9 +503,8 @@ Prenez de l’air|
         <translation>Si vous avez des remarques à propos de notre application, n’hésitez pas à nous contacter sur &lt;a href=&quot;mailto:nepanikar.info@gmail.com&quot;&gt;nepanikar.info@gmail.com&lt;/a&gt; &lt;br&gt; &lt;br&gt;</translation>
     </message>
     <message id="deperssion-nice-header">
-        <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
         <source></source>
-        <translation>Qu’est-ce qui m’a fait plaisir aujourd’hui:</translation>
+        <translation type="vanished">Qu’est-ce qui m’a fait plaisir aujourd’hui:</translation>
     </message>
     <message id="dusi-link">
         <location filename="../src/qml/Drawer/Support.qml" line="4"/>
@@ -683,6 +682,11 @@ Prenez de l’air|
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="food-motivation-header">
+        <location filename="../src/qml/Food/Tasks/MotivationForm.ui.qml" line="8"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-tasks-challenge">
         <location filename="../src/qml/Food/Tasks/ChallengeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="25"/>
@@ -707,6 +711,11 @@ Prenez de l’air|
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="food-afraid-header">
+        <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="8"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-stories-text">
         <location filename="../src/qml/Food/StoriesForm.ui.qml" line="14"/>
         <source></source>
@@ -719,6 +728,11 @@ Prenez de l’air|
     </message>
     <message id="food-dishes-pm-snack">
         <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="depression-nice-header">
+        <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
