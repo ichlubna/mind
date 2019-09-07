@@ -19,7 +19,7 @@ MenuPage {
     property int numberSize: 150
 
     Description {
-        text: qsTrId("breathe-info")+ Math.sin(3.14)
+        text: qsTrId("breathe-info")
         anchors.top: parent.top
         horizontalAlignment: Text.AlignHCenter
     }

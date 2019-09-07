@@ -3,5 +3,5 @@ import "../.."
 
 SwipeItems {
         listInputText: qsTrId("food-fail-text")
-        title: qsTrId("food-remorse")
+        title: qsTrId("food-fail")
     }

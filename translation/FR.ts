@@ -10,11 +10,11 @@
     </message>
     <message id="food">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="13"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="14"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Trouble de&lt;br&gt;l&apos;alimentation</translation>
     </message>
     <message id="food-breakfast">
         <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="6"/>
@@ -57,19 +57,25 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tips">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="18"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="26"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tasks">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="22"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="30"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="12"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="distraction">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-dishes">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="11"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="26"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="34"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -79,8 +85,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="food-stories">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="31"/>
-        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="39"/>
+        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="6"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -106,7 +112,7 @@
         <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
         <location filename="../src/qml/MoodForm.ui.qml" line="26"/>
         <source></source>
-        <translation>Surveillance de l&apos;humeur</translation>
+        <translation>Surveillance&lt;br&gt;de l&apos;humeur</translation>
     </message>
     <message id="clear-data">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="15"/>
@@ -187,6 +193,7 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
         <translation>Quoi faire pendant une attaque de panique</translation>
     </message>
     <message id="breath1">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="25"/>
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="11"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="17"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="16"/>
@@ -219,6 +226,7 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
         <translation>Vitesse de respiration</translation>
     </message>
     <message id="breath2">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="30"/>
         <location filename="../src/qml/Games/Breath2Form.ui.qml" line="17"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="22"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="21"/>
@@ -232,7 +240,7 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
         <translation>Ne respirez pas</translation>
     </message>
     <message id="math">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="36"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="15"/>
         <location filename="../src/qml/Games/MathForm.ui.qml" line="11"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="27"/>
         <source></source>
@@ -581,7 +589,7 @@ Prenez de l’air|
     </message>
     <message id="game">
         <location filename="../src/qml/BallsForm.ui.qml" line="13"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="41"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="20"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="32"/>
         <source></source>
@@ -595,7 +603,7 @@ Prenez de l’air|
     </message>
     <message id="food-contact">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="7"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="46"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="49"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -606,7 +614,6 @@ Prenez de l’air|
     </message>
     <message id="food-remorse">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="21"/>
         <source></source>
         <translation type="unfinished"></translation>
@@ -624,6 +631,7 @@ Prenez de l’air|
         <translation type="unfinished"></translation>
     </message>
     <message id="food-fail">
+        <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="34"/>
         <source></source>
         <translation type="unfinished"></translation>
@@ -699,9 +707,19 @@ Prenez de l’air|
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="food-like-header">
+        <location filename="../src/qml/Food/Tasks/LikeForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-tasks-food-like">
         <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="35"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="food-food-like-header">
+        <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -717,7 +735,7 @@ Prenez de l’air|
         <translation type="unfinished"></translation>
     </message>
     <message id="food-stories-text">
-        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="14"/>
+        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>

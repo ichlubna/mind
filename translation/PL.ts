@@ -10,11 +10,11 @@
     </message>
     <message id="food">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="13"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="14"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Zaburzenia&lt;br&gt;odżywiania</translation>
     </message>
     <message id="food-breakfast">
         <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="6"/>
@@ -57,19 +57,25 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tips">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="18"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="26"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-tasks">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="22"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="30"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="12"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="distraction">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="food-dishes">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="11"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="26"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="34"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -79,8 +85,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="food-stories">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="31"/>
-        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="39"/>
+        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="6"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -106,7 +112,7 @@
         <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
         <location filename="../src/qml/MoodForm.ui.qml" line="26"/>
         <source></source>
-        <translation>Śledzenie nastroju</translation>
+        <translation>Śledzenie&lt;br&gt;nastroju</translation>
     </message>
     <message id="clear-data">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="15"/>
@@ -187,6 +193,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <translation>Co robić podczas paniki</translation>
     </message>
     <message id="breath1">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="25"/>
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="11"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="17"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="16"/>
@@ -219,6 +226,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <translation>Szybkość oddychania</translation>
     </message>
     <message id="breath2">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="30"/>
         <location filename="../src/qml/Games/Breath2Form.ui.qml" line="17"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="22"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="21"/>
@@ -232,7 +240,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <translation>Zatrzymaj oddech</translation>
     </message>
     <message id="math">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="36"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="15"/>
         <location filename="../src/qml/Games/MathForm.ui.qml" line="11"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="27"/>
         <source></source>
@@ -597,7 +605,7 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
     </message>
     <message id="game">
         <location filename="../src/qml/BallsForm.ui.qml" line="13"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="41"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="20"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="32"/>
         <source></source>
@@ -611,7 +619,7 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
     </message>
     <message id="food-contact">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="7"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="46"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="49"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -622,7 +630,6 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
     </message>
     <message id="food-remorse">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="21"/>
         <source></source>
         <translation type="unfinished"></translation>
@@ -640,6 +647,7 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
         <translation type="unfinished"></translation>
     </message>
     <message id="food-fail">
+        <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="34"/>
         <source></source>
         <translation type="unfinished"></translation>
@@ -715,9 +723,19 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
         <source></source>
         <translation type="unfinished"></translation>
     </message>
+    <message id="food-like-header">
+        <location filename="../src/qml/Food/Tasks/LikeForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-tasks-food-like">
         <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="35"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="food-food-like-header">
+        <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -733,7 +751,7 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
         <translation type="unfinished"></translation>
     </message>
     <message id="food-stories-text">
-        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="14"/>
+        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>

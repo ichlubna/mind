@@ -6,6 +6,21 @@ FoodForm {
         dishesButton.onClicked: stackView.push("Dishes/Dishes.qml")
         storiesButton.onClicked: stackView.push("Stories.qml")
         contactButton.onClicked: stackView.push("Contact.qml")
-        mathButton.onClicked: stackView.push("../Games/Math.qml")
-        gameButton.onClicked: stackView.push("../Games/Balls.qml")
+        distractionButton.onClicked: stackView.push("Distraction.qml")
+
+        Connections {
+            target: menuCol
+            Component.onCompleted: {
+                if(dataProvider.loadLanguage() !== "CZ")
+                    menuCol.visible = false;
+            }
+        }
+
+        Connections {
+            target: comming
+            Component.onCompleted: {
+                if(dataProvider.loadLanguage() !== "CZ")
+                    comming.visible = true;
+            }
+        }
 }

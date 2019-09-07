@@ -8,11 +8,19 @@ MenuPage {
     property alias dishesButton: dishesButton
     property alias storiesButton: storiesButton
     property alias contactButton: contactButton
-    property alias mathButton: mathButton
-    property alias gameButton: gameButton
+    property alias distractionButton: distractionButton
+    property alias comming: comming
+    property alias menuCol: menuCol
     title: qsTrId("food")
 
+    Description{
+        id: comming
+        text: "Comming soon. We are working on translations."
+        visible: false
+    }
+
    MenuColumn{
+       id: menuCol
        MenuButton {
            id: tipsButton
            text: qsTrId("food-tips")
@@ -32,13 +40,8 @@ MenuPage {
         }
 
         MenuButton {
-            id: mathButton
-            text: qsTrId("math")
-        }
-
-        MenuButton {
-            id: gameButton
-            text: qsTrId("game")
+            id: distractionButton
+            text: qsTrId("distraction")
         }
 
         MenuButton {

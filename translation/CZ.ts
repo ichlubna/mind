@@ -10,7 +10,7 @@
     </message>
     <message id="food">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="13"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="14"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
         <source></source>
@@ -97,19 +97,25 @@
         </translation>
     </message>
     <message id="food-tips">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="18"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="26"/>
         <source></source>
         <translation>Tipy</translation>
     </message>
     <message id="food-tasks">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="22"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="30"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="12"/>
         <source></source>
         <translation>Úkoly</translation>
     </message>
+    <message id="distraction">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
+        <source></source>
+        <translation>Odvedení pozornosti</translation>
+    </message>
     <message id="food-dishes">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="11"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="26"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="34"/>
         <source></source>
         <translation>Ukázky jídelníčku</translation>
     </message>
@@ -131,8 +137,8 @@
         </translation>
     </message>
     <message id="food-stories">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="31"/>
-        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="39"/>
+        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="6"/>
         <source></source>
         <translation>Příběhy lidí</translation>
     </message>
@@ -239,6 +245,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Co dělat při úzkosti</translation>
     </message>
     <message id="breath1">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="25"/>
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="11"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="17"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="16"/>
@@ -271,6 +278,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Rychlost dechu</translation>
     </message>
     <message id="breath2">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="30"/>
         <location filename="../src/qml/Games/Breath2Form.ui.qml" line="17"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="22"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="21"/>
@@ -284,7 +292,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Zadržet dech</translation>
     </message>
     <message id="math">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="36"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="15"/>
         <location filename="../src/qml/Games/MathForm.ui.qml" line="11"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="27"/>
         <source></source>
@@ -545,11 +553,11 @@ Dám najevo, že mi na někom záleží a že je pro mě důležitý|
 Pokud už nemám odbornou pomoc, dnes si ji najdu|
 Dnes si odpočívám, protože vím, že je to pro mne dobré|
 Uvědomím si, po čem toužím a co mi chybí|
-Poděkuji svým rodičům za to, že mne vychovali tak, abych si byl/a sama sebou jistá a s čistým svědomím mohl/a říct, že jsem čestný a slušný člověk|
+Poděkuji svým rodičům za to, že mne vychovali tak, abych si byl/a sám/sama sebou jist/jistá a s čistým svědomím mohl/a říct, že jsem čestný a slušný člověk|
 Uvědomím si lidi, ke kterým si mohu přijít pro podporu a pochopení|
-Začátek dnešního dne oslavím vlastním mottem| Jaké to bude?
-Dnes se nebudu bát se najíst| Co si dám?
-Dnes se podělím o své starosti| Komu?
+Začátek dnešního dne oslavím vlastním mottem. Jaké to bude?|
+Dnes se nebudu bát se najíst. Co si dám?|
+Dnes se podělím o své starosti. Komu?|
 Dnes zkusím odpustit každému, o němž si myslím, že mi ublížil| Odpouštím i sama sobě|
 Ode dneška začnu hovořit o tom, jak se cítím, co mi vadí, co mě trápí|
 Odteď se nebudu bát svěřit s tím, že jsem unavený/á nebo že se mi nikam nechce|
@@ -566,17 +574,17 @@ Ke každému prstu své ruky mohu přiřadit přítele/přítelkyni, který/á m
         <translation>
 Namaluj, jak si představuješ anorexii a ten obrázek roztrhej|
 Sepiš dopis svému anorektickému já, ve kterém mu poděkuješ za lekci a rozluč se s ním|
-Sepiš si důvody, proč se chceš z tohdostat a cTi v tom brání|
-Vytvoř si pořadače a roztřiď všechny papíry, sešity a časopisy, cmáš na stole|
+Sepiš si důvody, proč se chceš z toho dostat a co Ti v tom brání|
+Vytvoř si pořadače a roztřiď všechny papíry, sešity a časopisy, co máš na stole|
 Nauč se nějaký nový účes|
 Zkus se protáhnout a otestuj svou pružnost|
-Přemýšlel/a jsi tetování? Jestli ano, tak dtoho! Zajdi dlékárny, kup si henu na kůži a zkoušej, kde je tpravé místo!
-Zkus si vytvořit památník z prázdnin/Vánoc/dovolené. Vytiskni fotky, kup třpytky a nálepky a potom už jen tvoř!
-Ctakhle naučit se cizí jazyk nebzlepšit ty, které už znáš? Na internetu je spoustu testů a slovíček, které určitě neznáš|
-Chtěl/a jsi někdy zkusit hrát na klavír, kytaru, flétnu nebněcjiného? Proč ne? Najdi si učitele nebo se do toho vrhni sám/sama! Kup si kytaru a pomalu si k ní najdi cestu|
+Přemýšlel/a jsi tetování? Jestli ano, tak do toho! Zajdi do lékárny, kup si henu na kůži a zkoušej, kde je to pravé místo!|
+Zkus si vytvořit památník z prázdnin/Vánoc/dovolené. Vytiskni fotky, kup třpytky a nálepky a potom už jen tvoř!|
+Co takhle naučit se cizí jazyk nebo zlepšit ty, které už znáš? Na internetu je spoustu testů a slovíček, které určitě neznáš|
+Chtěl/a jsi někdy zkusit hrát na klavír, kytaru, flétnu nebo něco jiného? Proč ne? Najdi si učitele nebo se do toho vrhni sám/sama! Kup si kytaru a pomalu si k ní najdi cestu|
 Nauč se podle internetu složit origami z papíru|
-Napiš krátké vyprávění tom, chezkéhjsi v životě zažil/a a chtěl/a bys tprožít znovu|
-Udělej si nějakou novou dekoraci dpokoje
+Napiš krátké vyprávění tom, co hezkého jsi v životě zažil/a a chtěl/a bys to prožít znovu|
+Udělej si nějakou novou dekoraci do pokoje
         </translation>
     </message>
     <message id="food-food-like-text">
@@ -746,7 +754,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
     </message>
     <message id="game">
         <location filename="../src/qml/BallsForm.ui.qml" line="13"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="41"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="20"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="32"/>
         <source></source>
@@ -760,18 +768,17 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
     </message>
     <message id="food-contact">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="7"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="46"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="49"/>
         <source></source>
         <translation>Kontakty na pomoc</translation>
     </message>
     <message id="food-contact-text">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="14"/>
         <source></source>
-        <translation>&lt;p&gt;Anabell&lt;br /&gt;Masarykova 37&lt;br /&gt; 602 000 Brno &lt;br /&gt;&lt;a href=&quot;https://www.anabell.cz&quot;&gt;anabell.cz&lt;/a&gt;&lt;/p&gt; &lt;br&gt; &lt;a href=&quot;tel:774467293&quot;&gt;774 467 293&lt;/a&gt;</translation>
+        <translation>&lt;p&gt;Centrum Anabell&lt;br /&gt;Masarykova 37&lt;br /&gt; 602 000 Brno &lt;br /&gt;&lt;a href=&quot;https://www.anabell.cz&quot;&gt;anabell.cz&lt;/a&gt;&lt;/p&gt; &lt;br&gt; &lt;a href=&quot;tel:774467293&quot;&gt;774 467 293&lt;/a&gt;</translation>
     </message>
     <message id="food-remorse">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="21"/>
         <source></source>
         <translation>Výčitky po jídle</translation>
@@ -789,6 +796,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
         <translation>Nutkání cvičit/zvracet</translation>
     </message>
     <message id="food-fail">
+        <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="34"/>
         <source></source>
         <translation>Selhávám</translation>
@@ -807,7 +815,7 @@ Zhluboka dýchej||
 Odveď pozornost při počítání/hře v aplikaci||
 Mysli na motivaci, proč se chceš vyléčit||
 Vyplakej se||
-Zavolej člověku, který ti rozumí a podpoří tě||
+Zavolej člověku, který Ti rozumí a podpoří Tě||
 Jdi za blízkým člověkem||
 Obejmi maminku/tatínka/přítele/ domácího mazlíčka||
 Poslouchej hudbu||
@@ -823,7 +831,7 @@ Sepiš si důvody, proč se chceš vyléčit|
         <translation>
 Netrestej se||
 Mluv o svých myšlenkách s někým blízkým||
-Uvědom si, že jde o proces a každá zvládnutá překážka Tě dělá silnější/m||
+Uvědom si, že jde o proces a každá zvládnutá překážka Tě dělá silnějším||
 Napiš si své úspěchy, na které jsi opravdu pyšná/ý||
 Uvědom si, co jsi všechno již zvládla/zvládl|
         </translation>
@@ -836,13 +844,13 @@ Měj okolo sebe lidi, kteří stojí při Tobě||
 Měj v zásobě kontakt na psychologa, psychiatra a nutričního terapeuta, psychoterapeuta||
 Nevzdávej se koníčků, které jsi měl/a rád/a||
 Jednou denně si procvič řízenou relaxaci||
-Pravidelně sportuj (ale pozor, všeho moc škodí)
+Pravidelně sportuj (ale pozor, všeho moc škodí)||
 Dodržuj pravidelný a dostatečně dlouhý spánek||
 Piš si deník||
 Najdi si někoho, s kým si budeš moci povídat||
 Nedívej se do zrcadla||
 Nestoupej si na váhu||
-Jez s někým, kdo ti bude oporou||
+Jez s někým, kdo Ti bude oporou||
 Snaž se jíst pravidelně||
 Mysli na pitný režim|
         </translation>
@@ -854,7 +862,7 @@ Mysli na pitný režim|
 V hlavě si promysli důvody, proč chceš být zdravý/á||
 Běž do společnosti||
 Zavolej blízké osobě||
-Napiš kamarádce||
+Napiš kamarádce/kamarádovi||
 Zhluboka dýchej||
 Odveď pozornost při počítání/hře v aplikaci||
 Vezmi si papír a tužku a vypiš se ze svých pocitů|
@@ -869,7 +877,7 @@ Nesoustřeď se jen na jídlo, zkus se odreagovat hrou/počítáním v aplikaci|
 Jdi se projít||
 Zkus si nalakovat nehty||
 Dej si žvýkačku||
-Běž do společnosti – nebuď sám/a||
+Běž do společnosti – nebuď sám/sama||
 Zavolej blízké osobě||
 Vezmi si papír a tužku a vypiš se ze svých pocitů|
         </translation>
@@ -888,7 +896,7 @@ Mít hlad je normální a jíst je nutné||
 Jsou mnohokrát důležitější, ale i krásnější a hodnotnější věci na světě, než neustálé přemýšlení o jídle||
 Krásný je člověk tím, jaký je, a ne tím, jestli má o 4 kg víc nebo míň||
 Nevzdávám se bez boje a přitom věřím ve své vlastní schopnosti||
-Nečekám, že to přejde samo do sebe||
+Nečekám, že to přejde samo od sebe||
 Vyhýbám se srovnávání s ostatními||
 Všichni jsme jen lidé a máme právo na chyby, důležité je se z nich poučit||
 Pochopil/a jsem, že největším problémem je to, že jsem se v minulosti příliš věnoval/a tomu, jak vypadám a jak působím na své okolí||
@@ -907,7 +915,7 @@ Nemusím mít dokonalé tělo, má duše je dokonalá tím, že je. A o tom, jak
 Jsem šťastný/á ze vztahů, kterými jsem obklopen/a, a které jsem si vytvořil/a||
 Všechno nemá logické vysvětlení||
 Vím komu zavolat, když mi nebude dobře||
-Nemusím se smát sedm dní v týdnů, je to přirozené||
+Nemusím se smát sedm dní v týdnu, je to přirozené||
 Mám právo se zlobit, když se mi nedaří||
 Je v pořádku si říct o pomoc||
 Nejsem na to sám/sama|
@@ -948,11 +956,21 @@ Nejsem na to sám/sama|
         <source></source>
         <translation>Co mám na sobě rád/a</translation>
     </message>
+    <message id="food-like-header">
+        <location filename="../src/qml/Food/Tasks/LikeForm.ui.qml" line="7"/>
+        <source></source>
+        <translation>Sem si napíšu seznam věcí, které mám na sobe rád/a</translation>
+    </message>
     <message id="food-tasks-food-like">
         <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="35"/>
         <source></source>
         <translation>Jídlo, které mám rád/a</translation>
+    </message>
+    <message id="food-food-like-header">
+        <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="7"/>
+        <source></source>
+        <translation>Sem si napíšu seznam jídel, které mám rád/a</translation>
     </message>
     <message id="food-tasks-afraid">
         <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="5"/>
@@ -966,16 +984,16 @@ Nejsem na to sám/sama|
         <translation>Do tohoto seznamu se napiš seznam “zakázaných“ potravin a každý týden jednu potravinu vyzkoušej a odškrtni si ji na seznamu.</translation>
     </message>
     <message id="food-stories-text">
-        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="14"/>
+        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="7"/>
         <source></source>
         <translation>
 Prošla jsem si mentální anorexií cca 4 roky. Cesta k uzdravení byla náročná. Trvalo mi tak dva roky, než jsem si uvědomila, že mám nějaký problém. Nicméně mě anorexie pohltila. Čím víc jsem hubla, tím více jsem se nenáviděla a chtěla jsem zhubnout ještě více. S každým kilem dolů jsem ztratila i kus svého sebevědomí. Před maturitou jsem se rozhodla svou situaci změnit, jelikož jsem se cítila jako vězeň ve vlastní hlavě. Potřebovala jsem zase tu svobodu a chtěla jsem znova žít. Začala jsem de facto ze dne na den. Po svém propadu na dno jsem si uvědomila, že už hlouběji jít nemohu a teď už vede cesta jen nahoru. Odstranila jsem si kalorické tabulky, začala jíst postupně a pravidelně. Každý týden si dávala nutriční výzvu a tak jsem si každý týden dopřála jídlo, které jsem se před tím bála. Zásadní pro mě bylo DOVOLIT SI JÍST. Naučila jsem se oceňovat a opět získávat své sebevědomí. Hodně mi v mé cestě pomohla rodina.
-
-Dnes je tomu přesně rok, kdy jsem začala pociťovat touhu po změně ve svém životě. Co komu dávám? Co dávám sama sobě? Je můj život smysluplný? Odpovídá moje práce mým schopnostem? „Všechno špatně!“ to byl můj závěr, ale také začátek. Nejsem odborník, ani lékař, ani psycholog, a přesto se považuji za inteligentní mladou ženu. Třebaže vím o zákeřnosti choroby, zvané mentální bulimie, mnoho, trvalo mi nekonečných dvanáct let, než jsem pochopila, že se tato nemoc opravdu týká i mě a že ji nemám vůbec pod kontrolou … Měla jsem krátce po operaci, ležel v teple měkké postel v obývacím pokoji a přemýšlela. Najednou, jako by mne něco osvítilo. Posadila jsem se a rozhlédla kolem. Možná znáte ten pocit. Žijete si svůj život, běží den za dnem, hodinka za hodinkou kráčí jak stín za tím, kdo ho vrhá. Vstáváte, pracujete, nakupujete, uklízíte, čtete si před spaním, spíte. Vstáváte, pracujete… Pak vás něco přiměje zastavit a zamyslet se. Začne se vá v mysli klubat myšlenka, nápad. A zase zmizí. Ještě není připravena dostat se na světlo. Pracně jsem se snažila přilákat ji zpět. „O čem to bylo? O novém životě?“ Myšlenka se vznášela kdes v neurčitu, přinášela mi ale úlevu a přinášela pochopení. Ano, určitě. Musím vypsat svůj příběh, své zkušenosti, své bolesti, silné jako nemoc sama. A věřím, že to bude začátek mého nového života. Života bez poruchy příjmu potravy. Přála bych si, aby se již nikdo nemusel utápě v dietách, nemusel se skrývat se svým jídlem/nejídlem. Hloupost? Nevadí. Pochopila jsem, že to, co si o nás myslí ostatní, je problémem těch ostatních. Dnes už nechci být dokonalá.
-
-Moje uzdravení nenastalo automaticky, okamžitě. Byl to dlouhý boj. Velmi důležité bylo uvědomění si, co mi bulimie dávala a co mi brala. Co jsem byla bez ní a co jsem byl s ní. Vymýšlela jsem si na sebe různé taktiky a postupovala jsem opatrně a velmi pomalu. Pomalu, ale jistě. Zvyšovala jsem své denní porce třeba jen o jednu bramboru navíc nebo o jednu sušenku po večeři k snídani jsem snědla jednu buchtu, po kávě další. Pomalinku, ale chtěla jsem to dokázat. Věděla jsem, že nemohu chtít všechno hned. Že určitě si prostě jen tak nesednu a nespořádám tři knedlík s omáčkou nebo kopec brambor a dva plátky sekané. Tak jsem si vzala jen jeden a půl plátku. A ono to šlo.
-
-Rozhodla jsem se zhubnout, 60 kg bylo pro mě příliš, i když jsem měřila 172 cm. Takže diet s velkým D! Porce jídla jsem neustále snižovala, a ono to šlo, nejprve 55 kg, pak 50, 45 kg….., pak 41,5 kg, velikost 34. Začala mi být neustálá zima, padaly vlasy, nemenstruovala jsem. Takto jsem žila dva roky. Pak najednou přišel zlom, nevím, co to způsobilo. Uvědomila jsem si, že jsem dva roky neměl v puse čokoládu, sušenky, zmrzlinu. „Teď si přece můžu dovolit trochu přibrat,“ říkala jsem si. Nakoupila jsem vše, co jsem si dříve zakazovala, stálo to asi 300,- Kč. Přišla do prázdného bytu a vše najednou snědla. Byl to úžasný pocit, cítit zase tu sladkost, mít plné břicho. Samozřejmě že mé tělo reagovalo nevolností, ale druhý den ráno už mi bylo fajn. A tak to šlo každý den dokola a ručička váhy stoupala. Anorexii jsem nevyměnila za bulimii, ale za nezřízené přejídání. Dnes mám opět 60 kg a ty si držím jen tím, že jeden den jím velmi dietně a naposledy ve 14.00 hod., druhý den se přejídám. Celý můj život, moje plány, vše podléhá jídlu. Když chci někam jít, nejím. Naopak když jsem celý den doma, končí s jídlem někdy a v deset hodin večer. Stále doufám, že jednou se stane něco, co mě přinutí být zase normální a zdravá. Začala jsem tím, že jsem se objednal k psycholožce, chodím za ní jednou týdně. Jednou za 14 dnů také navštěvuji nutriční terapeutku Anabell, pomáhá mi znovu nacházet rados z jídla a bez výčitek.
+|
+Dnes je tomu přesně rok, kdy jsem začala pociťovat touhu po změně ve svém životě. Co komu dávám? Co dávám sama sobě? Je můj život smysluplný? Odpovídá moje práce mým schopnostem? „Všechno špatně!“ to byl můj závěr, ale také začátek. Nejsem odborník, ani lékař, ani psycholog, a přesto se považuji za inteligentní mladou ženu. Třebaže vím o zákeřnosti choroby, zvané mentální bulimie, mnoho, trvalo mi nekonečných dvanáct let, než jsem pochopila, že se tato nemoc opravdu týká i mě a že ji nemám vůbec pod kontrolou … Měla jsem krátce po operaci, ležela v teple měkké postele v obývacím pokoji a přemýšlela. Najednou, jako by mne něco osvítilo. Posadila jsem se a rozhlédla kolem. Možná znáte ten pocit. Žijete si svůj život, běží den za dnem, hodinka za hodinkou kráčí jak stín za tím, kdo ho vrhá. Vstáváte, pracujete, nakupujete, uklízíte, čtete si před spaním, spíte. Vstáváte, pracujete… Pak vás něco přiměje zastavit a zamyslet se. Začne se vám v mysli klubat myšlenka, nápad. A zase zmizí. Ještě není připravena dostat se na světlo. Pracně jsem se snažila přilákat ji zpět. „O čem to bylo? O novém životě?“ Myšlenka se vznášela kdesi v neurčitu, přinášela mi ale úlevu a přinášela pochopení. Ano, určitě. Musím vypsat svůj příběh, své zkušenosti, své bolesti, silné jako nemoc sama. A věřím, že to bude začátek mého nového života. Života bez poruchy příjmu potravy. Přála bych si, aby se již nikdo nemusel utápět v dietách, nemusel se skrývat se svým jídlem/nejídlem. Hloupost? Nevadí. Pochopila jsem, že to, co si o nás myslí ostatní, je problémem těch ostatních. Dnes už nechci být dokonalá.
+|
+Moje uzdravení nenastalo automaticky, okamžitě. Byl to dlouhý boj. Velmi důležité bylo uvědomění si, co mi bulimie dávala a co mi brala. Co jsem byla bez ní a co jsem byla s ní. Vymýšlela jsem si na sebe různé taktiky a postupovala jsem opatrně a velmi pomalu. Pomalu, ale jistě. Zvyšovala jsem své denní porce třeba jen o jednu bramboru navíc nebo o jednu sušenku po večeři, k snídani jsem snědla jednu buchtu, po kávě další. Pomalinku, ale chtěla jsem to dokázat. Věděla jsem, že nemohu chtít všechno hned. Že určitě si prostě jen tak nesednu a nespořádám tři knedlíky s omáčkou nebo kopec brambor a dva plátky sekané. Tak jsem si vzala jen jeden a půl plátku. A ono to šlo.
+|
+Rozhodla jsem se zhubnout, 60 kg bylo pro mě příliš, i když jsem měřila 172 cm. Takže dieta s velkým D! Porce jídla jsem neustále snižovala, a ono to šlo, nejprve 55 kg, pak 50, 45 kg….., pak 41,5 kg, velikost 34. Začala mi být neustálá zima, padaly vlasy, nemenstruovala jsem. Takto jsem žila dva roky. Pak najednou přišel zlom, nevím, co to způsobilo. Uvědomila jsem si, že jsem dva roky neměla v puse čokoládu, sušenky, zmrzlinu. „Teď si přece můžu dovolit trochu přibrat,“ říkala jsem si. Nakoupila jsem vše, co jsem si dříve zakazovala, stálo to asi 300,- Kč. Přišla do prázdného bytu a vše najednou snědla. Byl to úžasný pocit, cítit zase tu sladkost, mít plné břicho. Samozřejmě že mé tělo reagovalo nevolností, ale druhý den ráno už mi bylo fajn. A tak to šlo každý den dokola a ručička váhy stoupala. Anorexii jsem nevyměnila za bulimii, ale za nezřízené přejídání. Dnes mám opět 60 kg a ty si držím jen tím, že jeden den jím velmi dietně a naposledy ve 14.00 hod., druhý den se přejídám. Celý můj život, moje plány, vše podléhá jídlu. Když chci někam jít, nejím. Naopak když jsem celý den doma, končím s jídlem někdy až v deset hodin večer. Stále doufám, že jednou se stane něco, co mě přinutí být zase normální a zdravá. Začala jsem tím, že jsem se objednala k psycholožce, chodím za ní jednou týdně. Jednou za 14 dnů také navštěvuji nutriční terapeutku Anabell, pomáhá mi znovu nacházet radost z jídla a bez výčitek.
         </translation>
     </message>
     <message id="food-dishes-lunch">
@@ -1011,10 +1029,6 @@ Rozhodla jsem se zhubnout, 60 kg bylo pro mě příliš, i když jsem měřila 1
         <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="7"/>
         <source></source>
         <translation>
-        qrc:/images/anabell/pmSnack.jpg
-        |
-        vánočka s máslem, oříškovou pomazánkou a džemem
-        |
         qrc:/images/anabell/pmSnack2.jpg
         |
         ovoce s řeckým jogurtem, restovaná dýňová a slunečnicová semínka

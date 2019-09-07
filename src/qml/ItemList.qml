@@ -14,25 +14,27 @@ MenuPage {
 
         ColumnLayout {
             anchors.fill: parent
-            anchors.margins: 10
             Repeater {
                 id: list
                 anchors.fill: parent
                 Item {
                     Layout.preferredWidth: view.width
-                    Layout.preferredHeight: view.width * 0.5
+                    Layout.preferredHeight: view.width
                     Image {
+                        id: img
                         width: parent.width
                         height: parent.height * 0.6
                         source: items[index * 2].trim()
                         fillMode: Image.PreserveAspectFit
                         anchors.top: parent.top
+                        anchors.topMargin: 5
                     }
                     DescriptionLabel {
                         text: items[index * 2 + 1].trim()
                         height: parent.height * 0.3
                         width: parent.width
-                        anchors.bottom: parent.bottom
+                        anchors.top: img.bottom
+                        anchors.topMargin: 10
                         horizontalAlignment: Text.AlignHCenter
                     }
                 }

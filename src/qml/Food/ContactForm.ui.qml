@@ -12,6 +12,7 @@ MenuPage {
         clip: true
     Description {
         text: qsTrId("food-contact-text")
+        font.pointSize: 30
     }
     }
 }

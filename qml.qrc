@@ -127,7 +127,6 @@
         <file>images/anabell/lunchSoup.jpg</file>
         <file>images/anabell/pmDesert.jpg</file>
         <file>images/anabell/pmDesert2.jpg</file>
-        <file>images/anabell/pmSnack.jpg</file>
         <file>images/anabell/pmSnack2.jpg</file>
         <file>images/anabell/pmSnack3.jpg</file>
         <file>images/anabell/soup2.jpg</file>
@@ -180,5 +179,8 @@
         <file>src/qml/Food/Tasks/FoodLikeForm.ui.qml</file>
         <file>src/qml/Food/Tasks/Afraid.qml</file>
         <file>src/qml/Food/Tasks/AfraidForm.ui.qml</file>
+        <file>src/qml/SwipeStories.qml</file>
+        <file>src/qml/Food/Distraction.qml</file>
+        <file>src/qml/Food/DistractionForm.ui.qml</file>
     </qresource>
 </RCC>
