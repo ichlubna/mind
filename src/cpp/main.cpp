@@ -51,6 +51,7 @@ int main(int argc, char *argv[])
                    langString = "EN";
                break;
            }
+           settings.setValue("language", langString);
         }
         else
             langString = settings.value("language").toString();

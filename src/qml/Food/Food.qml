@@ -11,7 +11,7 @@ FoodForm {
         Connections {
             target: menuCol
             Component.onCompleted: {
-                if(dataProvider.loadLanguage() !== "CZ")
+                if(dataProvider.loadLanguage() === "FR" || dataProvider.loadLanguage() === "EN")
                     menuCol.visible = false;
             }
         }
@@ -19,8 +19,16 @@ FoodForm {
         Connections {
             target: comming
             Component.onCompleted: {
-                if(dataProvider.loadLanguage() !== "CZ")
+                if(dataProvider.loadLanguage() === "FR" || dataProvider.loadLanguage() === "EN")
                     comming.visible = true;
+            }
+        }
+
+        Connections {
+            target: contactButton
+            Component.onCompleted: {
+                if(dataProvider.loadLanguage() === "PL")
+                    contactButton.visible = true;
             }
         }
 }

@@ -20,75 +20,121 @@
         <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="16"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Raňajky</translation>
     </message>
     <message id="food-am-snack">
         <location filename="../src/qml/Food/Dishes/AmSnackForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="20"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Dopoludňajšia desiata</translation>
     </message>
     <message id="food-dishes-am-snack">
         <location filename="../src/qml/Food/Dishes/AmSnackForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/amSnack.jpg
+        |
+        smoothie z banánu, borievok a chia semienok
+        |
+        qrc:/images/anabell/amSnack2.jpg
+        |
+        jahodový jogurt s piškótami
+</translation>
     </message>
     <message id="food-lunch">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="24"/>
         <location filename="../src/qml/Food/Dishes/LunchForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Obed</translation>
     </message>
     <message id="food-pm-snack">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="29"/>
         <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Olovrant</translation>
     </message>
     <message id="food-dinner">
         <location filename="../src/qml/Food/Dishes/DinnerForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="34"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Večera</translation>
     </message>
     <message id="food-dishes-dinner">
         <location filename="../src/qml/Food/Dishes/DinnerForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/dinner.jpg
+        |
+        grilovaný steak z lososa, zelenina a zemiaky na pare
+        |
+        qrc:/images/anabell/dinner2.jpg
+        |
+        pappardelle à la carbonara
+        |
+        qrc:/images/anabell/dinner3.jpg
+        |
+        hummus s paradajkami a pórom, celozrnný žitný chlieb
+        |
+        qrc:/images/anabell/dinner4.jpg
+        |
+        pečená zelenina s nastrúhaným parmezánom, tmavý rohlík
+        |
+        qrc:/images/anabell/dinner5.jpg
+        |
+        celozrnná bageta s tvarohovou pomazánkou a pažitkou, zelenina
+        |
+        qrc:/images/anabell/lightDinner.jpg
+        |
+        chlieb s nátierkou a kvalitnou šunkou, obloha
+        |
+        qrc:/images/anabell/lightDinner2.jpg
+        |
+        šalát caprese z paradajok a mozzarelly, knäckebrotty
+        |
+        qrc:/images/anabell/lightDinner3.jpg
+        |
+        obložený tanier s vajcom, cereálne Kornspitz
+</translation>
     </message>
     <message id="food-tips">
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="26"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Typy</translation>
     </message>
     <message id="food-tasks">
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="30"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="12"/>
         <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message id="distraction">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="10"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
-        <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Úlohy</translation>
     </message>
     <message id="food-dishes">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="11"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="34"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Ukážky jedálničkov</translation>
     </message>
     <message id="food-dishes-breakfast">
         <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/breakfast.jpg
+        |
+        ovsené vločky restované na masle s jablkom, orechmi, medom a škoricou, poliate bielym jogurtom
+        |
+        qrc:/images/anabell/breakfast2.jpg
+        |
+        domáce müsli, čerstvé ovocie, biely jogurt
+        |
+        qrc:/images/anabell/breakfast3.jpg
+        |
+        miešané vajíčka na jarnej cibuľke, bageta so semiačkami, paradajkový šalát
+        </translation>
     </message>
     <message id="food-stories">
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="39"/>
         <location filename="../src/qml/Food/StoriesForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Príbehy ľudí</translation>
     </message>
     <message id="help-contacts">
         <location filename="../src/qml/HomeForm.ui.qml" line="91"/>
@@ -191,6 +237,12 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <location filename="../src/qml/Panic/TipsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Čo robiť počas úzkosti</translation>
+    </message>
+    <message id="distraction">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
+        <source></source>
+        <translation>Odvedenie pozornosti</translation>
     </message>
     <message id="breath1">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="25"/>
@@ -433,32 +485,73 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
     <message id="food-afraid-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="214"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message id="food-challenge-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="224"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+        Viem byť a chcem byť na seba dobrá.|
+        Dnes si doprajem veľkú dávku optimizmu, pozitívneho myslenia a viery, že sa raz všetko obráti k dobrému.|
+        Odo dneška budem dávať najavo svoje pocity, city a myšlienky.|
+        Každú hodinu sa pochválim za čokoľvek, čo ma napadne.|
+        Dnes si napíšem 20 svojich cieľov, ktoré by som chcel/a v živote dosiahnuť.|
+        Zameriam sa viac na iné činnosti ako na jedlo, začnem hľadať to, čo by mi pomohlo nájsť zmysel života.|
+        Prestanem si nadávať, nebudem sama seba ponižovať.|
+        Poďakujem sa všetkým, ktorý mi pomáhajú zvládať moje problémy.|
+        Uvedomím si, čo je pre moje telo zdravé a dobré.|
+        Dám najavo, že mi na niekom záleží, a že je pre mňa dôležitá/ý.|
+        Ak už nemám odbornú pomoc, dnes si ju nájdem.|
+        Dnes si odpočiniem, pretože viem, že je to pre mňa dobré.|
+        Uvedomím si po čom túžim a čo mi chýba.|
+        Poďakujem sa rodičom za to, že ma vychovali tak aby som si bol/a sám/sama sebou istý/á a s čistým svedomím mohol/mohla povedať, že som čestný a slušný človek.|
+        Uvedomím si, ku ktorým ľuďom si môžem prísť pre podporu a pochopenie.|
+        Začiatok dnešného dňa oslávim vlastným mottom. Aké to bude?|
+        Dnes sa nebudem báť sa najesť. Čo si dám?|
+        Dnes sa podelím o svoje starosti. S kým?|
+        Dnes sa pokúsim odpustiť každému, o ktorom si myslím, že mi ublížil. Odpustím i sama sebe.|
+        Odo dneška začnem hovoriť o tom, ako sa cítim, čo mi vadí, čo ma trápi.|
+        Odteraz sa nebudem báť zveriť s tým, že som unavený/á alebo že sa mi nikam nechce ísť.|
+        Naučím sa hovoriť NIE, pokiaľ si naozaj budem NIE myslieť.|
+        Založím si svoj milý denníček a budem si do neho zapisovať svoje myšlienky a úspechy v liečbe.|
+        Nebudem tolerovať negatívne a kritické poznámky, ktoré ostatní hovoria o hmotnosti kohokoľvek iného.|
+        Napíšem si, čo som v živote dokázal/a.|
+        Ku každému prstu svojej ruky môžem priradiť priateľa/priateľku, ktorí mi budú oporou počas liečby.|
+        </translation>
     </message>
     <message id="food-creative-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="234"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+        Namaľuj to, ako si predstavuješ anorexiu a obrázok roztrhaj.|
+        Napíš list svojmu anorektickému ja, v ktorom sa mu poďakuješ za lekciu a rozlúčiš sa s ním.|
+        Napíš si dôvody, prečo sa chceš z toho dostať a čo ti v tom bráni.|
+        Vytvor si priečinky a roztrieď si všetky papiere, zošity a časopisy, čo máš na stole.|
+        Nauč sa nejaký nový účes.|
+        Skús si pretiahnuť svaly a otestuj svoju pružnosť.|
+        Premýšľal/a si o tetovaní? Ak áno, smelo do toho. Zájdi do lekárne (alebo drogérie), kúp si henu na kožu a skúšaj, kde je to pravé miesto.|
+        Skús si vytvoriť pamätník z prázdnin/Vianoc/dovolenky. Vytlač si fotky, kúp si trblietky a nálepky, a potom už len tvor.|
+        Čo takto sa naučiť nový jazyk alebo zlepšiť sa v tých, ktoré už vieš? Na internete je veľa testov a slovíčok, ktoré ešte určite nepoznáš.|
+        Chcel/a si niekedy skúsiť hrať na klavír, gitaru, flautu alebo niečo iné? Prečo nie? Nájdi si učiteľa alebo sa do toho vrhni sám/sama. Kúp si gitaru a pomaly si k nej nájdi cestu.|
+        Nauč sa zložiť origami podľa návodov na internete.|
+        Napíš krátke rozprávanie o tom, čo pekné si v živote zažil/a a chcel/a by si to prežiť znovu.|
+        Urob si nejakú novú dekoráciu do svojej izby.|
+        </translation>
     </message>
     <message id="food-food-like-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="244"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Zoznam jedál</translation>
     </message>
     <message id="food-like-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Zoznam vecí</translation>
     </message>
     <message id="food-motivation-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="264"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Vytvoriť si zoznam vecí, pre ktoré chcem byť zdravá/ý.</translation>
     </message>
     <message id="phone-text">
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
@@ -543,7 +636,7 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
     </message>
     <message id="deperssion-nice-header">
         <source></source>
-        <translation type="vanished">Tu môžem napísať čo mi dnes urobilo radosť:</translation>
+        <translation type="vanished">&quot;vanished&quot;&gt;Tu môžem napísať čo mi dnes urobilo radosť:</translation>
     </message>
     <message id="dusi-link">
         <location filename="../src/qml/Drawer/Support.qml" line="4"/>
@@ -558,7 +651,7 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
     <message id="anabell-link">
         <location filename="../src/qml/Drawer/Support.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>http://www.anabell.cz</translation>
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/Drawer/AboutAppForm.ui.qml" line="7"/>
@@ -606,17 +699,17 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
     <message id="mood-help">
         <location filename="../src/qml/MoodForm.ui.qml" line="217"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Vaša nálada je dlhodobo zlá, nechcete zvážiť kontaktovať odbornú pomoc?</translation>
     </message>
     <message id="mood-help-yes">
         <location filename="../src/qml/MoodForm.ui.qml" line="222"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Áno</translation>
     </message>
     <message id="mood-help-no">
         <location filename="../src/qml/MoodForm.ui.qml" line="230"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Nie</translation>
     </message>
     <message id="game">
         <location filename="../src/qml/BallsForm.ui.qml" line="13"/>
@@ -624,166 +717,287 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="32"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Hra</translation>
     </message>
     <message id="game-instructions">
         <location filename="../src/qml/BallsForm.ui.qml" line="18"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="17"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Zasiahnite dotykom jasne biele guľôčky. Čiernej a šedej sú len pre zmätení.</translation>
     </message>
     <message id="food-contact">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="7"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="49"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Kontakty na pomoc</translation>
     </message>
     <message id="food-contact-text">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="14"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;a href=&quot;http://anabell.sk/&quot;&gt;anabell.sk&lt;/a&gt;&lt;/p&gt; &lt;br&gt; &lt;a href=&quot;https://chutzit.sk/&quot;&gt;chutzit.sk&lt;/a&gt;&lt;/p&gt;</translation>
     </message>
     <message id="food-remorse">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="21"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Výčitky po jedle</translation>
     </message>
     <message id="food-overeat">
         <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="25"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Záchvat prejedania</translation>
     </message>
     <message id="food-vomit">
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="29"/>
         <location filename="../src/qml/Food/Tips/VomitForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Nutkanie cvičiť/zvracať</translation>
     </message>
     <message id="food-fail">
         <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="34"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Zlyhávam</translation>
     </message>
     <message id="food-misc">
         <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="39"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Všeobecne</translation>
     </message>
     <message id="food-tips-text">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+                Dýchaj zhlboka.|
+                Odveď pozornosť počítaním/hrou v aplikácii.|
+                Mysli na motiváciu, prečo sa chceš vyliečiť.|
+                Vyplač sa.|
+                Zavolaj človeku, ktorý ti rozumie a podporí ťa.|
+                Choď za blízkym človekom.|
+                Objím mamu/otca/priateľa/domáceho miláčika.|
+                Počúvaj hudbu.|
+                Čítaj knihu.|
+                Pozri si obľúbený film.|
+                Vyfarbi mandalu veselými farbami.|
+                Spíš si zoznam dôvodov, prečo sa chceš vyliečiť.|
+</translation>
     </message>
     <message id="food-fail-text">
         <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+        Netrestaj sa.|
+        Rozprávaj sa so svojimi blízkymi o svojich pocitoch.|
+        Uvedom si, že ide o proces a každá zvládnutá prekážka Ťa robí silnejšou/ím.|
+        Napíš si svoje úspechy, na ktoré si naozaj hrdá/ý.|
+        Uvedom si, čo všetko si už dokázal/a zvládnuť.|
+</translation>
     </message>
     <message id="food-misc-text">
         <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+        Maj okolo seba ľudí, ktorí stoja pri tebe.|
+        Maj poruke kontakt na psychológa, psychiatra a výživového poradcu, psychoterapeuta.|
+        Nevzdávaj sa záľub, ktoré si mal/a rád/a.|
+        Raz denne si precvič riadenú relaxáciu.|
+        Pravidelne športuj (ale opatrne, všetkého veľa škodí).|
+        Dodržuj pravidelný a dostatočne dlhý spánok.|
+        Píš si denník.|
+</translation>
     </message>
     <message id="food-vomit-text">
         <location filename="../src/qml/Food/Tips/VomitForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+                Popremýšľaj o tom, prečo chceš byť zdravá/ý.|
+                Choď do spoločnosti.|
+                Zavolaj blízkej osobe.|
+                Napíš svojmu kamarátovi/kamarátke.|
+                Dýchaj zhlboka.|
+                Odveď pozornosť počítaním/hrou v aplikácii.|
+                Vezmi si papier a ceruzku a napíš o všetkých svojich pocitoch.|
+</translation>
     </message>
     <message id="food-overeat-text">
         <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+                Uvedom si, že to prichádza.|
+                Nesústreď sa iba na jedlo, skús sa odreagovať hrou/počítaním v aplikácii.|
+                Choď na prechádzku.|
+                Skús si namaľovať nechty.|
+                Daj si žuvačku.|
+                Choď do spoločnosti – nebuď sám.|
+                Zavolaj blízkej osobe.|
+                Vezmi si papier a napíš o všetkých svojich pocitoch.|
+</translation>
     </message>
     <message id="food-figure-text">
         <location filename="../src/qml/Food/Tips/FigureForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Vždy si môžem pridať, je to prirodzené.|
+Jedlo si vychutnávam.|
+Nevadí, ak nezjem všetko, čo mám na tanieri a nechám to. Jedlo nám neslúži na to aby sme o ňom stále premýšľali.|
+Prirodzený pohyb ma napĺňa.|
+Moju hodnotu neurčuje číslo na váhe.|
+Stravujem sa pravidelne a vyvážene.|
+Mať hlad je normálne a jesť je nevyhnutné.|
+Existujú dôležitejšie, krajšie a hodnotnejšie veci na svete ako neustále premýšľanie nad jedlom.|
+Človek je krásny tým, čím je a nie tým, či má o 4 kg menej, alebo viac.|
+Nevzdávam sa bez boja, a pritom verím vo svoje vlastné schopnosti.|
+Neočakávam, že to prejde samé od seba.|
+Vyhýbam sa porovnávaniu s ostatnými.|
+Všetci sme ľudia a máme právo na chyby, dôležité je sa z nich poučiť.|
+Pochopil/a som, že najväčším problémom je to, že som sa v minulosti príliš venovala tomu ako vyzerám a pôsobím na svoje okolie.|
+Viem, že potrebujem silu pre budúcnosť.|
+Viem, že mám problém s jedlom, ale tiež viem, že najväčšia časť je na mne.|
+Prísun živín je dôležitý, moje telo potrebuje živiny a starostlivosť, ktorú mu nemôžem odoprieť.|
+Jedlo, ktoré zjem za deň, je rôznorodé. Nebojím sa zeleniny, ovocia, pečiva ani mäsa.|
+Viem, že to dokážem, že mám veľa sily, ale tiež sa učím prijať fakt, že nie je hanbou požiadať o pomoc, keď mi dochádzajú sily.|
+Svoje úspechy i neúspechy pri liečbe poruchy príjmu potravy budem s niekým zdieľať.|
+Mám veľa priateľov, na ktorých sa môžem spoľahnúť.|
+Nekupujem si časopisy, ktoré propagujú a podporujú chudnutie.|
+Chválim sa za maličkosti.|
+Viem byť dokonalý/á, skvelý/á, bezchybný/a a nemusím k tomu držať diéty, ani sa trápiť tým ako vyzerám.|
+Nenechávam si jedlo až na večer, pretože viem, že vtedy som najzraniteľnejší/ia a najcitlivejší/ia k pocitom zlyhania.|
+Nemusím mať dokonalé telo, moja duša je dokonalá tým, že je. A o tom, či je telo dokonalé, nemá právo nikto rozhodovať. A už vôbec nie za mňa.|
+Som šťastný/á zo vzťahov, ktorými som obklopený/á, a ktoré som si vytvoril/a.|
+Nie všetko má logické vysvetlenie.|
+Viem, komu zavolať, keď mi nebude dobre.|
+Nemusím sa smiať 7 dní v týždni, je to prirodzené.|
+Mám právo sa hnevať, keď sa mi nedarí.|
+Je v poriadku požiadať o pomoc.|
+Nie som na to sám/sama.|
+</translation>
     </message>
     <message id="food-figure">
         <location filename="../src/qml/Food/Tips/FigureForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="17"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Postava</translation>
     </message>
     <message id="food-tasks-creative">
         <location filename="../src/qml/Food/Tasks/CreativeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="17"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Kreatívne</translation>
     </message>
     <message id="food-tasks-motivation">
         <location filename="../src/qml/Food/Tasks/MotivationForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="21"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Motivácia</translation>
     </message>
     <message id="food-motivation-header">
         <location filename="../src/qml/Food/Tasks/MotivationForm.ui.qml" line="8"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Vytvorim si zoznam vecí, pre ktoré chcem byť zdravá/ý.</translation>
     </message>
     <message id="food-tasks-challenge">
         <location filename="../src/qml/Food/Tasks/ChallengeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="25"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Výzvy</translation>
     </message>
     <message id="food-tasks-like">
         <location filename="../src/qml/Food/Tasks/LikeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="30"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Čo mám na sebe rád/rada</translation>
     </message>
     <message id="food-like-header">
         <location filename="../src/qml/Food/Tasks/LikeForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Sem si napíšem zoznam vecí, ktoré mám na sebe rád/a</translation>
     </message>
     <message id="food-tasks-food-like">
         <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="35"/>
         <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message id="food-food-like-header">
-        <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="7"/>
-        <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Jedlá, ktoré mám rada</translation>
     </message>
     <message id="food-tasks-afraid">
         <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="40"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Jedlá, ktorých sa bojím </translation>
     </message>
     <message id="food-afraid-header">
         <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="8"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Do tohto zoznamu sa napíše zoznam zakázaných potravín a každý týždeň jednu potravinu vyskúšaj a odškrtni si ju na zozname.</translation>
     </message>
     <message id="food-stories-text">
         <location filename="../src/qml/Food/StoriesForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+        Prešla som si mentálnou anorexiou cca 4 roky. Cesta k uzdraveniu bola náročná. Trvalo mi tak dva roky než som si uvedomila že mám nejaký problém. Viacmenej ma anorexia pohltila. Čím viac som chudla,tým viac som sa nenávidela a chcela schudnúť ešte viac. S každým  kilom dolu som stratila aj kus svojho sebavedomia. Pred maturitou som sa rozhodla svoju situáciu zmeniť,keďže som sa cítila ako väzeň vo vlastnej hlave. Potrebovala som zas tú slobodu a chcela som znovu žiť. Začala som de facto zo dňa na deň. Po svojom prepade na dno som si uvedomila,že už hlbšie ísť nemôžem a teraz už vedie cesta ina nahor. Odstránila som si kalorické tabuľky,začala jesť postupne a pravidelne. Každý týždeň som si dávala nutričnú výzvu a tak som si každý týždeň dopriala jedlo,ktorého som sa predtým bála. Zásadné pre mňa bolo DOVOLIŤ SI JESŤ. Naučila som sa oceňovať a opäť získavať svoje sebavedomie. Veľmi mi v mojej ceste pomohla rodina.|
+        |
+        Dnes je tomu presne rok,kedy som začala pociťovať túžbu po zmene vo svojom živote. Čo komu dávam? Čo dávam sama sebe? Je môj život zmysluplný? Odpovedá moja práca mojim schopnostiam? ,,Všetko zle!&quot; to bol môj záver,ale aj začiatok. Nie som odborník,ani lekár,ani psychológ, a cez to všetko sa považujem za inteligentnú mladú ženu. Napríklad viem o zákernosti choroby,nazývanej mentálna bulímia,mnoho,trvalo mi nekonečných 12 rokov,kým som pochopila,že sa táto choroba týka aj mňa a že ju nemám vôbec pod kontrolou....Mala som krátko po operácii,ležala v teplej mäkkej posteli v obývacej izbe a premýšľala. Napokon,akoby ma niečo osvietilo. Posadila som sa a porozhliadala som sa okolo. Možno poznáte ten pocit. Žijete svoj život,beží deň za dňom,hodinka za hodinkou kráča ako tieň za tým,kto ho vrhá. Vstávate,pracujete,nakupujete,ukladáte,čítate si pred spaním,spíte. Vstávate,pracujete.. Zrazu vás niečo prinúti zastaviť a zamyslieť sa. Začne sa vám v mysli rozvíjať myšlienka,nápad. A zasa zmizne.                                Ešte neni pripravená stať sa na svetlo. Rýchlo som sa snažila prilákať ju späť. ,,O čom to bolo? O novom živote?&quot; Myšlienka sa vznášala kdesi v neurčite,prinášala mi ale úľavu a prinášala pochopenie. Áno,určite. Musím vypísať svoj príbeh,svoje skúsenosti,svoje bolesti,silné ako choroba sama. A verím, že to bude začiatok môjho nového života. Života bez poruchy príjmu potravy. Priala by som si,aby sa už nikto nemusel utápať v diétach,nemusel sa skrývať so svojim jedlom/nejedlom. Hlúposť? Nevadí. Pochopila som,že to,čo si o nás myslia ostatní,je problém tých ostatných. Dnes už nechcem byť dokonalá.|
+        |
+        Moje uzdravenie nenastalo automaticky,okamžite. Bol to dlhý boj. Veľmi dôležité bolo uvedomenie si,čo mi bulímia dávala a čo mi brala. Čo som bola bez nej a čo som bola s ňou. Vymýšľala som si na seba rôzne taktiky a postupovala som opatrne a veľmi pomaly. Pomaly ale isto. Zvyšovala som svoje denné porcie napríklad len o jeden zemiak naviac alebo o jednu sušienku po večeri,na raňajky som zjedla jednu buchtu,po káve ďaľšiu. Pomalinky,ale chcela som to dokázať. Vedela som,že nemôžem chcieť všetko hneď. Že určite si proste len tak nesadnem a nezjem tri knedlíky s omáčkou alebo kopec zemiakov a dva plátky sekanej. Tak som si vzala len jeden a pol plátku. A ono to išlo.
+        |
+        Rozhodla som sa schudnúť,60 kg bolo pre mňa príliš,aj keď som merala 172 cm. Takže diéta s veľkým D. Porcie jedla som neustále znižovala,a ono to išlo,najprv 55 kg,potom 50,45 kg.....,potom 41.5 kg,veľkosť 34. Začala mi byť neustále zima,padali mi vlasy,nemenštruovala som. Takto som žila dva roky. Zrazu ale prišiel zlom,neviem čo to spôsobilo. Uvedomila som si,že som dva roky nemala v ústach čokoládu,sušienky,zmrzlinu. ,,Teraz si predsa môžem dovoliť trochu pribrať&quot; hovorila som si. Nakúpila som si všetko čo som si predtým zakazovala,stálo to asi 300 Kč. Prišla som do prázdneho bytu a všetko hneď zjedla. Bol to úžasný pocit,cítiť zase tú sladkosť,mať plné brucho. Samozrejme že moje telo reagovalo nevoľnosťou,ale druhý deň ráno mi už bolo fajn. A tak to išlo každý deň dokola a ručička váhy stúpala. Anotexiu som nevymenila za bulímiu ale za nekontrolovateľné prejedanie. Dnes mám opäť 60kg a tie si držím len tým,že jeden deň jem veľmi diétne a naposledy o 14.00 hod.,a druhý deň sa prejedám. Celý môj život,moje plány,všetko podlieha jedlu.  Keď chcem niekam ísť,nejem. Naopak keď som celý deň doma,končím s jedlom niekedy aj o desiatej večer. Stále dúfam,že raz sa niečo stane,čo ma prinúti byť zas normálna a zdravá. Začala som tým že som sa objednala k psychologičke,chodím k nej raz za týždeň. Raz za 14 dní tiež navštevujem nutričnú terapeutku Anabell,pomáha mi znovu nachádzať radosť z jedla a bez výčitiek.
+        </translation>
     </message>
     <message id="food-dishes-lunch">
         <location filename="../src/qml/Food/Dishes/LunchForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/lunch.jpg
+        |
+        vyprážaný rezeň so zemiakovým pyré, šalát s naklíčenými strukovinami
+        |
+        qrc:/images/anabell/lunch2.jpg
+        |
+        cestoviny so zeleninou, jogurtový dresing, bazalka
+        |
+        qrc:/images/anabell/lunch3.jpg
+        |
+        grilované kuracie mäso, kuskus so zeleninou
+        |
+        qrc:/images/anabell/lunchSoup.jpg
+        |
+        dýňový krém
+        |
+        qrc:/images/anabell/soup2.jpg
+        |
+        kurací vývar so zeleninou
+        |
+        qrc:/images/anabell/soup3.jpg
+        |
+        minestrone
+</translation>
     </message>
     <message id="food-dishes-pm-snack">
         <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/pmSnack2.jpg
+        |
+        ovocie s gréckym jogurtom, restované dyňové a slnečnicové semienka
+        |
+        qrc:/images/anabell/pmSnack3.jpg
+        |
+        tmavý toastový chlieb, plátky syra, zeleninová obloha
+        |
+        qrc:/images/anabell/pmDesert.jpg
+        |
+        grilovaný banán na masle s rozmarínom, jogurt
+        |
+        qrc:/images/anabell/pmDesert2.jpg
+        |
+        šľahaný tvaroh s medom a sušenými slivkami
+</translation>
     </message>
     <message id="depression-nice-header">
         <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Tu môžem napísať čo mi dnes urobilo radosť:</translation>
     </message>
 </context>
 </TS>

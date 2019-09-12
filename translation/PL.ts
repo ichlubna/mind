@@ -20,75 +20,127 @@
         <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="16"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Śniadanie</translation>
     </message>
     <message id="food-am-snack">
         <location filename="../src/qml/Food/Dishes/AmSnackForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="20"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>2.śniadanie</translation>
     </message>
     <message id="food-dishes-am-snack">
         <location filename="../src/qml/Food/Dishes/AmSnackForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/amSnack.jpg
+        |
+        smoothie z banana, czarnej jagody i z nasion chia
+        |
+        qrc:/images/anabell/amSnack2.jpg
+        |
+        jogurt jagodowy z biszkoptami
+</translation>
     </message>
     <message id="food-lunch">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="24"/>
         <location filename="../src/qml/Food/Dishes/LunchForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Danie główne</translation>
     </message>
     <message id="food-pm-snack">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="29"/>
         <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Podwieczorek</translation>
     </message>
     <message id="food-dinner">
         <location filename="../src/qml/Food/Dishes/DinnerForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="34"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Kolacja</translation>
     </message>
     <message id="food-dishes-dinner">
         <location filename="../src/qml/Food/Dishes/DinnerForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/dinner.jpg
+        |
+        grillowany stek z łososia, warzywa i ziemniaki gotowane
+        |
+        qrc:/images/anabell/dinner2.jpg
+        |
+        pappardelle à la carbonara
+        |
+        qrc:/images/anabell/dinner3.jpg
+        |
+        hummus z pomidorkami i porem, chleb żytni pełnoziarnisty
+        |
+        qrc:/images/anabell/dinner4.jpg
+        |
+        pieczone warzywa, parmezan, wieloziarnista bułka
+        |
+        qrc:/images/anabell/dinner5.jpg
+        |
+        bagietka wieloziarnista z serkiem twarogowym, i szczypiorkiem, jarzyny
+        |
+        qrc:/images/anabell/lightDinner.jpg
+        |
+        chleb ze serkiem i jakościową szynką, jarzyny
+        |
+        qrc:/images/anabell/lightDinner2.jpg
+        |
+        sałatka caprese z pomidorów i mozzarelli, knäckebrotty
+        |
+        qrc:/images/anabell/lightDinner3.jpg
+        |
+        jajka i warzywa, kornspitz cerealny
+</translation>
     </message>
     <message id="food-tips">
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="26"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Rodzaje</translation>
     </message>
     <message id="food-tasks">
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="30"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="12"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Zadania</translation>
     </message>
     <message id="distraction">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="10"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Rozproszenie uwagi</translation>
     </message>
     <message id="food-dishes">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="11"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="34"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Przykłady posiłków</translation>
     </message>
     <message id="food-dishes-breakfast">
         <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/breakfast.jpg
+        |
+        płatki owsiane z patelni z jabłkiem, orzeszkami, miodem, i cynamonem, zalane białym jogurtem
+        |
+        qrc:/images/anabell/breakfast2.jpg
+        |
+        domowe müsli, świeże owoce, jogurt biały
+        |
+        qrc:/images/anabell/breakfast3.jpg
+        |
+        jajecznica z szczypiorkiem, bagietka z nasionkami, surówka pomidorowa
+</translation>
     </message>
     <message id="food-stories">
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="39"/>
         <location filename="../src/qml/Food/StoriesForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Historie ludzi</translation>
     </message>
     <message id="help-contacts">
         <location filename="../src/qml/HomeForm.ui.qml" line="91"/>
@@ -433,32 +485,74 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
     <message id="food-afraid-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="214"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Dania, które chcę skosztować, ale boję się</translation>
     </message>
     <message id="food-challenge-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="224"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Umiem i chcę być na siebie grzeczny/a|
+Dzisiaj sobie pozwolę wielką dawkę optymizmu, pozytywnego myślenia i wiary w to, że wszystko się kiedyś obróci w lepsze|
+Od dzisiaj będę dawać na jaw swoje uczucia i myśli|
+Każdą następną godzinę pochwalę się za cokolwiek, co wpadnie mi do głowy|
+Dzisiaj napiszę sobie dwadzieścia punktów, których chciał/abym w życiu osiągnąć|
+Przeniosę uwagę na inne czynności niż jest odżywianie i rozpocznę szukać tego, co naprawdę może mi pomóc znaleźć prawdziwy sens życia|
+Przestanę siebie przeklinać, nie będę się poniżać sam/a przed sobą|
+Będę wdzięczna wszystkim, którzy pomagają mi walczyć z moimi problemami|
+Zrozumiem, co dla mojego ciała jest dobre i zdrowe|
+Pokażę, że mi na innych zależy i i są dla mnie w życiu bardzo ważni|
+Jeżeli jeszcze nie szukałam pomocy profesjonalisty, znajdę ją dzisiaj|
+Dzisiaj sobie odpocznę, bo wiem, że to dla mnie ważne|
+Uświadomię sobie, o czym marzę i czego mi brakuje|
+Będę wzięczny/a swoim rodzicom za to, jak mnie wychowali, bym był/a pewny/a sam/ą sobą i z czystym sumieniem twierdziłam, że jestem szczerym i przyzwoitym człowiekiem|
+Będę wdzięczny/a ludziom, którzy  mnie wspierają|
+Dzień dzisiejszy rozpocznę od motta. Jakie ono będzie?|
+Dzisiaj nie będę bał/a się najeść do syta. Co zjem?|
+Dzisiaj porozmawiam o moich smutkach. Z kim?|
+Dzisiaj odpuszczę wszystkim, którzy mi kiedyś ubliżyli.|
+Odpuszczę i sobie samemu/ej|
+Od dziś dnia rozpocznę rozmawiać o tym, jak się czuję, co mi przeszkadza bądź co mnie smuci|
+Już więcej nie będę się wstydzić powiedzieć, że jestem zmęczony/a, albo że chcę zostać w domu|
+Nauczę się mówić NIE, jeżeli NIE będę sobie myśleć|
+Założę sobie pamiętnik i tam będę pisać o moich marzeniach i sukcesach w uzdrawianiu się|
+Nie będę tolerować negatywnych i krytycznych uwag, które inni wiodą na temat wyglądu kogokolwiek innego|
+Napiszę, czego w życiu osiągnąłem/nęłam|
+Do każdego palca na swjej dłoni mogę przypisać osobę, która będzie mi wsparciem|
+</translation>
     </message>
     <message id="food-creative-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="234"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Narysuj, jak wyobrażasz sobie anoreksję i potem rozerwij ten rysunek|
+Napisz list do swojego anorektycznego ja, któremu podziękujesz za nauczkę i pożegnaj się z nim|
+Napisz powody, dlaczego pragniesz się choroby pozbyć a co przeszkadza Tobie w wykonaniu tego zadania.|
+Kup sobie segregator biurkowy i przesortuj papiery, zeszyty, i czasopisma, które masz na biurku|
+Naucz się zrobić nową fryzurę|
+Spróbuj się porozciągać i otestuj swoją sprężystość|
+Myślałeś/aś już o tatuażu? Jeżeli tak, to nie zwlekaj! W aptece kup Hennę do skóry i zabawa gwarantowana!|
+Spróbuj utworzyć pamiętnik z wakacji/Świąt Bożego Narodzenia/urlopu. Wydrukuj zdjęcia, kup brokat oraz naklejki i twórz!|
+Następna możliwość to nauczyć się nowy język, lub udoskonalać ten, który już umiesz. W internecie można znaleźć sporo testów i słówek, których na pewno jeszcze nie znasz!|
+Chciałeś/aś kiedyś spróbować grać na fortepianie, flecie bądź czymś innym? Dlaczego nie? Znajdź nauczyciela albo spróbuj potrenować sam/a. Kup gitarę i powoli znajduj drogę do świata melodii.|
+Naucz się według internetu poskładać origami z papieru. |
+Napisz krótkie opowiadanie o tym, co pięknego spotkało Cię w życiu i chciałbyś/łabyś to powtórzyć.
+Zrób nową, oryginalną dekorację do swojego pokoiku|
+</translation>
     </message>
     <message id="food-food-like-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="244"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Dania, które uwielbiam</translation>
     </message>
     <message id="food-like-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Co lubię na sobie samym/ej</translation>
     </message>
     <message id="food-motivation-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="264"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Motywacja</translation>
     </message>
     <message id="phone-text">
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
@@ -528,7 +622,7 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
     </message>
     <message id="deperssion-nice-header">
         <source></source>
-        <translation type="vanished">Co mnie dzisiaj uszczęśliwiło:</translation>
+        <translation type="vanished">&quot;vanished&quot;&gt;Co mnie dzisiaj uszczęśliwiło:</translation>
     </message>
     <message id="dusi-link">
         <location filename="../src/qml/Drawer/Support.qml" line="4"/>
@@ -543,7 +637,7 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
     <message id="anabell-link">
         <location filename="../src/qml/Drawer/Support.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>http://www.anabell.cz</translation>
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/Drawer/AboutAppForm.ui.qml" line="7"/>
@@ -591,17 +685,17 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
     <message id="mood-help">
         <location filename="../src/qml/MoodForm.ui.qml" line="217"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Twój nastrój jest zły długotrwale, nie chcesz się skontaktować z profesjonalną pomocą?</translation>
     </message>
     <message id="mood-help-yes">
         <location filename="../src/qml/MoodForm.ui.qml" line="222"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>tak</translation>
     </message>
     <message id="mood-help-no">
         <location filename="../src/qml/MoodForm.ui.qml" line="230"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>nie</translation>
     </message>
     <message id="game">
         <location filename="../src/qml/BallsForm.ui.qml" line="13"/>
@@ -609,166 +703,298 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="32"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>gra</translation>
     </message>
     <message id="game-instructions">
         <location filename="../src/qml/BallsForm.ui.qml" line="18"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="17"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Dotknij jasno-białych kulek. Czarne i szare są tylko dla poczucia zamieszania</translation>
     </message>
     <message id="food-contact">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="7"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="49"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>kontakty ratunku</translation>
     </message>
     <message id="food-contact-text">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="14"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>&quot;unfinished&quot;</translation>
     </message>
     <message id="food-remorse">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="21"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Wyrzuty po jedzeniu</translation>
     </message>
     <message id="food-overeat">
         <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="25"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Kompulsywne obżeranie </translation>
     </message>
     <message id="food-vomit">
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="29"/>
         <location filename="../src/qml/Food/Tips/VomitForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Uczucia zmuszonego ćwiczenia/wymiotywania</translation>
     </message>
     <message id="food-fail">
         <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="34"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Zawodzę samego/ą siebie</translation>
     </message>
     <message id="food-misc">
         <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="39"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Ogólnie</translation>
     </message>
     <message id="food-tips-text">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Oddychaj głęboko|
+Przenieś uwagę na liczenie/grę w aplikacji|
+Myśl o motywacji, dlaczego pragniesz być zdrowy|
+Popłacz sobie|
+Zadzwoń do osoby, która Ci rozumie i wzeprze Ciebie|
+Spotkaj się z bliską dla Ciebie osobą|
+Przytul mamusię/tatusia/przyjaciela/pluszaka |
+Słuchaj muzyki|
+Czytaj interesujące książki (napawdę, polecam! 😊)|
+Obejrzyj ulubiony film|
+Pomaluj mandalę wesołymi kolorami|
+Zapisz powody, dla których chcesz powrócić do zdrowia.|
+</translation>
     </message>
     <message id="food-fail-text">
         <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Nie karaj się|
+Mów o swoich uczuciach z kimś innym|
+Uświadom sobie, że chodzi o proces i każda następna pokonana przeszkoda formuje z Ciebie mocniejszego człowieka|
+Napisz swoje sukcesy, z których jesteś naprawdę dumny/a|
+Uświadom sobie, czego wszystkiego już osiągnąłeś/nęłaś|
+</translation>
     </message>
     <message id="food-misc-text">
         <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Otaczaj się ludźmi, którzy są Twoją ostoją|
+Trzymaj w zapasie kontakt do psychologa, psychiatry, dietetyka, psychoterapeuty|
+Nie rezygnuj z pasji, które lubiłeś/łaś|
+Raz na dzień poćwicz kierowaną relaksację|
+Sportuj prawidłowo (ale uważaj, wszystko w rozsądnej ilości)|
+Dotrzymuj prawidłowy i dostarczająco długi sen|
+Zapisuj swoje przeżycia|
+Znajdź kogoś, z kim będziesz mógł/mogła porozmawiać|
+Nie patrz na siebie w lustro|
+Nie waż się|
+Jedz w towarzystwie kogoś, kto będzie Twoją ostoją|
+Staraj się jeść prawidłowo. |
+Nie zapominaj o prawidłowym dostarczaniu ciału odpowiednich płynów|
+</translation>
     </message>
     <message id="food-vomit-text">
         <location filename="../src/qml/Food/Tips/VomitForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Zastanów się nad powodami, dlaczego chcesz być zdrowy/a|
+Spędzaj czas w towarzystwie|
+Zadzwoń do bliskiej osoby|
+Napisz do koleżanki|
+Oddychaj głęboko|
+Przenieś uwagę na liczenie/grę w aplikacji|
+Na kartce napisz, jak się czujesz|
+</translation>
     </message>
     <message id="food-overeat-text">
         <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Uświadom sobie, kiedy nadchodzi|
+Nie koncentruj się na jedzenie, spróbuj odreagować się grą/liczeniem w aplikacji|
+Idź na przechadzkę|
+Pomaluj paznokcie lakierem|
+Pożuj gumę do żucia|
+Spędzaj czas w towarzystwie innych – nie bądź samotny/na|
+Zadzwoń do kogoś bliskiego|
+Na kartce napisz, jak się czujesz|
+</translation>
     </message>
     <message id="food-figure-text">
         <location filename="../src/qml/Food/Tips/FigureForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Zawsze mogę sobie dołożyć, to naturalne|
+Jedzenie odbieram wszystkimi zmysłami|
+Nie przeszkadza, jeżeli nie zjem wszystkiego, co mam na talerzu i zostawię resztę. Jedzenie nie jest stworzone do tego, by o nim nieustannie myśleć|
+Naturalny ruch mnie wzbogaca|
+Moją wartość nie zaznacza numer na wadze|
+Jem prawidłowo i zrównoważenie|
+Mieć głód jest normalnym odruchem ciała, a jeść jest niezbędnym faktorem życia|
+Są sprawy o wiele ważniejsze, piękniejsze i wartościowsze niż nieustanne myślenie o odżywianiu się|
+Człowiek jest piękny tym, jaki jest w środku, a nie tym, czy ma o 4 kg więcej czy mniej|
+Nie poddaję się bez walki, a równocześnie wierzę we swoje osobiste możliwości|
+Nie oczekuję, że choroba ta minie sama od siebie|
+Unikam porównywyniu się z innymi|
+Wszyscy jesteśmy tylko ludźmi i mamy prawo do popełniania błędów, najważniejsze jest wziąść z nich nauczkę|
+Zrozumiałem/am, że największym kłopotem jest zbytnie poświęcanie uwagi  temu, jak wyglądam i jaką opinię mają o mnie inni|
+Wiem, że potrzebna mi siła do przyszłości|
+Wiem, że mam kłopot z odżywianiem się, ale wiem także, że największa część pracy leży na moich barkach i zależy od moich postanowień|
+Dostarczanie składników pokarmowych jest ważne, moje ciało wymaga potrzebnych składników odżywczych i prawidłową opiekę, której nie mogę ciału odeprzeć|
+Żywność, którą za dzień spożyję, jest różnorodna. Nie boję się jarzyn, owoców, pieczywa ani mięsa|
+Wiem, że dam radę i mam dużo siły ale również uczę się przyjąć fakt, że to żaden wstyd poprosić o pomoc, kiedy nie mam wystarczająco dużo energii|
+Swoje zwycięstwa i porażki podczas leczenia będę udostępniać innym|
+Mam wiele przyjaciół, na kórych mogę polegać|
+Nie kupuję czasopisma, które wspierają niezdrowy ubytek wagi|
+Chwalę siebie nawet za małe postępy|
+Umiem być doskonały/a, świetny/a, bezbłędny/a i nie muszę do udowodnienia tego trzymać drastycznych diet ani męczyć się tym, jak wyglądam|
+Nie zostawiam sobie jedzenie aż na późno wieczorem, bo wiem, że wtedy mam największe wrażenie, że mi się nie udaje|
+Nie muszę mieć doskonałą sylwetkę, moja dusza jest doskonała swoim istnieniem. A o tym, jakie ciało jest doskonałe, nikt nie ma prawa decydować. Tym bardziej za mnie!|
+Jestem szczęśliwy/a ze stosunków, którymi jestem otoczony/a i ktöre sobie wytworzyłem/łam|
+Nie wszystko ma logiczne wyjaśnienie|
+Wiem, do kogo dzwonić, jeżeli nie będę się czuć idealnie|
+Nie muszę mieć dobry humor siedem razy w tygodniu, tj. naturalne|
+Mam prawo się złościć, kiedy nie wszystko idzie idealnie według planu|
+Jest naturalne poprosić kogoś o pomoc|
+Nigdy nie jesteś sam/a|
+</translation>
     </message>
     <message id="food-figure">
         <location filename="../src/qml/Food/Tips/FigureForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="17"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Sylwetka</translation>
     </message>
     <message id="food-tasks-creative">
         <location filename="../src/qml/Food/Tasks/CreativeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="17"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Kreatywność</translation>
     </message>
     <message id="food-tasks-motivation">
         <location filename="../src/qml/Food/Tasks/MotivationForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="21"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Motywacja</translation>
     </message>
     <message id="food-motivation-header">
         <location filename="../src/qml/Food/Tasks/MotivationForm.ui.qml" line="8"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Utwórz spis rzeczy, dla których pragniesz być zdrowy/a</translation>
     </message>
     <message id="food-tasks-challenge">
         <location filename="../src/qml/Food/Tasks/ChallengeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="25"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Wyzwania</translation>
     </message>
     <message id="food-tasks-like">
         <location filename="../src/qml/Food/Tasks/LikeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="30"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Co lubię na sobie samym/ej</translation>
     </message>
     <message id="food-like-header">
         <location filename="../src/qml/Food/Tasks/LikeForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Spis cech i umiejętności,…</translation>
     </message>
     <message id="food-tasks-food-like">
         <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="35"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Dania, które uwielbiam</translation>
     </message>
     <message id="food-food-like-header">
         <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Spis dań</translation>
     </message>
     <message id="food-tasks-afraid">
         <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="40"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Dania, które chcę skosztować, ale boję się</translation>
     </message>
     <message id="food-afraid-header">
         <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="8"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Do tego spisu dopisz dania tzw. „zakazane“ i każdy następny tydzień jedno jedzenie skosztuj i skreśl ze spisu</translation>
     </message>
     <message id="food-stories-text">
         <location filename="../src/qml/Food/StoriesForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Cierpiałam anoreksją cca 4 lata. Droga do uzdrowienia była długa i ciernista. Trwało mi 2 lata, zanim doszłam do wniosku, że mam niemały kłopot. Jednak choroba ta mnie zupełnie pochłonęła. Czym bardziej gubiłam wagę, tym bardziej nienawidziłam siebie samą i chciałam chudnąć jeszcze bardziej. Z każdym kilogramem mniej gubiłam kawał pewności siebie. Przed egzaminem maturalnym zdecydowałam zmienić moją sytuację, ponieważ czułam się więzniem w swojej głowie. Brakowała mi wolność i chciałam znowu żyć normalnie. Rozpoczęłam de facto z dnia na dzień. Po opadnięciu na samo dno zdałam sobie sprawę, że nie mogę już zejść głębiej, a teraz ścieżka idzie tylko w górę. Usunęłam swoje tabele kalorii i zaczęłam  jeść stopniowo i regularnie. Co tydzień stawiałam sobie wyzwanie żywieniowe, więc co tydzień dawałam sobie jedzenie, którego się obawiałam. Istotne było dla mnie ZEZWOLENIE NA JEDZENIE. Nauczyłem się doceniać i odzyskiwać pewność siebie. Moja rodzina bardzo mi pomogła w mojej podróży.
+|
+Dzisiaj jest dokładnie rok, kiedy zaczęłam odczuwać pragnienie zmiany w moim życiu. Co daję innym? A co samej sobie? Czy moje życie ma sens? Czy moja praca odpowiada moim możliwościom? „Wszystko źle!” To było moje zakończenie, ale także początek. Nie jestem ekspertem, ani lekarzem, ani psychologiem, a jednak uważam się za inteligentną młodą kobietę. Chociaż dużo wiem o podstępności choroby, zwanej bulimią psychiczną, zajęło mi to niekończące się dwanaście lat, aby uświadomić sobie, że ta choroba naprawdę na mnie wpływa i że nie mam nad nią żadnej kontroli ... Byłam krótko po operacji, leżałam w ciepłym, miękkim łóżku w pokoju gościnnym i myślałam. Nagle, jakby coś mnie oświeciło. Usiadłam i rozejrzałm się. Może znacie to uczucie. Żyjesz życiem, mija dzień po dniu, godzina po godzinie chodzi jak cień za tym, kto go rzuca. Wstajesz, pracujesz, robisz zakupy, sprzątasz, czytasz przed snem, śpisz. Wstajesz, pracujesz ... Wtedy coś sprawia, że zatrzymujesz się i zaczynasz myśleć. Pomysł zacznie krążyć w twoim umyśle. I nagle zniknie. Nie jest jeszcze gotowy, aby wyjść na światło. „O co chodziło? O nowe życie? ”Pomysł popłynął gdzieś w nieskończoność, ale przyniósł mi ulgę i zrozumienie. Oczywiście. Muszę napisać swoją historię, moje doświadczenie, mój ból, równie silny jak sama choroba. I wierzę, że to będzie początek mojego nowego życia. Życie bez zaburzeń odżywiania. Chciałabym, żeby nikt nie musiał już topić się w dietach, nie chować się z jedzeniem / niejedzeniem. Głupota? Nieważne. Rozumiem, że to, co inni myślą o nas, stanowi ich problem. Nie chcę już dziś być idealna.
+|
+Moje uzdrowienie nie nastąpiło automatycznie, natychmiast. To była długa walka. Bardzo ważne było uświadomienie sobie, co dała mi bulimia i co ode mnie bierze. Czym byłam bez niej i czym byłam z nią. Wymyśliłam różne taktyki i postępowałam ostrożnie i bardzo powoli. Powoli, ale pewnie. Codzienne porcje zwiększyłam o jeden dodatkowy ziemniak lub jeden biszkopt po obiedzie, na śniadanie zjadłam jedną bułkę, drugą po kawie. Powoli, ale pewnie. Chciałam dać radę. Wiedziałam, że nie mogę od razu wszystkiego. Wiedziałam, że po prostu nie zamierzam usiąść i zjeść trzech pierogów z sosem lub górką ziemniaków i dwoma plastrami bochenka mięsnego. Więc wzięłam tylko półtora plasterka. I zadziałało.
+|
+Postanowiłem schudnąć, 60 kg było dla mnie za dużo, mimo że miałam 172 cm wzrostu. Więc dieta z dużym D! Ciągle zmniejszałam porcje jedzenia i było to możliwe, najpierw 55 kg, potem 50, 45 kg… .., a następnie 41,5 kg, rozmiar 34. Było mi ciągle zimno, włosy opadały mi, nie miesiączkowałam. Tak żyłam przez dwa lata. Nagle nastąpiła przerwa, nie wiem, co ją spowodowało. Uświadomiłam sobie, że od dwóch lat nie miałam w ustach czekolady, ciastek i lodów. „Teraz mogę sobie pozwolić na przybieranie na wadze” - pomyślałam. Kupiłam wszystko, co wcześniej sobie zakazywałam. Przyszłam do pustego mieszkania i zjadłam wszystko. To było cudowne uczucie, znów poczuć słodycz, mieć pełny brzuch. Oczywiście moje ciało zareagowało nudnościami, ale następnego ranka czułam się dobrze. I tak działo się każdego dnia, a waga rosła. Nie wymieniłam anoreksji na bulimię, ale na niekontrolowane przejadanie się. Dziś znów mam 60 kg i trzymam je tylko w ten sposób, że jeden dzień jem bardzo dietetycznie, ostatní posiłek o godz. 14.00, następnego dnia przejadam się. Całe życie, moje plany, wszystko podlega żywności. Nie jem, kiedy chcę gdzieś iść. Wręcz przeciwnie, kiedy jestem w domu cały dzień, kończę jeść czasami aż o dziesiątej wieczorem. Nadal mam nadzieję, że pewnego dnia wydarzy się coś, co sprawi, że znów będę normalna i zdrowa. Zaczęłam od wizyt u psychologa, chodzę tam raz w tygodniu. Co 14 dni odwiedzam terapeutę żywieniowego Anabell, aby pomógł mi w czerpaniu radości z jedzenia bez wyrzutów sumienia.
+</translation>
     </message>
     <message id="food-dishes-lunch">
         <location filename="../src/qml/Food/Dishes/LunchForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/lunch.jpg
+        |
+        kotlet smażony, kasza ziemniaczana, sałatka z nakiełkowanych roślin strączkowych
+        |
+        qrc:/images/anabell/lunch2.jpg
+        |
+        makaron z warzywami, sos jogurtowy, bazylia
+        |
+        qrc:/images/anabell/lunch3.jpg
+        |
+        grillowane mięso z kurczaka, kuskus z warzywami
+        |
+        qrc:/images/anabell/lunchSoup.jpg
+        |
+        krem z dyni
+        |
+        qrc:/images/anabell/soup2.jpg
+        |
+        rosół z kurczaka z warzywami
+        |
+        qrc:/images/anabell/soup3.jpg
+        |
+        minestrone
+</translation>
     </message>
     <message id="food-dishes-pm-snack">
         <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/pmSnack2.jpg
+        |
+        jogurt grecki z owocami, nasiona dyni i słonecznika z patelni
+        |
+        qrc:/images/anabell/pmSnack3.jpg
+        |
+        tost z mąki wieloziarnistej, ser i jarzyny
+        |
+        qrc:/images/anabell/pmDesert.jpg
+        |
+        grillowany banan z rozmarýnem na maśle, jogurt
+        |
+        qrc:/images/anabell/pmDesert2.jpg
+        |
+        twaróg bity, miód i suszone śliwki
+</translation>
     </message>
     <message id="depression-nice-header">
         <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Tu mogę napisać, co mi dzisiaj sprawiło radość:</translation>
     </message>
 </context>
 </TS>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<manifest package="org.dontpanic" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.2" android:versionCode="7120" android:installLocation="auto">
+<manifest package="org.dontpanic" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.21" android:versionCode="8121" android:installLocation="auto">
     <application android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="true" android:name="org.qtproject.qt5.android.bindings.QtApplication" android:label="@string/app_name" android:icon="@drawable/icon">
         <activity android:configChanges="locale|fontScale|keyboard|keyboardHidden|layoutDirection|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="org.qtproject.qt5.android.bindings.QtActivity" android:label="@string/app_name" android:screenOrientation="portrait" android:launchMode="singleTop" android:icon="@drawable/icon">
             <intent-filter>
