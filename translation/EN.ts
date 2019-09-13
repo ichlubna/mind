@@ -20,75 +20,127 @@
         <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="16"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Breakfast</translation>
     </message>
     <message id="food-am-snack">
         <location filename="../src/qml/Food/Dishes/AmSnackForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="20"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Snack</translation>
     </message>
     <message id="food-dishes-am-snack">
         <location filename="../src/qml/Food/Dishes/AmSnackForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/amSnack.jpg
+        |
+        smoothie made of banana, blueberries and chia seeds
+        |
+        qrc:/images/anabell/amSnack2.jpg
+        |
+        Strawberry yogurt with biscuits
+        </translation>
     </message>
     <message id="food-lunch">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="24"/>
         <location filename="../src/qml/Food/Dishes/LunchForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Lunch</translation>
     </message>
     <message id="food-pm-snack">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="29"/>
         <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Snack</translation>
     </message>
     <message id="food-dinner">
         <location filename="../src/qml/Food/Dishes/DinnerForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="34"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Dinner</translation>
     </message>
     <message id="food-dishes-dinner">
         <location filename="../src/qml/Food/Dishes/DinnerForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/dinner.jpg
+        |
+        grilled salmon, vegetables, and mashed potatoes
+        |
+        qrc:/images/anabell/dinner2.jpg
+        |
+        Pappardelle à la carbonara
+        |
+        qrc:/images/anabell/dinner3.jpg
+        |
+        hummus with tomatoes and leek, wholegrain rye bread
+        |
+        qrc:/images/anabell/dinner4.jpg
+        |
+        roasted vegetable with parmesan, dark roll
+        |
+        qrc:/images/anabell/dinner5.jpg
+        |
+        seed baguette with cottage cheese spread, onion and vegetable
+        |
+        qrc:/images/anabell/lightDinner.jpg
+        |
+        bread with spread and ham, vegetable salad
+        |
+        qrc:/images/anabell/lightDinner2.jpg
+        |
+        salat Caprese made by tomatoes and mozzarella cheese, knäckebrots
+        |
+        qrc:/images/anabell/lightDinner3.jpg
+        |
+        plate with ham, cheese, eggs, vegetable and kornspitz
+</translation>
     </message>
     <message id="food-tips">
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="26"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Tips</translation>
     </message>
     <message id="food-tasks">
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="30"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="12"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Tasks</translation>
     </message>
     <message id="distraction">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="10"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Distraction</translation>
     </message>
     <message id="food-dishes">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="11"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="34"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>samples of meals</translation>
     </message>
     <message id="food-dishes-breakfast">
         <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/breakfast.jpg
+        |
+        Oatmeal with butter, apple, nuts, honey, and cinnamon, with a white yogurt on the top.
+        |
+        qrc:/images/anabell/breakfast2.jpg
+        |
+         Homemade muesli, fresh fruit, and white yogurth
+        |
+        qrc:/images/anabell/breakfast3.jpg
+        |
+        Scrambled eggs with spring onion, baguette, tomato salad
+</translation>
     </message>
     <message id="food-stories">
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="39"/>
         <location filename="../src/qml/Food/StoriesForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>True stories</translation>
     </message>
     <message id="help-contacts">
         <location filename="../src/qml/HomeForm.ui.qml" line="91"/>
@@ -429,32 +481,70 @@ Hug someone you love|Or you can cuddle your pet.
     <message id="food-afraid-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="214"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>The food I am scared of
+</translation>
     </message>
     <message id="food-challenge-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="224"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+I want to be and I know how to be kind to myself|
+Today I will try to think positively and believe that everything will be fine|
+From today, I won’t hide my feelings anymore|
+Each hour I will praise myself |
+Today I will write down 20 of my personal goals which I would like to achieve in the future|
+I will focus on different things than food and start to find the meaning of my life|
+I will stop vilifying and harming myself|
+I will spread gratitude to others because they care about me|
+I will acknowledge what is good for me and my body|
+I will show someone how important they are to me|
+If I don’t have any professional help, today I will find some|
+Today is a rest day because I need it|
+I will acknowledge what I need and miss in my life|
+I will say thanks to my parents because they have brought me up as an honest person|
+I will think about the people who care about me|
+I will create my own motto |
+Today I won’t be afraid of eating. |
+Today I will share my insecurities and fears with someone|
+I will forgive all the people who have hurt me. I am forgiving to myself.|
+I learn to say NO.|
+I will start writing my new diary|
+I will ignore all the negative comments about anybody’s weight|
+I will write down all the things I have already achieved in my life|
+I have as many friends as I have fingers on my hands |
+</translation>
     </message>
     <message id="food-creative-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="234"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Draw a picture of your illness and tear up the paper.|
+Write a letter to your ill “self”, say thanks and goodbye.|
+Write down the bullet points why you want to be healthy and what are the obstacles on your recovery journey.|
+Sort out your paper mess on your table.|
+Try out a new hairstyle.|
+Stretch your muscles.|
+Have you thought about a tattoo? Buy Henna and find the proper place on your beautiful body!|
+Create a decoration for your room, for example, a memory book of your favourite vacation.|
+Study a new language or try to play any musical instrument.|
+Find out how to make origami from paper.|
+Write down moments from your life you would like to experience again.|
+</translation>
     </message>
     <message id="food-food-like-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="244"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>The food I like</translation>
     </message>
     <message id="food-like-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation> </translation>
     </message>
     <message id="food-motivation-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="264"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation> </translation>
     </message>
     <message id="phone-text">
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
@@ -563,7 +653,7 @@ Go out for the fresh air|Take yourself out for half-hour-long walk at a quick pl
     <message id="anabell-link">
         <location filename="../src/qml/Drawer/Support.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/Drawer/AboutAppForm.ui.qml" line="7"/>
@@ -641,154 +731,285 @@ Go out for the fresh air|Take yourself out for half-hour-long walk at a quick pl
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="7"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="49"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Hep contacts</translation>
     </message>
     <message id="food-contact-text">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="14"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message id="food-remorse">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="21"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Guilt After Eating</translation>
     </message>
     <message id="food-overeat">
         <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="25"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Binge-eating</translation>
     </message>
     <message id="food-vomit">
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="29"/>
         <location filename="../src/qml/Food/Tips/VomitForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Urge to vomit or exercise</translation>
     </message>
     <message id="food-fail">
         <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="34"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>I am failing</translation>
     </message>
     <message id="food-misc">
         <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="39"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>In general</translation>
     </message>
     <message id="food-tips-text">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Breathe deeply|
+Try to focus on the games or the number counting in this application |
+Think about your motivation - why do you want to be healthy?|
+Just cry, don&apos;t be ashamed about your tears |
+Call a close person who understands and supports you|
+Meet with a close friend|
+Hug your mum/dad/grandma/pet|
+Listen to music|
+Read a book|
+Watch your favourite TV show, TV series, or movie|
+Colour your mandala with bright colours|
+Write down the reasons why you want to be healthy|
+</translation>
     </message>
     <message id="food-fail-text">
         <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Don’t punish yourself|
+Talk about your feelings with somebody|
+Be aware that the recovery is a long process and each difficulty you overcome makes you stronger|
+Write down what you are proud of (your personality features, successes…)|
+Acknowledge everything that you have gone through and overcome (we are proud of you ;) )|
+</translation>
     </message>
     <message id="food-misc-text">
         <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Be surrounded by people who care and support you|
+Keep in mind the contacts for a psychiatrist, a psychologist, and a nutritionist|
+Don&apos;t give up on your hobbies and the things you loved before|
+Practice relaxation at least one time a day|
+Do some recreational sports (but be careful and don&apos;t over-exercise ;) )|
+Give yourself lots of good and long sleep|
+Write in a diary|
+Find your soulmate (or a good friend for deep talks)|
+Don’t look in the mirror|
+Don’t weigh yourself|
+Eat with someone who supports you and makes you feel more comfortable|
+Eat regularly (approximately 5 to 6 times a day)|
+Think about your drinking habits|
+</translation>
     </message>
     <message id="food-vomit-text">
         <location filename="../src/qml/Food/Tips/VomitForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Write down the reasons why you want to be healthy|
+Find some company, don’t be alone |
+Call a close person|
+Text your close friend|
+Breathe deeply|
+Focus on counting the numbers or playing other games in this application|
+Take a pen and write down your feelings|
+</translation>
     </message>
     <message id="food-overeat-text">
         <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+Be aware of your feelings, acknowledge what is coming|
+Try to keep yourself away from the kitchen or food, focus on something different (video-games…)|
+Go for a walk|
+Paint your nails|
+Chew a chewing gum|
+Find some company, don’t be alone|
+Call a close person|
+Take a pen and write down your feelings|
+</translation>
     </message>
     <message id="food-figure-text">
         <location filename="../src/qml/Food/Tips/FigureForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+If I am hungry, I can add more food to my plate|
+I truly enjoy my food|
+It´s not a problem when I have some leftovers on my plate (if I am not in an active regime of gaining weight from hard underweight ;) ). I don´t need to think about food all the time.  |
+I enjoy natural movement and recreational sports. |
+I am more than just a number on my weight. I am valuable. I am worthy of myself.|
+I eat nutritionally balanced food.|
+It is normal to be hungry, and it’s necessary to eat.|
+There are so many more important and beautiful things in this world than only food.  |
+The beauty of a human being is not hidden in their weight. |
+I do not give up without fighting, I believe in myself.|
+I do not expect that it will pass by itself.|
+I do not compare myself to others.|
+We are just humans, we can make mistakes. The important thing is to learn from them and not repeat them.|
+I understand that I used to care too much about my appearance and about the opinions of other people.|
+I know I need energy for living.|
+I am aware that I have problems with food and that it’s me who can deal with them.|
+My body requires nourishing and proper care.|
+I eat a variety of food. I am not afraid of fruit, vegetables, nor meat or bakery products.|
+I know I can do it, but I am not afraid of seeking help.|
+My successes and fails in my recovery journey will be shared with someone I trust.|
+I have some friends I can rely on.|
+I do not buy any magazines about losing weight or dieting.|
+I am proud of myself even for the small achieved challenges.|
+Nobody is perfect, but I can be amazing without any dieting or concerns regarding my weight or appearance.|
+I don’t eat during the nights because I know that’s the time when I feel vulnerable.|
+I don’t have to have a perfect body. I decide what my body should look like. My soul is perfect. |
+I am happy in my relationships.|
+Not everything has a logical reason.|
+I know who I can call when I feel bad.|
+I don’t have to smile all the time.|
+I can be angry.|
+It’s totally OK to ask for help.|
+I am not alone with my struggles.|
+</translation>
     </message>
     <message id="food-figure">
         <location filename="../src/qml/Food/Tips/FigureForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="17"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Body shape</translation>
     </message>
     <message id="food-tasks-creative">
         <location filename="../src/qml/Food/Tasks/CreativeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="17"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>The creative tasks</translation>
     </message>
     <message id="food-tasks-motivation">
         <location filename="../src/qml/Food/Tasks/MotivationForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="21"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Motivation</translation>
     </message>
     <message id="food-motivation-header">
         <location filename="../src/qml/Food/Tasks/MotivationForm.ui.qml" line="8"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>A list of reasons why you want to be healthy</translation>
     </message>
     <message id="food-tasks-challenge">
         <location filename="../src/qml/Food/Tasks/ChallengeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="25"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Tasks</translation>
     </message>
     <message id="food-tasks-like">
         <location filename="../src/qml/Food/Tasks/LikeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="30"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>What I like about myself</translation>
     </message>
     <message id="food-like-header">
         <location filename="../src/qml/Food/Tasks/LikeForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Here I write down a list of things that I like about myself</translation>
     </message>
     <message id="food-tasks-food-like">
         <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="35"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>The food I like</translation>
     </message>
     <message id="food-food-like-header">
         <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Here I write a list of meals I love</translation>
     </message>
     <message id="food-tasks-afraid">
         <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="40"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>The food I am scared of</translation>
     </message>
     <message id="food-afraid-header">
         <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="8"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Write a list of “banned” foods into this list and try one food every week and uncheck it on the list.</translation>
     </message>
     <message id="food-stories-text">
         <location filename="../src/qml/Food/StoriesForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+My recovery journey took 4 years. It wasn’t easy. It took 2 years until I realized that I may have a problem. Anorexia controlled me. The thinner I was, the more I hated myself and wanted to lose more weight. Before my “maturita” exams, I decided to change something. I felt like a prisoner in my own head. I dreamed about my lost freedom; I truly wanted to live again. I started day after day. I realized that I cannot fall deeper and that the only way in front of me is to go up. I deleted the calories-calculator from my devices and started to eat regularly. For each week I set up a food challenge and tasted the food I was scared of before. The key for me was to ALLOW myself to eat. I have learned to gain my self-esteem again. My family has helped me a lot.
+|
+Today it is about a year since I was looking for a change in my life. What am I giving myself? What am I giving others? Is my life meaningful? Is my work showing my abilities? “Everything seems to be wrong!” That&apos;s my answer. I am not a professional, a doctor, not a psychologist. However, I consider myself an intelligent young woman. Even though I knew a lot of interesting things about the tricky illness called bulimia, it has taken me around 12 years to realize that it affects me and even controls me. I think it was a while after my surgery. I was lying in my bed and thinking. Suddenly, I sat up and looked around. Maybe you are familiar with the feeling: you are living your life the same way each day, your work, shop, clean, read before sleep and rest. But then something stops you and you see something. “Did I see a vision of my life?” The thought was flying around, it released my fears and brought understanding. Yes, for sure. I have to write down my story, my experiences, and pain, which is as strong as the illness itself. I believe that it will be the beginning of my new life. Life without eating disorders. I wish nobody tried dieting and hid while eating their meal. Is it a stupid thought? I don’t care. I have understood that the opinion of others is important only for them, not for me. I don’t want to be perfect anymore.
+|
+My recovery didn´t happen in a second. Just like that. It was a long journey. The most important thing was to understand what Bulimia has given me, as well as what it has stolen from my life. Who I am without it and with it. I was thinking about tactics and then moved very carefully. I increased my portions: one more potato, one more biscuit, one more bun after coffee… I progressed very slowly, but I followed my goal. I didn´t eat everything at once - but slowly, I was eating more and more.
+|
+I decided to lose weight. 60 kilos was too much for me, even though I was 172 cm tall. My meals were smaller, smaller, smaller… And my weight went down. Gradually, I got to 41,5 kg. I was constantly freezing, my hair was falling out. I lost my period for two years. Suddenly, I still don’t know why, I realized that I haven’t had chocolate, a biscuit, or ice cream in my mouth for such a long time! “I can afford to gain some kilos,” I thought. I went to the grocery store and spent around 300 CZK for food I didn’t allow myself to eat for the two years. After a few minutes, it was gone. The feeling was amazing: to have a full belly and a sweet tongue. Even though I got a little bit sick, the next day I felt very good. However, the scenario repeated. Again and again. I have gained the weight back to my previous 60 kg. I didn’t exchange Anorexia for Bulimia, instead, I was controlled by binge-eating. Starving for one day, binging on the next one. Each day, all my plans… everything is a subject of my illness. When I want to go somewhere, I do not eat. On the contrary, when I am at home, I eat until 10 pm. I still believe that one day something will happen that makes me healthy. But I had to start. I found a psychologist, I visit her once a week. Every two weeks I also visit my nutritional therapist in the organization Anabell CZ. She is helping me enjoy my food again without any guilt.
+</translation>
     </message>
     <message id="food-dishes-lunch">
         <location filename="../src/qml/Food/Dishes/LunchForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+ qrc:/images/anabell/lunch.jpg
+        |
+        fried chop with potato puree, a salad with spring sprouts
+        |
+        qrc:/images/anabell/lunch2.jpg
+        |
+        pasta with vegetables, yogurt dressing, basil leafs
+        |
+        qrc:/images/anabell/lunch3.jpg
+        |
+        grilled chicken, couscous with vegetable
+        |
+        qrc:/images/anabell/lunchSoup.jpg
+        |
+        pumpkin cream
+        |
+        qrc:/images/anabell/soup2.jpg
+        |
+        chicken broth with vegetables
+        |
+        qrc:/images/anabell/soup3.jpg
+        |
+        minestrone</translation>
     </message>
     <message id="food-dishes-pm-snack">
         <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+qrc:/images/anabell/pmSnack2.jpg
+        |
+        fruit with greek yogurt, fried pumpkin, and sunflower seeds
+        |
+        qrc:/images/anabell/pmSnack3.jpg
+        |
+        dark toast bread, cheese, vegetables
+        |
+        qrc:/images/anabell/pmDesert.jpg
+        |
+        grilled banana on butter, yoghurt
+        |
+        qrc:/images/anabell/pmDesert2.jpg
+        |
+        cottage cheese with honey and dried plums
+</translation>
     </message>
     <message id="depression-nice-header">
         <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Here I can write what pleased me today:</translation>
     </message>
 </context>
 </TS>

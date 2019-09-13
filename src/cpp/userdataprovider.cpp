@@ -4,7 +4,7 @@
 #include <QQmlContext>
 #include "userdataprovider.h"
 
-//TODO use in reset funciton too
+//TODO use in reset function too
 const std::vector<UserDataProvider::CustomInput> UserDataProvider::customInputs{{"my-reasons", "myReasons", UserDataProvider::CustomInput::STRING},
                                                                         {"custom-write", "customWrite", UserDataProvider::CustomInput::STRING},
                                                                         {"custom-write-body", "customWriteBody", UserDataProvider::CustomInput::STRING},
@@ -20,7 +20,7 @@ const char* UserDataProvider::TO_TRANSLATE{"###STARGATE_RULEZ###"};
 UserDataProvider::UserDataProvider(QObject *parent) : QObject(parent), settings("DontPanicDevs", "DontPanic")
 {
 }
-#include<iostream>
+
 void UserDataProvider::checkDefault(UserDataProvider::CustomInput input)
 {
    switch(input.type)
@@ -68,7 +68,7 @@ void UserDataProvider::translateDefault(CustomInput input)
          break;
     }
 }
-
+#include <iostream>
 void UserDataProvider::initCheck()
 {
     //reset to default values if first run
@@ -82,11 +82,11 @@ void UserDataProvider::initCheck()
     }
 
     //food update
-    if(!settings.contains("foodLike"))
+    if(!settings.contains("foodExist"))
     {
+        saveBoolInput("foodExist", true);
         resetInputs(false,false,false,false,false,false,false,true);
     }
-
 
     for(const auto &input : customInputs)
         translateDefault(input);

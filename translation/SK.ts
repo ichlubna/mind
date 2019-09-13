@@ -920,6 +920,11 @@ Nie som na to sám/sama.|
         <source></source>
         <translation>Jedlá, ktoré mám rada</translation>
     </message>
+    <message id="food-food-like-header">
+        <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-tasks-afraid">
         <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="40"/>

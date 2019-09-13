@@ -720,7 +720,7 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
     <message id="food-contact-text">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="14"/>
         <source></source>
-        <translation>&quot;unfinished&quot;</translation>
+        <translation></translation>
     </message>
     <message id="food-remorse">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="6"/>
