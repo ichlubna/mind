@@ -507,11 +507,13 @@ I will create my own motto |
 Today I won’t be afraid of eating. |
 Today I will share my insecurities and fears with someone|
 I will forgive all the people who have hurt me. I am forgiving to myself.|
+Starting today I will try to speak about what bugs me and how I feel|
+From now on I wll not be afraid of saying that I am tired or that I don't feel like doing something.|
 I learn to say NO.|
 I will start writing my new diary|
 I will ignore all the negative comments about anybody’s weight|
 I will write down all the things I have already achieved in my life|
-I have as many friends as I have fingers on my hands |
+I have as many friends as I have fingers on my hands
 </translation>
     </message>
     <message id="food-creative-text">
@@ -525,10 +527,12 @@ Sort out your paper mess on your table.|
 Try out a new hairstyle.|
 Stretch your muscles.|
 Have you thought about a tattoo? Buy Henna and find the proper place on your beautiful body!|
-Create a decoration for your room, for example, a memory book of your favourite vacation.|
-Study a new language or try to play any musical instrument.|
+Create a memory book of your favourite vacation. Print some photos or stickers, be creative.|
+Study a new language.|
+Try to play any musical instrument.|
 Find out how to make origami from paper.|
 Write down moments from your life you would like to experience again.|
+Create a decoration for your room
 </translation>
     </message>
     <message id="food-food-like-text">

@@ -491,51 +491,51 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <location filename="../src/cpp/userdataprovider.cpp" line="224"/>
         <source></source>
         <translation>
-        Viem byť a chcem byť na seba dobrá.|
-        Dnes si doprajem veľkú dávku optimizmu, pozitívneho myslenia a viery, že sa raz všetko obráti k dobrému.|
-        Odo dneška budem dávať najavo svoje pocity, city a myšlienky.|
-        Každú hodinu sa pochválim za čokoľvek, čo ma napadne.|
-        Dnes si napíšem 20 svojich cieľov, ktoré by som chcel/a v živote dosiahnuť.|
-        Zameriam sa viac na iné činnosti ako na jedlo, začnem hľadať to, čo by mi pomohlo nájsť zmysel života.|
-        Prestanem si nadávať, nebudem sama seba ponižovať.|
-        Poďakujem sa všetkým, ktorý mi pomáhajú zvládať moje problémy.|
-        Uvedomím si, čo je pre moje telo zdravé a dobré.|
-        Dám najavo, že mi na niekom záleží, a že je pre mňa dôležitá/ý.|
-        Ak už nemám odbornú pomoc, dnes si ju nájdem.|
-        Dnes si odpočiniem, pretože viem, že je to pre mňa dobré.|
-        Uvedomím si po čom túžim a čo mi chýba.|
-        Poďakujem sa rodičom za to, že ma vychovali tak aby som si bol/a sám/sama sebou istý/á a s čistým svedomím mohol/mohla povedať, že som čestný a slušný človek.|
-        Uvedomím si, ku ktorým ľuďom si môžem prísť pre podporu a pochopenie.|
-        Začiatok dnešného dňa oslávim vlastným mottom. Aké to bude?|
-        Dnes sa nebudem báť sa najesť. Čo si dám?|
-        Dnes sa podelím o svoje starosti. S kým?|
-        Dnes sa pokúsim odpustiť každému, o ktorom si myslím, že mi ublížil. Odpustím i sama sebe.|
-        Odo dneška začnem hovoriť o tom, ako sa cítim, čo mi vadí, čo ma trápi.|
-        Odteraz sa nebudem báť zveriť s tým, že som unavený/á alebo že sa mi nikam nechce ísť.|
-        Naučím sa hovoriť NIE, pokiaľ si naozaj budem NIE myslieť.|
-        Založím si svoj milý denníček a budem si do neho zapisovať svoje myšlienky a úspechy v liečbe.|
-        Nebudem tolerovať negatívne a kritické poznámky, ktoré ostatní hovoria o hmotnosti kohokoľvek iného.|
-        Napíšem si, čo som v živote dokázal/a.|
-        Ku každému prstu svojej ruky môžem priradiť priateľa/priateľku, ktorí mi budú oporou počas liečby.|
+Viem byť a chcem byť na seba dobrá.|
+Dnes si doprajem veľkú dávku optimizmu, pozitívneho myslenia a viery, že sa raz všetko obráti k dobrému.|
+Odo dneška budem dávať najavo svoje pocity, city a myšlienky.|
+Každú hodinu sa pochválim za čokoľvek, čo ma napadne.|
+Dnes si napíšem 20 svojich cieľov, ktoré by som chcel/a v živote dosiahnuť.|
+Zameriam sa viac na iné činnosti ako na jedlo, začnem hľadať to, čo by mi pomohlo nájsť zmysel života.|
+Prestanem si nadávať, nebudem sama seba ponižovať.|
+Poďakujem sa všetkým, ktorý mi pomáhajú zvládať moje problémy.|
+Uvedomím si, čo je pre moje telo zdravé a dobré.|
+Dám najavo, že mi na niekom záleží, a že je pre mňa dôležitá/ý.|
+Ak už nemám odbornú pomoc, dnes si ju nájdem.|
+Dnes si odpočiniem, pretože viem, že je to pre mňa dobré.|
+Uvedomím si po čom túžim a čo mi chýba.|
+Poďakujem sa rodičom za to, že ma vychovali tak aby som si bol/a sám/sama sebou istý/á a s čistým svedomím mohol/mohla povedať, že som čestný a slušný človek.|
+Uvedomím si, ku ktorým ľuďom si môžem prísť pre podporu a pochopenie.|
+Začiatok dnešného dňa oslávim vlastným mottom. Aké to bude?|
+Dnes sa nebudem báť sa najesť. Čo si dám?|
+Dnes sa podelím o svoje starosti. S kým?|
+Dnes sa pokúsim odpustiť každému, o ktorom si myslím, že mi ublížil. Odpustím i sama sebe.|
+Odo dneška začnem hovoriť o tom, ako sa cítim, čo mi vadí, čo ma trápi.|
+Odteraz sa nebudem báť zveriť s tým, že som unavený/á alebo že sa mi nikam nechce ísť.|
+Naučím sa hovoriť NIE, pokiaľ si naozaj budem NIE myslieť.|
+Založím si svoj milý denníček a budem si do neho zapisovať svoje myšlienky a úspechy v liečbe.|
+Nebudem tolerovať negatívne a kritické poznámky, ktoré ostatní hovoria o hmotnosti kohokoľvek iného.|
+Napíšem si, čo som v živote dokázal/a.|
+Ku každému prstu svojej ruky môžem priradiť priateľa/priateľku, ktorí mi budú oporou počas liečby.
         </translation>
     </message>
     <message id="food-creative-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="234"/>
         <source></source>
         <translation>
-        Namaľuj to, ako si predstavuješ anorexiu a obrázok roztrhaj.|
-        Napíš list svojmu anorektickému ja, v ktorom sa mu poďakuješ za lekciu a rozlúčiš sa s ním.|
-        Napíš si dôvody, prečo sa chceš z toho dostať a čo ti v tom bráni.|
-        Vytvor si priečinky a roztrieď si všetky papiere, zošity a časopisy, čo máš na stole.|
-        Nauč sa nejaký nový účes.|
-        Skús si pretiahnuť svaly a otestuj svoju pružnosť.|
-        Premýšľal/a si o tetovaní? Ak áno, smelo do toho. Zájdi do lekárne (alebo drogérie), kúp si henu na kožu a skúšaj, kde je to pravé miesto.|
-        Skús si vytvoriť pamätník z prázdnin/Vianoc/dovolenky. Vytlač si fotky, kúp si trblietky a nálepky, a potom už len tvor.|
-        Čo takto sa naučiť nový jazyk alebo zlepšiť sa v tých, ktoré už vieš? Na internete je veľa testov a slovíčok, ktoré ešte určite nepoznáš.|
-        Chcel/a si niekedy skúsiť hrať na klavír, gitaru, flautu alebo niečo iné? Prečo nie? Nájdi si učiteľa alebo sa do toho vrhni sám/sama. Kúp si gitaru a pomaly si k nej nájdi cestu.|
-        Nauč sa zložiť origami podľa návodov na internete.|
-        Napíš krátke rozprávanie o tom, čo pekné si v živote zažil/a a chcel/a by si to prežiť znovu.|
-        Urob si nejakú novú dekoráciu do svojej izby.|
+Namaľuj to, ako si predstavuješ anorexiu a obrázok roztrhaj.|
+Napíš list svojmu anorektickému ja, v ktorom sa mu poďakuješ za lekciu a rozlúčiš sa s ním.|
+Napíš si dôvody, prečo sa chceš z toho dostať a čo ti v tom bráni.|
+Vytvor si priečinky a roztrieď si všetky papiere, zošity a časopisy, čo máš na stole.|
+Nauč sa nejaký nový účes.|
+Skús si pretiahnuť svaly a otestuj svoju pružnosť.|
+Premýšľal/a si o tetovaní? Ak áno, smelo do toho. Zájdi do lekárne (alebo drogérie), kúp si henu na kožu a skúšaj, kde je to pravé miesto.|
+Skús si vytvoriť pamätník z prázdnin/Vianoc/dovolenky. Vytlač si fotky, kúp si trblietky a nálepky, a potom už len tvor.|
+Čo takto sa naučiť nový jazyk alebo zlepšiť sa v tých, ktoré už vieš? Na internete je veľa testov a slovíčok, ktoré ešte určite nepoznáš.|
+Chcel/a si niekedy skúsiť hrať na klavír, gitaru, flautu alebo niečo iné? Prečo nie? Nájdi si učiteľa alebo sa do toho vrhni sám/sama. Kúp si gitaru a pomaly si k nej nájdi cestu.|
+Nauč sa zložiť origami podľa návodov na internete.|
+Napíš krátke rozprávanie o tom, čo pekné si v živote zažil/a a chcel/a by si to prežiť znovu.|
+Urob si nejakú novú dekoráciu do svojej izby.
         </translation>
     </message>
     <message id="food-food-like-text">

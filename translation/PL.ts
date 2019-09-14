@@ -509,15 +509,14 @@ Będę wdzięczny/a ludziom, którzy  mnie wspierają|
 Dzień dzisiejszy rozpocznę od motta. Jakie ono będzie?|
 Dzisiaj nie będę bał/a się najeść do syta. Co zjem?|
 Dzisiaj porozmawiam o moich smutkach. Z kim?|
-Dzisiaj odpuszczę wszystkim, którzy mi kiedyś ubliżyli.|
-Odpuszczę i sobie samemu/ej|
+Dzisiaj odpuszczę wszystkim, którzy mi kiedyś ubliżyli. Odpuszczę i sobie samemu/ej|
 Od dziś dnia rozpocznę rozmawiać o tym, jak się czuję, co mi przeszkadza bądź co mnie smuci|
 Już więcej nie będę się wstydzić powiedzieć, że jestem zmęczony/a, albo że chcę zostać w domu|
 Nauczę się mówić NIE, jeżeli NIE będę sobie myśleć|
 Założę sobie pamiętnik i tam będę pisać o moich marzeniach i sukcesach w uzdrawianiu się|
 Nie będę tolerować negatywnych i krytycznych uwag, które inni wiodą na temat wyglądu kogokolwiek innego|
 Napiszę, czego w życiu osiągnąłem/nęłam|
-Do każdego palca na swjej dłoni mogę przypisać osobę, która będzie mi wsparciem|
+Do każdego palca na swjej dłoni mogę przypisać osobę, która będzie mi wsparciem
 </translation>
     </message>
     <message id="food-creative-text">
@@ -535,8 +534,8 @@ Spróbuj utworzyć pamiętnik z wakacji/Świąt Bożego Narodzenia/urlopu. Wydru
 Następna możliwość to nauczyć się nowy język, lub udoskonalać ten, który już umiesz. W internecie można znaleźć sporo testów i słówek, których na pewno jeszcze nie znasz!|
 Chciałeś/aś kiedyś spróbować grać na fortepianie, flecie bądź czymś innym? Dlaczego nie? Znajdź nauczyciela albo spróbuj potrenować sam/a. Kup gitarę i powoli znajduj drogę do świata melodii.|
 Naucz się według internetu poskładać origami z papieru. |
-Napisz krótkie opowiadanie o tym, co pięknego spotkało Cię w życiu i chciałbyś/łabyś to powtórzyć.
-Zrób nową, oryginalną dekorację do swojego pokoiku|
+Napisz krótkie opowiadanie o tym, co pięknego spotkało Cię w życiu i chciałbyś/łabyś to powtórzyć.|
+Zrób nową, oryginalną dekorację do swojego pokoiku
 </translation>
     </message>
     <message id="food-food-like-text">

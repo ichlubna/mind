@@ -12,13 +12,23 @@ const std::vector<UserDataProvider::CustomInput> UserDataProvider::customInputs{
                                                                         {"custom-do", "customDo", UserDataProvider::CustomInput::STRING},
                                                                         {"custom-go", "customGo", UserDataProvider::CustomInput::STRING},
                                                                         {"plan-example", "plan", UserDataProvider::CustomInput::ARRAY},
-                                                                        {"nice-example", "nice", UserDataProvider::CustomInput::ARRAY}
+                                                                        {"nice-example", "nice", UserDataProvider::CustomInput::ARRAY},
+                                                                        {"food-creative-text", "foodCreative", UserDataProvider::CustomInput::ARRAY},
+                                                                        {"food-challenge-text", "foodChallenge", UserDataProvider::CustomInput::ARRAY}
                                                                        };
 
 const char* UserDataProvider::TO_TRANSLATE{"###STARGATE_RULEZ###"};
 
 UserDataProvider::UserDataProvider(QObject *parent) : QObject(parent), settings("DontPanicDevs", "DontPanic")
 {
+}
+
+QList<QString> UserDataProvider::parseList(QString input)
+{
+    auto list = input.split("|");
+    for(int i=0; i<list.size(); i++)
+        list[i] = list[i].trimmed();
+    return std::move(list);
 }
 
 void UserDataProvider::checkDefault(UserDataProvider::CustomInput input)
@@ -32,15 +42,18 @@ void UserDataProvider::checkDefault(UserDataProvider::CustomInput input)
 
         case CustomInput::ARRAY:
            QList<QString> values = loadArrayInput(input.settingsId);
-           if(values.empty())
+           auto originalValues = parseList(qtTrId(std::string(input.trId.toStdString()).c_str()));
+           if(values.empty() || originalValues.empty())
                return;
-           if(values[0] == qtTrId(std::string(input.trId.toStdString()).c_str()))
-           {
-               settings.beginWriteArray(input.settingsId);
-               settings.setArrayIndex(0);
-               settings.setValue("value",TO_TRANSLATE);
-               settings.endArray();
+
+           settings.beginWriteArray(input.settingsId);
+           for (int i = 0; i<values.size(); ++i) {
+               settings.setArrayIndex(i);
+               int origIndex = originalValues.indexOf(values[i]);
+               if(origIndex != -1)
+                        settings.setValue("value",QString::number(origIndex).rightJustified(2,'0')+TO_TRANSLATE);
            }
+           settings.endArray();
         break;
    }
 }
@@ -56,19 +69,22 @@ void UserDataProvider::translateDefault(CustomInput input)
 
         case CustomInput::ARRAY:
             QList<QString>  values = loadArrayInput(input.settingsId);
-            if(values.empty())
+            auto originalValues = parseList(qtTrId(std::string(input.trId.toStdString()).c_str()));
+            if(values.empty() || originalValues.empty())
                 return;
-            if(values[0] == TO_TRANSLATE)
-            {
-                settings.beginWriteArray(input.settingsId);
-                settings.setArrayIndex(0);
-                settings.setValue("value",qtTrId(std::string(input.trId.toStdString()).c_str()));
-                settings.endArray();
+
+            settings.beginWriteArray(input.settingsId);
+            for (int i = 0; i < originalValues.size() && i<values.size(); ++i) {
+                settings.setArrayIndex(i);
+
+                if(values[i].contains(TO_TRANSLATE))
+                    settings.setValue("value",originalValues[QStringRef(&values[i],0,2).toInt()].trimmed());
             }
+            settings.endArray();
          break;
     }
 }
-#include <iostream>
+
 void UserDataProvider::initCheck()
 {
     //reset to default values if first run

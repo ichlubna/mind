@@ -40,6 +40,7 @@ private:
     static const std::vector<CustomInput> customInputs;
     void checkDefault(CustomInput input);
     void translateDefault(CustomInput input);
+    QList<QString> parseList(QString input);
     QSettings settings;
 };
 

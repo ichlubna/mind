@@ -558,7 +558,7 @@ Uvědomím si lidi, ke kterým si mohu přijít pro podporu a pochopení|
 Začátek dnešního dne oslavím vlastním mottem. Jaké to bude?|
 Dnes se nebudu bát se najíst. Co si dám?|
 Dnes se podělím o své starosti. Komu?|
-Dnes zkusím odpustit každému, o němž si myslím, že mi ublížil| Odpouštím i sama sobě|
+Dnes zkusím odpustit každému, o němž si myslím, že mi ublížil. Odpouštím i sama sobě|
 Ode dneška začnu hovořit o tom, jak se cítím, co mi vadí, co mě trápí|
 Odteď se nebudu bát svěřit s tím, že jsem unavený/á nebo že se mi nikam nechce|
 Naučím se říkat NE, pokud si NE budu myslet|
