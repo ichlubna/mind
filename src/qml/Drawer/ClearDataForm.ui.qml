@@ -16,8 +16,8 @@ MenuPage {
 
     Grid {
         id: clearList
-        width: parent.width
-        anchors.margins: 20
+        width: parent.width*0.9
+        anchors.horizontalCenter: parent.horizontalCenter
         columns:2
         spacing: 20
 

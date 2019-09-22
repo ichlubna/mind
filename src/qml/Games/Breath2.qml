@@ -3,359 +3,41 @@ import QtQuick 2.4
 Breath2Form {
     property int initNumberLength: 1000
     property int numberLength: 1000
-    property int transitionLength: 150
+    property int currentNumber: 0
+    property int phase: 0
+    property int numbersCount: 4
+    property double barStartSize: 0.0
+    property double barEndSize: 1.0
+    property variant breathText: [qsTrId("breathe-in"), qsTrId("breathe-hold"), qsTrId("breathe-out")]
 
-    breathSlider.onValueChanged: {numberLength = initNumberLength*(2.0-breathSlider.value); ani.restart(); breathIn.opacity=1.0;}
+    breathSlider.onValueChanged: {numberLength = initNumberLength*(2.0-breathSlider.value); anim.restart(); breathElement.opacity=1.0;}
+    onPhaseChanged: {phase=(phase > 2) ? 0 : phase;
+                    if(phase==0){numbersCount=4; barStartSize=0.0; barEndSize=1.0;}
+                    else if(phase==1){numbersCount=3; barStartSize=1.0; barEndSize=1.0;}
+                    else if(phase==2){numbersCount=4; barStartSize=1.0; barEndSize=0.0;}
+                    breathElement.text = breathText[phase]; anim.restart();}
 
-    ParallelAnimation{
-         id: ani;
-         loops: Animation.Infinite
-         running: true
          RotationAnimator {
+                running: true
+                 loops: Animation.Infinite
                  target: sprite;
                  from: 0;
                  to: 360;
-                 duration: numberLength*14+4*transitionLength
+                 duration: numberLength*14
              }
 
-    SequentialAnimation {
-            ParallelAnimation{
-                ScaleAnimator {
-                        target: breathIn;
-                        from: 0.9;
-                        to: 1.0;
-                        duration: numberLength*4
-                    }
-                ScaleAnimator {
-                        target: bar;
-                        from: 0.0;
-                        to: 1.0;
-                        duration: numberLength*4
-                    }
-                SequentialAnimation {
-                    ParallelAnimation{
-                        ScaleAnimator {
-                                target: one;
-                                from: 1.0;
-                                to: 0.0;
-                                duration: numberLength
-                            }
-                        OpacityAnimator {
-                                 target: one;
-                                 from: 0.5;
-                                 to: 0.0;
-                                 duration: numberLength
-                        }
-                    }
 
-                    ParallelAnimation{
-                        ScaleAnimator {
-                                target: two;
-                                from: 1.0;
-                                to: 0.0;
-                                duration: numberLength
-                            }
-                        OpacityAnimator {
-                                 target: two;
-                                 from: 0.5;
-                                 to: 0.0;
-                                 duration: numberLength
-                        }
-                    }
-
-                    ParallelAnimation{
-                        ScaleAnimator {
-                                target: three;
-                                from: 1.0;
-                                to: 0.0;
-                                duration: numberLength
-                            }
-                        OpacityAnimator {
-                                 target: three;
-                                 from: 0.5;
-                                 to: 0.0;
-                                 duration: numberLength
-                        }
-                    }
-
-                    ParallelAnimation{
-                        ScaleAnimator {
-                                target: four;
-                                from: 1.0;
-                                to: 0.0;
-                                duration: numberLength
-                            }
-                        OpacityAnimator {
-                                 target: four;
-                                 from: 0.5;
-                                 to: 0.0;
-                                 duration: numberLength
-                        }
-                    }
+        SequentialAnimation {id: anim; loops: Animation.Infinite; running: true
+                ScriptAction{script: {currentNumber=0;}}
+                ParallelAnimation{ loops: 1
+                    ScaleAnimator {target: breathElement; from: 0.7; to: 1.0; duration: numberLength*numbersCount}
+                    ScaleAnimator {target: bar; from: barStartSize; to: barEndSize; duration: numberLength*numbersCount}
+                    SequentialAnimation{ loops: numbersCount
+                        ScriptAction{script: {currentNumber++; number.text=currentNumber.toString();}}
+                        ParallelAnimation{
+                            ScaleAnimator {target: number; from: 1.0; to: 0.0; duration: numberLength}
+                            OpacityAnimator {target: number; from: 0.5; to: 0.0; duration: numberLength; }
+                    }}
                 }
-            }
-
-            ParallelAnimation{
-                OpacityAnimator {
-                    target: breathHold;
-                    from: 0.0;
-                    to: 1.0;
-                    duration: transitionLength
-                }
-                OpacityAnimator {
-                         target: breathIn;
-                         from: 1.0;
-                         to: 0.0;
-                         duration: transitionLength
-                }
-                ScaleAnimator {
-                        target: breathHold;
-                        from: 1.0;
-                        to: 0.9;
-                        duration: transitionLength
-                    }
-            }
-
-            ParallelAnimation{
-                ScaleAnimator {
-                        target: breathHold;
-                        from: 0.9;
-                        to: 1.0;
-                        duration: numberLength*3
-                    }
-            SequentialAnimation {
-                ParallelAnimation{
-                    ScaleAnimator {
-                            target: one;
-                            from: 1.0;
-                            to: 0.0;
-                            duration: numberLength
-                        }
-                    OpacityAnimator {
-                             target: one;
-                             from: 0.5;
-                             to: 0.0;
-                             duration: numberLength
-                    }
-                }
-
-                ParallelAnimation{
-                    ScaleAnimator {
-                            target: two;
-                            from: 1.0;
-                            to: 0.0;
-                            duration: numberLength
-                        }
-                    OpacityAnimator {
-                             target: two;
-                             from: 0.5;
-                             to: 0.0;
-                             duration: numberLength
-                    }
-                }
-
-                ParallelAnimation{
-                    ScaleAnimator {
-                            target: three;
-                            from: 1.0;
-                            to: 0.0;
-                            duration: numberLength
-                        }
-                    OpacityAnimator {
-                             target: three;
-                             from: 0.5;
-                             to: 0.0;
-                             duration: numberLength
-                    }
-                }
-            }}
-
-            ParallelAnimation{
-            OpacityAnimator {
-                     target: breathHold;
-                     from: 1.0;
-                     to: 0.0;
-                     duration: transitionLength
-            }
-            OpacityAnimator {
-                target: breathOut;
-                from: 0.0;
-                to: 1.0;
-                duration: transitionLength
-            }
-            ScaleAnimator {
-                    target: breathOut;
-                    from: 1.0;
-                    to: 0.9;
-                    duration: transitionLength
-                }
-            }
-
-            ParallelAnimation{
-                ScaleAnimator {
-                        target: breathOut;
-                        from: 0.9;
-                        to: 1.0;
-                        duration: numberLength*4
-                    }
-                ScaleAnimator {
-                        target: bar;
-                        from: 1.0;
-                        to: 0.0;
-                        duration: numberLength*4
-                    }
-            SequentialAnimation {
-            ParallelAnimation{
-                ScaleAnimator {
-                        target: one;
-                        from: 1.0;
-                        to: 0.0;
-                        duration: numberLength
-                    }
-                OpacityAnimator {
-                         target: one;
-                         from: 0.5;
-                         to: 0.0;
-                         duration: numberLength
-                }
-            }
-
-            ParallelAnimation{
-                ScaleAnimator {
-                        target: two;
-                        from: 1.0;
-                        to: 0.0;
-                        duration: numberLength
-                    }
-                OpacityAnimator {
-                         target: two;
-                         from: 0.5;
-                         to: 0.0;
-                         duration: numberLength
-                }
-            }
-
-            ParallelAnimation{
-                ScaleAnimator {
-                        target: three;
-                        from: 1.0;
-                        to: 0.0;
-                        duration: numberLength
-                    }
-                OpacityAnimator {
-                         target: three;
-                         from: 0.5;
-                         to: 0.0;
-                         duration: numberLength
-                }
-            }
-
-            ParallelAnimation{
-                ScaleAnimator {
-                        target: four;
-                        from: 1.0;
-                        to: 0.0;
-                        duration: numberLength
-                    }
-                OpacityAnimator {
-                         target: four;
-                         from: 0.5;
-                         to: 0.0;
-                         duration: numberLength
-                }
-            }}}
-
-            ParallelAnimation{
-            OpacityAnimator {
-                     target: breathOut;
-                     from: 1.0;
-                     to: 0.0;
-                     duration: transitionLength
-            }
-            OpacityAnimator {
-                target: breathHold;
-                from: 0.0;
-                to: 1.0;
-                duration: transitionLength
-            }
-            ScaleAnimator {
-                    target: breathHold;
-                    from: 1.0;
-                    to: 0.9;
-                    duration: transitionLength
-                }}
-
-            ParallelAnimation{
-                ScaleAnimator {
-                        target: breathHold;
-                        from: 0.9;
-                        to: 1.0;
-                        duration: numberLength*3
-                    }
-            SequentialAnimation {
-            ParallelAnimation{
-                ScaleAnimator {
-                        target: one;
-                        from: 1.0;
-                        to: 0.0;
-                        duration: numberLength
-                    }
-                OpacityAnimator {
-                         target: one;
-                         from: 0.5;
-                         to: 0.0;
-                         duration: numberLength
-                }
-            }
-
-            ParallelAnimation{
-                ScaleAnimator {
-                        target: two;
-                        from: 1.0;
-                        to: 0.0;
-                        duration: numberLength
-                    }
-                OpacityAnimator {
-                         target: two;
-                         from: 0.5;
-                         to: 0.0;
-                         duration: numberLength
-                }
-            }
-
-            ParallelAnimation{
-                ScaleAnimator {
-                        target: three;
-                        from: 1.0;
-                        to: 0.0;
-                        duration: numberLength
-                    }
-                OpacityAnimator {
-                         target: three;
-                         from: 0.5;
-                         to: 0.0;
-                         duration: numberLength
-                }
-            }}}
-
-            ParallelAnimation{
-            OpacityAnimator {
-                     target: breathHold;
-                     from: 1.0;
-                     to: 0.0;
-                     duration: transitionLength
-            }
-            OpacityAnimator {
-                     target: breathIn;
-                     from: 0.0;
-                     to: 1.0;
-                     duration: transitionLength
-            }
-            ScaleAnimator {
-                    target: breathIn;
-                    from: 1.0;
-                    to: 0.9;
-                    duration: transitionLength
-                }}
-    }
+                ScriptAction{script: {phase++}}
 }}

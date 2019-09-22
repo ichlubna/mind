@@ -28,6 +28,11 @@ MenuPage {
         }
 
         MenuButton {
+            id: breath3Button
+            text: qsTrId("breath3")
+        }
+
+        MenuButton {
             id: reasonsButton
             text: qsTrId("reasons")
         }

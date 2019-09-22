@@ -22,6 +22,11 @@ MenuPage {
         }
 
         MenuButton {
+            id: breath3Button
+            text: qsTrId("breath3")
+        }
+
+        MenuButton {
             id: tipsButton
             text: qsTrId("self-harm-tips")
         }

@@ -1,6 +1,8 @@
 import QtQuick 2.5
+import io.qt.MathEngine 1.0
 
 BallsForm {
+    MathEngine{id: mathEngine}
     property int elapsed : 0;
     property var speed : [];
     property var wiggleAmount : [];
@@ -44,22 +46,22 @@ BallsForm {
             if (ball.y < -ball.height)
             {
                 ball.y = ball.parent.height;
-                ball.x = sceneWidth*Math.random();
-                speed[i] = minSpeed+speedMultiplier*Math.random();
-                wiggleAmount[i] = wiggleMultiplier*Math.random();
-                wiggleSpeed[i] = Math.random()*0.8;
-                ball.wanted = Math.random() > 0.8;
+                ball.x = sceneWidth*mathEngine.mathRandom();
+                speed[i] = minSpeed+speedMultiplier*mathEngine.mathRandom();
+                wiggleAmount[i] = wiggleMultiplier*mathEngine.mathRandom();
+                wiggleSpeed[i] = mathEngine.mathRandom()*0.8;
+                ball.wanted = mathEngine.mathRandom() > 0.8;
                 if(ball.wanted)
                     ball.color = "#EFFFFFFF";
                 else
-                    if(Math.random() > 0.5)
+                    if(mathEngine.mathRandom() > 0.5)
                         ball.color = "#A0000000";
                     else
                         ball.color = "#A0A0A0A0";
 
             }
             ball.y -= speed[i];
-            ball.x += wiggleAmount[i]*Math.sin(wiggleSpeed[i]*elapsed+100*i);
+            ball.x += wiggleAmount[i]*mathEngine.mathSin(wiggleSpeed[i]*elapsed+100*i);
         }
     }
 

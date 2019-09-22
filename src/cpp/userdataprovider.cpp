@@ -227,63 +227,51 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
         settings.remove("language");
     if(foodTasks)
     {
-        QList<QString> list = qtTrId("food-afraid-text").split("|");
+        auto list = parseList(qtTrId("food-afraid-text"));
         QList<QString> checkList;
         for(int i=0; i<list.size(); i++)
-        {
             checkList.push_back("f");
-            list[i] = list[i].trimmed();
-        }
+
         saveArrayInput("foodAfraid", list);
         saveArrayInput("foodAfraidC", checkList);
 
-        list = qtTrId("food-challenge-text").split("|");
+        list = parseList(qtTrId("food-challenge-text"));
         checkList.clear();
         for(int i=0; i<list.size(); i++)
-        {
             checkList.push_back("f");
-            list[i] = list[i].trimmed();
-        }
+
         saveArrayInput("foodChallenge", list);
         saveArrayInput("foodChallengeC", checkList);
 
-        list = qtTrId("food-creative-text").split("|");
+        list = parseList(qtTrId("food-creative-text"));
         checkList.clear();
         for(int i=0; i<list.size(); i++)
-        {
             checkList.push_back("f");
-            list[i] = list[i].trimmed();
-        }
+
         saveArrayInput("foodCreative", list);
         saveArrayInput("foodCreativeC", checkList);
 
-        list = qtTrId("food-food-like-text").split("|");
+        list = parseList(qtTrId("food-food-like-text"));
         checkList.clear();
         for(int i=0; i<list.size(); i++)
-        {
             checkList.push_back("f");
-            list[i] = list[i].trimmed();
-        }
+
         saveArrayInput("foodFoodLike", list);
         saveArrayInput("foodFoodLikeC", checkList);
 
-        list = qtTrId("food-like-text").split("|");
+        list = parseList(qtTrId("food-like-text"));
         checkList.clear();
         for(int i=0; i<list.size(); i++)
-        {
             checkList.push_back("f");
-            list[i] = list[i].trimmed();
-        }
+
         saveArrayInput("foodLike", list);
         saveArrayInput("foodLikeC", checkList);
 
-        list = qtTrId("food-motivation-text").split("|");
+        list = parseList(qtTrId("food-motivation-text"));
         checkList.clear();
         for(int i=0; i<list.size(); i++)
-        {
             checkList.push_back("f");
-            list[i] = list[i].trimmed();
-        }
+
         saveArrayInput("foodMotivation", list);
         saveArrayInput("foodMotivationC", checkList);
     }

@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QString>
+#include <math.h>
 
 class MathEngine : public QObject
 {
@@ -11,6 +12,8 @@ public:
     explicit MathEngine(QObject *parent = nullptr);
     Q_INVOKABLE QString getNewExercise();
     Q_INVOKABLE bool submitResult(QString answer);
+    Q_INVOKABLE float mathSin(float x) {return sin(x);}
+    Q_INVOKABLE float mathRandom() {return static_cast<float>(rand()) / RAND_MAX;}
 
 private:
     int a;

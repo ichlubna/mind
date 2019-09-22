@@ -234,12 +234,12 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <translation>Myśli&lt;br&gt;samobójcze</translation>
     </message>
     <message id="panic">
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="12"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="13"/>
         <source></source>
         <translation>Panika</translation>
     </message>
     <message id="panicTips">
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="37"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="43"/>
         <location filename="../src/qml/Panic/TipsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Co robić podczas paniki</translation>
@@ -247,7 +247,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
     <message id="breath1">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="25"/>
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="11"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="17"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="18"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="16"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="22"/>
         <source></source>
@@ -255,46 +255,53 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
     </message>
     <message id="breathe-info">
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="14"/>
-        <location filename="../src/qml/Games/Breath2Form.ui.qml" line="22"/>
+        <location filename="../src/qml/Games/Breath2Form.ui.qml" line="17"/>
+        <location filename="../src/qml/Games/Breath3Form.ui.qml" line="22"/>
         <source></source>
         <translation>Usiądź i wyszukaj mocne oparcie</translation>
     </message>
     <message id="breathe-in">
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="21"/>
-        <location filename="../src/qml/Games/Breath2Form.ui.qml" line="60"/>
+        <location filename="../src/qml/Games/Breath2.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath2Form.ui.qml" line="32"/>
+        <location filename="../src/qml/Games/Breath3.qml" line="12"/>
+        <location filename="../src/qml/Games/Breath3Form.ui.qml" line="37"/>
         <source></source>
         <translation>Wdech</translation>
     </message>
     <message id="breathe-out">
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="28"/>
-        <location filename="../src/qml/Games/Breath2Form.ui.qml" line="67"/>
+        <location filename="../src/qml/Games/Breath2.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath3.qml" line="12"/>
         <source></source>
         <translation>Wydech</translation>
     </message>
     <message id="breathe-slider">
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="53"/>
-        <location filename="../src/qml/Games/Breath2Form.ui.qml" line="109"/>
+        <location filename="../src/qml/Games/Breath2Form.ui.qml" line="67"/>
+        <location filename="../src/qml/Games/Breath3Form.ui.qml" line="83"/>
         <source></source>
         <translation>Szybkość oddychania</translation>
     </message>
     <message id="breath2">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="30"/>
-        <location filename="../src/qml/Games/Breath2Form.ui.qml" line="17"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="22"/>
+        <location filename="../src/qml/Games/Breath2Form.ui.qml" line="12"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="23"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="21"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="27"/>
         <source></source>
         <translation>Ćwiczenia oddechowe II</translation>
     </message>
     <message id="breathe-hold">
-        <location filename="../src/qml/Games/Breath2Form.ui.qml" line="74"/>
+        <location filename="../src/qml/Games/Breath2.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath3.qml" line="12"/>
         <source></source>
         <translation>Zatrzymaj oddech</translation>
     </message>
     <message id="math">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="15"/>
         <location filename="../src/qml/Games/MathForm.ui.qml" line="11"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="27"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="33"/>
         <source></source>
         <translation>Liczenie</translation>
     </message>
@@ -443,52 +450,52 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         </translation>
     </message>
     <message id="my-reasons">
-        <location filename="../src/cpp/userdataprovider.cpp" line="183"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="199"/>
         <source></source>
         <translation>Moje powody…</translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="186"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="202"/>
         <source></source>
         <translation>Do kogo napiszę...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="187"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="203"/>
         <source></source>
         <translation>Cześć, właśnie teraz przeżywam trudny okres w moim życiu, możemy razem pogadać?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="188"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="204"/>
         <source></source>
         <translation>Ludzie, na których mi zależy</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="189"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="205"/>
         <source></source>
         <translation>Co zrobię…</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="190"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="206"/>
         <source></source>
         <translation>Dokąd pójdę…</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="194"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="210"/>
         <source></source>
         <translation>Zrobię zakupy</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="198"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="214"/>
         <source></source>
         <translation>Była ładna pogoda…</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="214"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="230"/>
         <source></source>
         <translation>Dania, które chcę skosztować, ale boję się</translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="224"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="238"/>
         <source></source>
         <translation>
 Umiem i chcę być na siebie grzeczny/a|
@@ -520,7 +527,7 @@ Do każdego palca na swjej dłoni mogę przypisać osobę, która będzie mi wsp
 </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="234"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="246"/>
         <source></source>
         <translation>
 Narysuj, jak wyobrażasz sobie anoreksję i potem rozerwij ten rysunek|
@@ -539,17 +546,17 @@ Zrób nową, oryginalną dekorację do swojego pokoiku
 </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="244"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
         <source></source>
         <translation>Dania, które uwielbiam</translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="262"/>
         <source></source>
         <translation>Co lubię na sobie samym/ej</translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="264"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="270"/>
         <source></source>
         <translation>Motywacja</translation>
     </message>
@@ -697,15 +704,13 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
         <translation>nie</translation>
     </message>
     <message id="game">
-        <location filename="../src/qml/BallsForm.ui.qml" line="13"/>
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="20"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="32"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="38"/>
         <source></source>
         <translation>gra</translation>
     </message>
     <message id="game-instructions">
-        <location filename="../src/qml/BallsForm.ui.qml" line="18"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="17"/>
         <source></source>
         <translation>Dotknij jasno-białych kulek. Czarne i szare są tylko dla poczucia zamieszania</translation>
@@ -994,6 +999,12 @@ qrc:/images/anabell/pmSnack2.jpg
         <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
         <source></source>
         <translation>Tu mogę napisać, co mi dzisiaj sprawiło radość:</translation>
+    </message>
+    <message id="breath3">
+        <location filename="../src/qml/Games/Breath3Form.ui.qml" line="17"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="28"/>
+        <source></source>
+        <translation>Ćwiczenia oddechowe III</translation>
     </message>
 </context>
 </TS>

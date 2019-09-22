@@ -4,15 +4,10 @@ import ".."
 
 MenuPage {
     id: breath2Page
-    property alias one: one
-    property alias two: two
-    property alias three: three
-    property alias four: four
+    property alias number: number
     property alias bar: bar
     property alias sprite: sprite
-    property alias breathIn: breathIn
-    property alias breathOut: breathOut
-    property alias breathHold: breathHold
+    property alias breathElement: breathElement
     property alias breathSlider: breathSlider
     title: qsTrId("breath2")
 
@@ -25,57 +20,20 @@ MenuPage {
     }
 
     Description {
-        id: one
+        id: number
         text: "1"
         font.pointSize: numberSize
         verticalAlignment: Text.AlignVCenter
         horizontalAlignment: Text.AlignHCenter
     }
+
     Description {
-        id: two
-        text: "2"
-        font.pointSize: numberSize
-        verticalAlignment: Text.AlignVCenter
-        horizontalAlignment: Text.AlignHCenter
-        opacity: 0.0
-    }
-    Description {
-        id: three
-        text: "3"
-        font.pointSize: numberSize
-        verticalAlignment: Text.AlignVCenter
-        horizontalAlignment: Text.AlignHCenter
-        opacity: 0.0
-    }
-    Description {
-        id: four
-        text: "4"
-        font.pointSize: numberSize
-        verticalAlignment: Text.AlignVCenter
-        horizontalAlignment: Text.AlignHCenter
-        opacity: 0.0
-    }
-    Description {
-        id: breathIn
-        text: qsTrId("breathe-in")
-        horizontalAlignment: Text.AlignHCenter
-        verticalAlignment: Text.AlignVCenter
-        opacity: 1.0
-    }
-    Description {
-        id: breathOut
-        text: qsTrId("breathe-out")
-        horizontalAlignment: Text.AlignHCenter
-        verticalAlignment: Text.AlignVCenter
-        opacity: 0.0
-    }
-    Description {
-        id: breathHold
-        text: qsTrId("breathe-hold")
-        horizontalAlignment: Text.AlignHCenter
-        verticalAlignment: Text.AlignVCenter
-        opacity: 0.0
-    }
+           id: breathElement
+           text: qsTrId("breathe-in")
+           horizontalAlignment: Text.AlignHCenter
+           verticalAlignment: Text.AlignVCenter
+           opacity: 1.0
+       }
 
     Rectangle {
         id: bar
@@ -113,7 +71,3 @@ MenuPage {
     }
 }
 
-/*##^## Designer {
-    D{i:0;autoSize:true;height:480;width:640}
-}
- ##^##*/
