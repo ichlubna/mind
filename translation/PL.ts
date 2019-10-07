@@ -108,7 +108,7 @@ qrc:/images/anabell/dinner.jpg
         <translation>Zadania</translation>
     </message>
     <message id="distraction">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="11"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
         <source></source>
         <translation>Rozproszenie uwagi</translation>
@@ -223,13 +223,13 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
     </message>
     <message id="self-harm">
         <location filename="../src/qml/HomeForm.ui.qml" line="59"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="11"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="12"/>
         <source></source>
         <translation>Chęć ubliżenia&lt;br&gt;sobie samemu</translation>
     </message>
     <message id="suicidal-thoughts">
         <location filename="../src/qml/HomeForm.ui.qml" line="67"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="12"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="13"/>
         <source></source>
         <translation>Myśli&lt;br&gt;samobójcze</translation>
     </message>
@@ -245,11 +245,11 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <translation>Co robić podczas paniki</translation>
     </message>
     <message id="breath1">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="25"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="26"/>
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="11"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="18"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="16"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="22"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="17"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="23"/>
         <source></source>
         <translation>Ćwiczenia oddechowe I</translation>
     </message>
@@ -262,7 +262,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
     </message>
     <message id="breathe-in">
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="21"/>
-        <location filename="../src/qml/Games/Breath2.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath2.qml" line="9"/>
         <location filename="../src/qml/Games/Breath2Form.ui.qml" line="32"/>
         <location filename="../src/qml/Games/Breath3.qml" line="12"/>
         <location filename="../src/qml/Games/Breath3Form.ui.qml" line="37"/>
@@ -271,7 +271,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
     </message>
     <message id="breathe-out">
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="28"/>
-        <location filename="../src/qml/Games/Breath2.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath2.qml" line="9"/>
         <location filename="../src/qml/Games/Breath3.qml" line="12"/>
         <source></source>
         <translation>Wydech</translation>
@@ -284,22 +284,22 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <translation>Szybkość oddychania</translation>
     </message>
     <message id="breath2">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="30"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="31"/>
         <location filename="../src/qml/Games/Breath2Form.ui.qml" line="12"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="23"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="21"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="27"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="22"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="28"/>
         <source></source>
         <translation>Ćwiczenia oddechowe II</translation>
     </message>
     <message id="breathe-hold">
-        <location filename="../src/qml/Games/Breath2.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath2.qml" line="9"/>
         <location filename="../src/qml/Games/Breath3.qml" line="12"/>
         <source></source>
         <translation>Zatrzymaj oddech</translation>
     </message>
     <message id="math">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="15"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="16"/>
         <location filename="../src/qml/Games/MathForm.ui.qml" line="11"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="33"/>
         <source></source>
@@ -330,8 +330,23 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <source></source>
         <translation>Oceń nas</translation>
     </message>
-    <message id="exit">
+    <message id="facebook">
         <location filename="../src/qml/main.qml" line="180"/>
+        <source></source>
+        <translation>Facebook</translation>
+    </message>
+    <message id="website">
+        <location filename="../src/qml/main.qml" line="189"/>
+        <source></source>
+        <translation>Stronie internetowej</translation>
+    </message>
+    <message id="web-link">
+        <location filename="../src/qml/main.qml" line="192"/>
+        <source></source>
+        <translation>http://nepanikar.eu</translation>
+    </message>
+    <message id="exit">
+        <location filename="../src/qml/main.qml" line="198"/>
         <source></source>
         <translation>Zamknij</translation>
     </message>
@@ -392,7 +407,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <translation>Telefon</translation>
     </message>
     <message id="self-harm-tips">
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="26"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="32"/>
         <location filename="../src/qml/SelfHarm/TipsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Chęć ubliżenia sobie samemu</translation>
@@ -400,7 +415,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
     <message id="plan">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="46"/>
         <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="12"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="17"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="18"/>
         <source></source>
         <translation>Plan ratunku</translation>
     </message>
@@ -432,7 +447,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
     <message id="reasons">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="26"/>
         <location filename="../src/qml/Suicide/ReasonsForm.ui.qml" line="8"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="32"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="38"/>
         <source></source>
         <translation>Powody, dlaczego nie</translation>
     </message>
@@ -674,7 +689,8 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
         <translation>Tutaj dostosuj jasność</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/main.qml" line="214"/>
+        <location filename="../src/qml/main.qml" line="183"/>
+        <location filename="../src/qml/main.qml" line="233"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
@@ -704,7 +720,7 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
         <translation>nie</translation>
     </message>
     <message id="game">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="20"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="21"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="38"/>
         <source></source>
@@ -1001,8 +1017,11 @@ qrc:/images/anabell/pmSnack2.jpg
         <translation>Tu mogę napisać, co mi dzisiaj sprawiło radość:</translation>
     </message>
     <message id="breath3">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="36"/>
         <location filename="../src/qml/Games/Breath3Form.ui.qml" line="17"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="28"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="27"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="33"/>
         <source></source>
         <translation>Ćwiczenia oddechowe III</translation>
     </message>

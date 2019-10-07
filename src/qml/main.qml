@@ -177,6 +177,24 @@ ApplicationWindow {
             }
 
             ItemDelegate {
+                text:  qsTrId("facebook");
+                width: parent.width
+                onClicked: {
+                    Qt.openUrlExternally(qsTrId("fb-link"))
+                    drawer.close()
+                }
+            }
+
+            ItemDelegate {
+                text:  qsTrId("website");
+                width: parent.width
+                onClicked: {
+                    Qt.openUrlExternally(qsTrId("web-link"))
+                    drawer.close()
+                }
+            }
+
+            ItemDelegate {
                 text: qsTrId("exit")
                 width: parent.width
                 onClicked: {
@@ -200,18 +218,6 @@ ApplicationWindow {
                         Layout.margins: 10
                         opacity: 0.5
                     }
-                }
-            }
-
-            Image {
-                width: parent.width * 0.2
-                source: "qrc:/images/fb.svg"
-                fillMode: Image.PreserveAspectFit
-                anchors.horizontalCenter: parent.horizontalCenter
-                opacity: 0.7
-                MouseArea {
-                    anchors.fill: parent
-                    onClicked: Qt.openUrlExternally(qsTrId("fb-link"))
                 }
             }
         }

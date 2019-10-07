@@ -8,6 +8,7 @@ MenuPage {
     property alias planButton: planButton
     property alias breath1Button: breath1Button
     property alias breath2Button: breath2Button
+    property alias breath3Button: breath3Button
     property alias reasonsButton: reasonsButton
     title: qsTrId("suicidal-thoughts")
 

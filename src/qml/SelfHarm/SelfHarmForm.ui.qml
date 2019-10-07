@@ -7,6 +7,7 @@ MenuPage {
     id: selfHarmPage
     property alias breath1Button: breath1Button
     property alias breath2Button: breath2Button
+    property alias breath3Button: breath3Button
     property alias tipsButton: tipsButton
     title: qsTrId("self-harm")
 

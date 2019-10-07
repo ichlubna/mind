@@ -108,7 +108,7 @@
         <translation>Úkoly</translation>
     </message>
     <message id="distraction">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="11"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
         <source></source>
         <translation>Odvedení pozornosti</translation>
@@ -223,13 +223,13 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     </message>
     <message id="self-harm">
         <location filename="../src/qml/HomeForm.ui.qml" line="59"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="11"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="12"/>
         <source></source>
         <translation>Chci si&lt;br&gt;ublížit</translation>
     </message>
     <message id="suicidal-thoughts">
         <location filename="../src/qml/HomeForm.ui.qml" line="67"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="12"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="13"/>
         <source></source>
         <translation>Myšlenky&lt;br&gt;na sebevraždu</translation>
     </message>
@@ -245,11 +245,11 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Co dělat při úzkosti</translation>
     </message>
     <message id="breath1">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="25"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="26"/>
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="11"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="18"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="16"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="22"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="17"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="23"/>
         <source></source>
         <translation>Dechové cvičení I</translation>
     </message>
@@ -262,7 +262,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     </message>
     <message id="breathe-in">
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="21"/>
-        <location filename="../src/qml/Games/Breath2.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath2.qml" line="9"/>
         <location filename="../src/qml/Games/Breath2Form.ui.qml" line="32"/>
         <location filename="../src/qml/Games/Breath3.qml" line="12"/>
         <location filename="../src/qml/Games/Breath3Form.ui.qml" line="37"/>
@@ -271,7 +271,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     </message>
     <message id="breathe-out">
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="28"/>
-        <location filename="../src/qml/Games/Breath2.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath2.qml" line="9"/>
         <location filename="../src/qml/Games/Breath3.qml" line="12"/>
         <source></source>
         <translation>Výdech</translation>
@@ -284,22 +284,22 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Rychlost dechu</translation>
     </message>
     <message id="breath2">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="30"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="31"/>
         <location filename="../src/qml/Games/Breath2Form.ui.qml" line="12"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="23"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="21"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="27"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="22"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="28"/>
         <source></source>
         <translation>Dechové cvičení II</translation>
     </message>
     <message id="breathe-hold">
-        <location filename="../src/qml/Games/Breath2.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath2.qml" line="9"/>
         <location filename="../src/qml/Games/Breath3.qml" line="12"/>
         <source></source>
         <translation>Zadržet dech</translation>
     </message>
     <message id="math">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="15"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="16"/>
         <location filename="../src/qml/Games/MathForm.ui.qml" line="11"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="33"/>
         <source></source>
@@ -330,8 +330,23 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <source></source>
         <translation>Ohodnoťte nás</translation>
     </message>
-    <message id="exit">
+    <message id="facebook">
         <location filename="../src/qml/main.qml" line="180"/>
+        <source></source>
+        <translation>Facebook</translation>
+    </message>
+    <message id="website">
+        <location filename="../src/qml/main.qml" line="189"/>
+        <source></source>
+        <translation>Webové stránky</translation>
+    </message>
+    <message id="web-link">
+        <location filename="../src/qml/main.qml" line="192"/>
+        <source></source>
+        <translation>http://nepanikar.eu</translation>
+    </message>
+    <message id="exit">
+        <location filename="../src/qml/main.qml" line="198"/>
         <source></source>
         <translation>Ukončit</translation>
     </message>
@@ -354,7 +369,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         &lt;h2&gt;Praha a Středočeský kraj&lt;/h2&gt;
         &lt;p&gt;Praha (KC Bohnice)&lt;br /&gt;Ústavní 91&lt;br /&gt; 181 02 Praha 8 &lt;br /&gt;&lt;a href=&quot;https://www.bohnice.cz/krizova-pomoc/&quot;&gt;bohnice.cz/krizova-pomoc&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Praha (RIAPS)&lt;br /&gt;Chelčického 39&lt;br /&gt; 130 00 Praha 3&lt;br /&gt;&lt;a href=&quot;https://www.csspraha.cz/24829-krizove-centrum-riaps&quot;&gt;csspraha.cz/24829-krizove-centrum-riaps&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Dětské krizové centrum&lt;br /&gt;Vzápolí 1250/21&lt;br /&gt; Praha 4 &lt;br /&gt;&lt;a href=&quot;http://www.ditekrize.cz&quot;&gt;ditekrize.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Dětské krizové centrum&lt;br /&gt;V Zápolí 1250/21&lt;br /&gt; Praha 4 &lt;br /&gt;&lt;a href=&quot;http://www.ditekrize.cz&quot;&gt;ditekrize.cz&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Acorus - krizová pomoc&lt;br /&gt; Dělnická 213/12&lt;br /&gt; 170 00 Praha 7&lt;br /&gt;&lt;a href=&quot;http://www.acorus.cz&quot;&gt;acorus.cz&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Aqua vitae&lt;br /&gt;Americká 21&lt;br /&gt; 120 00 Praha &lt;br /&gt;&lt;a href=&quot;http://www.linkapomoci.cz&quot;&gt;linkapomoci.cz&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Dům Přemysla Pittra pro děti&lt;br /&gt;Karlovarská 18&lt;br /&gt; 161 00 Praha&lt;br /&gt;&lt;a href=&quot;http://www.dumtriprani.cz&quot;&gt;dumtriprani.cz&lt;/a&gt;&lt;/p&gt;
@@ -439,7 +454,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Telefon</translation>
     </message>
     <message id="self-harm-tips">
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="26"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="32"/>
         <location filename="../src/qml/SelfHarm/TipsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Co mi může pomoci</translation>
@@ -447,7 +462,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     <message id="plan">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="46"/>
         <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="12"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="17"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="18"/>
         <source></source>
         <translation>Záchranný plán</translation>
     </message>
@@ -479,7 +494,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     <message id="reasons">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="26"/>
         <location filename="../src/qml/Suicide/ReasonsForm.ui.qml" line="8"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="32"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="38"/>
         <source></source>
         <translation>Důvody proč ne</translation>
     </message>
@@ -625,6 +640,7 @@ Udělej si nějakou novou dekoraci do pokoje
         &lt;b&gt;Modrá linka&lt;/b&gt; &lt;br&gt;
         Denně od 9 do 21 hodin &lt;br&gt;
         &lt;a href=&quot;tel:549241010&quot;&gt;549 241 010&lt;/a&gt; &lt;br&gt;
+        &lt;a href=&quot;whatsapp://send?phone=+420608902410&quot;&gt;608 902 410 (WhatsApp) &lt;/a&gt; &lt;br&gt;
         Mobil: &lt;a href=&quot;tel:608902410&quot;&gt;608 902 410&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Záchranná služba:&lt;/b&gt; &lt;br&gt;
         &lt;a href=&quot;tel:155&quot;&gt;155&lt;/a&gt; &lt;br&gt; &lt;br&gt;
@@ -730,7 +746,8 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
         <translation>Zde upravte jas</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/main.qml" line="214"/>
+        <location filename="../src/qml/main.qml" line="183"/>
+        <location filename="../src/qml/main.qml" line="233"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
@@ -760,7 +777,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
         <translation>Ne</translation>
     </message>
     <message id="game">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="20"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="21"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="38"/>
         <source></source>
@@ -1057,8 +1074,11 @@ Rozhodla jsem se zhubnout, 60 kg bylo pro mě příliš, i když jsem měřila 1
         <translation>Zde mohu napsat co mi dnes udělalo radost:</translation>
     </message>
     <message id="breath3">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="36"/>
         <location filename="../src/qml/Games/Breath3Form.ui.qml" line="17"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="28"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="27"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="33"/>
         <source></source>
         <translation>Dechové cvičení III</translation>
     </message>

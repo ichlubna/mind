@@ -68,7 +68,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="distraction">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="11"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
         <source></source>
         <translation type="unfinished"></translation>
@@ -171,13 +171,13 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
     </message>
     <message id="self-harm">
         <location filename="../src/qml/HomeForm.ui.qml" line="59"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="11"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="12"/>
         <source></source>
         <translation>Je veux&lt;br&gt;me mutiler</translation>
     </message>
     <message id="suicidal-thoughts">
         <location filename="../src/qml/HomeForm.ui.qml" line="67"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="12"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="13"/>
         <source></source>
         <translation>Pensées&lt;br&gt;suicidaires</translation>
     </message>
@@ -193,11 +193,11 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
         <translation>Quoi faire pendant une attaque de panique</translation>
     </message>
     <message id="breath1">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="25"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="26"/>
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="11"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="18"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="16"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="22"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="17"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="23"/>
         <source></source>
         <translation>Exercice de respiration I</translation>
     </message>
@@ -210,7 +210,7 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
     </message>
     <message id="breathe-in">
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="21"/>
-        <location filename="../src/qml/Games/Breath2.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath2.qml" line="9"/>
         <location filename="../src/qml/Games/Breath2Form.ui.qml" line="32"/>
         <location filename="../src/qml/Games/Breath3.qml" line="12"/>
         <location filename="../src/qml/Games/Breath3Form.ui.qml" line="37"/>
@@ -219,7 +219,7 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
     </message>
     <message id="breathe-out">
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="28"/>
-        <location filename="../src/qml/Games/Breath2.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath2.qml" line="9"/>
         <location filename="../src/qml/Games/Breath3.qml" line="12"/>
         <source></source>
         <translation>Expirez</translation>
@@ -232,22 +232,22 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
         <translation>Vitesse de respiration</translation>
     </message>
     <message id="breath2">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="30"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="31"/>
         <location filename="../src/qml/Games/Breath2Form.ui.qml" line="12"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="23"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="21"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="27"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="22"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="28"/>
         <source></source>
         <translation>Excercice de respiration II</translation>
     </message>
     <message id="breathe-hold">
-        <location filename="../src/qml/Games/Breath2.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath2.qml" line="9"/>
         <location filename="../src/qml/Games/Breath3.qml" line="12"/>
         <source></source>
         <translation>Ne respirez pas</translation>
     </message>
     <message id="math">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="15"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="16"/>
         <location filename="../src/qml/Games/MathForm.ui.qml" line="11"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="33"/>
         <source></source>
@@ -278,8 +278,23 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
         <source></source>
         <translation>Evaluez-nous</translation>
     </message>
-    <message id="exit">
+    <message id="facebook">
         <location filename="../src/qml/main.qml" line="180"/>
+        <source></source>
+        <translation>Facebook</translation>
+    </message>
+    <message id="website">
+        <location filename="../src/qml/main.qml" line="189"/>
+        <source></source>
+        <translation>Site Internet</translation>
+    </message>
+    <message id="web-link">
+        <location filename="../src/qml/main.qml" line="192"/>
+        <source></source>
+        <translation>http://nepanikar.eu</translation>
+    </message>
+    <message id="exit">
+        <location filename="../src/qml/main.qml" line="198"/>
         <source></source>
         <translation>Fermer</translation>
     </message>
@@ -328,7 +343,7 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
         <translation>Télephone</translation>
     </message>
     <message id="self-harm-tips">
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="26"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="32"/>
         <location filename="../src/qml/SelfHarm/TipsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Qu’est-ce qui peut m’aider</translation>
@@ -336,7 +351,7 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
     <message id="plan">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="46"/>
         <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="12"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="17"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="18"/>
         <source></source>
         <translation>Le plan d’urgence</translation>
     </message>
@@ -368,7 +383,7 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
     <message id="reasons">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="26"/>
         <location filename="../src/qml/Suicide/ReasonsForm.ui.qml" line="8"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="32"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="38"/>
         <source></source>
         <translation>Pourquoi ne pas le faire</translation>
     </message>
@@ -565,7 +580,8 @@ Prenez de l’air|
         <translation>Ajuster la luminosité ici</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/main.qml" line="214"/>
+        <location filename="../src/qml/main.qml" line="183"/>
+        <location filename="../src/qml/main.qml" line="233"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
@@ -595,7 +611,7 @@ Prenez de l’air|
         <translation>Le graphique nécessite au moins deux options d&apos;humeur</translation>
     </message>
     <message id="game">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="20"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="21"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="38"/>
         <source></source>
@@ -760,8 +776,11 @@ Prenez de l’air|
         <translation type="unfinished"></translation>
     </message>
     <message id="breath3">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="36"/>
         <location filename="../src/qml/Games/Breath3Form.ui.qml" line="17"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="28"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="27"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="33"/>
         <source></source>
         <translation>Exercice de respiration III</translation>
     </message>
