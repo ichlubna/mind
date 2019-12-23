@@ -5,6 +5,7 @@ ContactsForm {
     phoneButton.onClicked: stackView.push("Phone.qml")
     centerButton.onClicked: stackView.push("Center.qml")
     chatButton.onClicked: stackView.push("Chat.qml")
+    universitiesButton.onClicked: stackView.push("Universities.qml")
 
     UserDataProvider {
         id: dataProvider
@@ -14,6 +15,13 @@ ContactsForm {
         target: chatButton
         Component.onCompleted: {
             if(dataProvider.loadLanguage() === "FR" || dataProvider.loadLanguage() === "PL")
+                chatButton.visible = false;
+        }
+    }
+    Connections {
+        target: universitiesButton
+        Component.onCompleted: {
+            if(dataProvider.loadLanguage() !== "CZ")
                 chatButton.visible = false;
         }
     }

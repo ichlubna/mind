@@ -24,7 +24,7 @@ public:
     Q_INVOKABLE QList<QString> loadArrayInput(QString id);
     Q_INVOKABLE QString loadLanguage();
     Q_INVOKABLE void setLanguage(QString language);
-    Q_INVOKABLE void resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks);
+    Q_INVOKABLE void resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks, bool praise);
 
     static constexpr int TRANSLATION_RESTART = 42;
 

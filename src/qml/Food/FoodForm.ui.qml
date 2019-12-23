@@ -35,11 +35,6 @@ MenuPage {
         }
 
         MenuButton {
-            id: storiesButton
-            text: qsTrId("food-stories")
-        }
-
-        MenuButton {
             id: distractionButton
             text: qsTrId("distraction")
         }

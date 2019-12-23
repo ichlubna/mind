@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg4776" viewBox="0 0 286.91 286.91" version="1.1">
+  <g id="layer1" transform="translate(-231.54 -388.91)">
+    <path id="path3794" d="m484.49 498.52c0 76.076-76.558 137.75-171 137.75-94.439 0-171-61.672-171-137.75 0-76.076 76.558-137.75 171-137.75 94.439 0 171 61.672 171 137.75z" style="color:#000000" fill="#808080" transform="matrix(.83895 0 0 1.0414 112 13.176)"/>
+    <g id="g3885" stroke="#fff" transform="translate(63.054 40.714)" fill="none">
+      <path id="path2816" style="color:#000000" d="m422.86 483.79c0 56.806-46.69 102.86-104.29 102.86-57.595 0-104.29-46.051-104.29-102.86 0-56.806 46.69-102.86 104.29-102.86 57.595 0 104.29 46.051 104.29 102.86z" transform="matrix(.94025 0 0 .92745 12.409 42.957)" stroke-linecap="round" stroke-width="14.992"/>
+      <path id="path3592" stroke-width="14" d="m230 442.36h168"/>
+      <path id="path3592-2" stroke-width="14" d="m228 538.86h172"/>
+      <path id="path3592-2-5" stroke-width="14" d="m218 491.36h188"/>
+      <path id="path3592-4-4-3" stroke-width="14" d="m310.25 583.11v-184"/>
+      <path id="path3592-4-4-3-0" stroke-width="14" d="m310.25 583.11c-60.25-20.75-70.25-150.75 0-184"/>
+      <path id="path3592-4-4-3-8" stroke-width="14" d="m310.25 583.11c69.75-30.75 69.75-150.75 0-184"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Internet Icon</dc:title>
+        <dc:date>2010-09-23T04:19:58</dc:date>
+        <dc:description>Icon, clip art, clipart, internet, world, </dc:description>
+        <dc:source>http://openclipart.org/detail/86401/internet-icon-by-ben</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>ben</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Icon</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>internet</rdf:li>
+            <rdf:li>world</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

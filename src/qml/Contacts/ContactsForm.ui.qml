@@ -6,6 +6,7 @@ MenuPage {
     property alias phoneButton: phoneButton
     property alias centerButton: centerButton
     property alias chatButton: chatButton
+    property alias universitiesButton: universitiesButton
     title: qsTrId("contacts")
 
     MenuColumn {
@@ -22,6 +23,16 @@ MenuPage {
         MenuButton {
             id: chatButton
             text: qsTrId("chat")
-        }     
+        }
+
+        MenuButton {
+            id: universitiesButton
+            text: qsTrId("universities")
+        }
+
+        MenuButton {
+            id: myContactsButton
+            text: qsTrId("myContacts")
+        }
     }
 }

@@ -9,7 +9,7 @@
         <translation>Home</translation>
     </message>
     <message id="food">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="107"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="14"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
@@ -130,62 +130,56 @@ qrc:/images/anabell/breakfast.jpg
         miešané vajíčka na jarnej cibuľke, bageta so semiačkami, paradajkový šalát
         </translation>
     </message>
-    <message id="food-stories">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="39"/>
-        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="6"/>
-        <source></source>
-        <translation>Príbehy ľudí</translation>
-    </message>
     <message id="help-contacts">
         <location filename="../src/qml/HomeForm.ui.qml" line="91"/>
         <source></source>
         <translation>Kontakty pomoci</translation>
     </message>
     <message id="depression">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="9"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="10"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="43"/>
         <source></source>
         <translation>Depresia</translation>
     </message>
     <message id="depression-help">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="14"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="15"/>
         <location filename="../src/qml/Depression/HelpForm.ui.qml" line="6"/>
         <source></source>
         <translation>Čo mi môže pomôcť</translation>
     </message>
     <message id="depression-mood">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="76"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="87"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
         <location filename="../src/qml/MoodForm.ui.qml" line="26"/>
         <source></source>
         <translation>Sledovanie&lt;br&gt;nálady</translation>
     </message>
     <message id="clear-data">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="15"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="16"/>
         <source></source>
         <translation>Zmazať dáta</translation>
     </message>
     <message id="depression-plan">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="19"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="20"/>
         <location filename="../src/qml/Depression/PlanForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="56"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="57"/>
         <source></source>
         <translation>Plánovanie aktivít</translation>
     </message>
     <message id="language">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="86"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="97"/>
         <source></source>
         <translation>Jazyk</translation>
     </message>
     <message id="clear-button">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="106"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="117"/>
         <source></source>
         <translation>Zmazať</translation>
     </message>
     <message id="depression-nice">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="24"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="25"/>
         <location filename="../src/qml/Depression/NiceForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="36"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="37"/>
         <source></source>
         <translation>Čo ma potešilo</translation>
     </message>
@@ -212,6 +206,7 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
     </message>
     <message id="anxiety-panic">
         <location filename="../src/qml/HomeForm.ui.qml" line="51"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="13"/>
         <source></source>
         <translation>Úzkosť&lt;br&gt;panika</translation>
     </message>
@@ -227,11 +222,6 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <source></source>
         <translation>Myšlienky&lt;br&gt;na samovraždu</translation>
     </message>
-    <message id="panic">
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="13"/>
-        <source></source>
-        <translation>Panika</translation>
-    </message>
     <message id="panicTips">
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="43"/>
         <location filename="../src/qml/Panic/TipsForm.ui.qml" line="6"/>
@@ -240,7 +230,7 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
     </message>
     <message id="distraction">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="11"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="39"/>
         <source></source>
         <translation>Odvedenie pozornosti</translation>
     </message>
@@ -330,23 +320,13 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <source></source>
         <translation>Ohodnoťte nás</translation>
     </message>
-    <message id="facebook">
-        <location filename="../src/qml/main.qml" line="180"/>
-        <source></source>
-        <translation>Facebook</translation>
-    </message>
-    <message id="website">
-        <location filename="../src/qml/main.qml" line="189"/>
-        <source></source>
-        <translation>Webové stránky</translation>
-    </message>
     <message id="web-link">
-        <location filename="../src/qml/main.qml" line="192"/>
+        <location filename="../src/qml/main.qml" line="218"/>
         <source></source>
         <translation>http://nepanikar.eu</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/main.qml" line="198"/>
+        <location filename="../src/qml/main.qml" line="180"/>
         <source></source>
         <translation>Ukončiť</translation>
     </message>
@@ -405,6 +385,12 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <source></source>
         <translation>Telefón</translation>
     </message>
+    <message id="universities">
+        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="29"/>
+        <location filename="../src/qml/Contacts/UniversitiesForm.ui.qml" line="6"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="self-harm-tips">
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="32"/>
         <location filename="../src/qml/SelfHarm/TipsForm.ui.qml" line="6"/>
@@ -412,7 +398,7 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <translation>Čo mi môže pomôcť</translation>
     </message>
     <message id="plan">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="46"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="47"/>
         <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="12"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="18"/>
         <source></source>
@@ -444,7 +430,7 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <translation>Komu by to ublížilo:</translation>
     </message>
     <message id="reasons">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="26"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="27"/>
         <location filename="../src/qml/Suicide/ReasonsForm.ui.qml" line="8"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="38"/>
         <source></source>
@@ -465,52 +451,57 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         </translation>
     </message>
     <message id="my-reasons">
-        <location filename="../src/cpp/userdataprovider.cpp" line="199"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="202"/>
         <source></source>
         <translation>Moje dôvody...</translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="202"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="205"/>
         <source></source>
         <translation>Komu napíšem...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="203"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="206"/>
         <source></source>
         <translation>Ahoj, práve prežívam náročné obdobie, môžeme sa porozprávať?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="204"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="207"/>
         <source></source>
         <translation>Ľudia, ktorým na mne záleží</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="205"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="208"/>
         <source></source>
         <translation>Čo urobím...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="206"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="209"/>
         <source></source>
         <translation>Kam pôjdem...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="210"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="213"/>
         <source></source>
         <translation>Nakúpim v obchode</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="214"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="217"/>
         <source></source>
         <translation>Bolo krásne počasie...</translation>
     </message>
+    <message id="praise-example">
+        <location filename="../src/cpp/userdataprovider.cpp" line="219"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="230"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="235"/>
         <source></source>
         <translation></translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="238"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="243"/>
         <source></source>
         <translation>
 Viem byť a chcem byť na seba dobrá.|
@@ -542,7 +533,7 @@ Ku každému prstu svojej ruky môžem priradiť priateľa/priateľku, ktorí mi
         </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="246"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="251"/>
         <source></source>
         <translation>
 Namaľuj to, ako si predstavuješ anorexiu a obrázok roztrhaj.|
@@ -561,17 +552,17 @@ Urob si nejakú novú dekoráciu do svojej izby.
         </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="259"/>
         <source></source>
         <translation>Zoznam jedál</translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="262"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="267"/>
         <source></source>
         <translation>Zoznam vecí</translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="270"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="275"/>
         <source></source>
         <translation>Vytvoriť si zoznam vecí, pre ktoré chcem byť zdravá/ý.</translation>
     </message>
@@ -656,10 +647,6 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <source></source>
         <translation>Ak máte pripomienky, alebo poznámky k tejto aplikácii, kontaktujte nás na adrese &lt;a href=&quot;mailto:nepanikar.info@gmail.com&quot;&gt;nepanikar.info@gmail.com&lt;/a&gt; &lt;br&gt; &lt;br&gt;</translation>
     </message>
-    <message id="deperssion-nice-header">
-        <source></source>
-        <translation type="vanished">&quot;vanished&quot;&gt;Tu môžem napísať čo mi dnes urobilo radosť:</translation>
-    </message>
     <message id="dusi-link">
         <location filename="../src/qml/Drawer/Support.qml" line="4"/>
         <source></source>
@@ -667,6 +654,7 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
     </message>
     <message id="mlceni-link">
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
+        <location filename="../src/qml/main.qml" line="207"/>
         <source></source>
         <translation>https://www.instagram.com/mlceninenireseni/</translation>
     </message>
@@ -687,7 +675,7 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <translation>Táto aplikácia slúži ako nástroj prvej pomoci&lt;br&gt; pri psychických problémoch ako sú depresia či panika.&lt;br&gt; Cieľom aplikácie nie je nahradiť lekársku starostlivosť,&lt;br&gt; ale pomôcť zmierniť príznaky.&lt;br&gt; V prípade zhoršenia stavu je nutné vyhľadať odbornú pomoc.&lt;br&gt;Pokiaľ Vám aplikácia nepomáha alebo si nie ste istí jej významom pre Váš stav,&lt;br&gt; konzultujte jej používanie s Vaším lekárom.</translation>
     </message>
     <message id="custom-theme">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="66"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="77"/>
         <location filename="../src/qml/Drawer/CustomThemeForm.ui.qml" line="6"/>
         <location filename="../src/qml/main.qml" line="162"/>
         <source></source>
@@ -704,8 +692,7 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <translation>Tu upravte jas</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/main.qml" line="183"/>
-        <location filename="../src/qml/main.qml" line="233"/>
+        <location filename="../src/qml/main.qml" line="196"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
@@ -748,7 +735,7 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
     </message>
     <message id="food-contact">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="7"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="49"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
         <source></source>
         <translation>Kontakty na pomoc</translation>
     </message>
@@ -957,19 +944,6 @@ Nie som na to sám/sama.|
         <source></source>
         <translation>Do tohto zoznamu sa napíše zoznam zakázaných potravín a každý týždeň jednu potravinu vyskúšaj a odškrtni si ju na zozname.</translation>
     </message>
-    <message id="food-stories-text">
-        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="7"/>
-        <source></source>
-        <translation>
-        Prešla som si mentálnou anorexiou cca 4 roky. Cesta k uzdraveniu bola náročná. Trvalo mi tak dva roky než som si uvedomila že mám nejaký problém. Viacmenej ma anorexia pohltila. Čím viac som chudla,tým viac som sa nenávidela a chcela schudnúť ešte viac. S každým  kilom dolu som stratila aj kus svojho sebavedomia. Pred maturitou som sa rozhodla svoju situáciu zmeniť,keďže som sa cítila ako väzeň vo vlastnej hlave. Potrebovala som zas tú slobodu a chcela som znovu žiť. Začala som de facto zo dňa na deň. Po svojom prepade na dno som si uvedomila,že už hlbšie ísť nemôžem a teraz už vedie cesta ina nahor. Odstránila som si kalorické tabuľky,začala jesť postupne a pravidelne. Každý týždeň som si dávala nutričnú výzvu a tak som si každý týždeň dopriala jedlo,ktorého som sa predtým bála. Zásadné pre mňa bolo DOVOLIŤ SI JESŤ. Naučila som sa oceňovať a opäť získavať svoje sebavedomie. Veľmi mi v mojej ceste pomohla rodina.|
-        |
-        Dnes je tomu presne rok,kedy som začala pociťovať túžbu po zmene vo svojom živote. Čo komu dávam? Čo dávam sama sebe? Je môj život zmysluplný? Odpovedá moja práca mojim schopnostiam? ,,Všetko zle!&quot; to bol môj záver,ale aj začiatok. Nie som odborník,ani lekár,ani psychológ, a cez to všetko sa považujem za inteligentnú mladú ženu. Napríklad viem o zákernosti choroby,nazývanej mentálna bulímia,mnoho,trvalo mi nekonečných 12 rokov,kým som pochopila,že sa táto choroba týka aj mňa a že ju nemám vôbec pod kontrolou....Mala som krátko po operácii,ležala v teplej mäkkej posteli v obývacej izbe a premýšľala. Napokon,akoby ma niečo osvietilo. Posadila som sa a porozhliadala som sa okolo. Možno poznáte ten pocit. Žijete svoj život,beží deň za dňom,hodinka za hodinkou kráča ako tieň za tým,kto ho vrhá. Vstávate,pracujete,nakupujete,ukladáte,čítate si pred spaním,spíte. Vstávate,pracujete.. Zrazu vás niečo prinúti zastaviť a zamyslieť sa. Začne sa vám v mysli rozvíjať myšlienka,nápad. A zasa zmizne.                                Ešte neni pripravená stať sa na svetlo. Rýchlo som sa snažila prilákať ju späť. ,,O čom to bolo? O novom živote?&quot; Myšlienka sa vznášala kdesi v neurčite,prinášala mi ale úľavu a prinášala pochopenie. Áno,určite. Musím vypísať svoj príbeh,svoje skúsenosti,svoje bolesti,silné ako choroba sama. A verím, že to bude začiatok môjho nového života. Života bez poruchy príjmu potravy. Priala by som si,aby sa už nikto nemusel utápať v diétach,nemusel sa skrývať so svojim jedlom/nejedlom. Hlúposť? Nevadí. Pochopila som,že to,čo si o nás myslia ostatní,je problém tých ostatných. Dnes už nechcem byť dokonalá.|
-        |
-        Moje uzdravenie nenastalo automaticky,okamžite. Bol to dlhý boj. Veľmi dôležité bolo uvedomenie si,čo mi bulímia dávala a čo mi brala. Čo som bola bez nej a čo som bola s ňou. Vymýšľala som si na seba rôzne taktiky a postupovala som opatrne a veľmi pomaly. Pomaly ale isto. Zvyšovala som svoje denné porcie napríklad len o jeden zemiak naviac alebo o jednu sušienku po večeri,na raňajky som zjedla jednu buchtu,po káve ďaľšiu. Pomalinky,ale chcela som to dokázať. Vedela som,že nemôžem chcieť všetko hneď. Že určite si proste len tak nesadnem a nezjem tri knedlíky s omáčkou alebo kopec zemiakov a dva plátky sekanej. Tak som si vzala len jeden a pol plátku. A ono to išlo.
-        |
-        Rozhodla som sa schudnúť,60 kg bolo pre mňa príliš,aj keď som merala 172 cm. Takže diéta s veľkým D. Porcie jedla som neustále znižovala,a ono to išlo,najprv 55 kg,potom 50,45 kg.....,potom 41.5 kg,veľkosť 34. Začala mi byť neustále zima,padali mi vlasy,nemenštruovala som. Takto som žila dva roky. Zrazu ale prišiel zlom,neviem čo to spôsobilo. Uvedomila som si,že som dva roky nemala v ústach čokoládu,sušienky,zmrzlinu. ,,Teraz si predsa môžem dovoliť trochu pribrať&quot; hovorila som si. Nakúpila som si všetko čo som si predtým zakazovala,stálo to asi 300 Kč. Prišla som do prázdneho bytu a všetko hneď zjedla. Bol to úžasný pocit,cítiť zase tú sladkosť,mať plné brucho. Samozrejme že moje telo reagovalo nevoľnosťou,ale druhý deň ráno mi už bolo fajn. A tak to išlo každý deň dokola a ručička váhy stúpala. Anotexiu som nevymenila za bulímiu ale za nekontrolovateľné prejedanie. Dnes mám opäť 60kg a tie si držím len tým,že jeden deň jem veľmi diétne a naposledy o 14.00 hod.,a druhý deň sa prejedám. Celý môj život,moje plány,všetko podlieha jedlu.  Keď chcem niekam ísť,nejem. Naopak keď som celý deň doma,končím s jedlom niekedy aj o desiatej večer. Stále dúfam,že raz sa niečo stane,čo ma prinúti byť zas normálna a zdravá. Začala som tým že som sa objednala k psychologičke,chodím k nej raz za týždeň. Raz za 14 dní tiež navštevujem nutričnú terapeutku Anabell,pomáha mi znovu nachádzať radosť z jedla a bez výčitiek.
-        </translation>
-    </message>
     <message id="food-dishes-lunch">
         <location filename="../src/qml/Food/Dishes/LunchForm.ui.qml" line="7"/>
         <source></source>
@@ -1033,6 +1007,23 @@ qrc:/images/anabell/pmSnack2.jpg
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="33"/>
         <source></source>
         <translation>Dychové cvičenie III</translation>
+    </message>
+    <message id="depression-praise">
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="30"/>
+        <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="5"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="67"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="depression-praise-header">
+        <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="universities-text">
+        <location filename="../src/qml/Contacts/UniversitiesForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

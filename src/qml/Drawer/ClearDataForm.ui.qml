@@ -12,6 +12,7 @@ MenuPage {
     property alias moodsClear: moodsClear
     property alias languageClear: languageClear
     property alias foodTasksClear: foodTasksClear
+    property alias depressionPraiseClear: depressionPraiseClear
     title: qsTrId("clear-data")
 
     Grid {
@@ -58,6 +59,16 @@ MenuPage {
         }
         MenuCheckBox {
                 id: depressionPlanClear
+                checked: false;
+        }
+
+        DescriptionLabel {
+            id: depressionPraiseClearText
+            text:  qsTrId("depression-praise")
+            width: parent.width*0.75
+        }
+        MenuCheckBox {
+                id: depressionPraiseClear
                 checked: false;
         }
 

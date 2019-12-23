@@ -13,6 +13,7 @@ const std::vector<UserDataProvider::CustomInput> UserDataProvider::customInputs{
                                                                         {"custom-go", "customGo", UserDataProvider::CustomInput::STRING},
                                                                         {"plan-example", "plan", UserDataProvider::CustomInput::ARRAY},
                                                                         {"nice-example", "nice", UserDataProvider::CustomInput::ARRAY},
+                                                                        {"praise-example", "praise", UserDataProvider::CustomInput::ARRAY},
                                                                         {"food-creative-text", "foodCreative", UserDataProvider::CustomInput::ARRAY},
                                                                         {"food-challenge-text", "foodChallenge", UserDataProvider::CustomInput::ARRAY}
                                                                        };
@@ -74,11 +75,13 @@ void UserDataProvider::translateDefault(CustomInput input)
                 return;
 
             settings.beginWriteArray(input.settingsId);
-            for (int i = 0; i < originalValues.size() && i<values.size(); ++i) {
+            for (int i = 0; /*i < originalValues.size() && */i<values.size(); ++i) {
                 settings.setArrayIndex(i);
 
                 if(values[i].contains(TO_TRANSLATE))
                     settings.setValue("value",originalValues[QStringRef(&values[i],0,2).toInt()].trimmed());
+                else
+                     settings.setValue("value",values[i]);
             }
             settings.endArray();
          break;
@@ -88,8 +91,8 @@ void UserDataProvider::translateDefault(CustomInput input)
 void UserDataProvider::initCheck()
 {
     //reset to default values if first run
-    if(!settings.contains("myReasons"))
-       resetInputs(true, true, true, true, true, true, true, true);
+    if(settings.allKeys().isEmpty())
+       resetInputs(true, true, true, true, true, true, true, true, true);
     //to avoid getting red color when updating to version with color change option
     if(!settings.contains("themeLight"))
     {
@@ -101,7 +104,7 @@ void UserDataProvider::initCheck()
     if(!settings.contains("foodExist"))
     {
         saveBoolInput("foodExist", true);
-        resetInputs(false,false,false,false,false,false,false,true);
+        resetInputs(false,false,false,false,false,false,false,true,false);
     }
 
     for(const auto &input : customInputs)
@@ -187,13 +190,13 @@ QList<QString> UserDataProvider::loadArrayInput(QString id)
     int size = settings.beginReadArray(id);
     for (int i = 0; i < size; ++i) {
         settings.setArrayIndex(i);
-        values.append(settings.value("value").toString());
+        values.append(settings.value("value").toString());        
     }
     settings.endArray();
     return values;
 }
 
-void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks)
+void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks, bool praise)
 {
     if(reasons)
         settings.setValue("myReasons", qtTrId("my-reasons"));
@@ -212,6 +215,8 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
     }
     if(nice)
         saveArrayInput("nice", QList<QString>{qtTrId("nice-example")});
+    if(praise)
+        saveArrayInput("praise", QList<QString>{qtTrId("praise-example")});
     if(theme)
     {
         settings.setValue("themeLight",  -0.05);

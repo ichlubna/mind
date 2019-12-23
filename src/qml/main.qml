@@ -177,24 +177,6 @@ ApplicationWindow {
             }
 
             ItemDelegate {
-                text:  qsTrId("facebook");
-                width: parent.width
-                onClicked: {
-                    Qt.openUrlExternally(qsTrId("fb-link"))
-                    drawer.close()
-                }
-            }
-
-            ItemDelegate {
-                text:  qsTrId("website");
-                width: parent.width
-                onClicked: {
-                    Qt.openUrlExternally(qsTrId("web-link"))
-                    drawer.close()
-                }
-            }
-
-            ItemDelegate {
                 text: qsTrId("exit")
                 width: parent.width
                 onClicked: {
@@ -202,11 +184,52 @@ ApplicationWindow {
                 }
             }
 
+            MenuLine{}
+
+            GridLayout {
+                columns: 3
+                width: drawer.width
+                    RoundButton {
+                        background: Image {
+                            source: "qrc:/images/fb.svg"
+                        }
+                        onClicked: {Qt.openUrlExternally(qsTrId("fb-link")); drawer.close()}
+                        Layout.maximumWidth: drawer.width*0.2
+                        Layout.maximumHeight: drawer.width*0.2
+                        Layout.topMargin: 20
+                        Layout.margins: 10
+                    }
+
+                    RoundButton {
+                        background: Image {
+                            source: "qrc:/images/instagram.svg"
+                        }
+                        onClicked: {Qt.openUrlExternally(qsTrId("mlceni-link")); drawer.close()}
+                        Layout.maximumWidth: drawer.width*0.2
+                        Layout.maximumHeight: drawer.width*0.2
+                        Layout.topMargin: 20
+                        Layout.margins: 10
+                    }
+
+                    RoundButton {
+                        background: Image {
+                            source: "qrc:/images/web.svg"
+                        }
+                        onClicked: {Qt.openUrlExternally(qsTrId("web-link")); drawer.close()}
+                        Layout.maximumWidth: drawer.width*0.2
+                        Layout.maximumHeight: drawer.width*0.2
+                        Layout.topMargin: 20
+                        Layout.margins: 10
+                    }
+            }
+
+            MenuLine{}
+
             GridLayout {
                 columns: 3
                 width: drawer.width
                 Repeater{
-                    model: ["CZ", "SK", "PL", "FR", "EN"]
+                    model: ["CZ", "SK", "PL", "FR", "EN", "IT"]
                     RoundButton {
                         background: Image {
                             source: "qrc:/images/"+modelData+".svg"
@@ -216,7 +239,7 @@ ApplicationWindow {
                         Layout.maximumHeight: drawer.width*0.2
                         Layout.topMargin: 20
                         Layout.margins: 10
-                        opacity: 0.5
+                        opacity: (dataProvider.loadLanguage() === modelData) ? 1.0 : 0.5
                     }
                 }
             }

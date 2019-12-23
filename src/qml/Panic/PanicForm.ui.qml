@@ -10,7 +10,7 @@ MenuPage {
     property alias mathButton: mathButton
     property alias gameButton: gameButton
     property alias panicTipsButton: panicTipsButton
-    title: qsTrId("panic")
+    title: qsTrId("anxiety-panic")
 
    MenuColumn{
         MenuButton {

@@ -10,17 +10,22 @@
         <file>translation/PL.qm</file>
         <file>translation/FR.ts</file>
         <file>translation/FR.qm</file>
+        <file>translation/IT.ts</file>
+        <file>translation/IT.qm</file>
         <file>images/background.svg</file>
         <file>images/logo.svg</file>
         <file>images/back.svg</file>
         <file>images/exit.svg</file>
         <file>images/gear.svg</file>
         <file>images/fb.svg</file>
+        <file>images/instagram.svg</file>
+        <file>images/web.svg</file>
         <file>images/CZ.svg</file>
         <file>images/SK.svg</file>
         <file>images/EN.svg</file>
         <file>images/PL.svg</file>
         <file>images/FR.svg</file>
+        <file>images/IT.svg</file>
         <file>images/emoticon1.svg</file>
         <file>images/emoticon2.svg</file>
         <file>images/emoticon3.svg</file>
@@ -70,6 +75,7 @@
         <file>src/qml/MenuCheckBox.qml</file>
         <file>src/qml/MenuColumn.qml</file>
         <file>src/qml/MenuPage.qml</file>
+        <file>src/qml/MenuLine.qml</file>
         <file>src/qml/MenuTextArea.qml</file>
         <file>src/qml/MenuTextInput.qml</file>
         <file>src/qml/Panic/Panic.qml</file>
@@ -157,8 +163,6 @@
         <file>src/qml/Food/ContactForm.ui.qml</file>
         <file>src/qml/Food/Food.qml</file>
         <file>src/qml/Food/FoodForm.ui.qml</file>
-        <file>src/qml/Food/Stories.qml</file>
-        <file>src/qml/Food/StoriesForm.ui.qml</file>
         <file>src/qml/Food/Dishes/Lunch.qml</file>
         <file>src/qml/Food/Dishes/LunchForm.ui.qml</file>
         <file>src/qml/Food/Dishes/PmSnack.qml</file>
@@ -182,5 +186,11 @@
         <file>src/qml/Food/DistractionForm.ui.qml</file>
         <file>src/qml/Games/Breath3.qml</file>
         <file>src/qml/Games/Breath3Form.ui.qml</file>
+        <file>src/qml/Depression/Praise.qml</file>
+        <file>src/qml/Depression/PraiseForm.ui.qml</file>
+        <file>src/qml/Contacts/Universities.qml</file>
+        <file>src/qml/Contacts/UniversitiesForm.ui.qml</file>
+        <file>src/qml/Contacts/MyContacts.qml</file>
+        <file>src/qml/Contacts/MyContactsForm.ui.qml</file>
     </qresource>
 </RCC>

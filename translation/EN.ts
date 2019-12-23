@@ -9,7 +9,7 @@
         <translation>Home</translation>
     </message>
     <message id="food">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="96"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="107"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="14"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
@@ -109,7 +109,7 @@ qrc:/images/anabell/dinner.jpg
     </message>
     <message id="distraction">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="11"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="39"/>
         <source></source>
         <translation>Distraction</translation>
     </message>
@@ -136,62 +136,56 @@ qrc:/images/anabell/breakfast.jpg
         Scrambled eggs with spring onion, baguette, tomato salad
 </translation>
     </message>
-    <message id="food-stories">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="39"/>
-        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="6"/>
-        <source></source>
-        <translation>True stories</translation>
-    </message>
     <message id="help-contacts">
         <location filename="../src/qml/HomeForm.ui.qml" line="91"/>
         <source></source>
         <translation>Help contacts</translation>
     </message>
     <message id="depression">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="9"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="10"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="43"/>
         <source></source>
         <translation>Depression</translation>
     </message>
     <message id="depression-help">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="14"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="15"/>
         <location filename="../src/qml/Depression/HelpForm.ui.qml" line="6"/>
         <source></source>
         <translation>What can help me</translation>
     </message>
     <message id="depression-mood">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="76"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="87"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
         <location filename="../src/qml/MoodForm.ui.qml" line="26"/>
         <source></source>
         <translation>Mood&lt;br&gt;monitoring</translation>
     </message>
     <message id="clear-data">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="15"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="16"/>
         <source></source>
         <translation>Delete saved data</translation>
     </message>
     <message id="depression-plan">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="19"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="20"/>
         <location filename="../src/qml/Depression/PlanForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="56"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="57"/>
         <source></source>
         <translation>Activity planner</translation>
     </message>
     <message id="language">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="86"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="97"/>
         <source></source>
         <translation>Language</translation>
     </message>
     <message id="clear-button">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="106"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="117"/>
         <source></source>
         <translation>Delete</translation>
     </message>
     <message id="depression-nice">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="24"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="25"/>
         <location filename="../src/qml/Depression/NiceForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="36"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="37"/>
         <source></source>
         <translation>What made me happy</translation>
     </message>
@@ -218,6 +212,7 @@ Hug someone you love|Or you can cuddle your pet.
     </message>
     <message id="anxiety-panic">
         <location filename="../src/qml/HomeForm.ui.qml" line="51"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="13"/>
         <source></source>
         <translation>Anxiety&lt;br&gt;panic attacks</translation>
     </message>
@@ -232,11 +227,6 @@ Hug someone you love|Or you can cuddle your pet.
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="13"/>
         <source></source>
         <translation>Suicidal&lt;br&gt;thoughts</translation>
-    </message>
-    <message id="panic">
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="13"/>
-        <source></source>
-        <translation>PanicForm</translation>
     </message>
     <message id="panicTips">
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="43"/>
@@ -330,23 +320,13 @@ Hug someone you love|Or you can cuddle your pet.
         <source></source>
         <translation>Rate us</translation>
     </message>
-    <message id="facebook">
-        <location filename="../src/qml/main.qml" line="180"/>
-        <source></source>
-        <translation>Facebook</translation>
-    </message>
-    <message id="website">
-        <location filename="../src/qml/main.qml" line="189"/>
-        <source></source>
-        <translation>Website</translation>
-    </message>
     <message id="web-link">
-        <location filename="../src/qml/main.qml" line="192"/>
+        <location filename="../src/qml/main.qml" line="218"/>
         <source></source>
         <translation>http://nepanikar.eu</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/main.qml" line="198"/>
+        <location filename="../src/qml/main.qml" line="180"/>
         <source></source>
         <translation>Quit</translation>
     </message>
@@ -401,6 +381,12 @@ Hug someone you love|Or you can cuddle your pet.
         <source></source>
         <translation>Phone</translation>
     </message>
+    <message id="universities">
+        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="29"/>
+        <location filename="../src/qml/Contacts/UniversitiesForm.ui.qml" line="6"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="self-harm-tips">
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="32"/>
         <location filename="../src/qml/SelfHarm/TipsForm.ui.qml" line="6"/>
@@ -408,7 +394,7 @@ Hug someone you love|Or you can cuddle your pet.
         <translation>How can I help myself?</translation>
     </message>
     <message id="plan">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="46"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="47"/>
         <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="12"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="18"/>
         <source></source>
@@ -440,7 +426,7 @@ Hug someone you love|Or you can cuddle your pet.
         <translation>People I would hurt if I hurt myself:</translation>
     </message>
     <message id="reasons">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="26"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="27"/>
         <location filename="../src/qml/Suicide/ReasonsForm.ui.qml" line="8"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="38"/>
         <source></source>
@@ -461,53 +447,58 @@ Hug someone you love|Or you can cuddle your pet.
         </translation>
     </message>
     <message id="my-reasons">
-        <location filename="../src/cpp/userdataprovider.cpp" line="199"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="202"/>
         <source></source>
         <translation>My reasons to stay alive...</translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="202"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="205"/>
         <source></source>
         <translation>Whom do I write for...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="203"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="206"/>
         <source></source>
         <translation>Hi it&apos;s been hard lately for me, can we talk?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="204"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="207"/>
         <source></source>
         <translation>People I care about</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="205"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="208"/>
         <source></source>
         <translation>What will I do...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="206"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="209"/>
         <source></source>
         <translation>Where will I go...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="210"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="213"/>
         <source></source>
         <translation>I will go shopping</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="214"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="217"/>
         <source></source>
         <translation>The weather was nice...</translation>
     </message>
+    <message id="praise-example">
+        <location filename="../src/cpp/userdataprovider.cpp" line="219"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="230"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="235"/>
         <source></source>
         <translation>The food I am scared of
 </translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="238"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="243"/>
         <source></source>
         <translation>
 I want to be and I know how to be kind to myself|
@@ -539,7 +530,7 @@ I have as many friends as I have fingers on my hands
 </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="246"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="251"/>
         <source></source>
         <translation>
 Draw a picture of your illness and tear up the paper.|
@@ -558,17 +549,17 @@ Create a decoration for your room
 </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="259"/>
         <source></source>
         <translation>The food I like</translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="262"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="267"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="270"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="275"/>
         <source></source>
         <translation> </translation>
     </message>
@@ -662,10 +653,6 @@ Go out for the fresh air|Take yourself out for half-hour-long walk at a quick pl
         <source></source>
         <translation>In case you have any suggestions or questions don’t hold back and contact us on our email address &lt;a href=&quot;mailto:nepanikar.info@gmail.com&quot;&gt;nepanikar.info@gmail.com&lt;/a&gt; &lt;br&gt; &lt;br&gt;</translation>
     </message>
-    <message id="deperssion-nice-header">
-        <source></source>
-        <translation type="vanished">I can write here what made me happy:</translation>
-    </message>
     <message id="dusi-link">
         <location filename="../src/qml/Drawer/Support.qml" line="4"/>
         <source></source>
@@ -673,6 +660,7 @@ Go out for the fresh air|Take yourself out for half-hour-long walk at a quick pl
     </message>
     <message id="mlceni-link">
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
+        <location filename="../src/qml/main.qml" line="207"/>
         <source></source>
         <translation>https://www.instagram.com/mlceninenireseni/</translation>
     </message>
@@ -693,7 +681,7 @@ Go out for the fresh air|Take yourself out for half-hour-long walk at a quick pl
         <translation>This app is here for anyone who needs an urgent help&lt;br&gt; in case of depression, anxiety or other issues.&lt;br&gt; The app offers help but it doesn’t replace a consultation with qualified doctor&lt;br&gt; or other specialist. It’s necessary to seek&lt;br&gt;professional help when the situaton gets worse.&lt;br&gt; If the app doesn’t help or if you’re unsure whether it has a positive influence&lt;br&gt; on your mental health, please consult its using with your doctor.</translation>
     </message>
     <message id="custom-theme">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="66"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="77"/>
         <location filename="../src/qml/Drawer/CustomThemeForm.ui.qml" line="6"/>
         <location filename="../src/qml/main.qml" line="162"/>
         <source></source>
@@ -710,8 +698,7 @@ Go out for the fresh air|Take yourself out for half-hour-long walk at a quick pl
         <translation>Brightness adjustment</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/main.qml" line="183"/>
-        <location filename="../src/qml/main.qml" line="233"/>
+        <location filename="../src/qml/main.qml" line="196"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
@@ -754,7 +741,7 @@ Go out for the fresh air|Take yourself out for half-hour-long walk at a quick pl
     </message>
     <message id="food-contact">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="7"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="49"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="44"/>
         <source></source>
         <translation>Hep contacts</translation>
     </message>
@@ -969,19 +956,6 @@ I am not alone with my struggles.|
         <source></source>
         <translation>Write a list of “banned” foods into this list and try one food every week and uncheck it on the list.</translation>
     </message>
-    <message id="food-stories-text">
-        <location filename="../src/qml/Food/StoriesForm.ui.qml" line="7"/>
-        <source></source>
-        <translation>
-My recovery journey took 4 years. It wasn’t easy. It took 2 years until I realized that I may have a problem. Anorexia controlled me. The thinner I was, the more I hated myself and wanted to lose more weight. Before my “maturita” exams, I decided to change something. I felt like a prisoner in my own head. I dreamed about my lost freedom; I truly wanted to live again. I started day after day. I realized that I cannot fall deeper and that the only way in front of me is to go up. I deleted the calories-calculator from my devices and started to eat regularly. For each week I set up a food challenge and tasted the food I was scared of before. The key for me was to ALLOW myself to eat. I have learned to gain my self-esteem again. My family has helped me a lot.
-|
-Today it is about a year since I was looking for a change in my life. What am I giving myself? What am I giving others? Is my life meaningful? Is my work showing my abilities? “Everything seems to be wrong!” That&apos;s my answer. I am not a professional, a doctor, not a psychologist. However, I consider myself an intelligent young woman. Even though I knew a lot of interesting things about the tricky illness called bulimia, it has taken me around 12 years to realize that it affects me and even controls me. I think it was a while after my surgery. I was lying in my bed and thinking. Suddenly, I sat up and looked around. Maybe you are familiar with the feeling: you are living your life the same way each day, your work, shop, clean, read before sleep and rest. But then something stops you and you see something. “Did I see a vision of my life?” The thought was flying around, it released my fears and brought understanding. Yes, for sure. I have to write down my story, my experiences, and pain, which is as strong as the illness itself. I believe that it will be the beginning of my new life. Life without eating disorders. I wish nobody tried dieting and hid while eating their meal. Is it a stupid thought? I don’t care. I have understood that the opinion of others is important only for them, not for me. I don’t want to be perfect anymore.
-|
-My recovery didn´t happen in a second. Just like that. It was a long journey. The most important thing was to understand what Bulimia has given me, as well as what it has stolen from my life. Who I am without it and with it. I was thinking about tactics and then moved very carefully. I increased my portions: one more potato, one more biscuit, one more bun after coffee… I progressed very slowly, but I followed my goal. I didn´t eat everything at once - but slowly, I was eating more and more.
-|
-I decided to lose weight. 60 kilos was too much for me, even though I was 172 cm tall. My meals were smaller, smaller, smaller… And my weight went down. Gradually, I got to 41,5 kg. I was constantly freezing, my hair was falling out. I lost my period for two years. Suddenly, I still don’t know why, I realized that I haven’t had chocolate, a biscuit, or ice cream in my mouth for such a long time! “I can afford to gain some kilos,” I thought. I went to the grocery store and spent around 300 CZK for food I didn’t allow myself to eat for the two years. After a few minutes, it was gone. The feeling was amazing: to have a full belly and a sweet tongue. Even though I got a little bit sick, the next day I felt very good. However, the scenario repeated. Again and again. I have gained the weight back to my previous 60 kg. I didn’t exchange Anorexia for Bulimia, instead, I was controlled by binge-eating. Starving for one day, binging on the next one. Each day, all my plans… everything is a subject of my illness. When I want to go somewhere, I do not eat. On the contrary, when I am at home, I eat until 10 pm. I still believe that one day something will happen that makes me healthy. But I had to start. I found a psychologist, I visit her once a week. Every two weeks I also visit my nutritional therapist in the organization Anabell CZ. She is helping me enjoy my food again without any guilt.
-</translation>
-    </message>
     <message id="food-dishes-lunch">
         <location filename="../src/qml/Food/Dishes/LunchForm.ui.qml" line="7"/>
         <source></source>
@@ -1044,6 +1018,23 @@ qrc:/images/anabell/pmSnack2.jpg
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="33"/>
         <source></source>
         <translation>Breathing exercise III</translation>
+    </message>
+    <message id="depression-praise">
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="30"/>
+        <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="5"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="67"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="depression-praise-header">
+        <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="universities-text">
+        <location filename="../src/qml/Contacts/UniversitiesForm.ui.qml" line="7"/>
+        <source></source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
