@@ -23,7 +23,7 @@ HEADERS += \
 
 RESOURCES += qml.qrc
 
-TRANSLATIONS = translation/EN.ts translation/CZ.ts translation/SK.ts translation/PL.ts translation/FR.ts translation/IT.ts
+TRANSLATIONS = translation/EN.ts translation/CZ.ts translation/SK.ts translation/PL.ts translation/FR.ts translation/IT.ts translation/ES.ts
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =

@@ -1,6 +1,9 @@
-import QtQuick 2.4
+import QtQuick.Controls 2.5
+import ".."
 
-Item {
-    width: 400
-    height: 400
+ArrayUpdater {
+    title: qsTrId("my-contacts")
+    arrayNames: ["myContactsNames", "myContactsNumbers"]
+    type: "C"
+    headerText: qsTrId("my-contacts-header")
 }

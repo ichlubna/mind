@@ -4,59 +4,95 @@ import io.qt.UserDataProvider 1.0
 ArrayUpdaterForm {
     property int count: 0
     property var values: []
+    property var values2: []
     property var valuesC: []
-    //name of the array in data provider
-    property string arrayName: ""
-    property string tickArrayName: ""
-    property bool hasTicks: false
+    //name of the array in data provider, order according to type
+    property var arrayNames: []
+    //L - list, LC - list and checkbox, C - contacts
+    property var type: "L"
 
     UserDataProvider {
         id: dataProvider
     }
-
-    //works repeaters, itemList, itemListR (objectName: "rm"+index) and itemListC and viewContainer containing them
     function fill() {
-        if(tickArrayName !== "")
-            hasTicks = true;
-        values = dataProvider.loadArrayInput(arrayName)
+        values = dataProvider.loadArrayInput(arrayNames[0])
         count = values.length
         itemList.model = count
         itemListR.model = count
-        if (hasTicks) {
-            valuesC = dataProvider.loadArrayInput(tickArrayName)
+        if(type === "LC")
+        {
+            valuesC = dataProvider.loadArrayInput(arrayNames[1])
             itemListC.model = count
-        } else
-            itemListC.visible = false;
+            itemListC.visible = true
+        }
+        else if(type === "C")
+        {
+            twoInputs = true;
+            colHRatioM = 2;
+            itemListC.model = count
+            itemListC.visible = true
+            values2 = dataProvider.loadArrayInput(arrayNames[1])
+        }
 
         for (var i = 0; i < count; i++) {
-            itemList.itemAt(i).text = values[i]
-            if (hasTicks)
-                itemListC.itemAt(i).checked = valuesC[i] === "t"
+            itemList.itemAt(i).children[0].text = values[i]
+            if(type === "LC")
+                itemListC.itemAt(i).children[0].checked = valuesC[i] === "t"
+            else if(type === "C")
+            {    itemList.itemAt(i).children[1].text = values2[i];
+                 checkContact(i);
+            }
         }
     }
 
     function updateValues() {
         for (var i = 0; i < count; i++) {
-            values[i] = itemList.itemAt(i).text
-        if (hasTicks)
-                valuesC[i] = (itemListC.itemAt(i).checked) ? "t" : "f"
+            values[i] = itemList.itemAt(i).children[0].text
+       if(type === "LC")
+                valuesC[i] = (itemListC.itemAt(i).children[0].checked) ? "t" : "f"
+        else if(type === "C")
+        values2[i] = itemList.itemAt(i).children[1].text
         }
+
     }
 
     function save() {
-        dataProvider.saveArrayInput(arrayName, values)
-        if (hasTicks)
-            dataProvider.saveArrayInput(tickArrayName, valuesC)
+        dataProvider.saveArrayInput(arrayNames[0], values)
+        if(type === "LC")
+            dataProvider.saveArrayInput(arrayNames[1], valuesC)
+        if(type === "C")
+            dataProvider.saveArrayInput(arrayNames[1], values2)
     }
 
     function remove(index) {
         updateValues()
         values.splice(index, 1)
-        if (hasTicks)
+        if(type === "LC")
             valuesC.splice(index, 1)
         save()
         fill()
     }
+
+    function call(index){
+         Qt.openUrlExternally("tel:"+itemList.itemAt(index).children[1].text)
+    }
+
+    function sms(index){
+         var inputText = itemList.itemAt(index).children[1].text;
+         if(inputText.includes('@'))
+            Qt.openUrlExternally("mailto:"+inputText);
+         else
+            Qt.openUrlExternally("sms:"+inputText);
+    }
+
+    function checkContact(index){
+         var inputText = itemList.itemAt(index).children[1].text;
+         if(inputText.includes('@'))
+            itemListC.itemAt(index).children[1].visible = false
+         else
+             itemListC.itemAt(index).children[1].visible = true
+    }
+
 
     Connections {
         target: itemList
@@ -65,9 +101,11 @@ ArrayUpdaterForm {
         }
         onVisibleChanged: {
             updateValues()
-            dataProvider.saveArrayInput(arrayName, values)
-        if (hasTicks)
-                dataProvider.saveArrayInput(tickArrayName, valuesC)
+            dataProvider.saveArrayInput(arrayNames[0], values)
+        if(type === "LC")
+                dataProvider.saveArrayInput(arrayNames[1], valuesC)
+        else if(type === "C")
+                        dataProvider.saveArrayInput(arrayNames[1], values2)
         }
     }
 
@@ -76,6 +114,7 @@ ArrayUpdaterForm {
         onClicked: {
             updateValues()
             values[count] = ""
+            values2[count] = ""
             valuesC[count] = "f"
             save()
             fill()

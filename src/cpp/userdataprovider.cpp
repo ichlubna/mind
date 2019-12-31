@@ -5,7 +5,7 @@
 #include "userdataprovider.h"
 
 //TODO use in reset function too
-const std::vector<UserDataProvider::CustomInput> UserDataProvider::customInputs{{"my-reasons", "myReasons", UserDataProvider::CustomInput::STRING},
+const std::vector<UserDataProvider::CustomInput> UserDataProvider::customInputs{{"reasons-example", "reasons", UserDataProvider::CustomInput::ARRAY},
                                                                         {"custom-write", "customWrite", UserDataProvider::CustomInput::STRING},
                                                                         {"custom-write-body", "customWriteBody", UserDataProvider::CustomInput::STRING},
                                                                         {"custom-ppl", "customPpl", UserDataProvider::CustomInput::STRING},
@@ -13,6 +13,8 @@ const std::vector<UserDataProvider::CustomInput> UserDataProvider::customInputs{
                                                                         {"custom-go", "customGo", UserDataProvider::CustomInput::STRING},
                                                                         {"plan-example", "plan", UserDataProvider::CustomInput::ARRAY},
                                                                         {"nice-example", "nice", UserDataProvider::CustomInput::ARRAY},
+                                                                        {"myContactsNames-example", "myContactsNames", UserDataProvider::CustomInput::ARRAY},
+                                                                        {"myContactsNumbers-example", "myContactsNumbers", UserDataProvider::CustomInput::ARRAY},
                                                                         {"praise-example", "praise", UserDataProvider::CustomInput::ARRAY},
                                                                         {"food-creative-text", "foodCreative", UserDataProvider::CustomInput::ARRAY},
                                                                         {"food-challenge-text", "foodChallenge", UserDataProvider::CustomInput::ARRAY}
@@ -75,7 +77,7 @@ void UserDataProvider::translateDefault(CustomInput input)
                 return;
 
             settings.beginWriteArray(input.settingsId);
-            for (int i = 0; /*i < originalValues.size() && */i<values.size(); ++i) {
+            for (int i = 0; i < originalValues.size() && i<values.size(); ++i) {
                 settings.setArrayIndex(i);
 
                 if(values[i].contains(TO_TRANSLATE))
@@ -92,7 +94,7 @@ void UserDataProvider::initCheck()
 {
     //reset to default values if first run
     if(settings.allKeys().isEmpty())
-       resetInputs(true, true, true, true, true, true, true, true, true);
+       resetInputs(true, true, true, true, true, true, true, true, true, true, true);
     //to avoid getting red color when updating to version with color change option
     if(!settings.contains("themeLight"))
     {
@@ -100,11 +102,19 @@ void UserDataProvider::initCheck()
         settings.setValue("themeHue",  0.76);
     }
 
+    //reasons to list
+    if(!settings.contains("myReasons"))
+    {
+        auto old = settings.value("myReasons").toString().split("\n");
+        saveArrayInput("reasons", old);
+        settings.remove("myReasons");
+    }
+
     //food update
     if(!settings.contains("foodExist"))
     {
         saveBoolInput("foodExist", true);
-        resetInputs(false,false,false,false,false,false,false,true,false);
+        resetInputs(false,false,false,false,false,false,false,true,false,true,true);
     }
 
     for(const auto &input : customInputs)
@@ -124,6 +134,28 @@ void UserDataProvider::saveArrayInput(QString id, QList<QString> values)
         settings.setValue("value",values.at(i));
     }
     settings.endArray();
+}
+
+void UserDataProvider::addToArray(QString id, QString value, int index)
+{
+    auto values = loadArrayInput(id);
+    if(index>values.size() || index<0)
+         values.append(value);
+    else
+        values[index]=value;
+    saveArrayInput(id,values);
+}
+
+QString UserDataProvider::getFromArray(QString id, int index)
+{
+    int size = settings.beginReadArray(id);
+    if(index>=size)
+        return "";
+    settings.setArrayIndex(index);
+    QString result = settings.value("value").toString();
+    settings.endArray();
+    return result;
+
 }
 
 void UserDataProvider::saveBoolInput(QString id, bool value)
@@ -190,16 +222,19 @@ QList<QString> UserDataProvider::loadArrayInput(QString id)
     int size = settings.beginReadArray(id);
     for (int i = 0; i < size; ++i) {
         settings.setArrayIndex(i);
-        values.append(settings.value("value").toString());        
+        values.append(settings.value("value").toString());
     }
     settings.endArray();
     return values;
 }
 
-void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks, bool praise)
+void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks, bool praise, bool myContacts, bool diary)
 {
     if(reasons)
-        settings.setValue("myReasons", qtTrId("my-reasons"));
+    {
+        auto list = parseList(qtTrId("reasons-example"));
+        saveArrayInput("reasons", list);
+    }
     if(plan)
     {
         settings.setValue("customWrite", qtTrId("custom-write"));
@@ -279,6 +314,20 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
 
         saveArrayInput("foodMotivation", list);
         saveArrayInput("foodMotivationC", checkList);
+    }
+    if(myContacts)
+    {
+        auto list = parseList(qtTrId("myContactsNames-example"));
+        saveArrayInput("myContactsNames", list);
+
+        list = parseList(qtTrId("myContactsNumbers-example"));
+        saveArrayInput("myContactsNumbers", list);
+    }
+
+    if(diary)
+    {
+        QList<QString> list;
+        saveArrayInput("diaryRecords", list);
     }
 }
 

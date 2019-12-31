@@ -229,7 +229,7 @@ ApplicationWindow {
                 columns: 3
                 width: drawer.width
                 Repeater{
-                    model: ["CZ", "SK", "PL", "FR", "EN", "IT"]
+                    model: ["CZ", "SK", "PL", "FR", "EN", "IT", "ES"]
                     RoundButton {
                         background: Image {
                             source: "qrc:/images/"+modelData+".svg"

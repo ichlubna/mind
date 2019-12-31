@@ -3,6 +3,6 @@ import "../.."
 
 ArrayUpdater {
     title:  qsTrId("food-tasks-food-like")
-    arrayName: "foodFoodLike"
+    arrayNames: ["foodFoodLike"]
     headerText: qsTrId("food-food-like-header")
 }

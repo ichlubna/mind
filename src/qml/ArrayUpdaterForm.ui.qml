@@ -9,6 +9,11 @@ MenuPage {
     property alias itemListR: itemListR
     property alias viewContainer: viewContainer
     property var headerText: ""
+    property var col1WRatio: 0.05
+    property var col3WRatio: 0.05
+    property var colHRatioM: 1
+    property var colHRatio: 0.09 * colHRatioM
+    property var twoInputs: false
 
     Description {
         id: planHeader
@@ -30,22 +35,75 @@ MenuPage {
             Repeater {
                 id: itemListC
                 model: 0
-                MenuCheckBox {
+                Item {
                     Layout.row: index
                     Layout.column: 0
                     Layout.fillWidth: true
                     Layout.leftMargin: 10
+                    Layout.preferredWidth: parent.width * col1WRatio
+                    Layout.preferredHeight: parent.width * colHRatio
+                    MenuCheckBox {
+                        width: parent.width
+                        height: parent.height
+                        visible: !twoInputs
+                    }
+                    Image {
+                        source: "qrc:/images/phone.svg"
+                        width: parent.width
+                        fillMode: Image.PreserveAspectFit
+                        visible: twoInputs
+                        anchors.bottom: parent.verticalCenter
+                        anchors.bottomMargin: parent.height * 0.05
+                        MouseArea {
+                            anchors.fill: parent
+                            Connections {
+                                onClicked: {
+                                    call(index)
+                                }
+                            }
+                        }
+                    }
+                    Image {
+                        source: "qrc:/images/sms.svg"
+                        width: parent.width
+                        fillMode: Image.PreserveAspectFit
+                        visible: twoInputs
+                        anchors.top: parent.verticalCenter
+                        anchors.topMargin: parent.height * 0.05
+                        MouseArea {
+                            anchors.fill: parent
+                            Connections {
+                                onClicked: {
+                                    sms(index)
+                                }
+                            }
+                        }
+                    }
                 }
             }
 
             Repeater {
                 id: itemList
                 model: 0
-                MenuTextArea {
+                Item {
                     Layout.preferredWidth: parent.width
+                    Layout.preferredHeight: parent.width * colHRatio
                     Layout.row: index
                     Layout.column: 1
                     Layout.fillWidth: true
+                    MenuTextArea {
+                        width: parent.width
+                        anchors.top: parent.top
+                        height: (twoInputs) ? parent.height * 0.5 : parent.height
+                    }
+                    MenuTextArea {
+                        width: parent.width
+                        anchors.bottom: parent.bottom
+                        height: parent.height * 0.5
+                        visible: twoInputs
+                        Connections {
+                        onTextChanged: checkContact(index)}
+                    }
                 }
             }
 
@@ -54,8 +112,8 @@ MenuPage {
                 model: 0
                 Image {
                     source: "qrc:/images/delete.svg"
-                    Layout.preferredWidth: parent.width * 0.05
-                    Layout.preferredHeight: parent.width * 0.05
+                    Layout.preferredWidth: parent.width * col3WRatio
+                    Layout.preferredHeight: parent.width * col3WRatio
                     Layout.row: index
                     Layout.column: 2
                     Layout.rightMargin: 10
@@ -86,8 +144,3 @@ MenuPage {
 
 
 
-
-/*##^## Designer {
-    D{i:0;autoSize:true;height:480;width:640}
-}
- ##^##*/

@@ -3,7 +3,7 @@ import "../.."
 
 ArrayUpdater {
     title:  qsTrId("food-tasks-afraid")
-    arrayName: "foodAfraid"
-    tickArrayName: "foodAfraidC"
+    arrayNames: ["foodAfraid", "foodAfraidC"]
+    type: "LC"
     headerText: qsTrId("food-afraid-header")
 }

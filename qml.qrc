@@ -12,6 +12,8 @@
         <file>translation/FR.qm</file>
         <file>translation/IT.ts</file>
         <file>translation/IT.qm</file>
+        <file>translation/ES.ts</file>
+        <file>translation/ES.qm</file>
         <file>images/background.svg</file>
         <file>images/logo.svg</file>
         <file>images/back.svg</file>
@@ -26,6 +28,8 @@
         <file>images/PL.svg</file>
         <file>images/FR.svg</file>
         <file>images/IT.svg</file>
+        <file>images/ES.svg</file>
+        <file>images/DE.svg</file>
         <file>images/emoticon1.svg</file>
         <file>images/emoticon2.svg</file>
         <file>images/emoticon3.svg</file>
@@ -39,6 +43,8 @@
         <file>images/delete.svg</file>
         <file>images/dusi.svg</file>
         <file>images/mlceni.svg</file>
+        <file>images/phone.svg</file>
+        <file>images/sms.svg</file>
         <file>src/qml/AddButton.qml</file>
         <file>src/qml/ArrayUpdater.qml</file>
         <file>src/qml/ArrayUpdaterForm.ui.qml</file>
@@ -106,8 +112,8 @@
         <file>src/qml/Drawer/CustomThemeForm.ui.qml</file>
         <file>src/qml/ThemeInfo.qml</file>
         <file>src/qml/qmldir</file>
-        <file>src/qml/Mood.qml</file>
-        <file>src/qml/MoodForm.ui.qml</file>
+        <file>src/qml/MyRecords/Mood.qml</file>
+        <file>src/qml/MyRecords/MoodForm.ui.qml</file>
         <file>src/qml/MenuComboBox.qml</file>
         <file>src/qml/Games/Balls.qml</file>
         <file>src/qml/Games/BallsForm.ui.qml</file>
@@ -192,5 +198,13 @@
         <file>src/qml/Contacts/UniversitiesForm.ui.qml</file>
         <file>src/qml/Contacts/MyContacts.qml</file>
         <file>src/qml/Contacts/MyContactsForm.ui.qml</file>
+        <file>src/qml/MyRecords/MyRecords.qml</file>
+        <file>src/qml/MyRecords/MyRecordsForm.ui.qml</file>
+        <file>src/qml/MyRecords/Diary.qml</file>
+        <file>src/qml/MyRecords/DiaryForm.ui.qml</file>
+        <file>src/qml/MyRecords/DiaryRecord.qml</file>
+        <file>src/qml/MyRecords/DiaryRecordForm.ui.qml</file>
+        <file>src/qml/DatePicker.qml</file>
+        <file>src/qml/DateTumbler.qml</file>
     </qresource>
 </RCC>

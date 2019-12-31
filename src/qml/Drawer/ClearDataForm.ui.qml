@@ -4,6 +4,8 @@ import ".."
 MenuPage {
     id: clearDataPage
     property alias clearButton: clearButton
+    property alias allButton: allButton
+    property alias clearList: clearList
     property alias reasonsClear: reasonsClear
     property alias niceClear: niceClear
     property alias planClear: planClear
@@ -13,6 +15,8 @@ MenuPage {
     property alias languageClear: languageClear
     property alias foodTasksClear: foodTasksClear
     property alias depressionPraiseClear: depressionPraiseClear
+    property alias diaryClear: diaryClear
+    property alias myContactsClear: myContactsClear
     title: qsTrId("clear-data")
 
     Grid {
@@ -111,13 +115,42 @@ MenuPage {
                 id: foodTasksClear
                 checked: false;
         }
+
+        DescriptionLabel {
+            id: myContactsText
+            text:  qsTrId("my-contacts")
+            width: parent.width*0.75
+        }
+        MenuCheckBox {
+                id: myContactsClear
+                checked: false;
+        }
+
+        DescriptionLabel {
+            id: diaryText
+            text:  qsTrId("diary")
+            width: parent.width*0.75
+        }
+        MenuCheckBox {
+                id: diaryClear
+                checked: false;
+        }
     }
     MenuButton {
         id: clearButton
         text: qsTrId("clear-button")
         anchors.top: clearList.bottom
         anchors.margins: 10
-        anchors.horizontalCenter: parent.horizontalCenter
-        width: parent.width*0.8
+        anchors.right: parent.horizontalCenter
+        width: parent.width*0.4
+    }
+
+    MenuButton {
+        id: allButton
+        text: qsTrId("clear-all-button")
+        anchors.top: clearList.bottom
+        anchors.margins: 10
+        anchors.left: parent.horizontalCenter
+        width: parent.width*0.4
     }
 }

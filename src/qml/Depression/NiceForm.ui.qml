@@ -3,6 +3,6 @@ import ".."
 
 ArrayUpdater {
     title: qsTrId("depression-nice")
-    arrayName: "nice"
+    arrayNames: ["nice"]
     headerText: qsTrId("depression-nice-header")
 }

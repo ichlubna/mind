@@ -10,7 +10,7 @@ MenuPage {
     property alias panicButton: panicButton
     property alias selfHarmButton: selfHarmButton
     property alias suicideButton: suicideButton
-    property alias moodButton: moodButton
+    property alias myRecordsButton: myRecordsButton
     property alias foodButton: foodButton
     property alias logo: logo
     title: qsTrId("home")
@@ -79,8 +79,8 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
-            id: moodButton
-            text: qsTrId("depression-mood")
+            id: myRecordsButton
+            text: qsTrId("my-records")
         }
 
         MenuButton {

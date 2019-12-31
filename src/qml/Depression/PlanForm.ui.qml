@@ -3,7 +3,7 @@ import ".."
 
 ArrayUpdater {
     title: qsTrId("depression-plan")
-    arrayName: "plan"
-    tickArrayName: "planC"
+    arrayNames: ["plan", "planC"]
+    type: "LC"
     headerText: qsTrId("depression-plan-header")
 }

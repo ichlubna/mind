@@ -3,6 +3,6 @@ import "../.."
 
 ArrayUpdater {
     title:  qsTrId("food-tasks-challenge")
-    arrayName: "foodChallenge"
-    tickArrayName: "fodChallengeC"
+    arrayNames: ["foodChallenge", "fodChallengeC"]
+    type: "LC"
 }

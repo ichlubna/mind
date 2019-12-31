@@ -6,6 +6,7 @@ ContactsForm {
     centerButton.onClicked: stackView.push("Center.qml")
     chatButton.onClicked: stackView.push("Chat.qml")
     universitiesButton.onClicked: stackView.push("Universities.qml")
+    myContactsButton.onClicked: stackView.push("MyContacts.qml")
 
     UserDataProvider {
         id: dataProvider

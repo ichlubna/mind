@@ -6,7 +6,6 @@ MenuPage {
     property alias tipsButton: tipsButton
     property alias tasksButton: tasksButton
     property alias dishesButton: dishesButton
-    property alias storiesButton: storiesButton
     property alias contactButton: contactButton
     property alias distractionButton: distractionButton
     property alias comming: comming
