@@ -45,16 +45,32 @@ ApplicationWindow {
         background: Rectangle {
             color: "#9a9a9a"
             id: barBckg
+            visible: false
         }
+
         height: 40
         font.pointSize: 14
         Colorize {
+            id: headerColor
             anchors.fill: parent
             source: barBckg
             hue: ThemeInfo.hueValue
             saturation: 0.6
             lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
         }
+
+        DropShadow {
+              anchors.fill: headerColor
+              horizontalOffset: 8
+              verticalOffset: 8
+              radius: 15
+              transparentBorder: true
+              samples: 12
+              source: headerColor
+              color: "black"
+              opacity: 0.35
+              z: -1
+            }
 
         ToolButton {
             id: backButton
@@ -102,9 +118,11 @@ ApplicationWindow {
         width: window.width * 0.66
         height: window.height
         font.pointSize: 14
+        z: 10
         background: Rectangle {
             id: bckg
             color: "#9a9a9a"
+            visible: false
         }
         Colorize {
             anchors.fill: parent
@@ -112,6 +130,7 @@ ApplicationWindow {
             hue: ThemeInfo.hueValue
             saturation: 0.6
             lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
+            opacity: 0.8
         }
 
         Column {

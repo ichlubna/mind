@@ -14,7 +14,7 @@ DiaryForm {
         records.model = count;
         for (var i = 0; i < count; i++) {
             var recordValues = values[i].split("|");
-            records.itemAt(i).children[0].text = recordValues[0]+" - "+recordValues[1].trim().slice(0,10)+"...";
+            records.itemAt(i).children[0].text = recordValues[0]+" - "+recordValues[1].trim().slice(0,13)+"...";
         }
     }
 
@@ -30,7 +30,7 @@ DiaryForm {
     Connections {
         target: addButton
         onClicked: {
-            stackView.push("DiaryRecord.qml")
+            stackView.push("DiaryDate.qml")
             if (viewContainer.contentHeight > viewContainer.height)
                 viewContainer.contentItem.contentY = viewContainer.contentHeight
                         - viewContainer.height

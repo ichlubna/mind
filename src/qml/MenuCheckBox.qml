@@ -5,19 +5,19 @@ import QtQuick.Controls.Styles 1.4
 CheckBox {
         style: CheckBoxStyle {
                indicator: Rectangle {
-                       implicitWidth: 25
-                       implicitHeight: 25
+                       implicitWidth: 30
+                       implicitHeight: 30
                        radius: 3
-                       border.color: control.activeFocus ? "darkblue" : "gray"
-                       border.width: 1
-                       Rectangle {
-                           visible: control.checked
-                           color: "#555"
-                           border.color: "#333"
-                           radius: 10
-                           anchors.margins: 4
+                       color: control.checked ? "#45000000" : "#15000000"
+                       border.width: 2
+                       border.color: "white"
+                       Image {
                            anchors.fill: parent
-                       }
+                           visible: control.checked
+                              source: "qrc:/images/tick.svg"
+                              fillMode: Image.PreserveAspectFit
+                                  }
+
                }
         }
 }

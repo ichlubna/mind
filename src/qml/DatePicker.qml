@@ -4,6 +4,9 @@ import QtQuick.Controls 2.12
 Row {
     property var firstYear: 2000
     property var futureYears: 5
+    property alias dayTumbler: dayTumbler
+    property alias monthTumbler: monthTumbler
+    property alias yearTumbler: yearTumbler
 
     DateTumbler {
         id: dayTumbler

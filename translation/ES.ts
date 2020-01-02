@@ -9,13 +9,13 @@
         <translation>Home</translation>
     </message>
     <message id="food">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="109"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="111"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="13"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="8"/>
         <source></source>
-        <translation>Trastornos de la alimentación	</translation>
+        <translation>Trastornos de la&lt;br&gt;alimentación	</translation>
     </message>
     <message id="food-breakfast">
         <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="6"/>
@@ -155,44 +155,43 @@
         <translation>Lo que puede ayudarme</translation>
     </message>
     <message id="depression-mood">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="89"/>
-        <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="91"/>
         <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="27"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="20"/>
         <source></source>
         <translation>Observación del estado de ánimo</translation>
     </message>
     <message id="clear-data">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="18"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="20"/>
         <source></source>
         <translation>Borrar datos guardados</translation>
     </message>
     <message id="depression-plan">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="20"/>
         <location filename="../src/qml/Depression/PlanForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="59"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="61"/>
         <source></source>
         <translation>Planificación de actividades</translation>
     </message>
     <message id="language">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="99"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="101"/>
         <source></source>
         <translation>Idioma</translation>
     </message>
     <message id="clear-button">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="129"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="141"/>
         <source></source>
         <translation>Eliminar</translation>
     </message>
     <message id="clear-all-button">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="138"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="150"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="depression-nice">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="25"/>
         <location filename="../src/qml/Depression/NiceForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="39"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="41"/>
         <source></source>
         <translation>Lo que me alegró</translation>
     </message>
@@ -222,19 +221,19 @@ Abrace a alguien cercano o acurrúquese con su mascota
         <location filename="../src/qml/HomeForm.ui.qml" line="51"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="13"/>
         <source></source>
-        <translation>Ansiedad pánico</translation>
+        <translation>Ansiedad&lt;br&gt;pánico</translation>
     </message>
     <message id="self-harm">
         <location filename="../src/qml/HomeForm.ui.qml" line="59"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="12"/>
         <source></source>
-        <translation>Quiero autolesionarme</translation>
+        <translation>Quiero&lt;br&gt;autolesionarme</translation>
     </message>
     <message id="suicidal-thoughts">
         <location filename="../src/qml/HomeForm.ui.qml" line="67"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="13"/>
         <source></source>
-        <translation>Pensamientos suicidas</translation>
+        <translation>Pensamientos&lt;br&gt;suicidas</translation>
     </message>
     <message id="my-records">
         <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
@@ -319,33 +318,33 @@ Abrace a alguien cercano o acurrúquese con su mascota
         <translation>No haga pánico</translation>
     </message>
     <message id="resetInputs">
-        <location filename="../src/qml/main.qml" line="121"/>
+        <location filename="../src/qml/main.qml" line="140"/>
         <source></source>
         <translation>Borrar datos guardados</translation>
     </message>
     <message id="contactUs">
-        <location filename="../src/qml/main.qml" line="130"/>
+        <location filename="../src/qml/main.qml" line="149"/>
         <source></source>
         <translation>Contáctenos</translation>
     </message>
     <message id="rate">
-        <location filename="../src/qml/main.qml" line="139"/>
+        <location filename="../src/qml/main.qml" line="158"/>
         <source></source>
         <translation>Evalúenos</translation>
     </message>
     <message id="web-link">
-        <location filename="../src/qml/main.qml" line="218"/>
+        <location filename="../src/qml/main.qml" line="237"/>
         <source></source>
         <translation>http://nepanikar.eu</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/main.qml" line="180"/>
+        <location filename="../src/qml/main.qml" line="199"/>
         <source></source>
         <translation>Terminar</translation>
     </message>
     <message id="support">
         <location filename="../src/qml/Drawer/SupportForm.ui.qml" line="7"/>
-        <location filename="../src/qml/main.qml" line="153"/>
+        <location filename="../src/qml/main.qml" line="172"/>
         <source></source>
         <translation>Nos apoyaron</translation>
     </message>
@@ -455,7 +454,7 @@ Abrace a alguien cercano o acurrúquese con su mascota
     <message id="my-contacts">
         <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="36"/>
         <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="119"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="121"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -466,7 +465,7 @@ Abrace a alguien cercano o acurrúquese con su mascota
         <translation>Lo que puede ayudarme</translation>
     </message>
     <message id="plan">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="49"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="51"/>
         <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="12"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="18"/>
         <source></source>
@@ -498,7 +497,7 @@ Abrace a alguien cercano o acurrúquese con su mascota
         <translation>A quién podría dañar:</translation>
     </message>
     <message id="reasons">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="29"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="31"/>
         <location filename="../src/qml/Suicide/ReasonsForm.ui.qml" line="6"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="38"/>
         <source></source>
@@ -522,58 +521,58 @@ Abrace a alguien cercano o acurrúquese con su mascota
         <translation type="vanished">Mis razones…</translation>
     </message>
     <message id="reasons-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="237"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="282"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="242"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
         <source></source>
         <translation>A quién escribiré…</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="243"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="288"/>
         <source></source>
         <translation>Hola! Estoy pasando momentos difíciles, ¿ podemos hablar ?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="244"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="289"/>
         <source></source>
         <translation>Personas que se preocupan por mi...</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="245"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="290"/>
         <source></source>
         <translation>Qué voy a hacer…</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="246"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="291"/>
         <source></source>
         <translation>A dónde voy a ir…</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="250"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="295"/>
         <source></source>
         <translation>Ir de compras</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="299"/>
         <source></source>
         <translation>Hacía buen tiempo...</translation>
     </message>
     <message id="praise-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="256"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="301"/>
         <source></source>
         <translation>Fui a la escuela</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="272"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="317"/>
         <source></source>
         <translation>
         </translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="280"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="325"/>
         <source></source>
         <translation>
 Quiero y puedo ser bueno conmigo mismo/a.|
@@ -605,7 +604,7 @@ A cada dedo de mi mano le puedo aňadir un/a amigo/a que me apoye.|
         </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="288"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="333"/>
         <source></source>
         <translation>
 Dibuje cómo se imagina la anorexia, después rasgue el dibujo. |
@@ -624,27 +623,27 @@ Haga una nueva decoración en su habitación.|
         </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="296"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="341"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="304"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="349"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="312"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="357"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="myContactsNames-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="322"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="367"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
     <message id="myContactsNumbers-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="325"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="370"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>
@@ -733,7 +732,7 @@ Salga al aire fresco (dé una vuelta de media hora, corra a un ritmo rápido)|
     </message>
     <message id="mlceni-link">
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="207"/>
+        <location filename="../src/qml/main.qml" line="226"/>
         <source></source>
         <translation>https://www.instagram.com/mlceninenireseni/</translation>
     </message>
@@ -744,7 +743,7 @@ Salga al aire fresco (dé una vuelta de media hora, corra a un ritmo rápido)|
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/Drawer/AboutAppForm.ui.qml" line="7"/>
-        <location filename="../src/qml/main.qml" line="171"/>
+        <location filename="../src/qml/main.qml" line="190"/>
         <source></source>
         <translation>Sobre la aplicación</translation>
     </message>
@@ -754,9 +753,9 @@ Salga al aire fresco (dé una vuelta de media hora, corra a un ritmo rápido)|
         <translation>Esta aplicación sirve como una herramienta de primeros auxilios para problemas psicológicos como la depresión o el pánico. El objetivo de la aplicación no es reemplazar la atención médica sino ayudar a aliviar los síntomas. En caso de empeoramiento del estado de salud busque ayuda profesional. Si la aplicación no le ayuda o si no está seguro de su importancia para su estado de salud consulte el uso de esta aplicación con su médico.</translation>
     </message>
     <message id="custom-theme">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="79"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="81"/>
         <location filename="../src/qml/Drawer/CustomThemeForm.ui.qml" line="6"/>
-        <location filename="../src/qml/main.qml" line="162"/>
+        <location filename="../src/qml/main.qml" line="181"/>
         <source></source>
         <translation>Configuración de colores</translation>
     </message>
@@ -771,7 +770,7 @@ Salga al aire fresco (dé una vuelta de media hora, corra a un ritmo rápido)|
         <translation>Aquí puede configurar el brillo de la pantalla</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/main.qml" line="196"/>
+        <location filename="../src/qml/main.qml" line="215"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
@@ -1096,7 +1095,7 @@ No estoy solo/a para los problemas.|
     <message id="depression-praise">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="30"/>
         <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="69"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="71"/>
         <source></source>
         <translation>Lista</translation>
     </message>
@@ -1161,8 +1160,15 @@ No estoy solo/a para los problemas.|
         <translation type="unfinished"></translation>
     </message>
     <message id="diary">
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="131"/>
         <location filename="../src/qml/MyRecords/DiaryForm.ui.qml" line="12"/>
+        <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="10"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="diary-record-date">
+        <location filename="../src/qml/MyRecords/DiaryDateForm.ui.qml" line="7"/>
         <source></source>
         <translation type="unfinished"></translation>
     </message>

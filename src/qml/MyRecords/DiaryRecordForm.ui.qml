@@ -5,10 +5,9 @@ import ".."
 
 SwipePage{
     property alias view: view
-    property alias recordDate: recordDate
     property alias recordText: recordText
+    property alias removeArea: removeArea
         title: qsTrId("diary")
-
 
         ScrollView {
             id: view
@@ -24,12 +23,6 @@ SwipePage{
         Item{
             Layout.preferredWidth: parent.width
             Layout.preferredHeight: view.height*0.1
-        DatePicker {
-            id: recordDate
-            width: parent.width*0.8
-            height: parent.height
-            anchors.left: parent.left
-        }
 
         Image {
             source: "qrc:/images/delete.svg"
@@ -39,11 +32,7 @@ SwipePage{
             anchors.right: parent.right
             MouseArea {
                 anchors.fill: parent
-                Connections {
-                    onClicked: {
-                        remove()
-                    }
-                }
+                id: removeArea
             }
         }}
 

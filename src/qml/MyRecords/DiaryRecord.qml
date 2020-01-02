@@ -5,29 +5,21 @@ DiaryRecordForm {
     property var recordIndex: -1
     property var arrayName: "diaryRecords"
     property var save: true
-    StackView.onDeactivating:{dataProvider.addToArray(arrayName, recordDate.getDate()+"|"+recordText.text, recordIndex);}
-
+    property var date: ""
+    StackView.onDeactivating:{if(save) dataProvider.addToSortedArray(arrayName, date+"|"+recordText.text, recordIndex);}
 
     Connections{
         target: view
         Component.onCompleted:  {
             if(recordIndex > -1)
             {
-                var record = dataProvider.getFromArray(arrayName, recordIndex).split("|");
-                recordDate.setDate(record[0]);
+                var record = dataProvider.getFromArray(arrayName, recordIndex).split("|");                
                 recordText.text = record[1];
+                date = record[0];
             }}
         }
 
-    function remove()
-    {
-        if(recordIndex >-1)
-        {
-            var records = dataProvider.loadArrayInput(arrayName);
-            records.splice(recordIndex, 1);
-            dataProvider.saveArrayInput(arrayName, records);
-        }
+    removeArea.onClicked:{dataProvider.removeFromArray(arrayName, recordIndex);
         save=false;
-        stackView.pop();
-    }
+        stackView.pop();}
 }

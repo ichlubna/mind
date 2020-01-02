@@ -10,33 +10,31 @@ MenuPage {
     property var col1Ratio: 0.3
     property var col2Ratio: 0.7
     title: qsTrId("diary")
+    id: viewContainer
 
     ScrollView {
-        id: viewContainer
         anchors.fill: parent
-        contentWidth: -1
         clip: true
-        anchors.margins: 10
+        contentWidth: column.width
+        contentHeight: column.height
 
-        ColumnLayout {
-            anchors.fill: parent
-
+        Column {
+            id: column
             Repeater {
                 id: records
-                model: 0
                 Item {
-                    Layout.row: index
-                    Layout.fillWidth: true
-                    Layout.preferredHeight: parent.height*0.1
+                    width: viewContainer.width
+                    height: viewContainer.height*0.2
 
                     DescriptionLabel {
                         anchors.fill: parent
                         verticalAlignment: Text.AlignVCenter
+                        anchors.margins: 10
                     }
 
-                    Rectangle{color: "black"
+                    Rectangle{color: (index%2 == 0) ? "black" : "white"
                         anchors.fill: parent
-                        opacity: 0.1
+                        opacity: 0.2
                      }
                    MouseArea {
                         anchors.fill: parent
@@ -46,18 +44,17 @@ MenuPage {
                             }
                         }
                     }
-                }              
+                }
             }
             Item {
                 height: 50
                 width: 50
             }
-        }
+        }}
         AddButton {
             id: addButton
             anchors.bottom: parent.bottom
             anchors.right: parent.right
             anchors.margins: 5
         }
-    }
 }

@@ -37,6 +37,7 @@
         <file>images/emoticon5.svg</file>
         <file>images/background2.svg</file>
         <file>images/arrow.svg</file>
+        <file>images/tick.svg</file>
         <file>images/star.svg</file>
         <file>images/circle.svg</file>
         <file>images/vignette.svg</file>
@@ -206,5 +207,7 @@
         <file>src/qml/MyRecords/DiaryRecordForm.ui.qml</file>
         <file>src/qml/DatePicker.qml</file>
         <file>src/qml/DateTumbler.qml</file>
+        <file>src/qml/MyRecords/DiaryDate.qml</file>
+        <file>src/qml/MyRecords/DiaryDateForm.ui.qml</file>
     </qresource>
 </RCC>

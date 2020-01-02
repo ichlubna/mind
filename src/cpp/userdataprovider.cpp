@@ -2,6 +2,7 @@
 #include <QTranslator>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
+#include <QDate>
 #include "userdataprovider.h"
 
 //TODO use in reset function too
@@ -136,14 +137,54 @@ void UserDataProvider::saveArrayInput(QString id, QList<QString> values)
     settings.endArray();
 }
 
-void UserDataProvider::addToArray(QString id, QString value, int index)
+//expecting diary array sorted by date with new records at the end
+void UserDataProvider::addToSortedArray(QString id, QString value, int index)
 {
     auto values = loadArrayInput(id);
-    if(index>values.size() || index<0)
-         values.append(value);
+    if(values.empty())
+        values.append(value);
+    else if(index>=values.size() || index<0)
+    {
+        auto newDate = QDate::fromString(value.split("|")[0], "d.M.yyyy");
+        int i;
+        for(i=values.size()-1; i>=0; i--)
+        {
+            auto date = QDate::fromString(values[i].split("|")[0], "d.M.yyyy");
+            if(newDate>=date)
+                break;
+        }
+        values.insert(i+1, value);
+    }
     else
         values[index]=value;
     saveArrayInput(id,values);
+}
+
+void UserDataProvider::removeFromArray(QString id, int index)
+{
+    auto values = loadArrayInput(id);
+    values.removeAt(index);
+    saveArrayInput(id,values);
+}
+
+//TODO binary search?
+int UserDataProvider::getIndexByDate(QString id, QString date)
+{
+    auto values = loadArrayInput(id);
+    auto newDate = QDate::fromString(date, "d.M.yyyy");
+    int index = -1;
+    for(int i=values.size()-1; i>=0; i--)
+    {
+        auto searchDate = QDate::fromString(values[i].split("|")[0], "d.M.yyyy");
+        if(newDate == searchDate)
+        {
+            index = i;
+            break;
+        }
+        else if(newDate>searchDate)
+            break;
+    }
+    return index;
 }
 
 QString UserDataProvider::getFromArray(QString id, int index)
@@ -156,6 +197,12 @@ QString UserDataProvider::getFromArray(QString id, int index)
     settings.endArray();
     return result;
 
+}
+
+void UserDataProvider::sortDiary(QString id)
+{
+    auto values = loadArrayInput(id);
+    values.sort();
 }
 
 void UserDataProvider::saveBoolInput(QString id, bool value)

@@ -9,7 +9,7 @@
         <translation>Home</translation>
     </message>
     <message id="food">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="109"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="111"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="13"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
@@ -155,44 +155,43 @@
         <translation>Co mi může pomoci</translation>
     </message>
     <message id="depression-mood">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="89"/>
-        <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="91"/>
         <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="27"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="20"/>
         <source></source>
-        <translation>Sledování&lt;br&gt;nálady</translation>
+        <translation>Sledování nálady</translation>
     </message>
     <message id="clear-data">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="18"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="20"/>
         <source></source>
         <translation>Smazat data</translation>
     </message>
     <message id="depression-plan">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="20"/>
         <location filename="../src/qml/Depression/PlanForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="59"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="61"/>
         <source></source>
         <translation>Plánování aktivit</translation>
     </message>
     <message id="language">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="99"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="101"/>
         <source></source>
         <translation>Jazyk</translation>
     </message>
     <message id="clear-button">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="129"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="141"/>
         <source></source>
         <translation>Smazat</translation>
     </message>
     <message id="clear-all-button">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="138"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="150"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Označit vše</translation>
     </message>
     <message id="depression-nice">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="25"/>
         <location filename="../src/qml/Depression/NiceForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="39"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="41"/>
         <source></source>
         <translation>Co mě potěšilo</translation>
     </message>
@@ -238,7 +237,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     <message id="my-records">
         <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Mé záznamy</translation>
     </message>
     <message id="panicTips">
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="43"/>
@@ -318,33 +317,33 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Nepanikař</translation>
     </message>
     <message id="resetInputs">
-        <location filename="../src/qml/main.qml" line="121"/>
+        <location filename="../src/qml/main.qml" line="140"/>
         <source></source>
         <translation>Vymazat uložená data</translation>
     </message>
     <message id="contactUs">
-        <location filename="../src/qml/main.qml" line="130"/>
+        <location filename="../src/qml/main.qml" line="149"/>
         <source></source>
         <translation>Kontaktujte nás</translation>
     </message>
     <message id="rate">
-        <location filename="../src/qml/main.qml" line="139"/>
+        <location filename="../src/qml/main.qml" line="158"/>
         <source></source>
         <translation>Ohodnoťte nás</translation>
     </message>
     <message id="web-link">
-        <location filename="../src/qml/main.qml" line="218"/>
+        <location filename="../src/qml/main.qml" line="237"/>
         <source></source>
         <translation>http://nepanikar.eu</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/main.qml" line="180"/>
+        <location filename="../src/qml/main.qml" line="199"/>
         <source></source>
         <translation>Ukončit</translation>
     </message>
     <message id="support">
         <location filename="../src/qml/Drawer/SupportForm.ui.qml" line="7"/>
-        <location filename="../src/qml/main.qml" line="153"/>
+        <location filename="../src/qml/main.qml" line="172"/>
         <source></source>
         <translation>Podpořili nás</translation>
     </message>
@@ -432,6 +431,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;Internetová poradna pre mladých (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.modralinka.cz/?page=chat&quot;&gt;Modrá linka&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://chat.linkabezpeci.cz/LBCS-war/PUBLIC/clientlogin.jsp&quot;&gt;Linka bezpečí&lt;/a&gt; &lt;br&gt;&lt;br&gt;
+        &lt;a href=&quot;http://linkapsychickepomoci.cz/chat/&quot;&gt;Linka psychické pomoci&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         </translation>
     </message>
     <message id="contacts">
@@ -454,7 +454,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     <message id="my-contacts">
         <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="36"/>
         <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="119"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="121"/>
         <source></source>
         <translation>Moje kontakty</translation>
     </message>
@@ -465,7 +465,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Co mi může pomoci</translation>
     </message>
     <message id="plan">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="49"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="51"/>
         <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="12"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="18"/>
         <source></source>
@@ -497,7 +497,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Komu by to ublížilo:</translation>
     </message>
     <message id="reasons">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="29"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="31"/>
         <location filename="../src/qml/Suicide/ReasonsForm.ui.qml" line="6"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="38"/>
         <source></source>
@@ -509,7 +509,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Pokud budu žít, můžu ještě:</translation>
     </message>
     <message id="reasons-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="237"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="282"/>
         <source></source>
         <translation>
 Pomazlit se s domácím mazlíčkem (pejskem, kocourkem, morčetem)|
@@ -521,53 +521,53 @@ Pomáhat jiným
         </translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="242"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
         <source></source>
         <translation>Komu napíšu...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="243"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="288"/>
         <source></source>
         <translation>Ahoj, právě prožívám náročné období, můžeme si promluvit?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="244"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="289"/>
         <source></source>
         <translation>Lidé, kterým na mě záleží</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="245"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="290"/>
         <source></source>
         <translation>Co udělám...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="246"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="291"/>
         <source></source>
         <translation>Kam půjdu...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="250"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="295"/>
         <source></source>
         <translation>Nakoupím v obchodě</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="254"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="299"/>
         <source></source>
         <translation>Bylo krásné počasí...</translation>
     </message>
     <message id="praise-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="256"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="301"/>
         <source></source>
-        <translation>Zvládl/a jsem si dobře zacvičit</translation>
+        <translation>Zvládl/a jsem si zacvičit</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="272"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="317"/>
         <source></source>
         <translation>
         </translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="280"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="325"/>
         <source></source>
         <translation>
 Umím být a chci být na sebe hodná/ý|
@@ -599,7 +599,7 @@ Ke každému prstu své ruky mohu přiřadit přítele/přítelkyni, který/á m
         </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="288"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="333"/>
         <source></source>
         <translation>
 Namaluj, jak si představuješ anorexii a ten obrázek roztrhej|
@@ -618,29 +618,29 @@ Udělej si nějakou novou dekoraci do pokoje
         </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="296"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="341"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="304"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="349"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="312"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="357"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="myContactsNames-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="322"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="367"/>
         <source></source>
         <translation>Jméno</translation>
     </message>
     <message id="myContactsNumbers-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="325"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="370"/>
         <source></source>
-        <translation>Číslo</translation>
+        <translation>Číslo nebo email</translation>
     </message>
     <message id="phone-text">
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
@@ -649,8 +649,8 @@ Udělej si nějakou novou dekoraci do pokoje
         &lt;b&gt;Linka bezpečí&lt;/b&gt; &lt;br&gt;
         Provoz: nonstop  &lt;br&gt;
         &lt;a href=&quot;tel:116111&quot;&gt;116 111&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
-        &lt;b&gt;Spondea&lt;/b&gt;  &lt;br&gt;
-        &lt;a href=&quot;tel:541235511&quot;&gt;541 235 511&lt;/a&gt; &lt;br&gt; (po-pá 8:00 – 18:00), &lt;a href=&quot;tel:608118088&quot;&gt;608 118 008&lt;/a&gt; &lt;br&gt;  (so-ne 8:00 – 20:00)  &lt;br&gt; &lt;br&gt;
+        &lt;b&gt;Linka psychické pomoci&lt;/b&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:116123&quot;&gt;116 123&lt;/a&gt; &lt;br&gt; &lt;br&gt;
         &lt;b&gt;KC Brno FN Bohunice&lt;/b&gt;  &lt;br&gt;
         &lt;a href=&quot;tel:532232078&quot;&gt;532 232 078&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;PN Bohnice&lt;/b&gt; &lt;br&gt;
@@ -727,7 +727,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
     </message>
     <message id="mlceni-link">
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="207"/>
+        <location filename="../src/qml/main.qml" line="226"/>
         <source></source>
         <translation>https://www.instagram.com/mlceninenireseni/</translation>
     </message>
@@ -738,7 +738,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/Drawer/AboutAppForm.ui.qml" line="7"/>
-        <location filename="../src/qml/main.qml" line="171"/>
+        <location filename="../src/qml/main.qml" line="190"/>
         <source></source>
         <translation>O aplikaci</translation>
     </message>
@@ -748,9 +748,9 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
         <translation>Tato aplikace slouží jako pomocný nástroj první pomoci&lt;br&gt; při psychických problémech typu deprese či panika.&lt;br&gt; Cílem aplikace není nahradit lékařskou péči,&lt;br&gt; pouze pomoci zmírnit příznaky.&lt;br&gt; V případě zhoršení stavu je nutné vyhledat odbornou pomoc.&lt;br&gt; Pokud Vám aplikace nepomáhá či si nejste jistí jejím významem pro Váš stav,&lt;br&gt; konzultujte její používání s Vašim lékařem.</translation>
     </message>
     <message id="custom-theme">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="79"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="81"/>
         <location filename="../src/qml/Drawer/CustomThemeForm.ui.qml" line="6"/>
-        <location filename="../src/qml/main.qml" line="162"/>
+        <location filename="../src/qml/main.qml" line="181"/>
         <source></source>
         <translation>Nastavení barev</translation>
     </message>
@@ -765,7 +765,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
         <translation>Zde upravte jas</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/main.qml" line="196"/>
+        <location filename="../src/qml/main.qml" line="215"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
@@ -1090,7 +1090,7 @@ Nejsem na to sám/sama|
     <message id="depression-praise">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="30"/>
         <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="69"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="71"/>
         <source></source>
         <translation>Za co se pochválím</translation>
     </message>
@@ -1152,13 +1152,20 @@ Nejsem na to sám/sama|
     <message id="my-contacts-header">
         <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="8"/>
         <source></source>
-        <translation>Zde si můžete poznačit vlastní telefonní kontakty a napsat jim sms či zavolat.</translation>
+        <translation>Zde si mohu poznačit vlastní kontakty a napsat jim email, sms či zavolat.</translation>
     </message>
     <message id="diary">
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="131"/>
         <location filename="../src/qml/MyRecords/DiaryForm.ui.qml" line="12"/>
+        <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="10"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Deník</translation>
+    </message>
+    <message id="diary-record-date">
+        <location filename="../src/qml/MyRecords/DiaryDateForm.ui.qml" line="7"/>
+        <source></source>
+        <translation>Datum záznamu</translation>
     </message>
 </context>
 </TS>
