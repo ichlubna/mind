@@ -72,21 +72,14 @@ void UserDataProvider::translateDefault(CustomInput input)
          break;
 
         case CustomInput::ARRAY:
-            QList<QString>  values = loadArrayInput(input.settingsId);
+            QList<QString> values = loadArrayInput(input.settingsId);
             auto originalValues = parseList(qtTrId(std::string(input.trId.toStdString()).c_str()));
             if(values.empty() || originalValues.empty())
                 return;
-
-            settings.beginWriteArray(input.settingsId);
-            for (int i = 0; i < originalValues.size() && i<values.size(); ++i) {
-                settings.setArrayIndex(i);
-
-                if(values[i].contains(TO_TRANSLATE))
-                    settings.setValue("value",originalValues[QStringRef(&values[i],0,2).toInt()].trimmed());
-                else
-                     settings.setValue("value",values[i]);
-            }
-            settings.endArray();
+            for (auto &value : values)
+                if(value.contains(TO_TRANSLATE))
+                    value = originalValues[QStringRef(&value,0,2).toInt()].trimmed();
+            saveArrayInput(input.settingsId, values);
          break;
     }
 }

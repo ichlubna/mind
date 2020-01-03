@@ -749,12 +749,12 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="7"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="43"/>
         <source></source>
-        <translation>kontakty ratunku</translation>
+        <translation>Kontakty ratunku</translation>
     </message>
     <message id="food-contact-text">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="14"/>
         <source></source>
-        <translation></translation>
+        <translation> </translation>
     </message>
     <message id="food-remorse">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="6"/>
@@ -790,17 +790,17 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Oddychaj głęboko|
-Przenieś uwagę na liczenie/grę w aplikacji|
-Myśl o motywacji, dlaczego pragniesz być zdrowy|
-Popłacz sobie|
-Zadzwoń do osoby, która Ci rozumie i wzeprze Ciebie|
-Spotkaj się z bliską dla Ciebie osobą|
-Przytul mamusię/tatusia/przyjaciela/pluszaka |
-Słuchaj muzyki|
-Czytaj interesujące książki (napawdę, polecam! 😊)|
-Obejrzyj ulubiony film|
-Pomaluj mandalę wesołymi kolorami|
+Oddychaj głęboko||
+Przenieś uwagę na liczenie/grę w aplikacji||
+Myśl o motywacji, dlaczego pragniesz być zdrowy||
+Popłacz sobie||
+Zadzwoń do osoby, która Ci rozumie i wzeprze Ciebie||
+Spotkaj się z bliską dla Ciebie osobą||
+Przytul mamusię/tatusia/przyjaciela/pluszaka ||
+Słuchaj muzyki||
+Czytaj interesujące książki (napawdę, polecam! 😊)||
+Obejrzyj ulubiony film||
+Pomaluj mandalę wesołymi kolorami||
 Zapisz powody, dla których chcesz powrócić do zdrowia.|
 </translation>
     </message>
@@ -808,10 +808,10 @@ Zapisz powody, dla których chcesz powrócić do zdrowia.|
         <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Nie karaj się|
-Mów o swoich uczuciach z kimś innym|
-Uświadom sobie, że chodzi o proces i każda następna pokonana przeszkoda formuje z Ciebie mocniejszego człowieka|
-Napisz swoje sukcesy, z których jesteś naprawdę dumny/a|
+Nie karaj się||
+Mów o swoich uczuciach z kimś innym||
+Uświadom sobie, że chodzi o proces i każda następna pokonana przeszkoda formuje z Ciebie mocniejszego człowieka||
+Napisz swoje sukcesy, z których jesteś naprawdę dumny/a||
 Uświadom sobie, czego wszystkiego już osiągnąłeś/nęłaś|
 </translation>
     </message>
@@ -819,18 +819,18 @@ Uświadom sobie, czego wszystkiego już osiągnąłeś/nęłaś|
         <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Otaczaj się ludźmi, którzy są Twoją ostoją|
-Trzymaj w zapasie kontakt do psychologa, psychiatry, dietetyka, psychoterapeuty|
-Nie rezygnuj z pasji, które lubiłeś/łaś|
-Raz na dzień poćwicz kierowaną relaksację|
-Sportuj prawidłowo (ale uważaj, wszystko w rozsądnej ilości)|
-Dotrzymuj prawidłowy i dostarczająco długi sen|
-Zapisuj swoje przeżycia|
-Znajdź kogoś, z kim będziesz mógł/mogła porozmawiać|
-Nie patrz na siebie w lustro|
-Nie waż się|
-Jedz w towarzystwie kogoś, kto będzie Twoją ostoją|
-Staraj się jeść prawidłowo. |
+Otaczaj się ludźmi, którzy są Twoją ostoją||
+Trzymaj w zapasie kontakt do psychologa, psychiatry, dietetyka, psychoterapeuty||
+Nie rezygnuj z pasji, które lubiłeś/łaś||
+Raz na dzień poćwicz kierowaną relaksację||
+Sportuj prawidłowo (ale uważaj, wszystko w rozsądnej ilości)||
+Dotrzymuj prawidłowy i dostarczająco długi sen||
+Zapisuj swoje przeżycia||
+Znajdź kogoś, z kim będziesz mógł/mogła porozmawiać||
+Nie patrz na siebie w lustro||
+Nie waż się||
+Jedz w towarzystwie kogoś, kto będzie Twoją ostoją||
+Staraj się jeść prawidłowo. ||
 Nie zapominaj o prawidłowym dostarczaniu ciału odpowiednich płynów|
 </translation>
     </message>
@@ -838,12 +838,12 @@ Nie zapominaj o prawidłowym dostarczaniu ciału odpowiednich płynów|
         <location filename="../src/qml/Food/Tips/VomitForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Zastanów się nad powodami, dlaczego chcesz być zdrowy/a|
-Spędzaj czas w towarzystwie|
-Zadzwoń do bliskiej osoby|
-Napisz do koleżanki|
-Oddychaj głęboko|
-Przenieś uwagę na liczenie/grę w aplikacji|
+Zastanów się nad powodami, dlaczego chcesz być zdrowy/a||
+Spędzaj czas w towarzystwie||
+Zadzwoń do bliskiej osoby||
+Napisz do koleżanki||
+Oddychaj głęboko||
+Przenieś uwagę na liczenie/grę w aplikacji||
 Na kartce napisz, jak się czujesz|
 </translation>
     </message>
@@ -851,13 +851,13 @@ Na kartce napisz, jak się czujesz|
         <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Uświadom sobie, kiedy nadchodzi|
-Nie koncentruj się na jedzenie, spróbuj odreagować się grą/liczeniem w aplikacji|
-Idź na przechadzkę|
-Pomaluj paznokcie lakierem|
-Pożuj gumę do żucia|
-Spędzaj czas w towarzystwie innych – nie bądź samotny/na|
-Zadzwoń do kogoś bliskiego|
+Uświadom sobie, kiedy nadchodzi||
+Nie koncentruj się na jedzenie, spróbuj odreagować się grą/liczeniem w aplikacji||
+Idź na przechadzkę||
+Pomaluj paznokcie lakierem||
+Pożuj gumę do żucia||
+Spędzaj czas w towarzystwie innych – nie bądź samotny/na||
+Zadzwoń do kogoś bliskiego||
 Na kartce napisz, jak się czujesz|
 </translation>
     </message>
@@ -865,38 +865,38 @@ Na kartce napisz, jak się czujesz|
         <location filename="../src/qml/Food/Tips/FigureForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Zawsze mogę sobie dołożyć, to naturalne|
-Jedzenie odbieram wszystkimi zmysłami|
-Nie przeszkadza, jeżeli nie zjem wszystkiego, co mam na talerzu i zostawię resztę. Jedzenie nie jest stworzone do tego, by o nim nieustannie myśleć|
-Naturalny ruch mnie wzbogaca|
-Moją wartość nie zaznacza numer na wadze|
-Jem prawidłowo i zrównoważenie|
-Mieć głód jest normalnym odruchem ciała, a jeść jest niezbędnym faktorem życia|
-Są sprawy o wiele ważniejsze, piękniejsze i wartościowsze niż nieustanne myślenie o odżywianiu się|
-Człowiek jest piękny tym, jaki jest w środku, a nie tym, czy ma o 4 kg więcej czy mniej|
-Nie poddaję się bez walki, a równocześnie wierzę we swoje osobiste możliwości|
-Nie oczekuję, że choroba ta minie sama od siebie|
-Unikam porównywyniu się z innymi|
-Wszyscy jesteśmy tylko ludźmi i mamy prawo do popełniania błędów, najważniejsze jest wziąść z nich nauczkę|
-Zrozumiałem/am, że największym kłopotem jest zbytnie poświęcanie uwagi  temu, jak wyglądam i jaką opinię mają o mnie inni|
-Wiem, że potrzebna mi siła do przyszłości|
-Wiem, że mam kłopot z odżywianiem się, ale wiem także, że największa część pracy leży na moich barkach i zależy od moich postanowień|
-Dostarczanie składników pokarmowych jest ważne, moje ciało wymaga potrzebnych składników odżywczych i prawidłową opiekę, której nie mogę ciału odeprzeć|
-Żywność, którą za dzień spożyję, jest różnorodna. Nie boję się jarzyn, owoców, pieczywa ani mięsa|
-Wiem, że dam radę i mam dużo siły ale również uczę się przyjąć fakt, że to żaden wstyd poprosić o pomoc, kiedy nie mam wystarczająco dużo energii|
-Swoje zwycięstwa i porażki podczas leczenia będę udostępniać innym|
-Mam wiele przyjaciół, na kórych mogę polegać|
-Nie kupuję czasopisma, które wspierają niezdrowy ubytek wagi|
-Chwalę siebie nawet za małe postępy|
-Umiem być doskonały/a, świetny/a, bezbłędny/a i nie muszę do udowodnienia tego trzymać drastycznych diet ani męczyć się tym, jak wyglądam|
-Nie zostawiam sobie jedzenie aż na późno wieczorem, bo wiem, że wtedy mam największe wrażenie, że mi się nie udaje|
-Nie muszę mieć doskonałą sylwetkę, moja dusza jest doskonała swoim istnieniem. A o tym, jakie ciało jest doskonałe, nikt nie ma prawa decydować. Tym bardziej za mnie!|
-Jestem szczęśliwy/a ze stosunków, którymi jestem otoczony/a i ktöre sobie wytworzyłem/łam|
-Nie wszystko ma logiczne wyjaśnienie|
-Wiem, do kogo dzwonić, jeżeli nie będę się czuć idealnie|
-Nie muszę mieć dobry humor siedem razy w tygodniu, tj. naturalne|
-Mam prawo się złościć, kiedy nie wszystko idzie idealnie według planu|
-Jest naturalne poprosić kogoś o pomoc|
+Zawsze mogę sobie dołożyć, to naturalne||
+Jedzenie odbieram wszystkimi zmysłami||
+Nie przeszkadza, jeżeli nie zjem wszystkiego, co mam na talerzu i zostawię resztę. Jedzenie nie jest stworzone do tego, by o nim nieustannie myśleć||
+Naturalny ruch mnie wzbogaca||
+Moją wartość nie zaznacza numer na wadze||
+Jem prawidłowo i zrównoważenie||
+Mieć głód jest normalnym odruchem ciała, a jeść jest niezbędnym faktorem życia||
+Są sprawy o wiele ważniejsze, piękniejsze i wartościowsze niż nieustanne myślenie o odżywianiu się||
+Człowiek jest piękny tym, jaki jest w środku, a nie tym, czy ma o 4 kg więcej czy mniej||
+Nie poddaję się bez walki, a równocześnie wierzę we swoje osobiste możliwości||
+Nie oczekuję, że choroba ta minie sama od siebie||
+Unikam porównywyniu się z innymi||
+Wszyscy jesteśmy tylko ludźmi i mamy prawo do popełniania błędów, najważniejsze jest wziąść z nich nauczkę||
+Zrozumiałem/am, że największym kłopotem jest zbytnie poświęcanie uwagi  temu, jak wyglądam i jaką opinię mają o mnie inni||
+Wiem, że potrzebna mi siła do przyszłości||
+Wiem, że mam kłopot z odżywianiem się, ale wiem także, że największa część pracy leży na moich barkach i zależy od moich postanowień||
+Dostarczanie składników pokarmowych jest ważne, moje ciało wymaga potrzebnych składników odżywczych i prawidłową opiekę, której nie mogę ciału odeprzeć||
+Żywność, którą za dzień spożyję, jest różnorodna. Nie boję się jarzyn, owoców, pieczywa ani mięsa||
+Wiem, że dam radę i mam dużo siły ale również uczę się przyjąć fakt, że to żaden wstyd poprosić o pomoc, kiedy nie mam wystarczająco dużo energii||
+Swoje zwycięstwa i porażki podczas leczenia będę udostępniać innym||
+Mam wiele przyjaciół, na kórych mogę polegać||
+Nie kupuję czasopisma, które wspierają niezdrowy ubytek wagi||
+Chwalę siebie nawet za małe postępy||
+Umiem być doskonały/a, świetny/a, bezbłędny/a i nie muszę do udowodnienia tego trzymać drastycznych diet ani męczyć się tym, jak wyglądam||
+Nie zostawiam sobie jedzenie aż na późno wieczorem, bo wiem, że wtedy mam największe wrażenie, że mi się nie udaje||
+Nie muszę mieć doskonałą sylwetkę, moja dusza jest doskonała swoim istnieniem. A o tym, jakie ciało jest doskonałe, nikt nie ma prawa decydować. Tym bardziej za mnie!||
+Jestem szczęśliwy/a ze stosunków, którymi jestem otoczony/a i ktöre sobie wytworzyłem/łam||
+Nie wszystko ma logiczne wyjaśnienie||
+Wiem, do kogo dzwonić, jeżeli nie będę się czuć idealnie||
+Nie muszę mieć dobry humor siedem razy w tygodniu, tj. naturalne||
+Mam prawo się złościć, kiedy nie wszystko idzie idealnie według planu||
+Jest naturalne poprosić kogoś o pomoc||
 Nigdy nie jesteś sam/a|
 </translation>
     </message>

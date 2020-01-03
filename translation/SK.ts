@@ -804,17 +804,17 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-                Dýchaj zhlboka.|
-                Odveď pozornosť počítaním/hrou v aplikácii.|
-                Mysli na motiváciu, prečo sa chceš vyliečiť.|
-                Vyplač sa.|
-                Zavolaj človeku, ktorý ti rozumie a podporí ťa.|
-                Choď za blízkym človekom.|
-                Objím mamu/otca/priateľa/domáceho miláčika.|
-                Počúvaj hudbu.|
-                Čítaj knihu.|
-                Pozri si obľúbený film.|
-                Vyfarbi mandalu veselými farbami.|
+                Dýchaj zhlboka.||
+                Odveď pozornosť počítaním/hrou v aplikácii.||
+                Mysli na motiváciu, prečo sa chceš vyliečiť.||
+                Vyplač sa.||
+                Zavolaj človeku, ktorý ti rozumie a podporí ťa.||
+                Choď za blízkym človekom.||
+                Objím mamu/otca/priateľa/domáceho miláčika.||
+                Počúvaj hudbu.||
+                Čítaj knihu.||
+                Pozri si obľúbený film.||
+                Vyfarbi mandalu veselými farbami.||
                 Spíš si zoznam dôvodov, prečo sa chceš vyliečiť.|
 </translation>
     </message>
@@ -822,10 +822,10 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-        Netrestaj sa.|
-        Rozprávaj sa so svojimi blízkymi o svojich pocitoch.|
-        Uvedom si, že ide o proces a každá zvládnutá prekážka Ťa robí silnejšou/ím.|
-        Napíš si svoje úspechy, na ktoré si naozaj hrdá/ý.|
+        Netrestaj sa.||
+        Rozprávaj sa so svojimi blízkymi o svojich pocitoch.||
+        Uvedom si, že ide o proces a každá zvládnutá prekážka Ťa robí silnejšou/ím.||
+        Napíš si svoje úspechy, na ktoré si naozaj hrdá/ý.||
         Uvedom si, čo všetko si už dokázal/a zvládnuť.|
 </translation>
     </message>
@@ -833,12 +833,12 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-        Maj okolo seba ľudí, ktorí stoja pri tebe.|
-        Maj poruke kontakt na psychológa, psychiatra a výživového poradcu, psychoterapeuta.|
-        Nevzdávaj sa záľub, ktoré si mal/a rád/a.|
-        Raz denne si precvič riadenú relaxáciu.|
-        Pravidelne športuj (ale opatrne, všetkého veľa škodí).|
-        Dodržuj pravidelný a dostatočne dlhý spánok.|
+        Maj okolo seba ľudí, ktorí stoja pri tebe.||
+        Maj poruke kontakt na psychológa, psychiatra a výživového poradcu, psychoterapeuta.||
+        Nevzdávaj sa záľub, ktoré si mal/a rád/a.||
+        Raz denne si precvič riadenú relaxáciu.||
+        Pravidelne športuj (ale opatrne, všetkého veľa škodí).||
+        Dodržuj pravidelný a dostatočne dlhý spánok.||
         Píš si denník.|
 </translation>
     </message>
@@ -846,12 +846,12 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <location filename="../src/qml/Food/Tips/VomitForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-                Popremýšľaj o tom, prečo chceš byť zdravá/ý.|
-                Choď do spoločnosti.|
-                Zavolaj blízkej osobe.|
-                Napíš svojmu kamarátovi/kamarátke.|
-                Dýchaj zhlboka.|
-                Odveď pozornosť počítaním/hrou v aplikácii.|
+                Popremýšľaj o tom, prečo chceš byť zdravá/ý.||
+                Choď do spoločnosti.||
+                Zavolaj blízkej osobe.||
+                Napíš svojmu kamarátovi/kamarátke.||
+                Dýchaj zhlboka.||
+                Odveď pozornosť počítaním/hrou v aplikácii.||
                 Vezmi si papier a ceruzku a napíš o všetkých svojich pocitoch.|
 </translation>
     </message>
@@ -859,13 +859,13 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-                Uvedom si, že to prichádza.|
-                Nesústreď sa iba na jedlo, skús sa odreagovať hrou/počítaním v aplikácii.|
-                Choď na prechádzku.|
-                Skús si namaľovať nechty.|
-                Daj si žuvačku.|
-                Choď do spoločnosti – nebuď sám.|
-                Zavolaj blízkej osobe.|
+                Uvedom si, že to prichádza.||
+                Nesústreď sa iba na jedlo, skús sa odreagovať hrou/počítaním v aplikácii.||
+                Choď na prechádzku.||
+                Skús si namaľovať nechty.||
+                Daj si žuvačku.||
+                Choď do spoločnosti – nebuď sám.||
+                Zavolaj blízkej osobe.||
                 Vezmi si papier a napíš o všetkých svojich pocitoch.|
 </translation>
     </message>
@@ -873,38 +873,38 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <location filename="../src/qml/Food/Tips/FigureForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Vždy si môžem pridať, je to prirodzené.|
-Jedlo si vychutnávam.|
-Nevadí, ak nezjem všetko, čo mám na tanieri a nechám to. Jedlo nám neslúži na to aby sme o ňom stále premýšľali.|
-Prirodzený pohyb ma napĺňa.|
-Moju hodnotu neurčuje číslo na váhe.|
-Stravujem sa pravidelne a vyvážene.|
-Mať hlad je normálne a jesť je nevyhnutné.|
-Existujú dôležitejšie, krajšie a hodnotnejšie veci na svete ako neustále premýšľanie nad jedlom.|
-Človek je krásny tým, čím je a nie tým, či má o 4 kg menej, alebo viac.|
-Nevzdávam sa bez boja, a pritom verím vo svoje vlastné schopnosti.|
-Neočakávam, že to prejde samé od seba.|
-Vyhýbam sa porovnávaniu s ostatnými.|
-Všetci sme ľudia a máme právo na chyby, dôležité je sa z nich poučiť.|
-Pochopil/a som, že najväčším problémom je to, že som sa v minulosti príliš venovala tomu ako vyzerám a pôsobím na svoje okolie.|
-Viem, že potrebujem silu pre budúcnosť.|
-Viem, že mám problém s jedlom, ale tiež viem, že najväčšia časť je na mne.|
-Prísun živín je dôležitý, moje telo potrebuje živiny a starostlivosť, ktorú mu nemôžem odoprieť.|
-Jedlo, ktoré zjem za deň, je rôznorodé. Nebojím sa zeleniny, ovocia, pečiva ani mäsa.|
-Viem, že to dokážem, že mám veľa sily, ale tiež sa učím prijať fakt, že nie je hanbou požiadať o pomoc, keď mi dochádzajú sily.|
-Svoje úspechy i neúspechy pri liečbe poruchy príjmu potravy budem s niekým zdieľať.|
-Mám veľa priateľov, na ktorých sa môžem spoľahnúť.|
-Nekupujem si časopisy, ktoré propagujú a podporujú chudnutie.|
-Chválim sa za maličkosti.|
-Viem byť dokonalý/á, skvelý/á, bezchybný/a a nemusím k tomu držať diéty, ani sa trápiť tým ako vyzerám.|
-Nenechávam si jedlo až na večer, pretože viem, že vtedy som najzraniteľnejší/ia a najcitlivejší/ia k pocitom zlyhania.|
-Nemusím mať dokonalé telo, moja duša je dokonalá tým, že je. A o tom, či je telo dokonalé, nemá právo nikto rozhodovať. A už vôbec nie za mňa.|
-Som šťastný/á zo vzťahov, ktorými som obklopený/á, a ktoré som si vytvoril/a.|
-Nie všetko má logické vysvetlenie.|
-Viem, komu zavolať, keď mi nebude dobre.|
-Nemusím sa smiať 7 dní v týždni, je to prirodzené.|
-Mám právo sa hnevať, keď sa mi nedarí.|
-Je v poriadku požiadať o pomoc.|
+Vždy si môžem pridať, je to prirodzené.||
+Jedlo si vychutnávam.||
+Nevadí, ak nezjem všetko, čo mám na tanieri a nechám to. Jedlo nám neslúži na to aby sme o ňom stále premýšľali.||
+Prirodzený pohyb ma napĺňa.||
+Moju hodnotu neurčuje číslo na váhe.||
+Stravujem sa pravidelne a vyvážene.||
+Mať hlad je normálne a jesť je nevyhnutné.||
+Existujú dôležitejšie, krajšie a hodnotnejšie veci na svete ako neustále premýšľanie nad jedlom.||
+Človek je krásny tým, čím je a nie tým, či má o 4 kg menej, alebo viac.||
+Nevzdávam sa bez boja, a pritom verím vo svoje vlastné schopnosti.||
+Neočakávam, že to prejde samé od seba.||
+Vyhýbam sa porovnávaniu s ostatnými.||
+Všetci sme ľudia a máme právo na chyby, dôležité je sa z nich poučiť.||
+Pochopil/a som, že najväčším problémom je to, že som sa v minulosti príliš venovala tomu ako vyzerám a pôsobím na svoje okolie.||
+Viem, že potrebujem silu pre budúcnosť.||
+Viem, že mám problém s jedlom, ale tiež viem, že najväčšia časť je na mne.||
+Prísun živín je dôležitý, moje telo potrebuje živiny a starostlivosť, ktorú mu nemôžem odoprieť.||
+Jedlo, ktoré zjem za deň, je rôznorodé. Nebojím sa zeleniny, ovocia, pečiva ani mäsa.||
+Viem, že to dokážem, že mám veľa sily, ale tiež sa učím prijať fakt, že nie je hanbou požiadať o pomoc, keď mi dochádzajú sily.||
+Svoje úspechy i neúspechy pri liečbe poruchy príjmu potravy budem s niekým zdieľať.||
+Mám veľa priateľov, na ktorých sa môžem spoľahnúť.||
+Nekupujem si časopisy, ktoré propagujú a podporujú chudnutie.||
+Chválim sa za maličkosti.||
+Viem byť dokonalý/á, skvelý/á, bezchybný/a a nemusím k tomu držať diéty, ani sa trápiť tým ako vyzerám.||
+Nenechávam si jedlo až na večer, pretože viem, že vtedy som najzraniteľnejší/ia a najcitlivejší/ia k pocitom zlyhania.||
+Nemusím mať dokonalé telo, moja duša je dokonalá tým, že je. A o tom, či je telo dokonalé, nemá právo nikto rozhodovať. A už vôbec nie za mňa.||
+Som šťastný/á zo vzťahov, ktorými som obklopený/á, a ktoré som si vytvoril/a.||
+Nie všetko má logické vysvetlenie.||
+Viem, komu zavolať, keď mi nebude dobre.||
+Nemusím sa smiať 7 dní v týždni, je to prirodzené.||
+Mám právo sa hnevať, keď sa mi nedarí.||
+Je v poriadku požiadať o pomoc.||
 Nie som na to sám/sama.|
 </translation>
     </message>

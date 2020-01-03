@@ -227,7 +227,7 @@ Abbracciate un amico|oppure vostro animale domestico
         <location filename="../src/qml/HomeForm.ui.qml" line="51"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="13"/>
         <source></source>
-        <translation>Ansia panico</translation>
+        <translation>Ansia&lt;br&gt;panico</translation>
     </message>
     <message id="self-harm">
         <location filename="../src/qml/HomeForm.ui.qml" line="59"/>
@@ -244,7 +244,7 @@ Abbracciate un amico|oppure vostro animale domestico
     <message id="my-records">
         <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
         <source></source>
-        <translation>I miei annotazione</translation>
+        <translation>I miei&lt;br&gt;annotazione</translation>
     </message>
     <message id="panicTips">
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="43"/>

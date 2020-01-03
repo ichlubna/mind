@@ -12,7 +12,7 @@ MenuPage {
     property var col1WRatio: 0.05
     property var col3WRatio: 0.05
     property var colHRatioM: 1
-    property var colHRatio: 0.09 * colHRatioM
+    property var colHRatio: 0.15 * colHRatioM
     property var twoInputs: false
 
     Description {
@@ -87,19 +87,19 @@ MenuPage {
                 model: 0
                 Item {
                     Layout.preferredWidth: parent.width
-                    Layout.preferredHeight: parent.width * colHRatio
+                    Layout.preferredHeight: (twoInputs) ? text1.height+text2.height : text1.height
                     Layout.row: index
                     Layout.column: 1
                     Layout.fillWidth: true
                     MenuTextArea {
+                        id: text1
                         width: parent.width
                         anchors.top: parent.top
-                        height: (twoInputs) ? parent.height * 0.5 : parent.height
                     }
                     MenuTextArea {
+                        id: text2
                         width: parent.width
                         anchors.bottom: parent.bottom
-                        height: parent.height * 0.5
                         visible: twoInputs
                         Connections {
                         onTextChanged: checkContact(index)}

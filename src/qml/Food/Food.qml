@@ -8,26 +8,10 @@ FoodForm {
         distractionButton.onClicked: stackView.push("Distraction.qml")
 
         Connections {
-            target: menuCol
-            Component.onCompleted: {
-                if(dataProvider.loadLanguage() === "FR")
-                    menuCol.visible = false;
-            }
-        }
-
-        Connections {
-            target: comming
-            Component.onCompleted: {
-                if(dataProvider.loadLanguage() === "FR")
-                    comming.visible = true;
-            }
-        }
-
-        Connections {
             target: contactButton
             Component.onCompleted: {
-                if(dataProvider.loadLanguage() === "PL")
-                    contactButton.visible = true;
+                if(dataProvider.loadLanguage() === "PL" || dataProvider.loadLanguage() === "IT" || dataProvider.loadLanguage() === "FR" || dataProvider.loadLanguage() === "EN" || dataProvider.loadLanguage() === "ES")
+                    contactButton.visible = false;
             }
         }
 }

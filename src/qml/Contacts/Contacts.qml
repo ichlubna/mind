@@ -15,7 +15,7 @@ ContactsForm {
     Connections {
         target: chatButton
         Component.onCompleted: {
-            if(dataProvider.loadLanguage() === "FR" || dataProvider.loadLanguage() === "PL")
+            if(dataProvider.loadLanguage() === "FR" || dataProvider.loadLanguage() === "PL" || dataProvider.loadLanguage() === "ES")
                 chatButton.visible = false;
         }
     }
@@ -23,7 +23,15 @@ ContactsForm {
         target: universitiesButton
         Component.onCompleted: {
             if(dataProvider.loadLanguage() !== "CZ")
-                chatButton.visible = false;
+                universitiesButton.visible = false;
+        }
+    }
+
+    Connections {
+        target: centerButton
+        Component.onCompleted: {
+            if(dataProvider.loadLanguage() === "IT" || dataProvider.loadLanguage() === "ES")
+                centerButton.visible = false;
         }
     }
 }

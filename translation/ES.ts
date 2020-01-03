@@ -859,28 +859,28 @@ Salga al aire fresco (dé una vuelta de media hora, corra a un ritmo rápido)|
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Respire profundamente |
-Distraiga la atención con el conteo o jugando el juego de esta aplicación. |
-Piense en la motivación  por qué quiere curarse. |
-Llore.|
-Llame a la persona que le entienda y le apoye.|
-Visite a alguien cercano. |
-Abrace a su mamá/papá/amigo/mascota.|
-Escuche música. |
-Lea  libro. |
-Vea su peli favorita. |
-Coloree una mandala de colores vivos. |
-Haga una lista de razones por qué quiere curarse.| 
+Respire profundamente ||
+Distraiga la atención con el conteo o jugando el juego de esta aplicación. ||
+Piense en la motivación  por qué quiere curarse. ||
+Llore.||
+Llame a la persona que le entienda y le apoye.||
+Visite a alguien cercano. ||
+Abrace a su mamá/papá/amigo/mascota.||
+Escuche música. ||
+Lea  libro. ||
+Vea su peli favorita. ||
+Coloree una mandala de colores vivos. ||
+Haga una lista de razones por qué quiere curarse.|
         </translation>
     </message>
     <message id="food-fail-text">
         <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-No se estrese.|
-Hable de sus pensamientos con alguien cercano.|
-Dése cuenta de que se trata de un proceso y cada obstáculo superado le hace más fuerte.|
-Haga una lista de sus éxitos de los que siente orgullo.|
+No se estrese.||
+Hable de sus pensamientos con alguien cercano.||
+Dése cuenta de que se trata de un proceso y cada obstáculo superado le hace más fuerte.||
+Haga una lista de sus éxitos de los que siente orgullo.||
 Dése cuenta de todo lo que ya había superado.|
         </translation>
     </message>
@@ -888,18 +888,18 @@ Dése cuenta de todo lo que ya había superado.|
         <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Rodéese de personas que están de su apoyo.|
-Tenga a mano contacto a psicólogo, psiquiatra, psicoterapeuta y terapeuta nutricional.|
-No renuncie a sus pasatiempos, aficiones que le gustan.|
-Una vez al día practique la relajación controlada.|
-Haga ejercicio físico regularmente (pero cuidado, exagerar tampoco es bueno para la salud).|
-Mantenga un sueño regular y suficientemente largo.|
-Escriba un diario. |
-Busque a alguien con quien pueda hablar.|
-No mire al espejo.|
-No suba a la báscula personal, no controle su peso. |
-Coma con alguien que esté de su apoyo. |
-Procure comer con regularidad.|
+Rodéese de personas que están de su apoyo.||
+Tenga a mano contacto a psicólogo, psiquiatra, psicoterapeuta y terapeuta nutricional.||
+No renuncie a sus pasatiempos, aficiones que le gustan.||
+Una vez al día practique la relajación controlada.||
+Haga ejercicio físico regularmente (pero cuidado, exagerar tampoco es bueno para la salud).||
+Mantenga un sueño regular y suficientemente largo.||
+Escriba un diario. ||
+Busque a alguien con quien pueda hablar.||
+No mire al espejo.||
+No suba a la báscula personal, no controle su peso. ||
+Coma con alguien que esté de su apoyo. ||
+Procure comer con regularidad.||
 Piense en régimen de bebida.|
         </translation>
     </message>
@@ -907,12 +907,12 @@ Piense en régimen de bebida.|
         <location filename="../src/qml/Food/Tips/VomitForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Piense bien las razones por qué quiere estar sano/a.|
-Salga a donde hay gente. |
-Llame a su cercano/familiar.|
-Escriba a su amigo/a. |
-Respire profundo. |
-Distraiga la atención con el conteo o jugando el juego de esta aplicación. |
+Piense bien las razones por qué quiere estar sano/a.||
+Salga a donde hay gente. ||
+Llame a su cercano/familiar.||
+Escriba a su amigo/a. ||
+Respire profundo. ||
+Distraiga la atención con el conteo o jugando el juego de esta aplicación. ||
 Coja papel , lápiz e intente escribir sus emociones, sentimientos.|
         </translation>
     </message>
@@ -920,13 +920,13 @@ Coja papel , lápiz e intente escribir sus emociones, sentimientos.|
         <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Dése cuenta del momento en el que viene la necesidad de comer en exceso. |
-No se concentre solo en la comida, intente distraer su atención con el conteo o con el juego de esta aplicación. |
-Dé un paseo.|
-Píntese las uñas.|
-Tome un chicle. |
-Salga a dode hay gente – no esté solo/a. |
-Llame a sus cercanos. |
+Dése cuenta del momento en el que viene la necesidad de comer en exceso. ||
+No se concentre solo en la comida, intente distraer su atención con el conteo o con el juego de esta aplicación. ||
+Dé un paseo.||
+Píntese las uñas.||
+Tome un chicle. ||
+Salga a dode hay gente – no esté solo/a. ||
+Llame a sus cercanos. ||
 Coja papel , lápiz e intente escribir sus emociones, sentimientos.|
         </translation>
     </message>
@@ -934,38 +934,38 @@ Coja papel , lápiz e intente escribir sus emociones, sentimientos.|
         <location filename="../src/qml/Food/Tips/FigureForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Siempre puedo comer más, es natural.|
-Disfruto de la comida.|
-No importa si lo como todo del plato. La comida no nos sirve para pensar en ella sin parar. |
-El movimiento natural me llena de alegría.|
-Mi valor no está determinado por el número en la báscula personal.|
-Me alimento con regularidad y equilibrio.|
-Tener hambre es normal y comer es inevitable.|
-En el mundo hay cosas mucho más importantes, bonitas, valiosas que pensar sin parar en la comida.|
-Una persona es guapa por ser tal como es, no por tener 4 kilos más o menos.|
-No me rindo sin luchar y al mismo tiempo confío en mis capacidades.|
-No espero que todo se solucione por su cuenta.|
-Evito comparaciones con los demás.|
-Todos somos seres humanos y tenemos derecho a fallar. Lo importante es aprender de los errores.|
-Entendí que el mayor problema es que en el pasado había dedicado mucho tiempo a mi aspecto físico y a la impresión que daba a la gente.|
-Sé que necesito fuerzas para el futuro.|
-Sé que tengo problemas con la comida. Pero también sé que la mayor parte del trabajo depende de mí y está sobre mis hombros. |
-Suministro de nutrientes es importante. Mi cuerpo necesita la nutrición y cuidado que no puedo rechazar.|
-Los alimentos que como durante el día son de mucha variedad. No me niego a comer verdura, fruta, pan ni carne.|
-Sé que puedo lograrlo, que tengo bastantes fuerzas, pero también estoy aprendiendo aceptar el hecho de que no hay vergüenza pedir ayuda cuando pierdo fuerzas.|
-Todos mis éxitos y mis fallos en cuanto al tratamiento de los trastornos alimenticios voy a compartir con alguien cercano. |
-Tengo muchos amigos con los que puedo contar.|
-No compro revistas que tratan temas de adelgazamiento y peso.|
-Me alabo por cosas pequeñas. |
-Puedo ser perfecto/a, genial, sin fallos... Para ello no necesito estar a régimen ni preocuparme por mi aspecto físico.|
-No dejo la comida para la tarde porque sé que en esta parte del día estoy muy vulnerable, sensible y las cosas no se me dan bien.|
-No es necesario tener un cuerpo perfecto. Mi alma es perfecta tal como es. Nadie tiene derecho a decidir qué cuerpo es perfecto. ¡ Nadie tiene derecho a decidir por mi!|
-Soy feliz gracias a las relaciones con las personas que me rodean y las que me había creado.|
-No todo tiene una explicación lógica.|
-Sé a quién llamar cuando no estoy bien.|
-No tengo que reírme siete días a la semana, es natural.|
-Tengo derecho a enfadarme cuando las cosas no me salen bien. |
-Es normal pedir ayuda.|
+Siempre puedo comer más, es natural.||
+Disfruto de la comida.||
+No importa si lo como todo del plato. La comida no nos sirve para pensar en ella sin parar. ||
+El movimiento natural me llena de alegría.||
+Mi valor no está determinado por el número en la báscula personal.||
+Me alimento con regularidad y equilibrio.||
+Tener hambre es normal y comer es inevitable.||
+En el mundo hay cosas mucho más importantes, bonitas, valiosas que pensar sin parar en la comida.||
+Una persona es guapa por ser tal como es, no por tener 4 kilos más o menos.||
+No me rindo sin luchar y al mismo tiempo confío en mis capacidades.||
+No espero que todo se solucione por su cuenta.||
+Evito comparaciones con los demás.||
+Todos somos seres humanos y tenemos derecho a fallar. Lo importante es aprender de los errores.||
+Entendí que el mayor problema es que en el pasado había dedicado mucho tiempo a mi aspecto físico y a la impresión que daba a la gente.||
+Sé que necesito fuerzas para el futuro.||
+Sé que tengo problemas con la comida. Pero también sé que la mayor parte del trabajo depende de mí y está sobre mis hombros. ||
+Suministro de nutrientes es importante. Mi cuerpo necesita la nutrición y cuidado que no puedo rechazar.||
+Los alimentos que como durante el día son de mucha variedad. No me niego a comer verdura, fruta, pan ni carne.||
+Sé que puedo lograrlo, que tengo bastantes fuerzas, pero también estoy aprendiendo aceptar el hecho de que no hay vergüenza pedir ayuda cuando pierdo fuerzas.||
+Todos mis éxitos y mis fallos en cuanto al tratamiento de los trastornos alimenticios voy a compartir con alguien cercano. ||
+Tengo muchos amigos con los que puedo contar.||
+No compro revistas que tratan temas de adelgazamiento y peso.||
+Me alabo por cosas pequeñas. ||
+Puedo ser perfecto/a, genial, sin fallos... Para ello no necesito estar a régimen ni preocuparme por mi aspecto físico.||
+No dejo la comida para la tarde porque sé que en esta parte del día estoy muy vulnerable, sensible y las cosas no se me dan bien.||
+No es necesario tener un cuerpo perfecto. Mi alma es perfecta tal como es. Nadie tiene derecho a decidir qué cuerpo es perfecto. ¡ Nadie tiene derecho a decidir por mi!||
+Soy feliz gracias a las relaciones con las personas que me rodean y las que me había creado.||
+No todo tiene una explicación lógica.||
+Sé a quién llamar cuando no estoy bien.||
+No tengo que reírme siete días a la semana, es natural.||
+Tengo derecho a enfadarme cuando las cosas no me salen bien. ||
+Es normal pedir ayuda.||
 No estoy solo/a para los problemas.|
         </translation>
     </message>

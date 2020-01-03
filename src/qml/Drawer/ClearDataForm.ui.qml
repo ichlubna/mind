@@ -1,4 +1,5 @@
 import QtQuick 2.4
+import QtQuick.Controls 2.12
 import ".."
 
 MenuPage {
@@ -19,9 +20,17 @@ MenuPage {
     property alias myContactsClear: myContactsClear
     title: qsTrId("clear-data")
 
+    ScrollView {
+        id: viewContainer
+        anchors.fill: parent
+        clip: true
+        anchors.margins: 10
+        contentWidth: -1
+        contentHeight: clearList.height+allButton.height+50
+
     Grid {
         id: clearList
-        width: parent.width*0.9
+        width: parent.width
         anchors.horizontalCenter: parent.horizontalCenter
         columns:2
         spacing: 20
@@ -153,4 +162,5 @@ MenuPage {
         anchors.left: parent.horizontalCenter
         width: parent.width*0.4
     }
+}
 }

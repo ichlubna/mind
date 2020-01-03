@@ -8,15 +8,8 @@ MenuPage {
     property alias dishesButton: dishesButton
     property alias contactButton: contactButton
     property alias distractionButton: distractionButton
-    property alias comming: comming
     property alias menuCol: menuCol
     title: qsTrId("food")
-
-    Description{
-        id: comming
-        text: "Comming soon. We are working on translations."
-        visible: false
-    }
 
    MenuColumn{
        id: menuCol

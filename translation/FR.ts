@@ -529,10 +529,10 @@ Aider les autres
         Aujourd&apos;hui, je partagerai mes insécurités et mes peurs avec quelqu&apos;un |
         Je pardonnerai à toutes les personnes qui m&apos;ont blessé. Je me pardonne. |
         À partir d&apos;aujourd&apos;hui, je vais essayer de parler de ce qui me dérange et de ce que je ressens |
-        Désormais, je n&apos;aurai plus peur de dire que je suis fatigué ou que je n&apos;ai pas envie de faire quelque chose.
+        Désormais, je n&apos;aurai plus peur de dire que je suis fatigué ou que je n&apos;ai pas envie de faire quelque chose.|
         J&apos;apprends à dire NON |
         Je vais commencer à écrire mon nouveau journal |
-        Je ne tolérerai aucun commentaire haineux que les autres disent au sujet du poids de quelqu&apos;un.
+        Je ne tolérerai aucun commentaire haineux que les autres disent au sujet du poids de quelqu&apos;un.|
         Je vais écrire toutes les choses que j&apos;ai déjà accomplies dans ma vie |
         J&apos;ai autant d&apos;amis que j&apos;ai de doigts sur les mains
 </translation>
@@ -541,18 +541,18 @@ Aider les autres
         <location filename="../src/cpp/userdataprovider.cpp" line="333"/>
         <source></source>
         <translation>
-        Dessinez une image de votre maladie et déchirez le papier.
+        Dessinez une image de votre maladie et déchirez le papier.|
         Écrivez une lettre à votre «moi» malade, dites merci et au revoir. |
-        Notez les points pourquoi vous voulez être en bonne santé et quels sont les obstacles sur votre chemin de récupération.
-        Triez votre gâchis de papier sur votre table.
-        Essayez une nouvelle coiffure. |
-        Étirez vos muscles.
-        Avez-vous pensé à un tatouage? Achetez du henné et trouvez la bonne place sur votre beau corps!
-        Créez un livre de souvenirs de vos vacances préférées. Imprimez des photos ou des autocollants, soyez créatif. |
-        Étudiez une nouvelle langue.
-        Essayez de jouer n&apos;importe quel instrument de musique.
-        Découvrez comment faire de l&apos;origami à partir de papier.
-        Notez les moments de votre vie que vous aimeriez revivre.
+        Notez les points pourquoi vous voulez être en bonne santé et quels sont les obstacles sur votre chemin de récupération.|
+        Triez votre gâchis de papier sur votre table.|
+        Essayez une nouvelle coiffure.|
+        Étirez vos muscles.|
+        Avez-vous pensé à un tatouage? Achetez du henné et trouvez la bonne place sur votre beau corps!|
+        Créez un livre de souvenirs de vos vacances préférées. Imprimez des photos ou des autocollants, soyez créatif.|
+        Étudiez une nouvelle langue.|
+        Essayez de jouer n&apos;importe quel instrument de musique.|
+        Découvrez comment faire de l&apos;origami à partir de papier.|
+        Notez les moments de votre vie que vous aimeriez revivre.|
         Créez une décoration pour votre chambre
 </translation>
     </message>

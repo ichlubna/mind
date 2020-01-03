@@ -13,4 +13,13 @@ ClearDataForm {
                 clearList.children[i].checked = true;
         }
     }
+
+    Connections {
+        target: clearList
+        Component.onCompleted: {
+            for (var i = 0; i < clearList.children.length; i++)
+                if(i%2==0)
+                    clearList.children[i].text =clearList.children[i].text.replace("<br>", " ")
+        }
+}
 }
