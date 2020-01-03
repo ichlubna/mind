@@ -186,7 +186,7 @@ qrc:/images/anabell/breakfast.jpg
     <message id="clear-all-button">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="150"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Zaznacz wszystko</translation>
     </message>
     <message id="depression-nice">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="25"/>
@@ -237,7 +237,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
     <message id="my-records">
         <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Moje zapisy</translation>
     </message>
     <message id="panicTips">
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="43"/>
@@ -401,14 +401,14 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="31"/>
         <location filename="../src/qml/Contacts/UniversitiesForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Uniwersytety</translation>
     </message>
     <message id="my-contacts">
         <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="36"/>
         <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="5"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="121"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Moje kontakty</translation>
     </message>
     <message id="self-harm-tips">
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="32"/>
@@ -510,7 +510,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
     <message id="praise-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="301"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Ćwiczyłem codziennie</translation>
     </message>
     <message id="food-afraid-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="317"/>
@@ -586,12 +586,12 @@ Zrób nową, oryginalną dekorację do swojego pokoiku
     <message id="myContactsNames-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="367"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Nazwa</translation>
     </message>
     <message id="myContactsNumbers-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="370"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Numer telefonu lub e-mail</translation>
     </message>
     <message id="phone-text">
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
@@ -1031,22 +1031,22 @@ qrc:/images/anabell/pmSnack2.jpg
         <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="5"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="71"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Moje sukcesy</translation>
     </message>
     <message id="depression-praise-header">
         <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Tutaj mogę zapisać niektóre z moich sukcesów:</translation>
     </message>
     <message id="universities-text">
         <location filename="../src/qml/Contacts/UniversitiesForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation> </translation>
     </message>
     <message id="my-contacts-header">
         <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="8"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Tutaj mogę zapisać własne kontakty, wysłać im e-mail, sms lub zadzwonić.</translation>
     </message>
     <message id="diary">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="131"/>
@@ -1054,12 +1054,12 @@ qrc:/images/anabell/pmSnack2.jpg
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="10"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Dziennik</translation>
     </message>
     <message id="diary-record-date">
         <location filename="../src/qml/MyRecords/DiaryDateForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Data zapisu</translation>
     </message>
 </context>
 </TS>

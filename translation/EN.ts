@@ -118,7 +118,7 @@ qrc:/images/anabell/dinner.jpg
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="11"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="33"/>
         <source></source>
-        <translation>samples of meals</translation>
+        <translation>Samples of meals</translation>
     </message>
     <message id="food-dishes-breakfast">
         <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="7"/>
@@ -505,13 +505,12 @@ Help others
     <message id="praise-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="301"/>
         <source></source>
-        <translation></translation>
+        <translation>I did my daily exercise</translation>
     </message>
     <message id="food-afraid-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="317"/>
         <source></source>
-        <translation>The food I am scared of
-</translation>
+        <translation>The food I am scared of</translation>
     </message>
     <message id="food-challenge-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="325"/>
@@ -567,7 +566,7 @@ Create a decoration for your room
     <message id="food-food-like-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="341"/>
         <source></source>
-        <translation>The food I like</translation>
+        <translation> </translation>
     </message>
     <message id="food-like-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="349"/>
@@ -741,7 +740,7 @@ Go out for the fresh air|Take yourself out for half-hour-long walk at a quick pl
     <message id="mood-help">
         <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="218"/>
         <source></source>
-        <translation>You&apos;ve been feeling down lately, don&apos;t you wan&apos;t to consider a professional help?</translation>
+        <translation>You&apos;ve been feeling down lately, don&apos;t you want to consider a professional help?</translation>
     </message>
     <message id="mood-help-yes">
         <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="223"/>
@@ -780,7 +779,7 @@ Go out for the fresh air|Take yourself out for half-hour-long walk at a quick pl
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="21"/>
         <source></source>
-        <translation>Guilt After Eating</translation>
+        <translation>Guilt after eating</translation>
     </message>
     <message id="food-overeat">
         <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="6"/>
@@ -804,23 +803,23 @@ Go out for the fresh air|Take yourself out for half-hour-long walk at a quick pl
         <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="39"/>
         <source></source>
-        <translation>In general</translation>
+        <translation>General</translation>
     </message>
     <message id="food-tips-text">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Breathe deeply|
-Try to focus on the games or the number counting in this application |
-Think about your motivation - why do you want to be healthy?|
-Just cry, don&apos;t be ashamed about your tears |
-Call a close person who understands and supports you|
-Meet with a close friend|
-Hug your mum/dad/grandma/pet|
-Listen to music|
-Read a book|
-Watch your favourite TV show, TV series, or movie|
-Colour your mandala with bright colours|
+Breathe deeply||
+Try to focus on the games or the number counting in this application ||
+Think about your motivation - why do you want to be healthy?||
+Just cry, don&apos;t be ashamed about your tears ||
+Call a close person who understands and supports you||
+Meet with a close friend||
+Hug your mum/dad/grandma/pet||
+Listen to music||
+Read a book||
+Watch your favourite TV show, TV series, or movie||
+Colour your mandala with bright colours||
 Write down the reasons why you want to be healthy|
 </translation>
     </message>
@@ -828,10 +827,10 @@ Write down the reasons why you want to be healthy|
         <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Don’t punish yourself|
-Talk about your feelings with somebody|
-Be aware that the recovery is a long process and each difficulty you overcome makes you stronger|
-Write down what you are proud of (your personality features, successes…)|
+Don’t punish yourself||
+Talk about your feelings with somebody||
+Be aware that the recovery is a long process and each difficulty you overcome makes you stronger||
+Write down what you are proud of (your personality features, successes…)||
 Acknowledge everything that you have gone through and overcome (we are proud of you ;) )|
 </translation>
     </message>
@@ -839,18 +838,18 @@ Acknowledge everything that you have gone through and overcome (we are proud of 
         <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Be surrounded by people who care and support you|
-Keep in mind the contacts for a psychiatrist, a psychologist, and a nutritionist|
-Don&apos;t give up on your hobbies and the things you loved before|
-Practice relaxation at least one time a day|
-Do some recreational sports (but be careful and don&apos;t over-exercise ;) )|
-Give yourself lots of good and long sleep|
-Write in a diary|
-Find your soulmate (or a good friend for deep talks)|
-Don’t look in the mirror|
-Don’t weigh yourself|
-Eat with someone who supports you and makes you feel more comfortable|
-Eat regularly (approximately 5 to 6 times a day)|
+Be surrounded by people who care and support you||
+Keep in mind the contacts for a psychiatrist, a psychologist, and a nutritionist||
+Don&apos;t give up on your hobbies and the things you loved before||
+Practice relaxation at least one time a day||
+Do some recreational sports (but be careful and don&apos;t over-exercise ;) )||
+Give yourself lots of good and long sleep||
+Write in a diary||
+Find your soulmate (or a good friend for deep talks)||
+Don’t look in the mirror||
+Don’t weigh yourself||
+Eat with someone who supports you and makes you feel more comfortable||
+Eat regularly (approximately 5 to 6 times a day)||
 Think about your drinking habits|
 </translation>
     </message>
@@ -858,12 +857,12 @@ Think about your drinking habits|
         <location filename="../src/qml/Food/Tips/VomitForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Write down the reasons why you want to be healthy|
-Find some company, don’t be alone |
-Call a close person|
-Text your close friend|
-Breathe deeply|
-Focus on counting the numbers or playing other games in this application|
+Write down the reasons why you want to be healthy||
+Find some company, don’t be alone ||
+Call a close person||
+Text your close friend||
+Breathe deeply||
+Focus on counting the numbers or playing other games in this application||
 Take a pen and write down your feelings|
 </translation>
     </message>
@@ -871,13 +870,13 @@ Take a pen and write down your feelings|
         <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-Be aware of your feelings, acknowledge what is coming|
-Try to keep yourself away from the kitchen or food, focus on something different (video-games…)|
-Go for a walk|
-Paint your nails|
-Chew a chewing gum|
-Find some company, don’t be alone|
-Call a close person|
+Be aware of your feelings, acknowledge what is coming||
+Try to keep yourself away from the kitchen or food, focus on something different (video-games…)||
+Go for a walk||
+Paint your nails||
+Chew a chewing gum||
+Find some company, don’t be alone||
+Call a close person||
 Take a pen and write down your feelings|
 </translation>
     </message>
@@ -885,38 +884,38 @@ Take a pen and write down your feelings|
         <location filename="../src/qml/Food/Tips/FigureForm.ui.qml" line="5"/>
         <source></source>
         <translation>
-If I am hungry, I can add more food to my plate|
-I truly enjoy my food|
-It´s not a problem when I have some leftovers on my plate (if I am not in an active regime of gaining weight from hard underweight ;) ). I don´t need to think about food all the time.  |
-I enjoy natural movement and recreational sports. |
-I am more than just a number on my weight. I am valuable. I am worthy of myself.|
-I eat nutritionally balanced food.|
-It is normal to be hungry, and it’s necessary to eat.|
-There are so many more important and beautiful things in this world than only food.  |
-The beauty of a human being is not hidden in their weight. |
-I do not give up without fighting, I believe in myself.|
-I do not expect that it will pass by itself.|
-I do not compare myself to others.|
-We are just humans, we can make mistakes. The important thing is to learn from them and not repeat them.|
-I understand that I used to care too much about my appearance and about the opinions of other people.|
-I know I need energy for living.|
-I am aware that I have problems with food and that it’s me who can deal with them.|
-My body requires nourishing and proper care.|
-I eat a variety of food. I am not afraid of fruit, vegetables, nor meat or bakery products.|
-I know I can do it, but I am not afraid of seeking help.|
-My successes and fails in my recovery journey will be shared with someone I trust.|
-I have some friends I can rely on.|
-I do not buy any magazines about losing weight or dieting.|
-I am proud of myself even for the small achieved challenges.|
-Nobody is perfect, but I can be amazing without any dieting or concerns regarding my weight or appearance.|
-I don’t eat during the nights because I know that’s the time when I feel vulnerable.|
-I don’t have to have a perfect body. I decide what my body should look like. My soul is perfect. |
-I am happy in my relationships.|
-Not everything has a logical reason.|
-I know who I can call when I feel bad.|
-I don’t have to smile all the time.|
-I can be angry.|
-It’s totally OK to ask for help.|
+If I am hungry, I can add more food to my plate||
+I truly enjoy my food||
+It´s not a problem when I have some leftovers on my plate (if I am not in an active regime of gaining weight from hard underweight ;) ). I don´t need to think about food all the time.  ||
+I enjoy natural movement and recreational sports. ||
+I am more than just a number on my weight. I am valuable. I am worthy of myself.||
+I eat nutritionally balanced food.||
+It is normal to be hungry, and it’s necessary to eat.||
+There are so many more important and beautiful things in this world than only food.  ||
+The beauty of a human being is not hidden in their weight. ||
+I do not give up without fighting, I believe in myself.||
+I do not expect that it will pass by itself.||
+I do not compare myself to others.||
+We are just humans, we can make mistakes. The important thing is to learn from them and not repeat them.||
+I understand that I used to care too much about my appearance and about the opinions of other people.||
+I know I need energy for living.||
+I am aware that I have problems with food and that it’s me who can deal with them.||
+My body requires nourishing and proper care.||
+I eat a variety of food. I am not afraid of fruit, vegetables, nor meat or bakery products.||
+I know I can do it, but I am not afraid of seeking help.||
+My successes and fails in my recovery journey will be shared with someone I trust.||
+I have some friends I can rely on.||
+I do not buy any magazines about losing weight or dieting.||
+I am proud of myself even for the small achieved challenges.||
+Nobody is perfect, but I can be amazing without any dieting or concerns regarding my weight or appearance.||
+I don’t eat during the nights because I know that’s the time when I feel vulnerable.||
+I don’t have to have a perfect body. I decide what my body should look like. My soul is perfect. ||
+I am happy in my relationships.||
+Not everything has a logical reason.||
+I know who I can call when I feel bad.||
+I don’t have to smile all the time.||
+I can be angry.||
+It’s totally OK to ask for help.||
 I am not alone with my struggles.|
 </translation>
     </message>
@@ -1050,7 +1049,7 @@ qrc:/images/anabell/pmSnack2.jpg
         <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="5"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="71"/>
         <source></source>
-        <translation>unfinished</translation>
+        <translation>My successes</translation>
     </message>
     <message id="depression-praise-header">
         <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="7"/>
@@ -1060,12 +1059,12 @@ qrc:/images/anabell/pmSnack2.jpg
     <message id="universities-text">
         <location filename="../src/qml/Contacts/UniversitiesForm.ui.qml" line="7"/>
         <source></source>
-        <translation>Nothing</translation>
+        <translation> </translation>
     </message>
     <message id="my-contacts-header">
         <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="8"/>
         <source></source>
-        <translation>Here I can save my own contacts and send them an email, sms or call them.</translation>
+        <translation>Here I can write down my own contacts, send them an email, sms or call them.</translation>
     </message>
     <message id="diary">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="131"/>

@@ -180,7 +180,7 @@ qrc:/images/anabell/breakfast.jpg
     <message id="clear-all-button">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="150"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Označiť všetko</translation>
     </message>
     <message id="depression-nice">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="25"/>
@@ -231,7 +231,7 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
     <message id="my-records">
         <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Moje záznamy</translation>
     </message>
     <message id="panicTips">
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="43"/>
@@ -400,14 +400,14 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="31"/>
         <location filename="../src/qml/Contacts/UniversitiesForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Univerzity</translation>
     </message>
     <message id="my-contacts">
         <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="36"/>
         <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="5"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="121"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Moje kontakty</translation>
     </message>
     <message id="self-harm-tips">
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="32"/>
@@ -509,7 +509,7 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
     <message id="praise-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="301"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Denne som cvičil</translation>
     </message>
     <message id="food-afraid-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="317"/>
@@ -585,12 +585,12 @@ Urob si nejakú novú dekoráciu do svojej izby.
     <message id="myContactsNames-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="367"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Meno</translation>
     </message>
     <message id="myContactsNumbers-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="370"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Telefónne číslo alebo e-mail</translation>
     </message>
     <message id="phone-text">
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
@@ -957,7 +957,7 @@ Nie som na to sám/sama.|
     <message id="food-food-like-header">
         <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Tu píšem zoznam jedál, ktoré milujem</translation>
     </message>
     <message id="food-tasks-afraid">
         <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="5"/>
@@ -1039,22 +1039,22 @@ qrc:/images/anabell/pmSnack2.jpg
         <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="5"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="71"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Moje úspechy</translation>
     </message>
     <message id="depression-praise-header">
         <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Tu môžem napísať niektoré z mojich úspechov:</translation>
     </message>
     <message id="universities-text">
         <location filename="../src/qml/Contacts/UniversitiesForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation> </translation>
     </message>
     <message id="my-contacts-header">
         <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="8"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Tu môžem napísať svoje vlastné kontakty, poslať im e-mail, sms alebo im zavolať.</translation>
     </message>
     <message id="diary">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="131"/>
@@ -1062,12 +1062,12 @@ qrc:/images/anabell/pmSnack2.jpg
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="10"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Denník</translation>
     </message>
     <message id="diary-record-date">
         <location filename="../src/qml/MyRecords/DiaryDateForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Dátum záznamu</translation>
     </message>
 </context>
 </TS>

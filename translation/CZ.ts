@@ -1092,7 +1092,7 @@ Nejsem na to sám/sama|
         <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="5"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="71"/>
         <source></source>
-        <translation>Za co se pochválím</translation>
+        <translation>Moje úspěchy</translation>
     </message>
     <message id="depression-praise-header">
         <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="7"/>

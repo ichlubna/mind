@@ -186,7 +186,7 @@
     <message id="clear-all-button">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="150"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Marca todas</translation>
     </message>
     <message id="depression-nice">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="25"/>
@@ -238,7 +238,7 @@ Abrace a alguien cercano o acurrúquese con su mascota
     <message id="my-records">
         <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Mis registros</translation>
     </message>
     <message id="panicTips">
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="43"/>
@@ -456,7 +456,7 @@ Abrace a alguien cercano o acurrúquese con su mascota
         <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="5"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="121"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Mis contactos</translation>
     </message>
     <message id="self-harm-tips">
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="32"/>
@@ -516,14 +516,17 @@ Abrace a alguien cercano o acurrúquese con su mascota
 		Ayudar a los demás
         </translation>
     </message>
-    <message id="my-reasons">
-        <source></source>
-        <translation type="vanished">Mis razones…</translation>
-    </message>
     <message id="reasons-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="282"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>
+        Jugar con mi mascota (perrito, gatito, conejillo de indias) |
+        Escucha la guitarra y canta en la fogata |
+        Estudiar lo que me gusta |
+        Encontrarme un compañero |
+        Tener hijos |
+        Ayuda a otros
+</translation>
     </message>
     <message id="custom-write">
         <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
@@ -640,12 +643,12 @@ Haga una nueva decoración en su habitación.|
     <message id="myContactsNames-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="367"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Nombre</translation>
     </message>
     <message id="myContactsNumbers-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="370"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Número de teléfono o correo electrónico</translation>
     </message>
     <message id="phone-text">
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
@@ -1157,7 +1160,7 @@ No estoy solo/a para los problemas.|
     <message id="my-contacts-header">
         <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="8"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Aquí puedo guardar mis propios contactos y enviarles un correo electrónico, sms o llamarlos.</translation>
     </message>
     <message id="diary">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="131"/>
@@ -1165,12 +1168,12 @@ No estoy solo/a para los problemas.|
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="10"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Diario</translation>
     </message>
     <message id="diary-record-date">
         <location filename="../src/qml/MyRecords/DiaryDateForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Fecha de registro del diario</translation>
     </message>
 </context>
 </TS>

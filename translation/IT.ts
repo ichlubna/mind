@@ -159,7 +159,7 @@
         <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="5"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="71"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>I miei successi</translation>
     </message>
     <message id="depression-mood">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="91"/>
@@ -193,7 +193,7 @@
     <message id="clear-all-button">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="150"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Segna tutto</translation>
     </message>
     <message id="depression-nice">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="25"/>
@@ -244,7 +244,7 @@ Abbracciate un amico|oppure vostro animale domestico
     <message id="my-records">
         <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>I miei annotazione</translation>
     </message>
     <message id="panicTips">
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="43"/>
@@ -451,14 +451,14 @@ Abbracciate un amico|oppure vostro animale domestico
         <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="31"/>
         <location filename="../src/qml/Contacts/UniversitiesForm.ui.qml" line="6"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Università</translation>
     </message>
     <message id="my-contacts">
         <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="36"/>
         <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="5"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="121"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>I miei contatti</translation>
     </message>
     <message id="self-harm-tips">
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="32"/>
@@ -560,7 +560,7 @@ Abbracciate un amico|oppure vostro animale domestico
     <message id="praise-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="301"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Ho fatto il mio esercizio quotidiano</translation>
     </message>
     <message id="food-afraid-text">
         <location filename="../src/cpp/userdataprovider.cpp" line="317"/>
@@ -637,12 +637,12 @@ Crea una bella decorazione per tua camera.
     <message id="myContactsNames-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="367"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Nome</translation>
     </message>
     <message id="myContactsNumbers-example">
         <location filename="../src/cpp/userdataprovider.cpp" line="370"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Numero di telefono o e-mail</translation>
     </message>
     <message id="phone-text">
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
@@ -1078,17 +1078,17 @@ Non sono solo/a.||
     <message id="depression-praise-header">
         <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Qui posso scrivere alcuni dei miei successi:</translation>
     </message>
     <message id="universities-text">
         <location filename="../src/qml/Contacts/UniversitiesForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation> </translation>
     </message>
     <message id="my-contacts-header">
         <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="8"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Qui posso scrivere i miei contatti, inviare loro un&apos;e-mail, sms o chiamarli.</translation>
     </message>
     <message id="diary">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="131"/>
@@ -1096,12 +1096,12 @@ Non sono solo/a.||
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="10"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Diario</translation>
     </message>
     <message id="diary-record-date">
         <location filename="../src/qml/MyRecords/DiaryDateForm.ui.qml" line="7"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Data di registrazione</translation>
     </message>
 </context>
 </TS>
