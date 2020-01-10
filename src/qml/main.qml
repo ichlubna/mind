@@ -16,7 +16,7 @@ ApplicationWindow {
         id: outFocuser
         anchors.fill: parent
         z: -999
-        onClicked:  {outFocuser.z=-999; outFocuser.forceActiveFocus() }
+        onClicked: {outFocuser.z=-999; outFocuser.forceActiveFocus() }
     }
 
     UserDataProvider {
