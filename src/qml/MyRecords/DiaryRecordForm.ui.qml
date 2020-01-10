@@ -7,6 +7,8 @@ SwipePage{
     property alias view: view
     property alias recordText: recordText
     property alias removeArea: removeArea
+    property alias confirmArea: confirmArea
+    property alias popup: popup
         title: qsTrId("diary")
 
         ScrollView {
@@ -26,18 +28,35 @@ SwipePage{
 
         Image {
             source: "qrc:/images/delete.svg"
-            height: view.height*0.1
-            width: view.height*0.1
+            height: view.height*0.095
+            width: view.height*0.095
             fillMode: Image.PreserveAspectFit
             anchors.right: parent.right
             MouseArea {
                 anchors.fill: parent
                 id: removeArea
             }
-        }}
+        }
+        Image {
+            source: "qrc:/images/tick.svg"
+            height: view.height*0.09
+            width: view.height*0.09
+            fillMode: Image.PreserveAspectFit
+            anchors.left: parent.left
+            MouseArea {
+                anchors.fill: parent
+                id: confirmArea
+            }
+        }
+        }
 
         MenuTextArea{
             id: recordText
             Layout.preferredWidth: parent.width
         }
-}}}
+}}
+        PopupWindow{
+            id: popup
+            msg.text: qsTrId("really-remove")
+        }
+}

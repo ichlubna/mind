@@ -5,7 +5,7 @@ MenuPage {
     id: foodPage
     property alias moodButton: moodButton
     property alias diaryButton: diaryButton
-    title: qsTrId("food")
+    title: qsTrId("my-records")
 
     Description{
         id: comming

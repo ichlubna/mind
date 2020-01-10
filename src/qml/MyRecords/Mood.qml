@@ -45,18 +45,14 @@ MoodForm {
 
         chart.clear();
 
-        console.log(moods.length);
         for(var i=range.first.value; i<=range.second.value; i++)
         {
             var moodString = moods[i];
             var mood = moodString.split('|');
             chart.append(new Date(mood[0]), parseInt(mood[1]));
-
-            console.log(moodString);
         }
         chart.axisX.min = new Date(moods[range.first.value].split('|')[0]);
         chart.axisX.max = new Date(moods[range.second.value].split('|')[0]);
-        console.log(moods[range.second.value]);
 
         //dataProvider.saveIntInput("moodsRangeStart", range.first.value);
         //dataProvider.loadIntInput("moodsRangeStart", range.second.value);
@@ -147,8 +143,8 @@ MoodForm {
     emoticon4.onClicked: save(2)
     emoticon5.onClicked: save(1)
 
-    yes.onClicked: {popup.close(); stackView.push("Contacts.qml");}
-    no.onClicked: popup.close()
+    popup.yes.onClicked: {popup.close(); stackView.push("../Contacts/Contacts.qml");}
+    popup.no.onClicked: popup.close()
 
     range.first.onMoved: draw()
     range.second.onMoved: draw()

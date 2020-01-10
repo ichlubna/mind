@@ -12,6 +12,13 @@ ApplicationWindow {
     height: 480
     title: qsTrId("appName")
 
+    MouseArea {
+        id: outFocuser
+        anchors.fill: parent
+        z: -999
+        onClicked:  {outFocuser.z=-999; outFocuser.forceActiveFocus() }
+    }
+
     UserDataProvider {
         id: dataProvider
     }
@@ -65,7 +72,7 @@ ApplicationWindow {
               verticalOffset: 8
               radius: 15
               transparentBorder: true
-              samples: 12
+              samples: 9
               source: headerColor
               color: "black"
               opacity: 0.35
@@ -133,8 +140,17 @@ ApplicationWindow {
             opacity: 0.8
         }
 
-        Column {
+        ScrollView {
+            id: view
             anchors.fill: parent
+            contentWidth: -1
+            contentHeight: drawerItems.height
+            clip: true
+            anchors.margins: 10
+
+        Column {
+            //anchors.fill: parent
+            id: drawerItems
 
             ItemDelegate {
                 text: qsTrId("resetInputs")
@@ -263,7 +279,7 @@ ApplicationWindow {
                 }
             }
         }
-    }
+    }}
 
     StackView {
         id: stackView

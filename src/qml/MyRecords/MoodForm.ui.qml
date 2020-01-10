@@ -19,8 +19,6 @@ MenuPage {
     property alias chart: chart
     property alias popup: popup
     property alias range: range
-    property alias yes: yes
-    property alias no: no
     property alias chartView: chartView
     property alias noData: noData
 
@@ -189,50 +187,9 @@ MenuPage {
         second.value: 1
     }
 
-    Popup {
+    PopupWindow{
         id: popup
-        parent: Overlay.overlay
-        width: parent.width * 0.9
-        height: width
-        anchors.centerIn: parent
-        closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutsideParent
-        bottomPadding: 0
-        topPadding: 0
-        leftPadding: 0
-        rightPadding: 0
-        background: Rectangle {
-            id: popupBckg
-            color: "#d9d9d9"
-            radius: 7
-        }
-        Colorize {
-            anchors.fill: parent
-            source: popupBckg
-            hue: ThemeInfo.hueValue
-            saturation: 0.7
-            lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
-        }
-
-        Description {
-            id: msg
-            text: qsTrId("mood-help")
-            horizontalAlignment: Text.AlignHCenter
-        }
-        MenuButton {
-            id: yes
-            text: qsTrId("mood-help-yes")
-            anchors.bottom: no.top
-            anchors.bottomMargin: 10
-            width: parent.width* 0.6
-            anchors.horizontalCenter: parent.horizontalCenter
-        }
-        MenuButton {
-            id: no
-            text: qsTrId("mood-help-no")
-            anchors.bottom: parent.bottom
-            anchors.bottomMargin: 10
-            width: parent.width* 0.6
-            anchors.horizontalCenter: parent.horizontalCenter
-        }
+        msg.text: qsTrId("mood-help")
     }
+
 }

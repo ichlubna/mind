@@ -5,17 +5,17 @@
 #include <iostream>
 #include <src/cpp/userdataprovider.h>
 #include <src/cpp/mathengine.h>
+#include <QProcess>
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-
-    qmlRegisterType<UserDataProvider>("io.qt.UserDataProvider", 1, 0, "UserDataProvider");
-    qmlRegisterType<MathEngine>("io.qt.MathEngine", 1, 0, "MathEngine");
-
     int returnValue = 0;
     do
     {
+        QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+
+        qmlRegisterType<UserDataProvider>("io.qt.UserDataProvider", 1, 0, "UserDataProvider");
+        qmlRegisterType<MathEngine>("io.qt.MathEngine", 1, 0, "MathEngine");
         QApplication app(argc, argv);
         QTranslator translator;
 
@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
         QString langString = "EN";
         QSettings settings("DontPanicDevs", "DontPanic");
         UserDataProvider dataProvider;
+
         if (!settings.contains("language"))
         {
            switch(language)
@@ -47,6 +48,14 @@ int main(int argc, char *argv[])
                 langString = "FR";
                break;
 
+               case QLocale::Language::Spanish:
+                langString = "ES";
+               break;
+
+               case QLocale::Language::Italian:
+                langString = "IT";
+               break;
+
                default:
                    langString = "EN";
                break;
@@ -69,6 +78,7 @@ int main(int argc, char *argv[])
         returnValue = app.exec();
 
         langString = settings.value("language").toString();
+        app.quit();
     }
     while(returnValue == UserDataProvider::TRANSLATION_RESTART);
 

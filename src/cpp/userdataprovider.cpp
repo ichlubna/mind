@@ -50,14 +50,13 @@ void UserDataProvider::checkDefault(UserDataProvider::CustomInput input)
            if(values.empty() || originalValues.empty())
                return;
 
-           settings.beginWriteArray(input.settingsId);
-           for (int i = 0; i<values.size(); ++i) {
-               settings.setArrayIndex(i);
-               int origIndex = originalValues.indexOf(values[i]);
+          for (auto &value : values)
+          {
+               int origIndex = originalValues.indexOf(value);
                if(origIndex != -1)
-                        settings.setValue("value",QString::number(origIndex).rightJustified(2,'0')+TO_TRANSLATE);
+                    value = QString::number(origIndex).rightJustified(2,'0')+TO_TRANSLATE;
            }
-           settings.endArray();
+          saveArrayInput(input.settingsId, values);
         break;
    }
 }
@@ -86,9 +85,16 @@ void UserDataProvider::translateDefault(CustomInput input)
 
 void UserDataProvider::initCheck()
 {
-    //reset to default values if first run
-    if(settings.allKeys().isEmpty())
-       resetInputs(true, true, true, true, true, true, true, true, true, true, true);
+    bool reset = true;
+    if(settings.contains("moods") || settings.contains("diaryRecords"))
+        reset = false;
+    for(const auto &input : customInputs)
+        if(settings.contains(input.settingsId))
+            reset = false;
+    //reset = (!settings.contains("customWrite") && !settings.contains("moods") && !settings.contains("plan") && !settings.contains("nice"));
+    if(reset)
+        resetInputs(true, true, true, true, true, true, true, true, true, true, true);
+
     //to avoid getting red color when updating to version with color change option
     if(!settings.contains("themeLight"))
     {
@@ -97,7 +103,7 @@ void UserDataProvider::initCheck()
     }
 
     //reasons to list
-    if(!settings.contains("myReasons"))
+    if(settings.contains("myReasons"))
     {
         auto old = settings.value("myReasons").toString().split("\n");
         saveArrayInput("reasons", old);

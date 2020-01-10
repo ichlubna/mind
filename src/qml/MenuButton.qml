@@ -34,7 +34,7 @@ Button {
           verticalOffset: 8
           radius: 15
           transparentBorder: true
-          samples: 12
+          samples: 9
           source: bckg
           color: "black"
           opacity: 0.25

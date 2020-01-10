@@ -59,4 +59,16 @@ android {
     aaptOptions {
         noCompress 'rcc'
     }
+
+    bundle {
+        density {
+            enableSplit true
+        }
+        abi {
+            enableSplit true
+        }
+        language {
+            enableSplit = false
+        }
+    }
 }

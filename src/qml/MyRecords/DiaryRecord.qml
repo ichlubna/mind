@@ -19,7 +19,18 @@ DiaryRecordForm {
             }}
         }
 
-    removeArea.onClicked:{dataProvider.removeFromArray(arrayName, recordIndex);
+    removeArea.onClicked:{
+        popup.open();
+       }
+
+    popup.yes.onClicked:{
+        dataProvider.removeFromArray(arrayName, recordIndex);
         save=false;
+        stackView.pop();
+    }
+
+    popup.no.onClicked: popup.close()
+
+    confirmArea.onClicked:{
         stackView.pop();}
 }

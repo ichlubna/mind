@@ -12,7 +12,7 @@ TextField {
         border.color: "White"
         border.width: 5}
     font.pointSize: 20
-    onFocusChanged: (focus) ? selectAll() : deselect()
+    onFocusChanged: {if (focus) {selectAll(); outFocuser.z=999} else deselect()}
     color: "White"
     selectedTextColor: "Black"
 }

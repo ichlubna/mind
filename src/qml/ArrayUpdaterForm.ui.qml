@@ -14,6 +14,8 @@ MenuPage {
     property var colHRatioM: 1
     property var colHRatio: 0.15 * colHRatioM
     property var twoInputs: false
+    /*property alias text1: text1
+    property alias text2: text2*/
 
     Description {
         id: planHeader
@@ -127,7 +129,6 @@ MenuPage {
                     }
                 }
             }
-
             Item {
                 height: 50
                 width: 50

@@ -39,6 +39,11 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 DISTFILES += \
     android/gradle/wrapper/gradle-wrapper.jar \
     android/gradlew \
+    android/res/values-b+es/strings.xml \
+    android/res/values-b+fr/strings.xml \
+    android/res/values-b+it/strings.xml \
+    android/res/values-b+pl/strings.xml \
+    android/res/values-b+sk/strings.xml \
     android/res/values/libs.xml \
     android/build.gradle \
     android/gradle/wrapper/gradle-wrapper.properties \

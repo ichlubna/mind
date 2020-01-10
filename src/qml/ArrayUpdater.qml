@@ -93,7 +93,6 @@ ArrayUpdaterForm {
              itemListC.itemAt(index).children[1].visible = true
     }
 
-
     Connections {
         target: itemList
         Component.onCompleted: {

@@ -1,23 +1,19 @@
-<?xml version='1.0' encoding='utf-8'?>
-<manifest package="org.dontpanic" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.35" android:versionCode="8135" android:installLocation="auto">
-    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28"/>
+<?xml version="1.0"?>
+<manifest package="org.dontpanic" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.354" android:versionCode="13504" android:installLocation="auto">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29"/>
 
     <!-- The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.
          Remove the comment if you do not require these default permissions. -->
-    <!-- %%INSERT_PERMISSIONS -->
+
 
     <!-- The following comment will be replaced upon deployment with default features based on the dependencies of the application.
          Remove the comment if you do not require these default features. -->
-    <!-- %%INSERT_FEATURES -->
+
 
     <supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="true"/>
 
     <application android:hardwareAccelerated="true" android:name="org.qtproject.qt5.android.bindings.QtApplication" android:label="@string/app_name" android:icon="@drawable/icon">
-        <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc"
-                  android:name="org.qtproject.qt5.android.bindings.QtActivity"
-                  android:label="@string/app_name"
-                  android:screenOrientation="sensorPortrait"
-                  android:launchMode="singleTop">
+        <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc" android:name="org.qtproject.qt5.android.bindings.QtActivity" android:label="@string/app_name" android:screenOrientation="sensorPortrait" android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
