@@ -310,7 +310,45 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
         settings.remove("moodsRangeEnd");*/
     }
     if(language)
-        settings.remove("language");
+    {
+        QLocale::Language language = QLocale::system().language();
+        QString langString = "EN";
+        switch(language)
+        {
+            case QLocale::Language::Czech:
+             langString = "CZ";
+            break;
+
+            case QLocale::Language::Slovak:
+             langString = "SK";
+            break;
+
+            case QLocale::Language::English:
+             langString = "EN";
+            break;
+
+            case QLocale::Language::Polish:
+             langString = "PL";
+            break;
+
+            case QLocale::Language::French:
+             langString = "FR";
+            break;
+
+            case QLocale::Language::Spanish:
+             langString = "ES";
+            break;
+
+            case QLocale::Language::Italian:
+             langString = "IT";
+            break;
+
+            default:
+                langString = "EN";
+            break;
+        }
+        settings.setValue("language", langString);
+    }
     if(foodTasks)
     {
         auto list = parseList(qtTrId("food-afraid-text"));

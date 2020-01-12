@@ -13,57 +13,17 @@ int main(int argc, char *argv[])
     do
     {
         QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-
         qmlRegisterType<UserDataProvider>("io.qt.UserDataProvider", 1, 0, "UserDataProvider");
         qmlRegisterType<MathEngine>("io.qt.MathEngine", 1, 0, "MathEngine");
         QApplication app(argc, argv);
         QTranslator translator;
 
-        QLocale::Language language = QLocale::system().language();
-        QString langString = "EN";
         QSettings settings("DontPanicDevs", "DontPanic");
         UserDataProvider dataProvider;
 
         if (!settings.contains("language"))
-        {
-           switch(language)
-           {
-               case QLocale::Language::Czech:
-                langString = "CZ";
-               break;
-
-               case QLocale::Language::Slovak:
-                langString = "SK";
-               break;
-
-               case QLocale::Language::English:
-                langString = "EN";
-               break;
-
-               case QLocale::Language::Polish:
-                langString = "PL";
-               break;
-
-               case QLocale::Language::French:
-                langString = "FR";
-               break;
-
-               case QLocale::Language::Spanish:
-                langString = "ES";
-               break;
-
-               case QLocale::Language::Italian:
-                langString = "IT";
-               break;
-
-               default:
-                   langString = "EN";
-               break;
-           }
-           settings.setValue("language", langString);
-        }
-        else
-            langString = settings.value("language").toString();
+            dataProvider.resetInputs(false,false,false,false,false,false,true,false,false,false,false);
+        QString langString = settings.value("language").toString();
 
         translator.load(":/translation/"+langString+".qm");
         app.installTranslator(&translator);
