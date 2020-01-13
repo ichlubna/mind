@@ -4,6 +4,7 @@ import QtQuick.Controls.Styles 1.4
 import QtGraphicalEffects 1.0
 
 Button {
+    property var target: ""
     property alias bckg:bckg
     width: parent.width
     background:  Rectangle {
@@ -27,6 +28,7 @@ Button {
     font.pointSize: 15
     onPressed: {bckg.color="#808080"}
     onPressedChanged:  {bckg.color="#9a9a9a"}
+    onClicked: stackView.push(target)
 
     DropShadow {
           anchors.fill: bckg

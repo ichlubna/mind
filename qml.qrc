@@ -210,5 +210,7 @@
         <file>src/qml/MyRecords/DiaryDate.qml</file>
         <file>src/qml/MyRecords/DiaryDateForm.ui.qml</file>
         <file>src/qml/PopupWindow.qml</file>
+        <file>src/qml/Menu.qml</file>
+        <file>src/qml/MenuForm.ui.qml</file>
     </qresource>
 </RCC>

@@ -1,37 +1,13 @@
 import QtQuick 2.4
 import "../.."
 
-MenuPage {
-    id: foodDishesPage
-    property alias breakfastButton: breakfastButton
-    property alias amSnackButton: amSnackButton
-    property alias lunchButton: lunchButton
-    property alias pmSnackButton: pmSnackButton
-    property alias dinnerButton: dinnerButton
+Menu{
     title: qsTrId("food-dishes")
-
-MenuColumn{
-    MenuButton {
-        id: breakfastButton
-        text: qsTrId("food-breakfast")
-    }
-    MenuButton {
-        id: amSnackButton
-        text: qsTrId("food-am-snack")
-    }
-     MenuButton {
-         id: lunchButton
-         text: qsTrId("food-lunch")
-     }
-
-     MenuButton {
-         id: pmSnackButton
-         text: qsTrId("food-pm-snack")
-     }
-
-     MenuButton {
-         id: dinnerButton
-         text: qsTrId("food-dinner")
-     }
- }
+    items: [{text: qsTrId("food-breakfast"), file: "Food/Dishes/Breakfast.qml"},
+            {text: qsTrId("food-am-snack"), file: "Food/Dishes/AmSnack.qml"},
+            {text: qsTrId("food-lunch"), file: "Food/Dishes/Lunch.qml"},
+            {text: qsTrId("food-pm-snack"), file: "Food/Dishes/PmSnack.qml"},
+            {text: qsTrId("food-dinner"), file: "Food/Dishes/Dinner.qml"},
+            ]
 }
+

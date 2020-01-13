@@ -1,39 +1,12 @@
 import QtQuick 2.4
 import ".."
 
-MenuPage {
-    id: contactsPage
-    property alias phoneButton: phoneButton
-    property alias centerButton: centerButton
-    property alias chatButton: chatButton
-    property alias universitiesButton: universitiesButton
-    property alias myContactsButton: myContactsButton
+Menu{
     title: qsTrId("contacts")
-
-    MenuColumn {
-        MenuButton {
-            id: phoneButton
-            text: qsTrId("phone")
-        }
-
-        MenuButton {
-            id: centerButton
-            text: qsTrId("center")
-        }       
-
-        MenuButton {
-            id: chatButton
-            text: qsTrId("chat")
-        }
-
-        MenuButton {
-            id: universitiesButton
-            text: qsTrId("universities")
-        }
-
-        MenuButton {
-            id: myContactsButton
-            text: qsTrId("my-contacts")
-        }
-    }
+    items: [{text: qsTrId("phone"), file: "Contacts/Phone.qml"},
+            {text: qsTrId("center"), file: "Contacts/Center.qml", excluded: ["IT", "ES"]},
+            {text: qsTrId("chat"), file: "Contacts/Chat.qml", excluded: ["FR", "PL", "ES"]},
+            {text: qsTrId("universities"), file: "Contacts/Universities.qml", excluded: ["FR", "PL", "ES", "SK", "PL", "IT", "EN"]},
+            {text: qsTrId("my-contacts"), file: "Contacts/MyContacts.qml"}
+            ]
 }

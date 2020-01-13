@@ -5,13 +5,6 @@ import QtQuick.Layouts 1.12
 
 MenuPage {
     id: homePage
-    property alias contactButton: contactButton
-    property alias depressionButton: depressionButton
-    property alias panicButton: panicButton
-    property alias selfHarmButton: selfHarmButton
-    property alias suicideButton: suicideButton
-    property alias myRecordsButton: myRecordsButton
-    property alias foodButton: foodButton
     property alias logo: logo
     title: qsTrId("home")
 
@@ -39,7 +32,7 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
-            id: depressionButton
+            target: "Depression/Depression.qml"
             text: qsTrId("depression")
         }
 
@@ -47,7 +40,7 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
-            id: panicButton
+            target: "Panic/Panic.qml"
             text: qsTrId("anxiety-panic")
         }
 
@@ -55,7 +48,7 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
-            id: selfHarmButton
+            target: "SelfHarm/SelfHarm.qml"
             text: qsTrId("self-harm")
         }
 
@@ -63,7 +56,7 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
-            id: suicideButton
+            target: "Suicide/Suicide.qml"
             text: qsTrId("suicidal-thoughts")
         }
 
@@ -71,7 +64,7 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
-            id: foodButton
+            target: "Food/Food.qml"
             text: qsTrId("food")
         }
 
@@ -79,7 +72,7 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
-            id: myRecordsButton
+            target: "MyRecords/MyRecords.qml"
             text: qsTrId("my-records")
         }
 
@@ -88,7 +81,7 @@ MenuPage {
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width
             id: contactButton
-            text: qsTrId("help-contacts")
+            target: "Contacts/Contacts.qml"
             Layout.columnSpan: 2
         }
     }

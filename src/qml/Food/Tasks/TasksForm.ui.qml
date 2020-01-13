@@ -1,43 +1,13 @@
 import QtQuick 2.4
 import "../.."
 
-MenuPage {
-    id: foodTasksPage
-    property alias creativeButton: creativeButton
-    property alias motivationButton: motivationButton
-    property alias challengeButton: challengeButton
-    property alias likeButton: likeButton
-    property alias foodLikeButton: foodLikeButton
-    property alias afraidButton: afraidButton
+Menu{
     title: qsTrId("food-tasks")
-
-   MenuColumn{
-       MenuButton {
-           id: creativeButton
-           text: qsTrId("food-tasks-creative")
-       }
-       MenuButton {
-           id: motivationButton
-           text: qsTrId("food-tasks-motivation")
-       }
-        MenuButton {
-            id: challengeButton
-            text: qsTrId("food-tasks-challenge")
-        }
-
-        MenuButton {
-            id: likeButton
-            text: qsTrId("food-tasks-like")
-        }
-
-        MenuButton {
-            id: foodLikeButton
-            text: qsTrId("food-tasks-food-like")
-        }
-
-        MenuButton {
-            id: afraidButton
-            text: qsTrId("food-tasks-afraid")
-        }
-    }
+    items: [{text: qsTrId("food-tasks-creative"), file: "Food/Tasks/Creative.qml"},
+            {text: qsTrId("food-tasks-motivation"), file: "Food/Tasks/Motivation.qml"},
+            {text: qsTrId("food-tasks-challenge"), file: "Food/Tasks/Challenge.qml"},
+            {text: qsTrId("food-tasks-like"), file: "Food/Tasks/Like.qml"},
+            {text: qsTrId("food-tasks-food-like"), file: "Food/Tasks/FoodLike.qml"},
+            {text: qsTrId("food-tasks-afraid"), file: "Food/Tasks/Afraid.qml"},
+            ]
 }
