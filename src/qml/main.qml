@@ -2,6 +2,7 @@ import QtQuick 2.9
 import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.12
 import io.qt.UserDataProvider 1.0
+import io.qt.Translator 1.0
 import QtGraphicalEffects 1.0
 import "."
 
@@ -21,6 +22,10 @@ ApplicationWindow {
 
     UserDataProvider {
         id: dataProvider
+    }
+
+    Translator {
+        id: translator
     }
 
     onVisibilityChanged: {
@@ -264,21 +269,32 @@ ApplicationWindow {
                 columns: 3
                 width: drawer.width
                 Repeater{
-                    model: ["CZ", "SK", "PL", "FR", "EN", "IT", "ES"]
+                    id: languageList
+                    model: 0
                     RoundButton {
+                        property var language: "EN"
                         background: Image {
-                            source: "qrc:/images/"+modelData+".svg"
+                            source: "qrc:/images/"+language+".svg"
                         }
-                        onClicked: {dataProvider.setLanguage(modelData);}
+                        onClicked: {stackView.pop(null); dataProvider.setLanguage(language); translator.changeLanguage(language); dataProvider.translateInputs(); drawer.close();}
                         Layout.maximumWidth: drawer.width*0.2
                         Layout.maximumHeight: drawer.width*0.2
                         Layout.topMargin: 20
                         Layout.margins: 10
-                        opacity: (dataProvider.loadLanguage() === modelData) ? 1.0 : 0.5
+                        opacity: (dataProvider.loadLanguage() === language) ? 1.0 : 0.5
                     }
                 }
             }
         }
+    }}
+    Connections{
+        target: languageList
+         Component.onCompleted: {
+             var languages = translator.getLanguages();
+             languageList.model = languages.length;
+             for (var i = 0; i < languages.length; i++) {
+                 languageList.itemAt(i).language = languages[i];
+            }
     }}
 
     StackView {

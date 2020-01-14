@@ -1,7 +1,3 @@
-#include <QApplication>
-#include <QTranslator>
-#include <QQmlApplicationEngine>
-#include <QQmlContext>
 #include <QDate>
 #include "userdataprovider.h"
 
@@ -83,6 +79,20 @@ void UserDataProvider::translateDefault(CustomInput input)
     }
 }
 
+void UserDataProvider::setLanguage(QString language)
+{
+    for(const auto &input : customInputs)
+        checkDefault(input);
+
+    settings.setValue("language", language);
+}
+
+void UserDataProvider::translateInputs()
+{
+    for(const auto &input : customInputs)
+        translateDefault(input);
+}
+
 void UserDataProvider::initCheck()
 {
     bool reset = true;
@@ -116,9 +126,6 @@ void UserDataProvider::initCheck()
         saveBoolInput("foodExist", true);
         resetInputs(false,false,false,false,false,false,false,true,false,true,true);
     }
-
-    for(const auto &input : customInputs)
-        translateDefault(input);
 }
 
 void UserDataProvider::saveInput(QString id, QString value)
@@ -251,15 +258,6 @@ QString UserDataProvider::loadLanguage()
 bool UserDataProvider::exists(QString id)
 {
     return settings.contains(id);
-}
-
-void UserDataProvider::setLanguage(QString language)
-{
-    for(const auto &input : customInputs)
-        checkDefault(input);
-
-    settings.setValue("language", language);
-    qApp->exit(TRANSLATION_RESTART);
 }
 
 QList<QString> UserDataProvider::loadArrayInput(QString id)

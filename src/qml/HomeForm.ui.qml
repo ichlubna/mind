@@ -83,6 +83,7 @@ MenuPage {
             id: contactButton
             target: "Contacts/Contacts.qml"
             Layout.columnSpan: 2
+            text: qsTrId("contacts")
         }
     }
 }

@@ -15,10 +15,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     src/cpp/main.cpp \
     src/cpp/mathengine.cpp \
+    src/cpp/translator.cpp \
     src/cpp/userdataprovider.cpp
 
 HEADERS += \
     src/cpp/mathengine.h \
+    src/cpp/translator.h \
     src/cpp/userdataprovider.h
 
 RESOURCES += qml.qrc

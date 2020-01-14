@@ -28,7 +28,7 @@ Button {
     font.pointSize: 15
     onPressed: {bckg.color="#808080"}
     onPressedChanged:  {bckg.color="#9a9a9a"}
-    onClicked: stackView.push(target)
+    onClicked: if(target != "") stackView.push(target)
 
     DropShadow {
           anchors.fill: bckg

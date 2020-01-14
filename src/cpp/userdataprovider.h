@@ -1,9 +1,11 @@
 #ifndef USERDATAPROVIDER_H
 #define USERDATAPROVIDER_H
-
+#include <QApplication>
 #include <QObject>
 #include <QString>
 #include <QSettings>
+#include <QTranslator>
+#include <QQmlApplicationEngine>
 
 class UserDataProvider : public QObject
 {
@@ -29,9 +31,8 @@ public:
     Q_INVOKABLE void sortDiary(QString id);
     Q_INVOKABLE QString loadLanguage();
     Q_INVOKABLE void setLanguage(QString language);
+    Q_INVOKABLE void translateInputs();
     Q_INVOKABLE void resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks, bool praise, bool myContacts, bool diary);
-
-    static constexpr int TRANSLATION_RESTART = 42;
 
 private:
     struct CustomInput
