@@ -14,7 +14,10 @@ MenuForm {
                             continue;
                         }
                         itemsList.itemAt(i).text = items[i].text;
-                        itemsList.itemAt(i).target = items[i].file;
+                        if(items[i].hasOwnProperty("file"))
+                            itemsList.itemAt(i).target = items[i].file;
+                        if(items[i].hasOwnProperty("pushProperties"))
+                            itemsList.itemAt(i).pushProperties = items[i].pushProperties;
             }
         }
 }

@@ -276,7 +276,7 @@ ApplicationWindow {
                         background: Image {
                             source: "qrc:/images/"+language+".svg"
                         }
-                        onClicked: {stackView.pop(null); dataProvider.setLanguage(language); translator.changeLanguage(language); dataProvider.translateInputs(); drawer.close();}
+                        onClicked: {stackView.pop(null); drawer.close(); dataProvider.setLanguage(language); translator.changeLanguage(language); dataProvider.translateInputs();}
                         Layout.maximumWidth: drawer.width*0.2
                         Layout.maximumHeight: drawer.width*0.2
                         Layout.topMargin: 20

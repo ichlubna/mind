@@ -14,9 +14,12 @@
         <file>translation/IT.qm</file>
         <file>translation/ES.ts</file>
         <file>translation/ES.qm</file>
+        <file>audio/relaxCS.mp3</file>
         <file>images/background.svg</file>
         <file>images/logo.svg</file>
         <file>images/back.svg</file>
+        <file>images/play.svg</file>
+        <file>images/pause.svg</file>
         <file>images/exit.svg</file>
         <file>images/gear.svg</file>
         <file>images/fb.svg</file>
@@ -67,10 +70,6 @@
         <file>src/qml/Depression/DepressionForm.ui.qml</file>
         <file>src/qml/Depression/Help.qml</file>
         <file>src/qml/Depression/HelpForm.ui.qml</file>
-        <file>src/qml/Depression/Nice.qml</file>
-        <file>src/qml/Depression/NiceForm.ui.qml</file>
-        <file>src/qml/Depression/Plan.qml</file>
-        <file>src/qml/Depression/PlanForm.ui.qml</file>
         <file>src/qml/Description.qml</file>
         <file>src/qml/DescriptionLabel.qml</file>
         <file>src/qml/Home.qml</file>
@@ -93,8 +92,6 @@
         <file>src/qml/Contacts/PhoneForm.ui.qml</file>
         <file>src/qml/Suicide/Plan.qml</file>
         <file>src/qml/Suicide/PlanForm.ui.qml</file>
-        <file>src/qml/Suicide/Reasons.qml</file>
-        <file>src/qml/Suicide/ReasonsForm.ui.qml</file>
         <file>src/qml/SelfHarm/SelfHarm.qml</file>
         <file>src/qml/SelfHarm/SelfHarmForm.ui.qml</file>
         <file>src/qml/SelfHarm/Tips.qml</file>
@@ -176,29 +173,13 @@
         <file>src/qml/Food/Dishes/PmSnackForm.ui.qml</file>
         <file>src/qml/Food/Dishes/Dinner.qml</file>
         <file>src/qml/Food/Dishes/DinnerForm.ui.qml</file>
-        <file>src/qml/Food/Tasks/Motivation.qml</file>
-        <file>src/qml/Food/Tasks/MotivationForm.ui.qml</file>
-        <file>src/qml/Food/Tasks/Creative.qml</file>
-        <file>src/qml/Food/Tasks/CreativeForm.ui.qml</file>
-        <file>src/qml/Food/Tasks/Challenge.qml</file>
-        <file>src/qml/Food/Tasks/ChallengeForm.ui.qml</file>
-        <file>src/qml/Food/Tasks/Like.qml</file>
-        <file>src/qml/Food/Tasks/LikeForm.ui.qml</file>
-        <file>src/qml/Food/Tasks/FoodLike.qml</file>
-        <file>src/qml/Food/Tasks/FoodLikeForm.ui.qml</file>
-        <file>src/qml/Food/Tasks/Afraid.qml</file>
-        <file>src/qml/Food/Tasks/AfraidForm.ui.qml</file>
         <file>src/qml/SwipeStories.qml</file>
         <file>src/qml/Food/Distraction.qml</file>
         <file>src/qml/Food/DistractionForm.ui.qml</file>
         <file>src/qml/Games/Breath3.qml</file>
         <file>src/qml/Games/Breath3Form.ui.qml</file>
-        <file>src/qml/Depression/Praise.qml</file>
-        <file>src/qml/Depression/PraiseForm.ui.qml</file>
         <file>src/qml/Contacts/Universities.qml</file>
         <file>src/qml/Contacts/UniversitiesForm.ui.qml</file>
-        <file>src/qml/Contacts/MyContacts.qml</file>
-        <file>src/qml/Contacts/MyContactsForm.ui.qml</file>
         <file>src/qml/MyRecords/MyRecords.qml</file>
         <file>src/qml/MyRecords/MyRecordsForm.ui.qml</file>
         <file>src/qml/MyRecords/Diary.qml</file>
@@ -212,5 +193,7 @@
         <file>src/qml/PopupWindow.qml</file>
         <file>src/qml/Menu.qml</file>
         <file>src/qml/MenuForm.ui.qml</file>
+        <file>src/qml/Player.qml</file>
+        <file>src/qml/PlayerForm.ui.qml</file>
     </qresource>
 </RCC>

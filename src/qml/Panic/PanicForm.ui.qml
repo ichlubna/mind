@@ -8,7 +8,8 @@ Menu{
             {text: qsTrId("breath2"), file: "Games/Breath2.qml"},
             {text: qsTrId("breath3"), file: "Games/Breath3.qml"},
             {text: qsTrId("math"), file: "Games/Math.qml"},
-            {text: qsTrId("game"), file: "Games/Balls.qml"}
+            {text: qsTrId("game"), file: "Games/Balls.qml"},
+            {text: qsTrId("relaxation"), file: "Player.qml", pushProperties: {"titleText" : qsTrId("relaxation"), "file" : "qrc:/audio/relaxCS.mp3"}, excluded: czOnly}
             ]
 }
 

@@ -8,7 +8,6 @@ MenuPage {
     property alias itemListC: itemListC
     property alias itemListR: itemListR
     property alias viewContainer: viewContainer
-    property var headerText: ""
     property var col1WRatio: 0.05
     property var col3WRatio: 0.05
     property var colHRatioM: 1
@@ -16,6 +15,7 @@ MenuPage {
     property var twoInputs: false
     /*property alias text1: text1
     property alias text2: text2*/
+    title: titleText
 
     Description {
         id: planHeader

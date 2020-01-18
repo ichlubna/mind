@@ -1,40 +1,13 @@
 import QtQuick 2.4
 import ".."
 
-MenuPage {
-    id: distractionPage
-    property alias mathButton: mathButton
-    property alias gameButton: gameButton
-    property alias breath1Button: breath1Button
-    property alias breath2Button: breath2Button
-    property alias breath3Button: breath3Button
+Menu{
     title: qsTrId("distraction")
-
-   MenuColumn{
-        MenuButton {
-            id: mathButton
-            text: qsTrId("math")
-        }
-
-        MenuButton {
-            id: gameButton
-            text: qsTrId("game")
-        }
-
-        MenuButton {
-            id: breath1Button
-            text: qsTrId("breath1")
-        }
-
-        MenuButton {
-            id: breath2Button
-            text: qsTrId("breath2")
-        }
-
-        MenuButton {
-            id: breath3Button
-            text: qsTrId("breath3")
-        }
-
-    }
+    items: [{text: qsTrId("math"), file: "Games/Math.qml"},
+            {text: qsTrId("game"), file: "Games/Balls.qml"},
+            {text: qsTrId("breath1"), file: "Games/Breath1.qml"},
+            {text: qsTrId("breath2"), file: "Games/Breath2.qml"},
+            {text: qsTrId("breath3"), file: "Games/Breath3.qml"},
+            {text: qsTrId("relaxation"), file: "Player.qml", pushProperties: {"titleText" : qsTrId("relaxation"), "file" : "qrc:/audio/relaxCS.mp3"}, excluded: czOnly}
+            ]
 }

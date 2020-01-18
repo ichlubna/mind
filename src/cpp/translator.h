@@ -1,6 +1,7 @@
 #ifndef TRANSLATOR_H
 #define TRANSLATOR_H
 #include <QObject>
+#include <QSet>
 #include <QApplication>
 #include <QQmlApplicationEngine>
 #include <QTranslator>
@@ -27,6 +28,7 @@ public:
     ~TranslatorAdapter();
     void static connectToApp(QApplication *app ,QQmlApplicationEngine *engine, QString language);
     Q_INVOKABLE static QList<QString> getLanguages() {return instance->languages;}
+    Q_INVOKABLE static QList<QString> getLanguagesExcept(QList<QString> excluded) {return (instance->languages.toSet().subtract(excluded.toSet())).toList();}
     Q_INVOKABLE static void changeLanguage(QString language);
     Q_INVOKABLE static Translator *getInstance();
 private:

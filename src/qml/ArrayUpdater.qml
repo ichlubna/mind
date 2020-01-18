@@ -10,6 +10,8 @@ ArrayUpdaterForm {
     property var arrayNames: []
     //L - list, LC - list and checkbox, C - contacts
     property var type: "L"
+    property var headerText: ""
+    property var titleText: ""
 
     UserDataProvider {
         id: dataProvider
