@@ -31,8 +31,8 @@ SwipePage {
         background:
             Rectangle{
             anchors.fill: parent
-            border.color: "#10FFFFFF"
-            border.width: 10
+            border.color: "#0AFFFFFF"
+            border.width: 20
             radius: width*0.2
             color: "transparent"
                 Image {

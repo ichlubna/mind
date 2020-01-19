@@ -195,5 +195,6 @@
         <file>src/qml/MenuForm.ui.qml</file>
         <file>src/qml/Player.qml</file>
         <file>src/qml/PlayerForm.ui.qml</file>
+        <file>src/qml/Shadow.qml</file>
     </qresource>
 </RCC>

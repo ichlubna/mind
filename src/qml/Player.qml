@@ -4,6 +4,14 @@ import QtMultimedia 5.12
 PlayerForm {
     property var durationTime: ""
 
+    function msToTime(ms)
+    {
+        var seconds = ms/1000
+        var secondsRemainder = parseInt(seconds%60)
+        var minutes = parseInt(seconds/60)
+        return minutes.toString()+":"+secondsRemainder.toString().padStart(2,0)
+    }
+
     playButton.onClicked: {
         if (mediaPlayer.playbackState === MediaPlayer.PlayingState)
             mediaPlayer.pause();
@@ -16,14 +24,7 @@ PlayerForm {
     playButton.onPressed: {bckg.opacity = 1.0}
     playButton.onPressedChanged: {bckg.opacity = 0.7}
     timeSlider.onPressedChanged: {mediaPlayer.seek(timeSlider.value*mediaPlayer.duration)}
-
-    function msToTime(ms)
-    {
-        var seconds = ms/1000
-        var secondsRemainder = parseInt(seconds%60)
-        var minutes = parseInt(seconds/60)
-        return minutes.toString()+":"+secondsRemainder.toString().padStart(2,0)
-    }
+    timeSlider.onValueChanged: {timeText.text = msToTime(timeSlider.value*mediaPlayer.duration)+"/"+durationTime}
 
     Connections{
         target: mediaPlayer
@@ -37,9 +38,6 @@ PlayerForm {
             interval: 500; running: true; repeat: true
             onTriggered: {
                 if(!timeSlider.pressed)
-                {
-                    timeSlider.value = mediaPlayer.position/mediaPlayer.duration
-                    timeText.text = msToTime(mediaPlayer.position)+"/"+durationTime}
-                }
+                    timeSlider.value = mediaPlayer.position/mediaPlayer.duration}
         }
 }

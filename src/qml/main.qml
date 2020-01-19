@@ -71,17 +71,9 @@ ApplicationWindow {
             lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
         }
 
-        DropShadow {
+        Shadow {
               anchors.fill: headerColor
-              horizontalOffset: 8
-              verticalOffset: 8
-              radius: 15
-              transparentBorder: true
-              samples: 9
               source: headerColor
-              color: "black"
-              opacity: 0.35
-              z: -1
             }
 
         ToolButton {

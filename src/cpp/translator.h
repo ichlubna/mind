@@ -28,7 +28,7 @@ public:
     ~TranslatorAdapter();
     void static connectToApp(QApplication *app ,QQmlApplicationEngine *engine, QString language);
     Q_INVOKABLE static QList<QString> getLanguages() {return instance->languages;}
-    Q_INVOKABLE static QList<QString> getLanguagesExcept(QList<QString> excluded) {return (instance->languages.toSet().subtract(excluded.toSet())).toList();}
+    Q_INVOKABLE static QList<QString> getLanguagesExcept(QList<QString> excluded) {return (QSet<QString>(instance->languages.begin(), instance->languages.end()).subtract(QSet<QString>(excluded.begin(), excluded.end()))).values();}
     Q_INVOKABLE static void changeLanguage(QString language);
     Q_INVOKABLE static Translator *getInstance();
 private:
