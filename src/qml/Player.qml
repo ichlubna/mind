@@ -1,6 +1,8 @@
 import QtQuick 2.4
 import QtMultimedia 5.12
 
+import io.qt.UserDataProvider 1.0
+
 PlayerForm {
     property var durationTime: ""
 
@@ -40,4 +42,10 @@ PlayerForm {
                 if(!timeSlider.pressed)
                     timeSlider.value = mediaPlayer.position/mediaPlayer.duration}
         }
+
+
+    UserDataProvider {
+        id: dataProvider
+    }
+    warning.visible: (dataProvider.loadLanguage() === "SK")
 }

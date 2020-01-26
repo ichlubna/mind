@@ -9,7 +9,7 @@ MenuPage {
     property alias sprite: sprite
     property alias breathElement: breathElement
     property alias breathSlider: breathSlider
-    title: qsTrId("breath2")
+    title: qsTrId("breath") + " II"
 
     property int numberSize: 150
 

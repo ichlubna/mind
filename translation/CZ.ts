@@ -4,27 +4,26 @@
 <context>
     <name></name>
     <message id="home">
-        <location filename="../src/qml/HomeForm.ui.qml" line="16"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="9"/>
         <source></source>
         <translation>Home</translation>
     </message>
     <message id="food">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="120"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="12"/>
-        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="12"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="75"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="5"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="68"/>
         <source></source>
         <translation>Poruchy příjmu&lt;br&gt;potravy</translation>
     </message>
     <message id="food-breakfast">
         <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="16"/>
+        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="6"/>
         <source></source>
         <translation>Snídaně</translation>
     </message>
     <message id="food-am-snack">
         <location filename="../src/qml/Food/Dishes/AmSnackForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="20"/>
+        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="7"/>
         <source></source>
         <translation>Dopolední svačina</translation>
     </message>
@@ -42,20 +41,20 @@
         </translation>
     </message>
     <message id="food-lunch">
-        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="24"/>
+        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="8"/>
         <location filename="../src/qml/Food/Dishes/LunchForm.ui.qml" line="6"/>
         <source></source>
         <translation>Oběd</translation>
     </message>
     <message id="food-pm-snack">
-        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="29"/>
+        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="9"/>
         <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="6"/>
         <source></source>
         <translation>Odpolední svačina</translation>
     </message>
     <message id="food-dinner">
         <location filename="../src/qml/Food/Dishes/DinnerForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="34"/>
+        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="10"/>
         <source></source>
         <translation>Večeře</translation>
     </message>
@@ -97,25 +96,32 @@
         </translation>
     </message>
     <message id="food-tips">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="18"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="6"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="5"/>
         <source></source>
         <translation>Tipy</translation>
     </message>
     <message id="food-tasks">
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="22"/>
-        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="12"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="5"/>
         <source></source>
         <translation>Úkoly</translation>
     </message>
     <message id="distraction">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="11"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="31"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="5"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="9"/>
         <source></source>
         <translation>Odvedení pozornosti</translation>
     </message>
+    <message id="relaxation">
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="9"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="10"/>
+        <source></source>
+        <translation>Relaxace</translation>
+    </message>
     <message id="food-dishes">
-        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="11"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="26"/>
+        <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="5"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="8"/>
         <source></source>
         <translation>Ukázky jídelníčku</translation>
     </message>
@@ -136,19 +142,14 @@
         míchaná vajíčka na jarní cibulce, bageta se semínky, rajčatový salát
         </translation>
     </message>
-    <message id="help-contacts">
-        <location filename="../src/qml/HomeForm.ui.qml" line="91"/>
-        <source></source>
-        <translation>Kontakty na pomoc</translation>
-    </message>
     <message id="depression">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="10"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="43"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="5"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="36"/>
         <source></source>
         <translation>Deprese</translation>
     </message>
     <message id="depression-help">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="15"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="6"/>
         <location filename="../src/qml/Depression/HelpForm.ui.qml" line="6"/>
         <source></source>
         <translation>Co mi může pomoci</translation>
@@ -156,7 +157,7 @@
     <message id="depression-mood">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="100"/>
         <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="25"/>
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="20"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Sledování nálady</translation>
     </message>
@@ -166,8 +167,7 @@
         <translation>Smazat data</translation>
     </message>
     <message id="depression-plan">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="20"/>
-        <location filename="../src/qml/Depression/PlanForm.ui.qml" line="5"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="7"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="70"/>
         <source></source>
         <translation>Plánování aktivit</translation>
@@ -188,8 +188,7 @@
         <translation>Označit vše</translation>
     </message>
     <message id="depression-nice">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="25"/>
-        <location filename="../src/qml/Depression/NiceForm.ui.qml" line="5"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="8"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="50"/>
         <source></source>
         <translation>Co mě potěšilo</translation>
@@ -216,43 +215,34 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
             </translation>
     </message>
     <message id="anxiety-panic">
-        <location filename="../src/qml/HomeForm.ui.qml" line="51"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="13"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="44"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="5"/>
         <source></source>
         <translation>Úzkost&lt;br&gt;panika</translation>
     </message>
     <message id="self-harm">
-        <location filename="../src/qml/HomeForm.ui.qml" line="59"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="12"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="52"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="5"/>
         <source></source>
         <translation>Chci si&lt;br&gt;ublížit</translation>
     </message>
     <message id="suicidal-thoughts">
-        <location filename="../src/qml/HomeForm.ui.qml" line="67"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="13"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="60"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="5"/>
         <source></source>
         <translation>Myšlenky&lt;br&gt;na sebevraždu</translation>
     </message>
     <message id="my-records">
-        <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="8"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="76"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="5"/>
         <source></source>
         <translation>Mé záznamy</translation>
     </message>
     <message id="panicTips">
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="43"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="6"/>
         <location filename="../src/qml/Panic/TipsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Co dělat při úzkosti</translation>
-    </message>
-    <message id="breath1">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="26"/>
-        <location filename="../src/qml/Games/Breath1Form.ui.qml" line="11"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="18"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="17"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="23"/>
-        <source></source>
-        <translation>Dechové cvičení I</translation>
     </message>
     <message id="breathe-info">
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="14"/>
@@ -284,15 +274,6 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <source></source>
         <translation>Rychlost dechu</translation>
     </message>
-    <message id="breath2">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="31"/>
-        <location filename="../src/qml/Games/Breath2Form.ui.qml" line="12"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="23"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="22"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="28"/>
-        <source></source>
-        <translation>Dechové cvičení II</translation>
-    </message>
     <message id="breathe-hold">
         <location filename="../src/qml/Games/Breath2.qml" line="9"/>
         <location filename="../src/qml/Games/Breath3.qml" line="12"/>
@@ -300,9 +281,9 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Zadržet dech</translation>
     </message>
     <message id="math">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="16"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="6"/>
         <location filename="../src/qml/Games/MathForm.ui.qml" line="11"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="33"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="8"/>
         <source></source>
         <translation>Počítání</translation>
     </message>
@@ -312,44 +293,44 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Potvrdit</translation>
     </message>
     <message id="appName">
-        <location filename="../src/qml/main.qml" line="13"/>
+        <location filename="../src/qml/main.qml" line="14"/>
         <source></source>
         <translation>Nepanikař</translation>
     </message>
     <message id="resetInputs">
-        <location filename="../src/qml/main.qml" line="149"/>
+        <location filename="../src/qml/main.qml" line="153"/>
         <source></source>
         <translation>Vymazat uložená data</translation>
     </message>
     <message id="contactUs">
-        <location filename="../src/qml/main.qml" line="158"/>
+        <location filename="../src/qml/main.qml" line="162"/>
         <source></source>
         <translation>Kontaktujte nás</translation>
     </message>
     <message id="rate">
-        <location filename="../src/qml/main.qml" line="167"/>
+        <location filename="../src/qml/main.qml" line="171"/>
         <source></source>
         <translation>Ohodnoťte nás</translation>
     </message>
     <message id="web-link">
-        <location filename="../src/qml/main.qml" line="246"/>
+        <location filename="../src/qml/main.qml" line="250"/>
         <source></source>
         <translation>http://nepanikar.eu</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/main.qml" line="208"/>
+        <location filename="../src/qml/main.qml" line="212"/>
         <source></source>
         <translation>Ukončit</translation>
     </message>
     <message id="support">
         <location filename="../src/qml/Drawer/SupportForm.ui.qml" line="7"/>
-        <location filename="../src/qml/main.qml" line="181"/>
+        <location filename="../src/qml/main.qml" line="185"/>
         <source></source>
         <translation>Podpořili nás</translation>
     </message>
     <message id="center">
         <location filename="../src/qml/Contacts/CenterForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="21"/>
+        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="7"/>
         <source></source>
         <translation>Krizová centra</translation>
     </message>
@@ -418,7 +399,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     </message>
     <message id="chat">
         <location filename="../src/qml/Contacts/ChatForm.ui.qml" line="7"/>
-        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="26"/>
+        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="8"/>
         <source></source>
         <translation>Chat</translation>
     </message>
@@ -435,31 +416,31 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         </translation>
     </message>
     <message id="contacts">
-        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="11"/>
+        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="5"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="86"/>
         <source></source>
         <translation>Kontakty na pomoc</translation>
     </message>
     <message id="phone">
-        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="16"/>
+        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="6"/>
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="7"/>
         <source></source>
         <translation>Telefon</translation>
     </message>
     <message id="universities">
-        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="31"/>
+        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="9"/>
         <location filename="../src/qml/Contacts/UniversitiesForm.ui.qml" line="6"/>
         <source></source>
         <translation>Vysokoškolské poradny</translation>
     </message>
     <message id="my-contacts">
-        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="36"/>
-        <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="5"/>
+        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="10"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="130"/>
         <source></source>
         <translation>Moje kontakty</translation>
     </message>
     <message id="self-harm-tips">
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="32"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="6"/>
         <location filename="../src/qml/SelfHarm/TipsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Co mi může pomoci</translation>
@@ -467,7 +448,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     <message id="plan">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="60"/>
         <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="12"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="18"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="6"/>
         <source></source>
         <translation>Záchranný plán</translation>
     </message>
@@ -498,18 +479,17 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     </message>
     <message id="reasons">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="40"/>
-        <location filename="../src/qml/Suicide/ReasonsForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="38"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="7"/>
         <source></source>
         <translation>Důvody proč ne</translation>
     </message>
     <message id="reasons-text">
-        <location filename="../src/qml/Suicide/ReasonsForm.ui.qml" line="8"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="7"/>
         <source></source>
         <translation>Pokud budu žít, můžu ještě:</translation>
     </message>
     <message id="reasons-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="274"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="278"/>
         <source></source>
         <translation>
 Pomazlit se s domácím mazlíčkem (pejskem, kocourkem, morčetem)|
@@ -521,53 +501,53 @@ Pomáhat jiným
         </translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="279"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="283"/>
         <source></source>
         <translation>Komu napíšu...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="280"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="284"/>
         <source></source>
         <translation>Ahoj, právě prožívám náročné období, můžeme si promluvit?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="281"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="285"/>
         <source></source>
         <translation>Lidé, kterým na mě záleží</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="282"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="286"/>
         <source></source>
         <translation>Co udělám...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="283"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
         <source></source>
         <translation>Kam půjdu...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="291"/>
         <source></source>
         <translation>Nakoupím v obchodě</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="291"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="295"/>
         <source></source>
         <translation>Bylo krásné počasí...</translation>
     </message>
     <message id="praise-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="293"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="297"/>
         <source></source>
         <translation>Zvládl/a jsem si zacvičit</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="309"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="351"/>
         <source></source>
         <translation>
         </translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="317"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="359"/>
         <source></source>
         <translation>
 Umím být a chci být na sebe hodná/ý|
@@ -599,7 +579,7 @@ Ke každému prstu své ruky mohu přiřadit přítele/přítelkyni, který/á m
         </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="325"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="367"/>
         <source></source>
         <translation>
 Namaluj, jak si představuješ anorexii a ten obrázek roztrhej|
@@ -618,27 +598,27 @@ Udělej si nějakou novou dekoraci do pokoje
         </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="333"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="375"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="341"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="383"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="349"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="391"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="myContactsNames-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="359"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="401"/>
         <source></source>
         <translation>Jméno</translation>
     </message>
     <message id="myContactsNumbers-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="362"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="404"/>
         <source></source>
         <translation>Číslo nebo email</translation>
     </message>
@@ -711,7 +691,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
         </translation>
     </message>
     <message id="depression-plan-header">
-        <location filename="../src/qml/Depression/PlanForm.ui.qml" line="8"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="7"/>
         <source></source>
         <translation>Zde si napíšu co všechno plánuji udělat:</translation>
     </message>
@@ -727,7 +707,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
     </message>
     <message id="mlceni-link">
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="235"/>
+        <location filename="../src/qml/main.qml" line="239"/>
         <source></source>
         <translation>https://www.instagram.com/mlceninenireseni/</translation>
     </message>
@@ -736,9 +716,14 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
         <source></source>
         <translation>http://www.anabell.cz</translation>
     </message>
+    <message id="angeliny-link">
+        <location filename="../src/qml/Drawer/Support.qml" line="7"/>
+        <source></source>
+        <translation>https://angeliniaward.cz</translation>
+    </message>
     <message id="aboutApp">
         <location filename="../src/qml/Drawer/AboutAppForm.ui.qml" line="7"/>
-        <location filename="../src/qml/main.qml" line="199"/>
+        <location filename="../src/qml/main.qml" line="203"/>
         <source></source>
         <translation>O aplikaci</translation>
     </message>
@@ -750,7 +735,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
     <message id="custom-theme">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="90"/>
         <location filename="../src/qml/Drawer/CustomThemeForm.ui.qml" line="6"/>
-        <location filename="../src/qml/main.qml" line="190"/>
+        <location filename="../src/qml/main.qml" line="194"/>
         <source></source>
         <translation>Nastavení barev</translation>
     </message>
@@ -765,7 +750,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
         <translation>Zde upravte jas</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/main.qml" line="224"/>
+        <location filename="../src/qml/main.qml" line="228"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
@@ -785,19 +770,19 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
         <translation>Vaše nálada je dlouhodobě špatná, nechcete zvážit kontaktovat odbornou pomoc?</translation>
     </message>
     <message id="mood-help-yes">
-        <location filename="../src/qml/PopupWindow.qml" line="39"/>
+        <location filename="../src/qml/PopupWindow.qml" line="47"/>
         <source></source>
         <translation>Ano</translation>
     </message>
     <message id="mood-help-no">
-        <location filename="../src/qml/PopupWindow.qml" line="47"/>
+        <location filename="../src/qml/PopupWindow.qml" line="56"/>
         <source></source>
         <translation>Ne</translation>
     </message>
     <message id="game">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="21"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="7"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="38"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="9"/>
         <source></source>
         <translation>Hra</translation>
     </message>
@@ -808,7 +793,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
     </message>
     <message id="food-contact">
         <location filename="../src/qml/Food/ContactForm.ui.qml" line="7"/>
-        <location filename="../src/qml/Food/FoodForm.ui.qml" line="36"/>
+        <location filename="../src/qml/Food/FoodForm.ui.qml" line="10"/>
         <source></source>
         <translation>Kontakty na pomoc</translation>
     </message>
@@ -819,31 +804,31 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
     </message>
     <message id="food-remorse">
         <location filename="../src/qml/Food/Tips/AdvicesForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="21"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="7"/>
         <source></source>
         <translation>Výčitky po jídle</translation>
     </message>
     <message id="food-overeat">
         <location filename="../src/qml/Food/Tips/OvereatForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="25"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="8"/>
         <source></source>
         <translation>Záchvat přejídání</translation>
     </message>
     <message id="food-vomit">
-        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="29"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="9"/>
         <location filename="../src/qml/Food/Tips/VomitForm.ui.qml" line="6"/>
         <source></source>
         <translation>Nutkání cvičit/zvracet</translation>
     </message>
     <message id="food-fail">
         <location filename="../src/qml/Food/Tips/FailForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="34"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="10"/>
         <source></source>
         <translation>Selhávám</translation>
     </message>
     <message id="food-misc">
         <location filename="../src/qml/Food/Tips/MiscForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="39"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="11"/>
         <source></source>
         <translation>Obecné</translation>
     </message>
@@ -963,63 +948,57 @@ Nejsem na to sám/sama|
     </message>
     <message id="food-figure">
         <location filename="../src/qml/Food/Tips/FigureForm.ui.qml" line="6"/>
-        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="17"/>
+        <location filename="../src/qml/Food/Tips/TipsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Postava</translation>
     </message>
     <message id="food-tasks-creative">
-        <location filename="../src/qml/Food/Tasks/CreativeForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="17"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="6"/>
         <source></source>
         <translation>Kreativní</translation>
     </message>
     <message id="food-tasks-motivation">
-        <location filename="../src/qml/Food/Tasks/MotivationForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="21"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="7"/>
         <source></source>
         <translation>Motivace</translation>
     </message>
     <message id="food-motivation-header">
-        <location filename="../src/qml/Food/Tasks/MotivationForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="7"/>
         <source></source>
         <translation>Vytvořím si seznam věcí, pro které chci být zdravý/á.</translation>
     </message>
     <message id="food-tasks-challenge">
-        <location filename="../src/qml/Food/Tasks/ChallengeForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="25"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="8"/>
         <source></source>
         <translation>Výzvy</translation>
     </message>
     <message id="food-tasks-like">
-        <location filename="../src/qml/Food/Tasks/LikeForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="30"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="9"/>
         <source></source>
         <translation>Co mám na sobě rád/a</translation>
     </message>
     <message id="food-like-header">
-        <location filename="../src/qml/Food/Tasks/LikeForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="9"/>
         <source></source>
         <translation>Sem si napíšu seznam věcí, které mám na sobe rád/a</translation>
     </message>
     <message id="food-tasks-food-like">
-        <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="35"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="10"/>
         <source></source>
         <translation>Jídlo, které mám rád/a</translation>
     </message>
     <message id="food-food-like-header">
-        <location filename="../src/qml/Food/Tasks/FoodLikeForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="10"/>
         <source></source>
         <translation>Sem si napíšu seznam jídel, které mám rád/a</translation>
     </message>
     <message id="food-tasks-afraid">
-        <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="5"/>
-        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="40"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="11"/>
         <source></source>
         <translation>Jídla, kterých se bojím</translation>
     </message>
     <message id="food-afraid-header">
-        <location filename="../src/qml/Food/Tasks/AfraidForm.ui.qml" line="8"/>
+        <location filename="../src/qml/Food/Tasks/TasksForm.ui.qml" line="11"/>
         <source></source>
         <translation>Do tohoto seznamu se napiš seznam “zakázaných“ potravin a každý týden jednu potravinu vyzkoušej a odškrtni si ji na seznamu.</translation>
     </message>
@@ -1074,28 +1053,18 @@ Nejsem na to sám/sama|
         </translation>
     </message>
     <message id="depression-nice-header">
-        <location filename="../src/qml/Depression/NiceForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="8"/>
         <source></source>
         <translation>Zde mohu napsat co mi dnes udělalo radost:</translation>
     </message>
-    <message id="breath3">
-        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="36"/>
-        <location filename="../src/qml/Games/Breath3Form.ui.qml" line="17"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="28"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="27"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="33"/>
-        <source></source>
-        <translation>Dechové cvičení III</translation>
-    </message>
     <message id="depression-praise">
-        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="30"/>
-        <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="5"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="9"/>
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="80"/>
         <source></source>
         <translation>Moje úspěchy</translation>
     </message>
     <message id="depression-praise-header">
-        <location filename="../src/qml/Depression/PraiseForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="9"/>
         <source></source>
         <translation>Zde si mohu napsat pochvalu za to, co se mi povedlo:</translation>
     </message>
@@ -1150,7 +1119,7 @@ Nejsem na to sám/sama|
         </translation>
     </message>
     <message id="my-contacts-header">
-        <location filename="../src/qml/Contacts/MyContactsForm.ui.qml" line="8"/>
+        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="10"/>
         <source></source>
         <translation>Zde si mohu poznačit vlastní kontakty a napsat jim email, sms či zavolat.</translation>
     </message>
@@ -1158,7 +1127,7 @@ Nejsem na to sám/sama|
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="140"/>
         <location filename="../src/qml/MyRecords/DiaryForm.ui.qml" line="12"/>
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="12"/>
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="7"/>
         <source></source>
         <translation>Deník</translation>
     </message>
@@ -1171,6 +1140,21 @@ Nejsem na to sám/sama|
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="60"/>
         <source></source>
         <translation>Chcete skutečně provést tuto akci?</translation>
+    </message>
+    <message id="breath">
+        <location filename="../src/qml/BreathForm.ui.qml" line="4"/>
+        <location filename="../src/qml/BreathForm.ui.qml" line="5"/>
+        <location filename="../src/qml/BreathForm.ui.qml" line="6"/>
+        <location filename="../src/qml/BreathForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Food/DistractionForm.ui.qml" line="8"/>
+        <location filename="../src/qml/Games/Breath1Form.ui.qml" line="11"/>
+        <location filename="../src/qml/Games/Breath2Form.ui.qml" line="12"/>
+        <location filename="../src/qml/Games/Breath3Form.ui.qml" line="17"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="7"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="8"/>
+        <source></source>
+        <translation>Dechové cvičení</translation>
     </message>
 </context>
 </TS>

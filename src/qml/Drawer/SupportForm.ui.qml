@@ -8,7 +8,7 @@ MenuPage {
     property alias mlceniLink: mlceniLink
     property alias dusiLink: dusiLink
     property alias anabellLink: anabellLink
-
+    property alias angelinyLink: angelinyLink
 
     GridLayout {
         anchors.fill: parent
@@ -53,47 +53,19 @@ MenuPage {
             }
         }
 
+        Image {
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            Layout.preferredWidth: parent.width
+            Layout.columnSpan: 2
+            source: "qrc:/images/angeliny.svg"
+            fillMode: Image.PreserveAspectFit
+            MouseArea {
+                id: angelinyLink
+                anchors.fill: parent
+            }
+        }
+
    }
 
-   /* Column {
-        anchors.topMargin: 10
-        anchors.fill: parent
-        transformOrigin: Item.Center
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.verticalCenter: parent.verticalCenter
-        spacing: parent.height * 0.1
-
-        Image {
-            height: parent.height * 0.25
-            source: "qrc:/images/dusi.svg"
-            fillMode: Image.PreserveAspectFit
-            anchors.horizontalCenter: parent.horizontalCenter
-            MouseArea {
-                id: dusiLink
-                anchors.fill: parent
-            }
-        }
-
-        Image {
-            height: parent.height * 0.25
-            source: "qrc:/images/mlceni.svg"
-            fillMode: Image.PreserveAspectFit
-            anchors.horizontalCenter: parent.horizontalCenter
-            MouseArea {
-                id: mlceniLink
-                anchors.fill: parent
-            }
-        }
-
-        Image {
-            height: parent.height * 0.25
-            source: "qrc:/images/anabell/logo.svg"
-            fillMode: Image.PreserveAspectFit
-            anchors.horizontalCenter: parent.horizontalCenter
-            MouseArea {
-                id: anabellLink
-                anchors.fill: parent
-            }
-        }
-    }*/
 }

@@ -249,9 +249,8 @@ float UserDataProvider::loadFloatInput(QString id)
 QString UserDataProvider::loadLanguage()
 {
     if (!settings.contains("language"))
-        return QString("UNKNOWN");
-    else
-        return settings.value("language").toString();
+        resetInputs(false,false,false,false,false,false,true,false,false,false,false);
+    return settings.value("language").toString();
 }
 
 

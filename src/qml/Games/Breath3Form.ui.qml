@@ -14,7 +14,7 @@ MenuPage {
     property alias breathSlider: breathSlider
     property alias breathElement: breathElement
     property alias number: number
-    title: qsTrId("breath3")
+    title: qsTrId("breath") + " III"
 
     property int numberSize: 150
 

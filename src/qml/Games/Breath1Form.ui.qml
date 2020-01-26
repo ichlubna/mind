@@ -8,7 +8,7 @@ MenuPage {
     property alias breathIn: breathIn
     property alias breathOut: breathOut
     property alias breathSlider: breathSlider
-    title: qsTrId("breath1")
+    title: qsTrId("breath") + " I"
 
     Description {
         text: qsTrId("breathe-info")

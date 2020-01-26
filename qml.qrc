@@ -33,6 +33,7 @@
         <file>images/IT.svg</file>
         <file>images/ES.svg</file>
         <file>images/DE.svg</file>
+        <file>images/RU.svg</file>
         <file>images/emoticon1.svg</file>
         <file>images/emoticon2.svg</file>
         <file>images/emoticon3.svg</file>
@@ -49,6 +50,7 @@
         <file>images/mlceni.svg</file>
         <file>images/phone.svg</file>
         <file>images/sms.svg</file>
+        <file>images/angeliny.svg</file>
         <file>src/qml/AddButton.qml</file>
         <file>src/qml/ArrayUpdater.qml</file>
         <file>src/qml/ArrayUpdaterForm.ui.qml</file>
@@ -196,5 +198,7 @@
         <file>src/qml/Player.qml</file>
         <file>src/qml/PlayerForm.ui.qml</file>
         <file>src/qml/Shadow.qml</file>
+        <file>src/qml/Breath.qml</file>
+        <file>src/qml/BreathForm.ui.qml</file>
     </qresource>
 </RCC>

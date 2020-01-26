@@ -58,4 +58,15 @@ SwipePage {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.topMargin: 10
     }
+
+    property alias warning: warning
+    Description{
+        id: warning
+        text: ("Upozorňujeme,že relaxácia je v českom jazyku!")
+        anchors.top: timeSlider.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        verticalAlignment: Text.AlignBottom
+        visible: false
+        font.pointSize: 15
+    }
 }

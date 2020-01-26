@@ -5,9 +5,7 @@ Menu{
     title: qsTrId("distraction")
     items: [{text: qsTrId("math"), file: "Games/Math.qml"},
             {text: qsTrId("game"), file: "Games/Balls.qml"},
-            {text: qsTrId("breath1"), file: "Games/Breath1.qml"},
-            {text: qsTrId("breath2"), file: "Games/Breath2.qml"},
-            {text: qsTrId("breath3"), file: "Games/Breath3.qml"},
-            {text: qsTrId("relaxation"), file: "Player.qml", pushProperties: {"titleText" : qsTrId("relaxation"), "file" : "qrc:/audio/relaxCS.mp3"}, excluded: czOnly}
+            {text: qsTrId("breath"), file: "Breath.qml"},
+            {text: qsTrId("relaxation"), file: "Player.qml", pushProperties: {"titleText" : qsTrId("relaxation"), "file" : "qrc:/audio/relaxCS.mp3"}, excluded: czSkOnly}
             ]
 }
