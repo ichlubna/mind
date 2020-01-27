@@ -7,22 +7,16 @@ MenuPage {
     property alias exercise: exercise
     property alias submitButton: submitButton
     property alias answer: answer
-    property alias vignetteColor: vignetteColor
+    property alias anim: anim
     title: qsTrId("math")
 
     Image {
-            id: vignette
+            id: anim
             anchors.fill: parent
-            source: "qrc:/images/vignette.svg"
+            fillMode: Image.PreserveAspectFit
             opacity: 0.0
 
     }
-    ColorOverlay {
-            id: vignetteColor
-            anchors.fill: vignette
-            source: vignette
-            opacity: 0.0
-        }
 
     Description{
         id: exercise

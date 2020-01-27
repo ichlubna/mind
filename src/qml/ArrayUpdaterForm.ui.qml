@@ -32,7 +32,7 @@ MenuPage {
 
         GridLayout {
             anchors.fill: parent
-            columns: 3
+            columns: (type === "L") ? 2 : 3
 
             Repeater {
                 id: itemListC
@@ -91,7 +91,7 @@ MenuPage {
                     Layout.preferredWidth: parent.width
                     Layout.preferredHeight: (twoInputs) ? text1.height+text2.height : text1.height
                     Layout.row: index
-                    Layout.column: 1
+                    Layout.column: (type === "L") ? 0 : 1
                     Layout.fillWidth: true
                     MenuTextArea {
                         id: text1
@@ -117,7 +117,7 @@ MenuPage {
                     Layout.preferredWidth: parent.width * col3WRatio
                     Layout.preferredHeight: parent.width * col3WRatio
                     Layout.row: index
-                    Layout.column: 2
+                    Layout.column: (type === "L") ? 1 : 2
                     Layout.rightMargin: 10
                     MouseArea {
                         anchors.fill: parent

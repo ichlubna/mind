@@ -6,9 +6,9 @@ MathForm{
     exercise.text: mathEngine.getNewExercise()
 
     OpacityAnimator {
-         id: vignetteAnimator
-         target: vignetteColor;
-         from: 1.0;
+         id: animator
+         target: anim;
+         from: 0.7;
          to: 0.0;
          duration: 1500
          running: false
@@ -19,12 +19,12 @@ MathForm{
         if(mathEngine.submitResult(answer.text))
         {
             exercise.text = mathEngine.getNewExercise();
-            vignetteColor.color = "#00ff00";
+            anim.source = "qrc:/images/tick.svg";
         }
         else
-            vignetteColor.color = "#ff0000";
+            anim.source = "qrc:/images/delete.svg";
 
-       vignetteAnimator.start();
+       animator.start();
        answer.text = ""
     }
     submitButton.onClicked: validateAnswer()
