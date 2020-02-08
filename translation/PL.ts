@@ -246,9 +246,6 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
     </message>
     <message id="breath">
         <location filename="../src/qml/BreathForm.ui.qml" line="4"/>
-        <location filename="../src/qml/BreathForm.ui.qml" line="5"/>
-        <location filename="../src/qml/BreathForm.ui.qml" line="6"/>
-        <location filename="../src/qml/BreathForm.ui.qml" line="7"/>
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="8"/>
         <location filename="../src/qml/Games/Breath1Form.ui.qml" line="11"/>
         <location filename="../src/qml/Games/Breath2Form.ui.qml" line="12"/>
@@ -256,6 +253,13 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="7"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="7"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="8"/>
+        <source></source>
+        <translation>Ćwiczenia oddechowe</translation>
+    </message>
+    <message id="breath-one">
+        <location filename="../src/qml/BreathForm.ui.qml" line="5"/>
+        <location filename="../src/qml/BreathForm.ui.qml" line="6"/>
+        <location filename="../src/qml/BreathForm.ui.qml" line="7"/>
         <source></source>
         <translation>Ćwiczenia oddechowe</translation>
     </message>
@@ -303,7 +307,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <translation>Liczenie</translation>
     </message>
     <message id="submit">
-        <location filename="../src/qml/Games/MathForm.ui.qml" line="33"/>
+        <location filename="../src/qml/Games/MathForm.ui.qml" line="27"/>
         <source></source>
         <translation>Potwierdź</translation>
     </message>

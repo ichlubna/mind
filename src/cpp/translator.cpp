@@ -1,5 +1,5 @@
 #include "translator.h"
-QList<QString> Translator::languages{"CZ", "SK", "PL", "FR", "EN", "IT", "ES"};
+QList<QString> Translator::languages{"CZ", "SK", "PL", "FR", "EN", "IT", "ES", "RU"};
 Translator *TranslatorAdapter::instance = nullptr;
 
 Translator::Translator()

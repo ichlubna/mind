@@ -7,6 +7,6 @@ Menu{
             {text: qsTrId("food-tasks"), file: "Food/Tasks/Tasks.qml"},
             {text: qsTrId("food-dishes"), file: "Food/Dishes/Dishes.qml"},
             {text: qsTrId("distraction"), file: "Food/Distraction.qml"},
-            {text: qsTrId("food-contact"), file: "Food/Contact.qml", excluded: czSkOnly},
+            {text: qsTrId("food-contact"), file: "Food/Contact.qml", excluded: czSkRuOnly},
             ]
 }

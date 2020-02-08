@@ -5,6 +5,7 @@ import QtQuick.Layouts 1.12
 
 MenuPage {
     id: homePage
+    property var buttonHeight: 5
     property alias logo: logo
     title: qsTrId("home")
 
@@ -32,6 +33,7 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
+            Layout.preferredHeight: parent.height / buttonHeight
             target: "Depression/Depression.qml"
             text: qsTrId("depression")
         }
@@ -40,6 +42,7 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
+            Layout.preferredHeight: parent.height / buttonHeight
             target: "Panic/Panic.qml"
             text: qsTrId("anxiety-panic")
         }
@@ -48,6 +51,7 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
+            Layout.preferredHeight: parent.height / buttonHeight
             target: "SelfHarm/SelfHarm.qml"
             text: qsTrId("self-harm")
         }
@@ -56,6 +60,7 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
+            Layout.preferredHeight: parent.height / buttonHeight
             target: "Suicide/Suicide.qml"
             text: qsTrId("suicidal-thoughts")
         }
@@ -64,6 +69,7 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
+            Layout.preferredHeight: parent.height / buttonHeight
             target: "Food/Food.qml"
             text: qsTrId("food")
         }
@@ -72,6 +78,7 @@ MenuPage {
             Layout.fillHeight: true
             Layout.fillWidth: true
             Layout.preferredWidth: parent.width / 2
+            Layout.preferredHeight: parent.height / buttonHeight
             target: "MyRecords/MyRecords.qml"
             text: qsTrId("my-records")
         }

@@ -5,35 +5,50 @@ import QtGraphicalEffects 1.0
 
 Button {
     property var target: ""
-    property alias bckg:bckg
+    property alias bckg: bckg
     property var pushProperties: ({})
 
     width: parent.width
-    background:  Rectangle {
+    background: Rectangle {
         id: bckg
         color: "#9a9a9a"
         radius: 10
         z: 5
-        visible:false
+        visible: false
     }
     Colorize {
         anchors.fill: parent
         source: bckg
         hue: ThemeInfo.hueValue
         saturation: 0.7
-        lightness: ThemeInfo.backgroundLightness-ThemeInfo.elementSubtractor
+        lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
         opacity: 0.8
     }
 
     focusPolicy: Qt.StrongFocus
     padding: 20
-    font.capitalization: Font.AllUppercase
-    font.pointSize: 15
-    onPressed: {bckg.color="#808080"}
-    onPressedChanged:  {bckg.color="#9a9a9a"}
-    onClicked: if(target != "") stackView.push(target, pushProperties)
+    onPressed: {
+        bckg.color = "#808080"
+    }
+    onPressedChanged: {
+        bckg.color = "#9a9a9a"
+    }
+    onClicked: if (target != "")
+                   stackView.push(target, pushProperties)
 
-    Shadow{
+    contentItem: Text {
+        text: parent.text
+        minimumPointSize: 10
+        fontSizeMode: Text.Fit
+        font.pointSize: 20
+        horizontalAlignment: Text.AlignHCenter
+        verticalAlignment: Text.AlignVCenter
+        wrapMode: Text.WordWrap
+        font.capitalization: Font.AllUppercase
+        color: "white"
+    }
+
+    Shadow {
         anchors.fill: bckg
         source: bckg
     }
