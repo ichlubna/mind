@@ -1,2 +1,3 @@
 #!/bin/bash
 lrelease -idbased ../Mind.pro
+rm *.json

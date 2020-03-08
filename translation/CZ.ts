@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="cs_CZ">
+<TS version="2.1" language="de_DE">
 <context>
     <name></name>
     <message id="home">
-        <location filename="../src/qml/HomeForm.ui.qml" line="9"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="10"/>
         <source></source>
         <translation>Home</translation>
     </message>
     <message id="food">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="120"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="5"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="68"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="74"/>
         <source></source>
         <translation>Poruchy příjmu&lt;br&gt;potravy</translation>
     </message>
@@ -144,7 +144,7 @@
     </message>
     <message id="depression">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="5"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="36"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="38"/>
         <source></source>
         <translation>Deprese</translation>
     </message>
@@ -215,25 +215,25 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
             </translation>
     </message>
     <message id="anxiety-panic">
-        <location filename="../src/qml/HomeForm.ui.qml" line="44"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="47"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="5"/>
         <source></source>
         <translation>Úzkost&lt;br&gt;panika</translation>
     </message>
     <message id="self-harm">
-        <location filename="../src/qml/HomeForm.ui.qml" line="52"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="56"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="5"/>
         <source></source>
         <translation>Chci si&lt;br&gt;ublížit</translation>
     </message>
     <message id="suicidal-thoughts">
-        <location filename="../src/qml/HomeForm.ui.qml" line="60"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="65"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="5"/>
         <source></source>
         <translation>Myšlenky&lt;br&gt;na sebevraždu</translation>
     </message>
     <message id="my-records">
-        <location filename="../src/qml/HomeForm.ui.qml" line="76"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="5"/>
         <source></source>
         <translation>Mé záznamy</translation>
@@ -417,7 +417,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
     </message>
     <message id="contacts">
         <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="5"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="86"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="93"/>
         <source></source>
         <translation>Kontakty na pomoc</translation>
     </message>
@@ -489,7 +489,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Pokud budu žít, můžu ještě:</translation>
     </message>
     <message id="reasons-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="278"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="281"/>
         <source></source>
         <translation>
 Pomazlit se s domácím mazlíčkem (pejskem, kocourkem, morčetem)|
@@ -501,53 +501,53 @@ Pomáhat jiným
         </translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="283"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="286"/>
         <source></source>
         <translation>Komu napíšu...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="284"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
         <source></source>
         <translation>Ahoj, právě prožívám náročné období, můžeme si promluvit?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="285"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="288"/>
         <source></source>
         <translation>Lidé, kterým na mě záleží</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="286"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="289"/>
         <source></source>
         <translation>Co udělám...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="290"/>
         <source></source>
         <translation>Kam půjdu...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="291"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="294"/>
         <source></source>
         <translation>Nakoupím v obchodě</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="295"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="298"/>
         <source></source>
         <translation>Bylo krásné počasí...</translation>
     </message>
     <message id="praise-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="297"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="300"/>
         <source></source>
         <translation>Zvládl/a jsem si zacvičit</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="351"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="354"/>
         <source></source>
         <translation>
         </translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="359"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="362"/>
         <source></source>
         <translation>
 Umím být a chci být na sebe hodná/ý|
@@ -579,7 +579,7 @@ Ke každému prstu své ruky mohu přiřadit přítele/přítelkyni, který/á m
         </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="367"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="370"/>
         <source></source>
         <translation>
 Namaluj, jak si představuješ anorexii a ten obrázek roztrhej|
@@ -598,27 +598,27 @@ Udělej si nějakou novou dekoraci do pokoje
         </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="375"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="378"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="383"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="386"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="391"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="394"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="myContactsNames-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="401"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="404"/>
         <source></source>
         <translation>Jméno</translation>
     </message>
     <message id="myContactsNumbers-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="404"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="407"/>
         <source></source>
         <translation>Číslo nebo email</translation>
     </message>

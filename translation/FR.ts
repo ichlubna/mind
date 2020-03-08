@@ -4,14 +4,14 @@
 <context>
     <name></name>
     <message id="home">
-        <location filename="../src/qml/HomeForm.ui.qml" line="9"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="10"/>
         <source></source>
         <translation>Home</translation>
     </message>
     <message id="food">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="120"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="5"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="68"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="74"/>
         <source></source>
         <translation>Trouble de&lt;br&gt;l&apos;alimentation</translation>
     </message>
@@ -144,7 +144,7 @@
     </message>
     <message id="depression">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="5"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="36"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="38"/>
         <source></source>
         <translation>La dépression</translation>
     </message>
@@ -215,25 +215,25 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
             </translation>
     </message>
     <message id="anxiety-panic">
-        <location filename="../src/qml/HomeForm.ui.qml" line="44"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="47"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="5"/>
         <source></source>
         <translation>Anxieté&lt;br&gt;et panique</translation>
     </message>
     <message id="self-harm">
-        <location filename="../src/qml/HomeForm.ui.qml" line="52"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="56"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="5"/>
         <source></source>
         <translation>Je veux&lt;br&gt;me mutiler</translation>
     </message>
     <message id="suicidal-thoughts">
-        <location filename="../src/qml/HomeForm.ui.qml" line="60"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="65"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="5"/>
         <source></source>
         <translation>Pensées&lt;br&gt;suicidaires</translation>
     </message>
     <message id="my-records">
-        <location filename="../src/qml/HomeForm.ui.qml" line="76"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="5"/>
         <source></source>
         <translation>Mes records</translation>
@@ -376,7 +376,7 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
     </message>
     <message id="contacts">
         <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="5"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="86"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="93"/>
         <source></source>
         <translation>Pour obtenir l’aide</translation>
     </message>
@@ -448,7 +448,7 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
         <translation>Si je survis, je peux encore:</translation>
     </message>
     <message id="reasons-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="278"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="281"/>
         <source></source>
         <translation>
 Caresser mon animal (chat, chien, lapin)|
@@ -460,52 +460,52 @@ Aider les autres
         </translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="283"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="286"/>
         <source></source>
         <translation>À qui j&apos;écrirai...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="284"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
         <source></source>
         <translation>Salut, je passe un moment difficile, pouvons-nous parler?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="285"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="288"/>
         <source></source>
         <translation>Les gens qui m&apos;intéressent</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="286"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="289"/>
         <source></source>
         <translation>Ce que je fais...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="290"/>
         <source></source>
         <translation>Où je vais...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="291"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="294"/>
         <source></source>
         <translation>Faire les courses</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="295"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="298"/>
         <source></source>
         <translation>Était beau temps...</translation>
     </message>
     <message id="praise-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="297"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="300"/>
         <source></source>
         <translation>J&apos;ai fait mon exercice quotidien</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="351"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="354"/>
         <source></source>
         <translation>La nourriture dont j&apos;ai peur</translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="359"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="362"/>
         <source></source>
         <translation>
         Je veux être et je sais être gentil avec moi-même |
@@ -537,7 +537,7 @@ Aider les autres
 </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="367"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="370"/>
         <source></source>
         <translation>
         Dessinez une image de votre maladie et déchirez le papier.|
@@ -556,27 +556,27 @@ Aider les autres
 </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="375"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="378"/>
         <source></source>
         <translation>La nourriture que j&apos;aime</translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="383"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="386"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="391"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="394"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="myContactsNames-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="401"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="404"/>
         <source></source>
         <translation>Nom</translation>
     </message>
     <message id="myContactsNumbers-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="404"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="407"/>
         <source></source>
         <translation>Numéro de téléphone ou e-mail</translation>
     </message>

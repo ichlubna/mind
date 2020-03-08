@@ -38,9 +38,9 @@ Button {
 
     contentItem: Text {
         text: parent.text
-        minimumPointSize: 10
+        minimumPointSize: 13
         fontSizeMode: Text.Fit
-        font.pointSize: 20
+        font.pointSize: 15
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
