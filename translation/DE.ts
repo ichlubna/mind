@@ -379,63 +379,16 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         <location filename="../src/qml/Contacts/CenterForm.ui.qml" line="7"/>
         <source></source>
         <translation>
-        &lt;h2&gt;Praha a StÅedoÄeskÃ½ kraj&lt;/h2&gt;
-        &lt;p&gt;Praha (KC Bohnice)&lt;br /&gt;ÃstavnÃ­ 91&lt;br /&gt; 181 02 Praha 8 &lt;br /&gt;&lt;a href=&quot;https://www.bohnice.cz/krizova-pomoc/&quot;&gt;bohnice.cz/krizova-pomoc&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Praha (RIAPS)&lt;br /&gt;ChelÄickÃ©ho 39&lt;br /&gt; 130 00 Praha 3&lt;br /&gt;&lt;a href=&quot;https://www.csspraha.cz/24829-krizove-centrum-riaps&quot;&gt;csspraha.cz/24829-krizove-centrum-riaps&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;DÄtskÃ© krizovÃ© centrum&lt;br /&gt;VzÃ¡polÃ­ 1250/21&lt;br /&gt; Praha 4 &lt;br /&gt;&lt;a href=&quot;http://www.ditekrize.cz&quot;&gt;ditekrize.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Acorus - krizovÃ¡ pomoc&lt;br /&gt; DÄlnickÃ¡ 213/12&lt;br /&gt; 170 00 Praha 7&lt;br /&gt;&lt;a href=&quot;http://www.acorus.cz&quot;&gt;acorus.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Aqua vitae&lt;br /&gt;AmerickÃ¡ 21&lt;br /&gt; 120 00 Praha &lt;br /&gt;&lt;a href=&quot;http://www.linkapomoci.cz&quot;&gt;linkapomoci.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;DÅ¯m PÅemysla Pittra pro dÄti&lt;br /&gt;KarlovarskÃ¡ 18&lt;br /&gt; 161 00 Praha&lt;br /&gt;&lt;a href=&quot;http://www.dumtriprani.cz&quot;&gt;dumtriprani.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;ModrÃ© dveÅe - Praha&lt;br /&gt;K HorkÃ¡m 23/16&lt;br /&gt; 102 00, Praha 10 HostivaÅ&lt;br /&gt;&lt;a href=&quot;http://www.modredvere.cz/cz/modre-dvere-praha&quot;&gt;modredvere.cz/cz/modre-dvere-praha&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;ModrÃ© dveÅe - ÅÃ­Äany&lt;br /&gt;ul.TyrÅ¡e a FÃ¼gnera 105/7&lt;br /&gt; 251 01, ÅÃ­Äany&lt;br /&gt;&lt;a href=&quot;http://www.modredvere.cz/cz/modre-dvere-ricany&quot;&gt;modredvere.cz/cz/modre-dvere-ricany&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;SOS centrum Diakonie ÄCE - SKP&lt;br /&gt;VarÅ¡avskÃ¡ 738/37&lt;br /&gt; 120 00, Vinohrady - Praha 2&lt;br /&gt;&lt;a href=&quot;http://www.soscentrum.cz&quot;&gt;soscentrum.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;h2&gt;Deutschland&lt;/h2&gt;
+        &lt;p&gt;TelefonSeelsorge&lt;br /&gt;&lt;a href=&quot;https://www.telefonseelsorge.de&quot;&gt;telefonseelsorge.de&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Psychiatrisches Zentrum Nordbadenn&lt;br /&gt;Heidelberger Str. 1a&lt;br /&gt;69168 Wiesloch&lt;br /&gt;&lt;a href=&quot;https://www.pzn-wiesloch.de&quot;&gt;pzn-wiesloch.de&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Psychiatrisches Zentrum AR&lt;br /&gt;Krombach, Postfach&lt;br /&gt;9101 Herisau&lt;br /&gt;&lt;a href=&quot;https://www.spitalverbund.ch/pza/home-pza/&quot;&gt;spitalverbund.ch&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Fachkrankenhaus fuer Psychiatrie und Psychotherapie&lt;br /&gt;Johannesallee&lt;br /&gt;24848 Kropp&lt;br /&gt;&lt;a href=&quot;https://www.diakonie-kropp.de/unternehmen/diakoniewerk-kropp/psychiatrisches-zentrum/&quot;&gt;diakonie-kropp.de&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Zentrum f&uuml;r Psychiatrie Emmendingen&lt;br /&gt;Neubronnstra&szlig;e 25&lt;br /&gt;79312 Emmendingen&lt;br /&gt;&lt;a href=&quot;https://www.zfp-emmendingen.de/&quot;&gt;zfp-emmendingen.de&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Zentrum f&uuml;r Psychiatrie Calw - Klinikum Nordschwarzwald&lt;br /&gt;Im L&uuml;tzenhardter Hof&lt;br /&gt;75365 Calw&lt;br /&gt;&lt;a href=&quot;https://www.zfp-emmendingen.de/&quot;&gt;zfp-emmendingen.de&lt;/a&gt;&lt;/p&gt;
         |
-        &lt;h2&gt;JihomoravskÃ½ kraj&lt;/h2&gt;
-        &lt;p&gt;Brno (centrum krizovÃ© intervence)&lt;br /&gt;JihlavskÃ¡ 20&lt;br /&gt; 625 00 Brno &lt;br /&gt;&lt;a href=&quot;http://psychiatrie.med.muni.cz/index.php?pg=zdravotnicka-pece--oddeleni#kc&quot;&gt;psychiatrie.med.muni.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;KrizovÃ© centrum&lt;br /&gt; pro dÄti a dospÃ­vajÃ­cÃ­&lt;br /&gt;Hapalova 4&lt;br /&gt; 621 00 Brno&lt;br /&gt;&lt;a href=&quot;http://www.krizovecentrum.cz&quot;&gt;krizovecentrum.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Okno dokoÅÃ¡n Blansko&lt;br /&gt; KrizovÃ¡ pomoc&lt;br /&gt;KomenskÃ©ho 19&lt;br /&gt; 678 01 Blansko&lt;br /&gt;&lt;a href=&quot;http://www.blansko.caritas.cz&quot;&gt;blansko.caritas.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;SPONDEA , o.p.s.&lt;br /&gt;SÃ½pka 1351/25&lt;br /&gt; 613 00 Brno-sever, ÄernÃ¡ Pole&lt;br /&gt;&lt;a href=&quot;http://www.spondea.cz&quot;&gt;spondea.cz&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;JihoÄeskÃ½ kraj&lt;/h2&gt;
-        &lt;p&gt;KrizovÃ© centrum&lt;br /&gt;Centrum pomoci rodinÄ a dÄtem&lt;br /&gt;VelkÃ© nÃ¡mÄstÃ­ 14&lt;br /&gt; 383 01 Prachatice&lt;br /&gt;&lt;a href=&quot;http://www.portusprachatice.cz&quot;&gt;portusprachatice.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;ArkÃ¡da, o.s. - PÃ­sek&lt;br /&gt;Husovo nÃ¡mÄstÃ­ 2/24&lt;br /&gt;397 01 PÃ­sek&lt;br /&gt;&lt;a href=&quot;http://www.arkadacentrum.cz&quot;&gt;arkadacentrum.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;ArkÃ¡da, o.s. - Milevsko&lt;br /&gt;nÃ¡m. E. BeneÅ¡e 12&lt;br /&gt;399 01 Milevsko&lt;br /&gt;&lt;a href=&quot;http://www.arkadacentrum.cz&quot;&gt;arkadacentrum.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;ÄeskÃ© BudÄjovice (KC pro dÄti a rodinu)&lt;br /&gt;10 1549 JirÃ¡skovo nÃ¡bÅeÅ¾Ã­&lt;br /&gt; 370 04 ÄeskÃ© BudÄjovice &lt;br /&gt;&lt;a href=&quot;http://www.ditevkrizi.cz/&quot;&gt;ditevkrizi.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Portus Prachatice, o.p.s.&lt;br /&gt;VelkÃ© nÃ¡mÄstÃ­ 14&lt;br /&gt;383 01 Prachatice I&lt;br /&gt;&lt;a href=&quot;http://www.portusprachatice.cz&quot;&gt;portusprachatice.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;THEiA - krizovÃ© centrum o.p.s.&lt;br /&gt;MÃ¡nesova 11/3b&lt;br /&gt;370 01 ÄeskÃ© BudÄjovice&lt;br /&gt;&lt;a href=&quot;http://www.theia.cz&quot;&gt;theia.cz&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;OlomouckÃ½ kraj&lt;/h2&gt;
-        &lt;p&gt;Olomouc (KC intervence)&lt;br /&gt;DolnÃ­ nÃ¡m. 55/33&lt;br /&gt; 779 00 Olomouc&lt;br /&gt;&lt;a href=&quot;https://www.olomouc.charita.cz/sluzby/spp/kic/&quot;&gt;olomouc.charita.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;KrizovÃ© centrum&lt;br /&gt;Wurmova 585/5&lt;br /&gt; 771 11 Olomouc&lt;br /&gt;&lt;a href=&quot;http://www.olomouc.charita.cz&quot;&gt;olomouc.charita.cz &lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;PlzeÅskÃ½ kraj&lt;/h2&gt;
-        &lt;p&gt;Plus pro lidi v krizovÃ© situaci&lt;br /&gt;Prokopova 25&lt;br /&gt; 301 00 PlzeÅ&lt;br /&gt;&lt;a href=&quot;http://www.diakoniezapad.cz/sluzby-diakonie-zapad/plus-pro-lidi-v-krizove-situaci/&quot;&gt;diakoniezapad.cz&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;KarlovarskÃ½ kraj&lt;/h2&gt;
-        &lt;p&gt;Karlovy Vary (Res vitae)&lt;br /&gt;Blahoslavova 659/18&lt;br /&gt; 360 09 Karlovy Vary &lt;br /&gt;&lt;a href=&quot;https://resvitae.cz/krizove-centrum&quot;&gt;resvitae.cz/krizove-centrum&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;MoravskoslezskÃ½ kraj&lt;/h2&gt;
-        &lt;p&gt;Ostrava (KC Ostrava)&lt;br /&gt;RuskÃ¡ 94/29&lt;br /&gt;703 00 Ostrava-VÃ­tkovice&lt;br /&gt;&lt;a href=&quot;http://www.kriceos.cz/&quot;&gt;kriceos.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;NadÄje (Charita Opava)&lt;br /&gt;KyleÅ¡ovskÃ¡ 10&lt;br /&gt;746 01 Opava&lt;br /&gt;&lt;a href=&quot;http://www.charitaopava.cz/&quot;&gt;charitaopava.cz&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;KrÃ¡lovÃ©hradeckÃ½ kraj&lt;/h2&gt;
-        &lt;p&gt;RIAPS Trutnov&lt;br /&gt;ProchÃ¡zkova 818&lt;br /&gt; 541 01 Trutnov&lt;br /&gt;&lt;a href=&quot;http://www.riaps.cz&quot;&gt;riaps.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;NOMIA, z.Ãº.&lt;br /&gt;tÅÃ­da Edvarda BeneÅ¡e 575/90,&lt;br /&gt;500 12 TÅebeÅ¡&lt;br /&gt;&lt;a href=&quot;http://www.nomiahk.cz&quot;&gt;nomiahk.cz&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;PardubickÃ½ kraj&lt;/h2&gt;
-        &lt;p&gt;Centrum J. J. Pestalozziho, o.p.s. - Chrudim&lt;br /&gt;Å tÄpÃ¡nkova, Ä.p. 107 a 108&lt;br /&gt;537 01 Chrudim&lt;br /&gt;&lt;a href=&quot;https://pestalozzi.cz/sluzby/krizove-centrum-chrudim/&quot;&gt;pestalozzi.cz/sluzby/krizove-centrum-chrudim&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Centrum J. J. Pestalozziho, o.p.s. - Svitavy&lt;br /&gt;Milady HorÃ¡kovÃ©, Ä.p. 10&lt;br /&gt;568 02 Svitavy&lt;br /&gt;&lt;a href=&quot;https://pestalozzi.cz/sluzby/krizove-centrum-svitavy/&quot;&gt;pestalozzi.cz/sluzby/krizove-centrum-svitavy&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Centrum J. J. Pestalozziho, o.p.s. - Å½amberk&lt;br /&gt;Masarykovo nÃ¡mÄstÃ­, Ä.p. 86&lt;br /&gt;564 01 Å½amberk&lt;br /&gt;&lt;a href=&quot;https://pestalozzi.cz/sluzby/krizove-centrum-zamberk/&quot;&gt;pestalozzi.cz/sluzby/krizove-centrum-zamberk&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;Kraj VysoÄina&lt;/h2&gt;
-        &lt;p&gt;Centrum J. J. Pestalozziho, o.p.s. - Jihlava&lt;br /&gt;Å tefanikovo nÃ¡m., Ä.p. 1972/2&lt;br /&gt;586 01 Jihlava&lt;br /&gt;&lt;a href=&quot;https://pestalozzi.cz/sluzby/krizove-centrum-jihlava/&quot;&gt;pestalozzi.cz/sluzby/krizove-centrum-jihlava&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;ÃsteckÃ½ kraj&lt;/h2&gt;
-        &lt;p&gt;Most k nadÄji, z. s.&lt;br /&gt;Petra JilemnickÃ©ho 1929/9&lt;br /&gt;434 01 Most&lt;br /&gt;&lt;a href=&quot;http://www.mostknadeji.cz&quot;&gt;mostknadeji.cz&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;SpirÃ¡la&lt;br /&gt;K ChatÃ¡m 22&lt;br /&gt;403 40 ÃstÃ­ nad Labem â Skorotice&lt;br /&gt;&lt;a href=&quot;http://www.spirala-ul.cz/&quot;&gt;spirala-ul.cz&lt;/a&gt;&lt;/p&gt;
-        |
-        &lt;h2&gt;ZlÃ­nskÃ½ kraj&lt;/h2&gt;
-        &lt;p&gt;DÄtskÃ© centrum ZlÃ­n&lt;br /&gt;BureÅ¡ov 3675/4&lt;br /&gt;760 01 ZlÃ­n&lt;br /&gt;&lt;a href=&quot;http://www.dczlin.cz&quot;&gt;dczlin.cz&lt;/a&gt;&lt;/p&gt;
+        &lt;h2&gt;Österreich&lt;/h2&gt;
+        &lt;p&gt;Psychosoziale Dienste in Wien &lt;br /&gt;Modecenterstra&szlig;e 14/A/2&lt;br /&gt;1030 Wien&lt;br /&gt;&lt;a href=&quot;https://www.psd-wien.at&quot;&gt;psd-wien.at&lt;/a&gt;&lt;/p&gt;
         </translation>
     </message>
     <message id="chat">
@@ -448,11 +401,7 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         <location filename="../src/qml/Contacts/ChatForm.ui.qml" line="11"/>
         <source></source>
         <translation>
-        &lt;a href=&quot;http://www.chat-pomoc.cz&quot;&gt;Chat PraÅ¾skÃ© linky dÅ¯vÄry&lt;/a&gt; &lt;br&gt;&lt;br&gt;
-        &lt;a href=&quot;http://www.elinka.iporadna.cz&quot;&gt;InternetovÃ© poradny&lt;/a&gt; &lt;br&gt;&lt;br&gt;
-        &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;InternetovÃ¡ poradna pre mladÃ½ch (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt;
-        &lt;a href=&quot;http://www.modralinka.cz/?page=chat&quot;&gt;ModrÃ¡ linka&lt;/a&gt; &lt;br&gt;&lt;br&gt;
-        &lt;a href=&quot;http://chat.linkabezpeci.cz/LBCS-war/PUBLIC/clientlogin.jsp&quot;&gt;Linka bezpeÄÃ­&lt;/a&gt; &lt;br&gt;&lt;br&gt;
+        &lt;a href=&quot;https://online.telefonseelsorge.de&quot;&gt;Telefonseelsorge&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         </translation>
     </message>
     <message id="contacts">
@@ -675,25 +624,12 @@ Probiere dein Zimmer neu zu dekorieren
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
         <source></source>
         <translation>
-        &lt;b&gt;Linka bezpeÄÃ­&lt;/b&gt; &lt;br&gt;
-        Provoz: nonstop  &lt;br&gt;
-        &lt;a href=&quot;tel:116111&quot;&gt;116 111&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
-        &lt;b&gt;Spondea&lt;/b&gt;  &lt;br&gt;
-        &lt;a href=&quot;tel:541235511&quot;&gt;541 235 511&lt;/a&gt; &lt;br&gt; (po-pÃ¡ 8:00 â 18:00), &lt;a href=&quot;tel:608118088&quot;&gt;608 118 008&lt;/a&gt; &lt;br&gt;  (so-ne 8:00 â 20:00)  &lt;br&gt; &lt;br&gt;
-        &lt;b&gt;KC Brno FN Bohunice&lt;/b&gt;  &lt;br&gt;
-        &lt;a href=&quot;tel:532232078&quot;&gt;532 232 078&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
-        &lt;b&gt;PN Bohnice&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:2840166668&quot;&gt;284 016 666&lt;/a&gt; &lt;br&gt; &lt;br&gt;
-        &lt;b&gt;ModrÃ¡ linka&lt;/b&gt; &lt;br&gt;
-        DennÄ od 9 do 21 hodin &lt;br&gt;
-        &lt;a href=&quot;tel:549241010&quot;&gt;549 241 010&lt;/a&gt; &lt;br&gt;
-        Mobil: &lt;a href=&quot;tel:608902410&quot;&gt;608 902 410&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
-        &lt;b&gt;ZÃ¡chrannÃ¡ sluÅ¾ba:&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:155&quot;&gt;155&lt;/a&gt; &lt;br&gt; &lt;br&gt;
-        &lt;b&gt;TÃ­sÅovÃ© volÃ¡nÃ­ v rÃ¡mci EU:&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:112&quot;&gt;112&lt;/a&gt; &lt;br&gt; &lt;br&gt;
-        &lt;b&gt;Linka Anabell (pro lidi s poruchou pÅÃ­jmu potravy)&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:774467293&quot;&gt;774 467 293&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        &lt;b&gt;Psychosoziale Dienste in Wien Notfälle&lt;/b&gt; &lt;br&gt;
+        Nonstop  &lt;br&gt;
+        &lt;a href=&quot;tel:0131330&quot;&gt;(01) 31330&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;b&gt;Telefonseelsorge Deutschland&lt;/b&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:08001110111&quot;&gt;0800 1110 111&lt;/a&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:08001110222&quot;&gt;0800 1110 222&lt;/a&gt; &lt;br&gt;
         </translation>
     </message>
     <message id="selfHarm-tips">
