@@ -715,7 +715,7 @@ qrc:/images/anabell/breakfast.jpg
     <message id="phone-text">
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
         <source></source>
-        <translation>02
+        <translation>
         Единый общероссийский телефон доверия для детей, подростков и их родителей: &lt;a href=&quot;tel:88002000122&quot;&gt;88002000122&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         Московская служба психологической помощи населению: &lt;a href=&quot;tel:4991730909&quot;&gt;+7 (499)173-09-09&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         В Санкт-Петербурге — Дежурный АДВОКАТ: &lt;a href=&quot;tel:8129966776&quot;&gt;+7 (812) 996-67-76&lt;/a&gt; &lt;br&gt;  &lt;br&gt;

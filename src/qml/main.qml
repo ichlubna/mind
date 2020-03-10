@@ -209,6 +209,16 @@ ApplicationWindow {
             }
 
             ItemDelegate {
+                text: qsTrId("import-export")
+                width: parent.width
+                onClicked: {
+                    stackView.pop(null);
+                    stackView.push("Drawer/ImportExport.qml")
+                    drawer.close()
+                }
+            }
+
+            ItemDelegate {
                 text: qsTrId("exit")
                 width: parent.width
                 onClicked: {

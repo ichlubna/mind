@@ -1,4 +1,4 @@
-QT += quick svg gui core
+QT += quick svg gui core widgets
 CONFIG += c++17
 
 # The following define makes your compiler emit warnings if you use
@@ -13,12 +13,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    src/cpp/importerExporter.cpp \
     src/cpp/main.cpp \
     src/cpp/mathengine.cpp \
     src/cpp/translator.cpp \
     src/cpp/userdataprovider.cpp
 
 HEADERS += \
+    src/cpp/importerExporter.h \
     src/cpp/mathengine.h \
     src/cpp/translator.h \
     src/cpp/userdataprovider.h

@@ -203,5 +203,7 @@
         <file>src/qml/Shadow.qml</file>
         <file>src/qml/Breath.qml</file>
         <file>src/qml/BreathForm.ui.qml</file>
+        <file>src/qml/Drawer/ImportExport.qml</file>
+        <file>src/qml/Drawer/ImportExportForm.ui.qml</file>
     </qresource>
 </RCC>
