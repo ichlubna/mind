@@ -332,12 +332,12 @@ qrc:/images/anabell/breakfast.jpg
         <translation>Оцените нас</translation>
     </message>
     <message id="web-link">
-        <location filename="../src/qml/main.qml" line="250"/>
+        <location filename="../src/qml/main.qml" line="260"/>
         <source></source>
         <translation>http://nepanikar.eu</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/main.qml" line="212"/>
+        <location filename="../src/qml/main.qml" line="222"/>
         <source></source>
         <translation>Выход</translation>
     </message>
@@ -580,7 +580,7 @@ qrc:/images/anabell/breakfast.jpg
         <translation>Если я буду продолжать жить, я смогу:</translation>
     </message>
     <message id="reasons-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="281"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="278"/>
         <source></source>
         <translation>
 Играть с моим питомцем (щенком, котенком, морской свинкой)|
@@ -592,52 +592,52 @@ qrc:/images/anabell/breakfast.jpg
         </translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="286"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="283"/>
         <source></source>
         <translation>Кому я напишу...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="284"/>
         <source></source>
         <translation>Привет, у меня сложный период, мы можем поговорить?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="288"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="285"/>
         <source></source>
         <translation>Люди, которые мне дороги</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="289"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="286"/>
         <source></source>
         <translation>Что я сделаю...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="290"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
         <source></source>
         <translation>Куда я пойду...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="294"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="291"/>
         <source></source>
         <translation>Пойду за покупками</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="298"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="295"/>
         <source></source>
         <translation>Была хорошая погода...</translation>
     </message>
     <message id="praise-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="300"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="297"/>
         <source></source>
         <translation>Мне удалось позаниматься спортом</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="354"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="351"/>
         <source></source>
         <translation>Еда, которой я боюсь</translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="362"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="359"/>
         <source></source>
         <translation>
 Хочу и умею любить себя|
@@ -669,7 +669,7 @@ qrc:/images/anabell/breakfast.jpg
 </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="370"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="367"/>
         <source></source>
         <translation>
 Нарисуйте то, как представляете анорексию и разорвите бумагу.|
@@ -688,27 +688,27 @@ qrc:/images/anabell/breakfast.jpg
 </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="378"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="375"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="386"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="383"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="394"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="391"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="myContactsNames-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="404"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="401"/>
         <source></source>
         <translation>Имя</translation>
     </message>
     <message id="myContactsNumbers-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="407"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="404"/>
         <source></source>
         <translation>Телефон или электронная почта</translation>
     </message>
@@ -791,7 +791,7 @@ qrc:/images/anabell/breakfast.jpg
     </message>
     <message id="mlceni-link">
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="239"/>
+        <location filename="../src/qml/main.qml" line="249"/>
         <source></source>
         <translation>https://www.instagram.com/mlceninenireseni/</translation>
     </message>
@@ -834,7 +834,7 @@ qrc:/images/anabell/breakfast.jpg
         <translation>Настройка яркости</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/main.qml" line="228"/>
+        <location filename="../src/qml/main.qml" line="238"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
@@ -1182,6 +1182,27 @@ qrc:/images/anabell/pmSnack2.jpg
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="60"/>
         <source></source>
         <translation>Вы уверены?</translation>
+    </message>
+    <message id="import-export">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="11"/>
+        <location filename="../src/qml/main.qml" line="212"/>
+        <source></source>
+        <translation>Импорт/Экспорт</translation>
+    </message>
+    <message id="import-export-text">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="15"/>
+        <source></source>
+        <translation>Здесь вы можете экспортировать сохраненные данные в приложении в файл или загрузить сохраненный файл. Импорт файла перезапишет сохраненные данные!</translation>
+    </message>
+    <message id="import-button">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="21"/>
+        <source></source>
+        <translation>импорт</translation>
+    </message>
+    <message id="export-button">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="30"/>
+        <source></source>
+        <translation>экспорт</translation>
     </message>
 </context>
 </TS>

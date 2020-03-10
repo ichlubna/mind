@@ -1076,5 +1076,26 @@ Ich bin nicht allein|
         <source></source>
         <translation>Sind Sie sicher, dass Sie dies tun möchten?</translation>
     </message>
+    <message id="import-export">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="11"/>
+        <location filename="../src/qml/main.qml" line="212"/>
+        <source></source>
+        <translation>Import/Export</translation>
+    </message>
+    <message id="import-export-text">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="15"/>
+        <source></source>
+        <translation>Hier können Sie Ihre in der Anwendung gespeicherten Daten in eine Datei exportieren oder die gespeicherte Datei hochladen. Beim Importieren der Datei werden die aktuell gespeicherten Daten überschrieben!</translation>
+    </message>
+    <message id="import-button">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="21"/>
+        <source></source>
+        <translation>Import</translation>
+    </message>
+    <message id="export-button">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="30"/>
+        <source></source>
+        <translation>Export</translation>
+    </message>
 </context>
 </TS>

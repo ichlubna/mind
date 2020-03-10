@@ -333,12 +333,12 @@ Abrace a alguien| cercano o acurrúquese con su mascota
         <translation>Evalúenos</translation>
     </message>
     <message id="web-link">
-        <location filename="../src/qml/main.qml" line="250"/>
+        <location filename="../src/qml/main.qml" line="260"/>
         <source></source>
         <translation>http://nepanikar.eu</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/main.qml" line="212"/>
+        <location filename="../src/qml/main.qml" line="222"/>
         <source></source>
         <translation>Terminar</translation>
     </message>
@@ -516,7 +516,7 @@ Abrace a alguien| cercano o acurrúquese con su mascota
         </translation>
     </message>
     <message id="reasons-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="281"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="278"/>
         <source></source>
         <translation>
         Jugar con mi mascota (perrito, gatito, conejillo de indias) |
@@ -528,53 +528,53 @@ Abrace a alguien| cercano o acurrúquese con su mascota
 </translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="286"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="283"/>
         <source></source>
         <translation>A quién escribiré…</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="284"/>
         <source></source>
         <translation>Hola! Estoy pasando momentos difíciles, ¿ podemos hablar ?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="288"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="285"/>
         <source></source>
         <translation>Personas que se preocupan por mi...</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="289"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="286"/>
         <source></source>
         <translation>Qué voy a hacer…</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="290"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
         <source></source>
         <translation>A dónde voy a ir…</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="294"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="291"/>
         <source></source>
         <translation>Ir de compras</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="298"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="295"/>
         <source></source>
         <translation>Hacía buen tiempo...</translation>
     </message>
     <message id="praise-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="300"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="297"/>
         <source></source>
         <translation>Fui a la escuela</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="354"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="351"/>
         <source></source>
         <translation>
         </translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="362"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="359"/>
         <source></source>
         <translation>
 Quiero y puedo ser bueno conmigo mismo/a.|
@@ -606,7 +606,7 @@ A cada dedo de mi mano le puedo aňadir un/a amigo/a que me apoye.
         </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="370"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="367"/>
         <source></source>
         <translation>
 Dibuje cómo se imagina la anorexia, después rasgue el dibujo. |
@@ -625,27 +625,27 @@ Haga una nueva decoración en su habitación.
         </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="378"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="375"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="386"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="383"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="394"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="391"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="myContactsNames-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="404"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="401"/>
         <source></source>
         <translation>Nombre</translation>
     </message>
     <message id="myContactsNumbers-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="407"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="404"/>
         <source></source>
         <translation>Número de teléfono o correo electrónico</translation>
     </message>
@@ -716,7 +716,7 @@ Salga al aire fresco (dé una vuelta de media hora, corra a un ritmo rápido)
     </message>
     <message id="mlceni-link">
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="239"/>
+        <location filename="../src/qml/main.qml" line="249"/>
         <source></source>
         <translation>https://www.instagram.com/mlceninenireseni/</translation>
     </message>
@@ -759,7 +759,7 @@ Salga al aire fresco (dé una vuelta de media hora, corra a un ritmo rápido)
         <translation>Aquí puede configurar el brillo de la pantalla</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/main.qml" line="228"/>
+        <location filename="../src/qml/main.qml" line="238"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
@@ -1149,6 +1149,27 @@ No estoy solo/a para los problemas.|
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="60"/>
         <source></source>
         <translation>¿Estás seguro de que quieres hacer esto?</translation>
+    </message>
+    <message id="import-export">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="11"/>
+        <location filename="../src/qml/main.qml" line="212"/>
+        <source></source>
+        <translation>Import/Export</translation>
+    </message>
+    <message id="import-export-text">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="15"/>
+        <source></source>
+        <translation>Aquí puede exportar sus datos guardados en la aplicación a un archivo o cargar el archivo guardado. ¡Importar el archivo sobrescribirá los datos guardados actualmente!</translation>
+    </message>
+    <message id="import-button">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="21"/>
+        <source></source>
+        <translation>Import</translation>
+    </message>
+    <message id="export-button">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="30"/>
+        <source></source>
+        <translation>Export</translation>
     </message>
 </context>
 </TS>
