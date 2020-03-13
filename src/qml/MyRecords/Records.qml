@@ -1,9 +1,11 @@
 import QtQuick 2.4
 import io.qt.UserDataProvider 1.0
 
-DiaryForm {
+RecordsForm {
     property int count: 0
-    property var arrayName: "diaryRecords"
+    property var arrayName : "diaryRecords"
+    property var groupByDate : false
+    property var afterDateFile : "DiaryRecord.qml"
 
     UserDataProvider {
         id: dataProvider
@@ -30,7 +32,7 @@ DiaryForm {
     Connections {
         target: addButton
         onClicked: {
-            stackView.push("DiaryDate.qml")
+            stackView.push("RecordDate.qml", {"afterDateFile" : afterDateFile})
             if (viewContainer.contentHeight > viewContainer.height)
                 viewContainer.contentItem.contentY = viewContainer.contentHeight
                         - viewContainer.height

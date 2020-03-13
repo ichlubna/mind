@@ -307,7 +307,7 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
         <translation>Comptez</translation>
     </message>
     <message id="submit">
-        <location filename="../src/qml/Games/MathForm.ui.qml" line="27"/>
+        <location filename="../src/qml/Games/MathForm.ui.qml" line="36"/>
         <source></source>
         <translation>Confirmer</translation>
     </message>
@@ -651,7 +651,7 @@ Prenez de l’air|
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
         <location filename="../src/qml/main.qml" line="249"/>
         <source></source>
-        <translation>https://www.instagram.com/mlceninenireseni/</translation>
+        <translation>https://www.instagram.com/aplikace_nepanikar/</translation>
     </message>
     <message id="anabell-link">
         <location filename="../src/qml/Drawer/Support.qml" line="6"/>
@@ -1040,23 +1040,23 @@ Prenez de l’air|
         <translation>Voulez-vous vraiment le faire?</translation>
     </message>
     <message id="import-export">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="11"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="12"/>
         <location filename="../src/qml/main.qml" line="212"/>
         <source></source>
         <translation>Import/Export</translation>
     </message>
     <message id="import-export-text">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="15"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="24"/>
         <source></source>
         <translation>Ici, vous pouvez exporter vos données enregistrées dans l&apos;application vers un fichier ou télécharger le fichier enregistré. L&apos;importation du fichier écrasera les données actuellement enregistrées!</translation>
     </message>
     <message id="import-button">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="21"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="30"/>
         <source></source>
         <translation>Import</translation>
     </message>
     <message id="export-button">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="30"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="39"/>
         <source></source>
         <translation>Export</translation>
     </message>

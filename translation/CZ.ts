@@ -288,7 +288,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>Počítání</translation>
     </message>
     <message id="submit">
-        <location filename="../src/qml/Games/MathForm.ui.qml" line="27"/>
+        <location filename="../src/qml/Games/MathForm.ui.qml" line="36"/>
         <source></source>
         <translation>Potvrdit</translation>
     </message>
@@ -709,7 +709,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
         <location filename="../src/qml/main.qml" line="249"/>
         <source></source>
-        <translation>https://www.instagram.com/mlceninenireseni/</translation>
+        <translation>https://www.instagram.com/aplikace_nepanikar/</translation>
     </message>
     <message id="anabell-link">
         <location filename="../src/qml/Drawer/Support.qml" line="6"/>
@@ -1161,25 +1161,25 @@ Nejsem na to sám/sama|
         <translation>Dechové cvičení</translation>
     </message>
     <message id="import-export">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="11"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="12"/>
         <location filename="../src/qml/main.qml" line="212"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Import/Export</translation>
     </message>
     <message id="import-export-text">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="15"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="24"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Zde můžete uložit svá data y aplikace do souboru či nahrát uložená data do aplikace. Import nových dat však přepíše aktuálně uložené položky!</translation>
     </message>
     <message id="import-button">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="21"/>
-        <source></source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message id="export-button">
         <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="30"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Import</translation>
+    </message>
+    <message id="export-button">
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="39"/>
+        <source></source>
+        <translation>Export</translation>
     </message>
 </context>
 </TS>

@@ -15,7 +15,7 @@ MenuPage {
             anchors.fill: parent
             fillMode: Image.PreserveAspectFit
             opacity: 0.0
-
+            z: 10
     }
 
     Description{
@@ -23,23 +23,24 @@ MenuPage {
         horizontalAlignment: Text.AlignHCenter
         font.pointSize: 50
 
+        MenuTextArea {
+            id: answer
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.top: parent.top
+            anchors.topMargin: exercise.paintedHeight+50
+            width: parent.width/2
+            inputMethodHints: Qt.ImhDigitsOnly
+        }
+
         MenuButton {
             text: qsTrId("submit")
             anchors.horizontalCenter: parent.horizontalCenter
             id: submitButton
-            anchors.top: parent.top
-            anchors.topMargin: exercise.paintedHeight+50
+            anchors.top: answer.bottom
+            anchors.topMargin: 10
             width: parent.width/2
         }
 
-        MenuTextInput {
-            id: answer
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.top: submitButton.bottom
-            anchors.bottomMargin: 0
-            width: parent.width/2
-            inputMethodHints: Qt.ImhDigitsOnly
-        }
     }
 }
 

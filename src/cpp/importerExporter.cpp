@@ -5,17 +5,22 @@
 #include <QJsonDocument>
 #include <QFile>
 #include <iostream>
-void ImporterExporter::importSettings(QUrl fileName)
+bool ImporterExporter::importSettings(QUrl fileName)
 {
     QSettings settings("DontPanicDevs", "DontPanic");
     QFile file(fileName.toLocalFile());
-    file.open(QFile::ReadOnly | QFile::Text);
-    QMap<QString, QVariant> content = (QJsonDocument().fromJson(file.readAll())).object().toVariantMap();
+    if(!file.open(QFile::ReadOnly | QFile::Text))
+        return false;
+    QJsonDocument document = QJsonDocument().fromJson(file.readAll());
+    if(document.isNull())
+        return false;
+    QMap<QString, QVariant> content = document.object().toVariantMap();
     for (const auto &key : content.keys())
         settings.setValue(key, content.value(key));
+    return true;
 }
 
-void ImporterExporter::exportSettings(QUrl fileName)
+bool ImporterExporter::exportSettings(QUrl fileName)
 {
     QSettings settings("DontPanicDevs", "DontPanic");
     QMap<QString, QVariant> content;
@@ -30,10 +35,11 @@ void ImporterExporter::exportSettings(QUrl fileName)
     QJsonDocument document;
     document.setObject(json);
     QFile file(fileName.toLocalFile());
-    file.open(QFile::WriteOnly);
+    if(!file.open(QFile::WriteOnly))
+        return false;
     file.write(document.toJson());
-    //file.write("a");
     file.close();
+    return true;
 }
 
 ImporterExporter::ImporterExporter(QObject *parent) : QObject(parent)

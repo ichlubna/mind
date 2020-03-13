@@ -11,7 +11,7 @@ TextArea{
         border.color: "White"
         border.width: 3}
     font.pointSize: 20
-    onActiveFocusChanged: {if (activeFocus) {/*selectAll();*/ outFocuser.z=999;} else {deselect();}}
+    onActiveFocusChanged: {if (activeFocus) {/*selectAll();*/ outFocuser.z=999; this.z=999;} else {deselect(); this.z=1;}}
     color: "White"
     selectedTextColor: "Black"
     wrapMode: TextEdit.Wrap

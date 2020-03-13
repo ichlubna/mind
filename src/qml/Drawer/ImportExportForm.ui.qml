@@ -8,7 +8,16 @@ MenuPage {
     property alias importButton: importButton
     property alias exportButton: exportButton
     property alias fileDialog: fileDialog
+    property alias anim: anim
     title: qsTrId("import-export")
+
+    Image {
+            id: anim
+            anchors.fill: parent
+            fillMode: Image.PreserveAspectFit
+            opacity: 0.0
+            z: 10
+    }
 
     Description {
         id: importExportText

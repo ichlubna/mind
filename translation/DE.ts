@@ -329,7 +329,7 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         <translation>Rechnen­</translation>
     </message>
     <message id="submit">
-        <location filename="../src/qml/Games/MathForm.ui.qml" line="27"/>
+        <location filename="../src/qml/Games/MathForm.ui.qml" line="36"/>
         <source></source>
         <translation>Bestätigen</translation>
     </message>
@@ -354,12 +354,12 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         <translation>Bewerten Sie uns</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/main.qml" line="212"/>
+        <location filename="../src/qml/main.qml" line="222"/>
         <source></source>
         <translation>Beenden</translation>
     </message>
     <message id="web-link">
-        <location filename="../src/qml/main.qml" line="250"/>
+        <location filename="../src/qml/main.qml" line="260"/>
         <source></source>
         <translation>http://nepanikar.eu</translation>
     </message>
@@ -384,11 +384,11 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         &lt;p&gt;Psychiatrisches Zentrum Nordbadenn&lt;br /&gt;Heidelberger Str. 1a&lt;br /&gt;69168 Wiesloch&lt;br /&gt;&lt;a href=&quot;https://www.pzn-wiesloch.de&quot;&gt;pzn-wiesloch.de&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Psychiatrisches Zentrum AR&lt;br /&gt;Krombach, Postfach&lt;br /&gt;9101 Herisau&lt;br /&gt;&lt;a href=&quot;https://www.spitalverbund.ch/pza/home-pza/&quot;&gt;spitalverbund.ch&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Fachkrankenhaus fuer Psychiatrie und Psychotherapie&lt;br /&gt;Johannesallee&lt;br /&gt;24848 Kropp&lt;br /&gt;&lt;a href=&quot;https://www.diakonie-kropp.de/unternehmen/diakoniewerk-kropp/psychiatrisches-zentrum/&quot;&gt;diakonie-kropp.de&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Zentrum f&uuml;r Psychiatrie Emmendingen&lt;br /&gt;Neubronnstra&szlig;e 25&lt;br /&gt;79312 Emmendingen&lt;br /&gt;&lt;a href=&quot;https://www.zfp-emmendingen.de/&quot;&gt;zfp-emmendingen.de&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;Zentrum f&uuml;r Psychiatrie Calw - Klinikum Nordschwarzwald&lt;br /&gt;Im L&uuml;tzenhardter Hof&lt;br /&gt;75365 Calw&lt;br /&gt;&lt;a href=&quot;https://www.zfp-emmendingen.de/&quot;&gt;zfp-emmendingen.de&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Zentrum für Psychiatrie Emmendingen&lt;br /&gt;Neubronnstraße 25&lt;br /&gt;79312 Emmendingen&lt;br /&gt;&lt;a href=&quot;https://www.zfp-emmendingen.de/&quot;&gt;zfp-emmendingen.de&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Zentrum für Psychiatrie Calw - Klinikum Nordschwarzwald&lt;br /&gt;Im Lützenhardter Hof&lt;br /&gt;75365 Calw&lt;br /&gt;&lt;a href=&quot;https://www.zfp-emmendingen.de/&quot;&gt;zfp-emmendingen.de&lt;/a&gt;&lt;/p&gt;
         |
         &lt;h2&gt;Österreich&lt;/h2&gt;
-        &lt;p&gt;Psychosoziale Dienste in Wien &lt;br /&gt;Modecenterstra&szlig;e 14/A/2&lt;br /&gt;1030 Wien&lt;br /&gt;&lt;a href=&quot;https://www.psd-wien.at&quot;&gt;psd-wien.at&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Psychosoziale Dienste in Wien &lt;br /&gt;Modecenterstraße 14/A/2&lt;br /&gt;1030 Wien&lt;br /&gt;&lt;a href=&quot;https://www.psd-wien.at&quot;&gt;psd-wien.at&lt;/a&gt;&lt;/p&gt;
         </translation>
     </message>
     <message id="chat">
@@ -487,7 +487,7 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         <translation type="vanished">Meine Gründe...</translation>
     </message>
     <message id="reasons-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="281"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="278"/>
         <source></source>
         <translation>
         Mit meinem Haustier kuscheln (ein Hund, eine Katze, ein Meerschweinchen)|
@@ -499,53 +499,53 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         </translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="286"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="283"/>
         <source></source>
         <translation>Wem schreibe ich...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="284"/>
         <source></source>
         <translation>Hallo, ich bin jetzt in einer schwierigen Situation, können wir reden??</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="288"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="285"/>
         <source></source>
         <translation>Menschen, die mir wichtig sind</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="289"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="286"/>
         <source></source>
         <translation>Was mache ich...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="290"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="287"/>
         <source></source>
         <translation>Wo gehe ich hin...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="294"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="291"/>
         <source></source>
         <translation>Ich gehe einkaufen</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="298"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="295"/>
         <source></source>
         <translation>Es war ein sehr schönes Wetter­...</translation>
     </message>
     <message id="praise-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="300"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="297"/>
         <source></source>
         <translation>Ich habe meine tägliche Übung gemacht</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="354"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="351"/>
         <source></source>
         <translation>
         </translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="362"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="359"/>
         <source></source>
         <translation>
 Ich möchte nett zu mir sein|
@@ -577,7 +577,7 @@ Ich schreibe mir mindestens 10 Freunde auf, die mich unterstützen
         </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="370"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="367"/>
         <source></source>
         <translation>
 Malen Sie, wie Sie sich die Magersucht vorstellen, und zerreißen Sie das Bild|
@@ -596,27 +596,27 @@ Probiere dein Zimmer neu zu dekorieren
         </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="378"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="375"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="386"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="383"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="394"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="391"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="myContactsNames-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="404"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="401"/>
         <source></source>
         <translation>Name</translation>
     </message>
     <message id="myContactsNumbers-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="407"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="404"/>
         <source></source>
         <translation>Telefonnummer oder E-Mail</translation>
     </message>
@@ -692,9 +692,9 @@ Gehen Sie an die frische Luf|Machen Sie einen halbstündigen Spaziergang. Gehen 
     </message>
     <message id="mlceni-link">
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="239"/>
+        <location filename="../src/qml/main.qml" line="249"/>
         <source></source>
-        <translation>https://www.instagram.com/mlceninenireseni/</translation>
+        <translation>https://www.instagram.com/aplikace_nepanikar/</translation>
     </message>
     <message id="anabell-link">
         <location filename="../src/qml/Drawer/Support.qml" line="6"/>
@@ -735,7 +735,7 @@ Gehen Sie an die frische Luf|Machen Sie einen halbstündigen Spaziergang. Gehen 
         <translation>Hier können Sie die Helligkeit einstellen</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/main.qml" line="228"/>
+        <location filename="../src/qml/main.qml" line="238"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
@@ -1077,23 +1077,23 @@ Ich bin nicht allein|
         <translation>Sind Sie sicher, dass Sie dies tun möchten?</translation>
     </message>
     <message id="import-export">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="11"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="12"/>
         <location filename="../src/qml/main.qml" line="212"/>
         <source></source>
         <translation>Import/Export</translation>
     </message>
     <message id="import-export-text">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="15"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="24"/>
         <source></source>
         <translation>Hier können Sie Ihre in der Anwendung gespeicherten Daten in eine Datei exportieren oder die gespeicherte Datei hochladen. Beim Importieren der Datei werden die aktuell gespeicherten Daten überschrieben!</translation>
     </message>
     <message id="import-button">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="21"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="30"/>
         <source></source>
         <translation>Import</translation>
     </message>
     <message id="export-button">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="30"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="39"/>
         <source></source>
         <translation>Export</translation>
     </message>

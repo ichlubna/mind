@@ -88,7 +88,6 @@
         <file>src/qml/MenuPage.qml</file>
         <file>src/qml/MenuLine.qml</file>
         <file>src/qml/MenuTextArea.qml</file>
-        <file>src/qml/MenuTextInput.qml</file>
         <file>src/qml/Panic/Panic.qml</file>
         <file>src/qml/Panic/PanicForm.ui.qml</file>
         <file>src/qml/Panic/Tips.qml</file>
@@ -187,14 +186,14 @@
         <file>src/qml/Contacts/UniversitiesForm.ui.qml</file>
         <file>src/qml/MyRecords/MyRecords.qml</file>
         <file>src/qml/MyRecords/MyRecordsForm.ui.qml</file>
-        <file>src/qml/MyRecords/Diary.qml</file>
-        <file>src/qml/MyRecords/DiaryForm.ui.qml</file>
+        <file>src/qml/MyRecords/Records.qml</file>
+        <file>src/qml/MyRecords/RecordsForm.ui.qml</file>
         <file>src/qml/MyRecords/DiaryRecord.qml</file>
         <file>src/qml/MyRecords/DiaryRecordForm.ui.qml</file>
         <file>src/qml/DatePicker.qml</file>
         <file>src/qml/DateTumbler.qml</file>
-        <file>src/qml/MyRecords/DiaryDate.qml</file>
-        <file>src/qml/MyRecords/DiaryDateForm.ui.qml</file>
+        <file>src/qml/MyRecords/RecordDate.qml</file>
+        <file>src/qml/MyRecords/RecordDateForm.ui.qml</file>
         <file>src/qml/PopupWindow.qml</file>
         <file>src/qml/Menu.qml</file>
         <file>src/qml/MenuForm.ui.qml</file>

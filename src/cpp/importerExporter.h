@@ -9,8 +9,8 @@ class ImporterExporter : public QObject
 public:
     explicit ImporterExporter(QObject *parent = nullptr);
     ~ImporterExporter();
-    Q_INVOKABLE static void importSettings(QUrl fileName);
-    Q_INVOKABLE static void exportSettings(QUrl fileName);
+    Q_INVOKABLE static bool importSettings(QUrl fileName);
+    Q_INVOKABLE static bool exportSettings(QUrl fileName);
 private:
 };
 
