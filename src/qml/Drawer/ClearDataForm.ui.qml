@@ -18,6 +18,7 @@ MenuPage {
     property alias depressionPraiseClear: depressionPraiseClear
     property alias diaryClear: diaryClear
     property alias myContactsClear: myContactsClear
+    property alias foodDiaryClear: foodDiaryClear
     title: qsTrId("clear-data")
 
     ScrollView {
@@ -142,6 +143,16 @@ MenuPage {
         }
         MenuCheckBox {
                 id: diaryClear
+                checked: false;
+        }
+
+        DescriptionLabel {
+            id: foodDiaryText
+            text:  qsTrId("food-records")
+            width: parent.width*0.75
+        }
+        MenuCheckBox {
+                id: foodDiaryClear
                 checked: false;
         }
     }

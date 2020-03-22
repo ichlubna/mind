@@ -12,6 +12,7 @@ Page {
         antialiasing: true
         visible: false
     }
+                focusPolicy: Qt.ClickFocus
 
     Colorize {
         anchors.fill: parent

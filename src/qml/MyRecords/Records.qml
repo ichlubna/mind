@@ -4,7 +4,7 @@ import io.qt.UserDataProvider 1.0
 RecordsForm {
     property int count: 0
     property var arrayName : "diaryRecords"
-    property var groupByDate : false
+    property var dateOnly : false
     property var afterDateFile : "DiaryRecord.qml"
 
     UserDataProvider {
@@ -15,18 +15,23 @@ RecordsForm {
         var count = values.length;
         records.model = count;
         for (var i = 0; i < count; i++) {
+            var listIndex = (count-1)-i;
+            records.itemAt(i).id = i;
             var recordValues = values[i].split("|");
-            records.itemAt(i).children[0].text = recordValues[0]+" - "+recordValues[1].trim().slice(0,13)+"...";
+            if(dateOnly)
+                records.itemAt(listIndex).children[0].text = recordValues[0];
+            else
+                records.itemAt(listIndex).children[0].text = recordValues[0]+" - "+recordValues[1].trim().slice(0,13)+"...";
         }
     }
 
     Connections {
         target: records
         Component.onCompleted: {
-            fill();
+                fill();
         }
         onVisibleChanged: {
-             fill();
+                fill();
         }}
 
     Connections {

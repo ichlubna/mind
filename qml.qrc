@@ -204,5 +204,10 @@
         <file>src/qml/BreathForm.ui.qml</file>
         <file>src/qml/Drawer/ImportExport.qml</file>
         <file>src/qml/Drawer/ImportExportForm.ui.qml</file>
+        <file>src/qml/MyRecords/FoodRecord.qml</file>
+        <file>src/qml/MyRecords/FoodRecordForm.ui.qml</file>
+        <file>src/qml/MyRecords/FoodChoice.qml</file>
+        <file>src/qml/MyRecords/FoodChoiceForm.ui.qml</file>
+        <file>src/qml/InputScrollView.qml</file>
     </qresource>
 </RCC>

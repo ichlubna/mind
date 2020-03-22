@@ -10,13 +10,8 @@ SwipePage{
     property alias confirmArea: confirmArea
     property alias popup: popup
         title: qsTrId("diary")
-
-        ScrollView {
+        InputScrollView {
             id: view
-            anchors.fill: parent
-            contentWidth: -1
-            clip: true
-            anchors.margins: 10
 
         ColumnLayout{
             spacing: 10

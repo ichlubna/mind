@@ -11,9 +11,7 @@ MenuPage {
     property alias customPpl: customPpl
     title: qsTrId("plan")
 
-    ScrollView {
-        anchors.fill: parent
-        clip: true
+    InputScrollView {
     Column{
         anchors.fill: parent
         spacing: 10

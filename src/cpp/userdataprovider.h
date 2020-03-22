@@ -24,7 +24,7 @@ public:
     Q_INVOKABLE int loadIntInput(QString id);
     Q_INVOKABLE float loadFloatInput(QString id);
     Q_INVOKABLE QList<QString> loadArrayInput(QString id);
-    Q_INVOKABLE void addToSortedArray(QString id, QString value, int index);
+    Q_INVOKABLE int addToSortedArray(QString id, QString value, int index);
     Q_INVOKABLE void removeFromArray(QString id, int index);
     Q_INVOKABLE QString getFromArray(QString id, int index);
     Q_INVOKABLE int getIndexByDate(QString id, QString date);
@@ -32,7 +32,7 @@ public:
     Q_INVOKABLE QString loadLanguage();
     Q_INVOKABLE void setLanguage(QString language);
     Q_INVOKABLE void translateInputs();
-    Q_INVOKABLE void resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks, bool praise, bool myContacts, bool diary);
+    Q_INVOKABLE void resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks, bool praise, bool myContacts, bool diary, bool foodDiary);
 
 private:
     struct CustomInput

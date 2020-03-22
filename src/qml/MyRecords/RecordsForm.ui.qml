@@ -23,6 +23,8 @@ MenuPage {
             Repeater {
                 id: records
                 Item {
+                    property var header: false
+                    property var id: 0
                     width: viewContainer.width
                     height: viewContainer.height*0.2
 
@@ -30,17 +32,18 @@ MenuPage {
                         anchors.fill: parent
                         verticalAlignment: Text.AlignVCenter
                         anchors.margins: 10
+                        font.bold: header
                     }
 
                     Rectangle{color: (index%2 == 0) ? "black" : "white"
                         anchors.fill: parent
-                        opacity: 0.2
+                        opacity: (header) ? 0.0 : 0.2
                      }
                    MouseArea {
                         anchors.fill: parent
                         Connections {
                             onClicked: {
-                                stackView.push("DiaryRecord.qml", {"recordIndex": index})
+                                stackView.push(afterDateFile, {"recordIndex": id})
                             }
                         }
                     }

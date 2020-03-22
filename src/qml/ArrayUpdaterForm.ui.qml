@@ -1,6 +1,7 @@
-import QtQuick 2.9
+import QtQuick 2.14
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
+import "."
 
 MenuPage {
     property alias addButton: addButton
@@ -13,8 +14,6 @@ MenuPage {
     property var colHRatioM: 1
     property var colHRatio: 0.15 * colHRatioM
     property var twoInputs: false
-    /*property alias text1: text1
-    property alias text2: text2*/
     title: titleText
 
     Description {
@@ -22,13 +21,9 @@ MenuPage {
         text: headerText
     }
 
-    ScrollView {
+    InputScrollView {
         id: viewContainer
-        anchors.fill: parent
         anchors.topMargin: planHeader.paintedHeight + 20
-        contentWidth: -1
-        clip: true
-        anchors.margins: 10
 
         GridLayout {
             anchors.fill: parent

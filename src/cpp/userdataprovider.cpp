@@ -103,7 +103,7 @@ void UserDataProvider::initCheck()
             reset = false;
     //reset = (!settings.contains("customWrite") && !settings.contains("moods") && !settings.contains("plan") && !settings.contains("nice"));
     if(reset)
-        resetInputs(true, true, true, true, true, true, true, true, true, true, true);
+        resetInputs(true, true, true, true, true, true, true, true, true, true, true, true);
 
     //to avoid getting red color when updating to version with color change option
     if(!settings.contains("themeLight"))
@@ -124,7 +124,7 @@ void UserDataProvider::initCheck()
     if(!settings.contains("foodExist"))
     {
         saveBoolInput("foodExist", true);
-        resetInputs(false,false,false,false,false,false,false,true,false,true,true);
+        resetInputs(false,false,false,false,false,false,false,true,false,true,true,true);
     }
 }
 
@@ -142,11 +142,12 @@ void UserDataProvider::saveArrayInput(QString id, QList<QString> values)
     }
     settings.endArray();
 }
-
+//#include <iostream>
 //expecting diary array sorted by date with new records at the end
-void UserDataProvider::addToSortedArray(QString id, QString value, int index)
-{
+int UserDataProvider::addToSortedArray(QString id, QString value, int index)
+{ //std::cerr << id.toStdString() << ": " << value.toStdString() << " " << index << std::endl;
     auto values = loadArrayInput(id);
+    int position = 0;
     if(values.empty())
         values.append(value);
     else if(index>=values.size() || index<0)
@@ -159,11 +160,16 @@ void UserDataProvider::addToSortedArray(QString id, QString value, int index)
             if(newDate>=date)
                 break;
         }
-        values.insert(i+1, value);
+        position = i+1;
+        values.insert(position, value);
     }
     else
+    {
         values[index]=value;
+        position = index;
+    }
     saveArrayInput(id,values);
+    return position;
 }
 
 void UserDataProvider::removeFromArray(QString id, int index)
@@ -173,7 +179,6 @@ void UserDataProvider::removeFromArray(QString id, int index)
     saveArrayInput(id,values);
 }
 
-//TODO binary search?
 int UserDataProvider::getIndexByDate(QString id, QString date)
 {
     auto values = loadArrayInput(id);
@@ -249,7 +254,7 @@ float UserDataProvider::loadFloatInput(QString id)
 QString UserDataProvider::loadLanguage()
 {
     if (!settings.contains("language"))
-        resetInputs(false,false,false,false,false,false,true,false,false,false,false);
+        resetInputs(false,false,false,false,false,false,true,false,false,false,false,false);
     return settings.value("language").toString();
 }
 
@@ -271,7 +276,7 @@ QList<QString> UserDataProvider::loadArrayInput(QString id)
     return values;
 }
 
-void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks, bool praise, bool myContacts, bool diary)
+void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks, bool praise, bool myContacts, bool diary, bool foodDiary)
 {
     if(reasons)
     {
@@ -409,6 +414,14 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
     {
         QList<QString> list;
         saveArrayInput("diaryRecords", list);
+    }
+
+    if(foodDiary)
+    {
+        std::vector<QString> foodArrays{"foodRecordDates", "foodRecordBreakfast", "foodRecordAmSnack", "foodRecordLunch", "foodRecordPmSnack", "foodRecordDinner", "foodRecordSecondDinner"};
+        QList<QString> list;
+        for(auto const& array : foodArrays)
+            saveArrayInput(array, list);
     }
 }
 

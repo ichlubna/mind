@@ -18,12 +18,14 @@
     <message id="food-breakfast">
         <location filename="../src/qml/Food/Dishes/BreakfastForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="6"/>
+        <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="6"/>
         <source></source>
         <translation>Colazione</translation>
     </message>
     <message id="food-am-snack">
         <location filename="../src/qml/Food/Dishes/AmSnackForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="7"/>
+        <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="7"/>
         <source></source>
         <translation>Spuntino</translation>
     </message>
@@ -43,18 +45,21 @@
     <message id="food-lunch">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="8"/>
         <location filename="../src/qml/Food/Dishes/LunchForm.ui.qml" line="6"/>
+        <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="8"/>
         <source></source>
         <translation>Pranzo </translation>
     </message>
     <message id="food-pm-snack">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="9"/>
         <location filename="../src/qml/Food/Dishes/PmSnackForm.ui.qml" line="6"/>
+        <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="9"/>
         <source></source>
         <translation>Merenda</translation>
     </message>
     <message id="food-dinner">
         <location filename="../src/qml/Food/Dishes/DinnerForm.ui.qml" line="6"/>
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="10"/>
+        <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="10"/>
         <source></source>
         <translation>Cena</translation>
     </message>
@@ -1080,19 +1085,21 @@ Non sono solo/a.||
     </message>
     <message id="diary">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="140"/>
-        <location filename="../src/qml/MyRecords/DiaryForm.ui.qml" line="12"/>
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="12"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="12"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="7"/>
+        <location filename="../src/qml/MyRecords/RecordsForm.ui.qml" line="12"/>
         <source></source>
         <translation>Diario</translation>
     </message>
     <message id="diary-record-date">
-        <location filename="../src/qml/MyRecords/DiaryDateForm.ui.qml" line="7"/>
+        <location filename="../src/qml/MyRecords/RecordDateForm.ui.qml" line="7"/>
         <source></source>
         <translation>Data di registrazione</translation>
     </message>
     <message id="really-remove">
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="60"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="124"/>
         <source></source>
         <translation>Sei sicuro di volerlo fare?</translation>
     </message>
@@ -1116,6 +1123,51 @@ Non sono solo/a.||
         <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="39"/>
         <source></source>
         <translation>Export</translation>
+    </message>
+    <message id="food-choice">
+        <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="5"/>
+        <source></source>
+        <translation>Selezione dei pasti</translation>
+    </message>
+    <message id="food-second-dinner">
+        <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="11"/>
+        <source></source>
+        <translation>Seconda cena</translation>
+    </message>
+    <message id="food-record-when">
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="58"/>
+        <source></source>
+        <translation>Quando hai mangiato?</translation>
+    </message>
+    <message id="food-record-where">
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="69"/>
+        <source></source>
+        <translation>Dove hai mangiato?</translation>
+    </message>
+    <message id="food-record-with">
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="81"/>
+        <source></source>
+        <translation>Con chi hai mangiato?</translation>
+    </message>
+    <message id="food-record-what">
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="91"/>
+        <source></source>
+        <translation>Cosa hai mangiato?</translation>
+    </message>
+    <message id="food-record-feel">
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="101"/>
+        <source></source>
+        <translation>Come ti sei sentito durante il pasto?</translation>
+    </message>
+    <message id="food-record-problems">
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="111"/>
+        <source></source>
+        <translation>Hai notato problemi di disordine alimentare? Quale?</translation>
+    </message>
+    <message id="food-records">
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="8"/>
+        <source></source>
+        <translation>Registri dei pasti</translation>
     </message>
 </context>
 </TS>

@@ -17,6 +17,7 @@ DiaryRecordForm {
             {
                 var record = dataProvider.getFromArray(arrayName, recordIndex).split("|");                
                 recordText.text = record[1];
+                date = record[0];
             }}
         }
 
