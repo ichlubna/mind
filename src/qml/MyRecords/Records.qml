@@ -16,7 +16,7 @@ RecordsForm {
         records.model = count;
         for (var i = 0; i < count; i++) {
             var listIndex = (count-1)-i;
-            records.itemAt(i).id = i;
+            records.itemAt(i).position = i;
             var recordValues = values[i].split("|");
             if(dateOnly)
                 records.itemAt(listIndex).children[0].text = recordValues[0];

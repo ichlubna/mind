@@ -1214,7 +1214,7 @@ qrc:/images/anabell/pmSnack2.jpg
     <message id="food-choice">
         <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="5"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Выбор блюд</translation>
     </message>
     <message id="food-second-dinner">
         <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="11"/>

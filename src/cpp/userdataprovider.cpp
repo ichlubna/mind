@@ -142,10 +142,10 @@ void UserDataProvider::saveArrayInput(QString id, QList<QString> values)
     }
     settings.endArray();
 }
-//#include <iostream>
+
 //expecting diary array sorted by date with new records at the end
 int UserDataProvider::addToSortedArray(QString id, QString value, int index)
-{ //std::cerr << id.toStdString() << ": " << value.toStdString() << " " << index << std::endl;
+{
     auto values = loadArrayInput(id);
     int position = 0;
     if(values.empty())
@@ -184,17 +184,18 @@ int UserDataProvider::getIndexByDate(QString id, QString date)
     auto values = loadArrayInput(id);
     auto newDate = QDate::fromString(date, "d.M.yyyy");
     int index = -1;
-    for(int i=values.size()-1; i>=0; i--)
-    {
-        auto searchDate = QDate::fromString(values[i].split("|")[0], "d.M.yyyy");
-        if(newDate == searchDate)
+    if(!values.empty())
+        for(int i=values.size()-1; i>=0; i--)
         {
-            index = i;
-            break;
+            auto searchDate = QDate::fromString(values[i].split("|")[0], "d.M.yyyy");
+            if(newDate == searchDate)
+            {
+                index = i;
+                break;
+            }
+            else if(newDate>searchDate)
+                break;
         }
-        else if(newDate>searchDate)
-            break;
-    }
     return index;
 }
 

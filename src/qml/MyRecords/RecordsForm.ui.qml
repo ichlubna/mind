@@ -24,7 +24,7 @@ MenuPage {
                 id: records
                 Item {
                     property var header: false
-                    property var id: 0
+                    property var position: 0
                     width: viewContainer.width
                     height: viewContainer.height*0.2
 
@@ -43,7 +43,7 @@ MenuPage {
                         anchors.fill: parent
                         Connections {
                             onClicked: {
-                                stackView.push(afterDateFile, {"recordIndex": id})
+                                stackView.push(afterDateFile, {"recordIndex": position})
                             }
                         }
                     }
