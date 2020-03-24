@@ -1,4 +1,4 @@
-QT += quick svg gui core widgets
+QT += qml quick svg gui core widgets
 CONFIG += c++17
 
 # The following define makes your compiler emit warnings if you use

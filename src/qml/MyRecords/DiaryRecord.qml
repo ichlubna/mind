@@ -15,7 +15,7 @@ DiaryRecordForm {
                 recordIndex = dataProvider.getIndexByDate(arrayName, date);
             if(recordIndex > -1)
             {
-                var record = dataProvider.getFromArray(arrayName, recordIndex).split("|");                
+                var record = dataProvider.getFromArray(arrayName, recordIndex).split("|");
                 recordText.text = record[1];
                 date = record[0];
             }}
@@ -34,5 +34,6 @@ DiaryRecordForm {
     popup.no.onClicked: popup.close()
 
     confirmArea.onClicked:{
+        outFocuser.forceActiveFocus();
         stackView.pop();}
 }

@@ -68,6 +68,7 @@ FoodRecordForm {
     popup.no.onClicked: popup.close()
 
     confirmArea.onClicked:{
+        outFocuser.forceActiveFocus();
         stackView.pop();
         stackView.pop();}
 }

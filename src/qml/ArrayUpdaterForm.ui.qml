@@ -125,11 +125,12 @@ MenuPage {
                 }
             }
             Item {
-                height: 50
+                height: 300
                 width: 50
             }
         }
     }
+
     AddButton {
         id: addButton
         anchors.bottom: parent.bottom
