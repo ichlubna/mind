@@ -103,7 +103,10 @@ void UserDataProvider::initCheck()
             reset = false;
     //reset = (!settings.contains("customWrite") && !settings.contains("moods") && !settings.contains("plan") && !settings.contains("nice"));
     if(reset)
-        resetInputs(true, true, true, true, true, true, true, true, true, true, true, true);
+    {
+        auto params = QVector<bool>(resetParameter::RESET_PARAMS_COUNT, true);
+        resetInputs(params.toList());
+    }
 
     //to avoid getting red color when updating to version with color change option
     if(!settings.contains("themeLight"))
@@ -124,7 +127,13 @@ void UserDataProvider::initCheck()
     if(!settings.contains("foodExist"))
     {
         saveBoolInput("foodExist", true);
-        resetInputs(false,false,false,false,false,false,false,true,false,true,true,true);
+        auto params = QVector<bool>(resetParameter::RESET_PARAMS_COUNT, false);
+        params[resetParameter::FOOD] = true;
+        params[resetParameter::FOOD_RECORDS] = true;
+        params[resetParameter::DIARY] = true;
+        params[resetParameter::MY_CONTACTS] = true;
+        params[resetParameter::DEPRESSION_MOOD] = true;
+        resetInputs(params.toList());
     }
 }
 
@@ -255,7 +264,11 @@ float UserDataProvider::loadFloatInput(QString id)
 QString UserDataProvider::loadLanguage()
 {
     if (!settings.contains("language"))
-        resetInputs(false,false,false,false,false,false,true,false,false,false,false,false);
+    {
+        auto params = QVector<bool>(resetParameter::RESET_PARAMS_COUNT, false);
+        params[resetParameter::LANGUAGE] = true;
+        resetInputs(params.toList());
+    }
     return settings.value("language").toString();
 }
 
@@ -277,14 +290,14 @@ QList<QString> UserDataProvider::loadArrayInput(QString id)
     return values;
 }
 
-void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks, bool praise, bool myContacts, bool diary, bool foodDiary)
+void UserDataProvider::resetInputs(QList<bool> params)
 {
-    if(reasons)
+    if(params[resetParameter::REASONS])
     {
         auto list = parseList(qtTrId("reasons-example"));
         saveArrayInput("reasons", list);
     }
-    if(plan)
+    if(params[resetParameter::SUICIDE_PLAN])
     {
         settings.setValue("customWrite", qtTrId("custom-write"));
         settings.setValue("customWriteBody", qtTrId("custom-write-body"));
@@ -292,27 +305,27 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
         settings.setValue("customDo", qtTrId("custom-do"));
         settings.setValue("customGo", qtTrId("custom-go"));
     }
-    if(depressionPlan)
+    if(params[resetParameter::DEPRESSION_PLAN])
     {
         saveArrayInput("plan", QList<QString>{qtTrId("plan-example")});
         saveArrayInput("planC", QList<QString>{"t"});
     }
-    if(nice)
+    if(params[resetParameter::DEPRESSION_NICE])
         saveArrayInput("nice", QList<QString>{qtTrId("nice-example")});
-    if(praise)
+    if(params[resetParameter::DEPRESSION_PRAISE])
         saveArrayInput("praise", QList<QString>{qtTrId("praise-example")});
-    if(theme)
+    if(params[resetParameter::CUSTOM_THEME])
     {
         settings.setValue("themeLight",  -0.05);
         settings.setValue("themeHue",  0.76);
     }
-    if(moods)
+    if(params[resetParameter::DEPRESSION_MOOD])
     {
         saveArrayInput("moods", QList<QString>{});
         /*settings.remove("moodsRangeStart");
         settings.remove("moodsRangeEnd");*/
     }
-    if(language)
+    if(params[resetParameter::LANGUAGE])
     {
         QLocale::Language language = QLocale::system().language();
         QString langString = "EN";
@@ -346,13 +359,21 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
              langString = "IT";
             break;
 
+            case QLocale::Language::Russian:
+             langString = "RU";
+            break;
+
+            case QLocale::Language::German:
+             langString = "DE";
+            break;
+
             default:
                 langString = "EN";
             break;
         }
         settings.setValue("language", langString);
     }
-    if(foodTasks)
+    if(params[resetParameter::FOOD])
     {
         auto list = parseList(qtTrId("food-afraid-text"));
         QList<QString> checkList;
@@ -402,7 +423,7 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
         saveArrayInput("foodMotivation", list);
         saveArrayInput("foodMotivationC", checkList);
     }
-    if(myContacts)
+    if(params[resetParameter::MY_CONTACTS])
     {
         auto list = parseList(qtTrId("myContactsNames-example"));
         saveArrayInput("myContactsNames", list);
@@ -411,13 +432,13 @@ void UserDataProvider::resetInputs(bool reasons, bool nice, bool plan, bool depr
         saveArrayInput("myContactsNumbers", list);
     }
 
-    if(diary)
+    if(params[resetParameter::DIARY])
     {
         QList<QString> list;
         saveArrayInput("diaryRecords", list);
     }
 
-    if(foodDiary)
+    if(params[resetParameter::FOOD_RECORDS])
     {
         std::vector<QString> foodArrays{"foodRecordDates", "foodRecordBreakfast", "foodRecordAmSnack", "foodRecordLunch", "foodRecordPmSnack", "foodRecordDinner", "foodRecordSecondDinner"};
         QList<QString> list;

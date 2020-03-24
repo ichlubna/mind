@@ -32,7 +32,7 @@ public:
     Q_INVOKABLE QString loadLanguage();
     Q_INVOKABLE void setLanguage(QString language);
     Q_INVOKABLE void translateInputs();
-    Q_INVOKABLE void resetInputs(bool reasons, bool nice, bool plan, bool depressionPlan, bool theme, bool moods, bool language, bool foodTasks, bool praise, bool myContacts, bool diary, bool foodDiary);
+    Q_INVOKABLE void resetInputs(QList<bool> params);
 
 private:
     struct CustomInput
@@ -42,6 +42,8 @@ private:
         QString settingsId;
         inputType type;
     };
+
+    enum resetParameter {REASONS=0, DEPRESSION_NICE, SUICIDE_PLAN, DEPRESSION_PLAN, DEPRESSION_PRAISE, CUSTOM_THEME, DEPRESSION_MOOD, LANGUAGE, FOOD, MY_CONTACTS, DIARY, FOOD_RECORDS, RESET_PARAMS_COUNT};
     static const char* TO_TRANSLATE;
     static const std::vector<CustomInput> customInputs;
     void checkDefault(CustomInput input);
