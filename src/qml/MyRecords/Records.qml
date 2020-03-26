@@ -16,7 +16,7 @@ RecordsForm {
         records.model = count;
         for (var i = 0; i < count; i++) {
             var listIndex = (count-1)-i;
-            records.itemAt(i).position = i;
+            records.itemAt(listIndex).position = i;
             //the string could be trimmed here before split (speed) - TODO if needed
             var recordValues = values[i].split("|");
             if(dateOnly)

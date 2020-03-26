@@ -1,5 +1,9 @@
 #include "translator.h"
 QList<QString> Translator::languages{"CZ", "SK", "PL", "FR", "EN", "IT", "ES", "RU", "DE"};
+QList<QLocale::Language> Translator::languagesLocale{QLocale::Language::Czech, QLocale::Language::Slovak, QLocale::Language::Polish, QLocale::Language::French, QLocale::Language::English,
+                                                     QLocale::Language::Italian, QLocale::Language::Spanish, QLocale::Language::Russian, QLocale::Language::German};
+
+
 Translator *TranslatorAdapter::instance = nullptr;
 
 Translator::Translator()

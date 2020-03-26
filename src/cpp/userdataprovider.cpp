@@ -1,7 +1,7 @@
 #include <QDate>
 #include "userdataprovider.h"
+#include "translator.h"
 
-//TODO use in reset function too
 const std::vector<UserDataProvider::CustomInput> UserDataProvider::customInputs{{"reasons-example", "reasons", UserDataProvider::CustomInput::ARRAY},
                                                                         {"custom-write", "customWrite", UserDataProvider::CustomInput::STRING},
                                                                         {"custom-write-body", "customWriteBody", UserDataProvider::CustomInput::STRING},
@@ -329,48 +329,11 @@ void UserDataProvider::resetInputs(QList<bool> params)
     {
         QLocale::Language language = QLocale::system().language();
         QString langString = "EN";
-        switch(language)
-        {
-            case QLocale::Language::Czech:
-             langString = "CZ";
-            break;
-
-            case QLocale::Language::Slovak:
-             langString = "SK";
-            break;
-
-            case QLocale::Language::English:
-             langString = "EN";
-            break;
-
-            case QLocale::Language::Polish:
-             langString = "PL";
-            break;
-
-            case QLocale::Language::French:
-             langString = "FR";
-            break;
-
-            case QLocale::Language::Spanish:
-             langString = "ES";
-            break;
-
-            case QLocale::Language::Italian:
-             langString = "IT";
-            break;
-
-            case QLocale::Language::Russian:
-             langString = "RU";
-            break;
-
-            case QLocale::Language::German:
-             langString = "DE";
-            break;
-
-            default:
-                langString = "EN";
-            break;
-        }
+        auto languages = TranslatorAdapter::getLanguages();
+        auto languagesLocale = TranslatorAdapter::getLanguagesLocale();
+        for(int i=0; i<languagesLocale.length(); i++)
+            if(language == languagesLocale[i])
+                langString = languages[i];
         settings.setValue("language", langString);
     }
     if(params[resetParameter::FOOD])
