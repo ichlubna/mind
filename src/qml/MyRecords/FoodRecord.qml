@@ -8,17 +8,36 @@ FoodRecordForm {
     property var date: ""
     property var index: 0
     property var dateRecord: []
+    property var delimiter: "$_^#_$"
 
     StackView.onDeactivating:{
         if(save){
-            var record = []
+            var textAnswer = []
+            var tickAnswer = []
             var clean = true;
-            for(var i=0; i<6; i++)
+            for(var i=0; i<questions.children.length; i++)
             {
-                record.push(questions.children[i*2+2].text);
-                if(record[i] !== "")
-                    clean = false;
+                var item = questions.children[i];
+                if(item.objectName === "input")
+                {
+                    textAnswer.push(item.text);
+                    if(item.text !== "")
+                        clean = false;
+                }
+                else if(item.objectName === "ticks")
+                {
+                    var ticks = "";
+                    for(var j=0; j<item.children.length; j++)
+                        if(item.children[j].objectName === "tick")
+                        {
+                            ticks += (item.children[j].checked) ? "1" : "0";
+                            if(item.children[j].checked)
+                                clean = false;
+                        }
+                    tickAnswer.push(ticks);
+                }
             }
+            var record = textAnswer.concat([delimiter]).concat(tickAnswer);
             if(!clean)
             {
                 var position = dataProvider.addToSortedArray(arrayNames[index], record.join("|"), recordIndex);
@@ -36,9 +55,28 @@ FoodRecordForm {
             if(recordIndex > -1)
             {
                 var record = dataProvider.getFromArray(arrayNames[index], recordIndex).split("|");
-                for(var i=0; i<record.length; i++)
+                var tickIndex = record.indexOf(delimiter)+1;
+                var textIndex = 0;
+
+                for(var i=0; i<questions.children.length; i++)
                 {
-                    questions.children[i*2+2].text = record[i];
+                    var item = questions.children[i];
+                    if(item.objectName === "input")
+                    {
+                        item.text = record[textIndex];
+                        textIndex++;
+                    }
+                    else if(item.objectName === "ticks")
+                    {
+                        var ticks = record[tickIndex].split("");
+                        tickIndex++;
+                        for(var j=0; j<item.children.length; j++)
+                            if(item.children[j].objectName === "tick")
+                            {
+                                item.children[j].checked = (ticks[0] === "1");
+                                ticks.shift();
+                            }
+                    }
                 }
             }
         }

@@ -21,10 +21,9 @@ RecordsForm {
             var recordValues = values[i].split("|");
             if(dateOnly)
             {
-                var recordText = recordValues[0]+" ";
                 for(var j = 1; j < recordValues.length; j++)
-                    recordText += (recordValues[j]==="-1") ? "\u25CB" : "\u25CF";
-                records.itemAt(listIndex).children[0].text = recordText;
+                    records.itemAt(listIndex).children[1].children[recordValues.length-j-1].ok = (recordValues[j]!=="-1");
+                records.itemAt(listIndex).children[0].text = recordValues[0];;
             }
             else
                 records.itemAt(listIndex).children[0].text = recordValues[0]+" - "+recordValues[1].trim().slice(0,13)+"...";

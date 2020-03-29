@@ -11,11 +11,14 @@ SwipePage {
     property alias popup: popup
     title: qsTrId("diary")
 
+    property var problemItems: [qsTrId("food-problems-vomit"), qsTrId("food-problems-exercise"), qsTrId("food-problems-self-harm"), qsTrId("food-problems-laxative"), qsTrId("food-problems-anxiety")]
+    property var feelItems: [qsTrId("food-problems-happy"), qsTrId("food-problems-satisfied"), qsTrId("food-problems-proud"), qsTrId("food-problems-fear"), qsTrId("food-problems-anger"), qsTrId("food-problems-anxiety"), qsTrId("food-problems-unsatisfied"), qsTrId("food-problems-disgusted"), qsTrId("food-problems-sad"), qsTrId("food-problems-stress")]
+
     InputScrollView {
         id: view
 
         ColumnLayout {
-            spacing: 10
+            spacing: 20
             anchors.fill: parent
             id: questions
 
@@ -52,6 +55,7 @@ SwipePage {
                 Layout.fillWidth: true
             }
             MenuTextArea {
+                objectName: "input"
                 Layout.fillWidth: true
             }
             DescriptionLabel {
@@ -59,6 +63,7 @@ SwipePage {
                 Layout.fillWidth: true
             }
             MenuTextArea {
+                objectName: "input"
                 Layout.fillWidth: true
             }
             DescriptionLabel {
@@ -66,6 +71,7 @@ SwipePage {
                 Layout.fillWidth: true
             }
             MenuTextArea {
+                objectName: "input"
                 Layout.fillWidth: true
             }
             DescriptionLabel {
@@ -73,21 +79,79 @@ SwipePage {
                 Layout.fillWidth: true
             }
             MenuTextArea {
+                objectName: "input"
                 Layout.fillWidth: true
             }
             DescriptionLabel {
                 text: qsTrId("food-record-feel")
                 Layout.fillWidth: true
             }
+            GridLayout{
+                objectName: "ticks"
+                columns: 2
+                Layout.fillWidth: true
+
+                Repeater{
+                    model: feelItems
+                        DescriptionLabel {
+                            text: modelData
+                            Layout.column: 0
+                            Layout.row: index
+                        }}
+                Repeater{
+                        model: feelItems
+                        MenuCheckBox{
+                            objectName: "tick"
+                            Layout.column: 1
+                            Layout.row: index
+                        }
+                }
+            }
+            DescriptionLabel {
+                text: qsTrId("other")
+                Layout.fillWidth: true
+            }
             MenuTextArea {
+                objectName: "input"
                 Layout.fillWidth: true
             }
             DescriptionLabel {
+                id: foodProblems
                 text: qsTrId("food-record-problems")
                 Layout.fillWidth: true
             }
-            MenuTextArea {
+            GridLayout{
+                objectName: "ticks"
+                columns: 2
                 Layout.fillWidth: true
+
+                Repeater{
+                    model: problemItems
+                        DescriptionLabel {
+                            text: modelData
+                            Layout.column: 0
+                            Layout.row: index
+                        }}
+                Repeater{
+                        model: problemItems
+                        MenuCheckBox{
+                            objectName: "tick"
+                            Layout.column: 1
+                            Layout.row: index
+                        }
+                }
+            }
+            DescriptionLabel {
+                text: qsTrId("other")
+                Layout.fillWidth: true
+            }
+            MenuTextArea {
+                objectName: "input"
+                Layout.fillWidth: true
+            }
+            Item {
+                height: 300
+                width: 50
             }
         }
     }

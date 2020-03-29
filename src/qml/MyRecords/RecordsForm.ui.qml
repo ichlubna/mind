@@ -35,6 +35,22 @@ MenuPage {
                         font.bold: header
                     }
 
+                    Row {
+                        anchors.fill: parent
+                        layoutDirection: Qt.RightToLeft
+                        spacing: 5
+                        Repeater{
+                            model: 6
+                            Image {
+                                property var ok: false
+                                source: (ok) ? "qrc:/images/tick.svg" : "qrc:/images/delete.svg"
+                                height: parent.height*0.3
+                                width: parent.height*0.3
+                                anchors.verticalCenter: parent.verticalCenter
+                                fillMode: Image.PreserveAspectFit
+                            }
+                    }}
+
                     Rectangle{color: (index%2 == 0) ? "black" : "white"
                         anchors.fill: parent
                         opacity: (header) ? 0.0 : 0.2
