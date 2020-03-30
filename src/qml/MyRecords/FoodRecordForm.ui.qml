@@ -22,34 +22,6 @@ SwipePage {
             anchors.fill: parent
             id: questions
 
-            Item {
-                Layout.preferredWidth: parent.width
-                Layout.preferredHeight: view.height * 0.1
-
-                Image {
-                    source: "qrc:/images/delete.svg"
-                    height: view.height * 0.095
-                    width: view.height * 0.095
-                    fillMode: Image.PreserveAspectFit
-                    anchors.right: parent.right
-                    MouseArea {
-                        anchors.fill: parent
-                        id: removeArea
-                    }
-                }
-                Image {
-                    source: "qrc:/images/tick.svg"
-                    height: view.height * 0.09
-                    width: view.height * 0.09
-                    fillMode: Image.PreserveAspectFit
-                    anchors.left: parent.left
-                    MouseArea {
-                        anchors.fill: parent
-                        id: confirmArea
-                    }
-                }
-            }
-
             DescriptionLabel {
                 text: qsTrId("food-record-when")
                 Layout.fillWidth: true
@@ -90,6 +62,7 @@ SwipePage {
                 objectName: "ticks"
                 columns: 2
                 Layout.fillWidth: true
+                Layout.leftMargin: 20
 
                 Repeater{
                     model: feelItems
@@ -124,6 +97,7 @@ SwipePage {
                 objectName: "ticks"
                 columns: 2
                 Layout.fillWidth: true
+                Layout.leftMargin: 20
 
                 Repeater{
                     model: problemItems
@@ -149,6 +123,35 @@ SwipePage {
                 objectName: "input"
                 Layout.fillWidth: true
             }
+
+            Item {
+                Layout.preferredWidth: parent.width
+                Layout.preferredHeight: view.height * 0.1
+
+                Image {
+                    source: "qrc:/images/delete.svg"
+                    height: view.height * 0.095
+                    width: view.height * 0.095
+                    fillMode: Image.PreserveAspectFit
+                    anchors.right: parent.right
+                    MouseArea {
+                        anchors.fill: parent
+                        id: removeArea
+                    }
+                }
+                Image {
+                    source: "qrc:/images/tick.svg"
+                    height: view.height * 0.09
+                    width: view.height * 0.09
+                    fillMode: Image.PreserveAspectFit
+                    anchors.left: parent.left
+                    MouseArea {
+                        anchors.fill: parent
+                        id: confirmArea
+                    }
+                }
+            }
+
             Item {
                 height: 300
                 width: 50
