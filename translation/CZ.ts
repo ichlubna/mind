@@ -773,7 +773,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
         <translation>Ano</translation>
     </message>
     <message id="mood-help-no">
-        <location filename="../src/qml/PopupWindow.qml" line="56"/>
+        <location filename="../src/qml/PopupWindow.qml" line="55"/>
         <source></source>
         <translation>Ne</translation>
     </message>
@@ -1131,7 +1131,7 @@ Nejsem na to sám/sama|
     </message>
     <message id="really-remove">
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="55"/>
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="161"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="178"/>
         <source></source>
         <translation>Chcete skutečně provést tuto akci?</translation>
     </message>
@@ -1191,27 +1191,27 @@ Nejsem na to sám/sama|
         <translation>Kdy jste jedl/a?</translation>
     </message>
     <message id="food-record-where">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="34"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="37"/>
         <source></source>
         <translation>Kde jste jedl/a?</translation>
     </message>
     <message id="food-record-with">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="42"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="48"/>
         <source></source>
         <translation>S kým jste jedl/a?</translation>
     </message>
     <message id="food-record-what">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="50"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="59"/>
         <source></source>
         <translation>Co jste jedl/a?</translation>
     </message>
     <message id="food-record-feel">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="58"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="70"/>
         <source></source>
         <translation>Jaké jste měl/a pocity při jídle?</translation>
     </message>
     <message id="food-record-problems">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="92"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="108"/>
         <source></source>
         <translation>Vyskytly se příznaky poruch příjmu potravy? Jaké?</translation>
     </message>
@@ -1235,11 +1235,15 @@ Nejsem na to sám/sama|
         <source></source>
         <translation>projímadlo</translation>
     </message>
-    <message id="food-problems-anxiety">
+    <message id="food-problems-anxiety-attack">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="14"/>
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
         <source></source>
         <translation>úzkostná ataka</translation>
+    </message>
+    <message id="food-problems-anxiety">
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
+        <source></source>
+        <translation>úzkost</translation>
     </message>
     <message id="food-problems-happy">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
@@ -1287,8 +1291,8 @@ Nejsem na to sám/sama|
         <translation>stres</translation>
     </message>
     <message id="other">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="83"/>
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="117"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="96"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="134"/>
         <source></source>
         <translation>jiné:</translation>
     </message>

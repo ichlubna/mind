@@ -10,7 +10,7 @@ Popup {
     id: popup
     parent: Overlay.overlay
     width: parent.width * 0.9
-    height: childrenRect.height
+    height: parent.height * 0.5
     anchors.centerIn: parent
     closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutsideParent
     bottomPadding: 0
@@ -45,7 +45,6 @@ Popup {
     MenuButton {
         id: yes
         text: qsTrId("mood-help-yes")
-        //anchors.bottom: no.top
         anchors.bottom: no.top
         width: parent.width* 0.6
         anchors.bottomMargin: 10

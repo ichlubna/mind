@@ -26,7 +26,7 @@ SwipePage{
             height: view.height*0.095
             width: view.height*0.095
             fillMode: Image.PreserveAspectFit
-            anchors.right: parent.right
+            anchors.left: parent.left
             MouseArea {
                 anchors.fill: parent
                 id: removeArea
@@ -37,7 +37,7 @@ SwipePage{
             height: view.height*0.09
             width: view.height*0.09
             fillMode: Image.PreserveAspectFit
-            anchors.left: parent.left
+            anchors.right: parent.right
             MouseArea {
                 anchors.fill: parent
                 id: confirmArea

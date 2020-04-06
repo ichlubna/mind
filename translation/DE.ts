@@ -758,7 +758,7 @@ Gehen Sie an die frische Luf|Machen Sie einen halbstündigen Spaziergang. Gehen 
         <translation>Ja</translation>
     </message>
     <message id="mood-help-no">
-        <location filename="../src/qml/PopupWindow.qml" line="56"/>
+        <location filename="../src/qml/PopupWindow.qml" line="55"/>
         <source></source>
         <translation>Nein</translation>
     </message>
@@ -1065,7 +1065,7 @@ Ich bin nicht allein|
     </message>
     <message id="really-remove">
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="55"/>
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="161"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="178"/>
         <source></source>
         <translation>Sind Sie sicher, dass Sie dies tun möchten?</translation>
     </message>
@@ -1106,27 +1106,27 @@ Ich bin nicht allein|
         <translation>Wann haben Sie gegessen?</translation>
     </message>
     <message id="food-record-where">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="34"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="37"/>
         <source></source>
         <translation>Wo haben Sie gegessen?</translation>
     </message>
     <message id="food-record-with">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="42"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="48"/>
         <source></source>
         <translation>Mit wem haben Sie gegessen?</translation>
     </message>
     <message id="food-record-what">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="50"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="59"/>
         <source></source>
         <translation>Was haben Sie gegessen?</translation>
     </message>
     <message id="food-record-feel">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="58"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="70"/>
         <source></source>
         <translation>Wie haben Sie sich während des Essens gefühlt?</translation>
     </message>
     <message id="food-record-problems">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="92"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="108"/>
         <source></source>
         <translation>Haben Sie Probleme mit Essstörungen bemerkt? Welche?</translation>
     </message>
@@ -1150,11 +1150,15 @@ Ich bin nicht allein|
         <source></source>
         <translation>Abführmittel</translation>
     </message>
-    <message id="food-problems-anxiety">
+    <message id="food-problems-anxiety-attack">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="14"/>
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
         <source></source>
         <translation>Panikattacke</translation>
+    </message>
+    <message id="food-problems-anxiety">
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
+        <source></source>
+        <translation>Unbehagen</translation>
     </message>
     <message id="food-problems-happy">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
@@ -1202,8 +1206,8 @@ Ich bin nicht allein|
         <translation>Stress</translation>
     </message>
     <message id="other">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="83"/>
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="117"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="96"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="134"/>
         <source></source>
         <translation>andere:</translation>
     </message>

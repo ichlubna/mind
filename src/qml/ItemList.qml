@@ -18,7 +18,7 @@ MenuPage {
                 id: list
                 anchors.fill: parent
                 Item {
-                    Layout.preferredWidth: view.width
+                    Layout.fillWidth: true
                     Layout.preferredHeight: view.width
                     Image {
                         id: img
@@ -30,12 +30,19 @@ MenuPage {
                         anchors.topMargin: 5
                     }
                     DescriptionLabel {
+                        id: description
                         text: items[index * 2 + 1].trim()
                         height: parent.height * 0.3
                         width: parent.width
                         anchors.top: img.bottom
                         anchors.topMargin: 10
                         horizontalAlignment: Text.AlignHCenter
+                    }
+
+                    LineDelimiter{
+                        width: parent.width
+                        height: 20
+                        anchors.top: description.bottom
                     }
                 }
             }

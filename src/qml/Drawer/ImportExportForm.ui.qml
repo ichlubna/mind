@@ -1,13 +1,12 @@
 import QtQuick 2.4
 import QtQuick.Controls 2.2
-import QtQuick.Dialogs 1.2
 import ".."
 
 MenuPage {
     id: importExportPage
     property alias importButton: importButton
     property alias exportButton: exportButton
-    property alias fileDialog: fileDialog
+    property alias picker: picker
     property alias anim: anim
     title: qsTrId("import-export")
 
@@ -43,9 +42,9 @@ MenuPage {
         width: parent.width*0.6
     }
 
-    FileDialog {
-        id: fileDialog
-        title: "Please choose a file"
-        folder: shortcuts.home
+    FilePicker{
+        id: picker
+        visible: false
+        filter: ["*.json"]
     }
 }

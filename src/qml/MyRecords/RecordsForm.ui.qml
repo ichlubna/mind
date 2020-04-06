@@ -39,6 +39,7 @@ MenuPage {
                         anchors.fill: parent
                         layoutDirection: Qt.RightToLeft
                         spacing: 5
+                        visible: dateOnly
                         Repeater{
                             model: 6
                             Image {

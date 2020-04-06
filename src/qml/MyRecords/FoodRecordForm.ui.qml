@@ -1,4 +1,4 @@
-import QtQuick 2.9
+import QtQuick 2.14
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.3
 import ".."
@@ -9,9 +9,9 @@ SwipePage {
     property alias confirmArea: confirmArea
     property alias questions: questions
     property alias popup: popup
-    title: qsTrId("diary")
+    title: qsTrId("food-records")
 
-    property var problemItems: [qsTrId("food-problems-vomit"), qsTrId("food-problems-exercise"), qsTrId("food-problems-self-harm"), qsTrId("food-problems-laxative"), qsTrId("food-problems-anxiety")]
+    property var problemItems: [qsTrId("food-problems-vomit"), qsTrId("food-problems-exercise"), qsTrId("food-problems-self-harm"), qsTrId("food-problems-laxative"), qsTrId("food-problems-anxiety-attack")]
     property var feelItems: [qsTrId("food-problems-happy"), qsTrId("food-problems-satisfied"), qsTrId("food-problems-proud"), qsTrId("food-problems-fear"), qsTrId("food-problems-anger"), qsTrId("food-problems-anxiety"), qsTrId("food-problems-unsatisfied"), qsTrId("food-problems-disgusted"), qsTrId("food-problems-sad"), qsTrId("food-problems-stress")]
 
     InputScrollView {
@@ -30,6 +30,9 @@ SwipePage {
                 objectName: "input"
                 Layout.fillWidth: true
             }
+
+            LineDelimiter{}
+
             DescriptionLabel {
                 text: qsTrId("food-record-where")
                 Layout.fillWidth: true
@@ -38,6 +41,9 @@ SwipePage {
                 objectName: "input"
                 Layout.fillWidth: true
             }
+
+            LineDelimiter{}
+
             DescriptionLabel {
                 text: qsTrId("food-record-with")
                 Layout.fillWidth: true
@@ -46,6 +52,9 @@ SwipePage {
                 objectName: "input"
                 Layout.fillWidth: true
             }
+
+            LineDelimiter{}
+
             DescriptionLabel {
                 text: qsTrId("food-record-what")
                 Layout.fillWidth: true
@@ -54,6 +63,9 @@ SwipePage {
                 objectName: "input"
                 Layout.fillWidth: true
             }
+
+            LineDelimiter{}
+
             DescriptionLabel {
                 text: qsTrId("food-record-feel")
                 Layout.fillWidth: true
@@ -88,6 +100,9 @@ SwipePage {
                 objectName: "input"
                 Layout.fillWidth: true
             }
+
+            LineDelimiter{}
+
             DescriptionLabel {
                 id: foodProblems
                 text: qsTrId("food-record-problems")
@@ -133,7 +148,7 @@ SwipePage {
                     height: view.height * 0.095
                     width: view.height * 0.095
                     fillMode: Image.PreserveAspectFit
-                    anchors.right: parent.right
+                    anchors.left: parent.left
                     MouseArea {
                         anchors.fill: parent
                         id: removeArea
@@ -144,7 +159,7 @@ SwipePage {
                     height: view.height * 0.09
                     width: view.height * 0.09
                     fillMode: Image.PreserveAspectFit
-                    anchors.left: parent.left
+                    anchors.right: parent.right
                     MouseArea {
                         anchors.fill: parent
                         id: confirmArea

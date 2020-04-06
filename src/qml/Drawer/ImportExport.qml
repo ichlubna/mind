@@ -1,18 +1,16 @@
 import QtQuick 2.4
+import Qt.labs.platform 1.1
+import QtQml 2.14
 import io.qt.ImporterExporter 1.0
 
 ImportExportForm {
-    property var importClicked : true
-    property var ok : true
-
     ImporterExporter {
         id: importerExporter
     }
 
-    importButton.onClicked: {fileDialog.selectExisting = true; fileDialog.visible = true; importClicked = true;}
-    exportButton.onClicked: {fileDialog.selectExisting = false; fileDialog.visible = true; importClicked = false;}
-    fileDialog.onAccepted: {(importClicked) ? ok = importerExporter.importSettings(fileDialog.fileUrl) : ok = importerExporter.exportSettings(fileDialog.fileUrl); validateAnimation();}
-    fileDialog.onRejected: {}
+    importButton.onClicked: {picker.visible = true;}
+    exportButton.onClicked: {validateAnimation(importerExporter.exportSettings(StandardPaths.standardLocations(StandardPaths.DownloadLocation)[0]+"/dontPanic" + new Date().toLocaleString(Qt.locale("en_EN"), "dd.MM.yyyy-hh:mm:ss") + ".json"));}
+    picker.onVisibleChanged: {if(!picker.visible) {validateAnimation(importerExporter.importSettings(picker.selected));}}
 
     OpacityAnimator {
          id: animator
@@ -23,7 +21,7 @@ ImportExportForm {
          running: false
     }
 
-    function validateAnimation()
+    function validateAnimation(ok)
     {
         if(ok)
             anim.source = "qrc:/images/tick.svg";
