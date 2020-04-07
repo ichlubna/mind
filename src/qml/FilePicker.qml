@@ -8,7 +8,16 @@ SwipePage {
     z: 5000
     anchors.fill: parent
     property var filter: "*"
-    property var selected: ""
+    property var startDir: StandardPaths.standardLocations(StandardPaths.DownloadLocation)[0]
+    property var selected: startDir
+    property var selectedConfirmed: ""
+    property var dirsOnly: false
+
+    function show()
+    {
+        picker.visible = true;
+        selectedConfirmed = "";
+    }
 
     Image {
         id: ok
@@ -20,7 +29,10 @@ SwipePage {
         anchors.right: parent.right
         MouseArea {
             anchors.fill: parent
-            onClicked: {picker.visible = false;}
+            onClicked: {
+                selectedConfirmed = selected;
+                picker.visible = false;
+            }
         }
     }
 
@@ -35,9 +47,9 @@ SwipePage {
         anchors.top: parent.top
         anchors.left: parent.left
         text: ".."
-        height: parent.height*0.09
-        width: parent.height*0.09
-        font.pointSize: 30
+        height: parent.height*0.08
+        width: parent.height*0.08
+        font.pointSize: 25
         MouseArea {
             anchors.fill: parent
             onClicked: {folderModel.folder = folderModel.parentFolder}
@@ -58,26 +70,31 @@ SwipePage {
 
         model: FolderListModel {
             id: folderModel
-            onFolderChanged: {folderName.text = folder.toLocaleString().split('\\').pop().split('/').pop();}
+            onFolderChanged: {
+                folderName.text = folder.toLocaleString().split('\\').pop().split('/').pop();
+                selected = folder;
+            }
             showDirsFirst: true
-            folder: StandardPaths.standardLocations(
-                        StandardPaths.DownloadLocation)[0]
-                        nameFilters: filter
+            showFiles: !dirsOnly
+            folder: startDir
+            nameFilters: filter
         }
 
        delegate: Component {
             DescriptionLabel {
+                minimumPointSize: 10
+                fontSizeMode: Text.Fit
                 text: fileName
                 width: list.width
                 height: list.height * 0.1
+                font.bold: fileIsDir
                 MouseArea {
                     anchors.fill: parent
                     onClicked: {
                         list.currentIndex = index;
+                        selected = fileURL;
                         if(fileIsDir)
                             folderModel.folder = fileURL;
-                        else
-                            selected = fileURL;
                     }
                 }
             }

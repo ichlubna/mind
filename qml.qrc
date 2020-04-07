@@ -84,7 +84,6 @@
         <file>src/qml/MenuCheckBox.qml</file>
         <file>src/qml/MenuColumn.qml</file>
         <file>src/qml/MenuPage.qml</file>
-        <file>src/qml/MenuLine.qml</file>
         <file>src/qml/MenuTextArea.qml</file>
         <file>src/qml/Panic/Panic.qml</file>
         <file>src/qml/Panic/PanicForm.ui.qml</file>

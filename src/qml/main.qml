@@ -226,7 +226,9 @@ ApplicationWindow {
                 }
             }
 
-            MenuLine{}
+            LineDelimiter{
+                height: 5
+                width: drawer.width}
 
             GridLayout {
                 columns: 3
@@ -265,7 +267,9 @@ ApplicationWindow {
                     }
             }
 
-            MenuLine{}
+            LineDelimiter{
+                height: 5
+                width: drawer.width}
 
             GridLayout {
                 columns: 3

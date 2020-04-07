@@ -4,13 +4,21 @@ import QtQml 2.14
 import io.qt.ImporterExporter 1.0
 
 ImportExportForm {
+    property var importClicked : true
+
     ImporterExporter {
         id: importerExporter
     }
 
-    importButton.onClicked: {picker.visible = true;}
-    exportButton.onClicked: {validateAnimation(importerExporter.exportSettings(StandardPaths.standardLocations(StandardPaths.DownloadLocation)[0]+"/dontPanic" + new Date().toLocaleString(Qt.locale("en_EN"), "dd.MM.yyyy-hh:mm:ss") + ".json"));}
-    picker.onVisibleChanged: {if(!picker.visible) {validateAnimation(importerExporter.importSettings(picker.selected));}}
+    importButton.onClicked: {picker.show(); picker.dirsOnly = false; importClicked = true;}
+    exportButton.onClicked: {picker.show(); picker.dirsOnly = true; importClicked = false;}
+    picker.onVisibleChanged: {
+            if(!picker.visible)
+                if(importClicked)
+                    validateAnimation(importerExporter.importSettings(picker.selectedConfirmed));
+                else
+                    validateAnimation(importerExporter.exportSettings(picker.selectedConfirmed + "/" + qsTrId("appName") + new Date().toLocaleString(Qt.locale("en_EN"), "dd.MM.yyyy-hh:mm:ss") + ".json"));
+        }
 
     OpacityAnimator {
          id: animator
