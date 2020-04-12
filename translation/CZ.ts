@@ -717,7 +717,7 @@ Jděte na čerstvý vzduch|Vydejte se na půlhodinovou procházku, běžte rychl
     <message id="angeliny-link">
         <location filename="../src/qml/Drawer/Support.qml" line="7"/>
         <source></source>
-        <translation>https://angeliniaward.cz</translation>
+        <translation>https://www.angelini.cz/</translation>
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/Drawer/AboutAppForm.ui.qml" line="7"/>
@@ -1163,7 +1163,7 @@ Nejsem na to sám/sama|
     <message id="import-export-text">
         <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="24"/>
         <source></source>
-        <translation>Zde můžete uložit svá data y aplikace do souboru či nahrát uložená data do aplikace. Import nových dat však přepíše aktuálně uložené položky!</translation>
+        <translation>Zde můžete uložit svá data z aplikace do souboru či nahrát uložená data do aplikace. Import nových dat však přepíše aktuálně uložené položky!</translation>
     </message>
     <message id="import-button">
         <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="30"/>

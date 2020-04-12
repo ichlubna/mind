@@ -17,12 +17,14 @@ SOURCES += \
     src/cpp/importerExporter.cpp \
     src/cpp/main.cpp \
     src/cpp/mathengine.cpp \
+    src/cpp/permissionsos.cpp \
     src/cpp/translator.cpp \
     src/cpp/userdataprovider.cpp
 
 HEADERS += \
     src/cpp/importerExporter.h \
     src/cpp/mathengine.h \
+    src/cpp/permissionsos.h \
     src/cpp/translator.h \
     src/cpp/userdataprovider.h
 
@@ -62,7 +64,7 @@ DISTFILES += \
     src/qml/qmldir \ \ \
     translation/IT.ts
 
-
+    #QT += androidextras
 contains(ANDROID_TARGET_ARCH,arm64-v8a) {
     QT += androidextras
     ANDROID_PACKAGE_SOURCE_DIR = \

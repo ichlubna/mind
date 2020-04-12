@@ -45,6 +45,6 @@ MenuPage {
     FilePicker{
         id: picker
         visible: false
-        filter: ["*.json"]
+        filter: ["*.json", "*.txt"]
     }
 }

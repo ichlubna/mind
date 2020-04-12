@@ -4,6 +4,7 @@
 #include <src/cpp/userdataprovider.h>
 #include <src/cpp/mathengine.h>
 #include <src/cpp/importerExporter.h>
+#include <src/cpp/permissionsos.h>
 #include <QProcess>
 
 int main(int argc, char *argv[])
@@ -15,6 +16,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<TranslatorAdapter>("io.qt.Translator", 1, 0, "Translator");
     qmlRegisterType<MathEngine>("io.qt.MathEngine", 1, 0, "MathEngine");
     qmlRegisterType<ImporterExporter>("io.qt.ImporterExporter", 1, 0, "ImporterExporter");
+    qmlRegisterType<PermissionsOS>("io.qt.PermissionsOS", 1, 0, "PermissionsOS");
 
     QApplication app(argc, argv);
     QQmlApplicationEngine engine;

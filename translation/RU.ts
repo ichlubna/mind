@@ -800,7 +800,7 @@ qrc:/images/anabell/breakfast.jpg
     <message id="angeliny-link">
         <location filename="../src/qml/Drawer/Support.qml" line="7"/>
         <source></source>
-        <translation>https://angeliniaward.cz</translation>
+        <translation>https://www.angelinipharma.com/</translation>
     </message>
     <message id="aboutApp">
         <location filename="../src/qml/Drawer/AboutAppForm.ui.qml" line="7"/>

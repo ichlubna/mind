@@ -6,31 +6,10 @@
 #include <QFile>
 #include <iostream>
 
-#if defined (Q_OS_ANDROID)
-#include <QtAndroidExtras/QtAndroid>
-bool requestAndroidPermissions(){
-    const QVector<QString> permissions({"android.permission.WRITE_EXTERNAL_STORAGE",
-                                        "android.permission.READ_EXTERNAL_STORAGE"});
-
-    for(const QString &permission : permissions){
-        auto result = QtAndroid::checkPermission(permission);
-        if(result == QtAndroid::PermissionResult::Denied){
-            auto resultHash = QtAndroid::requestPermissionsSync(QStringList({permission}));
-            if(resultHash[permission] == QtAndroid::PermissionResult::Denied)
-                return false;
-        }
-    }
-    return true;
-}
-#endif
+//#include <android/log.h>
 
 bool ImporterExporter::importSettings(QUrl fileName)
 {
-#if defined (Q_OS_ANDROID)
-    if(!requestAndroidPermissions())
-        return false;
-#endif
-
     QSettings settings("DontPanicDevs", "DontPanic");
     QFile file(fileName.toLocalFile());
     if(!file.open(QFile::ReadOnly | QFile::Text))
@@ -46,11 +25,6 @@ bool ImporterExporter::importSettings(QUrl fileName)
 
 bool ImporterExporter::exportSettings(QUrl fileName)
 {
-#if defined (Q_OS_ANDROID)
-    if(!requestAndroidPermissions())
-        return false;   
-#endif
-
     QSettings settings("DontPanicDevs", "DontPanic");
     QMap<QString, QVariant> content;
     QStringList keys = settings.allKeys();
@@ -64,8 +38,14 @@ bool ImporterExporter::exportSettings(QUrl fileName)
     QJsonDocument document;
     document.setObject(json);
     QFile file(fileName.toLocalFile());
-    if(!file.open(QFile::WriteOnly))
+    if(!file.open(QFile::WriteOnly | QFile::Text))
+    {
+        /*static const char *g_TAG = 0;
+        __android_log_write(ANDROID_LOG_WARN, g_TAG, file.errorString().toStdString().data());
+        __android_log_write(ANDROID_LOG_WARN, g_TAG, QString::number(file.error()).toStdString().data());
+        __android_log_write(ANDROID_LOG_WARN, g_TAG, fileName.toLocalFile().toStdString().data());*/
         return false;
+    }
     file.write(document.toJson());
     file.close();
     return true;

@@ -2,21 +2,31 @@ import QtQuick 2.14
 import QtQuick.Controls 2.14
 import Qt.labs.folderlistmodel 2.14
 import Qt.labs.platform 1.1
+import io.qt.PermissionsOS 1.0
 
 SwipePage {
     id: picker
     z: 5000
     anchors.fill: parent
     property var filter: "*"
-    property var startDir: StandardPaths.standardLocations(StandardPaths.DownloadLocation)[0]
+    property var systemInfo: permissions.getSystemInfo().split("|")
+    property var startDir: StandardPaths.standardLocations((systemInfo[0] === "android" && parseFloat(systemInfo[1]) >= 10.0) ? StandardPaths.AppDataLocation : StandardPaths.DownloadLocation)[0]
     property var selected: startDir
     property var selectedConfirmed: ""
     property var dirsOnly: false
 
+    PermissionsOS{
+        id: permissions
+    }
+
     function show()
     {
+        permissions.requestReadWrite();
         picker.visible = true;
+        list.currentIndex = -1;
         selectedConfirmed = "";
+        folderModel.folder = startDir;
+        folderName.text = folderModel.folder.toString().replace(/^(file:\/{3})|(qrc:\/{2})|(http:\/{2})/,"");
     }
 
     Image {
@@ -40,16 +50,19 @@ SwipePage {
         id: folderName
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
-        text: folderModel.folder.toLocaleString().split('\\').pop().split('/').pop();
+        minimumPointSize: 10
+        width: parent.width*0.9-parent.height*0.09*20.1
+        fontSizeMode: Text.Fit
+        horizontalAlignment: Text.AlignHCenter
     }
 
-    DescriptionLabel {
+    Image {
         anchors.top: parent.top
         anchors.left: parent.left
-        text: ".."
-        height: parent.height*0.08
-        width: parent.height*0.08
-        font.pointSize: 25
+        source: "qrc:/images/folderUp.svg"
+        height: parent.height*0.09
+        width: parent.height*0.09
+        fillMode: Image.PreserveAspectFit
         MouseArea {
             anchors.fill: parent
             onClicked: {folderModel.folder = folderModel.parentFolder}
@@ -71,12 +84,11 @@ SwipePage {
         model: FolderListModel {
             id: folderModel
             onFolderChanged: {
-                folderName.text = folder.toLocaleString().split('\\').pop().split('/').pop();
+                folderName.text = folderModel.folder.toString().replace(/^(file:\/{3})|(qrc:\/{2})|(http:\/{2})/,"");
                 selected = folder;
             }
             showDirsFirst: true
             showFiles: !dirsOnly
-            folder: startDir
             nameFilters: filter
         }
 

@@ -17,7 +17,7 @@ ImportExportForm {
                 if(importClicked)
                     validateAnimation(importerExporter.importSettings(picker.selectedConfirmed));
                 else
-                    validateAnimation(importerExporter.exportSettings(picker.selectedConfirmed + "/" + qsTrId("appName") + new Date().toLocaleString(Qt.locale("en_EN"), "dd.MM.yyyy-hh:mm:ss") + ".json"));
+                    validateAnimation(importerExporter.exportSettings(picker.selectedConfirmed + "/DontPanicBackup" + new Date().toLocaleString(Qt.locale("en_EN"), "dd-MM-yyyy_hh-mm-ss") + ".txt"));
         }
 
     OpacityAnimator {
