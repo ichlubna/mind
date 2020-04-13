@@ -312,7 +312,7 @@ qrc:/images/anabell/breakfast.jpg
     <message id="appName">
         <location filename="../src/qml/main.qml" line="14"/>
         <source></source>
-        <translation>Не беспокойтесь</translation>
+        <translation>Без Паники</translation>
     </message>
     <message id="resetInputs">
         <location filename="../src/qml/main.qml" line="153"/>
