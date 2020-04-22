@@ -5,6 +5,7 @@ import ".."
 
 MenuPage {
     property alias addButton: addButton
+    property alias sendArea: sendArea
     property alias records: records
     property alias viewContainer: viewContainer
     property var col1Ratio: 0.3
@@ -76,5 +77,20 @@ MenuPage {
             anchors.bottom: parent.bottom
             anchors.right: parent.right
             anchors.margins: 5
+        }
+
+        Image {
+            source: "qrc:/images/letter.svg"
+            height: parent.height * 0.15
+            width: parent.height * 0.15
+            anchors.bottom: parent.bottom
+            anchors.left: parent.left
+            anchors.margins: 5
+            fillMode: Image.PreserveAspectFit
+            MouseArea {
+                anchors.fill: parent
+                id: sendArea
+            }
+            visible: dateOnly
         }
 }

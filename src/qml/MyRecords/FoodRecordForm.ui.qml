@@ -13,6 +13,7 @@ SwipePage {
 
     property var problemItems: [qsTrId("food-problems-vomit"), qsTrId("food-problems-exercise"), qsTrId("food-problems-self-harm"), qsTrId("food-problems-laxative"), qsTrId("food-problems-anxiety-attack")]
     property var feelItems: [qsTrId("food-problems-happy"), qsTrId("food-problems-satisfied"), qsTrId("food-problems-proud"), qsTrId("food-problems-fear"), qsTrId("food-problems-anger"), qsTrId("food-problems-anxiety"), qsTrId("food-problems-unsatisfied"), qsTrId("food-problems-disgusted"), qsTrId("food-problems-sad"), qsTrId("food-problems-stress")]
+    property var questionTexts: [qsTrId("food-record-when"), qsTrId("food-record-where"), qsTrId("food-record-with"), qsTrId("food-record-what"), qsTrId("food-record-feel"), qsTrId("food-record-problems")]
 
     InputScrollView {
         id: view
@@ -23,7 +24,7 @@ SwipePage {
             id: questions
 
             DescriptionLabel {
-                text: qsTrId("food-record-when")
+                text: questionTexts[0]
                 Layout.fillWidth: true
             }
             MenuTextArea {
@@ -34,7 +35,7 @@ SwipePage {
             LineDelimiter{}
 
             DescriptionLabel {
-                text: qsTrId("food-record-where")
+                text: questionTexts[1]
                 Layout.fillWidth: true
             }
             MenuTextArea {
@@ -45,7 +46,7 @@ SwipePage {
             LineDelimiter{}
 
             DescriptionLabel {
-                text: qsTrId("food-record-with")
+                text: questionTexts[2]
                 Layout.fillWidth: true
             }
             MenuTextArea {
@@ -56,7 +57,7 @@ SwipePage {
             LineDelimiter{}
 
             DescriptionLabel {
-                text: qsTrId("food-record-what")
+                text: questionTexts[3]
                 Layout.fillWidth: true
             }
             MenuTextArea {
@@ -67,7 +68,7 @@ SwipePage {
             LineDelimiter{}
 
             DescriptionLabel {
-                text: qsTrId("food-record-feel")
+                text: questionTexts[4]
                 Layout.fillWidth: true
             }
             GridLayout{
@@ -105,7 +106,7 @@ SwipePage {
 
             DescriptionLabel {
                 id: foodProblems
-                text: qsTrId("food-record-problems")
+                text: questionTexts[5]
                 Layout.fillWidth: true
             }
             GridLayout{

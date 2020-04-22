@@ -26,6 +26,7 @@
         <file>images/pause.svg</file>
         <file>images/exit.svg</file>
         <file>images/gear.svg</file>
+        <file>images/letter.svg</file>
         <file>images/fb.svg</file>
         <file>images/instagram.svg</file>
         <file>images/web.svg</file>
@@ -183,5 +184,7 @@
         <file>src/qml/InputScrollView.qml</file>
         <file>src/qml/LineDelimiter.qml</file>
         <file>src/qml/FilePicker.qml</file>
+        <file>src/qml/MyRecords/SendRecords.qml</file>
+        <file>src/qml/MyRecords/SendRecordsForm.ui.qml</file>
     </qresource>
 </RCC>

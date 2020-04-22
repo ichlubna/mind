@@ -48,4 +48,14 @@ RecordsForm {
                         - viewContainer.height
         }
     }
+
+    Connections {
+        target: sendArea
+        onClicked: {
+           stackView.push("SendRecords.qml")
+        }
+        Component.onCompleted: {
+            visible: (dataProvider.loadLanguage() === "CZ") || (dataProvider.loadLanguage() === "SK")
+        }
+    }
 }
