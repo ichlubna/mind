@@ -19,7 +19,7 @@ SwipePage {
         id: view
 
         ColumnLayout {
-            spacing: 20
+            spacing: 5
             anchors.fill: parent
             id: questions
 
@@ -94,7 +94,7 @@ SwipePage {
                 }
             }
             DescriptionLabel {
-                text: qsTrId("other")
+                text: qsTrId("other")+":"
                 Layout.fillWidth: true
             }
             MenuTextArea {
@@ -132,7 +132,7 @@ SwipePage {
                 }
             }
             DescriptionLabel {
-                text: qsTrId("other")
+                text: qsTrId("other")+":"
                 Layout.fillWidth: true
             }
             MenuTextArea {

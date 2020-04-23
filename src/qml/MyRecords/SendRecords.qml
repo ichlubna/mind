@@ -8,6 +8,7 @@ SendRecordsForm {
 
     property var arrayName : "foodRecordDates";
     property var records : dataProvider.loadArrayInput(arrayName);
+    property var editedMsg : false
     property var first : [];
     property var second : [];
     property var delimiter : '|';
@@ -45,13 +46,12 @@ SendRecordsForm {
             result += (tickString[i] === "1") ? answers[i] + "<br>" : "";
         return result;
     }
-
-    //je to hned na zacatku dobre?
+    message.onTextChanged: editedMsg=true;
     choice.onCurrentValueChanged: {if(choice.count-1 != choice.currentIndex) email.text=choice.currentText; else email.text="";}
     slider.first.onMoved: update()
     slider.second.onMoved: update()
     sendButton.onClicked: {
-        var body = "";
+        var body = (editedMsg) ? message.text+"<br><br>" : "";
         for(var i=slider.first.value; i<=slider.second.value; i++)
         {
             var record = records[i].split(delimiter);
@@ -71,14 +71,14 @@ SendRecordsForm {
                     {
                         var tickList = ticksToAnswers(content[content.length-2], feelItems);
                         if(content[j] === "" && tickList !== "")
-                            body += questionTexts[j];
+                            body += questionTexts[j] + "<br>";
                         body += tickList;
                     }
                     else if(j === 5)
                     {
                         var tickList2 = ticksToAnswers(content[content.length-1], problemItems)
                         if(content[j] === "" && tickList2 !== "")
-                            body += questionTexts[j];
+                            body += questionTexts[j] + "<br>";
                         body += tickList2;
                     }
                 }
@@ -89,5 +89,17 @@ SendRecordsForm {
         }
         Qt.openUrlExternally("mailto:"+email.text+"?subject="+qsTrId("food-records")+"&body="+body);
      }
+
+    Connections{
+        target: choice
+        Component.onCompleted: {
+            if ((dataProvider.loadLanguage() !== "CZ") && (dataProvider.loadLanguage() !== "SK"))
+            {
+                    email.visible = true;
+                    email.text = "email@email.com"
+                    choice.visible = false;
+            }
+        }
+    }
 
 }

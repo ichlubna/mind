@@ -41,8 +41,10 @@ Row {
         Connections{
         Component.onCompleted:{
             var today = new Date();
-            dayTumbler.currentIndex = today.getDate()-1;
             monthTumbler.currentIndex = today.getMonth();
+            dayTumbler.currentIndex = today.getDate()-1;
+            console.log(today)
+            console.log(today.getDate())
             var year = today.getFullYear();
             var historyYears = year-firstYear
             var years = [];

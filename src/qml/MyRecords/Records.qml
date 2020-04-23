@@ -54,8 +54,5 @@ RecordsForm {
         onClicked: {
            stackView.push("SendRecords.qml")
         }
-        Component.onCompleted: {
-            visible: (dataProvider.loadLanguage() === "CZ") || (dataProvider.loadLanguage() === "SK")
-        }
     }
 }

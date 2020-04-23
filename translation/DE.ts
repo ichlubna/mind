@@ -18,12 +18,14 @@
     <message id="food-breakfast">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="6"/>
         <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="8"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="17"/>
         <source></source>
         <translation>das Frühstück</translation>
     </message>
     <message id="food-am-snack">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="7"/>
         <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="9"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="17"/>
         <source></source>
         <translation>die Vormittagsjause</translation>
     </message>
@@ -43,18 +45,21 @@
     <message id="food-lunch">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="8"/>
         <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="10"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="17"/>
         <source></source>
         <translation>das Mittagessen</translation>
     </message>
     <message id="food-pm-snack">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="9"/>
         <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="11"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="17"/>
         <source></source>
         <translation>die Nachmittagsjause</translation>
     </message>
     <message id="food-dinner">
         <location filename="../src/qml/Food/Dishes/DishesForm.ui.qml" line="10"/>
         <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="12"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="17"/>
         <source></source>
         <translation>das Abendessen</translation>
     </message>
@@ -198,9 +203,8 @@ Einige Beispiele aus dem Menü</translation>
     <message id="diary">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="21"/>
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="12"/>
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="12"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="7"/>
-        <location filename="../src/qml/MyRecords/RecordsForm.ui.qml" line="12"/>
+        <location filename="../src/qml/MyRecords/RecordsForm.ui.qml" line="13"/>
         <source></source>
         <translation>Tagebuch</translation>
     </message>
@@ -358,7 +362,7 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         <translation>Beenden</translation>
     </message>
     <message id="web-link">
-        <location filename="../src/qml/main.qml" line="260"/>
+        <location filename="../src/qml/main.qml" line="262"/>
         <source></source>
         <translation>http://nepanikar.eu</translation>
     </message>
@@ -690,7 +694,7 @@ Gehen Sie an die frische Luf|Machen Sie einen halbstündigen Spaziergang. Gehen 
     </message>
     <message id="mlceni-link">
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
-        <location filename="../src/qml/main.qml" line="249"/>
+        <location filename="../src/qml/main.qml" line="251"/>
         <source></source>
         <translation>https://www.instagram.com/aplikace_nepanikar/</translation>
     </message>
@@ -733,7 +737,7 @@ Gehen Sie an die frische Luf|Machen Sie einen halbstündigen Spaziergang. Gehen 
         <translation>Hier können Sie die Helligkeit einstellen</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/main.qml" line="238"/>
+        <location filename="../src/qml/main.qml" line="240"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
@@ -1065,28 +1069,28 @@ Ich bin nicht allein|
     </message>
     <message id="really-remove">
         <location filename="../src/qml/MyRecords/DiaryRecordForm.ui.qml" line="55"/>
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="178"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="179"/>
         <source></source>
         <translation>Sind Sie sicher, dass Sie dies tun möchten?</translation>
     </message>
     <message id="import-export">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="12"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="11"/>
         <location filename="../src/qml/main.qml" line="212"/>
         <source></source>
         <translation>Import/Export</translation>
     </message>
     <message id="import-export-text">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="24"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="23"/>
         <source></source>
         <translation>Hier können Sie Ihre in der Anwendung gespeicherten Daten in eine Datei exportieren oder die gespeicherte Datei hochladen. Beim Importieren der Datei werden die aktuell gespeicherten Daten überschrieben!</translation>
     </message>
     <message id="import-button">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="30"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="29"/>
         <source></source>
         <translation>Import</translation>
     </message>
     <message id="export-button">
-        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="39"/>
+        <location filename="../src/qml/Drawer/ImportExportForm.ui.qml" line="38"/>
         <source></source>
         <translation>Export</translation>
     </message>
@@ -1097,125 +1101,170 @@ Ich bin nicht allein|
     </message>
     <message id="food-second-dinner">
         <location filename="../src/qml/MyRecords/FoodChoiceForm.ui.qml" line="13"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="17"/>
         <source></source>
         <translation>Zweites Abendessen</translation>
     </message>
     <message id="food-record-when">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="26"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="16"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="15"/>
         <source></source>
         <translation>Wann haben Sie gegessen?</translation>
     </message>
     <message id="food-record-where">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="37"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="16"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="15"/>
         <source></source>
         <translation>Wo haben Sie gegessen?</translation>
     </message>
     <message id="food-record-with">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="48"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="16"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="15"/>
         <source></source>
         <translation>Mit wem haben Sie gegessen?</translation>
     </message>
     <message id="food-record-what">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="59"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="16"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="15"/>
         <source></source>
         <translation>Was haben Sie gegessen?</translation>
     </message>
     <message id="food-record-feel">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="70"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="16"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="15"/>
         <source></source>
         <translation>Wie haben Sie sich während des Essens gefühlt?</translation>
     </message>
     <message id="food-record-problems">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="108"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="16"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="15"/>
         <source></source>
         <translation>Haben Sie Probleme mit Essstörungen bemerkt? Welche?</translation>
     </message>
     <message id="food-problems-vomit">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="14"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="18"/>
         <source></source>
         <translation>Erbrechen</translation>
     </message>
     <message id="food-problems-exercise">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="14"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="18"/>
         <source></source>
         <translation>Übung</translation>
     </message>
     <message id="food-problems-self-harm">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="14"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="18"/>
         <source></source>
         <translation>Selbstbeschädigung</translation>
     </message>
     <message id="food-problems-laxative">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="14"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="18"/>
         <source></source>
         <translation>Abführmittel</translation>
     </message>
     <message id="food-problems-anxiety-attack">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="14"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="18"/>
         <source></source>
         <translation>Panikattacke</translation>
     </message>
     <message id="food-problems-anxiety">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>Unbehagen</translation>
     </message>
     <message id="food-problems-happy">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>Glück</translation>
     </message>
     <message id="food-problems-satisfied">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>Befriedigung</translation>
     </message>
     <message id="food-problems-proud">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>Stolz</translation>
     </message>
     <message id="food-problems-fear">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>Angst</translation>
     </message>
     <message id="food-problems-anger">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>Zorn</translation>
     </message>
     <message id="food-problems-unsatisfied">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>Unzufriedenheit</translation>
     </message>
     <message id="food-problems-disgusted">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>Ekel</translation>
     </message>
     <message id="food-problems-sad">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>Traurigkeit</translation>
     </message>
     <message id="food-problems-stress">
         <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="15"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>Stress</translation>
     </message>
     <message id="other">
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="96"/>
-        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="134"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="97"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="135"/>
+        <location filename="../src/qml/MyRecords/SendRecordsForm.ui.qml" line="47"/>
         <source></source>
-        <translation>andere:</translation>
+        <translation>andere</translation>
     </message>
     <message id="food-records">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="22"/>
+        <location filename="../src/qml/MyRecords/FoodRecordForm.ui.qml" line="12"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="8"/>
+        <location filename="../src/qml/MyRecords/SendRecords.qml" line="90"/>
         <source></source>
         <translation>Essensaufzeichnungen</translation>
+    </message>
+    <message id="sendRecords">
+        <location filename="../src/qml/MyRecords/SendRecordsForm.ui.qml" line="13"/>
+        <source></source>
+        <translation>Datensätze senden</translation>
+    </message>
+    <message id="sendRecords-text">
+        <location filename="../src/qml/MyRecords/SendRecordsForm.ui.qml" line="21"/>
+        <source></source>
+        <translation>Wählen Sie den Datumsbereich der Datensätze, die Sie senden möchten, und die E-Mail-Adresse des Empfängers.</translation>
+    </message>
+    <message id="custom-message">
+        <location filename="../src/qml/MyRecords/SendRecordsForm.ui.qml" line="59"/>
+        <source></source>
+        <translation>Nachrichtentext (optional)</translation>
+    </message>
+    <message id="send">
+        <location filename="../src/qml/MyRecords/SendRecordsForm.ui.qml" line="65"/>
+        <source></source>
+        <translation>Senden</translation>
     </message>
 </context>
 </TS>

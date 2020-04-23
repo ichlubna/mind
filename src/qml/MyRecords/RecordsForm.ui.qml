@@ -81,8 +81,8 @@ MenuPage {
 
         Image {
             source: "qrc:/images/letter.svg"
-            height: parent.height * 0.15
-            width: parent.height * 0.15
+            height: 60
+            width: 90
             anchors.bottom: parent.bottom
             anchors.left: parent.left
             anchors.margins: 5

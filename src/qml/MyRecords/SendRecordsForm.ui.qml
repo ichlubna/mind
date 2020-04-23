@@ -9,22 +9,18 @@ SwipePage {
     property alias rangeText: rangeText
     property alias slider: slider
     property alias sendButton: sendButton
+    property alias message: message
     title: qsTrId("sendRecords")
+
+    InputScrollView{
 
     ColumnLayout{
         anchors.fill: parent
-        anchors.margins: 10
+        spacing: 15
         Description{
             text: qsTrId("sendRecords-text")
             Layout.fillWidth: true
-            Layout.preferredHeight: parent.height*0.15
-            anchors.fill: undefined
-        }
-
-        Description{
-            id: rangeText
-            Layout.fillWidth: true
-            Layout.preferredHeight: parent.height*0.15
+            Layout.preferredHeight: parent.height*0.2
             anchors.fill: undefined
         }
 
@@ -37,11 +33,19 @@ SwipePage {
             Layout.fillWidth: true
         }
 
+        Description{
+            id: rangeText
+            Layout.fillWidth: true
+            Layout.preferredHeight: parent.height*0.1
+            anchors.fill: undefined
+            horizontalAlignment: Text.AlignHCenter
+        }
+
         MenuComboBox{
             id: choice
             Layout.fillWidth: true
-            model: ["brno@anabell.cz", "praha@anabell.cz", "ostrava@anabell.cz", qsTrId("custom")]
-            Layout.preferredHeight: parent.height*0.1
+            model: ["brno@anabell.cz", "praha@anabell.cz", "ostrava@anabell.cz", qsTrId("other")]
+            Layout.preferredHeight: parent.height*0.17
         }
 
         MenuTextArea{
@@ -50,10 +54,17 @@ SwipePage {
             visible: (choice.count-1 == choice.currentIndex)
         }
 
+        MenuTextArea{
+            id: message
+            text: qsTrId("custom-message")
+            Layout.fillWidth: true
+        }
+
         MenuButton{
             id: sendButton
             text: qsTrId("send")
             Layout.fillWidth: true
         }
+    }
     }
 }
