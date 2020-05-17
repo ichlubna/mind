@@ -413,7 +413,7 @@ Obejměte blízkou osobu|Nebo se pomazlete s domácím mazlíčkem.
         <translation>
         &lt;a href=&quot;http://www.chat-pomoc.cz&quot;&gt;Chat Pražské linky důvěry&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.elinka.iporadna.cz&quot;&gt;Internetové poradny&lt;/a&gt; &lt;br&gt;&lt;br&gt;
-        &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;Internetová poradna pre mladých (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt;
+        &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;IPčko (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.modralinka.cz/?page=chat&quot;&gt;Modrá linka&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://chat.linkabezpeci.cz/LBCS-war/PUBLIC/clientlogin.jsp&quot;&gt;Linka bezpečí&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://linkapsychickepomoci.cz/chat/&quot;&gt;Linka psychické pomoci&lt;/a&gt; &lt;br&gt;&lt;br&gt;

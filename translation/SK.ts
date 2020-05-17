@@ -381,10 +381,11 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <location filename="../src/qml/Contacts/ChatForm.ui.qml" line="11"/>
         <source></source>
         <translation>
+        &lt;a href=&quot;https://www.krizovalinkapomoci.sk/chatova-poradna/&quot;&gt;Krízová linka pomoci&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://pomoc.sk/&quot;&gt;Pomoc.sk&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.chat-pomoc.cz&quot;&gt;Chat Pražské linky důvěry&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.elinka.iporadna.cz&quot;&gt;Internetové poradny&lt;/a&gt; &lt;br&gt;&lt;br&gt;
-        &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;Internetová poradna pre mladých (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt;
+        &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;IPčko (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.modralinka.cz/?page=chat&quot;&gt;Modrá linka&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         </translation>
     </message>
@@ -597,6 +598,9 @@ Urob si nejakú novú dekoráciu do svojej izby.
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
         <source></source>
         <translation>
+        &lt;b&gt;Krízová linka pomoci&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:0800500333&quot;&gt;0800 500 333&lt;/a&gt; &lt;br&gt;
+        bezplatná nonstop &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Bratislava&lt;/b&gt; &lt;br&gt;
         &lt;a href=&quot;tel:02/52495888&quot;&gt;02 / 5249 5888&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Trnava&lt;/b&gt; &lt;br&gt;
