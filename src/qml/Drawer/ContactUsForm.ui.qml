@@ -6,6 +6,6 @@ MenuPage {
 
     Description {
         id: contactUsText
-        text: qsTrId("contact-us-text")
+        text: qsTrId("contact-us-text") + message
     }
 }
