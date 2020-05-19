@@ -120,7 +120,7 @@
     </message>
     <message id="relaxation">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="9"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="11"/>
         <source></source>
         <translation>Entspannung</translation>
     </message>
@@ -279,6 +279,16 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="6"/>
         <source></source>
         <translation>Was tun bei Panikattacken?</translation>
+    </message>
+    <message id="game-balls">
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="9"/>
+        <source></source>
+        <translation>Ballons Spiel</translation>
+    </message>
+    <message id="game-balance">
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="10"/>
+        <source></source>
+        <translation>Schaukelspiel</translation>
     </message>
     <message id="breath1">
         <source></source>
@@ -768,8 +778,8 @@ Gehen Sie an die frische Luf|Machen Sie einen halbstündigen Spaziergang. Gehen 
     </message>
     <message id="game">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Games/BalanceForm.ui.qml" line="14"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="9"/>
         <source></source>
         <translation>das Spiel</translation>
     </message>
@@ -1265,6 +1275,11 @@ Ich bin nicht allein|
         <location filename="../src/qml/MyRecords/SendRecordsForm.ui.qml" line="65"/>
         <source></source>
         <translation>Senden</translation>
+    </message>
+    <message id="balance-game-instructions">
+        <location filename="../src/qml/Games/BalanceForm.ui.qml" line="19"/>
+        <source></source>
+        <translation>Ihre Aufgabe ist es, auf die beiden Kästchen am unteren Bildschirmrand zu tippen, um den Schwung im Gleichgewicht zu halten.<translation>
     </message>
 </context>
 </TS>

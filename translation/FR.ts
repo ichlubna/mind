@@ -120,7 +120,7 @@
     </message>
     <message id="relaxation">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="9"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="11"/>
         <source></source>
         <translation>Relaxation</translation>
     </message>
@@ -246,6 +246,16 @@ Embrassez une personne proche | ou bien jouez avec votre animal de compagnie.
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="6"/>
         <source></source>
         <translation>Quoi faire pendant une attaque de panique</translation>
+    </message>
+    <message id="game-balls">
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="9"/>
+        <source></source>
+        <translation>Jeu de ballons</translation>
+    </message>
+    <message id="game-balance">
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="10"/>
+        <source></source>
+        <translation>Jeu de swing</translation>
     </message>
     <message id="breath">
         <location filename="../src/qml/BreathForm.ui.qml" line="4"/>
@@ -725,8 +735,8 @@ Prenez de l’air|
     </message>
     <message id="game">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Games/BalanceForm.ui.qml" line="14"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="9"/>
         <source></source>
         <translation>Jeu</translation>
     </message>
@@ -1228,6 +1238,11 @@ Prenez de l’air|
         <location filename="../src/qml/MyRecords/SendRecordsForm.ui.qml" line="65"/>
         <source></source>
         <translation>Envoyer</translation>
+    </message>
+    <message id="balance-game-instructions">
+        <location filename="../src/qml/Games/BalanceForm.ui.qml" line="19"/>
+        <source></source>
+        <translation>Votre tâche consiste à taper sur les deux cases en bas de l'écran pour maintenir l'équilibre du swing.</translation>
     </message>
 </context>
 </TS>

@@ -120,7 +120,7 @@
     </message>
     <message id="relaxation">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="9"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="11"/>
         <source></source>
         <translation>Relajación</translation>
     </message>
@@ -247,6 +247,16 @@ Abrace a alguien| cercano o acurrúquese con su mascota
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="6"/>
         <source></source>
         <translation>Qué hacer en los momentos de ansiedad</translation>
+    </message>
+    <message id="game-balls">
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="9"/>
+        <source></source>
+        <translation>Juego de globos</translation>
+    </message>
+    <message id="game-balance">
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="10"/>
+        <source></source>
+        <translation>Juego de swing</translation>
     </message>
     <message id="breath">
         <location filename="../src/qml/BreathForm.ui.qml" line="4"/>
@@ -792,8 +802,8 @@ Salga al aire fresco (dé una vuelta de media hora, corra a un ritmo rápido)
     </message>
     <message id="game">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Games/BalanceForm.ui.qml" line="14"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="9"/>
         <source></source>
         <translation>El juego</translation>
     </message>
@@ -1339,6 +1349,11 @@ No estoy solo/a para los problemas.|
         <location filename="../src/qml/MyRecords/SendRecordsForm.ui.qml" line="65"/>
         <source></source>
         <translation>Enviar</translation>
+    </message>
+    <message id="balance-game-instructions">
+        <location filename="../src/qml/Games/BalanceForm.ui.qml" line="19"/>
+        <source></source>
+        <translation>Su tarea es tocar los dos cuadros en la parte inferior de la pantalla para mantener el balanceo equilibrado.</translation>
     </message>
 </context>
 </TS>

@@ -120,7 +120,7 @@ qrc:/images/anabell/dinner.jpg
     </message>
     <message id="relaxation">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="9"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="11"/>
         <source></source>
         <translation>Relaksacja</translation>
     </message>
@@ -246,6 +246,16 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="6"/>
         <source></source>
         <translation>Co robić podczas paniki</translation>
+    </message>
+    <message id="game-balls">
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="9"/>
+        <source></source>
+        <translation>Gra Balony</translation>
+    </message>
+    <message id="game-balance">
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="10"/>
+        <source></source>
+        <translation>Gra Huśtawka</translation>
     </message>
     <message id="breath">
         <location filename="../src/qml/BreathForm.ui.qml" line="4"/>
@@ -741,8 +751,8 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
     </message>
     <message id="game">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Games/BalanceForm.ui.qml" line="14"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="9"/>
         <source></source>
         <translation>gra</translation>
     </message>
@@ -1243,6 +1253,11 @@ qrc:/images/anabell/pmSnack2.jpg
         <location filename="../src/qml/MyRecords/SendRecordsForm.ui.qml" line="65"/>
         <source></source>
         <translation>Wysłać</translation>
+    </message>
+    <message id="balance-game-instructions">
+        <location filename="../src/qml/Games/BalanceForm.ui.qml" line="19"/>
+        <source></source>
+        <translation>Il tuo compito è quello di toccare le due caselle nella parte inferiore dello schermo per mantenere lo swing bilanciato.</translation>
     </message>
 </context>
 </TS>

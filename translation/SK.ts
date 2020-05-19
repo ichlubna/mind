@@ -235,6 +235,16 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <source></source>
         <translation>Čo robiť počas úzkosti</translation>
     </message>
+    <message id="game-balls">
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="9"/>
+        <source></source>
+        <translation>Hra balóniky</translation>
+    </message>
+    <message id="game-balance">
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="10"/>
+        <source></source>
+        <translation>Hra hojdačka</translation>
+    </message>
     <message id="distraction">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="5"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="9"/>
@@ -262,7 +272,7 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
     </message>
     <message id="relaxation">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="9"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="11"/>
         <source></source>
         <translation>Relaxácia</translation>
     </message>
@@ -759,8 +769,8 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
     </message>
     <message id="game">
         <location filename="../src/qml/Food/DistractionForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Games/BalanceForm.ui.qml" line="14"/>
         <location filename="../src/qml/Games/BallsForm.ui.qml" line="12"/>
-        <location filename="../src/qml/Panic/PanicForm.ui.qml" line="9"/>
         <source></source>
         <translation>Hra</translation>
     </message>
@@ -1255,6 +1265,11 @@ qrc:/images/anabell/pmSnack2.jpg
         <location filename="../src/qml/MyRecords/SendRecordsForm.ui.qml" line="65"/>
         <source></source>
         <translation>Poslať</translation>
+    </message>
+    <message id="balance-game-instructions">
+        <location filename="../src/qml/Games/BalanceForm.ui.qml" line="19"/>
+        <source></source>
+        <translation>Vašou úlohou je udržiavať hojdačku vyváženoun klopaním na dve škatuľky na spodnej strane obrazovky.</translation>
     </message>
 </context>
 </TS>
