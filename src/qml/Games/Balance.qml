@@ -10,6 +10,7 @@ BalanceForm {
     property var limitAngle : 70
     property var particleNumber : 5
 
+
     function run(){
         if(mathEngine.mathRandom() < 0.03)
         {
