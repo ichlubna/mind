@@ -91,8 +91,8 @@
         <file>src/qml/Panic/PanicForm.ui.qml</file>
         <file>src/qml/Contacts/Phone.qml</file>
         <file>src/qml/Contacts/PhoneForm.ui.qml</file>
-        <file>src/qml/Suicide/Plan.qml</file>
-        <file>src/qml/Suicide/PlanForm.ui.qml</file>
+        <file>src/qml/Plan.qml</file>
+        <file>src/qml/PlanForm.ui.qml</file>
         <file>src/qml/SelfHarm/SelfHarm.qml</file>
         <file>src/qml/SelfHarm/SelfHarmForm.ui.qml</file>
         <file>src/qml/Suicide/Suicide.qml</file>

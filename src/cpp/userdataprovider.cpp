@@ -14,7 +14,7 @@ const std::vector<UserDataProvider::CustomInput> UserDataProvider::customInputs{
                                                                         {"myContactsNumbers-example", "myContactsNumbers", UserDataProvider::CustomInput::ARRAY},
                                                                         {"praise-example", "praise", UserDataProvider::CustomInput::ARRAY},
                                                                         {"food-creative-text", "foodCreative", UserDataProvider::CustomInput::ARRAY},
-                                                                        {"food-challenge-text", "foodChallenge", UserDataProvider::CustomInput::ARRAY}
+                                                                        {"food-challenge-text", "foodChallenge", UserDataProvider::CustomInput::ARRAY},
                                                                        };
 
 const char* UserDataProvider::TO_TRANSLATE{"###STARGATE_RULEZ###"};
@@ -134,6 +134,26 @@ void UserDataProvider::initCheck()
         params[resetParameter::MY_CONTACTS] = true;
         params[resetParameter::DEPRESSION_MOOD] = true;
         resetInputs(params.toList());
+    }
+
+    //selfHarmUpdate
+    if(!settings.contains("selfHarmExist"))
+    {
+        saveBoolInput("selfHarmExist", true);
+        auto params = QVector<bool>(resetParameter::RESET_PARAMS_COUNT, false);
+        params[resetParameter::SELF_HARM_PLAN] = true;
+        params[resetParameter::SELF_HARM_TIMER] = true;
+        params[resetParameter::SELF_HARM_HELPED] = true;
+        resetInputs(params.toList());
+
+        auto list = QList<QString>{
+                loadInput("customWrite"),
+                loadInput("customWriteBody"),
+                loadInput("customPpl"),
+                loadInput("customDo"),
+                loadInput("customGo")
+        };
+        saveArrayInput("suicidePlan", list);
     }
 }
 
@@ -299,11 +319,15 @@ void UserDataProvider::resetInputs(QList<bool> params)
     }
     if(params[resetParameter::SUICIDE_PLAN])
     {
-        settings.setValue("customWrite", qtTrId("custom-write"));
-        settings.setValue("customWriteBody", qtTrId("custom-write-body"));
-        settings.setValue("customPpl", qtTrId("custom-ppl"));
-        settings.setValue("customDo", qtTrId("custom-do"));
-        settings.setValue("customGo", qtTrId("custom-go"));
+        auto list = QList<QString>{
+                qtTrId("custom-write"),
+                qtTrId("custom-write-body"),
+                qtTrId("custom-ppl"),
+                qtTrId("custom-do"),
+                qtTrId("custom-go")
+        };
+
+        saveArrayInput("suicidePlan", list);
     }
     if(params[resetParameter::DEPRESSION_PLAN])
     {
@@ -407,6 +431,11 @@ void UserDataProvider::resetInputs(QList<bool> params)
         QList<QString> list;
         for(auto const& array : foodArrays)
             saveArrayInput(array, list);
+    }
+
+    if(params[resetParameter::SELF_HARM_HELPED])
+    {
+        saveArrayInput("selfHarmHelped", QList<QString>{""});
     }
 }
 
