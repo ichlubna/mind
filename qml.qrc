@@ -188,5 +188,7 @@
         <file>src/qml/MyRecords/SendRecordsForm.ui.qml</file>
         <file>src/qml/Games/Balance.qml</file>
         <file>src/qml/Games/BalanceForm.ui.qml</file>
+        <file>src/qml/SelfHarm/Timer.qml</file>
+        <file>src/qml/SelfHarm/TimerForm.ui.qml</file>
     </qresource>
 </RCC>

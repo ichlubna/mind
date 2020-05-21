@@ -208,13 +208,27 @@ Einige Beispiele aus dem Menü</translation>
         <source></source>
         <translation>Tagebuch</translation>
     </message>
+    <message id="self-harm-helped">
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="23"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="7"/>
+        <source></source>
+        <translation>Was hat mir geholfen</translation>
+    </message>
+    <message id="self-harm-timer">
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="25"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="9"/>
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="5"/>
+        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="10"/>
+        <source></source>
+        <translation>Wie lange schaffe ich es</translation>
+    </message>
     <message id="clear-button">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="58"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="61"/>
         <source></source>
         <translation>löschen</translation>
     </message>
     <message id="clear-all-button">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="67"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="70"/>
         <source></source>
         <translation>Alles auswählen</translation>
     </message>
@@ -254,6 +268,7 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         <translation>die Angst, die Panik</translation>
     </message>
     <message id="self-harm">
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="24"/>
         <location filename="../src/qml/HomeForm.ui.qml" line="56"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="5"/>
         <source></source>
@@ -451,46 +466,53 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         <source></source>
         <translation>Was kann mir helfen?</translation>
     </message>
+    <message id="self-harm-helped-header">
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="7"/>
+        <source></source>
+        <translation>Listen Sie auf, wo Sie Dinge schreiben können, die Ihnen geholfen haben, Selbstverletzungen zu vermeiden.</translation>
+    </message>
     <message id="plan">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="13"/>
-        <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="12"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="24"/>
+        <location filename="../src/qml/PlanForm.ui.qml" line="9"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="8"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="6"/>
         <source></source>
         <translation>der Rettungsplan</translation>
     </message>
     <message id="feeling-bad-write">
-        <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="21"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="6"/>
         <source></source>
         <translation>Wenn es mir schlecht geht, schreibe ich an:</translation>
     </message>
     <message id="feeling-bad-write-body">
-        <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="32"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="7"/>
         <source></source>
         <translation>Was schreibe ich:</translation>
     </message>
     <message id="feeling-bad-do">
-        <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="44"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="8"/>
         <source></source>
         <translation>Wenn es mir schlecht geht, probiere ich:</translation>
     </message>
     <message id="feeling-bad-go">
-        <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="54"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="9"/>
         <source></source>
         <translation>Wenn es mir schlecht geht, wohin gehe ich:</translation>
     </message>
     <message id="people-to-write">
-        <location filename="../src/qml/Suicide/PlanForm.ui.qml" line="64"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="10"/>
         <source></source>
         <translation>Wer würde tief verletzt sein:</translation>
     </message>
     <message id="reasons">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="11"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="11"/>
         <source></source>
         <translation>die Gründe, warum nicht</translation>
     </message>
     <message id="reasons-text">
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="7"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="11"/>
         <source></source>
         <translation>Wenn ich lebe, kann ich immer noch:</translation>
     </message>
@@ -499,7 +521,7 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         <translation type="vanished">Meine Gründe...</translation>
     </message>
     <message id="reasons-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="297"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="317"/>
         <source></source>
         <translation>
         Mit meinem Haustier kuscheln (ein Hund, eine Katze, ein Meerschweinchen)|
@@ -511,53 +533,53 @@ Sie können eine nahestehende Person umarmen|Kuscheln Sie mit Ihrem Haustier.
         </translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="302"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="323"/>
         <source></source>
         <translation>Wem schreibe ich...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="303"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="324"/>
         <source></source>
         <translation>Hallo, ich bin jetzt in einer schwierigen Situation, können wir reden??</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="304"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="325"/>
         <source></source>
         <translation>Menschen, die mir wichtig sind</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="305"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="326"/>
         <source></source>
         <translation>Was mache ich...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="306"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="327"/>
         <source></source>
         <translation>Wo gehe ich hin...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="310"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="334"/>
         <source></source>
         <translation>Ich gehe einkaufen</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="314"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="338"/>
         <source></source>
         <translation>Es war ein sehr schönes Wetter­...</translation>
     </message>
     <message id="praise-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="316"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="340"/>
         <source></source>
         <translation>Ich habe meine tägliche Übung gemacht</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="341"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="365"/>
         <source></source>
         <translation>
         </translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="349"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="373"/>
         <source></source>
         <translation>
 Ich möchte nett zu mir sein|
@@ -589,7 +611,7 @@ Ich schreibe mir mindestens 10 Freunde auf, die mich unterstützen
         </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="357"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="381"/>
         <source></source>
         <translation>
 Malen Sie, wie Sie sich die Magersucht vorstellen, und zerreißen Sie das Bild|
@@ -608,27 +630,27 @@ Probiere dein Zimmer neu zu dekorieren
         </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="365"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="389"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="373"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="397"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="381"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="405"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="myContactsNames-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="391"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="415"/>
         <source></source>
         <translation>Name</translation>
     </message>
     <message id="myContactsNumbers-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="394"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="418"/>
         <source></source>
         <translation>Telefonnummer oder E-Mail</translation>
     </message>
@@ -1055,8 +1077,8 @@ Ich bin nicht allein|
         <location filename="../src/qml/Games/Breath2Form.ui.qml" line="12"/>
         <location filename="../src/qml/Games/Breath3Form.ui.qml" line="17"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="7"/>
-        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="7"/>
-        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="8"/>
+        <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="10"/>
+        <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="12"/>
         <source></source>
         <translation>die Atemübungen</translation>
     </message>
@@ -1279,7 +1301,29 @@ Ich bin nicht allein|
     <message id="balance-game-instructions">
         <location filename="../src/qml/Games/BalanceForm.ui.qml" line="19"/>
         <source></source>
-        <translation>Ihre Aufgabe ist es, auf die beiden Kästchen am unteren Bildschirmrand zu tippen, um den Schwung im Gleichgewicht zu halten.<translation>
+        <translation>Ihre Aufgabe ist es, auf die beiden Kästchen am unteren Bildschirmrand zu tippen, um den Schwung im Gleichgewicht zu halten.</translation>
+    </message>
+    <message id="self-harm-plan-questions">
+        <location filename="../src/qml/SelfHarm/SelfHarm.qml" line="4"/>
+        <source></source>
+        <translation>Warum will ich das machen?|Was werde ich vorher versuchen?|Für wen möchte ich es tun?|An wen kann ich mich wenden?</translation>
+    </message>
+    <message id="start">
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="45"/>
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="74"/>
+        <source></source>
+        <translation>Start</translation>
+    </message>
+    <message id="stop">
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="56"/>
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="74"/>
+        <source></source>
+        <translation>Stop</translation>
+    </message>
+    <message id="self-harm-record">
+        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="30"/>
+        <source></source>
+        <translation>Mein Rekord</translation>
     </message>
 </context>
 </TS>

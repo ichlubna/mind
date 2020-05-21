@@ -437,5 +437,16 @@ void UserDataProvider::resetInputs(QList<bool> params)
     {
         saveArrayInput("selfHarmHelped", QList<QString>{""});
     }
+
+    if(params[resetParameter::SELF_HARM_PLAN])
+    {
+        saveArrayInput("selfHarmPlan", QList<QString>{"", "", "", ""});
+    }
+
+    if(params[resetParameter::SELF_HARM_TIMER])
+    {
+        saveBoolInput("selfHarmTimer", false);
+        saveIntInput("selfHarmTimerRecord", 0);
+    }
 }
 
