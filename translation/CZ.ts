@@ -193,7 +193,7 @@
         <location filename="../src/qml/SelfHarm/Timer.qml" line="5"/>
         <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="10"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Jak dlouho to zvládám</translation>
     </message>
     <message id="clear-button">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="61"/>
@@ -1397,18 +1397,18 @@ Nejsem na to sám/sama|
         <location filename="../src/qml/SelfHarm/Timer.qml" line="45"/>
         <location filename="../src/qml/SelfHarm/Timer.qml" line="74"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Start</translation>
     </message>
     <message id="stop">
         <location filename="../src/qml/SelfHarm/Timer.qml" line="56"/>
         <location filename="../src/qml/SelfHarm/Timer.qml" line="74"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Stop</translation>
     </message>
     <message id="self-harm-record">
         <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="30"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Můj rekord</translation>
     </message>
 </context>
 </TS>
