@@ -191,17 +191,17 @@ qrc:/images/anabell/breakfast.jpg
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="25"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="9"/>
         <location filename="../src/qml/SelfHarm/Timer.qml" line="5"/>
-        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="10"/>
+        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="13"/>
         <source></source>
         <translation>Как долго я управляю</translation>
     </message>
     <message id="clear-button">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="61"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="62"/>
         <source></source>
         <translation>Удалить</translation>
     </message>
     <message id="clear-all-button">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="70"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="71"/>
         <source></source>
         <translation>Выбрать все</translation>
     </message>
@@ -340,6 +340,7 @@ qrc:/images/anabell/breakfast.jpg
         <translation>Подтвердить</translation>
     </message>
     <message id="appName">
+        <location filename="../src/qml/Contacts/Message.qml" line="25"/>
         <location filename="../src/qml/main.qml" line="14"/>
         <source></source>
         <translation>Без Паники</translation>
@@ -558,6 +559,13 @@ qrc:/images/anabell/breakfast.jpg
         <source></source>
         <translation>Мои контакты</translation>
     </message>
+    <message id="contacts-message">
+        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="11"/>
+        <location filename="../src/qml/Contacts/MessageForm.ui.qml" line="9"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="26"/>
+        <source></source>
+        <translation>Кризисное сообщение</translation>
+    </message>
     <message id="self-harm-tips">
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="6"/>
         <source></source>
@@ -614,7 +622,7 @@ qrc:/images/anabell/breakfast.jpg
         <translation>Если я буду продолжать жить, я смогу:</translation>
     </message>
     <message id="reasons-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="317"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="318"/>
         <source></source>
         <translation>
 Играть с моим питомцем (щенком, котенком, морской свинкой)|
@@ -626,52 +634,52 @@ qrc:/images/anabell/breakfast.jpg
         </translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="323"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="324"/>
         <source></source>
         <translation>Кому я напишу...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="324"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="325"/>
         <source></source>
         <translation>Привет, у меня сложный период, мы можем поговорить?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="325"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="326"/>
         <source></source>
         <translation>Люди, которые мне дороги</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="326"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="327"/>
         <source></source>
         <translation>Что я сделаю...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="327"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="328"/>
         <source></source>
         <translation>Куда я пойду...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="334"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="335"/>
         <source></source>
         <translation>Пойду за покупками</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="338"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="339"/>
         <source></source>
         <translation>Была хорошая погода...</translation>
     </message>
     <message id="praise-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="340"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="341"/>
         <source></source>
         <translation>Мне удалось позаниматься спортом</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="365"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="366"/>
         <source></source>
         <translation>Еда, которой я боюсь</translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="373"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="374"/>
         <source></source>
         <translation>
 Хочу и умею любить себя|
@@ -703,7 +711,7 @@ qrc:/images/anabell/breakfast.jpg
 </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="381"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="382"/>
         <source></source>
         <translation>
 Нарисуйте то, как представляете анорексию и разорвите бумагу.|
@@ -722,29 +730,35 @@ qrc:/images/anabell/breakfast.jpg
 </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="389"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="390"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="397"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="398"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="405"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="406"/>
         <source></source>
         <translation> </translation>
     </message>
     <message id="myContactsNames-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="415"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="416"/>
         <source></source>
         <translation>Имя</translation>
     </message>
     <message id="myContactsNumbers-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="418"/>
+        <location filename="../src/qml/Contacts/MessageForm.ui.qml" line="19"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="419"/>
         <source></source>
         <translation>Телефон или электронная почта</translation>
+    </message>
+    <message id="message-text">
+        <location filename="../src/qml/Contacts/MessageForm.ui.qml" line="28"/>
+        <source></source>
+        <translation>Текст сообщения</translation>
     </message>
     <message id="phone-text">
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
@@ -1401,6 +1415,7 @@ qrc:/images/anabell/pmSnack2.jpg
         <translation>Текст сообщения (необязательно)</translation>
     </message>
     <message id="send">
+        <location filename="../src/qml/Contacts/MessageForm.ui.qml" line="39"/>
         <location filename="../src/qml/MyRecords/SendRecordsForm.ui.qml" line="65"/>
         <source></source>
         <translation>послать</translation>
@@ -1416,21 +1431,51 @@ qrc:/images/anabell/pmSnack2.jpg
         <translation>Почему я хочу это сделать?|Что я попробую перед этим?|Для кого я хочу это сделать?|С кем мне связат</translation>
     </message>
     <message id="start">
-        <location filename="../src/qml/SelfHarm/Timer.qml" line="45"/>
-        <location filename="../src/qml/SelfHarm/Timer.qml" line="74"/>
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="91"/>
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="112"/>
         <source></source>
         <translation>Начните</translation>
     </message>
     <message id="stop">
-        <location filename="../src/qml/SelfHarm/Timer.qml" line="56"/>
-        <location filename="../src/qml/SelfHarm/Timer.qml" line="74"/>
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="73"/>
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="91"/>
         <source></source>
         <translation>Стоп</translation>
     </message>
     <message id="self-harm-record">
-        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="30"/>
+        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="34"/>
         <source></source>
         <translation>Моя запись</translation>
+    </message>
+    <message id="really-stop-timer">
+        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="46"/>
+        <source></source>
+        <translation>Вы действительно хотите остановить таймер?</translation>
+    </message>
+    <message id="need-help">
+        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="51"/>
+        <source></source>
+        <translation>Вам нужна профессиональная помощь?</translation>
+    </message>
+    <message id="months">
+        <location filename="../src/qml/SelfHarm/TimerResult.qml" line="24"/>
+        <source></source>
+        <translation>Месяцы</translation>
+    </message>
+    <message id="days">
+        <location filename="../src/qml/SelfHarm/TimerResult.qml" line="38"/>
+        <source></source>
+        <translation>дней</translation>
+    </message>
+    <message id="hours">
+        <location filename="../src/qml/SelfHarm/TimerResult.qml" line="51"/>
+        <source></source>
+        <translation>часов</translation>
+    </message>
+    <message id="minutes">
+        <location filename="../src/qml/SelfHarm/TimerResult.qml" line="64"/>
+        <source></source>
+        <translation>минут</translation>
     </message>
 </context>
 </TS>

@@ -96,7 +96,7 @@ void UserDataProvider::translateInputs()
 void UserDataProvider::initCheck()
 {
     bool reset = true;
-    if(settings.contains("moods") || settings.contains("diaryRecords"))
+    if(settings.contains("moods") || settings.contains("diaryRecords") || settings.contains("selfHarmExist") || settings.contains("selfHarmExist"))
         reset = false;
     for(const auto &input : customInputs)
         if(settings.contains(input.settingsId))
@@ -144,6 +144,7 @@ void UserDataProvider::initCheck()
         params[resetParameter::SELF_HARM_PLAN] = true;
         params[resetParameter::SELF_HARM_TIMER] = true;
         params[resetParameter::SELF_HARM_HELPED] = true;
+        params[resetParameter::CONTACT_MESSAGE] = true;
         resetInputs(params.toList());
 
         auto list = QList<QString>{
@@ -447,6 +448,12 @@ void UserDataProvider::resetInputs(QList<bool> params)
     {
         saveBoolInput("selfHarmTimer", false);
         saveIntInput("selfHarmTimerRecord", 0);
+    }
+
+    if(params[resetParameter::CONTACT_MESSAGE])
+    {
+        saveInput("contactMessageAddress", "");
+        saveInput("contactMessageBody", "");
     }
 }
 

@@ -22,7 +22,8 @@ MenuPage {
                                 qsTrId("food-records"),
                                 qsTrId("self-harm-helped"),
                                 qsTrId("self-harm")+" - "+qsTrId("plan"),
-                                qsTrId("self-harm-timer")]
+                                qsTrId("self-harm-timer"),
+                                qsTrId("contacts-message")]
     ScrollView {
         id: viewContainer
         anchors.fill: parent

@@ -190,5 +190,9 @@
         <file>src/qml/Games/BalanceForm.ui.qml</file>
         <file>src/qml/SelfHarm/Timer.qml</file>
         <file>src/qml/SelfHarm/TimerForm.ui.qml</file>
+        <file>src/qml/CircularProgressBar.qml</file>
+        <file>src/qml/SelfHarm/TimerResult.qml</file>
+        <file>src/qml/Contacts/Message.qml</file>
+        <file>src/qml/Contacts/MessageForm.ui.qml</file>
     </qresource>
 </RCC>

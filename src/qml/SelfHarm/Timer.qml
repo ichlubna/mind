@@ -9,12 +9,11 @@ TimerForm {
     }
 
     property var running : dataProvider.loadBoolInput("selfHarmTimer")
-    property var format : "d.M.yyy-h:m:s"
-    property var lastDate : new Date(dataProvider.loadInput("selfHarmTimerDate"));
+    property var lastDate : new Date(dataProvider.loadInput("selfHarmTimerDate"));//new Date("Wed Apr 1 00:00:00 2020 GMT+0200")
     property var record : dataProvider.loadIntInput("selfHarmTimerRecord");
     property var difference : 0
 
-    function printTime(seconds)
+    function convertTime(seconds)
     {
         const monthDivisor = 30*24*60*60;
         const dayDivisor = 24*60*60;
@@ -26,29 +25,47 @@ TimerForm {
         var hours = Math.floor(remainder/hourDivisor);
         remainder = remainder%hourDivisor;
         var minutes = Math.floor(remainder/60);
-        return months+":"+days+":"+hours+":"+minutes;
+        return {months: months, days: days, hours: hours, minutes: minutes};
     }
+
+    function printTime(seconds, current)
+    {
+        var elapsed = convertTime(seconds)
+        if(current)
+        {
+            currentTime.monthText.text = elapsed.months;
+            currentTime.daysBar.value = elapsed.days/30;
+            currentTime.hoursBar.value = elapsed.hours/24;
+            currentTime.minutesBar.value = elapsed.minutes/60;
+        }
+        else
+        {
+            recordTime.monthText.text = elapsed.months;
+            recordTime.daysBar.value = elapsed.days/30;
+            recordTime.hoursBar.value = elapsed.hours/24;
+            recordTime.minutesBar.value = elapsed.minutes/60;
+        }
+    }
+
+   /* function printTimeText(seconds)
+    {
+        var elapsed = convertTime(seconds)
+        return elapsed.months+":"+elapsed.days+":"+elapsed.hours+":"+elapsed.minutes
+    }*/
 
     function update()
     {
         if(running)
         {
             difference = (new Date().getTime()-lastDate.getTime())/1000;
-            timeText.text = printTime(difference);
+            printTime(difference, true);
         }
     }
 
     button.onClicked: {
         if(running)
         {
-            running = false;
-            button.text = qsTrId("start");
-            if(difference > record)
-            {
-                record = difference;
-                recordText.text = printTime(record);
-            }
-            timeText.text = printTime(0);
+            popup.open();
         }
         else
         {
@@ -58,15 +75,15 @@ TimerForm {
         }
     }
 
-    timeText.onVisibleChanged: {
+    currentTime.onVisibleChanged: {
         dataProvider.saveInput("selfHarmTimerDate", lastDate.toString());
         dataProvider.saveIntInput("selfHarmTimerRecord", record);
         dataProvider.saveBoolInput("selfHarmTimer", running);
     }
 
     Connections {
-        target: timeText
-        Component.onCompleted:{timeText.text=printTime(0); update();}
+        target: currentTime
+        Component.onCompleted:{printTime(0, true); update();}
     }
 
     Connections {
@@ -75,12 +92,37 @@ TimerForm {
     }
 
     Connections {
-        target: recordText
-        Component.onCompleted: {recordText.text = printTime(record);}
+        target: recordTime
+        Component.onCompleted: {printTime(record, false);}
     }
 
     Timer {
            interval: 10000; running: true; repeat: true
            onTriggered: update()
        }
+
+
+    function isEmpty(value){
+        return parseInt(value) === -1;
+    }
+
+    popup.yes.onClicked:{
+        popup.close()
+        running = false;
+        button.text = qsTrId("start");
+        if(difference > record)
+        {
+            record = difference;
+            printTime(record, false);
+        }
+        printTime(0, true);
+        popupHelp.open();
+    }
+
+    popup.no.onClicked: popup.close()
+
+    popupHelp.yes.onClicked: {popupHelp.close(); stackView.push("../Contacts/Contacts.qml");}
+
+    popupHelp.no.onClicked: popupHelp.close()
+
 }

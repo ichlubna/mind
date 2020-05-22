@@ -179,17 +179,17 @@ qrc:/images/anabell/breakfast.jpg
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="25"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="9"/>
         <location filename="../src/qml/SelfHarm/Timer.qml" line="5"/>
-        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="10"/>
+        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="13"/>
         <source></source>
         <translation>Ako dlho to zvládnem</translation>
     </message>
     <message id="clear-button">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="61"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="62"/>
         <source></source>
         <translation>Zmazať</translation>
     </message>
     <message id="clear-all-button">
-        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="70"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="71"/>
         <source></source>
         <translation>Označiť všetko</translation>
     </message>
@@ -340,6 +340,7 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <translation>Potvrdiť</translation>
     </message>
     <message id="appName">
+        <location filename="../src/qml/Contacts/Message.qml" line="25"/>
         <location filename="../src/qml/main.qml" line="14"/>
         <source></source>
         <translation>Nepanikár</translation>
@@ -438,6 +439,13 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <source></source>
         <translation>Moje kontakty</translation>
     </message>
+    <message id="contacts-message">
+        <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="11"/>
+        <location filename="../src/qml/Contacts/MessageForm.ui.qml" line="9"/>
+        <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="26"/>
+        <source></source>
+        <translation>Krízová správa</translation>
+    </message>
     <message id="self-harm-tips">
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="6"/>
         <source></source>
@@ -494,7 +502,7 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <translation>Ak budem žiť, môžem ešte:</translation>
     </message>
     <message id="reasons-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="317"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="318"/>
         <source></source>
         <translation>
         Pomazliť sa s domácim miláčikom (psíkom, kocúrikom, morčaťom)|
@@ -506,52 +514,52 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
 </translation>
     </message>
     <message id="custom-write">
-        <location filename="../src/cpp/userdataprovider.cpp" line="323"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="324"/>
         <source></source>
         <translation>Komu napíšem...</translation>
     </message>
     <message id="custom-write-body">
-        <location filename="../src/cpp/userdataprovider.cpp" line="324"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="325"/>
         <source></source>
         <translation>Ahoj, práve prežívam náročné obdobie, môžeme sa porozprávať?</translation>
     </message>
     <message id="custom-ppl">
-        <location filename="../src/cpp/userdataprovider.cpp" line="325"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="326"/>
         <source></source>
         <translation>Ľudia, ktorým na mne záleží</translation>
     </message>
     <message id="custom-do">
-        <location filename="../src/cpp/userdataprovider.cpp" line="326"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="327"/>
         <source></source>
         <translation>Čo urobím...</translation>
     </message>
     <message id="custom-go">
-        <location filename="../src/cpp/userdataprovider.cpp" line="327"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="328"/>
         <source></source>
         <translation>Kam pôjdem...</translation>
     </message>
     <message id="plan-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="334"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="335"/>
         <source></source>
         <translation>Nakúpim v obchode</translation>
     </message>
     <message id="nice-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="338"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="339"/>
         <source></source>
         <translation>Bolo krásne počasie...</translation>
     </message>
     <message id="praise-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="340"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="341"/>
         <source></source>
         <translation>Denne som cvičil</translation>
     </message>
     <message id="food-afraid-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="365"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="366"/>
         <source></source>
         <translation></translation>
     </message>
     <message id="food-challenge-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="373"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="374"/>
         <source></source>
         <translation>
 Viem byť a chcem byť na seba dobrá.|
@@ -583,7 +591,7 @@ Ku každému prstu svojej ruky môžem priradiť priateľa/priateľku, ktorí mi
         </translation>
     </message>
     <message id="food-creative-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="381"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="382"/>
         <source></source>
         <translation>
 Namaľuj to, ako si predstavuješ anorexiu a obrázok roztrhaj.|
@@ -602,29 +610,35 @@ Urob si nejakú novú dekoráciu do svojej izby.
         </translation>
     </message>
     <message id="food-food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="389"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="390"/>
         <source></source>
         <translation>Zoznam jedál</translation>
     </message>
     <message id="food-like-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="397"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="398"/>
         <source></source>
         <translation>Zoznam vecí</translation>
     </message>
     <message id="food-motivation-text">
-        <location filename="../src/cpp/userdataprovider.cpp" line="405"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="406"/>
         <source></source>
         <translation>Vytvoriť si zoznam vecí, pre ktoré chcem byť zdravá/ý.</translation>
     </message>
     <message id="myContactsNames-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="415"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="416"/>
         <source></source>
         <translation>Meno</translation>
     </message>
     <message id="myContactsNumbers-example">
-        <location filename="../src/cpp/userdataprovider.cpp" line="418"/>
+        <location filename="../src/qml/Contacts/MessageForm.ui.qml" line="19"/>
+        <location filename="../src/cpp/userdataprovider.cpp" line="419"/>
         <source></source>
         <translation>Telefónne číslo alebo e-mail</translation>
+    </message>
+    <message id="message-text">
+        <location filename="../src/qml/Contacts/MessageForm.ui.qml" line="28"/>
+        <source></source>
+        <translation>Text správy</translation>
     </message>
     <message id="phone-text">
         <location filename="../src/qml/Contacts/PhoneForm.ui.qml" line="14"/>
@@ -1284,6 +1298,7 @@ qrc:/images/anabell/pmSnack2.jpg
         <translation>Text správy (voliteľné)</translation>
     </message>
     <message id="send">
+        <location filename="../src/qml/Contacts/MessageForm.ui.qml" line="39"/>
         <location filename="../src/qml/MyRecords/SendRecordsForm.ui.qml" line="65"/>
         <source></source>
         <translation>Poslať</translation>
@@ -1299,21 +1314,51 @@ qrc:/images/anabell/pmSnack2.jpg
         <translation>Prečo to chcem urobiť?|Čo pred tým vyskúšam?|Pre koho to chcem urobiť?|Koho mám kontaktovať?</translation>
     </message>
     <message id="start">
-        <location filename="../src/qml/SelfHarm/Timer.qml" line="45"/>
-        <location filename="../src/qml/SelfHarm/Timer.qml" line="74"/>
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="91"/>
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="112"/>
         <source></source>
         <translation>Štart</translation>
     </message>
     <message id="stop">
-        <location filename="../src/qml/SelfHarm/Timer.qml" line="56"/>
-        <location filename="../src/qml/SelfHarm/Timer.qml" line="74"/>
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="73"/>
+        <location filename="../src/qml/SelfHarm/Timer.qml" line="91"/>
         <source></source>
         <translation>Stop</translation>
     </message>
     <message id="self-harm-record">
-        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="30"/>
+        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="34"/>
         <source></source>
         <translation>Môj rekord</translation>
+    </message>
+    <message id="really-stop-timer">
+        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="46"/>
+        <source></source>
+        <translation>Naozaj chcete zastaviť časovač?</translation>
+    </message>
+    <message id="need-help">
+        <location filename="../src/qml/SelfHarm/TimerForm.ui.qml" line="51"/>
+        <source></source>
+        <translation>Potrebujete odbornú pomoc?</translation>
+    </message>
+    <message id="months">
+        <location filename="../src/qml/SelfHarm/TimerResult.qml" line="24"/>
+        <source></source>
+        <translation>Mesiaca</translation>
+    </message>
+    <message id="days">
+        <location filename="../src/qml/SelfHarm/TimerResult.qml" line="38"/>
+        <source></source>
+        <translation>Dni</translation>
+    </message>
+    <message id="hours">
+        <location filename="../src/qml/SelfHarm/TimerResult.qml" line="51"/>
+        <source></source>
+        <translation>Hodiny</translation>
+    </message>
+    <message id="minutes">
+        <location filename="../src/qml/SelfHarm/TimerResult.qml" line="64"/>
+        <source></source>
+        <translation>Minúty</translation>
     </message>
 </context>
 </TS>

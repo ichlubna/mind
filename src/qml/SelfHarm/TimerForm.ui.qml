@@ -3,27 +3,32 @@ import QtQuick.Layouts 1.3
 import ".."
 
 SwipePage {
-    property alias timeText: timeText
     property alias button: button
-    property alias recordText: recordText
+    property alias currentTime : currentTime
+    property alias recordTime: recordTime
+    property alias popup: popup
+    property alias popupHelp: popupHelp
+
 
     title: qsTrId("self-harm-timer")
 
+    InputScrollView{
     ColumnLayout{
-        anchors.horizontalCenter: parent.horizontalCenter
-        width: parent.width*0.8
-        anchors.topMargin: 10
+        anchors.margins: 25
+        anchors.fill: parent
 
-        DescriptionLabel{
-            id: timeText
-            width: parent.width
-            Layout.alignment: Qt.AlignHCenter
-            font.pointSize: 30
+        TimerResult{
+            id: currentTime
         }
+
         MenuButton{
             id: button
             Layout.alignment: Qt.AlignHCenter
             Layout.preferredWidth: parent.width*0.6
+        }
+
+        LineDelimiter{
+            width: parent.width
         }
 
         DescriptionLabel{
@@ -31,9 +36,19 @@ SwipePage {
             Layout.alignment: Qt.AlignHCenter
             Layout.topMargin: 10
         }
-        DescriptionLabel{
-            id: recordText
-            Layout.alignment: Qt.AlignHCenter
+        TimerResult{
+            id: recordTime
+            opacity: 0.5
         }
+    }}
+
+    PopupWindow {
+        id: popup
+        msg.text: qsTrId("really-stop-timer")
+    }
+
+    PopupWindow {
+        id: popupHelp
+        msg.text: qsTrId("need-help")
     }
 }
