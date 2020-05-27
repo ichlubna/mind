@@ -1406,7 +1406,7 @@ Nejsem na to sám/sama|
     <message id="self-harm-plan-questions">
         <location filename="../src/qml/SelfHarm/SelfHarm.qml" line="4"/>
         <source></source>
-        <translation>Proč si to chci zvládnout?|Co před tím ještě vyzkouším?|Kvůli komu to chci zvládnout?|Komu se ozvu?</translation>
+        <translation>Proč to chci zvládnout?|Co před tím ještě vyzkouším?|Kvůli komu to chci zvládnout?|Komu se ozvu?</translation>
     </message>
     <message id="start">
         <location filename="../src/qml/SelfHarm/Timer.qml" line="91"/>
