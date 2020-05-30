@@ -6,7 +6,6 @@
 #include <QFile>
 #include <iostream>
 
-//#include <android/log.h>
 
 bool ImporterExporter::importSettings(QUrl fileName)
 {
@@ -39,13 +38,7 @@ bool ImporterExporter::exportSettings(QUrl fileName)
     document.setObject(json);
     QFile file(fileName.toLocalFile());
     if(!file.open(QFile::WriteOnly | QFile::Text))
-    {
-        /*static const char *g_TAG = 0;
-        __android_log_write(ANDROID_LOG_WARN, g_TAG, file.errorString().toStdString().data());
-        __android_log_write(ANDROID_LOG_WARN, g_TAG, QString::number(file.error()).toStdString().data());
-        __android_log_write(ANDROID_LOG_WARN, g_TAG, fileName.toLocalFile().toStdString().data());*/
         return false;
-    }
     file.write(document.toJson());
     file.close();
     return true;

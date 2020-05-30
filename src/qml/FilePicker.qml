@@ -2,26 +2,31 @@ import QtQuick 2.14
 import QtQuick.Controls 2.14
 import Qt.labs.folderlistmodel 2.14
 import Qt.labs.platform 1.1
-import io.qt.PermissionsOS 1.0
+import io.qt.UserDataProvider 1.0
+import io.qt.NativeInterface 1.0
 
 SwipePage {
     id: picker
     z: 5000
     anchors.fill: parent
     property var filter: "*"
-    property var systemInfo: permissions.getSystemInfo().split("|")
+    property var systemInfo: dataProvider.getSystemInfo().split("|")
     property var startDir: StandardPaths.standardLocations((systemInfo[0] === "android" && parseFloat(systemInfo[1]) >= 10.0) ? StandardPaths.AppDataLocation : StandardPaths.DownloadLocation)[0]
     property var selected: startDir
     property var selectedConfirmed: ""
     property var dirsOnly: false
 
-    PermissionsOS{
-        id: permissions
+    UserDataProvider {
+        id: dataProvider
+    }
+
+    NativeInterface {
+        id: nativeInterface
     }
 
     function show()
     {
-        permissions.requestReadWrite();
+        nativeInterface.requestReadWrite();
         picker.visible = true;
         list.currentIndex = -1;
         selectedConfirmed = "";

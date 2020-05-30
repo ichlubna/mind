@@ -33,6 +33,7 @@ public:
     Q_INVOKABLE void setLanguage(QString language);
     Q_INVOKABLE void translateInputs();
     Q_INVOKABLE void resetInputs(QList<bool> params);
+    Q_INVOKABLE static QString getSystemInfo();
 
 private:
     struct CustomInput

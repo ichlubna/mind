@@ -1,4 +1,5 @@
 #include <QDate>
+#include <QSysInfo>
 #include "userdataprovider.h"
 #include "translator.h"
 
@@ -18,6 +19,11 @@ const std::vector<UserDataProvider::CustomInput> UserDataProvider::customInputs{
                                                                        };
 
 const char* UserDataProvider::TO_TRANSLATE{"###STARGATE_RULEZ###"};
+
+QString UserDataProvider::getSystemInfo()
+{
+    return QSysInfo::productType() + "|" + QSysInfo::productVersion();
+}
 
 UserDataProvider::UserDataProvider(QObject *parent) : QObject(parent), settings("DontPanicDevs", "DontPanic")
 {
