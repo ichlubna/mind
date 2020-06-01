@@ -1,4 +1,8 @@
+#if defined (Q_OS_ANDROID)
+#include <QtAndroidExtras/QtAndroid>
+#include <QVector>
 #include "androidnative.h"
+
 
 bool requestAndroidPermissions(){
     const QVector<QString> permissions({"android.permission.WRITE_EXTERNAL_STORAGE",
@@ -35,3 +39,4 @@ void AndroidNative::updateNotifications()
 __android_log_write(ANDROID_LOG_WARN, g_TAG, file.errorString().toStdString().data());
 __android_log_write(ANDROID_LOG_WARN, g_TAG, QString::number(file.error()).toStdString().data());
 __android_log_write(ANDROID_LOG_WARN, g_TAG, fileName.toLocalFile().toStdString().data());*/
+#endif

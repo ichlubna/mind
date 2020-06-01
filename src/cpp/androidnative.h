@@ -1,6 +1,5 @@
 #ifndef ANDROIDNATIVE_H
 #define ANDROIDNATIVE_H
-#include <QtAndroidExtras/QtAndroid>
 
 class AndroidNative
 {

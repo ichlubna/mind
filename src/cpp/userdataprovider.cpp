@@ -16,6 +16,7 @@ const std::vector<UserDataProvider::CustomInput> UserDataProvider::customInputs{
                                                                         {"praise-example", "praise", UserDataProvider::CustomInput::ARRAY},
                                                                         {"food-creative-text", "foodCreative", UserDataProvider::CustomInput::ARRAY},
                                                                         {"food-challenge-text", "foodChallenge", UserDataProvider::CustomInput::ARRAY},
+                                                                        {"suicide-plan-text", "suicidePlan", UserDataProvider::CustomInput::ARRAY}
                                                                        };
 
 const char* UserDataProvider::TO_TRANSLATE{"###STARGATE_RULEZ###"};
@@ -36,7 +37,7 @@ QList<QString> UserDataProvider::parseList(QString input)
         list[i] = list[i].trimmed();
     return std::move(list);
 }
-
+#include <iostream>
 void UserDataProvider::checkDefault(UserDataProvider::CustomInput input)
 {
    switch(input.type)
@@ -46,9 +47,20 @@ void UserDataProvider::checkDefault(UserDataProvider::CustomInput input)
                 saveInput(input.settingsId, TO_TRANSLATE);
         break;
 
-        case CustomInput::ARRAY:
+        case CustomInput::ARRAY:       
            QList<QString> values = loadArrayInput(input.settingsId);
            auto originalValues = parseList(qtTrId(std::string(input.trId.toStdString()).c_str()));
+
+           //TODO fix this case
+           if(input.settingsId.toStdString() == "suicidePlan")
+             originalValues = QList<QString>{
+                     qtTrId("custom-write"),
+                     qtTrId("custom-write-body"),
+                     qtTrId("custom-ppl"),
+                     qtTrId("custom-do"),
+                     qtTrId("custom-go")
+             };
+
            if(values.empty() || originalValues.empty())
                return;
 
@@ -75,6 +87,17 @@ void UserDataProvider::translateDefault(CustomInput input)
         case CustomInput::ARRAY:
             QList<QString> values = loadArrayInput(input.settingsId);
             auto originalValues = parseList(qtTrId(std::string(input.trId.toStdString()).c_str()));
+
+            //TODO fix this case
+            if(input.settingsId.toStdString() == "suicidePlan")
+            originalValues = QList<QString>{
+                        qtTrId("custom-write"),
+                        qtTrId("custom-write-body"),
+                        qtTrId("custom-ppl"),
+                        qtTrId("custom-do"),
+                        qtTrId("custom-go")
+                };
+
             if(values.empty() || originalValues.empty())
                 return;
             for (auto &value : values)
@@ -143,7 +166,7 @@ void UserDataProvider::initCheck()
     }
 
     //selfHarmUpdate
-    if(!settings.contains("selfHarmExist"))
+    if(!settings.contains("selfHarmExist") && !settings.contains("suicidePlan"))
     {
         saveBoolInput("selfHarmExist", true);
         auto params = QVector<bool>(resetParameter::RESET_PARAMS_COUNT, false);
