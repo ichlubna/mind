@@ -1,4 +1,3 @@
-#if defined (Q_OS_ANDROID)
 #include <QtAndroidExtras/QtAndroid>
 #include <QVector>
 #include "androidnative.h"
@@ -26,17 +25,22 @@ void AndroidNative::requestReadWrite()
 
 void AndroidNative::updateNotifications()
 {
-    QAndroidJniObject javaNotification = QAndroidJniObject::fromString("m_notification");
+    QAndroidJniObject setNotificationAlarm = QAndroidJniObject::fromString("SetNotificationAlarm");
     QAndroidJniObject::callStaticMethod<void>(
-        "org/dontpanic/AndroidNotification",
-        "notify",
-        "(Landroid/content/Context;Ljava/lang/String;)V",
+        "org/dontpanic/SetNotificationAlarm",
+        "setAlarm",
+        "(Landroid/content/Context;)V",
         QtAndroid::androidContext().object(),
-        javaNotification.object<jstring>());
+        setNotificationAlarm.object<jstring>());
+
+   QtAndroid::androidActivity().callMethod<void>("registerReceiver");
+   /*QtAndroid::runOnAndroidThread([]{
+          QAndroidJniObject myJavaObject("org/dontpanic/RegisterReceiver");
+          myJavaObject.callMethod<void>("registerReceiver","()V");});*/
 }
 
 /*static const char *g_TAG = 0;
 __android_log_write(ANDROID_LOG_WARN, g_TAG, file.errorString().toStdString().data());
 __android_log_write(ANDROID_LOG_WARN, g_TAG, QString::number(file.error()).toStdString().data());
 __android_log_write(ANDROID_LOG_WARN, g_TAG, fileName.toLocalFile().toStdString().data());*/
-#endif
+

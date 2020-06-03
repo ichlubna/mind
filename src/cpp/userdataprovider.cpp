@@ -176,14 +176,17 @@ void UserDataProvider::initCheck()
         params[resetParameter::CONTACT_MESSAGE] = true;
         resetInputs(params.toList());
 
-        auto list = QList<QString>{
-                loadInput("customWrite"),
-                loadInput("customWriteBody"),
-                loadInput("customPpl"),
-                loadInput("customDo"),
-                loadInput("customGo")
-        };
-        saveArrayInput("suicidePlan", list);
+        if(settings.contains("customWrite"))
+        {
+            auto list = QList<QString>{
+                    loadInput("customWrite"),
+                    loadInput("customWriteBody"),
+                    loadInput("customPpl"),
+                    loadInput("customDo"),
+                    loadInput("customGo")
+            };
+            saveArrayInput("suicidePlan", list);
+        }
     }
 }
 

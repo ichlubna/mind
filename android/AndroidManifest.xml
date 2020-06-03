@@ -91,6 +91,9 @@
         </activity>
 
     <!-- For adding service(s) please check: https://wiki.qt.io/AndroidServices -->
+    <receiver
+            android:name="org.dontpanic.NotificationReceiver"
+            android:enabled="true" />
 
     </application>
 

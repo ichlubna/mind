@@ -14,7 +14,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    src/cpp/androidnative.cpp \
     src/cpp/importerExporter.cpp \
     src/cpp/main.cpp \
     src/cpp/mathengine.cpp \
@@ -23,7 +22,6 @@ SOURCES += \
     src/cpp/userdataprovider.cpp
 
 HEADERS += \
-    src/cpp/androidnative.h \
     src/cpp/importerExporter.h \
     src/cpp/mathengine.h \
     src/cpp/nativeinterface.h \
@@ -63,19 +61,30 @@ DISTFILES += \
     android/res/drawable-hdpi/icon.png \
     android/res/drawable-ldpi/icon.png \
     android/res/drawable-mdpi/icon.png \
-    android/src/org/dontpanic/AndroidNotification.java \
+    android/src/org/dontpanic/NotificationReceiver.java \
+    android/src/org/dontpanic/RecieverRegistrator.java \
+    android/src/org/dontpanic/SetNotificationAlarm.java \
     src/qml/qmldir \ \ \
     translation/IT.ts
 
     #QT += androidextras
 contains(ANDROID_TARGET_ARCH,arm64-v8a) {
     QT += androidextras
+    HEADERS += src/cpp/androidnative.h
+    SOURCES += src/cpp/androidnative.cpp
     ANDROID_PACKAGE_SOURCE_DIR = \
         $$PWD/android
 }
 
 contains(ANDROID_TARGET_ARCH,armeabi-v7a) {
     QT += androidextras
+    HEADERS += src/cpp/androidnative.h
+    SOURCES += src/cpp/androidnative.cpp
     ANDROID_PACKAGE_SOURCE_DIR = \
         $$PWD/android
+}
+
+ios: {
+    BUNDLE_DATA.files = $$files($$PWD/audio/*.mp3)
+    QMAKE_BUNDLE_DATA += BUNDLE_DATA
 }
