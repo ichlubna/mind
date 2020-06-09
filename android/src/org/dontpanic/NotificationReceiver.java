@@ -10,24 +10,24 @@ import android.graphics.BitmapFactory;
 import android.app.NotificationChannel;
 import android.content.BroadcastReceiver;
 import android.media.RingtoneManager;
+import android.content.IntentFilter;
 import android.net.Uri;
 
 
-public class NotificationReceiver extends BroadcastReceiver {
+public class NotificationReceiver {
 private static NotificationManager m_notificationManager;
 private static Notification.Builder m_builder;
 
+public void registerReceiver(Context context)
+{
+    IntentFilter intentFilter = new IntentFilter("DONTPANIC_NOTIFICATION");
+     intentFilter.addCategory(Intent.CATEGORY_DEFAULT);
+    if(context.registerReceiver(notificationReceiver, intentFilter) == null)
+ }
+
+private BroadcastReceiver notificationReceiver = new BroadcastReceiver() {
 @Override
 public void onReceive(Context context, Intent intent) {
-  /*  long when = System.currentTimeMillis();
-    NotificationManager notificationManager = (NotificationManager) context
-            .getSystemService(Context.NOTIFICATION_SERVICE);
-
-    Intent notificationIntent = new Intent(context, DailySpecialActivity.class);
-    notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-    PendingIntent pendingIntent = PendingIntent.getActivity(context, 0,
-            notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);*/
-
     Uri alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
     try {
@@ -54,5 +54,5 @@ public void onReceive(Context context, Intent intent) {
     } catch (Exception e) {
         e.printStackTrace();
     }
-}
+}};
 }

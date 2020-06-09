@@ -62,7 +62,6 @@ DISTFILES += \
     android/res/drawable-ldpi/icon.png \
     android/res/drawable-mdpi/icon.png \
     android/src/org/dontpanic/NotificationReceiver.java \
-    android/src/org/dontpanic/RecieverRegistrator.java \
     android/src/org/dontpanic/SetNotificationAlarm.java \
     src/qml/qmldir \ \ \
     translation/IT.ts
@@ -87,4 +86,8 @@ contains(ANDROID_TARGET_ARCH,armeabi-v7a) {
 ios: {
     BUNDLE_DATA.files = $$files($$PWD/audio/*.mp3)
     QMAKE_BUNDLE_DATA += BUNDLE_DATA
+    QTPLUGIN *= qtaudio_coreaudio
+    QTPLUGIN *= qtmedia_audioengine
+    QTPLUGIN *= qavfcamera
+    QTPLUGIN *= qavfmediaplayer
 }

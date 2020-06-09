@@ -1,5 +1,6 @@
 #include <QtAndroidExtras/QtAndroid>
 #include <QVector>
+#include <QAndroidJniEnvironment>
 #include "androidnative.h"
 
 
@@ -33,7 +34,15 @@ void AndroidNative::updateNotifications()
         QtAndroid::androidContext().object(),
         setNotificationAlarm.object<jstring>());
 
-   QtAndroid::androidActivity().callMethod<void>("registerReceiver");
+    QAndroidJniEnvironment env;
+    jclass javaClass = env.findClass("org/dontpanic/NotificationReceiver");
+    QAndroidJniObject classObject(javaClass);
+    classObject.callMethod<void>("registerReceiver",
+                                 "(Landroid/content/Context;)V",
+                                 QtAndroid::androidContext().object());
+
+
+   //QtAndroid::androidActivity().callMethod<void>("registerReceiver");
    /*QtAndroid::runOnAndroidThread([]{
           QAndroidJniObject myJavaObject("org/dontpanic/RegisterReceiver");
           myJavaObject.callMethod<void>("registerReceiver","()V");});*/
