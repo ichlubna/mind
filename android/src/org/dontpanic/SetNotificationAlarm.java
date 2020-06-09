@@ -6,22 +6,16 @@ import java.util.Calendar;
 import android.app.Activity;
 import android.content.Intent;
 import android.app.PendingIntent;
-import android.os.Bundle;
-import android.content.IntentFilter;
-import android.content.BroadcastReceiver;
-import org.qtproject.qt5.android.bindings.QtActivity;
-//import android.provider.AlarmClock;
 
 public class SetNotificationAlarm
 {
     public SetNotificationAlarm() {}
 
     public static void setAlarm(Context context) {
-        // Quote in Morning at 08:32:00 AM
             Calendar calendar = Calendar.getInstance();
 
-            calendar.set(Calendar.HOUR_OF_DAY, 15);
-            calendar.set(Calendar.MINUTE, 3);
+            calendar.set(Calendar.HOUR_OF_DAY, 19);
+            calendar.set(Calendar.MINUTE, 57);
             calendar.set(Calendar.SECOND, 0);
             calendar.set(Calendar.MILLISECOND, 0);
 
@@ -31,7 +25,8 @@ public class SetNotificationAlarm
                 calendar.add(Calendar.DATE, 1);
             }
 
-            Intent myIntent = new Intent(/*context,*/ "DONTPANIC_NOTIFICATION");//NotificationReceiver.class);
+            Intent myIntent = new Intent(context, NotificationReceiver.class);
+            myIntent.setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
             int ALARM1_ID = 10000;
             PendingIntent pendingIntent = PendingIntent.getBroadcast(
                     context, ALARM1_ID, myIntent, PendingIntent.FLAG_UPDATE_CURRENT);

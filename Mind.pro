@@ -62,6 +62,7 @@ DISTFILES += \
     android/res/drawable-ldpi/icon.png \
     android/res/drawable-mdpi/icon.png \
     android/src/org/dontpanic/NotificationReceiver.java \
+    android/src/org/dontpanic/NotificationService.java \
     android/src/org/dontpanic/SetNotificationAlarm.java \
     src/qml/qmldir \ \ \
     translation/IT.ts

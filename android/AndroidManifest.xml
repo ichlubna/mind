@@ -90,10 +90,21 @@
         <meta-data android:name="android.app.lib_name" android:value="-- %%INSERT_APP_LIB_NAME%% --"/>
         </activity>
 
-    <!-- For adding service(s) please check: https://wiki.qt.io/AndroidServices -->
+    <!-- For adding service(s) please check: https://wiki.qt.io/AndroidServices
     <receiver
             android:name="org.dontpanic.NotificationReceiver"
             android:enabled="true" />
+            <service android:enabled="true" android:name="org.dontpanic.NotificationReceiver" />-->
+
+<service
+android:name="org.dontpanic.NotificationService"
+android:enabled="true"
+android:exported="true" />
+
+<receiver
+android:name="org.dontpanic.NotificationReceiver"
+android:enabled="true"
+android:exported="true" />
 
     </application>
 
