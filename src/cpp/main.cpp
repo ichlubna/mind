@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     dataProvider.initCheck();
 
     NativeInterface *ni = new NativeInterface();
-    ni->updateNotifications();
+    ni->updateNotifications("Titulek", "Zprava");
 
     engine.load(QUrl(QStringLiteral("qrc:/src/qml/main.qml")));
     if (engine.rootObjects().isEmpty())

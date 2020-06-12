@@ -10,12 +10,13 @@ import android.app.PendingIntent;
 public class SetNotificationAlarm
 {
     public SetNotificationAlarm() {}
+    private static int ALARM1_ID = 10000;
 
-    public static void setAlarm(Context context) {
+    public static void setAlarm(Context context, String title, String message) {
             Calendar calendar = Calendar.getInstance();
 
-            calendar.set(Calendar.HOUR_OF_DAY, 19);
-            calendar.set(Calendar.MINUTE, 57);
+            calendar.set(Calendar.HOUR_OF_DAY, 15);
+            calendar.set(Calendar.MINUTE, 28);
             calendar.set(Calendar.SECOND, 0);
             calendar.set(Calendar.MILLISECOND, 0);
 
@@ -26,11 +27,22 @@ public class SetNotificationAlarm
             }
 
             Intent myIntent = new Intent(context, NotificationReceiver.class);
-            myIntent.setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
-            int ALARM1_ID = 10000;
+            myIntent.putExtra("title", title);
+            myIntent.putExtra("message", message);
+            myIntent.setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);           
             PendingIntent pendingIntent = PendingIntent.getBroadcast(
                     context, ALARM1_ID, myIntent, PendingIntent.FLAG_UPDATE_CURRENT);
             AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
             alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY, pendingIntent);
             }
+
+    public static void cancelAlarm(Context context)
+    {
+        Intent myIntent = new Intent(context, NotificationReceiver.class);
+        myIntent.setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
+        PendingIntent pendingIntent = PendingIntent.getBroadcast(
+                context, ALARM1_ID, myIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+        alarmManager.cancel(pendingIntent);
+    }
 }

@@ -24,32 +24,15 @@ void AndroidNative::requestReadWrite()
     requestAndroidPermissions();
 }
 
-void AndroidNative::updateNotifications()
+void AndroidNative::updateNotifications(std::string title, std::string message)
 {
-    QAndroidJniObject setNotificationAlarm = QAndroidJniObject::fromString("SetNotificationAlarm");
+    QAndroidJniObject titleString = QAndroidJniObject::fromString(title.c_str());
+    QAndroidJniObject messageString = QAndroidJniObject::fromString(message.c_str());
     QAndroidJniObject::callStaticMethod<void>(
         "org/dontpanic/SetNotificationAlarm",
         "setAlarm",
-        "(Landroid/content/Context;)V",
-        QtAndroid::androidContext().object(),
-        setNotificationAlarm.object<jstring>());
-
-   /* QAndroidJniEnvironment env;
-    jclass javaClass = env.findClass("org/dontpanic/NotificationReceiver");
-    QAndroidJniObject classObject(javaClass);
-    classObject.callMethod<void>("registerReceiver",
-                                 "(Landroid/content/Context;)V",
-                                 QtAndroid::androidContext().object());*/
-
-
-   //QtAndroid::androidActivity().callMethod<void>("registerReceiver");
-   /*QtAndroid::runOnAndroidThread([]{
-          QAndroidJniObject myJavaObject("org/dontpanic/RegisterReceiver");
-          myJavaObject.callMethod<void>("registerReceiver","()V");});*/
+        "(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V",
+        QtAndroid::androidContext().object(),titleString.object<jstring>(), messageString.object<jstring>());
 }
 
-/*static const char *g_TAG = 0;
-__android_log_write(ANDROID_LOG_WARN, g_TAG, file.errorString().toStdString().data());
-__android_log_write(ANDROID_LOG_WARN, g_TAG, QString::number(file.error()).toStdString().data());
-__android_log_write(ANDROID_LOG_WARN, g_TAG, fileName.toLocalFile().toStdString().data());*/
 

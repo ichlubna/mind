@@ -1,10 +1,12 @@
 #ifndef ANDROIDNATIVE_H
 #define ANDROIDNATIVE_H
+#include <string>
+
 
 class AndroidNative
 {
 public:
     static void requestReadWrite();
-    static void updateNotifications();
+    static void updateNotifications(std::string title, std::string message);
 };
 #endif // ANDROIDNATIVE_H

@@ -16,90 +16,17 @@ import android.app.Service;
 import android.os.IBinder;
 
 public class NotificationService extends Service {
-    private static NotificationManager m_notificationManager;
-    private static Notification.Builder m_builder;
-@Override
-public int onStartCommand(Intent intent, int flags, int startId) {
-
-   YourTask();
-
-  return Service.START_STICKY;
-}
-
-private void YourTask(){
-    Uri alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-    System.err.println("Recieved!!!");
-    try {
-        Context context = this;
-        m_notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-            int importance = NotificationManager.IMPORTANCE_DEFAULT;
-            NotificationChannel notificationChannel = new NotificationChannel("Qt", "Qt Notifier", importance);
-            m_notificationManager.createNotificationChannel(notificationChannel);
-            m_builder = new Notification.Builder(context, notificationChannel.getId());
-        } else {
-            m_builder = new Notification.Builder(context);
-        }
-
-        m_builder.setSmallIcon(R.drawable.icon)
-                .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.icon))
-                .setContentTitle("A message from Qt!")
-                .setContentText("message").setSound(alarmSound)
-                .setDefaults(Notification.DEFAULT_SOUND)
-                .setColor(Color.GREEN)
-                .setAutoCancel(true);
-
-        m_notificationManager.notify(0, m_builder.build());
-    } catch (Exception e) {
-        e.printStackTrace();
-    }
-}
-
-@Override
-public IBinder onBind(Intent intent) {
-    // TODO: Return the communication channel to the service.
-    throw new UnsupportedOperationException("Not yet implemented");
-}
-
-
-}
-
-/*
-
-public class NotificationReceiver extends Service{
-private static NotificationManager m_notificationManager;
-private static Notification.Builder m_builder;
-private static BroadcastReceiver br;
-
-@Override
- public IBinder onBind(Intent arg0)
- {
-  return null;
- }
-
-@Override
-public void onCreate()
-{
- registerReceiver();
-}
-
-@Override
-public void onDestroy()
-{
- unregisterReceiver(br);
-}
-
-private void registerReceiver()
-{
-    br = new BroadcastReceiver()
-    {
     @Override
-    public void onReceive(Context context, Intent intent) {
-        Uri alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-        System.err.println("Recieved!!!");
+    public int onStartCommand(Intent intent, int flags, int startId) {
+       ShowNotification(intent.getStringExtra("title"), intent.getStringExtra("message"));
+      return Service.START_STICKY;
+    }
+
+    private void ShowNotification(String title, String message){
         try {
-            m_notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+            Context context = this;
+            NotificationManager m_notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+            Notification.Builder m_builder;
 
             if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
                 int importance = NotificationManager.IMPORTANCE_DEFAULT;
@@ -110,23 +37,27 @@ private void registerReceiver()
                 m_builder = new Notification.Builder(context);
             }
 
-            m_builder.setSmallIcon(R.drawable.icon)
+            Uri alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+            m_builder.setSmallIcon(R.drawable.smallicon)
                     .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.icon))
-                    .setContentTitle("A message from Qt!")
-                    .setContentText("message").setSound(alarmSound)
+                    .setContentTitle(title)
+                    .setContentText(message).setSound(alarmSound)
                     .setDefaults(Notification.DEFAULT_SOUND)
-                    .setColor(Color.GREEN)
+                    //.setColor(Color.GREEN)
                     .setAutoCancel(true);
+
 
             m_notificationManager.notify(0, m_builder.build());
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }};
-    IntentFilter intentFilter = new IntentFilter("DONTPANIC_NOTIFICATION");
-    intentFilter.addCategory(Intent.CATEGORY_DEFAULT);
-    registerReceiver(br, intentFilter);
-    System.err.println("Registered!!!");
-    }
 }
-*/
+
+@Override
+public IBinder onBind(Intent intent) {
+    throw new UnsupportedOperationException("Not yet implemented");
+}
+
+
+}
+

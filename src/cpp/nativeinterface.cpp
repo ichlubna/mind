@@ -1,4 +1,5 @@
 #include "nativeinterface.h"
+#include <QTranslator>
 #if defined (Q_OS_ANDROID)
     #include "androidnative.h"
 #endif
@@ -14,9 +15,10 @@ void NativeInterface::requestReadWrite()
 #endif
 }
 
-void NativeInterface::updateNotifications()
+//TODO call whenever language changes
+void NativeInterface::updateNotifications(std::string title, std::string message)
 {
 #if defined (Q_OS_ANDROID)
-    AndroidNative::updateNotifications();
+    AndroidNative::updateNotifications(title, message);
 #endif
 }
