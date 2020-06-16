@@ -188,6 +188,9 @@ void UserDataProvider::initCheck()
             saveArrayInput("suicidePlan", list);
         }
     }
+
+    if(!settings.contains("notificationsOn"))
+        saveBoolInput("notificationsOn", false);
 }
 
 void UserDataProvider::saveInput(QString id, QString value)

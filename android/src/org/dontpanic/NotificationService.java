@@ -14,11 +14,18 @@ import android.content.IntentFilter;
 import android.net.Uri;
 import android.app.Service;
 import android.os.IBinder;
+import android.content.SharedPreferences;
 
 public class NotificationService extends Service {
+    private static String SP_STRING = "DontPanicSharedPreferences";
+
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-       ShowNotification(intent.getStringExtra("title"), intent.getStringExtra("message"));
+       SharedPreferences sp = this.getSharedPreferences(SP_STRING, Context.MODE_PRIVATE);
+       String title = sp.getString("title", null);
+       String message = sp.getString("message", null);
+       ShowNotification(title, message);
+       //ShowNotification(intent.getStringExtra("title"), intent.getStringExtra("message"));
       return Service.START_STICKY;
     }
 
@@ -37,11 +44,10 @@ public class NotificationService extends Service {
                 m_builder = new Notification.Builder(context);
             }
 
-            Uri alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
             m_builder.setSmallIcon(R.drawable.smallicon)
                     .setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.icon))
                     .setContentTitle(title)
-                    .setContentText(message).setSound(alarmSound)
+                    .setContentText(message)
                     .setDefaults(Notification.DEFAULT_SOUND)
                     //.setColor(Color.GREEN)
                     .setAutoCancel(true);

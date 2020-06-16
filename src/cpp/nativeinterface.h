@@ -9,7 +9,7 @@ class NativeInterface : public QObject
 public:
     NativeInterface(QObject *parent = nullptr);
     Q_INVOKABLE static void requestReadWrite();
-    Q_INVOKABLE static void updateNotifications(std::string title, std::string message);
+    Q_INVOKABLE static void updateNotifications(QString title, QString message, bool enable);
 };
 
 #endif // NATIVEINTERFACE_H

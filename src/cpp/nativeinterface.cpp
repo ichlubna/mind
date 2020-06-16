@@ -16,9 +16,12 @@ void NativeInterface::requestReadWrite()
 }
 
 //TODO call whenever language changes
-void NativeInterface::updateNotifications(std::string title, std::string message)
+void NativeInterface::updateNotifications(QString title, QString message, bool enable)
 {
 #if defined (Q_OS_ANDROID)
-    AndroidNative::updateNotifications(title, message);
+    if (enable)
+        AndroidNative::updateNotifications(title.toStdString(), message.toStdString());
+    else
+        AndroidNative::cancelNotifications();
 #endif
 }

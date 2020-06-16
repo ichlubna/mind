@@ -30,9 +30,18 @@ void AndroidNative::updateNotifications(std::string title, std::string message)
     QAndroidJniObject messageString = QAndroidJniObject::fromString(message.c_str());
     QAndroidJniObject::callStaticMethod<void>(
         "org/dontpanic/SetNotificationAlarm",
-        "setAlarm",
+        "updateAlarm",
         "(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V",
         QtAndroid::androidContext().object(),titleString.object<jstring>(), messageString.object<jstring>());
+}
+
+void AndroidNative::cancelNotifications()
+{
+    QAndroidJniObject::callStaticMethod<void>(
+        "org/dontpanic/SetNotificationAlarm",
+        "cancelAlarm",
+        "(Landroid/content/Context;)V",
+        QtAndroid::androidContext().object());
 }
 
 

@@ -30,6 +30,7 @@
         <file>images/fb.svg</file>
         <file>images/instagram.svg</file>
         <file>images/web.svg</file>
+        <file>images/bell.svg</file>
         <file>images/CZ.svg</file>
         <file>images/SK.svg</file>
         <file>images/EN.svg</file>
@@ -194,5 +195,7 @@
         <file>src/qml/SelfHarm/TimerResult.qml</file>
         <file>src/qml/Contacts/Message.qml</file>
         <file>src/qml/Contacts/MessageForm.ui.qml</file>
+        <file>src/qml/Drawer/SettingsDrawer.qml</file>
+        <file>src/qml/AppToolBar.qml</file>
     </qresource>
 </RCC>

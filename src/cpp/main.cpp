@@ -1,4 +1,5 @@
 #include <QString>
+#include <QTranslator>
 #include <iostream>
 #include <src/cpp/translator.h>
 #include <src/cpp/userdataprovider.h>
@@ -20,7 +21,6 @@ int main(int argc, char *argv[])
 
     QApplication app(argc, argv);
     QQmlApplicationEngine engine;
-    //TODO remove?
     QSettings settings("DontPanicDevs", "DontPanic");
     UserDataProvider dataProvider;
 
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     dataProvider.initCheck();
 
     NativeInterface *ni = new NativeInterface();
-    ni->updateNotifications("Titulek", "Zprava");
+    ni->updateNotifications(qtTrId("notification-title"), qtTrId("notification-msg"), dataProvider.loadBoolInput("notificationsOn"));
 
     engine.load(QUrl(QStringLiteral("qrc:/src/qml/main.qml")));
     if (engine.rootObjects().isEmpty())

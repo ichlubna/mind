@@ -90,21 +90,23 @@
         <meta-data android:name="android.app.lib_name" android:value="-- %%INSERT_APP_LIB_NAME%% --"/>
         </activity>
 
-    <!-- For adding service(s) please check: https://wiki.qt.io/AndroidServices
-    <receiver
-            android:name="org.dontpanic.NotificationReceiver"
-            android:enabled="true" />
-            <service android:enabled="true" android:name="org.dontpanic.NotificationReceiver" />-->
+    <!-- For adding service(s) please check: https://wiki.qt.io/AndroidServices -->
 
-<service
-android:name="org.dontpanic.NotificationService"
-android:enabled="true"
-android:exported="true" />
+<service android:name="org.dontpanic.NotificationService" android:enabled="true" android:exported="true"/>
+<receiver android:name="org.dontpanic.NotificationReceiver" android:enabled="true" android:exported="true"/>
+<receiver android:name="org.dontpanic.RebootReceiver" android:enabled="true" android:exported="true">
+      <intent-filter>
+            <action android:name="android.intent.action.BOOT" />
+            <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            <action android:name="android.intent.action.BOOT_COMPLETED" />
+            <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            <action android:name="android.intent.action.REBOOT"/>
+            <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+            <action android:name="android.intent.action.USER_PRESENT"/>
 
-<receiver
-android:name="org.dontpanic.NotificationReceiver"
-android:enabled="true"
-android:exported="true" />
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+</receiver>
 
     </application>
 
@@ -113,4 +115,5 @@ android:exported="true" />
 
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 </manifest>
