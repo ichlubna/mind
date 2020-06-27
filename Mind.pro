@@ -66,7 +66,6 @@ DISTFILES += \
     android/src/org/dontpanic/RebootReceiver.java \
     android/src/org/dontpanic/SetNotificationAlarm.java \
     src/qml/qmldir \ \ \
-    translation/IT.ts
 
     #QT += androidextras
 contains(ANDROID_TARGET_ARCH,arm64-v8a) {
@@ -92,4 +91,8 @@ ios: {
     QTPLUGIN *= qtmedia_audioengine
     QTPLUGIN *= qavfcamera
     QTPLUGIN *= qavfmediaplayer
+    HEADERS += src/cpp/iosnative.h
+    SOURCES += src/cpp/iosnative.mm
+    OBJECTIVE_SOURCES += src/oc/iosnative.mm \
+                        src/oc/iosnative.h
 }
