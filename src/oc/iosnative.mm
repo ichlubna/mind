@@ -6,6 +6,7 @@
 
 void IosNative::updateNotifications(std::string title, std::string message)
 {
+       UIApplication.sharedApplication.applicationIconBadgeNumber = 0;
        UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
        [center requestAuthorizationWithOptions:(UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge) completionHandler:^(BOOL granted, NSError * _Nullable error)
        {
@@ -58,6 +59,7 @@ void IosNative::updateNotifications(std::string title, std::string message)
 
 void IosNative::cancelNotifications()
 {
+    UIApplication.sharedApplication.applicationIconBadgeNumber = 0;
     NSString* identifierNSString = identifier.toNSString();
     UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
     NSArray *array = [NSArray arrayWithObjects:identifierNSString, nil];
