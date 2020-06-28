@@ -4,6 +4,7 @@
 - Requires fullscreen
 - File->New->File->Strings File InfoPlist.strings and Localize
 - Copy icons and strings and set icon pack (use asset catalog and drag the appicon folder to it)
+- Targets -> Add capability -> Push notifications
 - edit Info.plist to add languages
     <key>CFBundleLocalizations</key>
     <array>

@@ -91,8 +91,11 @@ ios: {
     QTPLUGIN *= qtmedia_audioengine
     QTPLUGIN *= qavfcamera
     QTPLUGIN *= qavfmediaplayer
-    HEADERS += src/cpp/iosnative.h
-    SOURCES += src/cpp/iosnative.mm
+    HEADERS += src/oc/iosnative.h
+    SOURCES += src/oc/iosnative.mm
     OBJECTIVE_SOURCES += src/oc/iosnative.mm \
                         src/oc/iosnative.h
+    LIBS += -framework UIKit
+    LIBS += -framework Foundation
+    LIBS += -framework UserNotifications
 }
