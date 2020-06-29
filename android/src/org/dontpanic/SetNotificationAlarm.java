@@ -29,7 +29,7 @@ public class SetNotificationAlarm
     public static void setAlarm(Context context) {
             Calendar calendar = Calendar.getInstance();
 
-            calendar.set(Calendar.HOUR_OF_DAY, 14);
+            calendar.set(Calendar.HOUR_OF_DAY, 17);
             calendar.set(Calendar.MINUTE, 0);
             calendar.set(Calendar.SECOND, 0);
             calendar.set(Calendar.MILLISECOND, 0);
@@ -41,8 +41,6 @@ public class SetNotificationAlarm
             }
 
             Intent myIntent = new Intent(context, NotificationReceiver.class);
-            //myIntent.putExtra("title", title);
-            //myIntent.putExtra("message", message);
             myIntent.setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);           
             PendingIntent pendingIntent = PendingIntent.getBroadcast(
                     context, ALARM1_ID, myIntent, PendingIntent.FLAG_UPDATE_CURRENT);

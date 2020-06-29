@@ -25,7 +25,6 @@ public class NotificationService extends Service {
        String title = sp.getString("title", null);
        String message = sp.getString("message", null);
        ShowNotification(title, message);
-       //ShowNotification(intent.getStringExtra("title"), intent.getStringExtra("message"));
       return Service.START_STICKY;
     }
 
@@ -50,7 +49,12 @@ public class NotificationService extends Service {
                     .setContentText(message)
                     .setDefaults(Notification.DEFAULT_SOUND)
                     //.setColor(Color.GREEN)
-                    .setAutoCancel(true);
+                    .setAutoCancel(true)
+                    .setContentIntent(PendingIntent.getActivity(
+                            context,
+                            0,
+                            getPackageManager().getLaunchIntentForPackage("org.dontpanic"),
+                            PendingIntent.FLAG_UPDATE_CURRENT));
 
 
             m_notificationManager.notify(0, m_builder.build());

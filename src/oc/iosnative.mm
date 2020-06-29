@@ -4,6 +4,8 @@
 #include <QVariant>
 #include "iosnative.h"
 
+const QString IosNative::identifier = "dontpanicidentifier";
+
 void IosNative::updateNotifications(std::string title, std::string message)
 {
        UIApplication.sharedApplication.applicationIconBadgeNumber = 0;
@@ -30,7 +32,7 @@ void IosNative::updateNotifications(std::string title, std::string message)
              triggerWithDateMatchingComponents:date repeats:YES];
 
        NSString* identifierNSString = identifier.toNSString();
-      // Create the request object.
+
       UNNotificationRequest* request = [UNNotificationRequest
              requestWithIdentifier:identifierNSString content:content trigger:trigger];
 
@@ -40,21 +42,6 @@ void IosNative::updateNotifications(std::string title, std::string message)
           if (error) {
               NSLog(@"Local Notification failed");}
       }];
-      /*
-      UNTimeIntervalNotificationTrigger *trigger = [UNTimeIntervalNotificationTrigger triggerWithTimeInterval:5 repeats:NO];
-
-      NSString* identifierNSString = identifier.toNSString();
-
-      UNNotificationRequest *request = [UNNotificationRequest requestWithIdentifier:identifierNSString
-              content:content trigger:trigger];
-
-      UNUserNotificationCenter *ccenter = [UNUserNotificationCenter currentNotificationCenter];
-
-      [ccenter addNotificationRequest:request withCompletionHandler:^(NSError * _Nullable error) {
-          if (error) {
-              NSLog(@"Local Notification failed");
-          }
-      }];*/
 }
 
 void IosNative::cancelNotifications()
