@@ -25,7 +25,8 @@ public class NotificationService extends Service {
        String title = sp.getString("title", null);
        String message = sp.getString("message", null);
        ShowNotification(title, message);
-      return Service.START_STICKY;
+       stopSelf();
+      return Service.START_NOT_STICKY;
     }
 
     private void ShowNotification(String title, String message){

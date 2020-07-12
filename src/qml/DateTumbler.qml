@@ -1,11 +1,10 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
-//import QtQuick.Enterprise.Controls.Styles 1.0
 
 Tumbler {
     property var incrementItems: true
     id: dayTumbler
-    visibleItemCount: 5
+    visibleItemCount: 5.0
     width: parent.width*0.3
     delegate:
           Text {
@@ -14,6 +13,6 @@ Tumbler {
            verticalAlignment: Text.AlignVCenter
            opacity: 1.0 - Math.abs(Tumbler.displacement) / (visibleItemCount / 2)
            color: "white"
-           font.pointSize: parent.width*0.2*(1.0-Math.abs(Tumbler.displacement) / (visibleItemCount / 2))
+           font.pointSize: Math.max(5, parent.width*0.2*(1.0-Math.abs(Tumbler.displacement) / (visibleItemCount / 2)))
     }
  }

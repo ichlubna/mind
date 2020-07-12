@@ -162,8 +162,6 @@
         <file>src/qml/MyRecords/MyRecordsForm.ui.qml</file>
         <file>src/qml/MyRecords/Records.qml</file>
         <file>src/qml/MyRecords/RecordsForm.ui.qml</file>
-        <file>src/qml/MyRecords/DiaryRecord.qml</file>
-        <file>src/qml/MyRecords/DiaryRecordForm.ui.qml</file>
         <file>src/qml/DatePicker.qml</file>
         <file>src/qml/DateTumbler.qml</file>
         <file>src/qml/MyRecords/RecordDate.qml</file>
@@ -178,8 +176,6 @@
         <file>src/qml/BreathForm.ui.qml</file>
         <file>src/qml/Drawer/ImportExport.qml</file>
         <file>src/qml/Drawer/ImportExportForm.ui.qml</file>
-        <file>src/qml/MyRecords/FoodRecord.qml</file>
-        <file>src/qml/MyRecords/FoodRecordForm.ui.qml</file>
         <file>src/qml/MyRecords/FoodChoice.qml</file>
         <file>src/qml/MyRecords/FoodChoiceForm.ui.qml</file>
         <file>src/qml/InputScrollView.qml</file>
@@ -197,5 +193,7 @@
         <file>src/qml/Contacts/MessageForm.ui.qml</file>
         <file>src/qml/Drawer/SettingsDrawer.qml</file>
         <file>src/qml/AppToolBar.qml</file>
+        <file>src/qml/MyRecords/Record.qml</file>
+        <file>src/qml/MyRecords/RecordForm.ui.qml</file>
     </qresource>
 </RCC>

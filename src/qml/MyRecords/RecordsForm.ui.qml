@@ -40,7 +40,7 @@ MenuPage {
                         anchors.fill: parent
                         layoutDirection: Qt.RightToLeft
                         spacing: 5
-                        visible: dateOnly
+                        visible: dateOnly && arrayNames.length > 1
                         Repeater{
                             model: 6
                             Image {
@@ -61,7 +61,7 @@ MenuPage {
                         anchors.fill: parent
                         Connections {
                             onClicked: {
-                                stackView.push(afterDateFile, {"recordIndex": position})
+                                stackView.push(afterDateFile, {"dataRecordIndex": position, "arrayNames" : arrayNames, "questionTexts" : questionTexts})
                             }
                         }
                     }
@@ -91,6 +91,6 @@ MenuPage {
                 anchors.fill: parent
                 id: sendArea
             }
-            visible: dateOnly
+            visible: sendingEnabled
         }
 }

@@ -2,17 +2,18 @@ import QtQuick 2.4
 
 FoodChoiceForm {
     property var date: "";
-    property var recordIndex: -1;
-    property var arrayName: "foodRecordDates"
+    property var dataRecordIndex: -1;
     property var dateRecord: [date, "-1", "-1", "-1", "-1", "-1", "-1"];
+    property var arrayNames : []
+    property var questionTexts: []
 
     Connections{
         target: choiceMenu
         Component.onCompleted:  {
             if(date != "")
-                recordIndex = dataProvider.getIndexByDate(arrayName, date);
-            if(recordIndex > -1)
-                dateRecord = dataProvider.getFromArray(arrayName, recordIndex).split("|");
+                dataRecordIndex = dataProvider.getIndexByDate(arrayNames[0], date);
+            if(dataRecordIndex > -1)
+                dateRecord = dataProvider.getFromArray(arrayNames[0], dataRecordIndex).split("|");
             }
         }
 }

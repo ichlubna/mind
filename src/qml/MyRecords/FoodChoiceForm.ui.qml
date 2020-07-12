@@ -5,11 +5,11 @@ Menu{
     property alias choiceMenu: choiceMenu
     id: choiceMenu
     title: qsTrId("food-choice")
-    items: [{text: qsTrId("food-breakfast"), file: "MyRecords/FoodRecord.qml", pushProperties: {"date" : date, "index" : 1, "dateRecord" : dateRecord}},
-            {text: qsTrId("food-am-snack"), file: "MyRecords/FoodRecord.qml", pushProperties: {"date" : date, "index" : 2, "dateRecord" : dateRecord}},
-            {text: qsTrId("food-lunch"), file:  "MyRecords/FoodRecord.qml", pushProperties: {"date" : date, "index" : 3, "dateRecord" : dateRecord}},
-            {text: qsTrId("food-pm-snack"), file:  "MyRecords/FoodRecord.qml", pushProperties: {"date" : date, "index" : 4, "dateRecord" : dateRecord}},
-            {text: qsTrId("food-dinner"), file:  "MyRecords/FoodRecord.qml", pushProperties: {"date" : date, "index" : 5, "dateRecord" : dateRecord}},
-            {text: qsTrId("food-second-dinner"), file:  "MyRecords/FoodRecord.qml", pushProperties: {"date" : date, "index" : 6, "dateRecord" : dateRecord}}
+    items: [{text: qsTrId("food-breakfast"), file: "MyRecords/Record.qml", pushProperties: {"date" : date, "arrayIndex" : 1, "dateRecord" : dateRecord, "arrayNames" : arrayNames, "questionTexts" : questionTexts}},
+            {text: qsTrId("food-am-snack"), file: "MyRecords/Record.qml", pushProperties: {"date" : date, "arrayIndex" : 2, "dateRecord" : dateRecord, "arrayNames" : arrayNames, "questionTexts" : questionTexts}},
+            {text: qsTrId("food-lunch"), file:  "MyRecords/Record.qml", pushProperties: {"date" : date, "arrayIndex" : 3, "dateRecord" : dateRecord, "arrayNames" : arrayNames, "questionTexts" : questionTexts}},
+            {text: qsTrId("food-pm-snack"), file:  "MyRecords/Record.qml", pushProperties: {"date" : date, "arrayIndex" : 4, "dateRecord" : dateRecord, "arrayNames" : arrayNames, "questionTexts" : questionTexts}},
+            {text: qsTrId("food-dinner"), file:  "MyRecords/Record.qml", pushProperties: {"date" : date, "arrayIndex" : 5, "dateRecord" : dateRecord, "arrayNames" : arrayNames, "questionTexts" : questionTexts}},
+            {text: qsTrId("food-second-dinner"), file:  "MyRecords/Record.qml", pushProperties: {"date" : date, "arrayIndex" : 6, "dateRecord" : dateRecord, "arrayNames" : arrayNames, "questionTexts" : questionTexts}}
             ]
 }

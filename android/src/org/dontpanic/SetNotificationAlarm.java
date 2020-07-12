@@ -41,6 +41,7 @@ public class SetNotificationAlarm
             }
 
             Intent myIntent = new Intent(context, NotificationReceiver.class);
+            myIntent.putExtra("action", "notificationAlarm");
             myIntent.setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);           
             PendingIntent pendingIntent = PendingIntent.getBroadcast(
                     context, ALARM1_ID, myIntent, PendingIntent.FLAG_UPDATE_CURRENT);

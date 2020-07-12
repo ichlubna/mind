@@ -14,13 +14,14 @@ public NotificationReceiver() {
 
 @Override
 public void onReceive(Context context, Intent intent) {
-    Intent serviceIntent = new Intent(context, NotificationService.class);
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-        context.startForegroundService(serviceIntent);
-    } else {
-        context.startService(serviceIntent);
+    if(intent.getStringExtra("action") != null && intent.getStringExtra("action").equals("notificationAlarm"))
+    {
+        Intent serviceIntent = new Intent(context, NotificationService.class);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O)
+            context.startForegroundService(serviceIntent);
+        else
+            context.startService(serviceIntent);
     }
-}
 
-}
+}}
 

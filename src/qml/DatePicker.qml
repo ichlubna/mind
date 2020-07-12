@@ -43,8 +43,6 @@ Row {
             var today = new Date();
             monthTumbler.currentIndex = today.getMonth();
             dayTumbler.currentIndex = today.getDate()-1;
-            console.log(today)
-            console.log(today.getDate())
             var year = today.getFullYear();
             var historyYears = year-firstYear
             var years = [];

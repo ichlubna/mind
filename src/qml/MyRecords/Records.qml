@@ -3,15 +3,17 @@ import io.qt.UserDataProvider 1.0
 
 RecordsForm {
     property int count: 0
-    property var arrayName : "diaryRecords"
     property var dateOnly : false
-    property var afterDateFile : "DiaryRecord.qml"
+    property var sendingEnabled : false
+    property var afterDateFile : "Record.qml"
+    property var arrayNames : []
+    property var questionTexts: []
 
     UserDataProvider {
         id: dataProvider
     }
     function fill() {
-        var values = dataProvider.loadArrayInput(arrayName);
+        var values = dataProvider.loadArrayInput(arrayNames[0]);
         var count = values.length;
         records.model = count;
         for (var i = 0; i < count; i++) {
@@ -42,7 +44,7 @@ RecordsForm {
     Connections {
         target: addButton
         onClicked: {
-            stackView.push("RecordDate.qml", {"afterDateFile" : afterDateFile})
+            stackView.push("RecordDate.qml", {"afterDateFile" : afterDateFile, "arrayNames" : arrayNames, "questionTexts" : questionTexts})
             if (viewContainer.contentHeight > viewContainer.height)
                 viewContainer.contentItem.contentY = viewContainer.contentHeight
                         - viewContainer.height
