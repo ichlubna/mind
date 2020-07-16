@@ -12,6 +12,31 @@ ArrayUpdaterForm {
     property var type: "L"
     property var headerText: ""
     property var titleText: ""
+    property var textItem: null
+    property var checkBoxItem: null
+    property var removeItem: null
+
+    OpacityAnimator {
+           id: textItemAnim
+           target: textItem;
+           from: 0;
+           to: 1;
+           duration: 500
+       }
+    ScaleAnimator {
+           id: checkBoxItemAnim
+           target: checkBoxItem;
+           from: 0;
+           to: 1;
+           duration: 500
+       }
+    ScaleAnimator {
+           id: removeItemAnim
+           target: removeItem;
+           from: 0;
+           to: 1;
+           duration: 500
+       }
 
     UserDataProvider {
         id: dataProvider
@@ -110,6 +135,14 @@ ArrayUpdaterForm {
         }
     }
 
+    function loadItem(i)
+    {
+        textItem = itemList.itemAt(i);
+        if(type === "LC")
+            checkBoxItem = itemListC.itemAt(i);
+        removeItem = itemListR.itemAt(i);
+    }
+
     Connections {
         target: addButton
         onClicked: {
@@ -122,6 +155,11 @@ ArrayUpdaterForm {
             if (viewContainer.contentHeight > viewContainer.height)
                 viewContainer.contentItem.contentY = viewContainer.contentHeight
                         - viewContainer.height
+            loadItem(count-1);
+            textItemAnim.start();
+            if(type === "LC")
+                checkBoxItemAnim.start();
+            removeItemAnim.start();
         }
     }
 }

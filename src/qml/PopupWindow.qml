@@ -9,7 +9,7 @@ Popup {
 
     id: popup
     parent: Overlay.overlay
-    width: parent.width * 0.9
+    width: parent.width
     height: parent.height * 0.5
     anchors.centerIn: parent
     closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutsideParent
@@ -18,13 +18,12 @@ Popup {
     leftPadding: 0
     rightPadding: 0
     modal: true
-    background: Rectangle {
+    background: Image {
         id: popupBckg
-        color: "#d9d9d9"
-        radius: 20
+        source: "qrc:/images/backgroundPopup.svg"
+        smooth: true
+        antialiasing: true
         visible: false
-        border.width: 5
-        border.color: "white"
     }
     Colorize {
         anchors.fill: parent
@@ -32,7 +31,6 @@ Popup {
         hue: ThemeInfo.hueValue
         saturation: 0.7
         lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
-        opacity: 0.8
     }
 
     Description {

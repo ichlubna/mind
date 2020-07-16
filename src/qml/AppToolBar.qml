@@ -34,7 +34,7 @@ ToolBar {
         ToolButton {
             id: backButton
             background: Image {
-                source: stackView.depth > 1 ? "qrc:/images/back.svg" : "qrc:/images/exit.svg"
+                source: (stackView.depth > 1) ? "qrc:/images/back.svg" : "qrc:/images/exit.svg"
                 fillMode: Image.PreserveAspectFit
             }
             height: parent.height
@@ -42,10 +42,36 @@ ToolBar {
             anchors.leftMargin: parent.width / 50
             anchors.left: parent.left
             onClicked: {
+                if(stackView.depth > 2)
+                    backAnim.start();
+                else
+                    backAnim2.start();
                 if (stackView.depth > 1) {
                     stackView.pop()
                 } else
                     Qt.quit()
+            }
+            SequentialAnimation {
+                id: backAnim
+                XAnimator {
+                       target: backButton;
+                       from: backButton.x;
+                       to: backButton.x+10;
+                       duration: 200
+                   }
+                XAnimator {
+                       target: backButton;
+                       from: backButton.x+10;
+                       to: backButton.x;
+                       duration: 150
+                   }
+            }
+            ScaleAnimator{
+                id: backAnim2
+                target: backButton
+                from: 0.5
+                to: 1.0
+                duration: 150
             }
         }
 
@@ -57,9 +83,16 @@ ToolBar {
             }
             height: parent.height
             width: parent.width / 17
-            onClicked: drawer.open()
+            onClicked: {drawer.open(); gearAnim.start();}
             anchors.right: parent.right
             anchors.rightMargin: parent.width / 50
+            RotationAnimator {
+                    id: gearAnim
+                    target: settingsButton
+                    from: 0
+                    to: 360
+                    duration: 700
+            }
         }
 
         ToolButton {
@@ -74,7 +107,34 @@ ToolBar {
             anchors.right: settingsButton.left
             anchors.rightMargin: parent.width / 50
             opacity: (notificationsOn) ? 0.8 : 0.2
-            onClicked: {notificationsOn = !notificationsOn; dataProvider.saveBoolInput("notificationsOn", notificationsOn); nativeInterface.updateNotifications(qsTrId("notification-title"), qsTrId("notification-msg"), notificationsOn);}
+            onClicked: {bellAnim.start(); notificationsOn = !notificationsOn; dataProvider.saveBoolInput("notificationsOn", notificationsOn); nativeInterface.updateNotifications(qsTrId("notification-title"), qsTrId("notification-msg"), notificationsOn);}
+            SequentialAnimation {
+                id: bellAnim
+                RotationAnimator {
+                        target: bellButton
+                        from: 0
+                        to: 30
+                        duration: 100
+                }
+                RotationAnimator {
+                        target: bellButton
+                        from: 30
+                        to: 0
+                        duration: 100
+                }
+                RotationAnimator {
+                        target: bellButton
+                        from: 0
+                        to: -25
+                        duration: 100
+                }
+                RotationAnimator {
+                        target: bellButton
+                        from: -25
+                        to: 0
+                        duration: 100
+                }
+            }
         }
 
         Label {

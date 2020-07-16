@@ -9,7 +9,7 @@ SwipePage {
     property alias confirmArea: confirmArea
     property alias questions: questions
     property alias popup: popup
-    title: qsTrId("food-records")
+    title: titleText
     id: recordPage
 
     InputScrollView {

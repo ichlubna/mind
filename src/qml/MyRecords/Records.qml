@@ -6,6 +6,7 @@ RecordsForm {
     property var dateOnly : false
     property var sendingEnabled : false
     property var afterDateFile : "Record.qml"
+    property var titleText : ""
     property var arrayNames : []
     property var questionTexts: []
 
@@ -28,7 +29,7 @@ RecordsForm {
                 records.itemAt(listIndex).children[0].text = recordValues[0];;
             }
             else
-                records.itemAt(listIndex).children[0].text = recordValues[0]+" - "+recordValues[1].trim().slice(0,13)+"...";
+                records.itemAt(listIndex).children[0].text = (recordValues[0]+" - "+recordValues[1].trim().slice(0,13)+"...").replace(/(\r\n|\n|\r)/gm, " ");;
         }
     }
 
@@ -44,7 +45,7 @@ RecordsForm {
     Connections {
         target: addButton
         onClicked: {
-            stackView.push("RecordDate.qml", {"afterDateFile" : afterDateFile, "arrayNames" : arrayNames, "questionTexts" : questionTexts})
+            stackView.push("RecordDate.qml", {"afterDateFile" : afterDateFile, "arrayNames" : arrayNames, "questionTexts" : questionTexts, "titleText" : titleText})
             if (viewContainer.contentHeight > viewContainer.height)
                 viewContainer.contentItem.contentY = viewContainer.contentHeight
                         - viewContainer.height

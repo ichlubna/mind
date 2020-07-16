@@ -10,23 +10,9 @@ MoodForm {
 
     function markChoice(choice)
     {
-        var inactiveOpacity = 0.6;
-        emoticon5Img.opacity = inactiveOpacity;
-        emoticon4Img.opacity = inactiveOpacity;
-        emoticon3Img.opacity = inactiveOpacity;
-        emoticon2Img.opacity = inactiveOpacity;
-        emoticon1Img.opacity = inactiveOpacity;
-
-        if(choice === 1)
-            emoticon5Img.opacity=1.0;
-        else if(choice === 2)
-            emoticon4Img.opacity=1.0;
-        else if(choice === 3)
-            emoticon3Img.opacity=1.0;
-        else if(choice === 4)
-            emoticon2Img.opacity=1.0;
-        else if(choice === 5)
-            emoticon1Img.opacity=1.0;
+        const inactiveOpacity = 0.6;
+        for(var i=0; i<5; i++)
+            emoticons.itemAt(i).opacity = (choice === 5-i) ? 1.0 : inactiveOpacity;
     }
 
     function draw()
@@ -136,12 +122,6 @@ MoodForm {
         Component.onCompleted: {
             init()
         }}
-
-    emoticon1.onClicked: save(5)
-    emoticon2.onClicked: save(4)
-    emoticon3.onClicked: save(3)
-    emoticon4.onClicked: save(2)
-    emoticon5.onClicked: save(1)
 
     popup.yes.onClicked: {popup.close(); stackView.push("../Contacts/Contacts.qml");}
     popup.no.onClicked: popup.close()

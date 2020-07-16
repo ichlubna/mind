@@ -10,7 +10,8 @@ RecordForm {
     property var arrayNames : []
     property var questionTexts: []
     property var dateRecord: []
-    property var delimiter: "$_^#_$"  
+    property var delimiter: "$_^#_$"
+    property var titleText: ""
 
 
     StackView.onDeactivating:{
@@ -71,6 +72,8 @@ RecordForm {
                 textIndex = 0;
                 dataRecordIndex = parseInt(dateRecord[arrayIndex]);
             }
+            else if(date != "")
+                dataRecordIndex = dataProvider.getIndexByDate(arrayNames[arrayIndex],date);
             if(dataRecordIndex > -1)
             {
                 var record = dataProvider.getFromArray(arrayNames[arrayIndex], dataRecordIndex).split("|");

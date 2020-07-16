@@ -4,8 +4,8 @@ import ".."
 Menu{
     title: qsTrId("my-records")
     items: [{text: qsTrId("depression-mood"), file: "MyRecords/Mood.qml"},
-            {text: qsTrId("diary"), file: "MyRecords/Records.qml", pushProperties: {"arrayNames" : ["diaryRecords"],  "questionTexts" : [{type: "text", question : ""}]}},
-            {text: qsTrId("journal"), file: "MyRecords/Records.qml", pushProperties: {"arrayNames" : ["journalRecords"], "dateOnly" : true,
+            {text: qsTrId("diary"), file: "MyRecords/Records.qml", pushProperties: {"titleText" : qsTrId("diary"), "arrayNames" : ["diaryRecords"],  "questionTexts" : [{type: "text", question : ""}]}},
+            {text: qsTrId("journal"), file: "MyRecords/Records.qml", pushProperties: {"titleText" : qsTrId("journal"), "arrayNames" : ["journalRecords"], "dateOnly" : true,
                 "questionTexts" : [
                     {type: "text", question : qsTrId("journal-grateful")},
                     {type: "text", question : qsTrId("journal-great")},
@@ -14,7 +14,7 @@ Menu{
                     {type: "text", question : qsTrId("journal-improve")}
                     ],
             }},
-            {text: qsTrId("food-records"), file: "MyRecords/Records.qml", pushProperties: {"dateOnly" : true, "sendingEnabled" : true, "afterDateFile" : "FoodChoice.qml",
+            {text: qsTrId("food-records"), file: "MyRecords/Records.qml", pushProperties: {"titleText" : qsTrId("food-records"), "dateOnly" : true, "sendingEnabled" : true, "afterDateFile" : "FoodChoice.qml",
                 "questionTexts" : [
                     {type: "text", question : qsTrId("food-record-when")},
                     {type: "text", question : qsTrId("food-record-where")},

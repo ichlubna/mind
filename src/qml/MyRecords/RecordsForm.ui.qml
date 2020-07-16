@@ -10,7 +10,7 @@ MenuPage {
     property alias viewContainer: viewContainer
     property var col1Ratio: 0.3
     property var col2Ratio: 0.7
-    title: qsTrId("diary")
+    title: titleText
     id: viewContainer
 
     ScrollView {
@@ -61,7 +61,7 @@ MenuPage {
                         anchors.fill: parent
                         Connections {
                             onClicked: {
-                                stackView.push(afterDateFile, {"dataRecordIndex": position, "arrayNames" : arrayNames, "questionTexts" : questionTexts})
+                                stackView.push(afterDateFile, {"dataRecordIndex": position, "arrayNames" : arrayNames, "questionTexts" : questionTexts, "titleText" : titleText})
                             }
                         }
                     }

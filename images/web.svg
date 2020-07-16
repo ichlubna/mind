@@ -1,25 +1,98 @@
-<?xml version="1.0"?>
-<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg4776" viewBox="0 0 286.91 286.91" version="1.1">
-  <g id="layer1" transform="translate(-231.54 -388.91)">
-    <path id="path3794" d="m484.49 498.52c0 76.076-76.558 137.75-171 137.75-94.439 0-171-61.672-171-137.75 0-76.076 76.558-137.75 171-137.75 94.439 0 171 61.672 171 137.75z" style="color:#000000" fill="#808080" transform="matrix(.83895 0 0 1.0414 112 13.176)"/>
-    <g id="g3885" stroke="#fff" transform="translate(63.054 40.714)" fill="none">
-      <path id="path2816" style="color:#000000" d="m422.86 483.79c0 56.806-46.69 102.86-104.29 102.86-57.595 0-104.29-46.051-104.29-102.86 0-56.806 46.69-102.86 104.29-102.86 57.595 0 104.29 46.051 104.29 102.86z" transform="matrix(.94025 0 0 .92745 12.409 42.957)" stroke-linecap="round" stroke-width="14.992"/>
-      <path id="path3592" stroke-width="14" d="m230 442.36h168"/>
-      <path id="path3592-2" stroke-width="14" d="m228 538.86h172"/>
-      <path id="path3592-2-5" stroke-width="14" d="m218 491.36h188"/>
-      <path id="path3592-4-4-3" stroke-width="14" d="m310.25 583.11v-184"/>
-      <path id="path3592-4-4-3-0" stroke-width="14" d="m310.25 583.11c-60.25-20.75-70.25-150.75 0-184"/>
-      <path id="path3592-4-4-3-8" stroke-width="14" d="m310.25 583.11c69.75-30.75 69.75-150.75 0-184"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   height="204.69934"
+   width="210.21358"
+   sodipodi:docname="web.svg"
+   version="1.1"
+   viewBox="0 0 210.21357 204.69934"
+   id="svg4776">
+  <defs
+     id="defs2279" />
+  <sodipodi:namedview
+     inkscape:current-layer="layer1"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="102.92262"
+     inkscape:cx="103.73407"
+     inkscape:zoom="3.5132968"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     id="namedview2277"
+     inkscape:window-height="1440"
+     inkscape:window-width="2560"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <g
+     transform="translate(-271.26093,-429.44239)"
+     id="layer1">
+    <g
+       fill="none"
+       transform="translate(64.423275,40.144022)"
+       stroke="#ffffff"
+       id="g3885">
+      <path
+         stroke-width="14.992"
+         stroke-linecap="round"
+         transform="matrix(0.94025,0,0,0.92745,12.409,42.957)"
+         d="m 422.86,483.79 c 0,56.806 -46.69,102.86 -104.29,102.86 -57.595,0 -104.29,-46.051 -104.29,-102.86 0,-56.806 46.69,-102.86 104.29,-102.86 57.595,0 104.29,46.051 104.29,102.86 z"
+         style="color:#000000"
+         id="path2816" />
+      <path
+         d="M 230,442.36 H 398"
+         stroke-width="14"
+         id="path3592" />
+      <path
+         d="M 228,538.86 H 400"
+         stroke-width="14"
+         id="path3592-2" />
+      <path
+         d="M 218,491.36 H 406"
+         stroke-width="14"
+         id="path3592-2-5" />
+      <path
+         d="m 310.25,583.11 v -184"
+         stroke-width="14"
+         id="path3592-4-4-3" />
+      <path
+         d="M 310.25,583.11 C 250,562.36 240,432.36 310.25,399.11"
+         stroke-width="14"
+         id="path3592-4-4-3-0" />
+      <path
+         d="m 310.25,583.11 c 69.75,-30.75 69.75,-150.75 0,-184"
+         stroke-width="14"
+         id="path3592-4-4-3-8" />
     </g>
   </g>
-  <metadata>
+  <metadata
+     id="metadata2274">
     <rdf:RDF>
       <cc:Work>
         <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
         <dc:publisher>
-          <cc:Agent rdf:about="http://openclipart.org/">
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
             <dc:title>Openclipart</dc:title>
           </cc:Agent>
         </dc:publisher>
@@ -42,10 +115,14 @@
           </rdf:Bag>
         </dc:subject>
       </cc:Work>
-      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
-        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
-        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
-        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
       </cc:License>
     </rdf:RDF>
   </metadata>

@@ -6,16 +6,7 @@ import ".."
 
 MenuPage {
     id: moodPage
-    property alias emoticon1Img: emoticon1Img
-    property alias emoticon2Img: emoticon2Img
-    property alias emoticon3Img: emoticon3Img
-    property alias emoticon4Img: emoticon4Img
-    property alias emoticon5Img: emoticon5Img
-    property alias emoticon1: emoticon1
-    property alias emoticon2: emoticon2
-    property alias emoticon3: emoticon3
-    property alias emoticon4: emoticon4
-    property alias emoticon5: emoticon5
+    property alias emoticons: emoticons
     property alias chart: chart
     property alias popup: popup
     property alias range: range
@@ -30,70 +21,43 @@ MenuPage {
     }
 
     Row {
-        // anchors.margins: 5
-        id: emoticons
+        id: emoticonsRow
         anchors.top: moodText.bottom
         width: parent.width
         height: parent.height * 0.2
         spacing: 5
-        Image {
-            id: emoticon1Img
-            source: "qrc:/images/emoticon1.svg"
-            fillMode: Image.PreserveAspectFit
-            width: parent.width * 0.19
-            height: parent.height
-            opacity: 0.6
-            MouseArea {
-                id: emoticon1
-                anchors.fill: parent
-            }
-        }
-        Image {
-            id: emoticon2Img
-            source: "qrc:/images/emoticon2.svg"
-            fillMode: Image.PreserveAspectFit
-            width: parent.width * 0.19
-            height: parent.height
-            opacity: 0.6
-            MouseArea {
-                id: emoticon2
-                anchors.fill: parent
-            }
-        }
-        Image {
-            id: emoticon3Img
-            source: "qrc:/images/emoticon3.svg"
-            fillMode: Image.PreserveAspectFit
-            width: parent.width * 0.19
-            height: parent.height
-            opacity: 0.6
-            MouseArea {
-                id: emoticon3
-                anchors.fill: parent
-            }
-        }
-        Image {
-            id: emoticon4Img
-            source: "qrc:/images/emoticon4.svg"
-            fillMode: Image.PreserveAspectFit
-            width: parent.width * 0.19
-            height: parent.height
-            opacity: 0.6
-            MouseArea {
-                id: emoticon4
-                anchors.fill: parent
-            }
-        }
-        Image {
-            id: emoticon5Img
-            source: "qrc:/images/emoticon5.svg"
-            fillMode: Image.PreserveAspectFit
-            width: parent.width * 0.19
-            height: parent.height
-            opacity: 0.6
-            MouseArea {
-                id: emoticon5
-                anchors.fill: parent
+
+        Repeater{
+            id: emoticons
+            model: 5
+            Image {
+                id: img
+                source: "qrc:/images/emoticon"+(index+1)+".svg"
+                fillMode: Image.PreserveAspectFit
+                width: parent.width * 0.19
+                height: parent.height
+                opacity: 0.6
+                MouseArea {
+                    anchors.fill: parent
+
+                    Connections {
+                    onClicked: {
+                        save(emoticons.count-index); emoticonAnim.start();}}
+                }
+                SequentialAnimation {
+                    id: emoticonAnim
+                    ScaleAnimator {
+                            target: img
+                            from: 1.0
+                            to: 0.8
+                            duration: 100
+                    }
+                    ScaleAnimator {
+                            target: img
+                            from: 0.8
+                            to: 1.0
+                            duration: 100
+                    }}
             }
         }
     }
@@ -117,7 +81,7 @@ MenuPage {
         height: parent.height * 0.7
         width: parent.width
         visible: false
-        anchors.top: emoticons.bottom
+        anchors.top: emoticonsRow.bottom
 
         Column {
             anchors.top: parent.top
@@ -125,35 +89,14 @@ MenuPage {
             height: chartView.height
             spacing: parent.height * 0.06
             width: parent.width * 0.1
-            Image {
-                source: "qrc:/images/emoticon1.svg"
-                fillMode: Image.PreserveAspectFit
-                width: parent.width
-                height: parent.height * 0.1
-            }
-            Image {
-                source: "qrc:/images/emoticon2.svg"
-                fillMode: Image.PreserveAspectFit
-                width: parent.width
-                height: parent.height * 0.1
-            }
-            Image {
-                source: "qrc:/images/emoticon3.svg"
-                fillMode: Image.PreserveAspectFit
-                width: parent.width
-                height: parent.height * 0.1
-            }
-            Image {
-                source: "qrc:/images/emoticon4.svg"
-                fillMode: Image.PreserveAspectFit
-                width: parent.width
-                height: parent.height * 0.1
-            }
-            Image {
-                source: "qrc:/images/emoticon5.svg"
-                fillMode: Image.PreserveAspectFit
-                width: parent.width
-                height: parent.height * 0.1
+            Repeater{
+                model: 5
+                Image {
+                    source: "qrc:/images/emoticon"+(index+1)+".svg"
+                    fillMode: Image.PreserveAspectFit
+                    width: parent.width
+                    height: parent.height * 0.1
+                }
             }
         }
         LineSeries {
