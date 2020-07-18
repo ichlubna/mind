@@ -8,14 +8,17 @@ MenuPage {
     property var buttonHeight: 5
     property alias logo: logo
     property alias homePage: homePage
-    property alias b1: b1
-    property alias b2: b2
-    property alias b3: b3
-    property alias b4: b4
-    property alias b5: b5
-    property alias b6: b6
-    property alias b7: b7
+    property alias buttons: buttons
     title: qsTrId("home")
+    property var sections: [
+        {section: "Depression/Depression.qml", name: qsTrId("depression")},
+        {section: "Panic/Panic.qml", name: qsTrId("anxiety-panic")},
+        {section: "SelfHarm/SelfHarm.qml", name: qsTrId("self-harm")},
+        {section: "Suicide/Suicide.qml", name: qsTrId("suicidal-thoughts")},
+        {section: "Food/Food.qml", name: qsTrId("food")},
+        {section: "MyRecords/MyRecords.qml", name: qsTrId("my-records")},
+        {section: "Contacts/Contacts.qml", name: qsTrId("contacts")},
+    ]
 
     GridLayout {
         anchors.margins: parent.width / 25
@@ -37,81 +40,19 @@ MenuPage {
             opacity: 0.5
         }
 
-        MenuButton {
-            id: b1
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            Layout.preferredWidth: parent.width / 2
-            Layout.preferredHeight: parent.height / buttonHeight
-            target: "Depression/Depression.qml"
-            text: qsTrId("depression")
-            scale: 0
-        }
-
-        MenuButton {
-            id: b2
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            Layout.preferredWidth: parent.width / 2
-            Layout.preferredHeight: parent.height / buttonHeight
-            target: "Panic/Panic.qml"
-            text: qsTrId("anxiety-panic")
-            scale: 0
-        }
-
-        MenuButton {
-            id: b3
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            Layout.preferredWidth: parent.width / 2
-            Layout.preferredHeight: parent.height / buttonHeight
-            target: "SelfHarm/SelfHarm.qml"
-            text: qsTrId("self-harm")
-            scale: 0
-        }
-
-        MenuButton {
-            id: b4
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            Layout.preferredWidth: parent.width / 2
-            Layout.preferredHeight: parent.height / buttonHeight
-            target: "Suicide/Suicide.qml"
-            text: qsTrId("suicidal-thoughts")
-            scale: 0
-        }
-
-        MenuButton {
-            id: b5
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            Layout.preferredWidth: parent.width / 2
-            Layout.preferredHeight: parent.height / buttonHeight
-            target: "Food/Food.qml"
-            text: qsTrId("food")
-            scale: 0
-        }
-
-        MenuButton {
-            id: b6
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            Layout.preferredWidth: parent.width / 2
-            Layout.preferredHeight: parent.height / buttonHeight
-            target: "MyRecords/MyRecords.qml"
-            text: qsTrId("my-records")
-            scale: 0
-        }
-
-        MenuButton {
-            id: b7
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            Layout.preferredWidth: parent.width
-            target: "Contacts/Contacts.qml"
-            Layout.columnSpan: 2
-            text: qsTrId("contacts")
-            scale: 0
+        Repeater{
+            id: buttons
+            model: sections
+            MenuButton {
+                Layout.fillHeight: true
+                Layout.fillWidth: true
+                Layout.preferredWidth: (index < buttons.count-1) ? parent.width / 2 : parent.width
+                Layout.columnSpan: (index < buttons.count-1) ? 1 : 2
+                Layout.preferredHeight: parent.height / buttonHeight
+                target: modelData.section
+                text: modelData.name
+                scale: 0
+            }
         }
     }
 }

@@ -1,6 +1,10 @@
 import QtQuick 2.4
 
 HomeForm {
+    property var button : null
+    property var array : []
+    property var buttonTime : 150
+
     SequentialAnimation {
         running: true
         loops: Animation.Infinite
@@ -19,19 +23,50 @@ HomeForm {
         }
     }
 
+    function shuffle(array) {
+        let counter = array.length;
+        while (counter > 0) {
+            let index = Math.floor(Math.random() * counter);
+            counter--;
+            let temp = array[counter];
+            array[counter] = array[index];
+            array[index] = temp;
+        }
+        return array;
+    }
+
+    function animate(){
+        if(array.length === 0)
+            return;
+
+        button = buttons.itemAt(array.shift());
+        bAnim.start();
+        bTimer.restart();
+    }
+
+    Connections{
+        target: homePage
+        Component.onCompleted: {
+            for(var i=0; i<buttons.count; i++)
+                array.push(i);
+             array = shuffle(array);
+            bTimer.start();
+        }
+    }
+
     Timer {
-            interval: 500
-            onTriggered: bAnim.start()
-            running: true
+            id: bTimer
+            interval: buttonTime+10
+            onTriggered: {animate();}
         }
 
     PropertyAnimation{
         id: bAnim
-        targets: [b1,b2,b3,b4,b5,b6,b7];
+        targets: button
         property: "scale"
         from: 0.0;
         to: 1;
-        duration: 250
+        duration: buttonTime
     }
 
     PropertyAnimation{
@@ -39,7 +74,7 @@ HomeForm {
         property: "scale"
         from: 0.0
         to: 1.0
-        duration: 400
+        duration: buttonTime*buttons.count
         running: true
     }
 }
