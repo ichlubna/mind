@@ -1,10 +1,16 @@
 import QtQuick 2.4
+import QtQuick.Controls 2.5
 import QtMultimedia 5.12
-
+import io.qt.NativeInterface 1.0
 import io.qt.UserDataProvider 1.0
+import "."
 
 PlayerForm {
     property var durationTime: ""
+
+    NativeInterface {
+        id: nativeInterface
+    }
 
     function msToTime(ms)
     {
@@ -32,8 +38,15 @@ PlayerForm {
         target: mediaPlayer
         onStatusChanged: {
             if(mediaPlayer.status === MediaPlayer.Loaded)
+            {
+                nativeInterface.setScreenLock(false);
                 durationTime = msToTime(mediaPlayer.duration)
+            }
         }
+    }
+
+    StackView.onDeactivating:{
+        nativeInterface.setScreenLock(true);
     }
 
     Timer {

@@ -16,7 +16,8 @@ MenuPage {
             anchors.fill: parent
             Repeater {
                 id: list
-                anchors.fill: parent
+                Layout.fillHeight: true
+                Layout.fillWidth: true
                 Item {
                     Layout.fillWidth: true
                     Layout.preferredHeight: view.width

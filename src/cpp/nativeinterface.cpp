@@ -34,3 +34,10 @@ void NativeInterface::updateNotifications(QString title, QString message, bool e
         IosNative::cancelNotifications();
 #endif
 }
+
+void NativeInterface::setScreenLock(bool allow)
+{
+#if defined (Q_OS_IOS)
+        IosNative::setScreenLock(allow);
+#endif
+}

@@ -54,4 +54,12 @@ void IosNative::cancelNotifications()
 
 }
 
+void IosNative::setScreenLock(bool allow)
+{
+    if(allow)
+        [[UIApplication sharedApplication] setIdleTimerDisabled: NO];
+    else
+        [[UIApplication sharedApplication] setIdleTimerDisabled: YES];
+}
+
 

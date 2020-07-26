@@ -15,6 +15,8 @@ SwipePage {
 
     MediaPlayer {
            id: mediaPlayer
+           muted: false
+           volume: 1.0
            source: file
     }
 

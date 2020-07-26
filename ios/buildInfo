@@ -5,17 +5,19 @@
 - File->New->File->Strings File InfoPlist.strings and Localize
 - Copy icons and strings and set icon pack (use asset catalog and drag the appicon folder to it)
 - Targets -> Add capability -> Push notifications
-- edit Info.plist to add languages
-    <key>CFBundleLocalizations</key>
-    <array>
-    <string>en</string>
-    <string>cs</string>
-    <string>fr</string>
-    <string>pl</string>
-    <string>sk</string>
-    <string>it</string>
-    <string>es</string>
-    <string>de</string>
-    <string>ru</string>
-    </array>
+- edit Info.plist to add languages and camera usage:
+<key>CFBundleLocalizations</key>
+<array>
+<string>en</string>
+<string>cs</string>
+<string>fr</string>
+<string>pl</string>
+<string>sk</string>
+<string>it</string>
+<string>es</string>
+<string>de</string>
+<string>ru</string>
+</array>
+<key>NSCameraUsageDescription</key>
+<string>This app doesn't use camera. It uses QT Multimedia for accessing audio files.</string>
 - LaunchScreen
