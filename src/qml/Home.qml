@@ -48,7 +48,10 @@ HomeForm {
         target: homePage
         Component.onCompleted: {
             for(var i=0; i<buttons.count; i++)
+            {
                 array.push(i);
+                buttons.itemAt(i).scale=0;
+            }
              array = shuffle(array);
             bTimer.start();
         }

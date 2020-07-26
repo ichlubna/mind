@@ -51,7 +51,6 @@ MenuPage {
                 Layout.preferredHeight: parent.height / buttonHeight
                 target: modelData.section
                 text: modelData.name
-                scale: 0
             }
         }
     }
