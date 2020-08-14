@@ -675,7 +675,7 @@ Urob si nejakú novú dekoráciu do svojej izby.
         &lt;b&gt;Prešov&lt;/b&gt; &lt;br&gt;
         &lt;a href=&quot;tel:051/7731000&quot;&gt;051 / 7731 000 (nonstop)&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Linka dôvery nezábudka&lt;/b&gt; &lt;br&gt;
-        &lt;a href=&quot;tel:0850111022&quot;&gt;0850 11 10 22&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
+        &lt;a href=&quot;tel:0800800566&quot;&gt;0800 800 566&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Krízová nonstop linka, Aliancia žien&lt;/b&gt; &lt;br&gt;
         &lt;a href=&quot;tel:0903519550&quot;&gt;0903519550&lt;/a&gt; &lt;br&gt;  &lt;br&gt;
         &lt;b&gt;Linka detskej istoty UNICEF&lt;/b&gt; &lt;br&gt;
