@@ -1,0 +1,3 @@
+#!/bin/bash
+/home/username/Qt/5.14.2/gcc_64/bin/lrelease -idbased ../Mind.pro
+rm *.json
