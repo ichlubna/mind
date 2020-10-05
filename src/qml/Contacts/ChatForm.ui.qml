@@ -9,6 +9,7 @@ MenuPage {
     Description {
         id: chatText
         text: qsTrId("chat-text")
+        horizontalAlignment: Text.AlignHCenter
     }
 }
 

@@ -4,14 +4,14 @@
 <context>
     <name></name>
     <message id="home">
-        <location filename="../src/qml/HomeForm.ui.qml" line="10"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="12"/>
         <source></source>
         <translation>Home</translation>
     </message>
     <message id="food">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="19"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="5"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="74"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="18"/>
         <source></source>
         <translation>Poruchy príjmu&lt;br&gt;potravy</translation>
     </message>
@@ -137,7 +137,7 @@ qrc:/images/anabell/breakfast.jpg
     </message>
     <message id="depression">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="5"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="38"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="14"/>
         <source></source>
         <translation>Depresia</translation>
     </message>
@@ -148,7 +148,7 @@ qrc:/images/anabell/breakfast.jpg
     </message>
     <message id="depression-mood">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="17"/>
-        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="25"/>
+        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="16"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Sledovanie&lt;br&gt;nálady</translation>
@@ -221,26 +221,26 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
             </translation>
     </message>
     <message id="anxiety-panic">
-        <location filename="../src/qml/HomeForm.ui.qml" line="47"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="15"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="5"/>
         <source></source>
         <translation>Úzkosť&lt;br&gt;panika</translation>
     </message>
     <message id="self-harm">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="24"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="56"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="16"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="5"/>
         <source></source>
         <translation>Chcem si&lt;br&gt;ublížiť</translation>
     </message>
     <message id="suicidal-thoughts">
-        <location filename="../src/qml/HomeForm.ui.qml" line="65"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="17"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="5"/>
         <source></source>
         <translation>Myšlienky&lt;br&gt;na samovraždu</translation>
     </message>
     <message id="my-records">
-        <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="19"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="5"/>
         <source></source>
         <translation>Moje záznamy</translation>
@@ -362,13 +362,18 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <source></source>
         <translation>Ohodnoťte nás</translation>
     </message>
+    <message id="support-us">
+        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="110"/>
+        <source></source>
+        <translation>Podporte nás</translation>
+    </message>
     <message id="web-link">
-        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="150"/>
+        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="162"/>
         <source></source>
         <translation>http://nepanikar.eu</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="110"/>
+        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="122"/>
         <source></source>
         <translation>Ukončiť</translation>
     </message>
@@ -409,6 +414,7 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
         <location filename="../src/qml/Contacts/ChatForm.ui.qml" line="11"/>
         <source></source>
         <translation>
+        &lt;a href=&quot;http://nepanikar.eu/chat/&quot;&gt;Poradna a chat Nepanikař&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;https://www.krizovalinkapomoci.sk/chatova-poradna/&quot;&gt;Krízová linka pomoci&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://pomoc.sk/&quot;&gt;Pomoc.sk&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.chat-pomoc.cz&quot;&gt;Chat Pražské linky důvěry&lt;/a&gt; &lt;br&gt;&lt;br&gt;
@@ -419,7 +425,7 @@ Objímte blízku osobu|Alebo sa pomazlite s domácim miláčikom.
     </message>
     <message id="contacts">
         <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="5"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="93"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="20"/>
         <source></source>
         <translation>Kontakty pomoci</translation>
     </message>
@@ -742,7 +748,7 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <translation>http://nevypustdusi.cz/</translation>
     </message>
     <message id="mlceni-link">
-        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="139"/>
+        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="151"/>
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
         <source></source>
         <translation>https://www.instagram.com/aplikace_nepanikar/</translation>
@@ -786,32 +792,32 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <translation>Tu upravte jas</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="128"/>
+        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="140"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
     <message id="mood-text">
-        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="29"/>
+        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="20"/>
         <source></source>
         <translation>Ako sa dnes mám:</translation>
     </message>
     <message id="mood-no-data">
-        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="103"/>
+        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="67"/>
         <source></source>
         <translation>Graf vyžaduje minimálne dve voľby nálady</translation>
     </message>
     <message id="mood-help">
-        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="192"/>
+        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="135"/>
         <source></source>
         <translation>Vaša nálada je dlhodobo zlá, nechcete zvážiť kontaktovať odbornú pomoc?</translation>
     </message>
     <message id="mood-help-yes">
-        <location filename="../src/qml/PopupWindow.qml" line="47"/>
+        <location filename="../src/qml/PopupWindow.qml" line="45"/>
         <source></source>
         <translation>Áno</translation>
     </message>
     <message id="mood-help-no">
-        <location filename="../src/qml/PopupWindow.qml" line="55"/>
+        <location filename="../src/qml/PopupWindow.qml" line="53"/>
         <source></source>
         <translation>Nie</translation>
     </message>
@@ -1104,7 +1110,6 @@ qrc:/images/anabell/pmSnack2.jpg
     <message id="diary">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="21"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="7"/>
-        <location filename="../src/qml/MyRecords/RecordsForm.ui.qml" line="13"/>
         <source></source>
         <translation>Denník</translation>
     </message>
@@ -1114,7 +1119,7 @@ qrc:/images/anabell/pmSnack2.jpg
         <translation>Dátum záznamu</translation>
     </message>
     <message id="really-remove">
-        <location filename="../src/qml/MyRecords/RecordForm.ui.qml" line="96"/>
+        <location filename="../src/qml/MyRecords/RecordForm.ui.qml" line="98"/>
         <source></source>
         <translation>Chcete skutočne vykonať túto akciu?</translation>
     </message>
@@ -1314,7 +1319,6 @@ qrc:/images/anabell/pmSnack2.jpg
     <message id="food-records">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="22"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="17"/>
-        <location filename="../src/qml/MyRecords/RecordForm.ui.qml" line="12"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="90"/>
         <source></source>
         <translation>Záznamy o jedle</translation>
@@ -1398,13 +1402,13 @@ qrc:/images/anabell/pmSnack2.jpg
         <translation>Minúty</translation>
     </message>
     <message id="notification-title">
-        <location filename="../src/qml/AppToolBar.qml" line="77"/>
+        <location filename="../src/qml/AppToolBar.qml" line="110"/>
         <location filename="../src/cpp/main.cpp" line="31"/>
         <source></source>
         <translation>Zabudol si?</translation>
     </message>
     <message id="notification-msg">
-        <location filename="../src/qml/AppToolBar.qml" line="77"/>
+        <location filename="../src/qml/AppToolBar.qml" line="110"/>
         <location filename="../src/cpp/main.cpp" line="31"/>
         <source></source>
         <translation>Zapísať si dnes svoju náladu alebo jedlo?</translation>

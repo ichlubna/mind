@@ -4,14 +4,14 @@
 <context>
     <name></name>
     <message id="home">
-        <location filename="../src/qml/HomeForm.ui.qml" line="10"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="12"/>
         <source></source>
         <translation>Home</translation>
     </message>
     <message id="food">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="19"/>
         <location filename="../src/qml/Food/FoodForm.ui.qml" line="5"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="74"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="18"/>
         <source></source>
         <translation>Zaburzenia&lt;br&gt;odżywiania</translation>
     </message>
@@ -149,7 +149,7 @@ qrc:/images/anabell/breakfast.jpg
     </message>
     <message id="depression">
         <location filename="../src/qml/Depression/DepressionForm.ui.qml" line="5"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="38"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="14"/>
         <source></source>
         <translation>Depresja</translation>
     </message>
@@ -160,7 +160,7 @@ qrc:/images/anabell/breakfast.jpg
     </message>
     <message id="depression-mood">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="17"/>
-        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="25"/>
+        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="16"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Śledzenie&lt;br&gt;nastroju</translation>
@@ -233,26 +233,26 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
             </translation>
     </message>
     <message id="anxiety-panic">
-        <location filename="../src/qml/HomeForm.ui.qml" line="47"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="15"/>
         <location filename="../src/qml/Panic/PanicForm.ui.qml" line="5"/>
         <source></source>
         <translation>Niepokój&lt;br&gt;panika</translation>
     </message>
     <message id="self-harm">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="24"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="56"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="16"/>
         <location filename="../src/qml/SelfHarm/SelfHarmForm.ui.qml" line="5"/>
         <source></source>
         <translation>Chęć ubliżenia&lt;br&gt;sobie samemu</translation>
     </message>
     <message id="suicidal-thoughts">
-        <location filename="../src/qml/HomeForm.ui.qml" line="65"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="17"/>
         <location filename="../src/qml/Suicide/SuicideForm.ui.qml" line="5"/>
         <source></source>
         <translation>Myśli&lt;br&gt;samobójcze</translation>
     </message>
     <message id="my-records">
-        <location filename="../src/qml/HomeForm.ui.qml" line="83"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="19"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="5"/>
         <source></source>
         <translation>Moje zapisy</translation>
@@ -362,13 +362,18 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
         <source></source>
         <translation>Oceń nas</translation>
     </message>
+    <message id="support-us">
+        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="110"/>
+        <source></source>
+        <translation>Wesprzyj nas</translation>
+    </message>
     <message id="web-link">
-        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="150"/>
+        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="162"/>
         <source></source>
         <translation>http://nepanikar.eu</translation>
     </message>
     <message id="exit">
-        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="110"/>
+        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="122"/>
         <source></source>
         <translation>Zamknij</translation>
     </message>
@@ -419,7 +424,7 @@ Przytul się do kogoś bliskiego|lub pobaw się ze swoim zwierzątkiem.
     </message>
     <message id="contacts">
         <location filename="../src/qml/Contacts/ContactsForm.ui.qml" line="5"/>
-        <location filename="../src/qml/HomeForm.ui.qml" line="93"/>
+        <location filename="../src/qml/HomeForm.ui.qml" line="20"/>
         <source></source>
         <translation>Kontakty ratunku</translation>
     </message>
@@ -724,7 +729,7 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
         <translation>http://nevypustdusi.cz/</translation>
     </message>
     <message id="mlceni-link">
-        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="139"/>
+        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="151"/>
         <location filename="../src/qml/Drawer/Support.qml" line="5"/>
         <source></source>
         <translation>https://www.instagram.com/aplikace_nepanikar/</translation>
@@ -768,32 +773,32 @@ Idź na świeże powietrze|Wybierz się na półgodzinowy spacer, biegnij szybki
         <translation>Tutaj dostosuj jasność</translation>
     </message>
     <message id="fb-link">
-        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="128"/>
+        <location filename="../src/qml/Drawer/SettingsDrawer.qml" line="140"/>
         <source></source>
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
     <message id="mood-text">
-        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="29"/>
+        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="20"/>
         <source></source>
         <translation>Jak się dzisiaj mam:</translation>
     </message>
     <message id="mood-no-data">
-        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="103"/>
+        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="67"/>
         <source></source>
         <translation>Wykres wymaga minimalnie dwu wyborów nastrojów</translation>
     </message>
     <message id="mood-help">
-        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="192"/>
+        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="135"/>
         <source></source>
         <translation>Twój nastrój jest zły długotrwale, nie chcesz się skontaktować z profesjonalną pomocą?</translation>
     </message>
     <message id="mood-help-yes">
-        <location filename="../src/qml/PopupWindow.qml" line="47"/>
+        <location filename="../src/qml/PopupWindow.qml" line="45"/>
         <source></source>
         <translation>tak</translation>
     </message>
     <message id="mood-help-no">
-        <location filename="../src/qml/PopupWindow.qml" line="55"/>
+        <location filename="../src/qml/PopupWindow.qml" line="53"/>
         <source></source>
         <translation>nie</translation>
     </message>
@@ -1092,7 +1097,6 @@ qrc:/images/anabell/pmSnack2.jpg
     <message id="diary">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="21"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="7"/>
-        <location filename="../src/qml/MyRecords/RecordsForm.ui.qml" line="13"/>
         <source></source>
         <translation>Dziennik</translation>
     </message>
@@ -1102,7 +1106,7 @@ qrc:/images/anabell/pmSnack2.jpg
         <translation>Data zapisu</translation>
     </message>
     <message id="really-remove">
-        <location filename="../src/qml/MyRecords/RecordForm.ui.qml" line="96"/>
+        <location filename="../src/qml/MyRecords/RecordForm.ui.qml" line="98"/>
         <source></source>
         <translation>Czy na pewno chcesz to zrobić?</translation>
     </message>
@@ -1302,7 +1306,6 @@ qrc:/images/anabell/pmSnack2.jpg
     <message id="food-records">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="22"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="17"/>
-        <location filename="../src/qml/MyRecords/RecordForm.ui.qml" line="12"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="90"/>
         <source></source>
         <translation>Rejestry posiłków</translation>
@@ -1386,13 +1389,13 @@ qrc:/images/anabell/pmSnack2.jpg
         <translation>Minuty</translation>
     </message>
     <message id="notification-title">
-        <location filename="../src/qml/AppToolBar.qml" line="77"/>
+        <location filename="../src/qml/AppToolBar.qml" line="110"/>
         <location filename="../src/cpp/main.cpp" line="31"/>
         <source></source>
         <translation>Zapomniałeś?</translation>
     </message>
     <message id="notification-msg">
-        <location filename="../src/qml/AppToolBar.qml" line="77"/>
+        <location filename="../src/qml/AppToolBar.qml" line="110"/>
         <location filename="../src/cpp/main.cpp" line="31"/>
         <source></source>
         <translation>Zapisz dzisiaj swój nastrój lub jedzenie?</translation>

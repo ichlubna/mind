@@ -107,6 +107,18 @@ Drawer {
         }
 
         ItemDelegate {
+            text: qsTrId("support-us")
+            width: parent.width
+            onClicked: {
+                drawer.close()
+                if (dataProvider.loadLanguage() === "CZ" || dataProvider.loadLanguage() === "SK")
+                    Qt.openUrlExternally("https://www.darujme.cz/projekt/1203622")
+                else
+                    Qt.openUrlExternally("https://www.darujme.cz/projekt/1203622?locale=en")
+            }
+        }
+
+        ItemDelegate {
             text: qsTrId("exit")
             width: parent.width
             onClicked: {
