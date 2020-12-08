@@ -13,11 +13,11 @@ MenuPage {
     property alias chartView: chartView
     property alias noData: noData
 
-    title: qsTrId("depression-mood")
+    title: titleText
 
     DescriptionLabel {
         id: moodText
-        text: qsTrId("mood-text")
+        text: headerText
     }
 
     Row {

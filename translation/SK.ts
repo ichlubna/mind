@@ -148,7 +148,6 @@ qrc:/images/anabell/breakfast.jpg
     </message>
     <message id="depression-mood">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="17"/>
-        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="16"/>
         <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Sledovanie&lt;br&gt;nálady</translation>
@@ -797,7 +796,7 @@ Choďte na čerstvý vzduch|Choďte na polhodinovú prechádzku, bežte rýchlym
         <translation>https://www.facebook.com/aplikacenepanikar/</translation>
     </message>
     <message id="mood-text">
-        <location filename="../src/qml/MyRecords/MoodForm.ui.qml" line="20"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="6"/>
         <source></source>
         <translation>Ako sa dnes mám:</translation>
     </message>
@@ -1109,7 +1108,7 @@ qrc:/images/anabell/pmSnack2.jpg
     </message>
     <message id="diary">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="21"/>
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="7"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="8"/>
         <source></source>
         <translation>Denník</translation>
     </message>
@@ -1156,157 +1155,167 @@ qrc:/images/anabell/pmSnack2.jpg
         <translation>Druhá večera</translation>
     </message>
     <message id="food-record-when">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="19"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="20"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="15"/>
         <source></source>
         <translation>Kedy ste jedli?</translation>
     </message>
     <message id="food-record-where">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="20"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="21"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="15"/>
         <source></source>
         <translation>Kde si jedli?</translation>
     </message>
     <message id="food-record-with">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="21"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="22"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="15"/>
         <source></source>
         <translation>S kým ste jedli?</translation>
     </message>
     <message id="food-record-what">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="22"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="23"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="15"/>
         <source></source>
         <translation>Co ste jedli?</translation>
     </message>
     <message id="food-record-feel">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="23"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="15"/>
         <source></source>
         <translation>Ako ste sa cítili počas jedla?</translation>
     </message>
     <message id="food-record-problems">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="25"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="15"/>
         <source></source>
         <translation>Všimli ste si nejaké problémy s poruchou stravovania? Ktoré?</translation>
     </message>
     <message id="food-problems-vomit">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="25"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="18"/>
         <source></source>
         <translation>zvracanie</translation>
     </message>
     <message id="food-problems-exercise">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="25"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="18"/>
         <source></source>
         <translation>cvičenie</translation>
     </message>
     <message id="food-problems-self-harm">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="25"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="18"/>
         <source></source>
         <translation>sebapoškodzovanie</translation>
     </message>
     <message id="food-problems-laxative">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="25"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="18"/>
         <source></source>
         <translation>preháňadlo</translation>
     </message>
     <message id="food-problems-anxiety-attack">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="25"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="18"/>
         <source></source>
         <translation>panický záchvat</translation>
     </message>
     <message id="food-problems-anxiety">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="23"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>úzkosť</translation>
     </message>
+    <message id="sleep-title">
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="7"/>
+        <source></source>
+        <translation>Môj spánok</translation>
+    </message>
+    <message id="sleep-text">
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="7"/>
+        <source></source>
+        <translation>Aký dobrý bol môj dnešný spánok?</translation>
+    </message>
     <message id="journal">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="8"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="9"/>
         <source></source>
         <translation>Journal</translation>
     </message>
     <message id="journal-grateful">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="10"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="11"/>
         <source></source>
         <translation>Za čo som vďačný?</translation>
     </message>
     <message id="journal-great">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="11"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="12"/>
         <source></source>
         <translation>Čo robí tento deň skvelým?</translation>
     </message>
     <message id="journal-feel">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="12"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="13"/>
         <source></source>
         <translation>Ako sa cítim?</translation>
     </message>
     <message id="journal-three">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="13"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="14"/>
         <source></source>
         <translation>Tri dobré veci ktoré sa dnes stali:</translation>
     </message>
     <message id="journal-improve">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="14"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="15"/>
         <source></source>
         <translation>Ako je možné tento deň vylepšiť?</translation>
     </message>
     <message id="food-problems-happy">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="23"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>šťastie</translation>
     </message>
     <message id="food-problems-satisfied">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="23"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>uspokojenie</translation>
     </message>
     <message id="food-problems-proud">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="23"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>pýcha</translation>
     </message>
     <message id="food-problems-fear">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="23"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>strach</translation>
     </message>
     <message id="food-problems-anger">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="23"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>hnev</translation>
     </message>
     <message id="food-problems-unsatisfied">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="23"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>nespokojnosť</translation>
     </message>
     <message id="food-problems-disgusted">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="23"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>znechutenie</translation>
     </message>
     <message id="food-problems-sad">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="23"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>smútok</translation>
     </message>
     <message id="food-problems-stress">
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="23"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="24"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="19"/>
         <source></source>
         <translation>stres</translation>
@@ -1318,7 +1327,7 @@ qrc:/images/anabell/pmSnack2.jpg
     </message>
     <message id="food-records">
         <location filename="../src/qml/Drawer/ClearDataForm.ui.qml" line="22"/>
-        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="17"/>
+        <location filename="../src/qml/MyRecords/MyRecordsForm.ui.qml" line="18"/>
         <location filename="../src/qml/MyRecords/SendRecords.qml" line="90"/>
         <source></source>
         <translation>Záznamy o jedle</translation>

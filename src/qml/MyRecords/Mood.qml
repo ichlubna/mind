@@ -3,6 +3,10 @@ import io.qt.UserDataProvider 1.0
 
 MoodForm {
     property var moods;
+    property var arrayName : "moods";
+    property var headerText : "";
+    property var titleText : "";
+    property var helpPopup : true;
 
     UserDataProvider {
         id: dataProvider
@@ -39,27 +43,11 @@ MoodForm {
         }
         chart.axisX.min = new Date(moods[range.first.value].split('|')[0]);
         chart.axisX.max = new Date(moods[range.second.value].split('|')[0]);
-
-        //dataProvider.saveIntInput("moodsRangeStart", range.first.value);
-        //dataProvider.loadIntInput("moodsRangeStart", range.second.value);
     }
 
     function init()
     {
-        moods = dataProvider.loadArrayInput("moods");
-        /*moods = [];
-        var d = new Date("Fri Feb 1 00:00:00 2019 GMT+0200") + "|1";
-                moods.push(d);
-        d = new Date("Fri Feb 7 00:00:00 2019 GMT+0200") + "|2";
-                moods.push(d);
-        d = new Date("Fri Mar 5 00:00:00 2019 GMT+0200") + "|3";
-                moods.push(d);
-        d = new Date("Fri Mar 20 00:00:00 2019 GMT+0200") + "|1";
-                moods.push(d);
-        d = new Date("Fri Mar 21 00:00:00 2019 GMT+0200") + "|1";
-                moods.push(d);
-        d = new Date("Fri May 30 00:00:00 2019 GMT+0200") + "|1";
-                moods.push(d);*/
+        moods = dataProvider.loadArrayInput(arrayName);
 
         if(moods.length === 0)
             return;
@@ -76,12 +64,6 @@ MoodForm {
 
         range.to = moods.length-1;
         range.second.value = moods.length-1;
-
-        /*if(dataProvider.exists("moodsRangeStart"))
-            range.first.value = dataProvider.loadIntInput("moodsRangeStart");
-        if(dataProvider.exists("moodsRangeEnd"))
-            range.second.value = dataProvider.loadIntInput("moodsRangeEnd");*/
-
         draw();
     }
 
@@ -107,14 +89,15 @@ MoodForm {
         }
         else
             moods.push(now + "|" + value);
-        dataProvider.saveArrayInput("moods", moods);
+        dataProvider.saveArrayInput(arrayName, moods);
 
         draw();
 
         for(var i=moods.length-1; i>moods.length-4; i--)
             if(parseInt(moods[i].split('|')[1]) > 1)
                 return;
-        popup.open();
+        if(helpPopup)
+            popup.open();
     }
 
     Connections {

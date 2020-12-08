@@ -130,13 +130,13 @@ void UserDataProvider::initCheck()
     for(const auto &input : customInputs)
         if(settings.contains(input.settingsId))
             reset = false;
-    //reset = (!settings.contains("customWrite") && !settings.contains("moods") && !settings.contains("plan") && !settings.contains("nice"));
     if(reset)
     {
         auto params = QVector<bool>(resetParameter::RESET_PARAMS_COUNT, true);
         resetInputs(params.toList());
     }
 
+    //TODO remove the update fixes
     //to avoid getting red color when updating to version with color change option
     if(!settings.contains("themeLight"))
     {
