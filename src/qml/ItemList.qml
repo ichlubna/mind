@@ -30,6 +30,9 @@ MenuPage {
                         anchors.top: parent.top
                         anchors.topMargin: 5
                     }
+                    Shadow{
+                        source: img
+                        anchors.fill: img}
                     DescriptionLabel {
                         id: description
                         text: items[index * 2 + 1].trim()

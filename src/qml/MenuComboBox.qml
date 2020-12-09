@@ -8,15 +8,15 @@ ComboBox {
     font.pointSize: 15
     background: Rectangle {
         radius: 5
-        border.width: 2
-        border.color: "white"
+        border.color: "#50FFFFFF"
+        border.width: 1
         color: "#50000000"
    }
     popup.background: Rectangle {
         radius: 5
-        border.width: 2
-        border.color: "white"
-        color: "#E0000000"
+        border.color: "#50FFFFFF"
+        border.width: 1
+        color: "#C0000000"
    }
     contentItem: Text {
         leftPadding: 10

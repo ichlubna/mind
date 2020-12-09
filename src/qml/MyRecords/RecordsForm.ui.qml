@@ -1,4 +1,4 @@
-import QtQuick 2.9
+﻿import QtQuick 2.9
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import ".."
@@ -87,6 +87,7 @@ MenuPage {
             anchors.left: parent.left
             anchors.margins: 5
             fillMode: Image.PreserveAspectFit
+            opacity: 0.5
             MouseArea {
                 anchors.fill: parent
                 id: sendArea

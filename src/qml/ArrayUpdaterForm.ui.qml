@@ -28,6 +28,7 @@ MenuPage {
         GridLayout {
             anchors.fill: parent
             columns: (type === "L") ? 2 : 3
+            rowSpacing: 10
 
             Repeater {
                 id: itemListC

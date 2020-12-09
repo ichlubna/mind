@@ -15,7 +15,6 @@ MenuPage {
     property alias breathElement: breathElement
     property alias number: number
     title: qsTrId("breath") + " III"
-
     property int numberSize: 150
 
     Description {
@@ -42,14 +41,15 @@ MenuPage {
     Shape {
            id: sprite
            anchors.fill: parent
+
     ShapePath {
         id: shape1
         strokeColor: "white"
         strokeWidth: 5
         capStyle: ShapePath.RoundCap
         startX: parent.width*0.1
-        startY: parent.height*0.3
-        PathLine {id: path1Element; x: parent.width*0.1; y: parent.height*0.3}
+        startY: (parent.height-topPadding)*0.3
+        PathLine {id: path1Element; x: parent.width*0.1; y: (parent.height-topPadding)*0.3}
     }
 
     ShapePath {
@@ -58,8 +58,8 @@ MenuPage {
         strokeWidth: 5
         capStyle: ShapePath.RoundCap
         startX: parent.width*0.9
-        startY: parent.height*0.3
-        PathLine {id: path2Element; x: parent.width*0.9; y: parent.height*0.3}
+        startY: (parent.height-topPadding)*0.3
+        PathLine {id: path2Element; x: parent.width*0.9; y: (parent.height-topPadding)*0.3}
     }
 
     ShapePath {
@@ -68,8 +68,8 @@ MenuPage {
         strokeWidth: 5
         capStyle: ShapePath.RoundCap
         startX: parent.width*0.5
-        startY: parent.height*0.8
-        PathLine {id: path3Element; x: parent.width*0.5; y: parent.height*0.8}
+        startY: (parent.height-topPadding)*0.8
+        PathLine {id: path3Element; x: parent.width*0.5; y: (parent.height-topPadding)*0.8}
     }}
 
     MenuSlider {
