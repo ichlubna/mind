@@ -31,6 +31,7 @@ Popup {
         hue: ThemeInfo.hueValue
         saturation: 0.7
         lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
+        opacity: 0.6
     }
 
     Description {
@@ -56,4 +57,7 @@ Popup {
         width: parent.width* 0.6
         anchors.horizontalCenter: parent.horizontalCenter
     }
+
+    onOpened: {showBlur();}
+    onClosed: {hideBlur();}
 }

@@ -382,8 +382,6 @@ void UserDataProvider::resetInputs(QList<bool> params)
     if(params[resetParameter::DEPRESSION_MOOD])
     {
         saveArrayInput("moods", QList<QString>{});
-        /*settings.remove("moodsRangeStart");
-        settings.remove("moodsRangeEnd");*/
     }
     if(params[resetParameter::LANGUAGE])
     {
@@ -489,6 +487,10 @@ void UserDataProvider::resetInputs(QList<bool> params)
     {
         saveInput("contactMessageAddress", "");
         saveInput("contactMessageBody", "");
+    }
+    if(params[resetParameter::SLEEP])
+    {
+        saveArrayInput("sleep", QList<QString>{});
     }
 }
 

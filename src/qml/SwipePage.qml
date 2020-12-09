@@ -5,6 +5,7 @@ import '.'
 
 Page {
     visible: true
+    topPadding: 40
     background: Image {
         id: bckg
         source: "qrc:/images/background2.svg"
@@ -18,5 +19,6 @@ Page {
         hue: ThemeInfo.hueValue
         saturation: 0.65
         lightness: ThemeInfo.backgroundLightness
+        anchors.topMargin: -40
     }
 }

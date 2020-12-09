@@ -23,7 +23,7 @@ Drawer {
         hue: ThemeInfo.hueValue
         saturation: 0.6
         lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
-        opacity: 0.8
+        opacity: 0.27
     }
 
     ScrollView {
@@ -202,5 +202,8 @@ Drawer {
                  languageList.itemAt(i).language = languages[i];
             }
     }}
+
+    onOpened: {showBlur();}
+    onClosed: {hideBlur();}
 }
 

@@ -20,14 +20,11 @@ RoundButton {
         hue: ThemeInfo.hueValue
         saturation: 0.7
         lightness: ThemeInfo.backgroundLightness-ThemeInfo.elementSubtractor
-        opacity: 0.8
+        opacity: 0.75
     }
-    Shadow {
-          anchors.fill: bckg
-          source: bckg
-        }
 
     text: "+"
+    font.pointSize: 20
     onPressed: {
         bckg.color = "#7338aa"
     }

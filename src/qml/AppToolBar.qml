@@ -4,6 +4,7 @@ import QtGraphicalEffects 1.0
 import io.qt.NativeInterface 1.0
 
 ToolBar {
+
     NativeInterface {
         id: nativeInterface
     }
@@ -16,6 +17,7 @@ ToolBar {
         }
 
         height: 40
+        width: parent.width
         font.pointSize: 14
         Colorize {
             id: headerColor
@@ -24,15 +26,17 @@ ToolBar {
             hue: ThemeInfo.hueValue
             saturation: 0.6
             lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
+            opacity: 0.2
         }
 
-        Shadow {
+      /* Shadow {
               anchors.fill: headerColor
               source: headerColor
-            }
+            }*/
 
         ToolButton {
             id: backButton
+            opacity: 0.5
             background: Image {
                 source: (stackView.depth > 1) ? "qrc:/images/back.svg" : "qrc:/images/exit.svg"
                 fillMode: Image.PreserveAspectFit
@@ -77,6 +81,7 @@ ToolBar {
 
         ToolButton {
             id: settingsButton
+            opacity: 0.4
             background: Image {
                 source: "qrc:/images/gear.svg"
                 fillMode: Image.PreserveAspectFit
@@ -106,7 +111,7 @@ ToolBar {
             width: parent.width / 17
             anchors.right: settingsButton.left
             anchors.rightMargin: parent.width / 50
-            opacity: (notificationsOn) ? 0.8 : 0.2
+            opacity: (notificationsOn) ? 0.5 : 0.2
             onClicked: {bellAnim.start(); notificationsOn = !notificationsOn; dataProvider.saveBoolInput("notificationsOn", notificationsOn); nativeInterface.updateNotifications(qsTrId("notification-title"), qsTrId("notification-msg"), notificationsOn);}
             SequentialAnimation {
                 id: bellAnim

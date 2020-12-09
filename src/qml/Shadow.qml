@@ -3,11 +3,11 @@ import QtGraphicalEffects 1.0
 
 DropShadow {
       horizontalOffset: 8
-      verticalOffset: 8
-      radius: 15
+      verticalOffset: 3
+      radius: 12
       transparentBorder: true
       samples: 8
       color: "black"
-      opacity: 0.25
+      opacity: 0.3
       z: -1
     }

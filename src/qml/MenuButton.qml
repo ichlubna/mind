@@ -11,7 +11,11 @@ Button {
     width: parent.width
     background: Rectangle {
         id: bckg
-        color: "#9a9a9a"
+        gradient: Gradient {
+                GradientStop { position: 0.0; color: "#9a9a9a" }
+                GradientStop { position: 0.5; color: "#a6a6a6" }
+                GradientStop { position: 1.0; color: "#9a9a9a" }
+            }
         radius: 10
         z: 5
         visible: false
@@ -22,7 +26,7 @@ Button {
         hue: ThemeInfo.hueValue
         saturation: 0.7
         lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
-        opacity: 0.8
+        opacity: 0.75
     }
 
     focusPolicy: Qt.StrongFocus
@@ -48,8 +52,8 @@ Button {
         color: "white"
     }
 
-    Shadow {
+   /* Shadow {
         anchors.fill: bckg
         source: bckg
-    }
+    }*/
 }

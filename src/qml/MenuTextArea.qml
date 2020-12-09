@@ -7,10 +7,10 @@ TextArea{
     background: Rectangle{
         color:"#1F000000"
         opacity: 1
-        radius: 4
+        radius: 5
         anchors.fill: parent
-        border.color: "White"
-        border.width: 3}
+        border.color: "#50FFFFFF"
+        border.width: 1}
     font.pointSize: 20
     color: "White"
     selectedTextColor: "Black"

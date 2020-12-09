@@ -53,7 +53,10 @@ ApplicationWindow {
         lightness: ThemeInfo.backgroundLightness
     }
 
-    header: AppToolBar{}
+    header: null
+    AppToolBar{
+        id: toolBar
+        z: 999}
 
     SettingsDrawer{
         id: drawer
@@ -63,5 +66,60 @@ ApplicationWindow {
         id: stackView
         initialItem: "Home.qml"
         anchors.fill: parent
+    }
+
+    FastBlur
+    {
+       id: bckgBlur
+       visible: true
+       anchors.fill: stackView
+       source: stackView
+       radius: 0
+    }
+
+    FastBlur
+    {
+       id: toolBarBlur
+       visible: true
+       anchors.fill: toolBar
+       source: toolBar
+       radius: 0
+       opacity: 1.0
+       z: 9999
+    }
+
+    PropertyAnimation { id: showBckgBlur;
+                            target: bckgBlur;
+                            property: "radius";
+                            to: 30;
+                            duration: 250 }
+
+    PropertyAnimation { id: hideBckgBlur;
+                            target: bckgBlur;
+                            property: "radius";
+                            to: 0;
+                            duration: 250 }
+    PropertyAnimation { id: showToolBarBlur;
+                            target: toolBarBlur;
+                            property: "radius";
+                            to: 30;
+                            duration: 250 }
+
+    PropertyAnimation { id: hideToolBarBlur;
+                            target: toolBarBlur;
+                            property: "radius";
+                            to: 0;
+                            duration: 250 }
+
+    function showBlur()
+    {
+        showBckgBlur.start();
+        showToolBarBlur.start();
+    }
+
+    function hideBlur()
+    {
+        hideBckgBlur.start();
+        hideToolBarBlur.start();
     }
 }
