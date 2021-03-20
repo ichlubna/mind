@@ -1,26 +1,44 @@
 import QtQuick 2.4
 import QtQuick.Layouts 1.12
+import QtQuick.Controls 2.5
 import ".."
 
 MenuPage {
     id: support
     title: qsTrId("support")
-    property alias mlceniLink: mlceniLink
     property alias dusiLink: dusiLink
     property alias anabellLink: anabellLink
     property alias angelinyLink: angelinyLink
+    property alias krejtaLink: krejtaLink
+    property alias ppfLink: ppfLink
 
-    GridLayout {
+    ScrollView {
         anchors.fill: parent
-        anchors.margins: 10
-        columns: 2
-        columnSpacing: parent.height * 0.1
+        contentWidth: -1
+        clip: true
+
+    ColumnLayout {
+        anchors.fill: parent
+        anchors.top: parent.top
+        spacing: 20
+        property var prefHeight: 200
 
         Image {
             Layout.fillHeight: true
             Layout.fillWidth: true
-            Layout.preferredWidth: parent.width / 2
-            source: "qrc:/images/dusi.svg"
+            Layout.preferredHeight: parent.prefHeight*1.5
+            source: "qrc:/images/ppf.svg"
+            fillMode: Image.PreserveAspectFit
+            MouseArea {
+                id: ppfLink
+                anchors.fill: parent
+            }
+        }
+
+        Image {
+            Layout.fillWidth: true
+            Layout.preferredHeight: parent.prefHeight
+            source: "qrc:/images/dusi.png"
             fillMode: Image.PreserveAspectFit
             MouseArea {
                 id: dusiLink
@@ -31,20 +49,7 @@ MenuPage {
         Image {
             Layout.fillHeight: true
             Layout.fillWidth: true
-            Layout.preferredWidth: parent.width / 2
-            source: "qrc:/images/mlceni.svg"
-            fillMode: Image.PreserveAspectFit
-            MouseArea {
-                id: mlceniLink
-                anchors.fill: parent
-            }
-        }
-
-        Image {
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            Layout.preferredWidth: parent.width
-            Layout.columnSpan: 2
+            Layout.preferredHeight: parent.prefHeight
             source: "qrc:/images/anabell/logo.svg"
             fillMode: Image.PreserveAspectFit
             MouseArea {
@@ -56,8 +61,7 @@ MenuPage {
         Image {
             Layout.fillHeight: true
             Layout.fillWidth: true
-            Layout.preferredWidth: parent.width
-            Layout.columnSpan: 2
+            Layout.preferredHeight: parent.prefHeight
             source: "qrc:/images/angeliny.svg"
             fillMode: Image.PreserveAspectFit
             MouseArea {
@@ -66,6 +70,20 @@ MenuPage {
             }
         }
 
+        Image {
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+            Layout.preferredHeight: parent.prefHeight
+            source: "qrc:/images/krejta.png"
+            fillMode: Image.PreserveAspectFit
+            MouseArea {
+                id: krejtaLink
+                anchors.fill: parent
+            }
+        }
+
    }
 
-}
+}}
+
+

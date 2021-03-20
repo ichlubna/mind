@@ -1,5 +1,6 @@
 #ifndef TRANSLATOR_H
 #define TRANSLATOR_H
+#include <memory>
 #include <QObject>
 #include <QSet>
 #include <QApplication>
@@ -15,7 +16,8 @@ public:
     QApplication *app;
     static QList<QString> languages;
     static QList<QLocale::Language> languagesLocale;
-    QMap<QString, QTranslator*> translators;
+    std::map<QString, std::unique_ptr<QTranslator>> generalTranslators;
+    std::map<QString, std::unique_ptr<QTranslator>> extraTranslators;
     QString currentLanguage = "EN";
 private:
 
@@ -34,6 +36,8 @@ public:
     Q_INVOKABLE static void changeLanguage(QString language);
     Q_INVOKABLE static Translator *getInstance();
 private:
+    static void installTranslators(QString l, Translator *i);
+    static void removeTranslators(Translator *i);
     static Translator* instance;
 };
 

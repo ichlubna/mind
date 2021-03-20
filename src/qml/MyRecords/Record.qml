@@ -116,6 +116,8 @@ RecordForm {
     }
 
     popup.yes.onClicked:{
+        popup.close();
+        hideBlur();
         dataProvider.removeFromArray(arrayNames[arrayIndex], dataRecordIndex);
         if(arrayNames.length > 1)
         {

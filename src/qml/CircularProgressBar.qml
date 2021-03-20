@@ -1,14 +1,11 @@
 import QtQuick 2.0
-import QtQuick.Controls 1.4
-import QtQuick.Controls.Styles 1.4
+import QtQuick.Controls 2.12
 import QtGraphicalEffects 1.0
 
 ProgressBar {
     value: 0.5
     property var max : 1
-    style: ProgressBarStyle
-    {
-       panel : Rectangle
+       background : Rectangle
        {
           color: "transparent"
           implicitWidth: 80
@@ -43,8 +40,8 @@ ProgressBar {
                 gradient: Gradient
                 {
                    GradientStop { position: 0.00; color: "white" }
-                   GradientStop { position: control.value; color: "white" }
-                   GradientStop { position: control.value + 0.01; color: "transparent" }
+                   GradientStop { position: value; color: "white" }
+                   GradientStop { position: value + 0.01; color: "transparent" }
                    GradientStop { position: 1.00; color: "transparent" }
                 }
              }
@@ -55,8 +52,7 @@ ProgressBar {
              id: progressLabel
              anchors.centerIn: parent
              color: "white"
-             text: Math.round(control.value*max)
+             text: Math.round(value*max)
           }
        }
     }
-}

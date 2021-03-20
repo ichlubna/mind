@@ -93,7 +93,7 @@ SendRecordsForm {
     Connections{
         target: choice
         Component.onCompleted: {
-            if ((dataProvider.loadLanguage() !== "CZ") && (dataProvider.loadLanguage() !== "SK"))
+            if ((dataProvider.loadLanguage() !== "CS") && (dataProvider.loadLanguage() !== "SK"))
             {
                     email.visible = true;
                     email.text = "email@email.com"

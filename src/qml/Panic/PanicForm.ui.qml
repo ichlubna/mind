@@ -3,7 +3,7 @@ import ".."
 
 Menu{
     title: qsTrId("anxiety-panic")
-    items: [{text: qsTrId("panicTips"), file: "SwipeItems.qml", pushProperties: {"title" :qsTrId("panicTips"), "listInputText":  qsTrId("panic-tips")}},
+    items: [{text: qsTrId("panicTips"), file: "SwipeItems.qml", pushProperties: {"withDescription" : true, "title" :qsTrId("panicTips"), "listInputText":  qsTrId("panic-tips")}},
             {text: qsTrId("breath"), file: "Breath.qml"},
             {text: qsTrId("math"), file: "Games/Math.qml"},
             {text: qsTrId("game-balls"), file: "Games/Balls.qml"},

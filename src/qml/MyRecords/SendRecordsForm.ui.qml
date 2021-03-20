@@ -18,7 +18,8 @@ SwipePage {
         anchors.fill: parent
         spacing: 15
         Description{
-            text: qsTrId("sendRecords-text")
+            //text: qsTrId("sendRecords-text")
+            text: "Tato služba je dočasně nedostupná!"
             Layout.fillWidth: true
             Layout.preferredHeight: parent.height*0.2
             anchors.fill: undefined
@@ -64,6 +65,8 @@ SwipePage {
             id: sendButton
             text: qsTrId("send")
             Layout.fillWidth: true
+            enabled: false
+            opacity: 0.35
         }
     }
     }

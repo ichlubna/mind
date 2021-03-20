@@ -2,8 +2,8 @@
     <qresource prefix="/">
         <file>translation/EN.ts</file>
         <file>translation/EN.qm</file>
-        <file>translation/CZ.ts</file>
-        <file>translation/CZ.qm</file>
+        <file>translation/CS.ts</file>
+        <file>translation/CS.qm</file>
         <file>translation/SK.ts</file>
         <file>translation/SK.qm</file>
         <file>translation/PL.ts</file>
@@ -31,7 +31,7 @@
         <file>images/instagram.svg</file>
         <file>images/web.svg</file>
         <file>images/bell.svg</file>
-        <file>images/CZ.svg</file>
+        <file>images/CS.svg</file>
         <file>images/SK.svg</file>
         <file>images/EN.svg</file>
         <file>images/PL.svg</file>
@@ -53,8 +53,6 @@
         <file>images/star.svg</file>
         <file>images/circle.svg</file>
         <file>images/delete.svg</file>
-        <file>images/dusi.svg</file>
-        <file>images/mlceni.svg</file>
         <file>images/phone.svg</file>
         <file>images/sms.svg</file>
         <file>images/angeliny.svg</file>
@@ -116,30 +114,16 @@
         <file>src/qml/MenuComboBox.qml</file>
         <file>src/qml/Games/Balls.qml</file>
         <file>src/qml/Games/BallsForm.ui.qml</file>
-        <file>images/anabell/amSnack.jpg</file>
-        <file>images/anabell/amSnack2.jpg</file>
-        <file>images/anabell/breakfast.jpg</file>
         <file>images/anabell/breakfast2.jpg</file>
-        <file>images/anabell/breakfast3.jpg</file>
-        <file>images/anabell/dinner.jpg</file>
         <file>images/anabell/dinner2.jpg</file>
         <file>images/anabell/dinner3.jpg</file>
         <file>images/anabell/dinner4.jpg</file>
         <file>images/anabell/dinner5.jpg</file>
-        <file>images/anabell/lightDinner.jpg</file>
-        <file>images/anabell/lightDinner2.jpg</file>
-        <file>images/anabell/lightDinner3.jpg</file>
         <file>images/anabell/logo.svg</file>
-        <file>images/anabell/lunch.jpg</file>
         <file>images/anabell/lunch2.jpg</file>
         <file>images/anabell/lunch3.jpg</file>
-        <file>images/anabell/lunchSoup.jpg</file>
-        <file>images/anabell/pmDesert.jpg</file>
-        <file>images/anabell/pmDesert2.jpg</file>
         <file>images/anabell/pmSnack2.jpg</file>
         <file>images/anabell/pmSnack3.jpg</file>
-        <file>images/anabell/soup2.jpg</file>
-        <file>images/anabell/soup3.jpg</file>
         <file>src/qml/ComboDisplay.qml</file>
         <file>src/qml/ItemList.qml</file>
         <file>src/qml/Food/Dishes/Dishes.qml</file>
@@ -196,5 +180,40 @@
         <file>src/qml/AppToolBar.qml</file>
         <file>src/qml/MyRecords/Record.qml</file>
         <file>src/qml/MyRecords/RecordForm.ui.qml</file>
+        <file>translation/extra/CS.qm</file>
+        <file>translation/extra/CS.ts</file>
+        <file>translation/extra/DE.qm</file>
+        <file>translation/extra/DE.ts</file>
+        <file>translation/extra/EN.qm</file>
+        <file>translation/extra/EN.ts</file>
+        <file>translation/extra/ES.qm</file>
+        <file>translation/extra/ES.ts</file>
+        <file>translation/extra/FR.qm</file>
+        <file>translation/extra/FR.ts</file>
+        <file>translation/extra/IT.qm</file>
+        <file>translation/extra/IT.ts</file>
+        <file>translation/extra/PL.qm</file>
+        <file>translation/extra/PL.ts</file>
+        <file>translation/extra/RU.qm</file>
+        <file>translation/extra/RU.ts</file>
+        <file>translation/extra/SK.qm</file>
+        <file>translation/extra/SK.ts</file>
+        <file>images/anabell/lunch5.jpg</file>
+        <file>images/anabell/lunch4.jpg</file>
+        <file>images/anabell/pmSnack1.jpg</file>
+        <file>images/anabell/pmSnack0.jpg</file>
+        <file>images/anabell/lunch1.jpg</file>
+        <file>images/anabell/lunch0.jpg</file>
+        <file>images/anabell/dinner7.jpg</file>
+        <file>images/anabell/dinner6.jpg</file>
+        <file>images/anabell/dinner1.jpg</file>
+        <file>images/anabell/dinner0.jpg</file>
+        <file>images/anabell/breakfast1.jpg</file>
+        <file>images/anabell/breakfast0.jpg</file>
+        <file>images/anabell/amSnack1.jpg</file>
+        <file>images/anabell/amSnack0.jpg</file>
+        <file>images/dusi.png</file>
+        <file>images/ppf.svg</file>
+        <file>images/krejta.png</file>
     </qresource>
 </RCC>

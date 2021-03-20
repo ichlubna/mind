@@ -1,6 +1,5 @@
 import QtQuick 2.14
 import QtQuick.Controls 2.2
-import QtQuick.Controls.Styles 1.4
 import QtGraphicalEffects 1.0
 
 Page {

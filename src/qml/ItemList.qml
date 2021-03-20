@@ -5,6 +5,7 @@ import QtQuick.Layouts 1.12
 MenuPage {
     property var items: []
     property var contentString
+    property var imagePattern
 
     ScrollView {
         anchors.fill: parent
@@ -25,7 +26,7 @@ MenuPage {
                         id: img
                         width: parent.width
                         height: parent.height * 0.6
-                        source: items[index * 2].trim()
+                        source: "qrc:"+imagePattern.replace("*", index.toString())
                         fillMode: Image.PreserveAspectFit
                         anchors.top: parent.top
                         anchors.topMargin: 5
@@ -35,7 +36,7 @@ MenuPage {
                         anchors.fill: img}
                     DescriptionLabel {
                         id: description
-                        text: items[index * 2 + 1].trim()
+                        text: items[index].trim()
                         height: parent.height * 0.3
                         width: parent.width
                         anchors.top: img.bottom
@@ -56,8 +57,8 @@ MenuPage {
     Connections {
         target: list
         Component.onCompleted: {
-            items = contentString.split('|')
-            list.model = items.length / 2
+            items = contentString.split("\n")
+            list.model = items.length
         }
     }
 }

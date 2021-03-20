@@ -31,7 +31,7 @@ Popup {
         hue: ThemeInfo.hueValue
         saturation: 0.7
         lightness: ThemeInfo.backgroundLightness - ThemeInfo.elementSubtractor
-        opacity: 0.6
+        opacity: 0.5
     }
 
     Description {

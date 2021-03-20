@@ -1,6 +1,5 @@
 import QtQuick 2.0
-import QtQuick.Controls 2.2
-import QtQuick.Controls.Styles 1.4
+import QtQuick.Controls 2.12
 import QtGraphicalEffects 1.0
 
 Button {
@@ -52,8 +51,9 @@ Button {
         color: "white"
     }
 
-   /* Shadow {
+   Shadow {
         anchors.fill: bckg
         source: bckg
-    }*/
+        opacity: 0.1
+    }
 }

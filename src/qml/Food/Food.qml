@@ -5,5 +5,5 @@ FoodForm {
     Translator {
         id: translator
     }
-    property var czSkRuOnly: translator.getLanguagesExcept(["CZ", "SK", "RU"]);
+    property var czSkRuOnly: translator.getLanguagesExcept(["CS", "SK", "RU"]);
 }

@@ -1,3 +1,21 @@
 #!/bin/bash
-/home/username/Qt/5.14.2/gcc_64/bin/lrelease -idbased ../Mind.pro
+QT_LOC=/home/hitokage/Qt/6.1.0/gcc_64/bin
+
+$QT_LOC/lupdate ../Mind.pro
+
+mkdir -p ./backup
+rm ./backup/*
+cp ./*.ts ./backup
+mkdir -p backup/extra
+rm ./backup/extra/*
+cp ./extra/*.ts backup/extra
+
+for FILE in ./*.ts; do
+	$($QT_LOC/lconvert -i $FILE -o $FILE -no-obsolete -no-untranslated -locations none)
+done
+for FILE in ./extra/*.ts; do
+	$($QT_LOC/lconvert -i $FILE -o $FILE -no-obsolete -no-untranslated -locations none)
+done
+
+$QT_LOC/lrelease -idbased ../Mind.pro
 rm *.json

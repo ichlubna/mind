@@ -1,5 +1,5 @@
 import QtQuick 2.4
-import QtQuick.Controls 1.4
+import QtQuick.Controls 2.12
 import ".."
 
 MenuPage {
@@ -58,8 +58,8 @@ MenuPage {
 
     MenuSlider {
         id: breathSlider
-        maximumValue: 1.3
-        minimumValue: 0.7
+        to: 1.3
+        from: 0.7
         anchors.bottom: bar.top
     }
 

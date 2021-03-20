@@ -111,7 +111,7 @@ Drawer {
             width: parent.width
             onClicked: {
                 drawer.close()
-                if (dataProvider.loadLanguage() === "CZ" || dataProvider.loadLanguage() === "SK")
+                if (dataProvider.loadLanguage() === "CS" || dataProvider.loadLanguage() === "SK")
                     Qt.openUrlExternally("https://www.darujme.cz/projekt/1203622")
                 else
                     Qt.openUrlExternally("https://www.darujme.cz/projekt/1203622?locale=en")
@@ -137,7 +137,7 @@ Drawer {
                     background: Image {
                         source: "qrc:/images/fb.svg"
                     }
-                    onClicked: {Qt.openUrlExternally(qsTrId("fb-link")); drawer.close()}
+                    onClicked: {Qt.openUrlExternally("https://www.facebook.com/aplikacenepanikar/"); drawer.close()}
                     Layout.maximumWidth: drawer.width*0.2
                     Layout.maximumHeight: drawer.width*0.2
                     Layout.topMargin: 20
@@ -148,7 +148,7 @@ Drawer {
                     background: Image {
                         source: "qrc:/images/instagram.svg"
                     }
-                    onClicked: {Qt.openUrlExternally(qsTrId("mlceni-link")); drawer.close()}
+                    onClicked: {Qt.openUrlExternally("https://www.instagram.com/aplikace_nepanikar"); drawer.close()}
                     Layout.maximumWidth: drawer.width*0.2
                     Layout.maximumHeight: drawer.width*0.2
                     Layout.topMargin: 20
@@ -159,7 +159,7 @@ Drawer {
                     background: Image {
                         source: "qrc:/images/web.svg"
                     }
-                    onClicked: {Qt.openUrlExternally(qsTrId("web-link")); drawer.close()}
+                    onClicked: {Qt.openUrlExternally("https://nepanikar.eu"); drawer.close()}
                     Layout.maximumWidth: drawer.width*0.2
                     Layout.maximumHeight: drawer.width*0.2
                     Layout.topMargin: 20

@@ -5,6 +5,6 @@ ContactsForm {
     Translator {
         id: translator
     }
-    property var czOnly: translator.getLanguagesExcept(["CZ"]);
+    property var czOnly: translator.getLanguagesExcept(["CS"]);
 }
 

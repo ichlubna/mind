@@ -32,7 +32,7 @@ UserDataProvider::UserDataProvider(QObject *parent) : QObject(parent), settings(
 
 QList<QString> UserDataProvider::parseList(QString input)
 {
-    auto list = input.split("|");
+    auto list = input.split("\n");
     for(int i=0; i<list.size(); i++)
         list[i] = list[i].trimmed();
     return std::move(list);
@@ -102,7 +102,7 @@ void UserDataProvider::translateDefault(CustomInput input)
                 return;
             for (auto &value : values)
                 if(value.contains(TO_TRANSLATE))
-                    value = originalValues[QStringRef(&value,0,2).toInt()].trimmed();
+                    value = originalValues[QStringView{value}.left(2).toInt()].trimmed();
             saveArrayInput(input.settingsId, values);
          break;
     }
@@ -138,7 +138,7 @@ void UserDataProvider::initCheck()
 
     //TODO remove the update fixes
     //to avoid getting red color when updating to version with color change option
-    if(!settings.contains("themeLight"))
+ /*  if(!settings.contains("themeLight"))
     {
         settings.setValue("themeLight",  -0.05);
         settings.setValue("themeHue",  0.76);
@@ -187,7 +187,7 @@ void UserDataProvider::initCheck()
             };
             saveArrayInput("suicidePlan", list);
         }
-    }
+    }*/
 
     if(!settings.contains("notificationsOn"))
         saveBoolInput("notificationsOn", false);

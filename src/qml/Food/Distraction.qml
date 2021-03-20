@@ -5,5 +5,5 @@ DistractionForm {
     Translator {
         id: translator
     }
-    property var czSkOnly: translator.getLanguagesExcept(["CZ", "SK"]);
+    property var czSkOnly: translator.getLanguagesExcept(["CS", "SK"]);
 }

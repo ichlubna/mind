@@ -3,12 +3,13 @@ import QtQuick.Controls 2.5
 
 SwipePage {
     property var listInputText: ""
+    property var withDescription: true
     property variant items: []
     SwipeView {
         anchors.fill: parent
         Repeater {
             id: itemsContainer
-            model: items.length / 2
+            model: (withDescription) ? items.length / 2 : items.length
             Item {
                 id: delegate
                 Button {
@@ -24,8 +25,8 @@ SwipePage {
                     anchors.verticalCenter: parent.verticalCenter
                     width: parent.width * 0.1
                 }
-                property var topText:  items[index * 2].trim()
-                property var bottomText:  items[index * 2+1].trim()
+                property var topText:  (withDescription) ? items[index * 2].trim() : tems[index].trim()
+                property var bottomText: (withDescription) ? items[index * 2+1].trim() : ""
 
                 DescriptionLabel {
                     id: tip
@@ -100,7 +101,7 @@ SwipePage {
         Connections {
             target: itemsContainer
             Component.onCompleted: {
-                items = listInputText.split('|')
+                items = listInputText.split("\n")
                }
         }
     }

@@ -125,7 +125,7 @@ ArrayUpdaterForm {
         Component.onCompleted: {
             fill()
         }
-        onVisibleChanged: {
+        function onVisibleChanged () {
             updateValues()
             dataProvider.saveArrayInput(arrayNames[0], values)
         if(type === "LC")
@@ -145,7 +145,7 @@ ArrayUpdaterForm {
 
     Connections {
         target: addButton
-        onClicked: {
+        function onClicked () {
             updateValues()
             values[count] = ""
             values2[count] = ""

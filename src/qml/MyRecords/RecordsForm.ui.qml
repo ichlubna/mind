@@ -46,8 +46,8 @@ MenuPage {
                             Image {
                                 property var ok: false
                                 source: (ok) ? "qrc:/images/tick.svg" : "qrc:/images/delete.svg"
-                                height: parent.height*0.3
-                                width: parent.height*0.3
+                                height: parent.height*0.23
+                                width: parent.height*0.23
                                 anchors.verticalCenter: parent.verticalCenter
                                 fillMode: Image.PreserveAspectFit
                             }

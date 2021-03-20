@@ -118,7 +118,7 @@ MenuPage {
                     MouseArea {
                         anchors.fill: parent
                         Connections {
-                            onClicked: {
+                           function onClicked() {
                                 remove(index)
                             }
                         }
