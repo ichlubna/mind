@@ -8,7 +8,8 @@ Menu{
             {text: qsTrId("math"), file: "Games/Math.qml"},
             {text: qsTrId("game-balls"), file: "Games/Balls.qml"},
             {text: qsTrId("game-balance"), file: "Games/Balance.qml"},
-            {text: qsTrId("relaxation"), file: "Player.qml", pushProperties: {"titleText" : qsTrId("relaxation"), "file" : relaxationFile}, excluded: czSkOnly}
+            {text: qsTrId("relaxation"), file: "Player.qml", pushProperties: {"titleText" : qsTrId("relaxation"), "file" : relaxationFile}, excluded: czSkOnly},
+            {text: qsTrId("sources"), file: "Sources.qml", pushProperties: {"section" : "panic"}},
             ]
 }
 

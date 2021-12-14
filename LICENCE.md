@@ -1,6 +1,7 @@
 EXCLUSIONS: 
 All rights to files in images/anabell directory belong to Anabell Center and any redistribution must be consulted with the owner.
 All rights to the relaxation file audio/relaxCS.mp3 belong to Terapeuti Brno and any redistribution must be consulted with the owner.
+The company logos in Images directory are under copyright of the given companies. 
 
 LICENCE:
 GNU GENERAL PUBLIC LICENSE

@@ -1,9 +1,10 @@
 import QtQuick 2.0
 import QtQuick.Controls 2.12
-import QtGraphicalEffects 1.0
+import Qt5Compat.GraphicalEffects
 
 Button {
-    property var target: ""
+    property string target: ""
+    property string link: ""
     property alias bckg: bckg
     property var pushProperties: ({})
 
@@ -36,7 +37,9 @@ Button {
     onPressedChanged: {
         bckg.color = "#9a9a9a"
     }
-    onClicked: if (target != "")
+    onClicked: if (link != "")
+                   Qt.openUrlExternally(link)
+               else if (target != "")
                    stackView.push(target, pushProperties)
 
     contentItem: Text {

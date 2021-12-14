@@ -125,7 +125,7 @@ void UserDataProvider::translateInputs()
 void UserDataProvider::initCheck()
 {
     bool reset = true;
-    if(settings.contains("moods") || settings.contains("diaryRecords") || settings.contains("selfHarmExist") || settings.contains("selfHarmExist"))
+    if(settings.contains("moods") || settings.contains("diaryRecords") || settings.contains("selfHarmExist"))
         reset = false;
     for(const auto &input : customInputs)
         if(settings.contains(input.settingsId))
@@ -135,59 +135,6 @@ void UserDataProvider::initCheck()
         auto params = QVector<bool>(resetParameter::RESET_PARAMS_COUNT, true);
         resetInputs(params.toList());
     }
-
-    //TODO remove the update fixes
-    //to avoid getting red color when updating to version with color change option
- /*  if(!settings.contains("themeLight"))
-    {
-        settings.setValue("themeLight",  -0.05);
-        settings.setValue("themeHue",  0.76);
-    }
-
-    //reasons to list
-    if(settings.contains("myReasons"))
-    {
-        auto old = settings.value("myReasons").toString().split("\n");
-        saveArrayInput("reasons", old);
-        settings.remove("myReasons");
-    }
-
-    //food update
-    if(!settings.contains("foodExist"))
-    {
-        saveBoolInput("foodExist", true);
-        auto params = QVector<bool>(resetParameter::RESET_PARAMS_COUNT, false);
-        params[resetParameter::FOOD] = true;
-        params[resetParameter::FOOD_RECORDS] = true;
-        params[resetParameter::DIARY] = true;
-        params[resetParameter::MY_CONTACTS] = true;
-        params[resetParameter::DEPRESSION_MOOD] = true;
-        resetInputs(params.toList());
-    }
-
-    //selfHarmUpdate
-    if(!settings.contains("selfHarmExist") && !settings.contains("suicidePlan"))
-    {
-        saveBoolInput("selfHarmExist", true);
-        auto params = QVector<bool>(resetParameter::RESET_PARAMS_COUNT, false);
-        params[resetParameter::SELF_HARM_PLAN] = true;
-        params[resetParameter::SELF_HARM_TIMER] = true;
-        params[resetParameter::SELF_HARM_HELPED] = true;
-        params[resetParameter::CONTACT_MESSAGE] = true;
-        resetInputs(params.toList());
-
-        if(settings.contains("customWrite"))
-        {
-            auto list = QList<QString>{
-                    loadInput("customWrite"),
-                    loadInput("customWriteBody"),
-                    loadInput("customPpl"),
-                    loadInput("customDo"),
-                    loadInput("customGo")
-            };
-            saveArrayInput("suicidePlan", list);
-        }
-    }*/
 
     if(!settings.contains("notificationsOn"))
         saveBoolInput("notificationsOn", false);

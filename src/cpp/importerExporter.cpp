@@ -2,7 +2,6 @@
 #include <QMap>
 #include <QSettings>
 #include <QJsonObject>
-#include <QJsonDocument>
 #include <QFile>
 #include <iostream>
 
@@ -22,7 +21,7 @@ bool ImporterExporter::importSettings(QUrl fileName)
     return true;
 }
 
-bool ImporterExporter::exportSettings(QUrl fileName)
+QJsonDocument ImporterExporter::createJson()
 {
     QSettings settings("DontPanicDevs", "DontPanic");
     QMap<QString, QVariant> content;
@@ -36,10 +35,20 @@ bool ImporterExporter::exportSettings(QUrl fileName)
     auto json = QJsonObject::fromVariantMap(content);
     QJsonDocument document;
     document.setObject(json);
+    return document;
+}
+
+QString ImporterExporter::getText()
+{
+    return QString::fromStdString(createJson().toJson().toStdString());
+}
+
+bool ImporterExporter::exportSettings(QUrl fileName)
+{
     QFile file(fileName.toLocalFile());
     if(!file.open(QFile::WriteOnly | QFile::Text))
         return false;
-    file.write(document.toJson());
+    file.write(createJson().toJson());
     file.close();
     return true;
 }

@@ -1,7 +1,7 @@
 import QtQuick 2.4
 import QtCharts 2.3
 import QtQuick.Controls 2.5
-import QtGraphicalEffects 1.0
+import Qt5Compat.GraphicalEffects
 import ".."
 
 MenuPage {

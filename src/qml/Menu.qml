@@ -18,6 +18,8 @@ MenuForm {
                             itemsList.itemAt(i).target = items[i].file;
                         if(items[i].hasOwnProperty("pushProperties"))
                             itemsList.itemAt(i).pushProperties = items[i].pushProperties;
+                        if(items[i].hasOwnProperty("link"))
+                            itemsList.itemAt(i).link = items[i].link;
             }
         }
 }

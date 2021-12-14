@@ -8,5 +8,6 @@ Menu{
             {text: qsTrId("food-dishes"), file: "Food/Dishes/Dishes.qml"},
             {text: qsTrId("distraction"), file: "Food/Distraction.qml"},
             {text: qsTrId("food-contact"), file: "Food/Contact.qml", excluded: czSkRuOnly},
+            {text: qsTrId("sources"), file: "Sources.qml", pushProperties: {"section" : "food"}},
             ]
 }

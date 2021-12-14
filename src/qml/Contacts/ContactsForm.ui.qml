@@ -8,6 +8,7 @@ Menu{
             {text: qsTrId("chat"), file: "Contacts/Chat.qml", excluded: ["FR", "PL", "ES"]},
             {text: qsTrId("universities"), file: "Contacts/Universities.qml", excluded: czOnly},
             {text: qsTrId("my-contacts"), file: "ArrayUpdater.qml", pushProperties: {"titleText" : qsTrId("my-contacts"), "headerText" : qsTrId("my-contacts-header"), "type" : "C", "arrayNames" : ["myContactsNames", "myContactsNumbers"]} },
-            {text: qsTrId("contacts-message"), file: "Contacts/Message.qml"}
+            {text: qsTrId("contacts-message"), file: "Contacts/Message.qml"},
+            {text: qsTrId("online-therapy"), link: "https://nepanikar.eu", excluded: czSkOnly},
             ]
 }

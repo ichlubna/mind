@@ -6,6 +6,7 @@ MenuPage {
     id: importExportPage
     property alias importButton: importButton
     property alias exportButton: exportButton
+    property alias viewButton: viewButton
     property alias picker: picker
     property alias anim: anim
     title: qsTrId("import-export")
@@ -36,6 +37,16 @@ MenuPage {
     MenuButton {
         id: exportButton
         text: qsTrId("export-button")
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: viewButton.top
+        anchors.margins: 20
+        width: parent.width*0.6
+    }
+
+    MenuButton {
+        id: viewButton
+        text: qsTrId("view-data")
+        target: "Drawer/ViewData.qml"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.bottom: parent.bottom
         anchors.margins: 20

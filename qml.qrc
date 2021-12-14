@@ -212,8 +212,18 @@
         <file>images/anabell/breakfast0.jpg</file>
         <file>images/anabell/amSnack1.jpg</file>
         <file>images/anabell/amSnack0.jpg</file>
-        <file>images/dusi.png</file>
         <file>images/ppf.svg</file>
         <file>images/krejta.png</file>
+        <file>src/qml/Drawer/ViewData.qml</file>
+        <file>src/qml/Drawer/ViewDataForm.ui.qml</file>
+        <file>images/kofi.png</file>
+        <file>images/livechatoo.png</file>
+        <file>images/stabilo.png</file>
+        <file>images/kores.svg</file>
+        <file>images/reenio.png</file>
+        <file>images/cez.png</file>
+        <file>images/doller.png</file>
+        <file>src/qml/Sources.qml</file>
+        <file>src/qml/SourcesForm.ui.qml</file>
     </qresource>
 </RCC>

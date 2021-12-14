@@ -14,6 +14,7 @@ MenuPage {
     property alias breathSlider: breathSlider
     property alias breathElement: breathElement
     property alias number: number
+    id: page
     title: qsTrId("breath") + " III"
     property int numberSize: 150
 
@@ -41,35 +42,37 @@ MenuPage {
     Shape {
            id: sprite
            anchors.fill: parent
+           opacity: 0.5
+           antialiasing: true
 
     ShapePath {
         id: shape1
         strokeColor: "white"
-        strokeWidth: 5
+        strokeWidth: 10
         capStyle: ShapePath.RoundCap
-        startX: parent.width*0.1
-        startY: (parent.height-topPadding)*0.3
-        PathLine {id: path1Element; x: parent.width*0.1; y: (parent.height-topPadding)*0.3}
+        startX: page.width*0.1
+        startY: (page.height-topPadding)*0.3
+        PathLine {id: path1Element; x: page.width*0.1; y: (page.height-topPadding)*0.3}
     }
 
     ShapePath {
         id: shape2
         strokeColor: "white"
-        strokeWidth: 5
+        strokeWidth: 10
         capStyle: ShapePath.RoundCap
-        startX: parent.width*0.9
-        startY: (parent.height-topPadding)*0.3
-        PathLine {id: path2Element; x: parent.width*0.9; y: (parent.height-topPadding)*0.3}
+        startX: page.width*0.9
+        startY: (page.height-topPadding)*0.3
+        PathLine {id: path2Element; x: page.width*0.9; y: (page.height-topPadding)*0.3}
     }
 
     ShapePath {
         id: shape3
         strokeColor: "white"
-        strokeWidth: 5
+        strokeWidth: 10
         capStyle: ShapePath.RoundCap
-        startX: parent.width*0.5
-        startY: (parent.height-topPadding)*0.8
-        PathLine {id: path3Element; x: parent.width*0.5; y: (parent.height-topPadding)*0.8}
+        startX: page.width*0.5
+        startY: (page.height-topPadding)*0.8
+        PathLine {id: path3Element; x: page.width*0.5; y: (page.height-topPadding)*0.8}
     }}
 
     MenuSlider {
@@ -86,3 +89,4 @@ MenuPage {
         horizontalAlignment: Text.AlignHCenter
     }
 }
+

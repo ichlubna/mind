@@ -9,12 +9,12 @@ SwipePage {
     id: picker
     z: 5000
     anchors.fill: parent
-    property var filter: "*"
+    property string filter: "*"
     property var systemInfo: dataProvider.getSystemInfo().split("|")
     property var startDir: StandardPaths.standardLocations((systemInfo[0] === "android" && parseFloat(systemInfo[1]) >= 10.0) ? StandardPaths.AppDataLocation : StandardPaths.DownloadLocation)[0]
     property var selected: startDir
-    property var selectedConfirmed: ""
-    property var dirsOnly: false
+    property string selectedConfirmed: ""
+    property bool dirsOnly: false
 
     UserDataProvider {
         id: dataProvider
@@ -70,7 +70,9 @@ SwipePage {
         fillMode: Image.PreserveAspectFit
         MouseArea {
             anchors.fill: parent
-            onClicked: {folderModel.folder = folderModel.parentFolder}
+            onClicked: {
+                if(folderModel.parentFolder != "")
+                folderModel.folder = folderModel.parentFolder}
         }
     }
 

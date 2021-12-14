@@ -9,6 +9,7 @@ Menu{
                                                                            qsTrId("feeling-bad-go"),
                                                                            qsTrId("people-to-write")]}},
             {text: qsTrId("reasons"), file: "ArrayUpdater.qml", pushProperties: {"titleText" : qsTrId("reasons"), "headerText" : qsTrId("reasons-text"), "arrayNames" : ["reasons"]}},
-            {text: qsTrId("breath"), file: "Breath.qml"}
+            {text: qsTrId("breath"), file: "Breath.qml"},
+            {text: qsTrId("sources"), file: "Sources.qml", pushProperties: {"section" : "suicide"}},
             ]
 }
