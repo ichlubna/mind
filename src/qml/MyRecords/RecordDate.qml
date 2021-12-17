@@ -1,10 +1,10 @@
-import QtQuick 2.4
+import QtQuick
 
 RecordDateForm {
-    property var afterDateFile : "Record.qml"
+    property string afterDateFile : "Record.qml"
     property var arrayNames : []
     property var questionTexts: []
-    property var titleText: ""
+    property string titleText: ""
 
     okButton.onClicked: {
         var date = recordDate.getDate();

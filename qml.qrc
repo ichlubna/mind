@@ -170,10 +170,10 @@
         <file>src/qml/MyRecords/SendRecordsForm.ui.qml</file>
         <file>src/qml/Games/Balance.qml</file>
         <file>src/qml/Games/BalanceForm.ui.qml</file>
-        <file>src/qml/SelfHarm/Timer.qml</file>
-        <file>src/qml/SelfHarm/TimerForm.ui.qml</file>
+        <file>src/qml/SelfHarm/Countdown.qml</file>
+        <file>src/qml/SelfHarm/CountdownForm.ui.qml</file>
         <file>src/qml/CircularProgressBar.qml</file>
-        <file>src/qml/SelfHarm/TimerResult.qml</file>
+        <file>src/qml/SelfHarm/CountdownResult.qml</file>
         <file>src/qml/Contacts/Message.qml</file>
         <file>src/qml/Contacts/MessageForm.ui.qml</file>
         <file>src/qml/Drawer/SettingsDrawer.qml</file>
@@ -225,5 +225,7 @@
         <file>images/doller.png</file>
         <file>src/qml/Sources.qml</file>
         <file>src/qml/SourcesForm.ui.qml</file>
+        <file>src/qml/SelfHarm/CountdownDate.qml</file>
+        <file>src/qml/SelfHarm/CountdownDateForm.ui.qml</file>
     </qresource>
 </RCC>

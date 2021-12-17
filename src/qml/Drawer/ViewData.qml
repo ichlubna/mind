@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick
 import io.qt.ImporterExporter 1.0
 
 ViewDataForm {

@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick
 
 Breath1Form {
     property int initBreathLength: 5000

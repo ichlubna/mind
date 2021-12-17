@@ -1,7 +1,7 @@
-import QtQuick 2.4
+import QtQuick
 import io.qt.UserDataProvider 1.0
 
-TimerForm {
+CountdownForm {
     title: qsTrId("self-harm-timer")
 
     UserDataProvider {
@@ -9,7 +9,7 @@ TimerForm {
     }
 
     property var running : dataProvider.loadBoolInput("selfHarmTimer")
-    property var lastDate : new Date(dataProvider.loadInput("selfHarmTimerDate"));//new Date("Wed Apr 1 00:00:00 2020 GMT+0200")
+    property var lastDate : new Date(dataProvider.loadInput("selfHarmTimerDate"));
     property var record : dataProvider.loadIntInput("selfHarmTimerRecord");
     property var difference : 0
 
@@ -69,9 +69,7 @@ TimerForm {
         }
         else
         {
-            running = true;
-            button.text = qsTrId("stop");
-            lastDate = new Date();
+            stackView.replace("CountdownDate.qml");
         }
     }
 

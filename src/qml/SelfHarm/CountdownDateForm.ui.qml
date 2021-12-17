@@ -4,7 +4,7 @@ import ".."
 SwipePage{
     property alias okButton: okButton
     property alias recordDate: recordDate
-    title: qsTrId("diary-record-date")
+    title: qsTrId("self-harm-timer")
 
     DatePicker {
         id: recordDate
@@ -12,6 +12,8 @@ SwipePage{
         height: parent.height*0.7
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: parent.top
+        futureYears: 0
+        firstYear: 2015
     }
 
     MenuButton{
@@ -21,5 +23,6 @@ SwipePage{
         anchors.bottom: parent.bottom
         anchors.bottomMargin: parent.height*0.1
         width: parent.width*0.8
+        opacity: (enabled) ? 1.0 : 0.5
     }
 }

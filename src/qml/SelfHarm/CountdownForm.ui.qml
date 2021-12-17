@@ -1,5 +1,5 @@
-import QtQuick 2.4
-import QtQuick.Layouts 1.3
+import QtQuick
+import QtQuick.Layouts
 import ".."
 
 SwipePage {
@@ -17,7 +17,7 @@ SwipePage {
         anchors.margins: 25
         anchors.fill: parent
 
-        TimerResult{
+        CountdownResult{
             id: currentTime
         }
 
@@ -36,7 +36,7 @@ SwipePage {
             Layout.alignment: Qt.AlignHCenter
             Layout.topMargin: 10
         }
-        TimerResult{
+        CountdownResult{
             id: recordTime
             opacity: 0.5
         }

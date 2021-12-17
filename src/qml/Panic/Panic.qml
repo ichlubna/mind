@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick
 import Qt.labs.platform 1.1
 import io.qt.Translator 1.0
 

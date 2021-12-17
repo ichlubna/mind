@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick
 import QtQuick.Controls 2.5
 import QtMultimedia 5.12
 import io.qt.NativeInterface 1.0

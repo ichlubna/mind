@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick
 import QtCharts 2.3
 import QtQuick.Controls 2.5
 import Qt5Compat.GraphicalEffects

@@ -48,4 +48,11 @@ Breath3Form {
                     }}
                 }
                 ScriptAction{script: {phase++;}}
-}}
+}
+       /* Connections {
+            target: sprite
+            Component.onProgressChanged:   {
+                console.log("a")
+            }
+        }*/
+}

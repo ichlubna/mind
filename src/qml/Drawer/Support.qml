@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick
 
 SupportForm {
     livechatooLink.onClicked: Qt.openUrlExternally("http://livechatoo.com/")

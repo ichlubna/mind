@@ -1,4 +1,4 @@
-import QtQuick 2.4
+import QtQuick
 import QtQuick.Controls 2.12
 import QtQuick.Shapes 1.12
 import ".."
@@ -40,40 +40,54 @@ MenuPage {
     }
 
     Shape {
-           id: sprite
-           anchors.fill: parent
-           opacity: 0.5
-           antialiasing: true
+        id: sprite
+        anchors.fill: parent
+        opacity: 0.5
+        antialiasing: true
+        onWidthChanged:  {stackView.pop(); stackView.push("Breath3.qml")}
 
-    ShapePath {
-        id: shape1
-        strokeColor: "white"
-        strokeWidth: 10
-        capStyle: ShapePath.RoundCap
-        startX: page.width*0.1
-        startY: (page.height-topPadding)*0.3
-        PathLine {id: path1Element; x: page.width*0.1; y: (page.height-topPadding)*0.3}
+        ShapePath {
+            id: shape1
+            strokeColor: "white"
+            strokeWidth: 10
+            capStyle: ShapePath.RoundCap
+            startX: page.width * 0.1
+            startY: (page.height - topPadding) * 0.3
+            PathLine {
+                id: path1Element
+                x: page.width * 0.1
+                y: (page.height - topPadding) * 0.3
+            }
+        }
+
+        ShapePath {
+            id: shape2
+            strokeColor: "white"
+            strokeWidth: 10
+            capStyle: ShapePath.RoundCap
+            startX: page.width * 0.9
+            startY: (page.height - topPadding) * 0.3
+            PathLine {
+                id: path2Element
+                x: page.width * 0.9
+                y: (page.height - topPadding) * 0.3
+            }
+        }
+
+        ShapePath {
+            id: shape3
+            strokeColor: "white"
+            strokeWidth: 10
+            capStyle: ShapePath.RoundCap
+            startX: page.width * 0.5
+            startY: (page.height - topPadding) * 0.8
+            PathLine {
+                id: path3Element
+                x: page.width * 0.5
+                y: (page.height - topPadding) * 0.8
+            }
+        }
     }
-
-    ShapePath {
-        id: shape2
-        strokeColor: "white"
-        strokeWidth: 10
-        capStyle: ShapePath.RoundCap
-        startX: page.width*0.9
-        startY: (page.height-topPadding)*0.3
-        PathLine {id: path2Element; x: page.width*0.9; y: (page.height-topPadding)*0.3}
-    }
-
-    ShapePath {
-        id: shape3
-        strokeColor: "white"
-        strokeWidth: 10
-        capStyle: ShapePath.RoundCap
-        startX: page.width*0.5
-        startY: (page.height-topPadding)*0.8
-        PathLine {id: path3Element; x: page.width*0.5; y: (page.height-topPadding)*0.8}
-    }}
 
     MenuSlider {
         id: breathSlider
@@ -82,11 +96,10 @@ MenuPage {
         anchors.bottom: parent.bottom
     }
 
-    DescriptionLabel{
+    DescriptionLabel {
         text: qsTrId("breathe-slider")
         anchors.bottom: breathSlider.top
         width: parent.width
         horizontalAlignment: Text.AlignHCenter
     }
 }
-
