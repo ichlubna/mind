@@ -15,7 +15,7 @@ Menu{
                     {type: "text", question : qsTrId("journal-improve")}
                     ],
             }},
-            {text: qsTrId("food-records"), file: "MyRecords/Records.qml", pushProperties: {"titleText" : qsTrId("food-records"), "dateOnly" : true, "sendingEnabled" : true, "afterDateFile" : "FoodChoice.qml",
+            {text: qsTrId("food-records"), file: "MyRecords/Records.qml", pushProperties: {"titleText" : qsTrId("food-records"), "dateOnly" : true, "sendingEnabled" : false, "afterDateFile" : "FoodChoice.qml",
                 "questionTexts" : [
                     {type: "text", question : qsTrId("food-record-when")},
                     {type: "text", question : qsTrId("food-record-where")},

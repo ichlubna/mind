@@ -1,5 +1,5 @@
-import QtQuick 2.5
-import io.qt.MathEngine 1.0
+import QtQuick
+import io.qt.MathEngine
 
 BallsForm {
     MathEngine{id: mathEngine}

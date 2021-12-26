@@ -1,5 +1,5 @@
-import QtQuick.Controls 2.12
-import QtQuick 2.12
+import QtQuick.Controls
+import QtQuick
 
 ComboBox {
     width: parent.width*0.9

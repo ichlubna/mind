@@ -1,8 +1,8 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.2
-import QtQuick.Layouts 1.12
-import io.qt.UserDataProvider 1.0
-import io.qt.Translator 1.0
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Layouts 
+import io.qt.UserDataProvider
+import io.qt.Translator
 import Qt5Compat.GraphicalEffects
 import ".."
 

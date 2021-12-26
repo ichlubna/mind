@@ -283,11 +283,11 @@ bool UserDataProvider::exists(QString id)
 
 QList<QString> UserDataProvider::loadArrayInput(QString id)
 {
-    QList<QString> values;
     int size = settings.beginReadArray(id);
+    QList<QString> values(size);
     for (int i = 0; i < size; ++i) {
         settings.setArrayIndex(i);
-        values.append(settings.value("value").toString());
+        values[i]=settings.value("value").toString();
     }
     settings.endArray();
     return values;

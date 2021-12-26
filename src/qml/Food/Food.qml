@@ -1,5 +1,5 @@
 import QtQuick
-import io.qt.Translator 1.0
+import io.qt.Translator
 
 FoodForm {   
     Translator {

@@ -1,5 +1,5 @@
 import QtQuick
-import io.qt.MathEngine 1.0
+import io.qt.MathEngine
 
 BalanceForm {
     MathEngine{id: mathEngine}

@@ -1,5 +1,5 @@
 import QtQuick
-import Qt.labs.platform 1.1
+import Qt.labs.platform
 import QtQml 2.14
 import io.qt.ImporterExporter 1.0
 

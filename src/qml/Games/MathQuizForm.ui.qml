@@ -12,7 +12,9 @@ MenuPage {
 
     Image {
             id: anim
-            anchors.fill: parent
+            anchors.centerIn: parent
+            width: parent.width*0.5
+            height: width
             fillMode: Image.PreserveAspectFit
             opacity: 0.0
             z: 10

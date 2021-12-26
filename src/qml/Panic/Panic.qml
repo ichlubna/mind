@@ -1,6 +1,6 @@
 import QtQuick
-import Qt.labs.platform 1.1
-import io.qt.Translator 1.0
+import Qt.labs.platform
+import io.qt.Translator
 
 PanicForm {
     Translator {

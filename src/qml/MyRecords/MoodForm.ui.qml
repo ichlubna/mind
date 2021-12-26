@@ -1,6 +1,6 @@
 import QtQuick
 import QtCharts 2.3
-import QtQuick.Controls 2.5
+import QtQuick.Controls
 import Qt5Compat.GraphicalEffects
 import ".."
 

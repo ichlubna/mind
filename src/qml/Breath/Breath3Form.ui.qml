@@ -44,8 +44,6 @@ MenuPage {
         anchors.fill: parent
         opacity: 0.5
         antialiasing: true
-        onWidthChanged:  {stackView.pop(); stackView.push("Breath3.qml")}
-
         ShapePath {
             id: shape1
             strokeColor: "white"

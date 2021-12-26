@@ -6,7 +6,7 @@ Menu{
     items: [{text: qsTrId("food-tips"), file: "Food/Tips/Tips.qml"},
             {text: qsTrId("food-tasks"), file: "Food/Tasks/Tasks.qml"},
             {text: qsTrId("food-dishes"), file: "Food/Dishes/Dishes.qml"},
-            {text: qsTrId("distraction"), file: "Food/Distraction.qml"},
+            {text: qsTrId("distraction"), file: "Distraction.qml"},
             {text: qsTrId("food-contact"), file: "Food/Contact.qml", excluded: czSkRuOnly},
             {text: qsTrId("sources"), file: "Sources.qml", pushProperties: {"section" : "food"}},
             ]

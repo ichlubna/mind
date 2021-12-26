@@ -1,9 +1,9 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.14
-import Qt.labs.folderlistmodel 2.14
-import Qt.labs.platform 1.1
-import io.qt.UserDataProvider 1.0
-import io.qt.NativeInterface 1.0
+import QtQuick
+import QtQuick.Controls
+import Qt.labs.folderlistmodel
+import Qt.labs.platform
+import io.qt.UserDataProvider
+import io.qt.NativeInterface
 
 SwipePage {
     id: picker

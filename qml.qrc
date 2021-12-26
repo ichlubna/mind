@@ -59,10 +59,10 @@
         <file>src/qml/AddButton.qml</file>
         <file>src/qml/ArrayUpdater.qml</file>
         <file>src/qml/ArrayUpdaterForm.ui.qml</file>
-        <file>src/qml/Games/Breath1.qml</file>
-        <file>src/qml/Games/Breath1Form.ui.qml</file>
-        <file>src/qml/Games/Breath2.qml</file>
-        <file>src/qml/Games/Breath2Form.ui.qml</file>
+        <file>src/qml/Breath/Breath1.qml</file>
+        <file>src/qml/Breath/Breath1Form.ui.qml</file>
+        <file>src/qml/Breath/Breath2.qml</file>
+        <file>src/qml/Breath/Breath2Form.ui.qml</file>
         <file>src/qml/Contacts/Center.qml</file>
         <file>src/qml/Contacts/CenterForm.ui.qml</file>
         <file>src/qml/Contacts/Chat.qml</file>
@@ -80,8 +80,8 @@
         <file>src/qml/Home.qml</file>
         <file>src/qml/HomeForm.ui.qml</file>
         <file>src/qml/main.qml</file>
-        <file>src/qml/Games/Math.qml</file>
-        <file>src/qml/Games/MathForm.ui.qml</file>
+        <file>src/qml/Games/MathQuiz.qml</file>
+        <file>src/qml/Games/MathQuizForm.ui.qml</file>
         <file>src/qml/MenuButton.qml</file>
         <file>src/qml/MenuCheckBox.qml</file>
         <file>src/qml/MenuColumn.qml</file>
@@ -137,10 +137,10 @@
         <file>src/qml/Food/Food.qml</file>
         <file>src/qml/Food/FoodForm.ui.qml</file>
         <file>src/qml/SwipeStories.qml</file>
-        <file>src/qml/Food/Distraction.qml</file>
-        <file>src/qml/Food/DistractionForm.ui.qml</file>
-        <file>src/qml/Games/Breath3.qml</file>
-        <file>src/qml/Games/Breath3Form.ui.qml</file>
+        <file>src/qml/Distraction.qml</file>
+        <file>src/qml/DistractionForm.ui.qml</file>
+        <file>src/qml/Breath/Breath3.qml</file>
+        <file>src/qml/Breath/Breath3Form.ui.qml</file>
         <file>src/qml/Contacts/Universities.qml</file>
         <file>src/qml/Contacts/UniversitiesForm.ui.qml</file>
         <file>src/qml/MyRecords/MyRecords.qml</file>
@@ -157,8 +157,8 @@
         <file>src/qml/Player.qml</file>
         <file>src/qml/PlayerForm.ui.qml</file>
         <file>src/qml/Shadow.qml</file>
-        <file>src/qml/Breath.qml</file>
-        <file>src/qml/BreathForm.ui.qml</file>
+        <file>src/qml/Breath/Breath.qml</file>
+        <file>src/qml/Breath/BreathForm.ui.qml</file>
         <file>src/qml/Drawer/ImportExport.qml</file>
         <file>src/qml/Drawer/ImportExportForm.ui.qml</file>
         <file>src/qml/MyRecords/FoodChoice.qml</file>
@@ -227,5 +227,9 @@
         <file>src/qml/SourcesForm.ui.qml</file>
         <file>src/qml/SelfHarm/CountdownDate.qml</file>
         <file>src/qml/SelfHarm/CountdownDateForm.ui.qml</file>
+        <file>src/qml/Games/Games.qml</file>
+        <file>src/qml/Games/GamesForm.ui.qml</file>
+        <file>src/qml/Games/NumbersExercise.qml</file>
+        <file>src/qml/Games/NumbersExerciseForm.ui.qml</file>
     </qresource>
 </RCC>

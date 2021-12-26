@@ -1,10 +1,10 @@
 import QtQuick
-import QtMultimedia 5.12
-import QtQuick.Controls 2.2
+import QtMultimedia
+import QtQuick.Controls
 
 SwipePage {
-    property var file: ""
-    property var titleText: ""
+    property string file: ""
+    property string titleText: ""
 
     property alias playButton: playButton
     property alias mediaPlayer: mediaPlayer
@@ -15,9 +15,8 @@ SwipePage {
 
     MediaPlayer {
            id: mediaPlayer
-           muted: false
-           volume: 1.0
            source: file
+           audioOutput: AudioOutput {}
     }
 
     DescriptionLabel{

@@ -1,5 +1,5 @@
 import QtQuick
-import io.qt.UserDataProvider 1.0
+import io.qt.UserDataProvider
 
 ArrayUpdaterForm {
     property int count: 0
@@ -9,9 +9,9 @@ ArrayUpdaterForm {
     //name of the array in data provider, order according to type
     property var arrayNames: []
     //L - list, LC - list and checkbox, C - contacts
-    property var type: "L"
-    property var headerText: ""
-    property var titleText: ""
+    property string type: "L"
+    property string headerText: ""
+    property string titleText: ""
     property var textItem: null
     property var checkBoxItem: null
     property var removeItem: null

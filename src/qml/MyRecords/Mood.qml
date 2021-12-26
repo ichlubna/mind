@@ -1,5 +1,5 @@
 import QtQuick
-import io.qt.UserDataProvider 1.0
+import io.qt.UserDataProvider
 
 MoodForm {
     property var moods;

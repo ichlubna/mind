@@ -1,7 +1,7 @@
 import QtQuick
-import io.qt.MathEngine 1.0
+import io.qt.MathEngine
 
-MathForm{
+MathQuizForm{
     MathEngine{id: mathEngine}
     exercise.text: mathEngine.getNewExercise()
 

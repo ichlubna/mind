@@ -7,7 +7,7 @@ Menu{
             {text: qsTrId("self-harm-helped"), file: "ArrayUpdater.qml", pushProperties: {"titleText" : qsTrId("self-harm-helped"), "headerText" : qsTrId("self-harm-helped-header"), "arrayNames" : ["selfHarmHelped"]}},
             {text: qsTrId("plan"), file: "Plan.qml", pushProperties: {"arrayId" : "selfHarmPlan" ,"questions" : selfHarmPlanQuestions}},
             {text: qsTrId("self-harm-timer"), file:  "SelfHarm/Countdown.qml"},
-            {text: qsTrId("breath"), file:  "Breath.qml"},
+            {text: qsTrId("breath"), file:  "Breath/Breath.qml"},
             {text: qsTrId("sources"), file: "Sources.qml", pushProperties: {"section" : "selfHarm"}},
             ]
 }

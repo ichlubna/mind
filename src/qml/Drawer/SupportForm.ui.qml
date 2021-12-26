@@ -1,6 +1,6 @@
 import QtQuick
-import QtQuick.Layouts 1.12
-import QtQuick.Controls 2.5
+import QtQuick.Layouts 
+import QtQuick.Controls
 import ".."
 
 MenuPage {

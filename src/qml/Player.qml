@@ -1,8 +1,8 @@
 import QtQuick
-import QtQuick.Controls 2.5
-import QtMultimedia 5.12
-import io.qt.NativeInterface 1.0
-import io.qt.UserDataProvider 1.0
+import QtQuick.Controls
+import QtMultimedia
+import io.qt.NativeInterface
+import io.qt.UserDataProvider
 import "."
 
 PlayerForm {
@@ -27,23 +27,19 @@ PlayerForm {
             mediaPlayer.play();
     }
 
-    mediaPlayer.onPaused: {bckg.source = "qrc:/images/play.svg"}
-    mediaPlayer.onPlaying: {bckg.source = "qrc:/images/pause.svg"}
+    mediaPlayer.onPlaybackStateChanged: {bckg.source = (mediaPlayer.playbackState === MediaPlayer.PlayingState) ? "qrc:/images/pause.svg" : "qrc:/images/play.svg"}
     playButton.onPressed: {bckg.opacity = 1.0}
     playButton.onPressedChanged: {bckg.opacity = 0.7}
-    timeSlider.onPressedChanged: {mediaPlayer.seek(timeSlider.value*mediaPlayer.duration)}
+    timeSlider.onPressedChanged: {mediaPlayer.position = timeSlider.value*mediaPlayer.duration}
     timeSlider.onValueChanged: {timeText.text = msToTime(timeSlider.value*mediaPlayer.duration)+"/"+durationTime}
-
-    Connections{
-        target: mediaPlayer
-        onStatusChanged: {
-            if(mediaPlayer.status === MediaPlayer.Loaded)
-            {
-                nativeInterface.setScreenLock(false);
-                durationTime = msToTime(mediaPlayer.duration)
-            }
+    mediaPlayer.onMediaStatusChanged: {
+        if(mediaPlayer.mediaStatus === MediaPlayer.LoadedMedia)
+        {
+            nativeInterface.setScreenLock(false);
+            durationTime = msToTime(mediaPlayer.duration)
         }
     }
+
 
     StackView.onDeactivating:{
         nativeInterface.setScreenLock(true);

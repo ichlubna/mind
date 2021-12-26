@@ -1,6 +1,6 @@
-﻿import QtQuick 2.9
-import QtQuick.Controls 2.12
-import QtQuick.Layouts 1.12
+﻿import QtQuick
+import QtQuick.Controls
+import QtQuick.Layouts
 import ".."
 
 MenuPage {
@@ -60,7 +60,7 @@ MenuPage {
                    MouseArea {
                         anchors.fill: parent
                         Connections {
-                            onClicked: {
+                            function onClicked() {
                                 stackView.push(afterDateFile, {"dataRecordIndex": position, "arrayNames" : arrayNames, "questionTexts" : questionTexts, "titleText" : titleText})
                             }
                         }

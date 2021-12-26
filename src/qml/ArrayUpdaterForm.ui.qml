@@ -1,6 +1,6 @@
-import QtQuick 2.14
-import QtQuick.Controls 2.12
-import QtQuick.Layouts 1.12
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Layouts
 import "."
 
 MenuPage {
@@ -55,7 +55,7 @@ MenuPage {
                         MouseArea {
                             anchors.fill: parent
                             Connections {
-                                onClicked: {
+                                function onClicked() {
                                     call(index)
                                 }
                             }
@@ -71,7 +71,7 @@ MenuPage {
                         MouseArea {
                             anchors.fill: parent
                             Connections {
-                                onClicked: {
+                                function onClicked() {
                                     sms(index)
                                 }
                             }
@@ -100,7 +100,7 @@ MenuPage {
                         anchors.bottom: parent.bottom
                         visible: twoInputs
                         Connections {
-                        onTextChanged: checkContact(index)}
+                        function onTextChanged() {checkContact(index)}}
                     }
                 }
             }

@@ -1,12 +1,12 @@
 import QtQuick
-import io.qt.UserDataProvider 1.0
+import io.qt.UserDataProvider
 
 RecordsForm {
     property int count: 0
-    property var dateOnly : false
-    property var sendingEnabled : false
-    property var afterDateFile : "Record.qml"
-    property var titleText : ""
+    property bool dateOnly : false
+    property bool sendingEnabled : false
+    property string afterDateFile : "Record.qml"
+    property string titleText : ""
     property var arrayNames : []
     property var questionTexts: []
 
@@ -20,8 +20,7 @@ RecordsForm {
         for (var i = 0; i < count; i++) {
             var listIndex = (count-1)-i;
             records.itemAt(listIndex).position = i;
-            //the string could be trimmed here before split (speed) - TODO if needed
-            var recordValues = values[i].split("|");
+            var recordValues = values[i].slice(0,25).split("|");
             if(dateOnly)
             {
                 for(var j = 1; j < recordValues.length; j++)
@@ -29,7 +28,7 @@ RecordsForm {
                 records.itemAt(listIndex).children[0].text = recordValues[0];;
             }
             else
-                records.itemAt(listIndex).children[0].text = (recordValues[0]+" - "+recordValues[1].trim().slice(0,13)+"...").replace(/(\r\n|\n|\r)/gm, " ");;
+                records.itemAt(listIndex).children[0].text = (recordValues[0]+" - "+recordValues[1]+"...").replace(/(\r\n|\n|\r)/gm, " ");
         }
     }
 
@@ -38,13 +37,13 @@ RecordsForm {
         Component.onCompleted: {
                 fill();
         }
-        onVisibleChanged: {
+        function onVisibleChanged() {
                 fill();
         }}
 
     Connections {
         target: addButton
-        onClicked: {
+        function onClicked() {
             stackView.push("RecordDate.qml", {"afterDateFile" : afterDateFile, "arrayNames" : arrayNames, "questionTexts" : questionTexts, "titleText" : titleText})
             if (viewContainer.contentHeight > viewContainer.height)
                 viewContainer.contentItem.contentY = viewContainer.contentHeight
@@ -54,7 +53,7 @@ RecordsForm {
 
     Connections {
         target: sendArea
-        onClicked: {
+        function onClicked() {
            stackView.push("SendRecords.qml")
         }
     }
