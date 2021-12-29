@@ -5,8 +5,8 @@ MessageForm {
     UserDataProvider {
         id: dataProvider
     }
-    property var addressName : "contactMessageAddress"
-    property var messageName : "contactMessageBody"
+    property string addressName : "contactMessageAddress"
+    property string messageName : "contactMessageBody"
 
     Connections {
         target: wrapper
@@ -14,7 +14,7 @@ MessageForm {
             address.text = dataProvider.loadInput(addressName);
             message.text = dataProvider.loadInput(messageName);
         }
-        onVisibleChanged: {
+        function onVisibleChanged() {
             dataProvider.saveInput(addressName, address.text);
             dataProvider.saveInput(messageName, message.text);
         }
@@ -25,5 +25,9 @@ MessageForm {
         Qt.openUrlExternally("mailto:"+address.text+"?subject="+qsTrId("appName")+"&body="+message.text);
      else
         Qt.openUrlExternally("sms:"+address.text+"?&body="+message.text);
+    }
+
+    dontpanic.onClicked: {
+        Qt.openUrlExternally("mailto:dobrovolnici@nepanikar.eu?subject="+qsTrId("appName")+"&body="+message.text);
     }
 }

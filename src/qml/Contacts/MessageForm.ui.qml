@@ -6,6 +6,8 @@ SwipePage{
     property alias address: address
     property alias message: message
     property alias send: send
+    property alias wrapper: wrapper
+    property alias dontpanic: dontpanic
     title: qsTrId("contacts-message")
 
     InputScrollView{
@@ -38,6 +40,13 @@ SwipePage{
                 Layout.preferredWidth: parent.width*0.8
                 Layout.alignment: Qt.AlignHCenter
                 text: qsTrId("send")
+            }
+
+            MenuButton{
+                id: dontpanic
+                Layout.preferredWidth: parent.width*0.8
+                Layout.alignment: Qt.AlignHCenter
+                text: qsTrId("send-dontpanic")
             }
         }
     }

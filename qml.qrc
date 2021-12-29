@@ -231,5 +231,9 @@
         <file>src/qml/Games/GamesForm.ui.qml</file>
         <file>src/qml/Games/NumbersExercise.qml</file>
         <file>src/qml/Games/NumbersExerciseForm.ui.qml</file>
+        <file>src/qml/Games/Obstacles.qml</file>
+        <file>src/qml/Games/ObstaclesForm.ui.qml</file>
+        <file>src/qml/Games/Thorns.qml</file>
+        <file>src/qml/Games/ThornsForm.ui.qml</file>
     </qresource>
 </RCC>
