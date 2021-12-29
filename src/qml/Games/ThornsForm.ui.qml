@@ -1,41 +1,57 @@
 import QtQuick
+import QtQuick.Shapes
 import ".."
 
 MenuPage {
-    property alias anim: anim
+    property alias slashArea: slashArea
+    property alias thorns: thorns
+    property alias core: core
     title: qsTrId("game-thorns")
 
+    Shape {
+        anchors.fill: parent
+        opacity: 0.5
+        visible: slashing
+        antialiasing: true
+    ShapePath {
+        strokeColor: "white"
+        strokeWidth: 5
+        fillColor: "transparent"
+        capStyle: ShapePath.RoundCap
+        startX: slashStartX
+        startY: slashStartY
+        PathLine { x: slashEndX; y: slashEndY; }
+    }}
+
     Repeater {
-        id: obstacles
-        model: obstaclesNum
+        id: thorns
+        anchors.fill: parent
+        model: thornsNum
         Rectangle {
-            height: parent.width * 0.25
-            width: height
-            color: "red"
-            radius: width * 0.5
-            property bool wanted: false
+            property var directionX
+            property var directionY
+            property var thornRotation
+            width: parent.height * 0.5
+            height: width*0.1
+            color: "white"
             opacity: 0.5
-            MouseArea {
-                id: a
-                anchors.fill: parent
-                Connections {
-                    target: a
-                    onClicked: {
-                        hit(index)
-                    }
-                }
-            }
-        }
+            transform: Rotation { angle: thornRotation}
+    }}
+
+    MouseArea
+    {
+        id: slashArea
+        anchors.fill: parent
+        hoverEnabled: true
     }
 
     Image {
-            id: anim
+            id: core
             anchors.centerIn: parent
-            width: parent.width*0.5
+            width: parent.width*0.2
             height: width
             fillMode: Image.PreserveAspectFit
-            opacity: 0.0
-            z: 10
+            source: "qrc:/images/emoticon1.svg"
     }
 
 }
