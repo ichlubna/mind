@@ -9,6 +9,7 @@ Button {
     property var pushProperties: ({})
 
     width: parent.width
+    opacity: (enabled) ? 1.0 : 0.3
     background: Rectangle {
         id: bckg
         gradient: Gradient {

@@ -3,10 +3,30 @@ import io.qt.UserDataProvider
 
 MoodForm {
     property var moods;
-    property var arrayName : "moods";
-    property var headerText : "";
-    property var titleText : "";
-    property var helpPopup : true;
+    property string arrayName : "moods";
+    property string headerText : "";
+    property string titleText : "";
+    property bool helpPopup : true;
+    property bool dataAvailable: true
+    property int length: 0
+
+    function sliderToLast(count)
+    {
+        range.first.value = (count > 0) ? length-count : 0;
+        draw();
+    }
+
+    weekButton.onClicked: {
+        sliderToLast(7);
+    }
+
+    monthButton.onClicked: {
+        sliderToLast(30);
+    }
+
+    allButton.onClicked: {
+        sliderToLast(-1);
+    }
 
     UserDataProvider {
         id: dataProvider
@@ -21,33 +41,33 @@ MoodForm {
 
     function draw()
     {
-        if(moods.length <= 1)
-        {
-            chartView.visible = false;
-            noData.visible = true;
-            return;
-        }
-        else
-        {
-            chartView.visible = true;
-            noData.visible = false;
-        }
-
+        length = moods.length
+        dataAvailable = moods.length > 1;
         chart.clear();
 
-        for(var i=range.first.value; i<=range.second.value; i++)
+        var start = Math.floor(range.first.value);
+        var end = Math.floor(range.second.value);
+
+        for(var i=start; i<=end; i++)
         {
             var moodString = moods[i];
             var mood = moodString.split('|');
             chart.append(new Date(mood[0]), parseInt(mood[1]));
         }
-        chart.axisX.min = new Date(moods[range.first.value].split('|')[0]);
-        chart.axisX.max = new Date(moods[range.second.value].split('|')[0]);
+        chart.axisX.min = new Date(moods[start].split('|')[0]);
+        chart.axisX.max = new Date(moods[end].split('|')[0]);
     }
 
     function init()
     {
-        moods = dataProvider.loadArrayInput(arrayName);
+        moods = []; //dataProvider.loadArrayInput(arrayName);
+        for(var i=100; i>0; i--)
+        {
+             moods.push(new Date());
+             moods[moods.length-1].setDate(moods[moods.length-1].getDate() - i);
+             moods[moods.length-1] += "|" + (1+Math.floor(Math.random()*5)-1);
+        }
+
 
         if(moods.length === 0)
             return;

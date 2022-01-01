@@ -12,12 +12,16 @@ MenuPage {
     property alias range: range
     property alias chartView: chartView
     property alias noData: noData
+    property alias monthButton: monthButton
+    property alias weekButton: weekButton
+    property alias allButton: allButton
 
     title: titleText
 
     DescriptionLabel {
         id: moodText
         text: headerText
+        anchors.bottomMargin: 10
     }
 
     Row {
@@ -41,7 +45,7 @@ MenuPage {
                     anchors.fill: parent
 
                     Connections {
-                    onClicked: {
+                    function onClicked() {
                         save(emoticons.count-index); emoticonAnim.start();}}
                 }
                 SequentialAnimation {
@@ -62,6 +66,38 @@ MenuPage {
         }
     }
 
+    DescriptionLabel{
+        id: daysText
+        anchors.top: emoticonsRow.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottomMargin: 10
+        text: qsTrId("days")
+    }
+
+    MenuButton{
+        id: weekButton
+        width: parent.width*0.28
+        anchors.left: parent.left
+        anchors.top: daysText.bottom
+        text: "7"
+        enabled: length > 6
+    }
+    MenuButton{
+        id: monthButton
+        width: parent.width*0.28
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: daysText.bottom
+        text: "30"
+        enabled: length > 29
+    }
+    MenuButton{
+        id: allButton
+        width: parent.width*0.28
+        anchors.right: parent.right
+        anchors.top: daysText.bottom
+        text: qsTrId("all")
+    }
+
     DescriptionLabel {
         id: noData
         text: qsTrId("mood-no-data")
@@ -70,35 +106,38 @@ MenuPage {
         anchors.bottomMargin: 70
         horizontalAlignment: "AlignHCenter"
         anchors.horizontalCenter: parent.horizontalCenter
-        visible: false
+        visible: !dataAvailable
     }
+
+ /*   Column {
+        id: legend
+        //anchors.fill: parent
+        anchors.top: parent.top
+        //spacing: parent.height * 0.06
+        height: parent.height
+        width: parent.width
+        Repeater{
+            model: 5
+            Image {
+                source: "qrc:/images/emoticon"+(index+1)+".svg"
+                fillMode: Image.PreserveAspectFit
+                width: parent.width
+                height: parent.height * 0.1
+            }
+        }
+    }  */
 
     ChartView {
         id: chartView
         antialiasing: true
         backgroundColor: "transparent"
         legend.visible: false
-        height: parent.height * 0.7
+        height: parent.height * 0.5
         width: parent.width
-        visible: false
-        anchors.top: emoticonsRow.bottom
+        visible: dataAvailable
+        anchors.topMargin: 20
+        anchors.top: weekButton.bottom
 
-        Column {
-            anchors.top: parent.top
-            anchors.topMargin: parent.height * 0.1
-            height: chartView.height
-            spacing: parent.height * 0.06
-            width: parent.width * 0.1
-            Repeater{
-                model: 5
-                Image {
-                    source: "qrc:/images/emoticon"+(index+1)+".svg"
-                    fillMode: Image.PreserveAspectFit
-                    width: parent.width
-                    height: parent.height * 0.1
-                }
-            }
-        }
         LineSeries {
             id: chart
             width: 5
