@@ -95,7 +95,7 @@ MenuPage {
         width: parent.width*0.28
         anchors.right: parent.right
         anchors.top: daysText.bottom
-        text: qsTrId("all")
+        text: length
     }
 
     DescriptionLabel {

@@ -2,6 +2,7 @@ import QtQuick
 import io.qt.UserDataProvider
 
 ArrayUpdaterForm {
+    property int itemsLimit: 100
     property int count: 0
     property var values: []
     property var values2: []

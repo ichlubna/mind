@@ -8,13 +8,53 @@ MenuPage {
     property alias sendArea: sendArea
     property alias records: records
     property alias viewContainer: viewContainer
-    property var col1Ratio: 0.3
-    property var col2Ratio: 0.7
+    property alias dateText: dateText
+    property alias rightButton: rightButton
+    property alias leftButton: leftButton
+    property real col1Ratio: 0.3
+    property real col2Ratio: 0.7
     title: titleText
     id: viewContainer
 
+    DescriptionLabel{
+        id: dateText
+        anchors.top: parent.top
+        height: font.pointSize*2
+        width: parent.width*0.5
+        horizontalAlignment: Text.AlignHCenter
+        verticalAlignment:  Text.AlignVCenter
+        anchors.horizontalCenter: parent.horizontalCenter
+    }
+
+    Button {
+        id: leftButton
+        background: Image {
+            source: "qrc:/images/arrow.svg"
+            fillMode: Image.PreserveAspectFit
+        }
+        anchors.left: parent.left
+        anchors.verticalCenter: dateText.verticalCenter
+        width: parent.width * 0.1
+        height: dateText.height
+    }
+
+    Button {
+        id: rightButton
+        background: Image {
+            source: "qrc:/images/arrow.svg"
+            fillMode: Image.PreserveAspectFit
+            rotation: 180
+        }
+        anchors.right: parent.right
+        anchors.verticalCenter: dateText.verticalCenter
+        width: parent.width * 0.1
+        height: dateText.height
+    }
+
     ScrollView {
-        anchors.fill: parent
+        anchors.top: dateText.bottom
+        width: parent.width
+        height: parent.height-dateText.height
         clip: true
         contentWidth: column.width
         contentHeight: column.height

@@ -293,6 +293,101 @@ QList<QString> UserDataProvider::loadArrayInput(QString id)
     return values;
 }
 
+bool isEntryValid(QString entry, int month, int year)
+{
+  if (entry == "")
+    return false;
+  entry.truncate(entry.indexOf('|', 8));
+  auto dateValues = entry.split('.');
+  if(dateValues[1].toInt() == month && dateValues[2].toInt() == year)
+    return true;
+  else
+    return false;
+}
+
+bool isEntryLower(QString entry, int month, int year)
+{
+    if (entry == "")
+      return false;
+    entry.truncate(entry.indexOf('|', 8));
+    auto dateValues = entry.split('.');
+    if(dateValues[2].toInt() < year)
+        return true;
+    else if(dateValues[1].toInt() < month)
+      return true;
+    else
+      return false;
+}
+
+int UserDataProvider::findOccurence(QString id, int month, int year) {
+    int start=0;
+    int size = settings.beginReadArray(id);
+    int end=size-1;
+    while (start<=end){
+        int mid=floor((start + end)/2);
+        settings.setArrayIndex(mid);
+        auto value = settings.value("value").toString();
+        if(isEntryValid(value, month, year))
+        {
+            settings.endArray();
+            return mid;
+        }
+
+        else if (isEntryLower(value, month, year))
+             start = mid + 1;
+        else
+             end = mid - 1;
+    }
+    settings.endArray();
+    return -1;
+}
+
+std::pair<int, int> UserDataProvider::findRange(QString id, int month, int year, int initial)
+{
+    std::pair range{0,0};
+    if(initial<0) return range;
+     int i = initial;
+     int size = settings.beginReadArray(id);
+
+     settings.setArrayIndex(i);
+     auto value = settings.value("value").toString();
+     while(isEntryValid(value, month, year) && i<size)
+     {
+         settings.setArrayIndex(i);
+         value = settings.value("value").toString();
+         i++;
+     }
+     range.second = i-1;
+
+     i = initial;
+     settings.setArrayIndex(i);
+     value = settings.value("value").toString();
+     while(isEntryValid(value, month, year) && i>-1)
+     {
+         settings.setArrayIndex(i);
+         value = settings.value("value").toString();
+         i--;
+     }
+     range.first = i+1;
+     settings.endArray();
+     return range;
+}
+
+QList<QString> UserDataProvider::loadArrayInputMonth(QString id, int month, int year)
+{
+    auto range = findRange(id, month, year, findOccurence(id, month, year));
+    settings.beginReadArray(id);
+    QList<QString> values(range.second-range.first);
+    int j = 0;
+    for (int i = range.first; i < range.second; i++) {
+        settings.setArrayIndex(i);
+        values[j]=settings.value("value").toString();
+        j++;
+    }
+    settings.endArray();
+    return values;
+}
+
 void UserDataProvider::resetInputs(QList<bool> params)
 {
     if(params[resetParameter::REASONS])

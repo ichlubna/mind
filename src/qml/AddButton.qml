@@ -6,6 +6,7 @@ RoundButton {
     id: addButton
     width: 60
     height: 60
+    opacity: (enabled) ? 1.0 : 0.3
     background: Rectangle {
         id: bckg
         radius: parent.radius

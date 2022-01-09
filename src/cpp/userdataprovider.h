@@ -24,6 +24,7 @@ public:
     Q_INVOKABLE int loadIntInput(QString id);
     Q_INVOKABLE float loadFloatInput(QString id);
     Q_INVOKABLE QList<QString> loadArrayInput(QString id);
+    Q_INVOKABLE QList<QString> loadArrayInputMonth(QString id, int month, int year);
     Q_INVOKABLE int addToSortedArray(QString id, QString value, int index);
     Q_INVOKABLE void removeFromArray(QString id, int index);
     Q_INVOKABLE QString getFromArray(QString id, int index);
@@ -50,6 +51,8 @@ private:
     void checkDefault(CustomInput input);
     void translateDefault(CustomInput input);
     QList<QString> parseList(QString input);
+    int findOccurence(QString id, int month, int year);
+    std::pair<int, int> findRange(QString id, int month, int year, int initial);
     QSettings settings;
 };
 

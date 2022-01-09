@@ -137,6 +137,7 @@ MenuPage {
         anchors.bottom: parent.bottom
         anchors.right: parent.right
         anchors.margins: 5
+        enabled: count < itemsLimit
     }
 }
 

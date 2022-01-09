@@ -7,20 +7,43 @@ RecordsForm {
     property bool sendingEnabled : false
     property string afterDateFile : "Record.qml"
     property string titleText : ""
+    property int selectedYear : new Date().getFullYear()
+    property int selectedMonth : new Date().getMonth()+1
     property var arrayNames : []
     property var questionTexts: []
+    property var values: []
 
     UserDataProvider {
         id: dataProvider
     }
-    function fill() {
-        var values = dataProvider.loadArrayInput(arrayNames[0]);
-        var count = values.length;
+
+    function shiftMonth(direction)
+    {
+        selectedMonth += direction;
+        if(selectedMonth < 1)
+        {
+            selectedMonth = 12;
+            selectedYear--;
+        }
+        else if(selectedMonth > 12)
+        {
+            selectedMonth = 1;
+            selectedYear++;
+        }
+        fill();
+    }
+
+    rightButton.onClicked: shiftMonth(1)
+    leftButton.onClicked: shiftMonth(-1)
+
+    function fillModel(modelEntries)
+    {
+        var count = modelEntries.length;
         records.model = count;
         for (var i = 0; i < count; i++) {
             var listIndex = (count-1)-i;
             records.itemAt(listIndex).position = i;
-            var recordValues = values[i].slice(0,25).split("|");
+            var recordValues = modelEntries[i].slice(0,25).split("|");;
             if(dateOnly)
             {
                 for(var j = 1; j < recordValues.length; j++)
@@ -30,6 +53,14 @@ RecordsForm {
             else
                 records.itemAt(listIndex).children[0].text = (recordValues[0]+" - "+recordValues[1]+"...").replace(/(\r\n|\n|\r)/gm, " ");
         }
+    }
+
+    function fill() {
+        dateText.text = selectedMonth + "/" + selectedYear;
+        var count = values.length;
+        records.model = count;
+        var modelEntries = dataProvider.loadArrayInputMonth(arrayNames[0], selectedMonth, selectedYear);
+        fillModel(modelEntries);
     }
 
     Connections {
