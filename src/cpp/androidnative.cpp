@@ -1,6 +1,9 @@
-#include <QtAndroidExtras/QtAndroid>
+//#include <QtAndroidExtras/QtAndroid>
+#include <QtCore/private/qandroidextras_p.h>
 #include <QVector>
-#include <QAndroidJniEnvironment>
+#include <QJniObject>
+#include <QJniEnvironment>
+
 #include "androidnative.h"
 
 
@@ -9,10 +12,10 @@ bool requestAndroidPermissions(){
                                         "android.permission.READ_EXTERNAL_STORAGE"});
 
     for(const QString &permission : permissions){
-        auto result = QtAndroid::checkPermission(permission);
-        if(result == QtAndroid::PermissionResult::Denied){
-            auto resultHash = QtAndroid::requestPermissionsSync(QStringList({permission}));
-            if(resultHash[permission] == QtAndroid::PermissionResult::Denied)
+        auto result = QtAndroidPrivate::checkPermission(permission);
+        if(result.takeResult() == QtAndroidPrivate::PermissionResult::Denied){
+            auto resultHash = QtAndroidPrivate::requestPermission(permission);
+            if(resultHash.takeResult() == QtAndroidPrivate::PermissionResult::Denied)
                 return false;
         }
     }
@@ -26,22 +29,22 @@ void AndroidNative::requestReadWrite()
 
 void AndroidNative::updateNotifications(std::string title, std::string message)
 {
-    QAndroidJniObject titleString = QAndroidJniObject::fromString(title.c_str());
-    QAndroidJniObject messageString = QAndroidJniObject::fromString(message.c_str());
-    QAndroidJniObject::callStaticMethod<void>(
+    QJniObject titleString = QJniObject::fromString(title.c_str());
+    QJniObject messageString = QJniObject::fromString(message.c_str());
+    QJniObject::callStaticMethod<void>(
         "org/dontpanic/SetNotificationAlarm",
         "updateAlarm",
-        "(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V",
-        QtAndroid::androidContext().object(),titleString.object<jstring>(), messageString.object<jstring>());
+        "(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V");
+        //QtAndroidPrivate::androidContext().object(),titleString.object<jstring>(), messageString.object<jstring>());
 }
 
 void AndroidNative::cancelNotifications()
 {
-    QAndroidJniObject::callStaticMethod<void>(
+    QJniObject::callStaticMethod<void>(
         "org/dontpanic/SetNotificationAlarm",
         "cancelAlarm",
-        "(Landroid/content/Context;)V",
-        QtAndroid::androidContext().object());
+        "(Landroid/content/Context;)V");
+        //QtAndroidPrivate::androidContext().object());
 }
 
 

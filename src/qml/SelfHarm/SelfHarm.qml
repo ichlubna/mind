@@ -1,5 +1,5 @@
 import QtQuick
 
 SelfHarmForm {
-    property var selfHarmPlanQuestions : qsTrId("self-harm-plan-questions").split('|')
+    property var selfHarmPlanQuestions : qsTrId("self-harm-plan-questions").split('\n')
 }

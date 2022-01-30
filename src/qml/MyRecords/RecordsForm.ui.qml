@@ -64,8 +64,8 @@ MenuPage {
             Repeater {
                 id: records
                 Item {
-                    property var header: false
-                    property var position: 0
+                    property bool header: false
+                    property string date: ""
                     width: viewContainer.width
                     height: viewContainer.height*0.2
 
@@ -101,7 +101,7 @@ MenuPage {
                         anchors.fill: parent
                         Connections {
                             function onClicked() {
-                                stackView.push(afterDateFile, {"dataRecordIndex": position, "arrayNames" : arrayNames, "questionTexts" : questionTexts, "titleText" : titleText})
+                                stackView.push(afterDateFile, {"date": date, "arrayNames" : arrayNames, "questionTexts" : questionTexts, "titleText" : titleText})
                             }
                         }
                     }

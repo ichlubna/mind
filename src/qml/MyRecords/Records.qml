@@ -11,7 +11,6 @@ RecordsForm {
     property int selectedMonth : new Date().getMonth()+1
     property var arrayNames : []
     property var questionTexts: []
-    property var values: []
 
     UserDataProvider {
         id: dataProvider
@@ -42,8 +41,8 @@ RecordsForm {
         records.model = count;
         for (var i = 0; i < count; i++) {
             var listIndex = (count-1)-i;
-            records.itemAt(listIndex).position = i;
-            var recordValues = modelEntries[i].slice(0,25).split("|");;
+            var recordValues = modelEntries[i].slice(0,25).split("|");
+            records.itemAt(listIndex).date = recordValues[0];
             if(dateOnly)
             {
                 for(var j = 1; j < recordValues.length; j++)
@@ -57,8 +56,6 @@ RecordsForm {
 
     function fill() {
         dateText.text = selectedMonth + "/" + selectedYear;
-        var count = values.length;
-        records.model = count;
         var modelEntries = dataProvider.loadArrayInputMonth(arrayNames[0], selectedMonth, selectedYear);
         fillModel(modelEntries);
     }

@@ -7,7 +7,7 @@ PlanForm {
     }
 
     property var questions : []
-    property var arrayId : "suicidePlan"
+    property string arrayId : "suicidePlan"
     property var inputs : dataProvider.loadArrayInput(arrayId)
 
     itemList.onVisibleChanged: {
@@ -20,6 +20,7 @@ PlanForm {
     Connections {
         target: itemList
         Component.onCompleted: {
+            questions = questions.filter(function(value, index, arr){return value!==""})
             for(var i=0; i<questions.length; i++)
                 itemList.itemAt(i).children[1].text = inputs[i];
         }

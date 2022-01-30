@@ -70,7 +70,7 @@ DISTFILES += \
 
     #QT += androidextras
 contains(ANDROID_TARGET_ARCH,arm64-v8a) {
-    QT += androidextras
+    QT += core-private
     HEADERS += src/cpp/androidnative.h
     SOURCES += src/cpp/androidnative.cpp
     ANDROID_PACKAGE_SOURCE_DIR = \
@@ -78,7 +78,7 @@ contains(ANDROID_TARGET_ARCH,arm64-v8a) {
 }
 
 contains(ANDROID_TARGET_ARCH,armeabi-v7a) {
-    QT += androidextras
+    QT += core-private
     HEADERS += src/cpp/androidnative.h
     SOURCES += src/cpp/androidnative.cpp
     ANDROID_PACKAGE_SOURCE_DIR = \
@@ -101,4 +101,4 @@ ios: {
     LIBS += -framework UserNotifications
 }
 
-ANDROID_ABIS = armeabi-v7a arm64-v8a
+#ANDROID_ABIS = armeabi-v7a arm64-v8a

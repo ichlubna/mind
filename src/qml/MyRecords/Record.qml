@@ -2,16 +2,16 @@ import QtQuick
 import QtQuick.Controls
 
 RecordForm {
-    property var dataRecordIndex: -1
-    property var save: true
-    property var date: ""
-    property var arrayIndex: 0
+    property int dataRecordIndex: -1
+    property bool save: true
+    property string date: ""
+    property int arrayIndex: 0
     //if only one name is provided then all data are stored in this array along with date, otherwise first one is data array and rest for data
     property var arrayNames : []
     property var questionTexts: []
     property var dateRecord: []
-    property var delimiter: "$_^#_$"
-    property var titleText: ""
+    property string delimiter: "$_^#_$"
+    property string titleText: ""
 
 
     StackView.onDeactivating:{
