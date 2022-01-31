@@ -1,32 +1,77 @@
 <?xml version="1.0"?>
-<manifest package="org.dontpanic" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="2.0" android:versionCode="20000" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.dontpanic"
+    android:installLocation="auto"
+    android:versionCode="20000"
+    android:versionName="2.0">
     <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="31"/>
+    <!-- The comment below will be replaced with dependencies permissions upon deployment.
+             Remove the comment if you do not require these default permissions. -->
+    <!-- %%INSERT_PERMISSIONS -->
 
-    <!-- The following comment will be replaced upon deployment with default permissions based on the dependencies of the application.
-         Remove the comment if you do not require these default permissions. -->
+    <!-- The comment below will be replaced with dependencies permissions upon deployment.
+             Remove the comment if you do not require these default features. -->
+    <!-- %%INSERT_FEATURES -->
 
-
-    <!-- The following comment will be replaced upon deployment with default features based on the dependencies of the application.
-         Remove the comment if you do not require these default features. -->
-
-
-    <supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="true" android:extractNativeLibs="true"/>
-
-    <application android:hardwareAccelerated="true" android:name="org.qtproject.qt.android.bindings.QtApplication" android:label="@string/app_name" android:icon="@drawable/icon">
-        <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc" android:name="org.qtproject.qt.android.bindings.QtActivity" android:label="@string/app_name" android:screenOrientation="sensorPortrait" android:launchMode="singleTop">
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+    <application
+        android:name="org.qtproject.qt.android.bindings.QtApplication"
+        android:extractNativeLibs="true"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/icon"
+        android:requestLegacyExternalStorage="true">
+        <activity
+            android:name="org.qtproject.qt.android.bindings.QtActivity"
+            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-            <meta-data android:name="android.app.lib_name" android:value="-- %%INSERT_APP_LIB_NAME%% --"/>
-            <meta-data android:name="android.app.background_running" android:value="false"/>
+            <!-- Application arguments -->
+
+            <meta-data
+                android:name="android.app.arguments"
+                android:value="-- %%INSERT_APP_ARGUMENTS%% --" />
+            <!-- Application arguments -->
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="-- %%INSERT_APP_LIB_NAME%% --" />
+
+            <!-- Background running -->
+            <!-- Warning: changing this value to true may cause unexpected crashes if the
+                          application still try to draw after
+                          "applicationStateChanged(Qt::ApplicationSuspended)" signal is sent! -->
+            <meta-data
+                android:name="android.app.background_running"
+                android:value="false" />
+            <!-- Background running -->
+
+            <!-- extract android style -->
+            <!-- available android:values :
+                * default - In most cases this will be the same as "full", but it can also be
+                *           something else if needed, e.g., for compatibility reasons
+                * full - useful QWidget & Quick Controls 1 apps
+                * minimal - useful for Quick Controls 2 apps, it is much faster than "full"
+                * none - useful for apps that don't use any of the above Qt modules -->
+            <meta-data
+                android:name="android.app.extract_android_style"
+                android:value="minimal" />
+            <!-- extract android style -->
         </activity>
         <service android:name="org.dontpanic.NotificationService">
             <meta-data android:name="android.app.lib_name" android:value="-- %%INSERT_APP_LIB_NAME%% --"/>
         </service>
         <receiver android:name="org.dontpanic.NotificationReceiver" android:enabled="true" android:exported="true"/>
         <receiver android:name="org.dontpanic.RebootReceiver" android:enabled="true" android:exported="true">
-      <intent-filter>
+        <intent-filter>
             <action android:name="android.intent.action.BOOT"/>
             <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
             <action android:name="android.intent.action.BOOT_COMPLETED"/>
@@ -34,13 +79,11 @@
             <action android:name="android.intent.action.REBOOT"/>
             <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
             <action android:name="android.intent.action.USER_PRESENT"/>
-
             <category android:name="android.intent.category.DEFAULT"/>
         </intent-filter>
-</receiver>
-    </application>
-
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        </receiver>
+    </application>    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 </manifest>

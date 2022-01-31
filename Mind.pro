@@ -62,6 +62,9 @@ DISTFILES += \
     android/res/drawable-hdpi/icon.png \
     android/res/drawable-ldpi/icon.png \
     android/res/drawable-mdpi/icon.png \
+    android/res/drawable-xhdpi/icon.png \
+    android/res/drawable-xxhdpi/icon.png \
+    android/res/drawable-xxxhdpi/icon.png \
     android/src/org/dontpanic/NotificationReceiver.java \
     android/src/org/dontpanic/NotificationService.java \
     android/src/org/dontpanic/RebootReceiver.java \
