@@ -235,5 +235,10 @@
         <file>src/qml/Games/ObstaclesForm.ui.qml</file>
         <file>src/qml/Games/Thorns.qml</file>
         <file>src/qml/Games/ThornsForm.ui.qml</file>
+        <file>images/UK.svg</file>
+        <file>translation/UK.ts</file>
+        <file>translation/UK.qm</file>
+        <file>translation/extra/UK.ts</file>
+        <file>translation/extra/UK.qm</file>
     </qresource>
 </RCC>

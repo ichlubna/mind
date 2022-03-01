@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="563.28766"
+   height="563.28766"
+   id="Flag of Poland"
+   viewBox="0 0 7.0410957 7.0410957"
+   version="1.1"
+   sodipodi:docname="UK.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata864">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs862" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1440"
+     id="namedview860"
+     showgrid="false"
+     inkscape:snap-center="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.53778785"
+     inkscape:cx="724.26329"
+     inkscape:cy="76.238242"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Flag of Poland"
+     inkscape:pagecheckerboard="0" />
+  <path
+     style="fill:#005bbb;stroke-width:1;fill-opacity:1"
+     d="M 3.5205573,0.0680401 A 3.452497,3.452497 0 0 0 0.06804266,3.5205547 3.452497,3.452497 0 0 0 3.5205573,6.973045 3.452497,3.452497 0 0 0 6.9730475,3.5205547 3.452497,3.452497 0 0 0 3.5205573,0.0680401 Z"
+     id="rect855"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#ffd500;stroke-width:1;fill-opacity:1"
+     d="m 0.07050854,3.4713848 a 3.452497,3.452497 0 0 0 -0.0024659,0.04917 3.452497,3.452497 0 0 0 3.45251466,3.4524903 3.452497,3.452497 0 0 0 3.4524902,-3.4524903 3.452497,3.452497 0 0 0 -0.00173,-0.04917 z"
+     id="rect857"
+     inkscape:connector-curvature="0" />
+  <circle
+     style="opacity:1;vector-effect:none;fill:#171717;fill-opacity:0;stroke:#ffffff;stroke-width:0.13610141;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95035466;paint-order:normal"
+     id="path896-7"
+     cx="3.5205476"
+     cy="3.5205476"
+     r="3.452497" />
+</svg>

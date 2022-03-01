@@ -30,8 +30,8 @@ HEADERS += \
 
 RESOURCES += qml.qrc
 
-TRANSLATIONS = translation/EN.ts translation/CS.ts translation/SK.ts translation/PL.ts translation/FR.ts translation/IT.ts translation/ES.ts translation/RU.ts translation/DE.ts
-TRANSLATIONS += translation/extra/EN.ts translation/extra/CS.ts translation/extra/SK.ts translation/extra/PL.ts translation/extra/FR.ts translation/extra/IT.ts translation/extra/ES.ts translation/extra/RU.ts translation/extra/DE.ts
+TRANSLATIONS = translation/EN.ts translation/CS.ts translation/SK.ts translation/PL.ts translation/FR.ts translation/IT.ts translation/ES.ts translation/RU.ts translation/DE.ts translation/UK.ts
+TRANSLATIONS += translation/extra/EN.ts translation/extra/CS.ts translation/extra/SK.ts translation/extra/PL.ts translation/extra/FR.ts translation/extra/IT.ts translation/extra/ES.ts translation/extra/RU.ts translation/extra/DE.ts translation/UK.ts
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -52,6 +52,10 @@ DISTFILES += \
     android/res/values-b+it/strings.xml \
     android/res/values-b+pl/strings.xml \
     android/res/values-b+sk/strings.xml \
+    android/res/values-b+cs/strings.xml \
+    android/res/values-b+ru/strings.xml \
+    android/res/values-b+de/strings.xml \
+    android/res/values-b+uk/strings.xml \
     android/res/values/libs.xml \
     android/build.gradle \
     android/gradle/wrapper/gradle-wrapper.properties \

@@ -175,19 +175,20 @@ Drawer {
             columns: 3
             width: drawer.width
             Repeater{
+                property string currentLanguage: dataProvider.loadLanguage()
                 id: languageList
                 model: 0
                 RoundButton {
-                    property var language: "EN"
+                    property string language: "EN"
                     background: Image {
                         source: "qrc:/images/"+language+".svg"
                     }
-                    onClicked: {stackView.pop(null); drawer.close(); dataProvider.setLanguage(language); translator.changeLanguage(language); dataProvider.translateInputs();}
+                    onClicked: {stackView.pop(null); drawer.close(); dataProvider.setLanguage(language); translator.changeLanguage(language); dataProvider.translateInputs(); languageList.currentLanguage = dataProvider.loadLanguage();}
                     Layout.maximumWidth: drawer.width*0.2
                     Layout.maximumHeight: drawer.width*0.2
                     Layout.topMargin: 20
                     Layout.margins: 10
-                    opacity: (dataProvider.loadLanguage() === language) ? 1.0 : 0.5
+                    opacity: (languageList.currentLanguage === language) ? 1.0 : 0.5
                 }
             }
         }

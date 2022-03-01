@@ -2,8 +2,8 @@ import QtQuick
 import QtQuick.Controls
 
 SwipePage {
-    property var listInputText: ""
-    property var withDescription: true
+    property string listInputText: ""
+    property bool withDescription: true
     property variant items: []
     SwipeView {
         anchors.fill: parent
@@ -25,8 +25,8 @@ SwipePage {
                     anchors.verticalCenter: parent.verticalCenter
                     width: parent.width * 0.1
                 }
-                property var topText:  (withDescription) ? items[index * 2].trim() : tems[index].trim()
-                property var bottomText: (withDescription) ? items[index * 2+1].trim() : ""
+                property string topText:  (withDescription) ? items[index * 2].trim() : items[index].trim()
+                property string bottomText: (withDescription) ? items[index * 2+1].trim() : ""
 
                 DescriptionLabel {
                     id: tip

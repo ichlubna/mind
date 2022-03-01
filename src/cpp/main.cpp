@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     TranslatorAdapter::connectToApp(&app, &engine, dataProvider.loadLanguage());
     dataProvider.initCheck();
 
-    NativeInterface *ni = new NativeInterface();
+    auto ni = std::make_unique<NativeInterface>();
     ni->updateNotifications(qtTrId("notification-title"), qtTrId("notification-msg"), dataProvider.loadBoolInput("notificationsOn"));
 
     engine.load(QUrl(QStringLiteral("qrc:/src/qml/main.qml")));

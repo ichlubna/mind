@@ -34,7 +34,7 @@ ApplicationWindow {
         ThemeInfo.backgroundLightness = dataProvider.loadInput("themeLight")
     }
 
-    onClosing: function() {
+    onClosing: function(close) {
         if (stackView.depth > 1) {
             close.accepted = false
             stackView.pop()

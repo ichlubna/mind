@@ -2,9 +2,9 @@
 
 #include <iostream>
 
-QList<QString> Translator::languages{"CS", "SK", "PL", "FR", "EN", "IT", "ES", "RU", "DE"};
+QList<QString> Translator::languages{"CS", "SK", "PL", "FR", "EN", "IT", "ES", "RU", "DE", "UK"};
 QList<QLocale::Language> Translator::languagesLocale{QLocale::Language::Czech, QLocale::Language::Slovak, QLocale::Language::Polish, QLocale::Language::French, QLocale::Language::English,
-                                                     QLocale::Language::Italian, QLocale::Language::Spanish, QLocale::Language::Russian, QLocale::Language::German};
+                                                     QLocale::Language::Italian, QLocale::Language::Spanish, QLocale::Language::Russian, QLocale::Language::German, QLocale::Language::Ukrainian};
 
 
 Translator *TranslatorAdapter::instance = nullptr;

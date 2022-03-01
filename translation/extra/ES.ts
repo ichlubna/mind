@@ -108,6 +108,13 @@
         &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
         </translation>
     </message>
+    <message id="online-therapy">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
     <message id="appName">
         <source></source>
         <translation type="unfinished">
@@ -130,6 +137,13 @@
         </translation>
     </message>
     <message id="send">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="send-dontpanic">
         <source></source>
         <translation type="unfinished">
         &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
@@ -200,6 +214,13 @@
         </translation>
     </message>
     <message id="depression-praise-header">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="sources">
         <source></source>
         <translation type="unfinished">
         &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
@@ -374,6 +395,13 @@
         &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
         </translation>
     </message>
+    <message id="view-data">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
     <message id="resetInputs">
         <source></source>
         <translation type="unfinished">
@@ -438,6 +466,48 @@
         </translation>
     </message>
     <message id="https://nadaceppf.cz/">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="https://www.nadacecez.cz/">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="https://reenio.com/">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="https://kores.com/">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="https://www.doller.cz">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="https://stabilo.com/">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="https://kofikofi.cz/">
         <source></source>
         <translation type="unfinished">
         &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
@@ -549,6 +619,20 @@
         &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
         </translation>
     </message>
+    <message id="games">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="numbers-exercise">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
     <message id="game-balls">
         <source></source>
         <translation type="unfinished">
@@ -557,6 +641,20 @@
         </translation>
     </message>
     <message id="game-balance">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="game-obstacles">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="game-thorns">
         <source></source>
         <translation type="unfinished">
         &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
@@ -1067,6 +1165,20 @@
         &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
         </translation>
     </message>
+    <message id="header">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="text">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
     <message id="really-remove">
         <source></source>
         <translation type="unfinished">
@@ -1362,6 +1474,62 @@
         </translation>
     </message>
     <message id="myContactsNames-example">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="copy">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="exercise-five">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="exercise-four">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="exercise-three">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="exercise-two">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="exercise-one">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="feel-better">
+        <source></source>
+        <translation type="unfinished">
+        &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
+        &lt;a href=&quot;tel:717003717&quot;&gt;717 003 717&lt;/a&gt; &lt;br&gt; &lt;br&gt;
+        </translation>
+    </message>
+    <message id="need-more-help">
         <source></source>
         <translation type="unfinished">
         &lt;b&gt;Teléfono de la Esperanza&lt;/b&gt; &lt;br&gt;
