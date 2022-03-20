@@ -56,9 +56,9 @@ void UserDataProvider::checkDefault(UserDataProvider::CustomInput input)
              originalValues = QList<QString>{
                      qtTrId("custom-write"),
                      qtTrId("custom-write-body"),
-                     qtTrId("custom-ppl"),
                      qtTrId("custom-do"),
-                     qtTrId("custom-go")
+                     qtTrId("custom-go"),
+                     qtTrId("custom-ppl")
              };
 
            if(values.empty() || originalValues.empty())
@@ -93,13 +93,14 @@ void UserDataProvider::translateDefault(CustomInput input)
             originalValues = QList<QString>{
                         qtTrId("custom-write"),
                         qtTrId("custom-write-body"),
-                        qtTrId("custom-ppl"),
                         qtTrId("custom-do"),
-                        qtTrId("custom-go")
+                        qtTrId("custom-go"),
+                        qtTrId("custom-ppl")
                 };
 
             if(values.empty() || originalValues.empty())
                 return;
+
             for (auto &value : values)
                 if(value.contains(TO_TRANSLATE))
                     value = originalValues[QStringView{value}.left(2).toInt()].trimmed();
@@ -344,8 +345,8 @@ int UserDataProvider::findOccurence(QString id, int month, int year) {
 
 std::pair<int, int> UserDataProvider::findRange(QString id, int month, int year, int initial)
 {
-    std::pair range{0,0};
-    if(initial<0) return range;
+     std::pair range{0,0};
+     if(initial<0) return range;
      int i = initial;
      int size = settings.beginReadArray(id);
 
@@ -400,9 +401,9 @@ void UserDataProvider::resetInputs(QList<bool> params)
         auto list = QList<QString>{
                 qtTrId("custom-write"),
                 qtTrId("custom-write-body"),
-                qtTrId("custom-ppl"),
                 qtTrId("custom-do"),
-                qtTrId("custom-go")
+                qtTrId("custom-go"),
+                qtTrId("custom-ppl")
         };
 
         saveArrayInput("suicidePlan", list);

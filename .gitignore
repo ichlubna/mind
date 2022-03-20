@@ -1,0 +1,6 @@
+android/android_release.keystore
+translation/*.qm
+translation/backup/*
+translation/extra/*.qm
+translation/compile
+*.user

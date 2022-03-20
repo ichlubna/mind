@@ -1,5 +1,5 @@
 #!/bin/bash
-QT_LOC=/home/hitokage/Qt/6.1.0/gcc_64/bin
+QT_LOC=/home/hitokage/Qt/6.2.3/gcc_64/bin
 
 $QT_LOC/lupdate ../Mind.pro
 

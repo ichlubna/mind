@@ -37,7 +37,11 @@ android {
     compileSdkVersion androidCompileSdkVersion.toInteger()
     buildToolsVersion androidBuildToolsVersion
     ndkVersion androidNdkVersion
-
+    signingConfigs {
+           dev {
+               v2SigningEnabled true
+           }
+        }
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'

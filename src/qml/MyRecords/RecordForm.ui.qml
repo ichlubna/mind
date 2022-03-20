@@ -32,13 +32,6 @@ SwipePage {
                 MenuTextArea {
                     Layout.fillWidth: true
                     visible: modelData.type === "text"
-                    placeholder: qsTrId("header")
-                }
-
-                MenuTextArea {
-                    Layout.fillWidth: true
-                    visible: modelData.type === "text"
-                    placeholder: qsTrId("text")
                 }
 
                 GridLayout{

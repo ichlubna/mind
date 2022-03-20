@@ -5,7 +5,7 @@ Menu{
     title: qsTrId("my-records")
     items: [{text: qsTrId("depression-mood"), file: "MyRecords/Mood.qml", pushProperties: {"arrayName" : "moods", "headerText" : qsTrId("mood-text"), "titleText" : qsTrId("depression-mood")}},
             {text: qsTrId("sleep-title"), file: "MyRecords/Mood.qml", pushProperties: {"arrayName" : "sleep", "headerText" : qsTrId("sleep-text"), "titleText" : qsTrId("sleep-title")}},
-            {text: qsTrId("diary"), file: "MyRecords/Records.qml", pushProperties: {"titleText" : qsTrId("diary"), "arrayNames" : ["diaryRecords"],  "questionTexts" : [{type: "text", question : ""}]}},
+            {text: qsTrId("diary"), file: "MyRecords/Records.qml", pushProperties: {"titleText" : qsTrId("diary"), "arrayNames" : ["diaryRecords"],  "questionTexts" : [{type: "text", question : qsTrId("header")}, {type: "text", question : qsTrId("text")}]}},
             {text: qsTrId("journal"), file: "MyRecords/Records.qml", pushProperties: {"titleText" : qsTrId("journal"), "arrayNames" : ["journalRecords"], "dateOnly" : true,
                 "questionTexts" : [
                     {type: "text", question : qsTrId("journal-grateful")},

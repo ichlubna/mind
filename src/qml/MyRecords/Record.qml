@@ -13,7 +13,6 @@ RecordForm {
     property string delimiter: "$_^#_$"
     property string titleText: ""
 
-
     StackView.onDeactivating:{
         if(save){
             var textAnswer = []
