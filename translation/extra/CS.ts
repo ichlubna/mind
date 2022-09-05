@@ -54,6 +54,7 @@
         &lt;p&gt;Centrum J. J. Pestalozziho, o.p.s. - Chrudim&lt;br /&gt;Štěpánkova, č.p. 107 a 108&lt;br /&gt;537 01 Chrudim&lt;br /&gt;&lt;a href=&quot;https://pestalozzi.cz/sluzby/krizove-centrum-chrudim/&quot;&gt;pestalozzi.cz/sluzby/krizove-centrum-chrudim&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Centrum J. J. Pestalozziho, o.p.s. - Svitavy&lt;br /&gt;Milady Horákové, č.p. 10&lt;br /&gt;568 02 Svitavy&lt;br /&gt;&lt;a href=&quot;https://pestalozzi.cz/sluzby/krizove-centrum-svitavy/&quot;&gt;pestalozzi.cz/sluzby/krizove-centrum-svitavy&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;Centrum J. J. Pestalozziho, o.p.s. - Žamberk&lt;br /&gt;Masarykovo náměstí, č.p. 86&lt;br /&gt;564 01 Žamberk&lt;br /&gt;&lt;a href=&quot;https://pestalozzi.cz/sluzby/krizove-centrum-zamberk/&quot;&gt;pestalozzi.cz/sluzby/krizove-centrum-zamberk&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Krizové centrum Pardubice&lt;br /&gt;Erno Košťála 1013&lt;br /&gt;530 12 Pardubice&lt;br /&gt;&lt;a href=&quot;https://www.skp-centrum.cz/nase-sluzby-a-projekty/krizove-centrum-pardubice&quot;&gt;skp-centrum.cz/nase-sluzby-a-projekty/krizove-centrum-pardubice&lt;/a&gt;&lt;/p&gt;
         |
         &lt;h2&gt;Kraj Vysočina&lt;/h2&gt;
         &lt;p&gt;Centrum J. J. Pestalozziho, o.p.s. - Jihlava&lt;br /&gt;Štefanikovo nám., č.p. 1972/2&lt;br /&gt;586 01 Jihlava&lt;br /&gt;&lt;a href=&quot;https://pestalozzi.cz/sluzby/krizove-centrum-jihlava/&quot;&gt;pestalozzi.cz/sluzby/krizove-centrum-jihlava&lt;/a&gt;&lt;/p&gt;
@@ -71,10 +72,10 @@
         <translation>
         &lt;a href=&quot;http://nepanikar.eu/chat/&quot;&gt;Poradna a chat Nepanikař&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.chat-pomoc.cz&quot;&gt;Chat Pražské linky důvěry&lt;/a&gt; &lt;br&gt;&lt;br&gt;
-        &lt;a href=&quot;http://www.elinka.iporadna.cz&quot;&gt;Internetové poradny&lt;/a&gt; &lt;br&gt;&lt;br&gt;
+        &lt;a href=&quot;https://iporadna.cz/elinka-chatova-poradna&quot;&gt;Internetové poradny&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.ipcko.sk&quot;&gt;IPčko (CZ i SK)&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://www.modralinka.cz/?page=chat&quot;&gt;Modrá linka&lt;/a&gt; &lt;br&gt;&lt;br&gt;
-        &lt;a href=&quot;http://chat.linkabezpeci.cz/LBCS-war/PUBLIC/clientlogin.jsp&quot;&gt;Linka bezpečí&lt;/a&gt; &lt;br&gt;&lt;br&gt;
+        &lt;a href=&quot;https://www.linkabezpeci.cz/sluzby/chatuj-s-nami/&quot;&gt;Linka bezpečí&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         &lt;a href=&quot;http://linkapsychickepomoci.cz/chat/&quot;&gt;Linka psychické pomoci&lt;/a&gt; &lt;br&gt;&lt;br&gt;
         </translation>
     </message>

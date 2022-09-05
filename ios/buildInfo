@@ -21,4 +21,6 @@
 </array>
 <key>NSCameraUsageDescription</key>
 <string>This app doesn't use camera. It uses QT Multimedia for accessing audio files.</string>
+<key>LSMinimumSystemVersion</key>
+<string>13.0.0</string>
 - LaunchScreen
