@@ -1,28 +1,35 @@
-    <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="de_DE">
 <context>
-<name></name>
-<message id="home">
-    <source></source>
-    <translation>Home</translation>
-</message>
-<message id="food">
-    <source></source>
-    <translation>Розлади харчування</translation>
-</message>
-<message id="food-breakfast">
-    <source></source>
-    <translation>Сніданок</translation>
-</message>
-<message id="food-am-snack">
-    <source></source>
-    <translation>Дообідній перекус</translation>
-</message>
+    <name></name>
+    <message id="home">
+        <source></source>
+        <translation>Home</translation>
+    </message>
+    <message id="food">
+        <source></source>
+        <translation>Розлади харчування</translation>
+    </message>
+    <message id="food-breakfast">
+        <source></source>
+        <translation>Сніданок</translation>
+    </message>
+    <message id="food-am-snack">
+        <source></source>
+        <translation>Дообідній перекус</translation>
+    </message>
     <message id="food-dishes-am-snack">
         <source></source>
-        <translation>Смузі із банана, чорниці та чіа насіння
-         Йогурт із суницями та печивом</translation>
+        <translation>
+        qrc:/images/anabell/amSnack.jpg
+        |
+        Смузі із банана, чорниці та чіа насіння
+        |
+        qrc:/images/anabell/amSnack2.jpg
+        |
+        Йогурт із суницями та печивом
+        </translation>
     </message>
     <message id="food-lunch">
         <source></source>
@@ -38,40 +45,75 @@
     </message>
     <message id="food-dishes-dinner">
         <source></source>
-        <translation>Лосось на грилі, овочі та картопля на парі
+        <translation>
+        qrc:/images/anabell/dinner.jpg
+        |
+        Лосось на грилі, овочі та картопля на парі
+        |
+        qrc:/images/anabell/dinner2.jpg
+        |
         Карбонара папарделе - вермішель
+        |
+        qrc:/images/anabell/dinner3.jpg
+        |
         Хумус з помідорами та цибулею-порей, житній хліб
+        |
+        qrc:/images/anabell/dinner4.jpg
+        |
         Запечені овочі зі шматочками пармезана, хліб
+        |
+        qrc:/images/anabell/dinner5.jpg
+        |
         Цільнозерновий багет з творожною намазкою, овочі
+        |
+        qrc:/images/anabell/lightDinner.jpg
+        |
         Хліб з намазкою та шинкою, овочі
+        |
+        qrc:/images/anabell/lightDinner2.jpg
+        |
         Салат капрезе з помідор та моцарелли, хрусткі хлібці
-        Яйце, сир, шинка, овочі, цільнозерновий хліб</translation>
+        |
+        qrc:/images/anabell/lightDinner3.jpg
+        |
+        Яйце, сир, шинка, овочі, цільнозерновий хліб
+        </translation>
     </message>
     <message id="food-tips">
-         <source></source>
-         <translation>Ради</translation>
-     </message>
-     <message id="food-tasks">
-         <source></source>
-         <translation>Завдання</translation>
-     </message>
-     <message id="distraction">
-         <source></source>
-         <translation>Відволікання уваги</translation>
-     </message>
-     <message id="relaxation">
-         <source></source>
-         <translation>Релаксація</translation>
-     </message>
-     <message id="food-dishes">
-         <source></source>
-         <translation>Зразки меню</translation>
-     </message>
+        <source></source>
+        <translation>Ради</translation>
+    </message>
+    <message id="food-tasks">
+        <source></source>
+        <translation>Завдання</translation>
+    </message>
+    <message id="distraction">
+        <source></source>
+        <translation>Відволікання уваги</translation>
+    </message>
+    <message id="relaxation">
+        <source></source>
+        <translation>Релаксація</translation>
+    </message>
+    <message id="food-dishes">
+        <source></source>
+        <translation>Зразки меню</translation>
+    </message>
     <message id="food-dishes-breakfast">
         <source></source>
-        <translation>Вівсяні пластівці обсмажені на вершковому маслі з яблуком, горіхами, медом та корицею, білий йогурт
+        <translation>
+        qrc:/images/anabell/breakfast.jpg
+        |
+        Вівсяні пластівці обсмажені на вершковому маслі з яблуком, горіхами, медом та корицею, білий йогурт
+        |
+        qrc:/images/anabell/breakfast2.jpg
+        |
         Домашні мюслі, свіжі фрукти, йогурт
-        Яєчня зі зеленою цибулею, багет, салат із помідорів</translation>
+        |
+        qrc:/images/anabell/breakfast3.jpg
+        |
+        Яєчня зі зеленою цибулею, багет, салат із помідорів
+        </translation>
     </message>
     <message id="depression">
         <source></source>
@@ -119,607 +161,614 @@
     </message>
     <message id="depression-tips">
         <source></source>
-        <translation>Займіться спортом.
-        Візміть велосипед і хвилин 30 покатайтеся
-        Не будьте самі.
-        Напишіть чи зателефонуйте батькам, партнерові, партнерці, другові, подрузі. Навідайтеся в гості
-        Медитуйте
-        Зручно сядьте, закрийте очі і декілька разів зробіть глибокий вдих, Потім дозвольте своїм думка вільно текти
-        Перестаньте курити та пити алкоголь
-        Приготуйте травяний або фруктовий чай
-        Поговоріть зі шкільним психологом
-        Домовтеся з ним як найскоріше
-        Послухайте музику
-        Створіть у вашому телефоні плейлист улюблених пісень та слухайте їх
-        Зустріньтеся з друзями
-        Напишіть або зателефонуйте другові та домовтеся про зустріч
-        Подивіться ваш улюблений фільм
-        Подивіться фільм, котрий ви любите, або слідкуйте за цікавинками в інтернеті
-        Напишіть вашим близьким
-        Напишіть людині, котрій ви довіряєте
-        Малюйте
-        Візьміть замальовку або роздрукуйте мандалу, та розмалюйте її
-        Зробіть декілька вправ
-        Біг, катання на велосипеді або довша прогулянка зможуть вам допомогти
-        Займіться релаксацією, розслабтеся
-        Спробуйте завантажити у ваш мобільний телефон різні методики релаксацій, включіть їх, лягніть на підлогу, розслабтеся, закрийте очі та релаксуйте
-        Зіграйте на музичному інструменті
-        Зіграйте улюблену композицію улюбленого автора
-        Прочитайте щось
-        Прочитайте щось цікаве, знайдіть якусь цікаву книгу, журнал або статтю в інтернеті
-        Обійміть близьку людину
-        або обійміть вашу домашню тварину/translation>
+        <translation>
+Займіться спортом.|Візміть велосипед і хвилин 30 покатайтеся|
+Не будьте самі.|Напишіть чи зателефонуйте батькам, партнерові, партнерці, другові, подрузі. Навідайтеся в гості|
+Медитуйте|Зручно сядьте, закрийте очі і декілька разів зробіть глибокий вдих, Потім дозвольте своїм думка вільно текти|
+Перестаньте курити та пити алкоголь|Приготуйте травяний або фруктовий чай|
+Поговоріть зі шкільним психологом|Домовтеся з ним як найскоріше|
+Послухайте музику|Створіть у вашому телефоні плейлист улюблених пісень та слухайте їх|
+Зустріньтеся з друзями|Напишіть або зателефонуйте другові та домовтеся про зустріч|
+Подивіться ваш улюблений фільм|Подивіться фільм, котрий ви любите, або слідкуйте за цікавинками в інтернеті|
+Напишіть вашим близьким|Напишіть людині, котрій ви довіряєте|
+Малюйте|Візьміть замальовку або роздрукуйте мандалу, та розмалюйте її|
+Зробіть декілька вправ|Біг, катання на велосипеді або довша прогулянка зможуть вам допомогти|
+Займіться релаксацією, розслабтеся|Спробуйте завантажити у ваш мобільний телефон різні методики релаксацій, включіть їх, лягніть на підлогу, розслабтеся, закрийте очі та релаксуйте|
+Зіграйте на музичному інструменті|Зіграйте улюблену композицію улюбленого автора|
+Прочитайте щось|Прочитайте щось цікаве, знайдіть якусь цікаву книгу, журнал або статтю в інтернеті|
+Обійміть близьку людину|або обійміть вашу домашню тварину
+</translation>
     </message>
     <message id="anxiety-panic">
-         <source></source>
-         <translation>Тривога-паніка</translation>
-     </message>
-     <message id="self-harm">
-         <source></source>
-         <translation>Я хочу собі нашкодити.</translation>
-     </message>
-     <message id="suicidal-thoughts">
-         <source></source>
-         <translation>Думки про самогубство</translation>
-     </message>
-     <message id="my-records">
-         <source></source>
-         <translation>Мої записи</translation>
-     </message>
-     <message id="panicTips">
-         <source></source>
-         <translation>Що робити при тривозі</translation>
-     </message>
-     <message id="game-balls">
-         <source></source>
-         <translation>Гра м&apos;ячики</translation>
-     </message>
-     <message id="game-balance">
-         <source></source>
-         <translation>Гра гойдалка</translation>
-     </message>
-     <message id="breathe-info">
-         <source></source>
-         <translation>Сядьте та обіпріться об щось тверде</translation>
-     </message>
-     <message id="breathe-in">
-         <source></source>
-         <translation>Вдих</translation>
-     </message>
-     <message id="breathe-out">
-         <source></source>
-         <translation>Видих</translation>
-     </message>
-     <message id="breathe-slider">
-         <source></source>
-         <translation>Швидкість дихання</translation>
-     </message>
-     <message id="breathe-hold">
-         <source></source>
-         <translation>Затримайте дихання</translation>
-     </message>
-     <message id="math">
-         <source></source>
-         <translation>Рахуйте</translation>
-     </message>
-     <message id="submit">
-         <source></source>
-         <translation>Підтвердити</translation>
-     </message>
-     <message id="appName">
-         <source></source>
-         <translation>Не панікуйте</translation>
-     </message>
-     <message id="resetInputs">
-         <source></source>
-         <translation>Очистити збережені дані</translation>
-     </message>
-     <message id="contactUs">
-         <source></source>
-         <translation>Контактуйте нас</translation>
-     </message>
-     <message id="rate">
-         <source></source>
-         <translation>Дайте нам оцінку</translation>
-     </message>
-     <message id="support-us">
-         <source></source>
-         <translation>Підтримати нас =</translation>
-     </message>
-     <message id="exit">
-         <source></source>
-         <translation>Вийти</translation>
-     </message>
-     <message id="support">
-         <source></source>
-         <translation>Підтримати нас</translation>
-     </message>
-     <message id="center">
-         <source></source>
-         <translation>Кризові центри</translation>
-     </message>
-     <message id="chat">
-         <source></source>
-         <translation>Чат</translation>
-     </message>
-     <message id="contacts">
-         <source></source>
-         <translation>Контакти для допомоги</translation>
-     </message>
-     <message id="phone">
-         <source></source>
-         <translation>Телефон</translation>
-     </message>
-     <message id="universities">
-         <source></source>
-         <translation>Університетські консультаційні центри</translation>
-     </message>
-     <message id="my-contacts">
-         <source></source>
-         <translation>Мої контакти</translation>
-     </message>
-     <message id="contacts-message">
-         <source></source>
-         <translation>Кризові повідомлення</translation>
-     </message>
-     <message id="self-harm-tips">
-         <source></source>
-         <translation>Що мені може допомогти</translation>
-     </message>
-     <message id="self-harm-helped-header">
-         <source></source>
-         <translation>Список, до котрого можете записувати речі, котрі вам допомагали впоратися з бажанням заподіяти собі шкоди в минулому.</translation>
-     </message>
-     <message id="plan">
-         <source></source>
-         <translation>Рятувальний план</translation>
-     </message>
-     <message id="feeling-bad-write">
-         <source></source>
-         <translation>Якщо мені буде погано, напишу:</translation>
-     </message>
-     <message id="feeling-bad-write-body">
-         <source></source>
-         <translation>Що напишу:</translation>
-     </message>
-     <message id="feeling-bad-do">
-         <source></source>
-         <translation>Якщо мені буде погано, спробую зробити:</translation>
-     </message>
-     <message id="feeling-bad-go">
-         <source></source>
-         <translation>Якщо мені буде погано, піду:</translation>
-     </message>
-     <message id="people-to-write">
-         <source></source>
-         <translation>Кому це може нашкодити:</translation>
-     </message>
-     <message id="reasons">
-         <source></source>
-         <translation>Причина, чому ні</translation>
-     </message>
-     <message id="reasons-text">
-         <source></source>
-         <translation>Якщо я буду жити, я ще зможу:</translation>
-     </message>
+        <source></source>
+        <translation>Тривога-паніка</translation>
+    </message>
+    <message id="self-harm">
+        <source></source>
+        <translation>Я хочу собі нашкодити.</translation>
+    </message>
+    <message id="suicidal-thoughts">
+        <source></source>
+        <translation>Думки про самогубство</translation>
+    </message>
+    <message id="my-records">
+        <source></source>
+        <translation>Мої записи</translation>
+    </message>
+    <message id="panicTips">
+        <source></source>
+        <translation>Що робити при тривозі</translation>
+    </message>
+    <message id="game-balls">
+        <source></source>
+        <translation>Гра м&apos;ячики</translation>
+    </message>
+    <message id="game-balance">
+        <source></source>
+        <translation>Гра гойдалка</translation>
+    </message>
+    <message id="breathe-info">
+        <source></source>
+        <translation>Сядьте та обіпріться об щось тверде</translation>
+    </message>
+    <message id="breathe-in">
+        <source></source>
+        <translation>Вдих</translation>
+    </message>
+    <message id="breathe-out">
+        <source></source>
+        <translation>Видих</translation>
+    </message>
+    <message id="breathe-slider">
+        <source></source>
+        <translation>Швидкість дихання</translation>
+    </message>
+    <message id="breathe-hold">
+        <source></source>
+        <translation>Затримайте дихання</translation>
+    </message>
+    <message id="math">
+        <source></source>
+        <translation>Рахуйте</translation>
+    </message>
+    <message id="submit">
+        <source></source>
+        <translation>Підтвердити</translation>
+    </message>
+    <message id="appName">
+        <source></source>
+        <translation>Не панікуйте</translation>
+    </message>
+    <message id="resetInputs">
+        <source></source>
+        <translation>Очистити збережені дані</translation>
+    </message>
+    <message id="contactUs">
+        <source></source>
+        <translation>Контактуйте нас</translation>
+    </message>
+    <message id="rate">
+        <source></source>
+        <translation>Дайте нам оцінку</translation>
+    </message>
+    <message id="support-us">
+        <source></source>
+        <translation>Підтримати нас =</translation>
+    </message>
+    <message id="exit">
+        <source></source>
+        <translation>Вийти</translation>
+    </message>
+    <message id="support">
+        <source></source>
+        <translation>Підтримати нас</translation>
+    </message>
+    <message id="center">
+        <source></source>
+        <translation>Кризові центри</translation>
+    </message>
+    <message id="chat">
+        <source></source>
+        <translation>Чат</translation>
+    </message>
+    <message id="contacts">
+        <source></source>
+        <translation>Контакти для допомоги</translation>
+    </message>
+    <message id="phone">
+        <source></source>
+        <translation>Телефон</translation>
+    </message>
+    <message id="universities">
+        <source></source>
+        <translation>Університетські консультаційні центри</translation>
+    </message>
+    <message id="my-contacts">
+        <source></source>
+        <translation>Мої контакти</translation>
+    </message>
+    <message id="contacts-message">
+        <source></source>
+        <translation>Кризові повідомлення</translation>
+    </message>
+    <message id="self-harm-tips">
+        <source></source>
+        <translation>Що мені може допомогти</translation>
+    </message>
+    <message id="self-harm-helped-header">
+        <source></source>
+        <translation>Список, до котрого можете записувати речі, котрі вам допомагали впоратися з бажанням заподіяти собі шкоди в минулому.</translation>
+    </message>
+    <message id="plan">
+        <source></source>
+        <translation>Рятувальний план</translation>
+    </message>
+    <message id="feeling-bad-write">
+        <source></source>
+        <translation>Якщо мені буде погано, напишу:</translation>
+    </message>
+    <message id="feeling-bad-write-body">
+        <source></source>
+        <translation>Що напишу:</translation>
+    </message>
+    <message id="feeling-bad-do">
+        <source></source>
+        <translation>Якщо мені буде погано, спробую зробити:</translation>
+    </message>
+    <message id="feeling-bad-go">
+        <source></source>
+        <translation>Якщо мені буде погано, піду:</translation>
+    </message>
+    <message id="people-to-write">
+        <source></source>
+        <translation>Кому це може нашкодити:</translation>
+    </message>
+    <message id="reasons">
+        <source></source>
+        <translation>Причина, чому ні</translation>
+    </message>
+    <message id="reasons-text">
+        <source></source>
+        <translation>Якщо я буду жити, я ще зможу:</translation>
+    </message>
     <message id="reasons-example">
         <source></source>
-        <translation>Обійматися з домашнім улюбленцем (собакою, кошенятком, морською свинкою)
-Співати під гітару біля багаття
-Вивчитися на кого хочу
-Знайти собі патрнера
-Мати дітей
+        <translation>Обійматися з домашнім улюбленцем (собакою, кошенятком, морською свинкою)|
+Співати під гітару біля багаття|
+Вивчитися на кого хочу|
+Знайти собі партнера|
+Мати дітей|
 Допомагати іншим</translation>
     </message>
     <message id="custom-write">
-         <source></source>
-         <translation>Кому написати...</translation>
-     </message>
-     <message id="custom-write-body">
-         <source></source>
-         <translation>Привіт, мені зараз важко, ми можемо поговорити?</translation>
-     </message>
-     <message id="custom-ppl">
-         <source></source>
-         <translation>Люди, які піклуються про мене</translation>
-     </message>
-     <message id="custom-do">
-         <source></source>
-         <translation>Що зроблю...</translation>
-     </message>
-     <message id="custom-go">
-         <source></source>
-         <translation>Куди піду..</translation>
-     </message>
-     <message id="plan-example">
-         <source></source>
-         <translation>Зроблю покупки в магазині</translation>
-     </message>
-     <message id="nice-example">
-         <source></source>
-         <translation>Була гарна погода...</translation>
-     </message>
-     <message id="praise-example">
-         <source></source>
-         <translation>Я впорався/лася, я спробую ще раз</translation>
-     </message>
-     <message id="food-afraid-text">
-         <source></source>
-         <translation>
-         </translation>
+        <source></source>
+        <translation>Кому написати...</translation>
+    </message>
+    <message id="custom-write-body">
+        <source></source>
+        <translation>Привіт, мені зараз важко, ми можемо поговорити?</translation>
+    </message>
+    <message id="custom-ppl">
+        <source></source>
+        <translation>Люди, які піклуються про мене</translation>
+    </message>
+    <message id="custom-do">
+        <source></source>
+        <translation>Що зроблю...</translation>
+    </message>
+    <message id="custom-go">
+        <source></source>
+        <translation>Куди піду..</translation>
+    </message>
+    <message id="plan-example">
+        <source></source>
+        <translation>Зроблю покупки в магазині</translation>
+    </message>
+    <message id="nice-example">
+        <source></source>
+        <translation>Була гарна погода...</translation>
+    </message>
+    <message id="praise-example">
+        <source></source>
+        <translation>Я впорався/лася, я спробую ще раз</translation>
+    </message>
+    <message id="food-afraid-text">
+        <source></source>
+        <translation>
+        </translation>
     </message>
     <message id="food-challenge-text">
         <source></source>
-        <translation>Я вмію бути і хочу бути до себе добрий/а
-        Сьогодні я віддаюся великому оптимізму, позитивним думкам та вірі, що колись усе зміниться на краще
-        Від сьогодні я буду відверто показувати свої почуття, емоції та думки
-        Кожну годину буду себе за щось хвалити
-        Сьогодні я напишу двадцять цілей, котрих прагну досягнути в житті
-        Я зосереджуся на інших видах діяльності, крім їжі, почну шукати те, що допомогло б мені знайти сенс життя
-        Я перестану себе сварити, не буду сам/а себе принижувати
-        Скажу всім, хто допомагає мені побороти мої проблеми, велике дякую
-        Я усвідомлю, що для мого тіла є здорово та корисно
-        Я відкрито покажу, що я про когось піклуюся і що він для мене важливий
-        Якщо я не маю професійну допомогу, то сьогодні її знайду
-        Сьогодні я відпочиваю, бо знаю, що мені це корисно
-        Усвідомлю собі до чого прагну та що мені бракує
-        Подякую своїм батькам за те, що вони мене виховали, щоб я міг/могла бути впевненим/ною у собі і з чистою совістю міг/могла сказати, що я чесна і порядна людина
-        Усвідомлю собі, що маю на приміті людей, до котрих можу прийти за допомогою та підтримкою
-        Початок сьогоднішнього дня відсвяткую особистим девізом. Яким він буде?
-        Сьогодні я не буду боятися їсти. Який смаколик з&apos;їм?
-        Сьогодні я розповім про свої переживання. Кому?
-        Сьогодні я пробачу кожному, на кого маю образу. Пробачу і сам/а собі
-        Від сьогодні почну говорити про свої почуття та про те, що мені заважає, що мене турбує
-        Від тепер я не буду боятися зізнатися в тому, що я змучений/а або, що мені нікуди не хочеться
-        Я навчуся казати НІ
-        Я почну вести свій щоденник, до котрого буду нотувати думки та успіхи свого лікування
-        Я не потерплю негативних та критичних зауважень інших щодо ваги будь-якої іншої особи
-        Напишу собі чого я в житті досягнув/досягла
-        Скільки пальців на руці - стільки я маю друзів, які зможуть мене підтримати</translation>
+        <translation>
+Я вмію бути і хочу бути до себе добрий/а|
+Сьогодні я віддаюся великому оптимізму, позитивним думкам та вірі, що колись усе зміниться на краще|
+Від сьогодні я буду відверто показувати свої почуття, емоції та думки|
+Кожну годину буду себе за щось хвалити|
+Сьогодні я напишу двадцять цілей, котрих прагну досягнути в житті|
+Я зосереджуся на інших видах діяльності, крім їжі, почну шукати те, що допомогло б мені знайти сенс життя|
+Я перестану себе сварити, не буду сам/а себе принижувати|
+Скажу всім, хто допомагає мені побороти мої проблеми, велике дякую|
+Я усвідомлю, що для мого тіла є здорово та корисно|
+Я відкрито покажу, що я про когось піклуюся і що він для мене важливий|
+Якщо я не маю професійну допомогу, то сьогодні її знайду|
+Сьогодні я відпочиваю, бо знаю, що мені це корисно|
+Усвідомлю собі до чого прагну та що мені бракує|
+Подякую своїм батькам за те, що вони мене виховали, щоб я міг/могла бути впевненим/ною у собі і з чистою совістю міг/могла сказати, що я чесна і порядна людина|
+Усвідомлю собі, що маю на приміті людей, до котрих можу прийти за допомогою та підтримкою|
+Початок сьогоднішнього дня відсвяткую особистим девізом. Яким він буде?|
+Сьогодні я не буду боятися їсти. Який смаколик з&apos;їм?|
+Сьогодні я розповім про свої переживання. Кому?|
+Сьогодні я пробачу кожному, на кого маю образу. Пробачу і сам/а собі|
+Від сьогодні почну говорити про свої почуття та про те, що мені заважає, що мене турбує|
+Від тепер я не буду боятися зізнатися в тому, що я змучений/а або, що мені нікуди не хочеться|
+Я навчуся казати НІ|
+Я почну вести свій щоденник, до котрого буду нотувати думки та успіхи свого лікування|
+Я не потерплю негативних та критичних зауважень інших щодо ваги будь-якої іншої особи|
+Напишу собі чого я в житті досягнув/досягла|
+Скільки пальців на руці - стільки я маю друзів, які зможуть мене підтримати
+</translation>
     </message>
     <message id="food-creative-text">
         <source></source>
-        <translation>Намалюй, як ти уявляєш анорексію, потім розірви малюнок
-        Напишіть листа своїй анорексії, в котрому подякуйте їй за урок і попрощайтеся з нею
-        Запишіть причини, чому ви хочете вийти з цього, і що заважає вам це зробити
-        Створюйте папки та сортуйте всі папери, блокноти та журнали, які є на вашому столі
-        Вчиніть нову зачіску
-        Перевір свою гнучкість за допомогою декількох легких гімнастичних вправ
-        Коли небудь задумувався/лася про татуювання? Якщо так, то вперед! Сходи в найближчий магазин або аптеку, купи хну на шкіру і спробуй вибрати місце для татуювання
-        Спробуй створити щось своїми руками, що б пригадало святкові та щасливі дні (свята / Різдво / відпустку). Роздрукуй фотографії, купи блискітки для декору і наклейки, а потім просто дай волю своїй фантазії!
-        Як щодо вивчення чи вдосконалення іноземної мови? В Інтернеті є багато слів та фраз, які ти точно не знаєш
-        Мріяв/ла коли-небудь спробувати грати на фортепіано, гітарі, флейті чи на якомусь іншому музичному інструменті? Чому б ні? Знайди вчителя або спробуй навчитися самотужки! Купи гітару і повільно пробуй перші акорди
-        Навчись складати простеньке орігамі з паперу своїми руками а інтернеті є безліч відео-уроків орігамі для початківців
-        Напиши коротку розповідь про те, що прекрасного ти пережив/ла у своєму житті і хотів/ла б пережити ще раз
-        Зробіть кілька нових прикрас кімнати</translation>
+        <translation>
+        Намалюй, як ти уявляєш анорексію, потім розірви малюнок|
+        Напишіть листа своїй анорексії, в котрому подякуйте їй за урок і попрощайтеся з нею|
+        Запишіть причини, чому ви хочете вийти з цього, і що заважає вам це зробити|
+        Створюйте папки та сортуйте всі папери, блокноти та журнали, які є на вашому столі|
+        Вчиніть нову зачіску|
+        Перевір свою гнучкість за допомогою декількох легких гімнастичних вправ|
+        Коли небудь задумувався/лася про татуювання? Якщо так, то вперед! Сходи в найближчий магазин або аптеку, купи хну на шкіру і спробуй вибрати місце для татуювання|
+        Спробуй створити щось своїми руками, що б пригадало святкові та щасливі дні (свята / Різдво / відпустку). Роздрукуй фотографії, купи блискітки для декору і наклейки, а потім просто дай волю своїй фантазії!|
+        Як щодо вивчення чи вдосконалення іноземної мови? В Інтернеті є багато слів та фраз, які ти точно не знаєш|
+        Мріяв/ла коли-небудь спробувати грати на фортепіано, гітарі, флейті чи на якомусь іншому музичному інструменті? Чому б ні? Знайди вчителя або спробуй навчитися самотужки! Купи гітару і повільно пробуй перші акорди|
+        Навчись складати простеньке орігамі з паперу своїми руками а інтернеті є безліч відео-уроків орігамі для початківців|
+        Напиши коротку розповідь про те, що прекрасного ти пережив/ла у своєму житті і хотів/ла б пережити ще раз|
+        Зробіть кілька нових прикрас кімнати
+        </translation>
     </message>
     <message id="food-food-like-text">
-         <source></source>
-         <translation> </translation>
-     </message>
-     <message id="food-like-text">
-         <source></source>
-         <translation> </translation>
-     </message>
-     <message id="food-motivation-text">
-         <source></source>
-         <translation> </translation>
-     </message>
-     <message id="myContactsNames-example">
-         <source></source>
-         <translation>Ім&apos;я</translation>
-     </message>
-     <message id="myContactsNumbers-example">
-         <source></source>
-         <translation>Номер або електронна пошта</translation>
-     </message>
-     <message id="message-text">
-         <source></source>
-         <translation>Tекст повідомлення</translation>
-     </message>
+        <source></source>
+        <translation> </translation>
+    </message>
+    <message id="food-like-text">
+        <source></source>
+        <translation> </translation>
+    </message>
+    <message id="food-motivation-text">
+        <source></source>
+        <translation> </translation>
+    </message>
+    <message id="myContactsNames-example">
+        <source></source>
+        <translation>Ім&apos;я</translation>
+    </message>
+    <message id="myContactsNumbers-example">
+        <source></source>
+        <translation>Номер або електронна пошта</translation>
+    </message>
+    <message id="message-text">
+        <source></source>
+        <translation>Tекст повідомлення</translation>
+    </message>
     <message id="selfHarm-tips">
         <source></source>
         <translation>Візьміть кубик льоду
-        проведіть ним по тому місці, де ви хочете нашкодити собі
-        Напишіть другу
-        Запитайте у нього, як його справи.
-        Візьміть червоний фломайстер і розфарбуйте руки
-
-        Вдаряйте в подушку
-
-        Напишіть на папері, як себе почуваєте, а потім його розірвіть
-
-        Зімніть папір
-
-        Кричіть
-
-        Зробіть зарядку
-        Проїдьтеся на велосипеді або йдіть пробігтися
-        Йдіть на прогулянку
-        Знайдіть свій улюблений маршрут, улюблене місце та йдіть на прогулянку.
-        Поприбирайте
-        Витріть пилюку у себе в кімнаті, підметіть.
-        Малюйте
-        Візьміть книжку-розмальовку або роздрукуйте мандалу та розфарбуйте її.
-        Намалюйте те, що ви хочете зробити
-
-        Спробуй заснути
-
-        Розслабтеся
-        Завантажте цілеспрямовану релаксацію на свій мобільний телефон, включіть її, лягніть, розслабтеся, закрийте очі та релаксуйте.
-        Прийміть холодний душ
-
-        Стисніть кулаки
-
-        Напишіть близькій людині
-        Напишіть про свій стан людині, котрій вірите.
-        Йдіть між люди
-        Пройдіться до центру і купіть щось приємне.</translation>
+проведіть ним по тому місці, де ви хочете нашкодити собі||
+Напишіть другу|Запитайте у нього, як його справи.|
+Візьміть червоний фломайстер і розфарбуйте руки||
+Вдаряйте в подушку||
+Напишіть на папері, як себе почуваєте, а потім його розірвіть||
+Зімніть папір||
+Кричіть||
+Зробіть зарядку|Проїдьтеся на велосипеді або йдіть пробігтися|
+Йдіть на прогулянку|Знайдіть свій улюблений маршрут, улюблене місце та йдіть на прогулянку.|
+Поприбирайте|Витріть пилюку у себе в кімнаті, підметіть.|
+Малюйте|Візьміть книжку-розмальовку або роздрукуйте мандалу та розфарбуйте її.|
+Намалюйте те, що ви хочете зробити||
+Спробуй заснути||
+Розслабтеся|Завантажте цілеспрямовану релаксацію на свій мобільний телефон, включіть її, лягніть, розслабтеся, закрийте очі та релаксуйте.|
+Прийміть холодний душ||
+Стисніть кулаки||
+Напишіть близькій людині|Напишіть про свій стан людині, котрій вірите.|
+Йдіть між люди|Пройдіться до центру і купіть щось приємне.
+</translation>
     </message>
     <message id="panic-tips">
         <source></source>
-        <translation>Дихайте відповідно до вправ в нашому додатку
-
-Рахуйте від 100 до 0
-
-Візьміть папір в руку і сильно його зімніть
-
-Обійміть близьку людину
-
-Затримайте дихання
-
-З'їжте шоколадку
-
-Поприбирайте
-Витріть пилюку у себе в кімнаті, підметіть.
-Подивіться улюблений фільм
-
-Пограйтеся з домашнім улюбленцем
-
-Малюйте
-Візьміть аркуш паперу та олівець і спробуйте намалювати свої емоції та почуття.
-Слухайте музику
-Створіть плейлист улюблених пісень на своєму мобільному телефоні та слухайте їх.
-Йдіть на свіже повітря
-Здійснюйте півгодинну прогулянку, біжіть у швидкому темпі.</translation>
+        <translation>
+Дихайте відповідно до вправ в нашому додатку||
+Рахуйте від 100 до 0||
+Візьміть папір в руку і сильно його зімніть||
+Обійміть близьку людину||
+Затримайте дихання||
+З&apos;їжте шоколадку||
+Поприбирайте|Витріть пилюку у себе в кімнаті, підметіть.|
+Подивіться улюблений фільм||
+Пограйтеся з домашнім улюбленцем||
+Малюйте|Візьміть аркуш паперу та олівець і спробуйте намалювати свої емоції та почуття.|
+Слухайте музику|Створіть плейлист улюблених пісень на своєму мобільному телефоні та слухайте їх.|
+Йдіть на свіже повітря|Здійснюйте півгодинну прогулянку, біжіть у швидкому темпі.
+</translation>
     </message>
     <message id="depression-plan-header">
-          <source></source>
-          <translation>Тут я напишу, що планую зробити:</translation>
-      </message>
-      <message id="contact-us-text">
-          <source></source>
-          <translation>Якщо у вас є претензії або запитання щодо цього додатку, зв’яжіться з нами за адресою &lt;a href=&quot;mailto:nepanikar.info@gmail.com&quot;&gt;nepanikar.info@gmail.com&lt;/a&gt;    </translation>
-      </message>
-      <message id="aboutApp">
-          <source></source>
-          <translation>Про додаток</translation>
-      </message>
-      <message id="aboutApp-text">
-          <source></source>
-          <translation>Цей додаток служить допоміжним засобом для надання першої допомоги при психічних проблемах, таких як депресія або паніка. Метою додатку є не заміна медичної допомоги, а лише полегшення симптомів.
-  При погіршенні стану необхідно звернутися за професійною допомогою. Якщо додаток вам не допомагає або ви не впевнені в його значенні для вашого стану, проконсультуйтеся з лікарем щодо його застосування.</translation>
-      </message>
-      <message id="custom-theme">
-          <source></source>
-          <translation>Налаштування кольору</translation>
-      </message>
-      <message id="theme-slider">
-          <source></source>
-          <translation>Тут ви можете встановити власний колір фону</translation>
-      </message>
-      <message id="theme-slider-light">
-          <source></source>
-          <translation>Тут налаштуйте яскравість</translation>
-      </message>
-      <message id="mood-text">
-          <source></source>
-          <translation>Як у мене сьогодні справи:</translation>
-      </message>
-      <message id="mood-no-data">
-          <source></source>
-          <translation>Діаграма вимагає мінімально два збережені вибори</translation>
-      </message>
-      <message id="mood-help">
-          <source></source>
-          <translation>Ваш настрій довгий час поганий, чи не хочете ви подумати про звернення за професійною допомогою?</translation>
-      </message>
-      <message id="mood-help-yes">
-          <source></source>
-          <translation>Так</translation>
-      </message>
-      <message id="mood-help-no">
-          <source></source>
-          <translation>Ні</translation>
-      </message>
-      <message id="game">
-          <source></source>
-          <translation>Гра</translation>
-      </message>
-      <message id="game-instructions">
-          <source></source>
-          <translation>Вдарте яскраво-білу кулю, доторкнувшись до неї. Чорна і сіра лишень для відволікання.</translation>
-      </message>
-      <message id="food-contact">
-          <source></source>
-          <translation>Контакти допомоги</translation>
-      </message>
-      <message id="food-remorse">
-          <source></source>
-          <translation>Докори сумління після їжі</translation>
-      </message>
-      <message id="food-overeat">
-          <source></source>
-          <translation>Атаки переїдання</translation>
-      </message>
-      <message id="food-vomit">
-          <source></source>
-          <translation>Постійне спонукання тренуватися/викликати блювоту</translation>
-      </message>
-      <message id="food-fail">
-          <source></source>
-          <translation>Я зазнаю невдачі</translation>
-      </message>
-      <message id="food-misc">
-          <source></source>
-          <translation>В загальному</translation>
-      </message>
+        <source></source>
+        <translation>Тут я напишу, що планую зробити:</translation>
+    </message>
+    <message id="contact-us-text">
+        <source></source>
+        <translation>Якщо у вас є претензії або запитання щодо цього додатку, зв’яжіться з нами за адресою &lt;a href=&quot;mailto:nepanikar.info@gmail.com&quot;&gt;nepanikar.info@gmail.com&lt;/a&gt;    </translation>
+    </message>
+    <message id="aboutApp">
+        <source></source>
+        <translation>Про додаток</translation>
+    </message>
+    <message id="aboutApp-text">
+        <source></source>
+        <translation>Цей додаток служить допоміжним засобом для надання першої допомоги при психічних проблемах, таких як депресія або паніка. Метою додатку є не заміна медичної допомоги, а лише полегшення симптомів. 
+При погіршенні стану необхідно звернутися за професійною допомогою. Якщо додаток вам не допомагає або ви не впевнені в його значенні для вашого стану, проконсультуйтеся з лікарем щодо його застосування.</translation>
+    </message>
+    <message id="custom-theme">
+        <source></source>
+        <translation>Налаштування кольору</translation>
+    </message>
+    <message id="theme-slider">
+        <source></source>
+        <translation>Тут ви можете встановити власний колір фону</translation>
+    </message>
+    <message id="theme-slider-light">
+        <source></source>
+        <translation>Тут налаштуйте яскравість</translation>
+    </message>
+    <message id="mood-text">
+        <source></source>
+        <translation>Як у мене сьогодні справи:</translation>
+    </message>
+    <message id="mood-no-data">
+        <source></source>
+        <translation>Діаграма вимагає мінімально два збережені вибори</translation>
+    </message>
+    <message id="mood-help">
+        <source></source>
+        <translation>Ваш настрій довгий час поганий, чи не хочете ви подумати про звернення за професійною допомогою?</translation>
+    </message>
+    <message id="mood-help-yes">
+        <source></source>
+        <translation>Так</translation>
+    </message>
+    <message id="mood-help-no">
+        <source></source>
+        <translation>Ні</translation>
+    </message>
+    <message id="game">
+        <source></source>
+        <translation>Гра</translation>
+    </message>
+    <message id="game-instructions">
+        <source></source>
+        <translation>Вдарте яскраво-білу кулю, доторкнувшись до неї. Чорна і сіра лишень для відволікання.</translation>
+    </message>
+    <message id="food-contact">
+        <source></source>
+        <translation>Контакти допомоги</translation>
+    </message>
+    <message id="food-remorse">
+        <source></source>
+        <translation>Докори сумління після їжі</translation>
+    </message>
+    <message id="food-overeat">
+        <source></source>
+        <translation>Атаки переїдання</translation>
+    </message>
+    <message id="food-vomit">
+        <source></source>
+        <translation>Постійне спонукання тренуватися/викликати блювоту</translation>
+    </message>
+    <message id="food-fail">
+        <source></source>
+        <translation>Я зазнаю невдачі</translation>
+    </message>
+    <message id="food-misc">
+        <source></source>
+        <translation>В загальному</translation>
+    </message>
     <message id="food-tips-text">
         <source></source>
-        <translation>Глибоко дихай
-        Відволікайся під час підрахунку / гри в додатку
-        Думай про мотивацію, чому хочеш вилікуватися
-        Поплач
-        Зателефонуй людині, котра тебе розуміє та підтримує
-        Йди за близькою людиною
-        Обійми маму / тата / друга / домашню тваринку
-        Слухай музику
-        Читай книгу
-        Подивись улюблений фільм
-        Розфарбуй мандалу веселими фарбами
-        Запиши причини, чому ти хочеш вилікуватися</translation>
+        <translation>
+Глибоко дихай||
+Відволікайся під час підрахунку / гри в додатку||
+Думай про мотивацію, чому хочеш вилікуватися||
+Поплач||
+Зателефонуй людині, котра тебе розуміє та підтримує||
+Йди за близькою людиною||
+Обійми маму / тата / друга / домашню тваринку||
+Слухай музику||
+Читай книгу||
+Подивись улюблений фільм||
+Розфарбуй мандалу веселими фарбами||
+Запиши причини, чому ти хочеш вилікуватися|
+</translation>
     </message>
     <message id="food-fail-text">
         <source></source>
-        <translation>Не картай себе
-        Поговори зі своїми близькими про свої думки, про те, що тебе турбує
-        Усвідом, що це процес і кожна перешкода, яку ти здолав, робить тебе сильнішим
-        Запиши свої досягнення, котрими ти справді пишаєшся
-        Усвідом, що ти вже зробив(ла)/ встиг(ла)</translation>
+        <translation>
+Не картай себе||
+Поговори зі своїми близькими про свої думки, про те, що тебе турбує||
+Усвідом, що це процес і кожна перешкода, яку ти здолав, робить тебе сильнішим||
+Запиши свої досягнення, котрими ти справді пишаєшся||
+Усвідом, що ти вже зробив(ла)/ встиг(ла)|
+</translation>
     </message>
     <message id="food-misc-text">
         <source></source>
-        <translation>Оточи себе людьми, котрі у разі потреби будуть поруч
-        Тримай в запасі контакт на психолога, психіатра та дієтолога, психотерапевта
-        Не відмовляйся від захоплень, які тобі подобаються
-        Практикуй цілеспрямовану релаксацію раз в день
-        Регулярно займайся спортом (але будьте обережні, бо забагато всього шкодить)
-        Намагайся достатньо спати
-        Веди щоденник
-        Знайди когось, з ким можна поговорити
-        Не дивись в дзеркало
-        Не ставай на терези
-        Їж з тим, хто тебе підтримує
-        Намагайся їсти регулярно
-        Думай про питний режим</translation>
+        <translation>
+Оточи себе людьми, котрі у разі потреби будуть поруч||
+Тримай в запасі контакт на психолога, психіатра та дієтолога, психотерапевта||
+Не відмовляйся від захоплень, які тобі подобаються||
+Практикуй цілеспрямовану релаксацію раз в день||
+Регулярно займайся спортом (але будьте обережні, бо забагато всього шкодить)||
+Намагайся достатньо спати||
+Веди щоденник||
+Знайди когось, з ким можна поговорити||
+Не дивись в дзеркало||
+Не ставай на терези||
+Їж з тим, хто тебе підтримує||
+Намагайся їсти регулярно||
+Думай про питний режим|</translation>
     </message>
     <message id="food-vomit-text">
         <source></source>
-        <translation>Подумай про причини, чому ти хочеш бути здорова(им)
-        Іди між люди
-        Зателефонуй близькій людині
-        Напиши другу/подружці
-        Глибоко дихай
-        Відволікайся під час підрахунку / гри в додатку
-        Візьми аркуш паперу та олівець і запиши всі свої відчуття</translation>
+        <translation>
+Подумай про причини, чому ти хочеш бути здорова(им)||
+Іди між люди||
+Зателефонуй близькій людині||
+Напиши другу/подружці||
+Глибоко дихай||
+Відволікайся під час підрахунку / гри в додатку||
+Візьми аркуш паперу та олівець і запиши всі свої відчуття|
+</translation>
     </message>
     <message id="food-overeat-text">
         <source></source>
-        <translation>Усвідом свої почуття та прийми те, що тебе чекає попереду
-        Не зосереджуйся тільки на їжі, спробуй розслабитись грою/математичними вправами в додатку
-        Йди на прогулянку
-        Зроби манікюр
-        Пожуй жуйку
-        Іди між люди – не будь самотнім
-        Зателефонуй близькій людині
-        Візьми аркуш паперу та олівець і запиши всі свої відчуття</translation>
+        <translation>
+Усвідом свої почуття та прийми те, що тебе чекає попереду||
+Не зосереджуйся тільки на їжі, спробуй розслабитись грою/математичними вправами в додатку||
+Йди на прогулянку||
+Зроби манікюр||
+Пожуй жуйку||
+Іди між люди – не будь самотнім||
+Зателефонуй близькій людині||
+Візьми аркуш паперу та олівець і запиши всі свої відчуття|
+</translation>
     </message>
     <message id="food-figure-text">
         <source></source>
-        <translation>Завжди собі можу дозволити з'їсти більше, це є нормально
-        Їжа приносить мені насолоду
-        Нічого, якщо я не з'їм всю їжу і щось залишу на тарілці
-        Їжа не вартує того, аби постійно про неї думати
-        Вправи та легкі фізичні навантаження наповнюють мене енергією
-        Моя вартість не визначається цифрою на терезах
-        Я харчуюся регулярно і збалансовано
-        Бути голодним - це нормально, але їсти - необхідно
-        У світі є набагато важливіші, прекрасніші та цінніші речі, ніж постійні думки про їжу
-        Людина прекрасна така, яка вона є. Не важливо, що важить вона на 4 кг більше або менше
-        Я не здаюся без боротьби. Вірю у власні сили
-        Я не очікую, що це пройде само собою
-        Я не зрівнюю себе з другими
-        Усі ми люди і робимо помилки. Важливо лише зробити висновки та не повторювати їх.
-        Я розумію, що раніше надавав занадто велике значення своїй зовнішності і тому, як я виглядаю в очах інших.
-        Я розумію, що для того щоб жити, потрібна енергія.
-        Я розумію, що я маю проблеми з харчуванням, і що вирішити їх можу і повинен/повинна саме я.
-        Моє тіло потребує харчування та підтримку, в якій я не можу йому відмовляти.
-        Я їм різноманітну їжу. Я не боюся фруктів, овочів, м'яса чи випічки.
-        Я знаю, що впораюся, але не боюся звернутися за допомогою, якщо мені важко.
-        Я буду ділитися своїми успіхами та невдачами на шляху до одужання з тим, кому я довіряю.
-        У мене є друзі, на яких я можу покластися.
-        Я не купую журнали, які підтримують та заохочують схуднення.
-        Я хвалю себе навіть за малі досягнення.
-        Ніхто не досконалий, але я прекрасний/прекрасна і без дієт і переживань щодо того, як я виглядаю.
-        Я не їм ночами тому що знаю, що в цей час я найбільш вразливий/а
-        Я не потребую досконалого тіла. Тільки я вирішую, як повинен/нна виглядати. Моя душа досконала.
-        Я задоволений/задоволена відносинами, які мене оточують і які створені мною.
-        Не все можна пояснити логічно.
-        Я знаю, кому можна зателефонувати, коли мені погано.
-        Постійно посміхатися неприродньо.
-        Коли щось не виходить, я маю право дратуватися.
-        Попросити про допомогу абсолютно нормально.
-        Я не один/одна у своїй боротьбі.</translation>
+        <translation>
+Завжди собі можу дозволити з&apos;їсти більше, це є нормально||
+Їжа приносить мені насолоду||
+Нічого, якщо я не з&apos;їм всю їжу і щось залишу на тарілці ||
+Їжа не вартує того, аби постійно про неї думати||
+Вправи та легкі фізичні навантаження наповнюють мене енергією||
+Моя вартість не визначається цифрою на терезах ||
+Я харчуюся регулярно і збалансовано||
+Бути голодним - це нормально, але їсти - необхідно||
+У світі є набагато важливіші, прекрасніші та цінніші речі, ніж постійні думки про їжу||
+Людина прекрасна така, яка вона є. Не важливо, що важить вона на 4 кг більше або менше||
+Я не здаюся без боротьби. Вірю у власні сили||
+Я не очікую, що це пройде само собою||
+Я не зрівнюю себе з другими||
+Усі ми люди і робимо помилки. Важливо лише зробити висновки та не повторювати їх.||
+Я розумію, що раніше надавав занадто велике значення своїй зовнішності і тому, як я виглядаю в очах інших.||
+Я розумію, що для того щоб жити, потрібна енергія.||
+Я розумію, що я маю проблеми з харчуванням, і що вирішити їх можу і повинен/повинна саме я.||
+Моє тіло потребує харчування та підтримку, в якій я не можу йому відмовляти.||
+Я їм різноманітну їжу. Я не боюся фруктів, овочів, м&apos;яса чи випічки.||
+Я знаю, що впораюся, але не боюся звернутися за допомогою, якщо мені важко.||
+Я буду ділитися своїми успіхами та невдачами на шляху до одужання з тим, кому я довіряю.||
+У мене є друзі, на яких я можу покластися.||
+Я не купую журнали, які підтримують та заохочують схуднення.||
+Я хвалю себе навіть за малі досягнення.||
+Ніхто не досконалий, але я прекрасний/прекрасна і без дієт і переживань щодо того, як я виглядаю.||
+Я не їм ночами тому що знаю, що в цей час я найбільш вразливий/а||
+Я не потребую досконалого тіла. Тільки я вирішую, як повинен/нна виглядати. Моя душа досконала.||
+Я задоволений/задоволена відносинами, які мене оточують і які створені мною.||
+Не все можна пояснити логічно.||
+Я знаю, кому можна зателефонувати, коли мені погано.||
+Постійно посміхатися неприродньо.||
+Коли щось не виходить, я маю право дратуватися.||
+Попросити про допомогу абсолютно нормально.||
+Я не один/одна у своїй боротьбі.|</translation>
     </message>
     <message id="food-figure">
-         <source></source>
-         <translation>Фігура</translation>
-     </message>
-     <message id="food-tasks-creative">
-         <source></source>
-         <translation>Творчі завдання</translation>
-     </message>
-     <message id="food-tasks-motivation">
-         <source></source>
-         <translation>Мотивація</translation>
-     </message>
-     <message id="food-motivation-header">
-         <source></source>
-         <translation>Список проблем, котрі я хочу подолати</translation>
-     </message>
-     <message id="food-tasks-challenge">
-         <source></source>
-         <translation>Завдання</translation>
-     </message>
-     <message id="food-tasks-like">
-         <source></source>
-         <translation>Що мені в собі подобається</translation>
-     </message>
-     <message id="food-like-header">
-         <source></source>
-         <translation>Тут я складу список речей, що мені в собі подобаються</translation>
-     </message>
-     <message id="food-tasks-food-like">
-         <source></source>
-         <translation>Їжа, котра мені смакує</translation>
-     </message>
-     <message id="food-food-like-header">
-         <source></source>
-         <translation>Тут я складу список їжі, котра найбільше мені смакує</translation>
-     </message>
-     <message id="food-tasks-afraid">
-         <source></source>
-         <translation>Страва, котрої я боюся</translation>
-     </message>
-     <message id="food-afraid-header">
-         <source></source>
-         <translation>Напишіть список «заборонених» продуктів та пробуйте щотижня одну страву і потім викреслюйте її зі списку.</translation>
-     </message>
+        <source></source>
+        <translation>Фігура</translation>
+    </message>
+    <message id="food-tasks-creative">
+        <source></source>
+        <translation>Творчі завдання</translation>
+    </message>
+    <message id="food-tasks-motivation">
+        <source></source>
+        <translation>Мотивація</translation>
+    </message>
+    <message id="food-motivation-header">
+        <source></source>
+        <translation>Список проблем, котрі я хочу подолати</translation>
+    </message>
+    <message id="food-tasks-challenge">
+        <source></source>
+        <translation>Завдання</translation>
+    </message>
+    <message id="food-tasks-like">
+        <source></source>
+        <translation>Що мені в собі подобається</translation>
+    </message>
+    <message id="food-like-header">
+        <source></source>
+        <translation>Тут я складу список речей, що мені в собі подобаються</translation>
+    </message>
+    <message id="food-tasks-food-like">
+        <source></source>
+        <translation>Їжа, котра мені смакує</translation>
+    </message>
+    <message id="food-food-like-header">
+        <source></source>
+        <translation>Тут я складу список їжі, котра найбільше мені смакує</translation>
+    </message>
+    <message id="food-tasks-afraid">
+        <source></source>
+        <translation>Страва, котрої я боюся</translation>
+    </message>
+    <message id="food-afraid-header">
+        <source></source>
+        <translation>Напишіть список «заборонених» продуктів та пробуйте щотижня одну страву і потім викреслюйте її зі списку.</translation>
+    </message>
     <message id="food-dishes-lunch">
         <source></source>
-        <translation>підсмажений шніцель з картопляним пюре та овочевим салатом з зеленою фасолею
+        <translation>
+        qrc:/images/anabell/lunch.jpg
+        |
+        підсмажений шніцель з картопляним пюре та овочевим салатом з зеленою фасолею
+        |
+        qrc:/images/anabell/lunch2.jpg
+        |
         паста з овочами, йогуртом та листям базиліка
+        |
+        qrc:/images/anabell/lunch3.jpg
+        |
         курка на грилі, кускус з овочами
+        |
+        qrc:/images/anabell/lunchSoup.jpg
+        |
         гарбузовий суп
+        |
+        qrc:/images/anabell/soup2.jpg
+        |
         курячий бульйон з овочами
-        суп мінестроні</translation>
+        |
+        qrc:/images/anabell/soup3.jpg
+        |
+        суп мінестроні
+        </translation>
     </message>
     <message id="food-dishes-pm-snack">
         <source></source>
-        <translation>фрукти з грецьким йогуртом, обсмажений гарбуз, насіння
+        <translation>
+        qrc:/images/anabell/pmSnack2.jpg
+        |
+        фрукти з грецьким йогуртом, обсмажений гарбуз, насіння
+        |
+        qrc:/images/anabell/pmSnack3.jpg
+        |
         темний тостовий хліб, сир, овочі
+        |
+        qrc:/images/anabell/pmDesert.jpg
+        |
         банан на грилі з олією та розмарином, йогурт
-        сир з медом та сушеними сливами</translation>
+        |
+        qrc:/images/anabell/pmDesert2.jpg
+        |
+        сир з медом та сушеними сливами
+        </translation>
     </message>
     <message id="depression-nice-header">
         <source></source>
@@ -731,11 +780,11 @@
     </message>
     <message id="depression-praise-header">
         <source></source>
-        <translation>Сюди я можу записати деякі зі своїх досягнень:</translation>
+        <translation>Сюди я можу записати деякі свої досягнення:</translation>
     </message>
     <message id="my-contacts-header">
         <source></source>
-        <translation>Тут я можу записати свої контакти, відправити листа, смс або зателефонувати.</translation>
+        <translation>Тут я можу записати потрібні контакти, відправити листа, смс або зателефонувати.</translation>
     </message>
     <message id="diary">
         <source></source>
@@ -763,7 +812,7 @@
     </message>
     <message id="import-export-text">
         <source></source>
-        <translation>Тут ви можете експортувати збережені дані до програми у файл або завантажити збережений файл. Імпорт файлу перезапише збережені дані!</translation>
+        <translation>Тут ви можете експортувати збережені дані до додатку у файл або завантажити збережений файл. Імпорт файлу перезапише збережені дані!</translation>
     </message>
     <message id="import-button">
         <source></source>
@@ -799,7 +848,7 @@
     </message>
     <message id="food-record-feel">
         <source></source>
-        <translation>Як ви відчували себе під час їжі?</translation>
+        <translation>Як ви почували себе під час їжі?</translation>
     </message>
     <message id="food-record-problems">
         <source></source>
@@ -811,7 +860,7 @@
     </message>
     <message id="food-problems-exercise">
         <source></source>
-        <translation>вправи</translation>
+        <translation>фізичні вправи</translation>
     </message>
     <message id="food-problems-self-harm">
         <source></source>
@@ -823,7 +872,7 @@
     </message>
     <message id="food-problems-anxiety-attack">
         <source></source>
-        <translation>напад тривоги</translation>
+        <translation>атака тривоги</translation>
     </message>
     <message id="food-problems-anxiety">
         <source></source>
@@ -835,7 +884,7 @@
     </message>
     <message id="sleep-text">
         <source></source>
-        <translation>Як добре я сьогодні спав?</translation>
+        <translation>Як добре я сьогодні спав/ла?</translation>
     </message>
     <message id="journal">
         <source></source>
@@ -847,7 +896,7 @@
     </message>
     <message id="journal-great">
         <source></source>
-        <translation>Що робить цей день великим?</translation>
+        <translation>Що робить цей день особливим?</translation>
     </message>
     <message id="journal-feel">
         <source></source>
@@ -859,7 +908,7 @@
     </message>
     <message id="journal-improve">
         <source></source>
-        <translation>Як можна покращити цей день?</translation>
+        <translation>Як можна покращити сьогоднішній день?</translation>
     </message>
     <message id="food-problems-happy">
         <source></source>
@@ -883,7 +932,7 @@
     </message>
     <message id="food-problems-unsatisfied">
         <source></source>
-        <translation>незадоволеність</translation>
+        <translation>незадоволення</translation>
     </message>
     <message id="food-problems-disgusted">
         <source></source>
@@ -891,7 +940,7 @@
     </message>
     <message id="food-problems-sad">
         <source></source>
-        <translation>печаль</translation>
+        <translation>смуток</translation>
     </message>
     <message id="food-problems-stress">
         <source></source>
@@ -903,7 +952,7 @@
     </message>
     <message id="food-records">
         <source></source>
-        <translation>Запис про їжу</translation>
+        <translation>Записи щодо харчування</translation>
     </message>
     <message id="sendRecords">
         <source></source>
@@ -923,10 +972,7 @@
     </message>
     <message id="self-harm-plan-questions">
         <source></source>
-        <translation>Чому хочу це зробити?
-Що я спробую перед цим?
-Для кого хочу це зробити?
-З ким мені зв&apos;язатись</translation>
+        <translation>Чому я хочу це зробити?|Що я спробую перед цим?|Для кого я хочу це зробити?|З ким мені зв&apos;язатись</translation>
     </message>
     <message id="start">
         <source></source>
@@ -958,11 +1004,11 @@
     </message>
     <message id="hours">
         <source></source>
-        <translation>Годинни</translation>
+        <translation>Години</translation>
     </message>
     <message id="minutes">
         <source></source>
-        <translation>Хвилин</translation>
+        <translation>Хвилини</translation>
     </message>
     <message id="notification-title">
         <source></source>
@@ -970,7 +1016,7 @@
     </message>
     <message id="notification-msg">
         <source></source>
-        <translation>Запишіть свій настрій чи їжу сьогодні?</translation>
+        <translation>Запишіть свій сьогоднішній настрій, сьогоднішнє харчування</translation>
     </message>
 </context>
 </TS>
