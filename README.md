@@ -1,6 +1,6 @@
 # This repository is not active anymore.
 The project was reimplemented and moved to:
-https://github.com/Nepanikar
+https://github.com/Nepanikar/nepanikar
 ___
 
 
